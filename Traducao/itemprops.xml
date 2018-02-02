@@ -57,7 +57,7 @@
         </table>
         <table name="itemprops">
             <column name="nID">7</column>
-            <column name="strPropertyName">purificador de água</column>
+            <column name="strPropertyName">purificador de agua</column>
         </table>
         <table name="itemprops">
             <column name="nID">8</column>
@@ -65,7 +65,7 @@
         </table>
         <table name="itemprops">
             <column name="nID">9</column>
-            <column name="strPropertyName">impermeável</column>
+            <column name="strPropertyName">impermeavel</column>
         </table>
         <table name="itemprops">
             <column name="nID">10</column>

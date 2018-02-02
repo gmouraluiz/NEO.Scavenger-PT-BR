@@ -33,7 +33,7 @@
         <!-- Table containertypes -->
         <table name="containertypes">
             <column name="id">1</column>
-            <column name="strName">impermeável</column>
+            <column name="strName">impermeavel</column>
         </table>
         <table name="containertypes">
             <column name="id">2</column>

@@ -47,7 +47,7 @@
         </table>
         <table name="ingredients">
             <column name="nID">3</column>
-            <column name="strName">combustível de fogo médio</column>
+            <column name="strName">combustivel de fogo medio</column>
             <column name="strRequiredProps">16&amp;46</column>
             <column name="strForbidProps">1</column>
         </table>

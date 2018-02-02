@@ -76,7 +76,7 @@
         <table name="conditions">
             <column name="id">2</column>
             <column name="strName">Morreu de fome</column>
-            <column name="strDesc">&lt;Nos&gt; starved to death.</column>
+            <column name="strDesc">&lt;us&gt; morreu de fome.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
@@ -1478,8 +1478,8 @@
         </table>
         <table name="conditions">
             <column name="id">63</column>
-            <column name="strName">Comfortable</column>
-            <column name="strDesc">&lt;us&gt; is comfortable.</column>
+            <column name="strName">Confortavel</column>
+            <column name="strDesc">&lt;us&gt; esta confortavel.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
@@ -2375,8 +2375,8 @@
         </table>
         <table name="conditions">
             <column name="id">102</column>
-            <column name="strName">Unburdened</column>
-            <column name="strDesc">&lt;us&gt; is unburdened by what they're carrying.</column>
+            <column name="strName">Carga</column>
+            <column name="strDesc">&lt;us&gt; esta aliviado com o que esta carregando.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
@@ -2398,8 +2398,8 @@
         </table>
         <table name="conditions">
             <column name="id">103</column>
-            <column name="strName">Well-rested</column>
-            <column name="strDesc">&lt;us&gt; is well-rested.</column>
+            <column name="strName">Descanso</column>
+            <column name="strDesc">&lt;us&gt; esta bem descansado.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers"></column>
             <column name="aEffects"></column>
@@ -2421,8 +2421,8 @@
         </table>
         <table name="conditions">
             <column name="id">104</column>
-            <column name="strName">Sated hunger</column>
-            <column name="strDesc">&lt;us&gt;'s hunger is sated.</column>
+            <column name="strName">Fome</column>
+            <column name="strDesc">&lt;us&gt;'s esta Saciado.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
@@ -2444,8 +2444,8 @@
         </table>
         <table name="conditions">
             <column name="id">105</column>
-            <column name="strName">Slaked thirst</column>
-            <column name="strDesc">&lt;us&gt;'s thirst is slaked.</column>
+            <column name="strName">Sede</column>
+            <column name="strDesc">&lt;us&gt;'s esta satisfeito.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
