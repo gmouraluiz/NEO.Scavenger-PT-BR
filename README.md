@@ -1,5 +1,7 @@
 # NEO.Scavenger-PT-BR
 
+Participe do GRUPO da STEAM http://steamcommunity.com/groups/NeoScavengerPTBR
+
 Tradução do Neo Scavenger em PT-BR
 
 Tutorial: 
