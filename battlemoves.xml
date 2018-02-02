@@ -1,0 +1,2716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Mar 01, 2016 at 10:11 PM
+- Server version: 5.5.48
+- PHP Version: 5.5.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="battlemoves">
+                CREATE TABLE `battlemoves` (
+                  `id` int(3) unsigned NOT NULL AUTO_INCREMENT,
+                  `strID` varchar(255) NOT NULL,
+                  `strName` varchar(255) NOT NULL,
+                  `strNotes` varchar(255) NOT NULL,
+                  `strSuccess` varchar(255) NOT NULL,
+                  `strFail` varchar(255) DEFAULT NULL,
+                  `strPopUp` longtext,
+                  `vChanceType` varchar(255) NOT NULL DEFAULT '0,0,0',
+                  `vUsConditions` varchar(255) DEFAULT NULL,
+                  `vThemConditions` varchar(255) DEFAULT NULL,
+                  `vPairConditions` varchar(255) DEFAULT NULL,
+                  `vUsFailConditions` varchar(255) DEFAULT NULL,
+                  `vThemFailConditions` varchar(255) DEFAULT NULL,
+                  `vPairFailConditions` varchar(255) DEFAULT NULL,
+                  `vUsPreConditions` varchar(255) DEFAULT NULL,
+                  `vThemPreConditions` varchar(255) DEFAULT NULL,
+                  `nSeeThem` int(1) DEFAULT '2',
+                  `nSeeUs` int(1) DEFAULT '2',
+                  `bAllOutOfRange` tinyint(1) DEFAULT '0',
+                  `bInAttackRange` tinyint(1) DEFAULT '0',
+                  `nMinCharges` int(4) DEFAULT '0',
+                  `nMinRange` int(4) DEFAULT '-1',
+                  `nMaxRange` int(4) DEFAULT '-1',
+                  `nAttackModeType` int(4) DEFAULT '-1',
+                  `vHexTypes` varchar(255) NOT NULL,
+                  `fChance` float DEFAULT '1',
+                  `fPriority` float DEFAULT '0',
+                  `fDetect` float DEFAULT '1',
+                  `fOrder` float DEFAULT '0.5',
+                  `fFatigue` float DEFAULT '0',
+                  `bApproach` tinyint(1) DEFAULT '0',
+                  `bOffense` tinyint(1) DEFAULT '0',
+                  `bFallBack` tinyint(1) DEFAULT '0',
+                  `bRetreat` tinyint(1) DEFAULT '0',
+                  `bPosition` tinyint(1) DEFAULT '0',
+                  `bPassive` tinyint(1) NOT NULL DEFAULT '0',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table battlemoves -->
+        <table name="battlemoves">
+            <column name="id">1</column>
+            <column name="strID">90.35</column>
+            <column name="strName">Fall Back Under Cover</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; falls back from &lt;them&gt; under cover.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Fall Back Under Cover
+Move 1 space away from target, maintaining cover.
+Must see target.
+Low chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[339,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[159,4,0.5]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">137,151,-143,-144,-148,-145,-146,-192,-367,-390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">2</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">2</column>
+            <column name="strID">90.33</column>
+            <column name="strName">Melee Attack</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; attacks &lt;them&gt;...and hits!</column>
+            <column name="strFail">&lt;us&gt; tries to attack &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Melee Attack
+Use current melee attack on target.
+Must see target.
+Low chance of making you vulnerable.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,1,1</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[140,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[147,0,0.2],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-158,-143,-144,-148,-145,-146,-390,-464</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">1</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">0</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">3</column>
+            <column name="strID">90.32</column>
+            <column name="strName">Take Cover</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; takes cover from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Take Cover
+Dive behind best cover terrain can provide.
+Must be at least 1 space away from all enemies.
+Low chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[137,0,0],[98,0,0],[339,0,0],[738,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-18,-137,151,-144,-145,-146,-367</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">3</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">0.5</column>
+            <column name="fOrder">0.25</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">4</column>
+            <column name="strID">90.22</column>
+            <column name="strName">Sneak Towards</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; sneaks towards &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Sneak Towards 
+Move 1 space closer to target while staying hidden.
+Must see target, and target must not see you yet.
+Low chance of tripping on terrain.
+Low chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[739,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0],[159,4,0.5]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-143,-144,-148,-145,-146,-190,-191,-367,-390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">0</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.8</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">2</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">5</column>
+            <column name="strID">90.38</column>
+            <column name="strName">Sneaky Retreat</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; sneaks out of battle from &lt;them&gt;.</column>
+            <column name="strFail">&lt;us&gt; tries to sneak out of battle from &lt;them&gt;...but can't get away!</column>
+            <column name="strPopUp">Sneaky Retreat 
+Try to sneak out of battle without being seen.
+Chance to move one space away from target if escape fails.
+Must see target, and target must not see you yet.
+Low chance of tripping on terrain.
+Low chance of being detected if hidden.</column>
+            <column name="vChanceType">0,7,0</column>
+            <column name="vUsConditions">[142,0,0],[98,0,0],[739,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[159,4,0.5]</column>
+            <column name="vUsFailConditions">[98,0,0],[739,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[139,7,0]</column>
+            <column name="vUsPreConditions">-143,-144,-148,-145,-146,-190,-191,-367,-390,-725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">0</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">6</column>
+            <column name="strID">90.31</column>
+            <column name="strName">Run!</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; runs from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Run! 
+Move 2-4 spaces away from target.
+Must see target.
+Removes cover.
+Makes you vulnerable.
+High chance of tripping on terrain.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[209,0,0],[209,7,0],[209,7,0],[159,4,2]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-66,-56,-55,-143,-144,-148,-145,-146,-190,-191,-367,-390,-464,-477</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">7</column>
+            <column name="strID">90.28</column>
+            <column name="strName">Advance</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; advances towards &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Advance 
+Move 1 space closer to target.
+Must see target.
+Removes cover.
+Chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[340,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0],[159,3,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-56,-143,-144,-148,-145,-146,-192,-390</column>
+            <column name="vThemPreConditions">-500</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">8</column>
+            <column name="strID">90.36</column>
+            <column name="strName">Advance Under Cover</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; advances towards &lt;them&gt; under cover.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Advance Under Cover 
+Move 1 space closer to target, maintaining cover.
+Must see target.
+Low chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0],[159,4,0.5],[497,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">137,151,-143,-144,-148,-145,-146,-192,-367,-390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">2</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">9</column>
+            <column name="strID">90.34</column>
+            <column name="strName">Search</column>
+            <column name="strNotes">non-drone</column>
+            <column name="strSuccess">&lt;us&gt; searches for &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Search 
+Scan area for hidden targets.
+Must not see target yet.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[141,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,-148,-158,-725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.55</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">10</column>
+            <column name="strID">90.30</column>
+            <column name="strName">Charge!</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; charges at &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Charge! 
+Move 2-3 spaces towards target.
+Must see target.
+Removes cover.
+Makes you vulnerable.
+High chance of tripping on terrain.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[340,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0],[138,0,0],[138,7,0],[159,4,2],[497,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-66,-56,-55,-143,-144,-148,-145,-146,-190,-191,-367,-390,-464,-477</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">2</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">11</column>
+            <column name="strID">90.44</column>
+            <column name="strName">Parry</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; parries &lt;them&gt;'s move.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Parry 
+Parry target's next attack, making you much harder to hit.
+Must be in melee range.
+Must see target.
+Chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[154,0,0],[155,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-188,-157,-158,-143,-144,-145,-146,-367,-390,-409,-464,-725,-858</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">3</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.65</column>
+            <column name="fPriority">0.8</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">12</column>
+            <column name="strID">90.45</column>
+            <column name="strName">Kick</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; kicks &lt;them&gt; while they're down!</column>
+            <column name="strFail">&lt;us&gt; tries to kick &lt;them&gt; while they're down...but misses!</column>
+            <column name="strPopUp">Kick 
+Kick target while they're down.
+Chance to injure target, plus keep them fallen and force them to lose 1 turn.
+Must be in melee range.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,1,2</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[75,0,0],[144,6,0.5],[152,0,0]</column>
+            <column name="vPairConditions">[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-143,-144,-145,-146,-148,151,-157,-158,-190,-191,-464</column>
+            <column name="vThemPreConditions">143,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">13</column>
+            <column name="strID">90.42</column>
+            <column name="strName">Roll Dodge</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; rolls from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Roll Dodge
+Roll from target, making you harder to hit.
+Chance to move 1 space away from target.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[152,0,0],[153,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,7,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-157,-158,-66,-56,143,-144,-145,-146,-188,-192,-367,-390,-409,-464,-477</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.75</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">14</column>
+            <column name="strID">90.46</column>
+            <column name="strName">Pull Down</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; pulls &lt;them&gt; down to the ground!</column>
+            <column name="strFail">&lt;us&gt; reaches for &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Pull Down 
+Reach for target and attempt to throw off their footing.
+Chance to injure target and knock them down.
+Must be in melee range.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,1,1</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[68,0,0],[152,0,0]</column>
+            <column name="vPairConditions">[491,0,0]</column>
+            <column name="vUsFailConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,143,-144,-148,-145,-146,-367,-390,-409,-858</column>
+            <column name="vThemPreConditions">-143,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.85</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">15</column>
+            <column name="strID">90.37</column>
+            <column name="strName">Desperate Retreat</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; desperately retreats from &lt;them&gt;.</column>
+            <column name="strFail">&lt;us&gt; desperately tries to retreat from &lt;them&gt;...but can't get away!</column>
+            <column name="strPopUp">Desperate Retreat 
+Move 1-2 spaces away from target and try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.
+Must not be in melee range from any enemy.
+Removes cover.
+Makes you vulnerable.
+High chance of tripping on terrain.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,7,0</column>
+            <column name="vUsConditions">[142,0,0],[155,0,0],[-137,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[209,0,0],[209,6,0.5],[159,4,2]</column>
+            <column name="vUsPreConditions">-56,-66,-143,-144,-148,-145,-146,-190,-191,-367,-464,-725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.75</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">16</column>
+            <column name="strID">90.27</column>
+            <column name="strName">Sneak Away</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; sneaks away from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Sneak Away
+Move 1 space away from target while hiding.
+Must see target, and target must not see you yet.
+Low chance of tripping on terrain.
+Low chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[739,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[159,4,0.5]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-143,-144,-148,-145,-146,-190,-191,-367,-390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">0</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.8</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">2</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">17</column>
+            <column name="strID">90.41</column>
+            <column name="strName">Ranged Attack</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; attacks &lt;them&gt;...and hits!</column>
+            <column name="strFail">&lt;us&gt; tries to attack &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Ranged Attack
+Use current ranged attack on target.
+Must see target.
+Low chance of making you vulnerable.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,2,1</column>
+            <column name="vUsConditions"></column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[140,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[147,0,0.2]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0],[423,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-158,-144,-148,-145,-146</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">1</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">18</column>
+            <column name="strID">90.40</column>
+            <column name="strName">Get Up</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; gets up.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Get Up
+Stand up from being prone.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-143,0,0],[155,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-158,143,-144,-145,-146,-192</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.25</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">19</column>
+            <column name="strID">90.49</column>
+            <column name="strName">Blind Attack</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; blindly lashes out...and hits!</column>
+            <column name="strFail">&lt;us&gt; blindly flails about...but misses!</column>
+            <column name="strPopUp">Blind Attack
+Try to melee attack an unseen target.
+Slim chance to hit target.
+Must be in melee range.</column>
+            <column name="vChanceType">0,1,0.1</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[140,0,0]</column>
+            <column name="vUsFailConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-143,-144,-148,-145,-146,-367</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">1</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">0</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.1</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">20</column>
+            <column name="strID">90.47</column>
+            <column name="strName">Melee Surge</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; launches a flurry of attacks at &lt;them&gt;...and hits!</column>
+            <column name="strFail">&lt;us&gt; tries to launch a flurry of attacks at &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Melee Surge
+Launch a flurry of melee attacks at target.
+Chance to hit target 1-3 times, and stun them for 1 turn.
+Automatically lose 1 turn.
+Must be in melee range.
+Must see target.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,1,0.5</column>
+            <column name="vUsConditions">[144,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[144,0,0],[147,0,0]</column>
+            <column name="vPairConditions">[140,0,0],[140,1,0.75],[140,1,0.75],[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[144,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0],[156,0,0],[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-143,-144,-148,-145,-146,-367,-390,-464,-858</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">2</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">0</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">10</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">21</column>
+            <column name="strID">90.10</column>
+            <column name="strName">Retreat</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; retreats from &lt;them&gt;.</column>
+            <column name="strFail">&lt;us&gt; tries to retreat from &lt;them&gt;...but can't get away!</column>
+            <column name="strPopUp">Retreat 
+Try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.
+Must be out of all enemies' ranges.
+Removes cover.</column>
+            <column name="vChanceType">0,7,0</column>
+            <column name="vUsConditions">[142,0,0],[-137,0,0],[155,0,0],[339,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions">[-137,0,0],[155,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-143,-144,-148,-145,-146,-192,-725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">1</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">2</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">22</column>
+            <column name="strID">90.39</column>
+            <column name="strName">Tackle Target</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; tackles &lt;them&gt;.</column>
+            <column name="strFail">&lt;us&gt; tries to tackle &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Tackle Target
+Dive at target, moving 1 space closer and trying to knock them down.
+Chance to knock down target and make them lose 1 turn.
+Automatically fall and lose cover.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,2,1</column>
+            <column name="vUsConditions">[152,0,0],[-137,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[152,0,0],[144,0,0]</column>
+            <column name="vPairConditions">[138,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[152,0,0],[-137,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[138,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-66,-56,-55,-143,-144,-148,-145,-146,-192,-367,-390,-409,-464,-725</column>
+            <column name="vThemPreConditions">-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">3</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">23</column>
+            <column name="strID">90.48</column>
+            <column name="strName">Blast Away</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; unloads on &lt;them&gt;, pinning them down!</column>
+            <column name="strFail">&lt;us&gt; unloads on &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Blast Away
+Launch a volley of ranged attacks at target.
+Chance to hit target 3 times, forcing them to take cover and suppressing them.
+Must see target.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,2,0.75</column>
+            <column name="vUsConditions"></column>
+            <column name="vThemConditions">[148,0,0],[137,0,0],[737,0,0]</column>
+            <column name="vPairConditions">[140,0,0],[140,0,0],[140,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0],[156,0,0],[156,0,0],[423,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-144,-148,-145,-146,-367</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">3</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">24</column>
+            <column name="strID">90.29</column>
+            <column name="strName">Fall Back</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; falls back from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Fall Back
+Move 1 space away from target.
+Must see target.
+Removes cover.
+Chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[339,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[159,3,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-56,-143,-144,-148,-145,-146,-192,-390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">25</column>
+            <column name="strID">90.51</column>
+            <column name="strName">Shoot Blindly</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; fires into the darkness...and hits!</column>
+            <column name="strFail">&lt;us&gt; fires into the darkness...but misses!</column>
+            <column name="strPopUp">Shoot Blindly
+Use current ranged attack against an unseen target.
+Slim chance to hit target.</column>
+            <column name="vChanceType">0,2,0.1</column>
+            <column name="vUsConditions">[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[140,0,0]</column>
+            <column name="vUsFailConditions">[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[156,0,0],[423,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-144,-148,-145,-146,-367</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">1</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.1</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">26</column>
+            <column name="strID">90.43</column>
+            <column name="strName">Dodge</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; dodges &lt;them&gt;'s move.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Dodge 
+Dodge the target's next attack, making you harder to hit.
+Chance to move 1 space away from target.
+Must see target.
+Chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[153,0,0],[155,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,7,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-157,-158,-66,-56,-143,-144,-145,-146,-190,-191,-367,-464</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.75</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">27</column>
+            <column name="strID">90.50</column>
+            <column name="strName">Blind Retreat</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; flees blindly.</column>
+            <column name="strFail">&lt;us&gt; flees blindly.</column>
+            <column name="strPopUp">Blind Retreat 
+Choose a random direction, and run!
+Removes cover.
+Makes you vulnerable.
+High chance of tripping on terrain.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,7,0</column>
+            <column name="vUsConditions">[142,0,0],[155,0,0],[-137,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[209,6,0.5],[209,6,0.5],[138,6,0.5],[138,6,0.5],[159,4,2]</column>
+            <column name="vUsPreConditions">-143,-144,-148,-145,-146,-192,-725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.3</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">28</column>
+            <column name="strID">90.52</column>
+            <column name="strName">Threaten</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; threatens &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Threaten
+Raise weapon and threaten to use it.
+Both you and target must see each other.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[208,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[491,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-188,-143,-144,-148,-145,-146,-367,-409,-464,-727</column>
+            <column name="vThemPreConditions">-18,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">29</column>
+            <column name="strID">90.53</column>
+            <column name="strName">Sprint Away!</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; sprints away from the fray!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Sprint Away!
+Move 3-5 spaces away from all visible targets.
+Must see target.
+Removes cover.
+Makes you vulnerable.
+High chance of tripping on terrain.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[209,0,0],[209,0,0],[209,7,0],[209,7,0],[159,4,2]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">52,-66,-56,-55,-143,-144,-148,-145,-146,-190,-191,-367,-390,-477</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">6</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">30</column>
+            <column name="strID">90.54</column>
+            <column name="strName">Lure</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; lures &lt;them&gt; into a trap!</column>
+            <column name="strFail">&lt;us&gt; tries to lure &lt;them&gt; into a trap...but fails!</column>
+            <column name="strPopUp">Lure
+Try to use the environment against target.
+Move 1 space away from target.
+Chance to knock down target and make them lose 1 turn.
+Chance to damage target.
+Both you and target must see each other.
+Makes you vulnerable.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[-137,0,0],[152,6,0.75],[144,6,0.75],[67,6,0.5],[68,6,0.5],[69,6,0.5],[75,6,0.5]</column>
+            <column name="vPairConditions">[209,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[209,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">207,151,-188,-157,-158,-66,-56,-55,-143,-144,-148,-145,-146,-192</column>
+            <column name="vThemPreConditions">-143,-144,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">4</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.15</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">31</column>
+            <column name="strID">90.55</column>
+            <column name="strName">Headbutt</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; head butts &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Headbutt
+Headbutt the target.
+Chance to injure target, knock them down, and force them to lose 1 turn.
+Must be in melee range.
+Target must not be fallen.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[75,6,0.5],[144,6,0.5],[152,6,0.5]</column>
+            <column name="vPairConditions">[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">72,151,-157,-158,-143,-144,-148,-145,-146,-192,-195</column>
+            <column name="vThemPreConditions">-143,-367,-725,-858</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">32</column>
+            <column name="strID">90.56</column>
+            <column name="strName">Leg Trip</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; trips &lt;them&gt;!</column>
+            <column name="strFail">&lt;us&gt; tries to trip &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Leg Trip
+Try to trip the target.
+Chance to knock down target.
+Must be in melee range.
+Must see target.
+Both you and target must not be fallen.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,1,2</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[144,0,0],[152,0,0]</column>
+            <column name="vPairConditions">[491,0,0]</column>
+            <column name="vUsFailConditions">[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0]</column>
+            <column name="vUsPreConditions">50,151,-157,-158,-143,-144,-148,-145,-146,-190,-191</column>
+            <column name="vThemPreConditions">-143,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">1</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">0</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">33</column>
+            <column name="strID">90.57</column>
+            <column name="strName">Create Obstacle</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; knocks some debris towards &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Create Obstacle
+Knocks some debris, a log, or other item towards target.
+Chance to make them lose 1 turn.
+Chance to knock them down.
+Chance to damage target.
+Must see target.
+Not always available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[143,6,0.5],[144,6,0.75],[67,6,0.5],[68,6,0.5]</column>
+            <column name="vPairConditions">[491,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">60,151,-188,-157,-158,-66,-56,-55,-143,-144,-148,-145,-146,-192</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">4</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">34</column>
+            <column name="strID">90.85</column>
+            <column name="strName">Leap at Target</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; leaps onto &lt;them&gt;!</column>
+            <column name="strFail">&lt;us&gt; tries to leap at &lt;them&gt;...but misses!</column>
+            <column name="strPopUp">Leap at Target
+Leap at target, moving 2 spaces closer and trying to knock them down.
+Chance to knock down target and make them lose 1 turn.
+Must see target.
+Automatically lose cover.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,2,1</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[152,0,0],[144,0,0]</column>
+            <column name="vPairConditions">[138,0,0],[138,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[-137,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[138,0,0],[138,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-157,-158,-66,-56,-55,-143,-144,-145,-146,-192,390</column>
+            <column name="vThemPreConditions">-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">5</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">35</column>
+            <column name="strID">90.86</column>
+            <column name="strName">Trample</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; tramples &lt;them&gt; while they're down!</column>
+            <column name="strFail">&lt;us&gt; tries to trample &lt;them&gt; while they're down...but misses!</column>
+            <column name="strPopUp">Trample 
+Trample the target while they're down.
+Injures target, plus keeps them fallen and forces them to lose 1 turn.
+Must be in melee range.
+Must see target.
+High chance of being detected if hidden.
+Not always available.</column>
+            <column name="vChanceType">0,1,2</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[75,0,0],[152,0,0]</column>
+            <column name="vPairConditions">[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-157,-158,-143,-144,-148,-145,-146,-190,-191,390</column>
+            <column name="vThemPreConditions">143,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">0</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.5</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">36</column>
+            <column name="strID">90.87</column>
+            <column name="strName">Call Melonhead</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; started wailing for help!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Call Melonhead
+Cry out to nearby melonheads for help.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[391,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,392,-804</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.05</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">37</column>
+            <column name="strID">90.88</column>
+            <column name="strName">Leap Away!</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; leaps away from &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Leap Away!
+Move 2-3 spaces away from target.
+Must see target.
+Removes cover.
+Makes you vulnerable.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0],[209,0,0],[139,7,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-66,-56,-55,-143,-144,-148,-145,-146,-190,-191,390</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">38</column>
+            <column name="strID">90.89</column>
+            <column name="strName">Check Body for Loot</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; checks &lt;them&gt;'s body for loot!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Check Body for Loot 
+Check an unconscious body for any useful items, emptying them onto the ground.
+Must be in melee range.
+Must see target.
+Same penalty as accessing inventory.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[158,0,0],[402,0,0],[738,0,0]</column>
+            <column name="vThemConditions">[401,0,0]</column>
+            <column name="vPairConditions">[497,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-144,-145,-146,-188</column>
+            <column name="vThemPreConditions">18,143,-367</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">1</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">0</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">0.5</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">39</column>
+            <column name="strID">90.94</column>
+            <column name="strName">Surrender to Target</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; offers their surrender to &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Surrender to Target
+
+**CAUTION**
+
+Drop all your items, and offer your surrender.
+Both you and target must see each other.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[400,0,0],[403,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-144,-145,-146,-367,412</column>
+            <column name="vThemPreConditions">-18,151</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.05</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">40</column>
+            <column name="strID">90.92</column>
+            <column name="strName">Demand Target's Surrender!</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; demands &lt;them&gt;'s surrender!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Demand Target's Surrender!
+Demand target to drop all items and walk away.
+Both you and target must see each other.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[404,0,0]</column>
+            <column name="vPairConditions">[497,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-188,-143,-144,-148,-145,-146,-367,-464,-727</column>
+            <column name="vThemPreConditions">151,-18,-403,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">41</column>
+            <column name="strID">90.91</column>
+            <column name="strName">Accept Target's Surrender</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; accepts &lt;them&gt;'s surrender!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Accept Target's Surrender
+Accept target's offer to surrender. Target drops all items and walks away.
+Both you and target must see each other.
+Target must have previously offered surrender.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[400,0,0],[-403,0,0],[142,0,0],[155,0,0],[339,0,0]</column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-145,-146,-367,-464,-727</column>
+            <column name="vThemPreConditions">151,403,-18,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">1</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">42</column>
+            <column name="strID">90.93</column>
+            <column name="strName">Agree to Surrender</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; agrees to surrender to &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Agree to Surrender
+
+**CAUTION**
+
+Accept target's demand for surrender. Drop all your items, and leave battle.
+Both you and target must see each other.
+Target must have previously demanded surrender.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[400,0,0],[-404,0,0],[142,0,0],[155,0,0],[339,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,404,-145,-146,-367,-464,-727</column>
+            <column name="vThemPreConditions">-18,151,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.1</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">43</column>
+            <column name="strID">90.90</column>
+            <column name="strName">Surrender to Target</column>
+            <column name="strNotes">AI version</column>
+            <column name="strSuccess">&lt;us&gt; offers their surrender to &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Surrender to Target
+Drop all your items, and offer your surrender.
+Both you and target must see each other.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[400,0,0],[403,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-144,-145,-146,-367,-412,-464,-727</column>
+            <column name="vThemPreConditions">-18,151,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.05</column>
+            <column name="fPriority">0.05</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">44</column>
+            <column name="strID">90.95</column>
+            <column name="strName">Steal Eyes</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; steals &lt;them&gt;'s eyes!</column>
+            <column name="strFail">&lt;us&gt; tries to steal &lt;them&gt;'s eyes... but misses!</column>
+            <column name="strPopUp">Steal Eyes
+Steal target's eyes.
+Must see target.
+Low chance of making you vulnerable.
+High chance of being detected if hidden.</column>
+            <column name="vChanceType">0,1,1</column>
+            <column name="vUsConditions">[155,0,0],[739,0,0]</column>
+            <column name="vThemConditions">[460,0,0],[469,0,0]</column>
+            <column name="vPairConditions">[470,0,0],[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions">[147,0,0.2],[155,0,0],[739,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions">[491,0,0],[491,0,0],[491,0,0]</column>
+            <column name="vUsPreConditions">-188,-158,-143,-144,-148,-145,-146,464</column>
+            <column name="vThemPreConditions">-460</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">3</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">0</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">1</column>
+            <column name="fDetect">0</column>
+            <column name="fOrder">0.85</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">1</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">45</column>
+            <column name="strID">90.102</column>
+            <column name="strName">Ditch Vehicle</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; ditches their vehicle!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Ditch Vehicle
+Abandon vehicle, freeing you to run. Makes you harder to hit this turn.
+Drops equipped vehicle onto the ground.
+Must be using a vehicle that can be quickly discarded.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[489,0,0],[153,0,0],[155,0,0],[339,0,0],[738,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,488,-632,-643</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.6</column>
+            <column name="fDetect">0.5</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">46</column>
+            <column name="strID">90.23</column>
+            <column name="strName">Offer to Talk</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; offers to talk with &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Offer to Talk
+Offer to stop battle with target and begin talks.
+If any combatants still want to fight, battle continues.
+Distracts you for 1 turn.
+Must see target.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[146,0,0],[155,0,0],[500,0,0],[506,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,151,-727</column>
+            <column name="vThemPreConditions">-18,151,-506,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.3</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">47</column>
+            <column name="strID">90.103</column>
+            <column name="strName">Offer Ceasefire</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; offers ceasefire to &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Offer Ceasefire
+Offer to stop battle with target.
+If any combatants still want to fight, battle continues.
+Distracts you for 1 turn.
+Must see target.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[146,0,0],[155,0,0],[498,0,0],[500,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,151,-727</column>
+            <column name="vThemPreConditions">-18,151,-498</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.3</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">48</column>
+            <column name="strID">90.104</column>
+            <column name="strName">Accept Ceasefire</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; accepts &lt;them&gt;'s ceasefire.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Accept Ceasefire
+Accepts target's offer to stop battle.
+If any combatants still want to fight, battle continues.
+Must see target.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[500,0,0]</column>
+            <column name="vThemConditions">[500,0,0]</column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,151,-727</column>
+            <column name="vThemPreConditions">151,498</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">49</column>
+            <column name="strID">90.61</column>
+            <column name="strName">Reveal Self</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; reveals themselves to &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Reveal Self
+Make yourself visible to target.
+Target must not see you yet.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[155,0,0],[505,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-148,-145,-146,151</column>
+            <column name="vThemPreConditions">-18</column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">0</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.05</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">50</column>
+            <column name="strID">90.7</column>
+            <column name="strName">Accept Offer to Talk</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; accepts &lt;them&gt;'s offer to talk.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Accept Offer to Talk
+Accept target's offer to talk.
+If any combatants still want to fight, battle continues.
+Must see target.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[499,0,0],[500,0,0]</column>
+            <column name="vThemConditions">[499,0,0],[500,0,0]</column>
+            <column name="vPairConditions">[496,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,151,-727</column>
+            <column name="vThemPreConditions">151,506,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">51</column>
+            <column name="strID">90.105</column>
+            <column name="strName">Radio DMC Drone</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; radioed for drone support fire!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Radio DMC Drone
+Call in drone support fire.
+Marks target as enemy of DMC if they don't stand down.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[559,0,0],[729,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[599,0,0]</column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,558,-729</column>
+            <column name="vThemPreConditions">-18</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">52</column>
+            <column name="strID">90.107</column>
+            <column name="strName">Crawl Towards</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; crawls towards &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Crawl Towards
+Move 1 space closer to target.
+Must see target.
+Chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[340,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">143,-144,-145,-146,-148</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.1</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">53</column>
+            <column name="strID">90.108</column>
+            <column name="strName">Crawl Away</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; crawls away from &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Crawl Away
+Move 1 space away from target.
+Must see target.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[98,0,0],[339,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[209,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">143,-144,-145,-146,-148</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.1</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">1</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">54</column>
+            <column name="strID">90.109</column>
+            <column name="strName">Advance</column>
+            <column name="strNotes">Ignore ceasefire/talk version</column>
+            <column name="strSuccess">&lt;us&gt; advances towards &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Advance 
+Move 1 space closer to target.
+Must see target.
+Removes cover.
+Chance of tripping on terrain.
+Chance of being detected if hidden.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[155,0,0],[340,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[138,0,0],[159,3,0],[497,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-56,-143,-144,-148,-145,-146,-192,-390</column>
+            <column name="vThemPreConditions">500</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.4</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.5</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">1</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">55</column>
+            <column name="strID">90.110</column>
+            <column name="strName">Exit Battle</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; leaves battle.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Exit Battle
+Always succeeds.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[142,0,0],[155,0,0],[739,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">367,-367</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">56</column>
+            <column name="strID">90.70</column>
+            <column name="strName">Wait</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; waits.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Wait
+Wait for one turn, doing nothing.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions"></column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">412</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">2</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">1</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">57</column>
+            <column name="strID">90.111</column>
+            <column name="strName">Retreat (Crawl)</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; crawls away from &lt;them&gt;.</column>
+            <column name="strFail">&lt;us&gt; tries to crawl away from &lt;them&gt;...but can't get away!</column>
+            <column name="strPopUp">Retreat (Crawl)
+Try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.
+Must be out of all enemies' ranges.
+Removes cover.</column>
+            <column name="vChanceType">0,7,0</column>
+            <column name="vUsConditions">[142,0,0],[-137,0,0],[98,0,0],[339,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions">[-137,0,0],[98,0,0]</column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">143,-144,-148,-145,-146,192</column>
+            <column name="vThemPreConditions">18</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">1</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.9</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">58</column>
+            <column name="strID">90.120</column>
+            <column name="strName">Radio DMC Drone</column>
+            <column name="strNotes">(blind)</column>
+            <column name="strSuccess">&lt;us&gt; radioed for drone support fire!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Radio DMC Drone
+Call in drone support fire.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[559,0,0],[729,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-144,-145,-146,558,-729</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">59</column>
+            <column name="strID">90.121</column>
+            <column name="strName">Search</column>
+            <column name="strNotes">drone</column>
+            <column name="strSuccess">&lt;us&gt; searches for &lt;them&gt;.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Search 
+Scan area for hidden targets.
+Must not see target yet.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[141,0,0],[141,0,0],[141,0,0],[141,0,0],[141,0,0],[141,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-158,-143,-144,-148,-145,-146,725</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">0</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">1</column>
+            <column name="fPriority">0.5</column>
+            <column name="fDetect">1</column>
+            <column name="fOrder">0.55</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">60</column>
+            <column name="strID">90.127</column>
+            <column name="strName">Vanish</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; vanishes from sight.</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Vanish from Sight
+Disappears from battle without being seen.
+Must see target.
+</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[142,0,0],[98,0,0],[739,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-143,-144,-145,-146,-190,-191,-367,-390,-725,781</column>
+            <column name="vThemPreConditions"></column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">1</column>
+            <column name="bPosition">0</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">61</column>
+            <column name="strID">90.128</column>
+            <column name="strName">Exploit Weakness</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; finds a weakness in &lt;them&gt;!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Exploit Weakness
+Seeks a weakness to exploit in target, helping future attacks against it.
+Must see target.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions"></column>
+            <column name="vThemConditions">[847,0,0]</column>
+            <column name="vPairConditions"></column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-143,-144,-145,-146,-190,-191,-367,-390,-725,782</column>
+            <column name="vThemPreConditions">-847</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">2</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">0.25</column>
+            <column name="fOrder">0.8</column>
+            <column name="fFatigue">0</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">62</column>
+            <column name="strID">90.129</column>
+            <column name="strName">Intimidate</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; goes absolutely berzerk with rage!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Intimidate
+Explode with unbridled rage, scaring target.
+Both you and target must see each other.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[848,0,0],[737,0,0]</column>
+            <column name="vThemConditions"></column>
+            <column name="vPairConditions">[491,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">-188,-143,-144,-145,-146,-727,782,-848</column>
+            <column name="vThemPreConditions">-18,-727</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">-1</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.1</column>
+            <column name="fPriority">0.2</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.15</column>
+            <column name="fFatigue">1</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+        <table name="battlemoves">
+            <column name="id">63</column>
+            <column name="strID">90.130</column>
+            <column name="strName">Lethal Trap</column>
+            <column name="strNotes"></column>
+            <column name="strSuccess">&lt;us&gt; lures &lt;them&gt; into a lethal trap!</column>
+            <column name="strFail"></column>
+            <column name="strPopUp">Lethal Trap
+Leads target into a deadly situation, killing it.
+Must be closer to target than 4 spaces.
+Both you and target must see each other.
+Rarely available.</column>
+            <column name="vChanceType">0,0,0</column>
+            <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column>
+            <column name="vThemConditions">[641,0,0]</column>
+            <column name="vPairConditions">[491,0,0],[491,0,0]</column>
+            <column name="vUsFailConditions"></column>
+            <column name="vThemFailConditions"></column>
+            <column name="vPairFailConditions"></column>
+            <column name="vUsPreConditions">151,-157,-158,-56,-55,-143,-144,-148,-145,-146,-192,781</column>
+            <column name="vThemPreConditions">-143,-144</column>
+            <column name="nSeeThem">1</column>
+            <column name="nSeeUs">1</column>
+            <column name="bAllOutOfRange">0</column>
+            <column name="bInAttackRange">0</column>
+            <column name="nMinCharges">0</column>
+            <column name="nMinRange">-1</column>
+            <column name="nMaxRange">4</column>
+            <column name="nAttackModeType">-1</column>
+            <column name="vHexTypes"></column>
+            <column name="fChance">0.05</column>
+            <column name="fPriority">0.9</column>
+            <column name="fDetect">2</column>
+            <column name="fOrder">0.75</column>
+            <column name="fFatigue">3</column>
+            <column name="bApproach">0</column>
+            <column name="bOffense">0</column>
+            <column name="bFallBack">0</column>
+            <column name="bRetreat">0</column>
+            <column name="bPosition">1</column>
+            <column name="bPassive">0</column>
+        </table>
+    </database>
+</pma_xml_export>

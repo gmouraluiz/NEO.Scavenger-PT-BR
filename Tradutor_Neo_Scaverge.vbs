@@ -732,6 +732,8 @@ Sub itemtypes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
+        If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
 		If (NumberLine = 112) Then
 			Line = Replace(Line, "bottle", "garrafa")
 		ElseIf (NumberLine = 113) Then
@@ -740,6 +742,18 @@ Sub itemtypes()
 			Line = Replace(Line, "branch", "galho")
 		ElseIf (NumberLine = 152) Then
 			Line = Replace(Line, "medium-sized branch from a tree", "galho médio")
+        ElseIf (NumberLine = 2374) Then
+			Line = Replace(Line, "skill: strong", "Habilidade: Forte")
+        ElseIf (NumberLine = 2375) Then
+			Line = Replace(Line, "can carry more without being encumbered, melee attacks are more damaging, can create obstacle in combat", "pode carregar mais sem ser sobrecarregar, ataques corpo a corpo são mais prejudiciais, pode criar obstáculos em combate")
+        ElseIf (NumberLine = 2608) Then
+			Line = Replace(Line, "skill: tough", "Habilidade: Resistente")
+        ElseIf (NumberLine = 2609) Then
+			Line = Replace(Line, "higher pain threshold, immune system effectiveness, and resistance to wounds, can headbutt in combat", "maior limiar de dor, eficácia do sistema imunológico e resistência a feridas, pode dar cabeça em combate")
+        ElseIf (NumberLine = 2842) Then
+			Line = Replace(Line, "skill: night vision", "Habilidade: Visão noturna")
+        ElseIf (NumberLine = 2843) Then
+			Line = Replace(Line, "can see better in dark areas", "pode ver melhor em áreas escuras")
 
 
 

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Mar 01, 2016 at 10:11 PM
+- Server version: 5.5.48
+- PHP Version: 5.5.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="containertypes">
+                CREATE TABLE `containertypes` (
+                  `id` int(3) NOT NULL AUTO_INCREMENT,
+                  `strName` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table containertypes -->
+        <table name="containertypes">
+            <column name="id">1</column>
+            <column name="strName">waterproof</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">2</column>
+            <column name="strName">fine</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">3</column>
+            <column name="strName">coarse</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">4</column>
+            <column name="strName">encounter</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">5</column>
+            <column name="strName">skill</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">6</column>
+            <column name="strName">camps</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">7</column>
+            <column name="strName">fireproof</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">8</column>
+            <column name="strName">.308</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">9</column>
+            <column name="strName">lar10</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">10</column>
+            <column name="strName">electric</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">11</column>
+            <column name="strName">trait</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">12</column>
+            <column name="strName">craft yield</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">13</column>
+            <column name="strName">jelly</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">14</column>
+            <column name="strName">nanobot suspension</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">15</column>
+            <column name="strName">terrain</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">16</column>
+            <column name="strName">camp fixture</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">17</column>
+            <column name="strName">craft inputs</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">18</column>
+            <column name="strName">arrow (archery)</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">19</column>
+            <column name="strName">.38</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">20</column>
+            <column name="strName">.45</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">21</column>
+            <column name="strName">12-gauge</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">22</column>
+            <column name="strName">military micro cell</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">23</column>
+            <column name="strName">AA battery</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">24</column>
+            <column name="strName">carts and wagons</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">25</column>
+            <column name="strName">laptop battery</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">26</column>
+            <column name="strName">software: PC</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">27</column>
+            <column name="strName">software: tablet</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">28</column>
+            <column name="strName">software: data</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">29</column>
+            <column name="strName">islab battery</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">30</column>
+            <column name="strName">cellphone battery</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">31</column>
+            <column name="strName">smartphone battery</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">32</column>
+            <column name="strName">software: smartphone</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">33</column>
+            <column name="strName">pebble (sling)</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">34</column>
+            <column name="strName">stone (sling)</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">35</column>
+            <column name="strName">invalid (no items)</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">36</column>
+            <column name="strName">4mm</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">37</column>
+            <column name="strName">XM54 Gas Mask Cartridge</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">38</column>
+            <column name="strName">UVD</column>
+        </table>
+        <table name="containertypes">
+            <column name="id">39</column>
+            <column name="strName">non-nesting bags</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Mar 01, 2016 at 10:11 PM
+- Server version: 5.5.48
+- PHP Version: 5.5.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="chargeprofiles">
+                CREATE TABLE `chargeprofiles` (
+                  `nID` int(3) NOT NULL AUTO_INCREMENT,
+                  `strName` varchar(255) NOT NULL,
+                  `strItemID` varchar(12) NOT NULL,
+                  `fPerUse` float NOT NULL DEFAULT '0',
+                  `fPerHour` float NOT NULL DEFAULT '0',
+                  `fPerHourEquipped` float NOT NULL DEFAULT '0',
+                  `fPerHex` float NOT NULL DEFAULT '0',
+                  `bDegrade` tinyint(1) NOT NULL DEFAULT '0',
+                  PRIMARY KEY (`nID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table chargeprofiles -->
+        <table name="chargeprofiles">
+            <column name="nID">1</column>
+            <column name="strName">nanomedkit electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">2</column>
+            <column name="strName">nanomedkit refill</column>
+            <column name="strItemID">94.1</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">3</column>
+            <column name="strName">night vision goggles electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">1</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">4</column>
+            <column name="strName">.308 rifle FMJ</column>
+            <column name="strItemID">10.0</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">5</column>
+            <column name="strName">.308 rifle SP</column>
+            <column name="strItemID">10.1</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">6</column>
+            <column name="strName">LAR-10 high setting</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">10</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">7</column>
+            <column name="strName">LAR-10 low setting</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">4</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">8</column>
+            <column name="strName">broadhead arrow</column>
+            <column name="strItemID">10.4</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">9</column>
+            <column name="strName">crude pierce arrow</column>
+            <column name="strItemID">10.5</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">10</column>
+            <column name="strName">crude broad arrow</column>
+            <column name="strItemID">10.6</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">11</column>
+            <column name="strName">pebble</column>
+            <column name="strItemID">86.8</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">12</column>
+            <column name="strName">stone</column>
+            <column name="strItemID">86.9</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">13</column>
+            <column name="strName">.38 pistol FMJ</column>
+            <column name="strItemID">10.7</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">14</column>
+            <column name="strName">.38 pistol JHP</column>
+            <column name="strItemID">10.8</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">15</column>
+            <column name="strName">.45 pistol FMJ</column>
+            <column name="strItemID">10.9</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">16</column>
+            <column name="strName">.45 pistol JHP</column>
+            <column name="strItemID">10.10</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">17</column>
+            <column name="strName">12-gauge 00 buckshot</column>
+            <column name="strItemID">10.11</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">18</column>
+            <column name="strName">12-gauge slug</column>
+            <column name="strItemID">10.12</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">19</column>
+            <column name="strName">sharp spear</column>
+            <column name="strItemID">31.0</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">20</column>
+            <column name="strName">hard spear</column>
+            <column name="strItemID">31.1</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">21</column>
+            <column name="strName">broad spear</column>
+            <column name="strItemID">31.2</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">22</column>
+            <column name="strName">flashlight electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">1</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">23</column>
+            <column name="strName">laptop electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">60</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">24</column>
+            <column name="strName">iSlab electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">10</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">25</column>
+            <column name="strName">smartphone electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">5</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">26</column>
+            <column name="strName">cellphone electricity</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">2</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">27</column>
+            <column name="strName">1 electric charge per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">28</column>
+            <column name="strName">gain 10 electric charges per hour</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">-10</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">29</column>
+            <column name="strName">12 electric charge per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">12</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">30</column>
+            <column name="strName">gain 40 electric charges per use</column>
+            <column name="strItemID">10.3</column>
+            <column name="fPerUse">-40</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">31</column>
+            <column name="strName">4mm gauss rifle AP</column>
+            <column name="strItemID">10.13</column>
+            <column name="fPerUse">1</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">0</column>
+        </table>
+        <table name="chargeprofiles">
+            <column name="nID">32</column>
+            <column name="strName">200% XM54 cartridge used per day equipped</column>
+            <column name="strItemID">40.0</column>
+            <column name="fPerUse">0</column>
+            <column name="fPerHour">0</column>
+            <column name="fPerHourEquipped">0.08</column>
+            <column name="fPerHex">0</column>
+            <column name="bDegrade">1</column>
+        </table>
+    </database>
+</pma_xml_export>
