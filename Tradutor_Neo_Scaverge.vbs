@@ -763,9 +763,7 @@ Sub itemtypes()
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
 		
-		'Tradução das Linhas
-        If (NumberLine = 1) Then
-            Line = Replace(Line, "utf-8", "UTF-8")
+		'Tradução das Linhas			
 		ElseIf (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 112) Then
@@ -838,6 +836,18 @@ Sub itemtypes()
 			Line = Replace(Line, "skill: electrician", "Habilidade: Eletricista")
         ElseIf (NumberLine = 3740) Then
 			Line = Replace(Line, "knowledge of electronic systems and components", "conhecimento de sistemas e componentes eletrônicos")
+        ElseIf (NumberLine = 3778) Then
+			Line = Replace(Line, "skill: mechanic", "Habilidade: Mecânico")
+        ElseIf (NumberLine = 3779) Then
+			Line = Replace(Line, "knowledge of mechanical systems and components", "conhecimento de sistemas e componentes mecânicos")
+        ElseIf (NumberLine = 5026) Then
+			Line = Replace(Line, "skill: ranged", "Habilidade: Distância")
+        ElseIf (NumberLine = 5027) Then
+			Line = Replace(Line, "skill with ranged weaponry", "habilidade com armas a distância")
+        ElseIf (NumberLine = 9979) Then
+			Line = Replace(Line, "skill: telescopic zoom", "Habilidade: Zoom Telescópico")
+        ElseIf (NumberLine = 9980) Then
+			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver um distancia maior do que o normal, luz e linha de visão permitindo")
 			
 			
 		End If 		

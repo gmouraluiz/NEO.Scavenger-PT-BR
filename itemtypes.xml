@@ -3775,8 +3775,8 @@
             <column name="id">96</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">15</column>
-            <column name="strName">skill: mechanic</column>
-            <column name="strDesc">knowledge of mechanical systems and components</column>
+            <column name="strName">Habilidade: Mecânico</column>
+            <column name="strDesc">conhecimento de sistemas e componentes mecânicos</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillMechanic.png</column>
@@ -5023,8 +5023,8 @@
             <column name="id">128</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">16</column>
-            <column name="strName">skill: ranged</column>
-            <column name="strDesc">skill with ranged weaponry</column>
+            <column name="strName">Habilidade: Distância</column>
+            <column name="strDesc">habilidade com armas a distância</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillRanged.png</column>
@@ -9976,8 +9976,8 @@
             <column name="id">255</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">17</column>
-            <column name="strName">skill: telescopic zoom</column>
-            <column name="strDesc">can see one hex further than normal, light and line of sight permitting</column>
+            <column name="strName">Habilidade: Zoom Telescópico</column>
+            <column name="strDesc">pode ver um distancia maior do que o normal, luz e linha de visão permitindo</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillTelescopic.png</column>
