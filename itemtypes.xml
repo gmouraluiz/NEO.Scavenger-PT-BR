@@ -9821,7 +9821,7 @@
             <column name="nGroupID">96</column>
             <column name="nSubgroupID">6</column>
             <column name="strName">Contras: Cirurgia Ocular</column>
-            <column name="strDesc">Contras: Cirurgia corretiva no olho, removendo miopia</column>
+            <column name="strDesc">Cirurgia corretiva no olho, removendo miopia</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmFlawEyeSurgery.png</column>
@@ -9899,7 +9899,7 @@
             <column name="nGroupID">96</column>
             <column name="nSubgroupID">8</column>
             <column name="strName">Contras: Aumento do olho na visão noturna</column>
-            <column name="strDesc">Contras: Teve olhos artificiais atualizados com visão noturna</column>
+            <column name="strDesc">Teve olhos artificiais atualizados com visão noturna</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmFlawEyeAugNV.png</column>

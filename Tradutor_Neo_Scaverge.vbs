@@ -887,7 +887,7 @@ Sub itemtypes()
 		ElseIf (NumberLine = 9823) Then
 			Line = Replace(Line, "trait: eye surgery", "Contras: Cirurgia Ocular")
 		ElseIf (NumberLine = 9824) Then
-			Line = Replace(Line, "has had corrective eye surgery, removing myopia", "Contras: Cirurgia corretiva no olho, removendo miopia")
+			Line = Replace(Line, "has had corrective eye surgery, removing myopia", "Cirurgia corretiva no olho, removendo miopia")
 		ElseIf (NumberLine = 9862) Then
 			Line = Replace(Line, "trait: basic eye augmentation", "Contras: Aumento Básico do Olho")
 		ElseIf (NumberLine = 9863) Then
@@ -895,7 +895,7 @@ Sub itemtypes()
 		ElseIf (NumberLine = 9901) Then
 			Line = Replace(Line, "trait: night vision eye augmentation", "Contras: Aumento do olho na visão noturna")
 		ElseIf (NumberLine = 9902) Then
-			Line = Replace(Line, "has had artificial eyes upgraded with night vision", "Contras: Teve olhos artificiais atualizados com visão noturna")
+			Line = Replace(Line, "has had artificial eyes upgraded with night vision", "Teve olhos artificiais atualizados com visão noturna")
 		ElseIf (NumberLine = 9940) Then
 			Line = Replace(Line, "trait: telescopic eye augmentation", "Contras: Aumento Telescópico do Olho")
 		ElseIf (NumberLine = 9941) Then
