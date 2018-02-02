@@ -1358,7 +1358,7 @@
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">4</column>
             <column name="strName">Habilidade: Olho de Águia</column>
-            <column name="strDesc">pode ver um distancia maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente</column>
+            <column name="strDesc">pode ver em uma distância maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillEagleEye.png</column>
@@ -3658,7 +3658,7 @@
             <column name="id">93</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">12</column>
-            <column name="strName">Habilidade: botânica</column>
+            <column name="strName">Habilidade: botânico</column>
             <column name="strDesc">conhecimento de ervas, fungos e outras plantas úteis</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
@@ -9977,7 +9977,7 @@
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">17</column>
             <column name="strName">Habilidade: Zoom Telescópico</column>
-            <column name="strDesc">pode ver um distancia maior do que o normal, luz e linha de visão permitindo</column>
+            <column name="strDesc">pode ver em uma distância maior do que o normal, luz e linha de visão permitindo</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillTelescopic.png</column>

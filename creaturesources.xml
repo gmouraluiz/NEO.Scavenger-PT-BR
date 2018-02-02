@@ -209,7 +209,7 @@
         </table>
         <table name="creaturesources">
             <column name="id">18</column>
-            <column name="strName">DMC Guardaaaaaaa</column>
+            <column name="strName">DMC Guardaa</column>
             <column name="nX">57</column>
             <column name="nY">192</column>
             <column name="nCreatureID">14</column>

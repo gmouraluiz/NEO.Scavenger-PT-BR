@@ -764,7 +764,7 @@ Sub itemtypes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas			
-		ElseIf (NumberLine = 1) Then
+		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 112) Then
 			Line = Replace(Line, "bottle", "garrafa")
@@ -795,7 +795,7 @@ Sub itemtypes()
 		ElseIf (NumberLine = 1360) Then
 			Line = Replace(Line, "skill: eagle eye", "Habilidade: Olho de Águia")
 		ElseIf (NumberLine = 1361) Then
-			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier", "pode ver um distancia maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente")
+			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier", "pode ver em uma distância maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente")
 		ElseIf (NumberLine = 2179) Then
 			Line = Replace(Line, "skill: tracking", "Habilidade: Rastreamento")
 		ElseIf (NumberLine = 2180) Then
@@ -847,7 +847,7 @@ Sub itemtypes()
         ElseIf (NumberLine = 9979) Then
 			Line = Replace(Line, "skill: telescopic zoom", "Habilidade: Zoom Telescópico")
         ElseIf (NumberLine = 9980) Then
-			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver um distancia maior do que o normal, luz e linha de visão permitindo")
+			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver em uma distância maior do que o normal, luz e linha de visão permitindo")
 			
 			
 		End If 		
