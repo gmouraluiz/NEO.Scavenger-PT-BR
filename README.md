@@ -1,11 +1,11 @@
 # NEO.Scavenger-PT-BR
 
-Participe do GRUPO da STEAM http://steamcommunity.com/groups/NeoScavengerPTBR
+Participe do GRUPO da STEAM 
+http://steamcommunity.com/groups/NeoScavengerPTBR
 
 Tradução do Neo Scavenger em PT-BR
 
 Tutorial: 
-
 1) Fazer BackUp da pasta Data do jogo "Steam\steamapps\common\NEO Scavenger\data".
 2) Baixar o 'Tradutor_Neo_Scaverge.vbs' na pasta data "Steam\steamapps\common\NEO Scavenger\data".
 3) Executar o arquivo 'Tradutor_Neo_Scaverge.vbs' dentro da pasta Data.
