@@ -25,7 +25,9 @@ Sub attackmodes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 50) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 50) Then
 			Line = Replace(Line, "punch", "Soco")
 		ElseIf (NumberLine = 63) Then
 			Line = Replace(Line, "raises their fists, ready to fight", "Levanta os punhos, pronto para lutar")
@@ -69,7 +71,9 @@ Sub battlemoves()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 113) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 113) Then
 			Line = Replace(Line, "Melee Attack", "Ataque corpo a corpo")
 		ElseIf (NumberLine = 155) Then
 			Line = Replace(Line, "Take Cover", "Abrigar-se")
@@ -111,7 +115,9 @@ Sub camptypes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 68) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 68) Then
 			Line = Replace(Line, "the woods", "O Bosque")
 		ElseIf (NumberLine = 92) Then
 			Line = Replace(Line, "a burned-out apartment", "Um apartamento queimado")
@@ -153,7 +159,9 @@ Sub chargeprofiles()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 152) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 152) Then
 			Line = Replace(Line, "stone", "Pedra")
 		ElseIf (NumberLine = 222) Then
 			Line = Replace(Line, "sharp spear", "Lanca Afiada")
@@ -199,7 +207,9 @@ Sub conditions()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 78) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 78) Then
 			Line = Replace(Line, "Starved to death", "Morreu de fome")
 		ElseIf (NumberLine = 79) Then
 			Line = Replace(Line, "us", "Nos")
@@ -242,7 +252,9 @@ Sub containertypes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 36) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 36) Then
 			Line = Replace(Line, "waterproof", "impermeável")
 		ElseIf (NumberLine = 40) Then
 			Line = Replace(Line, "fine", "fino")
@@ -285,7 +297,9 @@ Sub creatures()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 62) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 62) Then
 			Line = Replace(Line, "Looter", "Saqueador")
 		ElseIf (NumberLine = 152) Then
 			Line = Replace(Line, "Deer", "Cervo")
@@ -330,7 +344,9 @@ Sub creaturesources()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 212) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 212) Then
 			Line = Replace(Line, "Guard", "Guarda")
 		ElseIf (NumberLine = 222) Then
 			Line = Replace(Line, "Warrior Female", "Guerreira")
@@ -374,7 +390,9 @@ Sub datafiles()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 40) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 40) Then
 			Line = Replace(Line, "Someone's personal address book", "O livro de endereços pessoal de alguém")
 		ElseIf (NumberLine = 47) Then
 			Line = Replace(Line, "Corporate employee records, addresses, and contact info", "Registos, endereços e informações de contato dos funcionários corporativos")
@@ -420,7 +438,9 @@ Sub encounters()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 58) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 58) Then
 			Line = Replace(Line, "Blank", "Em Branco")
 		ElseIf (NumberLine = 84) Then
 			Line = Replace(Line, "Wake up in cryo facility", "Acorde em crio facilidade")
@@ -464,7 +484,9 @@ Sub encountertriggers()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 62) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 62) Then
 			Line = Replace(Line, "Wake up in cryo", "Acordou em Cryo")
 		ElseIf (NumberLine = 77) Then
 			Line = Replace(Line, "First nightfall", "Primeira noite")
@@ -508,7 +530,9 @@ Sub factions()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 37) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 37) Then
 			Line = Replace(Line, "Dogman", "Lobisomem")
 		ElseIf (NumberLine = 42) Then
 			Line = Replace(Line, "Looter", "Saqueador")
@@ -556,7 +580,9 @@ Sub headlines()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 56) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 56) Then
 			Line = Replace(Line, "Emergency", "Emergência")
 		ElseIf (NumberLine = 72) Then
 			Line = Replace(Line, "Drugs for Sale", "Drogas a Venda")
@@ -600,7 +626,9 @@ Sub hextypes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 50) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 50) Then
 			Line = Replace(Line, "ocean", "Oceano")
 		ElseIf (NumberLine = 68) Then
 			Line = Replace(Line, "coast", "Litoral/Costa")
@@ -644,7 +672,9 @@ Sub ingredients()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 38) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 38) Then
 			Line = Replace(Line, "flame source", "fonte de chama")
 		ElseIf (NumberLine = 44) Then
 			Line = Replace(Line, "kindling", "gravetos")
@@ -688,7 +718,9 @@ Sub itemprops()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 60) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 60) Then
 			Line = Replace(Line, "water purifier", "purificador de água")
 		ElseIf (NumberLine = 64) Then
 			Line = Replace(Line, "container", "recipiente")
@@ -734,7 +766,9 @@ Sub itemtypes()
 		'Tradução das Linhas
         If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
-		If (NumberLine = 112) Then
+		ElseIf (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 112) Then
 			Line = Replace(Line, "bottle", "garrafa")
 		ElseIf (NumberLine = 113) Then
 			Line = Replace(Line, "silver urn", "urna de prata")
@@ -742,7 +776,41 @@ Sub itemtypes()
 			Line = Replace(Line, "branch", "galho")
 		ElseIf (NumberLine = 152) Then
 			Line = Replace(Line, "medium-sized branch from a tree", "galho médio")
-        ElseIf (NumberLine = 2374) Then
+		ElseIf (NumberLine = 658) Then
+			Line = Replace(Line, "skill: hacking", "Habilidade: hacking")
+		ElseIf (NumberLine = 659) Then
+			Line = Replace(Line, "skill at manipulating computers", "habilidade na manipulação de computadores")
+		ElseIf (NumberLine = 658) Then
+			Line = Replace(Line, "skill: hacking", "Habilidade: hacking")
+		ElseIf (NumberLine = 697) Then
+			Line = Replace(Line, "skill: medic", "Habilidade: Médico")
+		ElseIf (NumberLine = 698) Then
+			Line = Replace(Line, "improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen", "taxa de cicatrização melhorada através de treinamento de procedimentos e técnicas de esterilização, barras estatísticas mais detalhadas na tela Condições")
+		ElseIf (NumberLine = 736) Then
+			Line = Replace(Line, "skill: hiding", "Habilidade: Esconder")
+		ElseIf (NumberLine = 737) Then
+			Line = Replace(Line, "ability to hide is more effective, camp concealment stat visible on Camp screen", "A capacidade de esconder é mais efetiva, ganha estatística de ocultação do campo visível na tela Camp")
+		ElseIf (NumberLine = 775) Then
+			Line = Replace(Line, "skill: melee", "Habilidade: Briga")
+		ElseIf (NumberLine = 776) Then
+			Line = Replace(Line, "better chance to hit in melee combat, higher wound severity, better defense in combat, can leg trip in combat", "maior chance de acertos em combate corpo a corpo, maior gravidade nas feridas, melhor defesa no combate, pode usar a perna em combate")
+		ElseIf (NumberLine = 1360) Then
+			Line = Replace(Line, "skill: eagle eye", "Habilidade: Olho de Águia")
+		ElseIf (NumberLine = 1361) Then
+			Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier", "pode ver um distancia maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente")
+		ElseIf (NumberLine = 2179) Then
+			Line = Replace(Line, "skill: tracking", "Habilidade: Rastreamento")
+		ElseIf (NumberLine = 2180) Then
+			Line = Replace(Line, "can spot older tracks than normal, and can hide tracks more effectively", "pode detectar rastros/pegadas mais antigas do que o normal e pode ocultar rastros/pegadas de forma mais eficaz")
+		ElseIf (NumberLine = 2218) Then
+			Line = Replace(Line, "skill: athletics", "Habilidade: Atletismo")
+		ElseIf (NumberLine = 2219) Then
+			Line = Replace(Line, "less fatigue per move, can run away faster in battle, can run further on map before run moves deplete", "menos fadiga por movimento, pode fugir mais rápido na batalha, pode avançar no mapa antes que os movimentos da corrida se esgotem")
+		ElseIf (NumberLine = 2335) Then
+			Line = Replace(Line, "skill: slow metabolism", "Habilidade: Metabolismo Lento")
+		ElseIf (NumberLine = 2336) Then
+			Line = Replace(Line, "food and water intake rates reduced, healing rates slightly reduced", "Taxas de ingestão de alimentos e água reduzidas, taxas de cicatrização ligeiramente reduzidas")
+		ElseIf (NumberLine = 2374) Then
 			Line = Replace(Line, "skill: strong", "Habilidade: Forte")
         ElseIf (NumberLine = 2375) Then
 			Line = Replace(Line, "can carry more without being encumbered, melee attacks are more damaging, can create obstacle in combat", "pode carregar mais sem ser sobrecarregar, ataques corpo a corpo são mais prejudiciais, pode criar obstáculos em combate")
@@ -753,10 +821,24 @@ Sub itemtypes()
         ElseIf (NumberLine = 2842) Then
 			Line = Replace(Line, "skill: night vision", "Habilidade: Visão noturna")
         ElseIf (NumberLine = 2843) Then
-			Line = Replace(Line, "can see better in dark areas", "pode ver melhor em áreas escuras")
-
-
-
+			Line = Replace(Line, "can see better in dark areas", "pode ver melhor em áreas escuras")		
+		ElseIf (NumberLine = 3622) Then
+			Line = Replace(Line, "skill: trapping", "Habilidade: Sobrevivência")
+        ElseIf (NumberLine = 3623) Then
+			Line = Replace(Line, "can trap and prepare animals", "pode aprisionar e preparar animais, aumenta a quantidade de carne e peles adquiridas, Desbloqueia (Alerta)")
+        ElseIf (NumberLine = 3661) Then
+			Line = Replace(Line, "skill: botany", "Habilidade: botânico")
+        ElseIf (NumberLine = 3662) Then
+			Line = Replace(Line, "knowledge of herbs, fungi, and other useful plants", "conhecimento de ervas, fungos e outras plantas úteis")
+        ElseIf (NumberLine = 3700) Then
+			Line = Replace(Line, "skill: lockpicking", "Habilidade: Desbloqueio")
+        ElseIf (NumberLine = 3701) Then
+			Line = Replace(Line, "knowledge in bypassing locks and other security devices", "conhecimento em ignorar bloqueios e outros dispositivos de segurança")
+        ElseIf (NumberLine = 3739) Then
+			Line = Replace(Line, "skill: electrician", "Habilidade: Eletricista")
+        ElseIf (NumberLine = 3740) Then
+			Line = Replace(Line, "knowledge of electronic systems and components", "conhecimento de sistemas e componentes eletrônicos")
+			
 			
 		End If 		
 		TempFile.WriteLine(Line)
@@ -794,7 +876,9 @@ Sub recipes()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 51) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 51) Then
 			Line = Replace(Line, "medium campfire (lit)", "fogueira média (acesa)")
 		ElseIf (NumberLine = 70) Then
 			Line = Replace(Line, "small campfire (lit)", "fogueira pequena (acesa)")
@@ -840,7 +924,9 @@ Sub treasuretable()
 		NumberLine = NumberLine + 1
 		
 		'Tradução das Linhas
-		If (NumberLine = 72) Then
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 72) Then
 			Line = Replace(Line, "medical kit", "kit médico")
 		ElseIf (NumberLine = 96) Then
 			Line = Replace(Line, "medium campfire", "fogueira média")

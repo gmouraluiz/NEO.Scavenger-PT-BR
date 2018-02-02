@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -53,7 +53,7 @@ As successful policing of Detroit becomes increasingly difficult, discussions of
         </table>
         <table name="headlines">
             <column name="id">5</column>
-            <column name="strHeadline">Emergência!
+            <column name="strHeadline">Emergency!
 As economic downturn puts the squeeze on local governments, local firefighting and law enforcement services are being reduced in an effort to stem hemorrhaging budgets.</column>
         </table>
         <table name="headlines">
@@ -69,12 +69,12 @@ The second housing collapse in as many years sends people flocking to flood tunn
         </table>
         <table name="headlines">
             <column name="id">8</column>
-            <column name="strHeadline">Drogas a Venda
+            <column name="strHeadline">Drugs for Sale
 Open-air drug markets are becoming an increasingly common sight as law enforcement presence dwindles, alongside crumbling infrastructure and abandoning of neighborhoods. Many speculate that militarization of these market owners is soon to follow.</column>
         </table>
         <table name="headlines">
             <column name="id">9</column>
-            <column name="strHeadline">Estrada para lugar nenhum
+            <column name="strHeadline">Road to Nowhere
 Faced with never-ending budget deficits, the Michigan Department of Transportation is to commence grinding of asphalt roads into gravel. Critics of the &quot;Resurfacing Budget Reclamation&quot; initiative claim that this will only further balkanize the declining neighborhoods outside major cities. Governor Jones assured the public that the focus of the program will be on secondary roads and low-traffic zones.</column>
         </table>
         <table name="headlines">

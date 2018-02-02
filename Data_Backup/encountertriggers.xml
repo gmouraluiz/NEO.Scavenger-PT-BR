@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -59,7 +59,7 @@
         </table>
         <table name="encountertriggers">
             <column name="id">2</column>
-            <column name="strName">Acordou em Cryo</column>
+            <column name="strName">Wake up in cryo</column>
             <column name="nEncounterID">2</column>
             <column name="fChance">1</column>
             <column name="bLocBased">1</column>
@@ -74,7 +74,7 @@
         </table>
         <table name="encountertriggers">
             <column name="id">3</column>
-            <column name="strName">Primeira noite</column>
+            <column name="strName">First nightfall</column>
             <column name="nEncounterID">23</column>
             <column name="fChance">1</column>
             <column name="bLocBased">0</column>
@@ -134,7 +134,7 @@
         </table>
         <table name="encountertriggers">
             <column name="id">7</column>
-            <column name="strName">Retornar para cryo</column>
+            <column name="strName">Return to cryo</column>
             <column name="nEncounterID">249</column>
             <column name="fChance">1</column>
             <column name="bLocBased">1</column>

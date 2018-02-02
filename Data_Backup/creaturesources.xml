@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -209,7 +209,7 @@
         </table>
         <table name="creaturesources">
             <column name="id">18</column>
-            <column name="strName">DMC Guardaaaaaa</column>
+            <column name="strName">DMC Guard</column>
             <column name="nX">57</column>
             <column name="nY">192</column>
             <column name="nCreatureID">14</column>
@@ -219,7 +219,7 @@
         </table>
         <table name="creaturesources">
             <column name="id">19</column>
-            <column name="strName">ATN Guerreira</column>
+            <column name="strName">ATN Warrior Female</column>
             <column name="nX">26</column>
             <column name="nY">104</column>
             <column name="nCreatureID">15</column>
@@ -229,7 +229,7 @@
         </table>
         <table name="creaturesources">
             <column name="id">20</column>
-            <column name="strName">ATN Guerreiro</column>
+            <column name="strName">ATN Warrior Male</column>
             <column name="nX">26</column>
             <column name="nY">104</column>
             <column name="nCreatureID">16</column>

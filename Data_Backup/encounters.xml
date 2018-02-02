@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -55,7 +55,7 @@
         <!-- Table encounters -->
         <table name="encounters">
             <column name="id">1</column>
-            <column name="strName">Em Branco</column>
+            <column name="strName">Blank</column>
             <column name="strDesc"></column>
             <column name="strImg">EncBlank.png</column>
             <column name="nTreasureID">3</column>
@@ -81,7 +81,7 @@
         </table>
         <table name="encounters">
             <column name="id">2</column>
-            <column name="strName">Acorde em crio facilidade.</column>
+            <column name="strName">Wake up in cryo facility.</column>
             <column name="strDesc">You wake up disoriented, slumped over the base of an empty cryosleep pod, still damp from cryo fluid. The thick dust from the floor clings to your skin, leaving a clean spot on the ground, where a large &quot;05&quot; is painted.Across the room, there is an open door to the hallway, and a broken window leading outside.Just as you gather your wits, an unearthly scream erupts from down the hall beyond the doorway. Something is coming. Fast.</column>
             <column name="strImg">EncCryoFacility.png</column>
             <column name="nTreasureID">3</column>

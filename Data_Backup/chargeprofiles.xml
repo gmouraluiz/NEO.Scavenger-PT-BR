@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -149,7 +149,7 @@
         </table>
         <table name="chargeprofiles">
             <column name="nID">12</column>
-            <column name="strName">Pedra</column>
+            <column name="strName">stone</column>
             <column name="strItemID">86.9</column>
             <column name="fPerUse">1</column>
             <column name="fPerHour">0</column>
@@ -219,7 +219,7 @@
         </table>
         <table name="chargeprofiles">
             <column name="nID">19</column>
-            <column name="strName">Lanca Afiada</column>
+            <column name="strName">sharp spear</column>
             <column name="strItemID">31.0</column>
             <column name="fPerUse">1</column>
             <column name="fPerHour">0</column>
@@ -229,7 +229,7 @@
         </table>
         <table name="chargeprofiles">
             <column name="nID">20</column>
-            <column name="strName">Lanca Endurecida</column>
+            <column name="strName">hard spear</column>
             <column name="strItemID">31.1</column>
             <column name="fPerUse">1</column>
             <column name="fPerHour">0</column>
@@ -239,7 +239,7 @@
         </table>
         <table name="chargeprofiles">
             <column name="nID">21</column>
-            <column name="strName">Lanca Longa</column>
+            <column name="strName">broad spear</column>
             <column name="strItemID">31.2</column>
             <column name="fPerUse">1</column>
             <column name="fPerHour">0</column>

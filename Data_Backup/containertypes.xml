@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -33,15 +33,15 @@
         <!-- Table containertypes -->
         <table name="containertypes">
             <column name="id">1</column>
-            <column name="strName">impermeável</column>
+            <column name="strName">waterproof</column>
         </table>
         <table name="containertypes">
             <column name="id">2</column>
-            <column name="strName">fino</column>
+            <column name="strName">fine</column>
         </table>
         <table name="containertypes">
             <column name="id">3</column>
-            <column name="strName">grosseiro</column>
+            <column name="strName">coarse</column>
         </table>
         <table name="containertypes">
             <column name="id">4</column>

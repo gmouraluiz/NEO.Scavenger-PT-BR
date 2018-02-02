@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -57,15 +57,15 @@
         </table>
         <table name="itemprops">
             <column name="nID">7</column>
-            <column name="strPropertyName">purificador de água</column>
+            <column name="strPropertyName">water purifier</column>
         </table>
         <table name="itemprops">
             <column name="nID">8</column>
-            <column name="strPropertyName">recipiente</column>
+            <column name="strPropertyName">container</column>
         </table>
         <table name="itemprops">
             <column name="nID">9</column>
-            <column name="strPropertyName">impermeável</column>
+            <column name="strPropertyName">waterproof</column>
         </table>
         <table name="itemprops">
             <column name="nID">10</column>

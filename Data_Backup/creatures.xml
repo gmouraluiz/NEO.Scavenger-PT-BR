@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -59,7 +59,7 @@
         </table>
         <table name="creatures">
             <column name="id">2</column>
-            <column name="strName">Saqueador</column>
+            <column name="strName">Looter</column>
             <column name="strNamePublic">Stranger</column>
             <column name="strNotes">Biddy personality</column>
             <column name="strImg">CreHuman.png</column>
@@ -149,7 +149,7 @@
         </table>
         <table name="creatures">
             <column name="id">8</column>
-            <column name="strName">Cervo</column>
+            <column name="strName">Deer</column>
             <column name="strNamePublic">Deer</column>
             <column name="strNotes"></column>
             <column name="strImg">CreDeerDoe.png</column>
@@ -179,9 +179,9 @@
         </table>
         <table name="creatures">
             <column name="id">10</column>
-            <column name="strName">Saqueador</column>
+            <column name="strName">Looter</column>
             <column name="strNamePublic">Stranger</column>
-            <column name="strNotes">Personalidade Desonesta</column>
+            <column name="strNotes">Shifty personality</column>
             <column name="strImg">CreHuman.png</column>
             <column name="vEncounterIDs">1334,1384,1394,1400,2238</column>
             <column name="nMovesPerTurn">4</column>

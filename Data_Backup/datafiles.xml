@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -37,21 +37,21 @@
         <table name="datafiles">
             <column name="id">1</column>
             <column name="strName">Database</column>
-            <column name="strDesc">O livro de endereços pessoal de alguém</column>
+            <column name="strDesc">Someone's personal address book</column>
             <column name="fValue">1</column>
             <column name="strImg">ItmDataDB.png</column>
         </table>
         <table name="datafiles">
             <column name="id">2</column>
             <column name="strName">Database</column>
-            <column name="strDesc">Registos, endereços e informações de contato dos funcionários corporativos</column>
+            <column name="strDesc">Corporate employee records, addresses, and contact info</column>
             <column name="fValue">4</column>
             <column name="strImg">ItmDataDB.png</column>
         </table>
         <table name="datafiles">
             <column name="id">3</column>
             <column name="strName">Database</column>
-            <column name="strDesc">Horário das aulas de outono</column>
+            <column name="strDesc">Fall class schedule</column>
             <column name="fValue">0</column>
             <column name="strImg">ItmDataDB.png</column>
         </table>

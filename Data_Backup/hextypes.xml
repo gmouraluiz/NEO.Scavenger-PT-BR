@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -47,7 +47,7 @@
         <!-- Table hextypes -->
         <table name="hextypes">
             <column name="id">1</column>
-            <column name="strName">Oceano</column>
+            <column name="strName">ocean</column>
             <column name="strDesc">deep water</column>
             <column name="nTerrainCost">11</column>
             <column name="nVizLimiter">0</column>
@@ -65,8 +65,8 @@
         </table>
         <table name="hextypes">
             <column name="id">2</column>
-            <column name="strName">Litoral/Costa</column>
-            <column name="strDesc">águas rasas</column>
+            <column name="strName">coast</column>
+            <column name="strDesc">shallow water</column>
             <column name="nTerrainCost">11</column>
             <column name="nVizLimiter">0</column>
             <column name="nVizIncrease">0</column>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -109,8 +109,8 @@
             <column name="id">2</column>
             <column name="nGroupID">11</column>
             <column name="nSubgroupID">3</column>
-            <column name="strName">garrafa</column>
-            <column name="strDesc">urna de prata</column>
+            <column name="strName">bottle</column>
+            <column name="strDesc">silver urn</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmHermeticVial.png</column>
@@ -148,8 +148,8 @@
             <column name="id">3</column>
             <column name="nGroupID">13</column>
             <column name="nSubgroupID">0</column>
-            <column name="strName">galho</column>
-            <column name="strDesc">galho médio</column>
+            <column name="strName">branch</column>
+            <column name="strDesc">medium-sized branch from a tree</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmStick.png,ItmStickHeld.png</column>
@@ -655,8 +655,8 @@
             <column name="id">16</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">0</column>
-            <column name="strName">Habilidade: hacking</column>
-            <column name="strDesc">habilidade na manipulação de computadores</column>
+            <column name="strName">skill: hacking</column>
+            <column name="strDesc">skill at manipulating computers</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillHak.png</column>
@@ -694,8 +694,8 @@
             <column name="id">17</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">1</column>
-            <column name="strName">Habilidade: Médico</column>
-            <column name="strDesc">taxa de cicatrização melhorada através de treinamento de procedimentos e técnicas de esterilização, barras estatísticas mais detalhadas na tela Condições</column>
+            <column name="strName">skill: medic</column>
+            <column name="strDesc">improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillMed.png</column>
@@ -733,8 +733,8 @@
             <column name="id">18</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">2</column>
-            <column name="strName">Habilidade: Esconder</column>
-            <column name="strDesc">A capacidade de esconder é mais efetiva, ganha estatística de ocultação do campo visível na tela Camp</column>
+            <column name="strName">skill: hiding</column>
+            <column name="strDesc">ability to hide is more effective, camp concealment stat visible on Camp screen</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillHid.png</column>
@@ -772,8 +772,8 @@
             <column name="id">19</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">3</column>
-            <column name="strName">Habilidade: Briga</column>
-            <column name="strDesc">maior chance de acertos em combate corpo a corpo, maior gravidade nas feridas, melhor defesa no combate, pode usar a perna em combate</column>
+            <column name="strName">skill: melee</column>
+            <column name="strDesc">better chance to hit in melee combat, higher wound severity, better defense in combat, can leg trip in combat</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillCbt.png</column>
@@ -1357,8 +1357,8 @@
             <column name="id">34</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">4</column>
-            <column name="strName">Habilidade: Olho de Águia</column>
-            <column name="strDesc">pode ver um distancia maior do que o normal, luz e linha de visão permitindo, e pode detectar coisas ocultas mais facilmente</column>
+            <column name="strName">skill: eagle eye</column>
+            <column name="strDesc">can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillEagleEye.png</column>
@@ -2176,8 +2176,8 @@
             <column name="id">55</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">5</column>
-            <column name="strName">Habilidade: Rastreamento</column>
-            <column name="strDesc">pode detectar rastros/pegadas mais antigas do que o normal e pode ocultar rastros/pegadas de forma mais eficaz</column>
+            <column name="strName">skill: tracking</column>
+            <column name="strDesc">can spot older tracks than normal, and can hide tracks more effectively</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillTrk.png</column>
@@ -2215,8 +2215,8 @@
             <column name="id">56</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">6</column>
-            <column name="strName">Habilidade: Atletismo</column>
-            <column name="strDesc">menos fadiga por movimento, pode fugir mais rápido na batalha, pode avançar no mapa antes que os movimentos da corrida se esgotem</column>
+            <column name="strName">skill: athletics</column>
+            <column name="strDesc">less fatigue per move, can run away faster in battle, can run further on map before run moves deplete</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillAth.png</column>
@@ -2332,8 +2332,8 @@
             <column name="id">59</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">7</column>
-            <column name="strName">Habilidade: Metabolismo Lento</column>
-            <column name="strDesc">Taxas de ingestão de alimentos e água reduzidas, taxas de cicatrização ligeiramente reduzidas</column>
+            <column name="strName">skill: slow metabolism</column>
+            <column name="strDesc">food and water intake rates reduced, healing rates slightly reduced</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillMtb.png</column>
@@ -2371,8 +2371,8 @@
             <column name="id">60</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">8</column>
-            <column name="strName">Habilidade: Forte</column>
-            <column name="strDesc">pode carregar mais sem ser sobrecarregar, ataques corpo a corpo são mais prejudiciais, pode criar obstáculos em combate</column>
+            <column name="strName">skill: strong</column>
+            <column name="strDesc">can carry more without being encumbered, melee attacks are more damaging, can create obstacle in combat</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillStr.png</column>
@@ -2605,8 +2605,8 @@
             <column name="id">66</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">9</column>
-            <column name="strName">Habilidade: Resistente</column>
-            <column name="strDesc">maior limiar de dor, eficácia do sistema imunológico e resistência a feridas, pode dar cabeça em combate</column>
+            <column name="strName">skill: tough</column>
+            <column name="strDesc">higher pain threshold, immune system effectiveness, and resistance to wounds, can headbutt in combat</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillTuf.png</column>
@@ -2839,8 +2839,8 @@
             <column name="id">72</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">10</column>
-            <column name="strName">Habilidade: Visão noturna</column>
-            <column name="strDesc">pode ver melhor em áreas escuras</column>
+            <column name="strName">skill: night vision</column>
+            <column name="strDesc">can see better in dark areas</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillNightVision.png</column>
@@ -3619,8 +3619,8 @@
             <column name="id">92</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">11</column>
-            <column name="strName">Habilidade: Sobrevivência</column>
-            <column name="strDesc">pode aprisionar e preparar animais, aumenta a quantidade de carne e peles adquiridas, Desbloqueia (Alerta)</column>
+            <column name="strName">skill: trapping</column>
+            <column name="strDesc">can trap and prepare animals</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillTrapping.png</column>
@@ -3658,8 +3658,8 @@
             <column name="id">93</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">12</column>
-            <column name="strName">Habilidade: botânica</column>
-            <column name="strDesc">conhecimento de ervas, fungos e outras plantas úteis</column>
+            <column name="strName">skill: botany</column>
+            <column name="strDesc">knowledge of herbs, fungi, and other useful plants</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillBotany.png</column>
@@ -3697,8 +3697,8 @@
             <column name="id">94</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">13</column>
-            <column name="strName">Habilidade: Desbloqueio</column>
-            <column name="strDesc">conhecimento em ignorar bloqueios e outros dispositivos de segurança</column>
+            <column name="strName">skill: lockpicking</column>
+            <column name="strDesc">knowledge in bypassing locks and other security devices</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillLockpicking.png</column>
@@ -3736,8 +3736,8 @@
             <column name="id">95</column>
             <column name="nGroupID">91</column>
             <column name="nSubgroupID">14</column>
-            <column name="strName">Habilidade: Eletricista</column>
-            <column name="strDesc">conhecimento de sistemas e componentes eletrônicos</column>
+            <column name="strName">skill: electrician</column>
+            <column name="strDesc">knowledge of electronic systems and components</column>
             <column name="strDescAlt"></column>
             <column name="nCondID">1</column>
             <column name="vImageList">ItmSkillElectrician.png</column>

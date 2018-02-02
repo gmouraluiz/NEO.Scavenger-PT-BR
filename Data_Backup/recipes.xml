@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -48,7 +48,7 @@
         <!-- Table recipes -->
         <table name="recipes">
             <column name="nID">1</column>
-            <column name="strName">fogueira média (acesa)</column>
+            <column name="strName">medium campfire (lit)</column>
             <column name="strSecretName"></column>
             <column name="strTools">1x1</column>
             <column name="strConsumed">1x2+1x3</column>
@@ -67,7 +67,7 @@
         </table>
         <table name="recipes">
             <column name="nID">2</column>
-            <column name="strName">fogueira pequena (acesa)</column>
+            <column name="strName">small campfire (lit)</column>
             <column name="strSecretName"></column>
             <column name="strTools">1x1</column>
             <column name="strConsumed">1x2</column>
@@ -86,7 +86,7 @@
         </table>
         <table name="recipes">
             <column name="nID">3</column>
-            <column name="strName">água esterilizada (pílula)</column>
+            <column name="strName">sterilized water (pill)</column>
             <column name="strSecretName">sterilized water (pill) (pure)</column>
             <column name="strTools"></column>
             <column name="strConsumed">1x4+1x5</column>
@@ -105,7 +105,7 @@
         </table>
         <table name="recipes">
             <column name="nID">4</column>
-            <column name="strName">água esterilizada (fervida)</column>
+            <column name="strName">sterilized water (boiled)</column>
             <column name="strSecretName">sterilized water (boiled) (pure)</column>
             <column name="strTools">1x6+1x7</column>
             <column name="strConsumed">1x4</column>

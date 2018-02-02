@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -47,7 +47,7 @@
         <!-- Table attackmodes -->
         <table name="attackmodes">
             <column name="id">1</column>
-            <column name="strName">Soco</column>
+            <column name="strName">punch</column>
             <column name="strNotes"></column>
             <column name="nRange">1</column>
             <column name="fDamageCut">0</column>
@@ -60,7 +60,7 @@
             <column name="vAttackerConditions"></column>
             <column name="strIMG">AModePunch.png</column>
             <column name="fMorale">0.05</column>
-            <column name="strWieldPhrase">Levanta os punhos, pronto para lutar</column>
+            <column name="strWieldPhrase">raises their fists, ready to fight</column>
             <column name="vAttackPhrases">swings at,jabs at,roundhouses,gut-punches</column>
         </table>
         <table name="attackmodes">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -69,7 +69,7 @@
         </table>
         <table name="treasuretable">
             <column name="id">5</column>
-            <column name="strName">kit médico</column>
+            <column name="strName">medical kit</column>
             <column name="aTreasures">94.2x1.0x1-1,11.6x0.5x1-1,11.5x1.0x1-1</column>
             <column name="bNested">1</column>
             <column name="bSuppress">0</column>
@@ -93,7 +93,7 @@
         </table>
         <table name="treasuretable">
             <column name="id">8</column>
-            <column name="strName">fogueira média</column>
+            <column name="strName">medium campfire</column>
             <column name="aTreasures">97.0x1.0x1-1</column>
             <column name="bNested">0</column>
             <column name="bSuppress">0</column>

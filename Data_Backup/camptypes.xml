@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -65,7 +65,7 @@
         </table>
         <table name="camptypes">
             <column name="id">3</column>
-            <column name="strDesc">O Bosque</column>
+            <column name="strDesc">the woods</column>
             <column name="vImageList">ItmScavengeForest01.png</column>
             <column name="aCapacities">22x26</column>
             <column name="nTreasureID">3</column>
@@ -89,7 +89,7 @@
         </table>
         <table name="camptypes">
             <column name="id">5</column>
-            <column name="strDesc">Um apartamento queimado</column>
+            <column name="strDesc">a burned-out apartment</column>
             <column name="vImageList">ItmScavengeApt01.png</column>
             <column name="aCapacities">20x25</column>
             <column name="nTreasureID">3</column>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -110,7 +110,7 @@ Chance of being detected if hidden.</column>
         <table name="battlemoves">
             <column name="id">2</column>
             <column name="strID">90.33</column>
-            <column name="strName">Ataque corpo a corpo</column>
+            <column name="strName">Melee Attack</column>
             <column name="strNotes"></column>
             <column name="strSuccess">&lt;us&gt; attacks &lt;them&gt;...and hits!</column>
             <column name="strFail">&lt;us&gt; tries to attack &lt;them&gt;...but misses!</column>
@@ -152,7 +152,7 @@ High chance of being detected if hidden.</column>
         <table name="battlemoves">
             <column name="id">3</column>
             <column name="strID">90.32</column>
-            <column name="strName">Abrigar-se</column>
+            <column name="strName">Take Cover</column>
             <column name="strNotes"></column>
             <column name="strSuccess">&lt;us&gt; takes cover from &lt;them&gt;.</column>
             <column name="strFail"></column>

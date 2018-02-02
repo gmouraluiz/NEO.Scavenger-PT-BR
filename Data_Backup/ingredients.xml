@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -35,19 +35,19 @@
         <!-- Table ingredients -->
         <table name="ingredients">
             <column name="nID">1</column>
-            <column name="strName">fonte de chama</column>
+            <column name="strName">flame source</column>
             <column name="strRequiredProps">3</column>
             <column name="strForbidProps"></column>
         </table>
         <table name="ingredients">
             <column name="nID">2</column>
-            <column name="strName">gravetos</column>
+            <column name="strName">kindling</column>
             <column name="strRequiredProps">1</column>
             <column name="strForbidProps"></column>
         </table>
         <table name="ingredients">
             <column name="nID">3</column>
-            <column name="strName">combustível de fogo médio</column>
+            <column name="strName">medium fire fuel</column>
             <column name="strRequiredProps">16&amp;46</column>
             <column name="strForbidProps">1</column>
         </table>

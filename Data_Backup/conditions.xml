@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -75,8 +75,8 @@
         </table>
         <table name="conditions">
             <column name="id">2</column>
-            <column name="strName">Morreu de fome</column>
-            <column name="strDesc">&lt;Nos&gt; starved to death.</column>
+            <column name="strName">Starved to death</column>
+            <column name="strDesc">&lt;us&gt; starved to death.</column>
             <column name="aFieldNames"></column>
             <column name="aModifiers">0</column>
             <column name="aEffects"></column>
