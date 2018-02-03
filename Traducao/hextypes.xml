@@ -174,7 +174,7 @@
         <table name="hextypes"><!-- 174 NumeroDaLinhaReal-->
             <column name="id">8</column><!-- 175 NumeroDaLinhaReal-->
             <column name="strName">suburban ruins</column><!-- 176 NumeroDaLinhaReal-->
-            <column name="strDesc">abandoned houses and trailers</column><!-- 177 NumeroDaLinhaReal-->
+            <column name="strDesc">casas abandonadas e trailers</column><!-- 177 NumeroDaLinhaReal-->
             <column name="nTerrainCost">1</column><!-- 178 NumeroDaLinhaReal-->
             <column name="nVizLimiter">1</column><!-- 179 NumeroDaLinhaReal-->
             <column name="nVizIncrease">0</column><!-- 180 NumeroDaLinhaReal-->
@@ -192,7 +192,7 @@
         <table name="hextypes"><!-- 192 NumeroDaLinhaReal-->
             <column name="id">9</column><!-- 193 NumeroDaLinhaReal-->
             <column name="strName">cryo facility</column><!-- 194 NumeroDaLinhaReal-->
-            <column name="strDesc">cryogenics lab where player wakes up</column><!-- 195 NumeroDaLinhaReal-->
+            <column name="strDesc">Laboratorio de criogenia onde o jogador acordou</column><!-- 195 NumeroDaLinhaReal-->
             <column name="nTerrainCost">1</column><!-- 196 NumeroDaLinhaReal-->
             <column name="nVizLimiter">2</column><!-- 197 NumeroDaLinhaReal-->
             <column name="nVizIncrease">0</column><!-- 198 NumeroDaLinhaReal-->

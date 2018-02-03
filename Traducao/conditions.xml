@@ -4859,8 +4859,8 @@
         </table><!-- 4859 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 4860 NumeroDaLinhaReal-->
             <column name="id">210</column><!-- 4861 NumeroDaLinhaReal-->
-            <column name="strName">Barefoot</column><!-- 4862 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is barefoot, and cannot travel as easily.</column><!-- 4863 NumeroDaLinhaReal-->
+            <column name="strName">Descalco</column><!-- 4862 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta com os pes descalcos e nao pode viajar tao facilmente.</column><!-- 4863 NumeroDaLinhaReal-->
             <column name="aFieldNames">fMovesPerTurnModifier</column><!-- 4864 NumeroDaLinhaReal-->
             <column name="aModifiers">-1</column><!-- 4865 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 4866 NumeroDaLinhaReal-->
@@ -16474,8 +16474,8 @@
         </table><!-- 16474 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 16475 NumeroDaLinhaReal-->
             <column name="id">715</column><!-- 16476 NumeroDaLinhaReal-->
-            <column name="strName">Improper Footwear</column><!-- 16477 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing improper footwear, and is uncomfortable.</column><!-- 16478 NumeroDaLinhaReal-->
+            <column name="strName">Calcado improprio</column><!-- 16477 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo calcado improprio, e esta desconfortavel.</column><!-- 16478 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fPain</column><!-- 16479 NumeroDaLinhaReal-->
             <column name="aModifiers">0.05</column><!-- 16480 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 16481 NumeroDaLinhaReal-->
