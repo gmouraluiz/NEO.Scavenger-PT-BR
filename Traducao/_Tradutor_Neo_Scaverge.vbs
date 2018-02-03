@@ -1,5 +1,7 @@
 Option Explicit
 
+'Wscript.echo Line
+
 attackmodes()
 Sub attackmodes()
 	Const WindowsFolder = 0
@@ -461,12 +463,53 @@ Sub encounters()
 		ElseIf (NumberLine = 58) Then
 			Line = Replace(Line, "Blank", "Em Branco")
 		ElseIf (NumberLine = 84) Then
-			Line = Replace(Line, "Wake up in cryo facility", "Acorde em crio facilidade")
+			Line = Replace(Line, "Wake up in cryo facility", "Voce acordou em uma camera da Crio-Sono")
+		ElseIf (NumberLine = 85) Then
+			Line = Replace(Line, "You wake up disoriented, slumped over the base of an empty cryosleep pod, still damp from cryo fluid. The thick dust from the floor clings to your skin, leaving a clean spot on the ground, where a large &quot;05&quot; is painted", "Voce acorda desorientado, caiu sobre a base de uma vagem de Crio-Sono vazia, ainda umida de fluidos da Crio-Sono. A poeira espessa do chao se agarra a sua pele, limpando um pouco o chao, onde um grande &quot;05&quot; esta pintado")
+			Line = Replace(Line, "Across the room, there is an open door to the hallway, and a broken window leading outside.", "Do outro lado da sala, ha uma porta aberta para o corredor, e uma janela quebrada levando para fora.")
+			Line = Replace(Line, "Just as you gather your wits, an unearthly scream erupts from down the hall beyond the doorway. Something is coming. Fast", "Assim como voce recobra a sua inteligencia, um grito sobrenatural entra em erupcao pelo corredor alem da entrada. Algo esta chegando. Rapido...")
+		ElseIf (NumberLine = 90) Then
+			Wscript.echo Line
 		ElseIf (NumberLine = 140) Then
 			Line = Replace(Line, "Use knowledge of plants", "Use conhecimento de plantas")
-
-
-
+		ElseIf (NumberLine = 3182) Then
+			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
+		ElseIf (NumberLine = 3183) Then
+			Line = Replace(Line, "You instinctively drop to a defensive stance as it bursts into the room.", "Voce instintivamente deixa uma posicao defensiva quando explode na sala.")
+		ElseIf (NumberLine = 3185) Then
+			Line = Replace(Line, "The beast stands on its hind legs like a man, but has the appearance of a ragged, predatory dog. It looks right at you, and shrieks with a sound that freezes your blood.", "O animal esta em suas pernas traseiras como um homem, mas tem a aparencia de um cao rabugento e predatorio. Parece certo e grita com um som que congela seu sangue.")
+		ElseIf (NumberLine = 3187) Then
+			Line = Replace(Line, "Despite your fear, you put up a pretty good fight. You move like you've done this before, and avoid most of his lunges. You even manage to deliver a blow that sends the beast reeling in a haze.", "Apesar do seu medo, voce faz uma boa luta. Voce se move como se tivesse feito isso antes, e evite a maior parte de seus ataques. Você ate conseguiu dar um golpe que envia o animal cambaleando.")
+		ElseIf (NumberLine = 3189) Then
+			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and deliver a fatal blow with your knee.", "Aproveitando sua distracao, voce o mata no chao e comete um golpe fatal com seu joelho.")
+		ElseIf (NumberLine = 3191) Then
+			Line = Replace(Line, "Though wounded, at least you're alive.", "Embora esteja ferido, pelo menos voce esta vivo.")
+		ElseIf (NumberLine = 3216) Then
+			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
+		ElseIf (NumberLine = 3217) Then
+			Line = Replace(Line, "You steel your nerves, and decide to take this thing down, whatever it is. As you assume a defensive stance, it bursts into the room.", "Voce acelera seus nervos, e decide tirar essa coisa, seja la o que for. Quando voce assume uma posicao defensiva, ele explode na sala.")
+		ElseIf (NumberLine = 3219) Then
+			Line = Replace(Line, "The beast stands on its hind legs like a man, but has the appearance of a ragged, predatory dog. It looks right at you, shrieks, and lunges.", "O animal esta em suas pernas traseiras como um homem, mas tem a aparencia de um cao rabugento e predatorio. Aparece direto para voce, gritos e atacando.")
+		ElseIf (NumberLine = 3221) Then
+			Line = Replace(Line, "It connects with a force that jars you both, and the dogman actually has to step back to keep its balance.", "Ele se choca com uma forca que igual a sua, e o Lobisomem realmente tem que voltar para manter seu equilibrio.")
+		ElseIf (NumberLine = 3223) Then
+			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and grab his throat. His claws tear into your flesh as you crush his windpipe with every ounce of strength you have.", "Aproveitando sua distracao, voce bateu no chao e pega sua garganta. Suas garras rasgam sua carne enquanto esmagam sua traqueia com cada grama de forca que voc tem.")
+		ElseIf (NumberLine = 3225) Then
+			Line = Replace(Line, "Moments later, he stops moving. You realize it cost you some nasty wounds, but at least you're alive.", "Momentos depois, ele para de se mecher. Voce percebe que isso lhe custou feridas desagradaveis, mas pelo menos voce esta vivo.")
+		ElseIf (NumberLine = 43264) Then
+			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
+		ElseIf (NumberLine = 43265) Then
+			Line = Replace(Line, "You make it clear you're not going down without a fight, and wait for its next move.", "Voce deixa claro que nao vai sair sem lutar, e aguarda a proxima jogada.")
+		ElseIf (NumberLine = 43267) Then
+			Line = Replace(Line, "It doesn't come, though. It continues to stand there, staring at you.", "Nao vem, no entanto. Continua a ficar de pe, olhando para voce.")
+		ElseIf (NumberLine = 43269) Then
+			Line = Replace(Line, "However, whipping leaves and footfalls approach rapidly from the side, and something collides with you in the dirt.", "No entanto, chicoteando folhas e pisadas se aproximam rapidamente do lado, e algo colide com voce na sujeira.")
+		ElseIf (NumberLine = 43271) Then
+			Line = Replace(Line, "It has you. You can feel its grip on your arms, its weight on your back.", "Tem voce. Voce pode sentir seu aperto em seus bracos, seu peso nas costas.")
+			
+			
+			
+			
 			
 		End If 		
 		TempFile.WriteLine(Line)
