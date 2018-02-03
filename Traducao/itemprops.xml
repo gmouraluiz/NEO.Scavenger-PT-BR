@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,459 +9,459 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+<!-- 12 NumeroDaLinhaReal-->
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
     <!--
     - Structure schemas
     -->
-    <pma:structure_schemas>
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
-            <pma:table name="itemprops">
-                CREATE TABLE `itemprops` (
-                  `nID` int(11) NOT NULL AUTO_INCREMENT,
-                  `strPropertyName` varchar(255) NOT NULL,
-                  PRIMARY KEY (`nID`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=109 DEFAULT CHARSET=latin1;
-            </pma:table>
-        </pma:database>
-    </pma:structure_schemas>
-
+    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
+            <pma:table name="itemprops"><!-- 19 NumeroDaLinhaReal-->
+                CREATE TABLE `itemprops` (<!-- 20 NumeroDaLinhaReal-->
+                  `nID` int(11) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
+                  `strPropertyName` varchar(255) NOT NULL,<!-- 22 NumeroDaLinhaReal-->
+                  PRIMARY KEY (`nID`)<!-- 23 NumeroDaLinhaReal-->
+                ) ENGINE=InnoDB AUTO_INCREMENT=109 DEFAULT CHARSET=latin1;<!-- 24 NumeroDaLinhaReal-->
+            </pma:table><!-- 25 NumeroDaLinhaReal-->
+        </pma:database><!-- 26 NumeroDaLinhaReal-->
+    </pma:structure_schemas><!-- 27 NumeroDaLinhaReal-->
+<!-- 28 NumeroDaLinhaReal-->
     <!--
     - Database: 'neogame'
     -->
-    <database name="neogame">
+    <database name="neogame"><!-- 32 NumeroDaLinhaReal-->
         <!-- Table itemprops -->
-        <table name="itemprops">
-            <column name="nID">1</column>
-            <column name="strPropertyName">easily ignitable</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">2</column>
-            <column name="strPropertyName">optical zoom</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">3</column>
-            <column name="strPropertyName">igniter</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">4</column>
-            <column name="strPropertyName">tannin source</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">5</column>
-            <column name="strPropertyName">tool: Philips-head screwdriver</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">6</column>
-            <column name="strPropertyName">tool: flathead screwdriver</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">7</column>
-            <column name="strPropertyName">purificador de agua</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">8</column>
-            <column name="strPropertyName">recipiente</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">9</column>
-            <column name="strPropertyName">impermeavel</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">10</column>
-            <column name="strPropertyName">fireproof</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">11</column>
-            <column name="strPropertyName">hot</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">12</column>
-            <column name="strPropertyName">meat</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">13</column>
-            <column name="strPropertyName">shaft</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">14</column>
-            <column name="strPropertyName">nourishing</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">15</column>
-            <column name="strPropertyName">small</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">16</column>
-            <column name="strPropertyName">medium</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">17</column>
-            <column name="strPropertyName">large</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">18</column>
-            <column name="strPropertyName">sharp point</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">19</column>
-            <column name="strPropertyName">thread</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">20</column>
-            <column name="strPropertyName">furry</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">21</column>
-            <column name="strPropertyName">sharp edge</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">22</column>
-            <column name="strPropertyName">corpse</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">23</column>
-            <column name="strPropertyName">skill: trapping</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">24</column>
-            <column name="strPropertyName">biohazard</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">25</column>
-            <column name="strPropertyName">radioactive</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">26</column>
-            <column name="strPropertyName">poison</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">27</column>
-            <column name="strPropertyName">liquid</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">28</column>
-            <column name="strPropertyName">rigid</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">29</column>
-            <column name="strPropertyName">hydrator</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">30</column>
-            <column name="strPropertyName">.308 rifle</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">31</column>
-            <column name="strPropertyName">mechanical parts</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">32</column>
-            <column name="strPropertyName">monocular</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">33</column>
-            <column name="strPropertyName">binocular</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">34</column>
-            <column name="strPropertyName">skill: lockpicking</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">35</column>
-            <column name="strPropertyName">ash</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">36</column>
-            <column name="strPropertyName">sheet</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">37</column>
-            <column name="strPropertyName">absorbent</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">38</column>
-            <column name="strPropertyName">disinfectant</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">39</column>
-            <column name="strPropertyName">infinite</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">40</column>
-            <column name="strPropertyName">forest</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">41</column>
-            <column name="strPropertyName">skill: mechanic</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">42</column>
-            <column name="strPropertyName">HVAC (unheated)</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">43</column>
-            <column name="strPropertyName">electrical panel</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">44</column>
-            <column name="strPropertyName">skill: electrician</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">45</column>
-            <column name="strPropertyName">tool: lever grip/pliers</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">46</column>
-            <column name="strPropertyName">fire fuel</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">47</column>
-            <column name="strPropertyName">quality</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">48</column>
-            <column name="strPropertyName">solid (not liquid/gas/idea)</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">49</column>
-            <column name="strPropertyName">light source</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">50</column>
-            <column name="strPropertyName">handheld</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">51</column>
-            <column name="strPropertyName">skill: ranged</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">52</column>
-            <column name="strPropertyName">crowbar</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">53</column>
-            <column name="strPropertyName">caster wheel</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">54</column>
-            <column name="strPropertyName">basket</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">55</column>
-            <column name="strPropertyName">shopping cart frame</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">56</column>
-            <column name="strPropertyName">water</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">57</column>
-            <column name="strPropertyName">skill: botany</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">58</column>
-            <column name="strPropertyName">brittle</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">59</column>
-            <column name="strPropertyName">compound bow</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">60</column>
-            <column name="strPropertyName">flexible/springy</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">61</column>
-            <column name="strPropertyName">12-gauge shotgun</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">62</column>
-            <column name="strPropertyName">dogman</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">63</column>
-            <column name="strPropertyName">any combat skill</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">64</column>
-            <column name="strPropertyName">night vision</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">65</column>
-            <column name="strPropertyName">very large</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">66</column>
-            <column name="strPropertyName">raw</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">67</column>
-            <column name="strPropertyName">cured</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">68</column>
-            <column name="strPropertyName">strapped</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">69</column>
-            <column name="strPropertyName">iSlab</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">70</column>
-            <column name="strPropertyName">human</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">71</column>
-            <column name="strPropertyName">tool: water analyzer</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">72</column>
-            <column name="strPropertyName">identified</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">73</column>
-            <column name="strPropertyName">stuff Radiation Bob wants (big)</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">74</column>
-            <column name="strPropertyName">stuff Radiation Bob wants (small)</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">75</column>
-            <column name="strPropertyName">stuff Zom Zom's wants</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">76</column>
-            <column name="strPropertyName">ignore in crafting screen</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">77</column>
-            <column name="strPropertyName">AI never loots</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">78</column>
-            <column name="strPropertyName">AI never loots when player present</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">79</column>
-            <column name="strPropertyName">smartphone</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">80</column>
-            <column name="strPropertyName">SBS4 rifle</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">81</column>
-            <column name="strPropertyName">ignore in quick recipes</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">82</column>
-            <column name="strPropertyName">degrades silently when used</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">83</column>
-            <column name="strPropertyName">degrades silently when equipped</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">84</column>
-            <column name="strPropertyName">shoe</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">85</column>
-            <column name="strPropertyName">don't unsocket when surrendering</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">86</column>
-            <column name="strPropertyName">system object (e.g. GUI)</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">87</column>
-            <column name="strPropertyName">confiscated at ZZ's</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">88</column>
-            <column name="strPropertyName">ignore subgroup when stacking</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">89</column>
-            <column name="strPropertyName">4mm Gauss Rifle</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">90</column>
-            <column name="strPropertyName">high-energy capacitor</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">91</column>
-            <column name="strPropertyName">4mm Gauss gun barrel</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">92</column>
-            <column name="strPropertyName">4mm Gauss gun receiver</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">93</column>
-            <column name="strPropertyName">stage-switching circuit</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">94</column>
-            <column name="strPropertyName">charging circuit</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">95</column>
-            <column name="strPropertyName">wooden rifle stock</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">96</column>
-            <column name="strPropertyName">DMC drone wreckage</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">97</column>
-            <column name="strPropertyName">laptop battery</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">98</column>
-            <column name="strPropertyName">smudge stick</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">99</column>
-            <column name="strPropertyName">reflects EM waves</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">100</column>
-            <column name="strPropertyName">wire cutters</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">101</column>
-            <column name="strPropertyName">tracking device</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">102</column>
-            <column name="strPropertyName">vehicle too large to fit through fence breach</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">103</column>
-            <column name="strPropertyName">blue jeans</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">104</column>
-            <column name="strPropertyName">battery</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">105</column>
-            <column name="strPropertyName">sunlight</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">106</column>
-            <column name="strPropertyName">focusing lens or reflector</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">107</column>
-            <column name="strPropertyName">sleeping bag</column>
-        </table>
-        <table name="itemprops">
-            <column name="nID">108</column>
-            <column name="strPropertyName">small-medium</column>
-        </table>
-    </database>
-</pma_xml_export>
+        <table name="itemprops"><!-- 34 NumeroDaLinhaReal-->
+            <column name="nID">1</column><!-- 35 NumeroDaLinhaReal-->
+            <column name="strPropertyName">easily ignitable</column><!-- 36 NumeroDaLinhaReal-->
+        </table><!-- 37 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 38 NumeroDaLinhaReal-->
+            <column name="nID">2</column><!-- 39 NumeroDaLinhaReal-->
+            <column name="strPropertyName">optical zoom</column><!-- 40 NumeroDaLinhaReal-->
+        </table><!-- 41 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 42 NumeroDaLinhaReal-->
+            <column name="nID">3</column><!-- 43 NumeroDaLinhaReal-->
+            <column name="strPropertyName">igniter</column><!-- 44 NumeroDaLinhaReal-->
+        </table><!-- 45 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 46 NumeroDaLinhaReal-->
+            <column name="nID">4</column><!-- 47 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tannin source</column><!-- 48 NumeroDaLinhaReal-->
+        </table><!-- 49 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 50 NumeroDaLinhaReal-->
+            <column name="nID">5</column><!-- 51 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tool: Philips-head screwdriver</column><!-- 52 NumeroDaLinhaReal-->
+        </table><!-- 53 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 54 NumeroDaLinhaReal-->
+            <column name="nID">6</column><!-- 55 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tool: flathead screwdriver</column><!-- 56 NumeroDaLinhaReal-->
+        </table><!-- 57 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 58 NumeroDaLinhaReal-->
+            <column name="nID">7</column><!-- 59 NumeroDaLinhaReal-->
+            <column name="strPropertyName">purificador de agua</column><!-- 60 NumeroDaLinhaReal-->
+        </table><!-- 61 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 62 NumeroDaLinhaReal-->
+            <column name="nID">8</column><!-- 63 NumeroDaLinhaReal-->
+            <column name="strPropertyName">recipiente</column><!-- 64 NumeroDaLinhaReal-->
+        </table><!-- 65 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 66 NumeroDaLinhaReal-->
+            <column name="nID">9</column><!-- 67 NumeroDaLinhaReal-->
+            <column name="strPropertyName">impermeavel</column><!-- 68 NumeroDaLinhaReal-->
+        </table><!-- 69 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 70 NumeroDaLinhaReal-->
+            <column name="nID">10</column><!-- 71 NumeroDaLinhaReal-->
+            <column name="strPropertyName">fireproof</column><!-- 72 NumeroDaLinhaReal-->
+        </table><!-- 73 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 74 NumeroDaLinhaReal-->
+            <column name="nID">11</column><!-- 75 NumeroDaLinhaReal-->
+            <column name="strPropertyName">hot</column><!-- 76 NumeroDaLinhaReal-->
+        </table><!-- 77 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 78 NumeroDaLinhaReal-->
+            <column name="nID">12</column><!-- 79 NumeroDaLinhaReal-->
+            <column name="strPropertyName">meat</column><!-- 80 NumeroDaLinhaReal-->
+        </table><!-- 81 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 82 NumeroDaLinhaReal-->
+            <column name="nID">13</column><!-- 83 NumeroDaLinhaReal-->
+            <column name="strPropertyName">shaft</column><!-- 84 NumeroDaLinhaReal-->
+        </table><!-- 85 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 86 NumeroDaLinhaReal-->
+            <column name="nID">14</column><!-- 87 NumeroDaLinhaReal-->
+            <column name="strPropertyName">nourishing</column><!-- 88 NumeroDaLinhaReal-->
+        </table><!-- 89 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 90 NumeroDaLinhaReal-->
+            <column name="nID">15</column><!-- 91 NumeroDaLinhaReal-->
+            <column name="strPropertyName">small</column><!-- 92 NumeroDaLinhaReal-->
+        </table><!-- 93 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 94 NumeroDaLinhaReal-->
+            <column name="nID">16</column><!-- 95 NumeroDaLinhaReal-->
+            <column name="strPropertyName">medium</column><!-- 96 NumeroDaLinhaReal-->
+        </table><!-- 97 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 98 NumeroDaLinhaReal-->
+            <column name="nID">17</column><!-- 99 NumeroDaLinhaReal-->
+            <column name="strPropertyName">large</column><!-- 100 NumeroDaLinhaReal-->
+        </table><!-- 101 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 102 NumeroDaLinhaReal-->
+            <column name="nID">18</column><!-- 103 NumeroDaLinhaReal-->
+            <column name="strPropertyName">sharp point</column><!-- 104 NumeroDaLinhaReal-->
+        </table><!-- 105 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 106 NumeroDaLinhaReal-->
+            <column name="nID">19</column><!-- 107 NumeroDaLinhaReal-->
+            <column name="strPropertyName">thread</column><!-- 108 NumeroDaLinhaReal-->
+        </table><!-- 109 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 110 NumeroDaLinhaReal-->
+            <column name="nID">20</column><!-- 111 NumeroDaLinhaReal-->
+            <column name="strPropertyName">furry</column><!-- 112 NumeroDaLinhaReal-->
+        </table><!-- 113 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 114 NumeroDaLinhaReal-->
+            <column name="nID">21</column><!-- 115 NumeroDaLinhaReal-->
+            <column name="strPropertyName">sharp edge</column><!-- 116 NumeroDaLinhaReal-->
+        </table><!-- 117 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 118 NumeroDaLinhaReal-->
+            <column name="nID">22</column><!-- 119 NumeroDaLinhaReal-->
+            <column name="strPropertyName">corpse</column><!-- 120 NumeroDaLinhaReal-->
+        </table><!-- 121 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 122 NumeroDaLinhaReal-->
+            <column name="nID">23</column><!-- 123 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: trapping</column><!-- 124 NumeroDaLinhaReal-->
+        </table><!-- 125 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 126 NumeroDaLinhaReal-->
+            <column name="nID">24</column><!-- 127 NumeroDaLinhaReal-->
+            <column name="strPropertyName">biohazard</column><!-- 128 NumeroDaLinhaReal-->
+        </table><!-- 129 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 130 NumeroDaLinhaReal-->
+            <column name="nID">25</column><!-- 131 NumeroDaLinhaReal-->
+            <column name="strPropertyName">radioactive</column><!-- 132 NumeroDaLinhaReal-->
+        </table><!-- 133 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 134 NumeroDaLinhaReal-->
+            <column name="nID">26</column><!-- 135 NumeroDaLinhaReal-->
+            <column name="strPropertyName">poison</column><!-- 136 NumeroDaLinhaReal-->
+        </table><!-- 137 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 138 NumeroDaLinhaReal-->
+            <column name="nID">27</column><!-- 139 NumeroDaLinhaReal-->
+            <column name="strPropertyName">liquid</column><!-- 140 NumeroDaLinhaReal-->
+        </table><!-- 141 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 142 NumeroDaLinhaReal-->
+            <column name="nID">28</column><!-- 143 NumeroDaLinhaReal-->
+            <column name="strPropertyName">rigid</column><!-- 144 NumeroDaLinhaReal-->
+        </table><!-- 145 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 146 NumeroDaLinhaReal-->
+            <column name="nID">29</column><!-- 147 NumeroDaLinhaReal-->
+            <column name="strPropertyName">hydrator</column><!-- 148 NumeroDaLinhaReal-->
+        </table><!-- 149 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 150 NumeroDaLinhaReal-->
+            <column name="nID">30</column><!-- 151 NumeroDaLinhaReal-->
+            <column name="strPropertyName">.308 rifle</column><!-- 152 NumeroDaLinhaReal-->
+        </table><!-- 153 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 154 NumeroDaLinhaReal-->
+            <column name="nID">31</column><!-- 155 NumeroDaLinhaReal-->
+            <column name="strPropertyName">mechanical parts</column><!-- 156 NumeroDaLinhaReal-->
+        </table><!-- 157 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 158 NumeroDaLinhaReal-->
+            <column name="nID">32</column><!-- 159 NumeroDaLinhaReal-->
+            <column name="strPropertyName">monocular</column><!-- 160 NumeroDaLinhaReal-->
+        </table><!-- 161 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 162 NumeroDaLinhaReal-->
+            <column name="nID">33</column><!-- 163 NumeroDaLinhaReal-->
+            <column name="strPropertyName">binocular</column><!-- 164 NumeroDaLinhaReal-->
+        </table><!-- 165 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 166 NumeroDaLinhaReal-->
+            <column name="nID">34</column><!-- 167 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: lockpicking</column><!-- 168 NumeroDaLinhaReal-->
+        </table><!-- 169 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 170 NumeroDaLinhaReal-->
+            <column name="nID">35</column><!-- 171 NumeroDaLinhaReal-->
+            <column name="strPropertyName">ash</column><!-- 172 NumeroDaLinhaReal-->
+        </table><!-- 173 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 174 NumeroDaLinhaReal-->
+            <column name="nID">36</column><!-- 175 NumeroDaLinhaReal-->
+            <column name="strPropertyName">sheet</column><!-- 176 NumeroDaLinhaReal-->
+        </table><!-- 177 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 178 NumeroDaLinhaReal-->
+            <column name="nID">37</column><!-- 179 NumeroDaLinhaReal-->
+            <column name="strPropertyName">absorbent</column><!-- 180 NumeroDaLinhaReal-->
+        </table><!-- 181 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 182 NumeroDaLinhaReal-->
+            <column name="nID">38</column><!-- 183 NumeroDaLinhaReal-->
+            <column name="strPropertyName">disinfectant</column><!-- 184 NumeroDaLinhaReal-->
+        </table><!-- 185 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 186 NumeroDaLinhaReal-->
+            <column name="nID">39</column><!-- 187 NumeroDaLinhaReal-->
+            <column name="strPropertyName">infinite</column><!-- 188 NumeroDaLinhaReal-->
+        </table><!-- 189 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 190 NumeroDaLinhaReal-->
+            <column name="nID">40</column><!-- 191 NumeroDaLinhaReal-->
+            <column name="strPropertyName">forest</column><!-- 192 NumeroDaLinhaReal-->
+        </table><!-- 193 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 194 NumeroDaLinhaReal-->
+            <column name="nID">41</column><!-- 195 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: mechanic</column><!-- 196 NumeroDaLinhaReal-->
+        </table><!-- 197 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 198 NumeroDaLinhaReal-->
+            <column name="nID">42</column><!-- 199 NumeroDaLinhaReal-->
+            <column name="strPropertyName">HVAC (unheated)</column><!-- 200 NumeroDaLinhaReal-->
+        </table><!-- 201 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 202 NumeroDaLinhaReal-->
+            <column name="nID">43</column><!-- 203 NumeroDaLinhaReal-->
+            <column name="strPropertyName">electrical panel</column><!-- 204 NumeroDaLinhaReal-->
+        </table><!-- 205 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 206 NumeroDaLinhaReal-->
+            <column name="nID">44</column><!-- 207 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: electrician</column><!-- 208 NumeroDaLinhaReal-->
+        </table><!-- 209 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 210 NumeroDaLinhaReal-->
+            <column name="nID">45</column><!-- 211 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tool: lever grip/pliers</column><!-- 212 NumeroDaLinhaReal-->
+        </table><!-- 213 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 214 NumeroDaLinhaReal-->
+            <column name="nID">46</column><!-- 215 NumeroDaLinhaReal-->
+            <column name="strPropertyName">fire fuel</column><!-- 216 NumeroDaLinhaReal-->
+        </table><!-- 217 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 218 NumeroDaLinhaReal-->
+            <column name="nID">47</column><!-- 219 NumeroDaLinhaReal-->
+            <column name="strPropertyName">quality</column><!-- 220 NumeroDaLinhaReal-->
+        </table><!-- 221 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 222 NumeroDaLinhaReal-->
+            <column name="nID">48</column><!-- 223 NumeroDaLinhaReal-->
+            <column name="strPropertyName">solid (not liquid/gas/idea)</column><!-- 224 NumeroDaLinhaReal-->
+        </table><!-- 225 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 226 NumeroDaLinhaReal-->
+            <column name="nID">49</column><!-- 227 NumeroDaLinhaReal-->
+            <column name="strPropertyName">light source</column><!-- 228 NumeroDaLinhaReal-->
+        </table><!-- 229 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 230 NumeroDaLinhaReal-->
+            <column name="nID">50</column><!-- 231 NumeroDaLinhaReal-->
+            <column name="strPropertyName">handheld</column><!-- 232 NumeroDaLinhaReal-->
+        </table><!-- 233 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 234 NumeroDaLinhaReal-->
+            <column name="nID">51</column><!-- 235 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: ranged</column><!-- 236 NumeroDaLinhaReal-->
+        </table><!-- 237 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 238 NumeroDaLinhaReal-->
+            <column name="nID">52</column><!-- 239 NumeroDaLinhaReal-->
+            <column name="strPropertyName">crowbar</column><!-- 240 NumeroDaLinhaReal-->
+        </table><!-- 241 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 242 NumeroDaLinhaReal-->
+            <column name="nID">53</column><!-- 243 NumeroDaLinhaReal-->
+            <column name="strPropertyName">caster wheel</column><!-- 244 NumeroDaLinhaReal-->
+        </table><!-- 245 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 246 NumeroDaLinhaReal-->
+            <column name="nID">54</column><!-- 247 NumeroDaLinhaReal-->
+            <column name="strPropertyName">basket</column><!-- 248 NumeroDaLinhaReal-->
+        </table><!-- 249 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 250 NumeroDaLinhaReal-->
+            <column name="nID">55</column><!-- 251 NumeroDaLinhaReal-->
+            <column name="strPropertyName">shopping cart frame</column><!-- 252 NumeroDaLinhaReal-->
+        </table><!-- 253 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 254 NumeroDaLinhaReal-->
+            <column name="nID">56</column><!-- 255 NumeroDaLinhaReal-->
+            <column name="strPropertyName">water</column><!-- 256 NumeroDaLinhaReal-->
+        </table><!-- 257 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 258 NumeroDaLinhaReal-->
+            <column name="nID">57</column><!-- 259 NumeroDaLinhaReal-->
+            <column name="strPropertyName">skill: botany</column><!-- 260 NumeroDaLinhaReal-->
+        </table><!-- 261 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 262 NumeroDaLinhaReal-->
+            <column name="nID">58</column><!-- 263 NumeroDaLinhaReal-->
+            <column name="strPropertyName">brittle</column><!-- 264 NumeroDaLinhaReal-->
+        </table><!-- 265 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 266 NumeroDaLinhaReal-->
+            <column name="nID">59</column><!-- 267 NumeroDaLinhaReal-->
+            <column name="strPropertyName">compound bow</column><!-- 268 NumeroDaLinhaReal-->
+        </table><!-- 269 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 270 NumeroDaLinhaReal-->
+            <column name="nID">60</column><!-- 271 NumeroDaLinhaReal-->
+            <column name="strPropertyName">flexible/springy</column><!-- 272 NumeroDaLinhaReal-->
+        </table><!-- 273 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 274 NumeroDaLinhaReal-->
+            <column name="nID">61</column><!-- 275 NumeroDaLinhaReal-->
+            <column name="strPropertyName">12-gauge shotgun</column><!-- 276 NumeroDaLinhaReal-->
+        </table><!-- 277 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 278 NumeroDaLinhaReal-->
+            <column name="nID">62</column><!-- 279 NumeroDaLinhaReal-->
+            <column name="strPropertyName">dogman</column><!-- 280 NumeroDaLinhaReal-->
+        </table><!-- 281 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 282 NumeroDaLinhaReal-->
+            <column name="nID">63</column><!-- 283 NumeroDaLinhaReal-->
+            <column name="strPropertyName">any combat skill</column><!-- 284 NumeroDaLinhaReal-->
+        </table><!-- 285 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 286 NumeroDaLinhaReal-->
+            <column name="nID">64</column><!-- 287 NumeroDaLinhaReal-->
+            <column name="strPropertyName">night vision</column><!-- 288 NumeroDaLinhaReal-->
+        </table><!-- 289 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 290 NumeroDaLinhaReal-->
+            <column name="nID">65</column><!-- 291 NumeroDaLinhaReal-->
+            <column name="strPropertyName">very large</column><!-- 292 NumeroDaLinhaReal-->
+        </table><!-- 293 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 294 NumeroDaLinhaReal-->
+            <column name="nID">66</column><!-- 295 NumeroDaLinhaReal-->
+            <column name="strPropertyName">raw</column><!-- 296 NumeroDaLinhaReal-->
+        </table><!-- 297 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 298 NumeroDaLinhaReal-->
+            <column name="nID">67</column><!-- 299 NumeroDaLinhaReal-->
+            <column name="strPropertyName">cured</column><!-- 300 NumeroDaLinhaReal-->
+        </table><!-- 301 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 302 NumeroDaLinhaReal-->
+            <column name="nID">68</column><!-- 303 NumeroDaLinhaReal-->
+            <column name="strPropertyName">strapped</column><!-- 304 NumeroDaLinhaReal-->
+        </table><!-- 305 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 306 NumeroDaLinhaReal-->
+            <column name="nID">69</column><!-- 307 NumeroDaLinhaReal-->
+            <column name="strPropertyName">iSlab</column><!-- 308 NumeroDaLinhaReal-->
+        </table><!-- 309 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 310 NumeroDaLinhaReal-->
+            <column name="nID">70</column><!-- 311 NumeroDaLinhaReal-->
+            <column name="strPropertyName">human</column><!-- 312 NumeroDaLinhaReal-->
+        </table><!-- 313 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 314 NumeroDaLinhaReal-->
+            <column name="nID">71</column><!-- 315 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tool: water analyzer</column><!-- 316 NumeroDaLinhaReal-->
+        </table><!-- 317 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 318 NumeroDaLinhaReal-->
+            <column name="nID">72</column><!-- 319 NumeroDaLinhaReal-->
+            <column name="strPropertyName">identified</column><!-- 320 NumeroDaLinhaReal-->
+        </table><!-- 321 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 322 NumeroDaLinhaReal-->
+            <column name="nID">73</column><!-- 323 NumeroDaLinhaReal-->
+            <column name="strPropertyName">stuff Radiation Bob wants (big)</column><!-- 324 NumeroDaLinhaReal-->
+        </table><!-- 325 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 326 NumeroDaLinhaReal-->
+            <column name="nID">74</column><!-- 327 NumeroDaLinhaReal-->
+            <column name="strPropertyName">stuff Radiation Bob wants (small)</column><!-- 328 NumeroDaLinhaReal-->
+        </table><!-- 329 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 330 NumeroDaLinhaReal-->
+            <column name="nID">75</column><!-- 331 NumeroDaLinhaReal-->
+            <column name="strPropertyName">stuff Zom Zom's wants</column><!-- 332 NumeroDaLinhaReal-->
+        </table><!-- 333 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 334 NumeroDaLinhaReal-->
+            <column name="nID">76</column><!-- 335 NumeroDaLinhaReal-->
+            <column name="strPropertyName">ignore in crafting screen</column><!-- 336 NumeroDaLinhaReal-->
+        </table><!-- 337 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 338 NumeroDaLinhaReal-->
+            <column name="nID">77</column><!-- 339 NumeroDaLinhaReal-->
+            <column name="strPropertyName">AI never loots</column><!-- 340 NumeroDaLinhaReal-->
+        </table><!-- 341 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 342 NumeroDaLinhaReal-->
+            <column name="nID">78</column><!-- 343 NumeroDaLinhaReal-->
+            <column name="strPropertyName">AI never loots when player present</column><!-- 344 NumeroDaLinhaReal-->
+        </table><!-- 345 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 346 NumeroDaLinhaReal-->
+            <column name="nID">79</column><!-- 347 NumeroDaLinhaReal-->
+            <column name="strPropertyName">smartphone</column><!-- 348 NumeroDaLinhaReal-->
+        </table><!-- 349 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 350 NumeroDaLinhaReal-->
+            <column name="nID">80</column><!-- 351 NumeroDaLinhaReal-->
+            <column name="strPropertyName">SBS4 rifle</column><!-- 352 NumeroDaLinhaReal-->
+        </table><!-- 353 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 354 NumeroDaLinhaReal-->
+            <column name="nID">81</column><!-- 355 NumeroDaLinhaReal-->
+            <column name="strPropertyName">ignore in quick recipes</column><!-- 356 NumeroDaLinhaReal-->
+        </table><!-- 357 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 358 NumeroDaLinhaReal-->
+            <column name="nID">82</column><!-- 359 NumeroDaLinhaReal-->
+            <column name="strPropertyName">degrades silently when used</column><!-- 360 NumeroDaLinhaReal-->
+        </table><!-- 361 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 362 NumeroDaLinhaReal-->
+            <column name="nID">83</column><!-- 363 NumeroDaLinhaReal-->
+            <column name="strPropertyName">degrades silently when equipped</column><!-- 364 NumeroDaLinhaReal-->
+        </table><!-- 365 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 366 NumeroDaLinhaReal-->
+            <column name="nID">84</column><!-- 367 NumeroDaLinhaReal-->
+            <column name="strPropertyName">shoe</column><!-- 368 NumeroDaLinhaReal-->
+        </table><!-- 369 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 370 NumeroDaLinhaReal-->
+            <column name="nID">85</column><!-- 371 NumeroDaLinhaReal-->
+            <column name="strPropertyName">don't unsocket when surrendering</column><!-- 372 NumeroDaLinhaReal-->
+        </table><!-- 373 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 374 NumeroDaLinhaReal-->
+            <column name="nID">86</column><!-- 375 NumeroDaLinhaReal-->
+            <column name="strPropertyName">system object (e.g. GUI)</column><!-- 376 NumeroDaLinhaReal-->
+        </table><!-- 377 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 378 NumeroDaLinhaReal-->
+            <column name="nID">87</column><!-- 379 NumeroDaLinhaReal-->
+            <column name="strPropertyName">confiscated at ZZ's</column><!-- 380 NumeroDaLinhaReal-->
+        </table><!-- 381 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 382 NumeroDaLinhaReal-->
+            <column name="nID">88</column><!-- 383 NumeroDaLinhaReal-->
+            <column name="strPropertyName">ignore subgroup when stacking</column><!-- 384 NumeroDaLinhaReal-->
+        </table><!-- 385 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 386 NumeroDaLinhaReal-->
+            <column name="nID">89</column><!-- 387 NumeroDaLinhaReal-->
+            <column name="strPropertyName">4mm Gauss Rifle</column><!-- 388 NumeroDaLinhaReal-->
+        </table><!-- 389 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 390 NumeroDaLinhaReal-->
+            <column name="nID">90</column><!-- 391 NumeroDaLinhaReal-->
+            <column name="strPropertyName">high-energy capacitor</column><!-- 392 NumeroDaLinhaReal-->
+        </table><!-- 393 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 394 NumeroDaLinhaReal-->
+            <column name="nID">91</column><!-- 395 NumeroDaLinhaReal-->
+            <column name="strPropertyName">4mm Gauss gun barrel</column><!-- 396 NumeroDaLinhaReal-->
+        </table><!-- 397 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 398 NumeroDaLinhaReal-->
+            <column name="nID">92</column><!-- 399 NumeroDaLinhaReal-->
+            <column name="strPropertyName">4mm Gauss gun receiver</column><!-- 400 NumeroDaLinhaReal-->
+        </table><!-- 401 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 402 NumeroDaLinhaReal-->
+            <column name="nID">93</column><!-- 403 NumeroDaLinhaReal-->
+            <column name="strPropertyName">stage-switching circuit</column><!-- 404 NumeroDaLinhaReal-->
+        </table><!-- 405 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 406 NumeroDaLinhaReal-->
+            <column name="nID">94</column><!-- 407 NumeroDaLinhaReal-->
+            <column name="strPropertyName">charging circuit</column><!-- 408 NumeroDaLinhaReal-->
+        </table><!-- 409 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 410 NumeroDaLinhaReal-->
+            <column name="nID">95</column><!-- 411 NumeroDaLinhaReal-->
+            <column name="strPropertyName">wooden rifle stock</column><!-- 412 NumeroDaLinhaReal-->
+        </table><!-- 413 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 414 NumeroDaLinhaReal-->
+            <column name="nID">96</column><!-- 415 NumeroDaLinhaReal-->
+            <column name="strPropertyName">DMC drone wreckage</column><!-- 416 NumeroDaLinhaReal-->
+        </table><!-- 417 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 418 NumeroDaLinhaReal-->
+            <column name="nID">97</column><!-- 419 NumeroDaLinhaReal-->
+            <column name="strPropertyName">laptop battery</column><!-- 420 NumeroDaLinhaReal-->
+        </table><!-- 421 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 422 NumeroDaLinhaReal-->
+            <column name="nID">98</column><!-- 423 NumeroDaLinhaReal-->
+            <column name="strPropertyName">smudge stick</column><!-- 424 NumeroDaLinhaReal-->
+        </table><!-- 425 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 426 NumeroDaLinhaReal-->
+            <column name="nID">99</column><!-- 427 NumeroDaLinhaReal-->
+            <column name="strPropertyName">reflects EM waves</column><!-- 428 NumeroDaLinhaReal-->
+        </table><!-- 429 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 430 NumeroDaLinhaReal-->
+            <column name="nID">100</column><!-- 431 NumeroDaLinhaReal-->
+            <column name="strPropertyName">wire cutters</column><!-- 432 NumeroDaLinhaReal-->
+        </table><!-- 433 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 434 NumeroDaLinhaReal-->
+            <column name="nID">101</column><!-- 435 NumeroDaLinhaReal-->
+            <column name="strPropertyName">tracking device</column><!-- 436 NumeroDaLinhaReal-->
+        </table><!-- 437 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 438 NumeroDaLinhaReal-->
+            <column name="nID">102</column><!-- 439 NumeroDaLinhaReal-->
+            <column name="strPropertyName">vehicle too large to fit through fence breach</column><!-- 440 NumeroDaLinhaReal-->
+        </table><!-- 441 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 442 NumeroDaLinhaReal-->
+            <column name="nID">103</column><!-- 443 NumeroDaLinhaReal-->
+            <column name="strPropertyName">blue jeans</column><!-- 444 NumeroDaLinhaReal-->
+        </table><!-- 445 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 446 NumeroDaLinhaReal-->
+            <column name="nID">104</column><!-- 447 NumeroDaLinhaReal-->
+            <column name="strPropertyName">battery</column><!-- 448 NumeroDaLinhaReal-->
+        </table><!-- 449 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 450 NumeroDaLinhaReal-->
+            <column name="nID">105</column><!-- 451 NumeroDaLinhaReal-->
+            <column name="strPropertyName">sunlight</column><!-- 452 NumeroDaLinhaReal-->
+        </table><!-- 453 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 454 NumeroDaLinhaReal-->
+            <column name="nID">106</column><!-- 455 NumeroDaLinhaReal-->
+            <column name="strPropertyName">focusing lens or reflector</column><!-- 456 NumeroDaLinhaReal-->
+        </table><!-- 457 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 458 NumeroDaLinhaReal-->
+            <column name="nID">107</column><!-- 459 NumeroDaLinhaReal-->
+            <column name="strPropertyName">sleeping bag</column><!-- 460 NumeroDaLinhaReal-->
+        </table><!-- 461 NumeroDaLinhaReal-->
+        <table name="itemprops"><!-- 462 NumeroDaLinhaReal-->
+            <column name="nID">108</column><!-- 463 NumeroDaLinhaReal-->
+            <column name="strPropertyName">small-medium</column><!-- 464 NumeroDaLinhaReal-->
+        </table><!-- 465 NumeroDaLinhaReal-->
+    </database><!-- 466 NumeroDaLinhaReal-->
+</pma_xml_export><!-- 467 NumeroDaLinhaReal-->

@@ -1,7 +1,5 @@
 Option Explicit
 
-'Wscript.echo Line
-
 attackmodes()
 Sub attackmodes()
 	Const WindowsFolder = 0
@@ -12,6 +10,7 @@ Sub attackmodes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("attackmodes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -22,10 +21,19 @@ Sub attackmodes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -58,6 +66,7 @@ Sub battlemoves()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("battlemoves.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -68,10 +77,19 @@ Sub battlemoves()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -102,6 +120,7 @@ Sub camptypes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("camptypes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -112,10 +131,19 @@ Sub camptypes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -146,6 +174,7 @@ Sub chargeprofiles()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("chargeprofiles.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -156,10 +185,19 @@ Sub chargeprofiles()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -194,6 +232,7 @@ Sub conditions()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("conditions.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -204,10 +243,19 @@ Sub conditions()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -257,6 +305,7 @@ Sub containertypes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("containertypes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -267,10 +316,19 @@ Sub containertypes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -302,6 +360,7 @@ Sub creatures()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("creatures.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -312,10 +371,19 @@ Sub creatures()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -349,6 +417,7 @@ Sub creaturesources()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("creaturesources.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -359,10 +428,19 @@ Sub creaturesources()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -395,6 +473,7 @@ Sub datafiles()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("datafiles.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -405,10 +484,19 @@ Sub datafiles()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -433,6 +521,8 @@ End Sub
 
 'dmcplaces S/Texto para traduzir
 
+'Obs: este é o unico arquivo que é dificil verificar pela numero de linhas porque ele se perde por causa dos \r que tem no codigo
+'Antes de começar a traduzir fazer um procedimento na qual tira todos os \r do texto, para voce não ver a linha errada
 encounters()
 Sub encounters()
 	Const WindowsFolder = 0
@@ -443,6 +533,7 @@ Sub encounters()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("encounters.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -453,10 +544,19 @@ Sub encounters()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -468,43 +568,52 @@ Sub encounters()
 			Line = Replace(Line, "You wake up disoriented, slumped over the base of an empty cryosleep pod, still damp from cryo fluid. The thick dust from the floor clings to your skin, leaving a clean spot on the ground, where a large &quot;05&quot; is painted", "Voce acorda desorientado, caiu sobre a base de uma vagem de Crio-Sono vazia, ainda umida de fluidos da Crio-Sono. A poeira espessa do chao se agarra a sua pele, limpando um pouco o chao, onde um grande &quot;05&quot; esta pintado")
 			Line = Replace(Line, "Across the room, there is an open door to the hallway, and a broken window leading outside.", "Do outro lado da sala, ha uma porta aberta para o corredor, e uma janela quebrada levando para fora.")
 			Line = Replace(Line, "Just as you gather your wits, an unearthly scream erupts from down the hall beyond the doorway. Something is coming. Fast", "Assim como voce recobra a sua inteligencia, um grito sobrenatural entra em erupcao pelo corredor alem da entrada. Algo esta chegando. Rapido...")
-		ElseIf (NumberLine = 90) Then
-			Wscript.echo Line
-		ElseIf (NumberLine = 140) Then
+		ElseIf (NumberLine = 110) Then			
+			Line = Replace(Line, "Hack the door to stay shut.", "Hackear a porta para que ela se feche.")
+		ElseIf (NumberLine = 111) Then
+			Line = Replace(Line, "Using a common maintenance override code, you switch the door controls into maintenance mode, forcing the door closed and locked. The creature howls madly, slams into the door, and rams it a few times, before its muffled sounds recede again.", "Usando um codigo comum de substituicao de manutencao, voce alterna os controles da porta para o modo de manutencao, forcando a porta fechada e ficar bloqueada. A criatura uiva loucamente, bate na porta e encaminha algumas vezes, antes que seus sons abafados recuem de novo.")
+		ElseIf (NumberLine = 136) Then
 			Line = Replace(Line, "Use knowledge of plants", "Use conhecimento de plantas")
-		ElseIf (NumberLine = 3182) Then
+		ElseIf (NumberLine = 137) Then
+			Line = Replace(Line, "A plant catches your eye as you scan the room for supplies. Ricinus communis, the castor oil plant, is growing in from the window. You remember that this plant can be highly toxic, and most animals will avoid it if possible.", "Uma planta chama sua atencao quando voce digitaliza a sala para obter suprimentos. Ricinus communis, oque fabrica de oleo de mamona, esta crescendo na janela. Voce lembra que esta planta pode ser altamente toxica, e a maioria dos animais evitara, se possivel.")
+			Line = Replace(Line, "Breaking off some branches, you quickly stomp on the leaves and seeds, rubbing the fragments on your feet and hands. You scatter the rest in the doorway just in time.", "Rompendo alguns ramos, voce pisa rapidamente as folhas e as sementes, esfregando os fragmentos nos pes e nas maos. Voce espalhou o resto na entrada apenas a tempo.")
+			Line = Replace(Line, "The predatory dog-like creature comes to a halt as it reaches the doorway, sniffing the plants, and shaking its head in disgust. You thrust your hands toward it, and it steps back further, obviously uninterested in your toxic scent.", "A criatura predadora de um tipo de cachorro, para quando atinge a entrada, cheirando as plantas e sacudindo a cabeca com desgosto. Voce empurre suas maos em direcao a ele, e volta para tras, obviamente desinteressado em seu cheiro toxico.")
+			Line = Replace(Line, "With one more huff, it pads down the hall, looking for more palatable prey.", "Com mais um suspiro, ele penetra no corredor, procurando presas mais palataveis.")	
+		ElseIf (NumberLine = 188) Then
+			Line = Replace(Line, "The dogman is dead, now what?", "O Lobisomem esta morto, agora o que?")
+		ElseIf (NumberLine = 189) Then
+			Line = Replace(Line, "With the rush of adrenaline fading, you turn your attention back to this strange room.", "Com a adrenalina baixando, voce volta sua atencao para essa sala estranha.")
+			Line = Replace(Line, "You should probably finish up here, in case there are more of those things.", "Voce provavelmente deveria sair daqui, caso existam mais dessas coisas.")
+		ElseIf (NumberLine = 240) Then
+			Line = Replace(Line, "Find someplace to hide.", "Encontrar algum lugar para se esconder.")
+		ElseIf (NumberLine = 241) Then
+			Line = Replace(Line, "You quickly scan the room for a hiding place, and duck behind the cryo tank nearest the window. Hopefully the light from outdoors will make it harder to see you in the nearby shadow. And with most of the room smelling of cryoprotectants, you stand a pretty good chance of having your scent masked.", "Voce rapidamente escaneia a sala a procura de um esconderijo e encontra um atras do tanque Crio-Sono mais proximo da janela. Espero que a luz do exterior ajude e torne mais dificil ve-lo nas sombras proximas. E com a maioria do lugar cheirando ao liquido do Crio-Sono, voce tem uma otima chance de ter seu aroma mascarado.")
+			Line = Replace(Line, "You hold your breath as something enters the room. Its heavy breathing becomes more nasal as it begins sniffing the air. The sniffing grows closer, but continues further into the room. It lets out an annoyed bark, huffs, and starts sniffing back into the hall.", "Voce prende a respiracao enquanto algo entra na sala. A criatura chega com sua respiracao pesada, e com o tempo torna-se mais calma quando comeca a cheirar o ar. O cheiro se aproxima, mas continua mais na sala. Ele solta um resmungo irritado, e comeca a cheirar de volta ao corredor.")
+			Line = Replace(Line, "A few minutes later, you're pretty sure it's out of earshot again.", "Alguns minutos depois, voce tem certeza de que a criatura esta fora do alcance dos seus ouvido novamente.")
+		ElseIf (NumberLine = 396) Then
+			Line = Replace(Line, "Rig the door to stay shut.", "Fechar a porta com seus conhecimentos de Eletricista.")
+		ElseIf (NumberLine = 397) Then
+			Line = Replace(Line, "Using a common maintenance override code, you switch the door controls into maintenance mode, forcing the door closed and locked. The creature howls madly, slams into the door, and rams it a few times, before its muffled sounds recede again.", "Usando um codigo comum de substituicao de manutencao, voce alterna os controles da porta para o modo de manutencao, forcando a porta a se fechar. A criatura uiva loucamente, bate na porta e a forcando algumas vezes, e depois de um tempo seus sons abafados recuam.")
+		ElseIf (NumberLine = 2814) Then
 			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
-		ElseIf (NumberLine = 3183) Then
+		ElseIf (NumberLine = 2815) Then
 			Line = Replace(Line, "You instinctively drop to a defensive stance as it bursts into the room.", "Voce instintivamente deixa uma posicao defensiva quando explode na sala.")
-		ElseIf (NumberLine = 3185) Then
 			Line = Replace(Line, "The beast stands on its hind legs like a man, but has the appearance of a ragged, predatory dog. It looks right at you, and shrieks with a sound that freezes your blood.", "O animal esta em suas pernas traseiras como um homem, mas tem a aparencia de um cao rabugento e predatorio. Parece certo e grita com um som que congela seu sangue.")
-		ElseIf (NumberLine = 3187) Then
-			Line = Replace(Line, "Despite your fear, you put up a pretty good fight. You move like you've done this before, and avoid most of his lunges. You even manage to deliver a blow that sends the beast reeling in a haze.", "Apesar do seu medo, voce faz uma boa luta. Voce se move como se tivesse feito isso antes, e evite a maior parte de seus ataques. Você ate conseguiu dar um golpe que envia o animal cambaleando.")
-		ElseIf (NumberLine = 3189) Then
-			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and deliver a fatal blow with your knee.", "Aproveitando sua distracao, voce o mata no chao e comete um golpe fatal com seu joelho.")
-		ElseIf (NumberLine = 3191) Then
+			Line = Replace(Line, "Despite your fear, you put up a pretty good fight. You move like you've done this before, and avoid most of his lunges. You even manage to deliver a blow that sends the beast reeling in a haze.", "Apesar do seu medo, voce faz uma boa luta. Voce se move como se tivesse feito isso antes, e evite a maior parte de seus ataques. Voce ate conseguiu dar um golpe que envia o animal cambaleando.")
+			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and deliver a fatal blow with your knee.", "Aproveitando sua distracao, voce o mata no chao com um golpe fatal com seu joelho.")
 			Line = Replace(Line, "Though wounded, at least you're alive.", "Embora esteja ferido, pelo menos voce esta vivo.")
-		ElseIf (NumberLine = 3216) Then
+		ElseIf (NumberLine = 2840) Then
 			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
-		ElseIf (NumberLine = 3217) Then
 			Line = Replace(Line, "You steel your nerves, and decide to take this thing down, whatever it is. As you assume a defensive stance, it bursts into the room.", "Voce acelera seus nervos, e decide tirar essa coisa, seja la o que for. Quando voce assume uma posicao defensiva, ele explode na sala.")
-		ElseIf (NumberLine = 3219) Then
 			Line = Replace(Line, "The beast stands on its hind legs like a man, but has the appearance of a ragged, predatory dog. It looks right at you, shrieks, and lunges.", "O animal esta em suas pernas traseiras como um homem, mas tem a aparencia de um cao rabugento e predatorio. Aparece direto para voce, gritos e atacando.")
-		ElseIf (NumberLine = 3221) Then
-			Line = Replace(Line, "It connects with a force that jars you both, and the dogman actually has to step back to keep its balance.", "Ele se choca com uma forca que igual a sua, e o Lobisomem realmente tem que voltar para manter seu equilibrio.")
-		ElseIf (NumberLine = 3223) Then
+			Line = Replace(Line, "It connects with a force that jars you both, and the dogman actually has to step back to keep its balance.", "Ele se choca com uma forca que igual a sua, e o Lobisomem realmente tem que voltar para manter seu equilibrio.")		
 			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and grab his throat. His claws tear into your flesh as you crush his windpipe with every ounce of strength you have.", "Aproveitando sua distracao, voce bateu no chao e pega sua garganta. Suas garras rasgam sua carne enquanto esmagam sua traqueia com cada grama de forca que voc tem.")
-		ElseIf (NumberLine = 3225) Then
 			Line = Replace(Line, "Moments later, he stops moving. You realize it cost you some nasty wounds, but at least you're alive.", "Momentos depois, ele para de se mecher. Voce percebe que isso lhe custou feridas desagradaveis, mas pelo menos voce esta vivo.")
-		ElseIf (NumberLine = 43264) Then
+		ElseIf (NumberLine = 37812) Then
 			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
-		ElseIf (NumberLine = 43265) Then
 			Line = Replace(Line, "You make it clear you're not going down without a fight, and wait for its next move.", "Voce deixa claro que nao vai sair sem lutar, e aguarda a proxima jogada.")
-		ElseIf (NumberLine = 43267) Then
 			Line = Replace(Line, "It doesn't come, though. It continues to stand there, staring at you.", "Nao vem, no entanto. Continua a ficar de pe, olhando para voce.")
-		ElseIf (NumberLine = 43269) Then
 			Line = Replace(Line, "However, whipping leaves and footfalls approach rapidly from the side, and something collides with you in the dirt.", "No entanto, chicoteando folhas e pisadas se aproximam rapidamente do lado, e algo colide com voce na sujeira.")
-		ElseIf (NumberLine = 43271) Then
 			Line = Replace(Line, "It has you. You can feel its grip on your arms, its weight on your back.", "Tem voce. Voce pode sentir seu aperto em seus bracos, seu peso nas costas.")
 			
 			
@@ -530,6 +639,7 @@ Sub encountertriggers()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("encountertriggers.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -540,10 +650,19 @@ Sub encountertriggers()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -576,6 +695,7 @@ Sub factions()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("factions.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -586,10 +706,19 @@ Sub factions()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -626,6 +755,7 @@ Sub headlines()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("headlines.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -636,10 +766,19 @@ Sub headlines()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -672,6 +811,7 @@ Sub hextypes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("hextypes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -682,10 +822,19 @@ Sub hextypes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -718,6 +867,7 @@ Sub ingredients()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("ingredients.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -728,10 +878,19 @@ Sub ingredients()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -764,6 +923,7 @@ Sub itemprops()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("itemprops.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -774,10 +934,19 @@ Sub itemprops()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -810,6 +979,7 @@ Sub itemtypes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("itemtypes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -820,11 +990,20 @@ Sub itemtypes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
-		'Traducao das Linhas			
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
+		'Traducao das Linhas	
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 112) Then
@@ -995,6 +1174,7 @@ Sub recipes()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("recipes.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -1005,10 +1185,19 @@ Sub recipes()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1043,6 +1232,7 @@ Sub treasuretable()
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
+	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile("treasuretable.xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
@@ -1053,10 +1243,19 @@ Sub treasuretable()
 	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
 	Set OriginalFile = FileSystem.OpenTextFile(Filename)
 	 NumberLine = 0
+	 IgnoreLinhaNumero = True
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
-		
+		If InStr(Line, "<!--") > 0 Then
+			IgnoreLinhaNumero = False
+		End If		
+		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
+			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
+		End If
+		If InStr(Line, "-->") > 0 Then
+			IgnoreLinhaNumero = True
+		End If
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1078,4 +1277,5 @@ Sub treasuretable()
 	FileSystem.DeleteFile TempFilename
 End Sub
 
+Wscript.echo "Sucesso: Arquivos traduzidos"
 Wscript.Quit

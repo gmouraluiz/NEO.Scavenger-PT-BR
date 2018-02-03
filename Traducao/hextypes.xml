@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,707 +9,707 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+<!-- 12 NumeroDaLinhaReal-->
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
     <!--
     - Structure schemas
     -->
-    <pma:structure_schemas>
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
-            <pma:table name="hextypes">
-                CREATE TABLE `hextypes` (
-                  `id` int(2) NOT NULL AUTO_INCREMENT,
-                  `strName` varchar(255) NOT NULL,
-                  `strDesc` longtext NOT NULL,
-                  `nTerrainCost` int(2) NOT NULL,
-                  `nVizLimiter` int(2) NOT NULL,
-                  `nVizIncrease` int(2) NOT NULL,
-                  `nTreasureID` int(3) NOT NULL,
-                  `bPassable` tinyint(1) NOT NULL,
-                  `nScavengeInitialID` int(4) NOT NULL DEFAULT '3',
-                  `nScavengeItemsIDPerHour` int(4) NOT NULL DEFAULT '25',
-                  `nCampItems` int(2) NOT NULL DEFAULT '5',
-                  `vLightLevels` varchar(255) NOT NULL DEFAULT '0.57,1.0,0.57,0.15',
-                  `nDefaultCampID` int(5) NOT NULL DEFAULT '517',
-                  `nMinRange` int(3) NOT NULL DEFAULT '3',
-                  `nMaxRange` int(3) NOT NULL DEFAULT '6',
-                  `vCondIDs` varchar(255) NOT NULL,
-                  PRIMARY KEY (`id`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
-            </pma:table>
-        </pma:database>
-    </pma:structure_schemas>
-
+    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
+            <pma:table name="hextypes"><!-- 19 NumeroDaLinhaReal-->
+                CREATE TABLE `hextypes` (<!-- 20 NumeroDaLinhaReal-->
+                  `id` int(2) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
+                  `strName` varchar(255) NOT NULL,<!-- 22 NumeroDaLinhaReal-->
+                  `strDesc` longtext NOT NULL,<!-- 23 NumeroDaLinhaReal-->
+                  `nTerrainCost` int(2) NOT NULL,<!-- 24 NumeroDaLinhaReal-->
+                  `nVizLimiter` int(2) NOT NULL,<!-- 25 NumeroDaLinhaReal-->
+                  `nVizIncrease` int(2) NOT NULL,<!-- 26 NumeroDaLinhaReal-->
+                  `nTreasureID` int(3) NOT NULL,<!-- 27 NumeroDaLinhaReal-->
+                  `bPassable` tinyint(1) NOT NULL,<!-- 28 NumeroDaLinhaReal-->
+                  `nScavengeInitialID` int(4) NOT NULL DEFAULT '3',<!-- 29 NumeroDaLinhaReal-->
+                  `nScavengeItemsIDPerHour` int(4) NOT NULL DEFAULT '25',<!-- 30 NumeroDaLinhaReal-->
+                  `nCampItems` int(2) NOT NULL DEFAULT '5',<!-- 31 NumeroDaLinhaReal-->
+                  `vLightLevels` varchar(255) NOT NULL DEFAULT '0.57,1.0,0.57,0.15',<!-- 32 NumeroDaLinhaReal-->
+                  `nDefaultCampID` int(5) NOT NULL DEFAULT '517',<!-- 33 NumeroDaLinhaReal-->
+                  `nMinRange` int(3) NOT NULL DEFAULT '3',<!-- 34 NumeroDaLinhaReal-->
+                  `nMaxRange` int(3) NOT NULL DEFAULT '6',<!-- 35 NumeroDaLinhaReal-->
+                  `vCondIDs` varchar(255) NOT NULL,<!-- 36 NumeroDaLinhaReal-->
+                  PRIMARY KEY (`id`)<!-- 37 NumeroDaLinhaReal-->
+                ) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;<!-- 38 NumeroDaLinhaReal-->
+            </pma:table><!-- 39 NumeroDaLinhaReal-->
+        </pma:database><!-- 40 NumeroDaLinhaReal-->
+    </pma:structure_schemas><!-- 41 NumeroDaLinhaReal-->
+<!-- 42 NumeroDaLinhaReal-->
     <!--
     - Database: 'neogame'
     -->
-    <database name="neogame">
+    <database name="neogame"><!-- 46 NumeroDaLinhaReal-->
         <!-- Table hextypes -->
-        <table name="hextypes">
-            <column name="id">1</column>
-            <column name="strName">Oceano</column>
-            <column name="strDesc">deep water</column>
-            <column name="nTerrainCost">11</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">20</column>
-            <column name="nMaxRange">40</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">2</column>
-            <column name="strName">Litoral/Costa</column>
-            <column name="strDesc">aguas rasas</column>
-            <column name="nTerrainCost">11</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">20</column>
-            <column name="nMaxRange">40</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">3</column>
-            <column name="strName">sand</column>
-            <column name="strDesc">flat area of dirt</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">22</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">20</column>
-            <column name="nMaxRange">40</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">4</column>
-            <column name="strName">plains</column>
-            <column name="strDesc">flat grassland</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">1</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">20</column>
-            <column name="nMaxRange">30</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">5</column>
-            <column name="strName">forest</column>
-            <column name="strDesc">forested area</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">7</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">578</column>
-            <column name="nScavengeItemsIDPerHour">28</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.25,1.0,1.0,1.0,0.25,0.15</column>
-            <column name="nDefaultCampID">519</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">5</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">6</column>
-            <column name="strName">hill</column>
-            <column name="strDesc">hills or foothills</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">1</column>
-            <column name="nTreasureID">149</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">7</column>
-            <column name="strName">mountain</column>
-            <column name="strDesc">high mountains</column>
-            <column name="nTerrainCost">11</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">8</column>
-            <column name="strName">suburban ruins</column>
-            <column name="strDesc">abandoned houses and trailers</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">1</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">49</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">726</column>
-            <column name="nScavengeItemsIDPerHour">27</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">521</column>
-            <column name="nMinRange">4</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">9</column>
-            <column name="strName">cryo facility</column>
-            <column name="strDesc">cryogenics lab where player wakes up</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">164</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">575</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">2</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">10</column>
-            <column name="strName">urban ruins (skyscraper)</column>
-            <column name="strDesc">abandoned high-rise buildings</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">6</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">727</column>
-            <column name="nScavengeItemsIDPerHour">25</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column>
-            <column name="nDefaultCampID">523</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">11</column>
-            <column name="strName">forest shack</column>
-            <column name="strDesc">secluded shack in the woods</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">7</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">580</column>
-            <column name="nScavengeItemsIDPerHour">30</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.25,1.0,1.0,1.0,0.25,0.15</column>
-            <column name="nDefaultCampID">525</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">5</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">12</column>
-            <column name="strName">urban ruins</column>
-            <column name="strDesc">abandoned buildings</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">6</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">727</column>
-            <column name="nScavengeItemsIDPerHour">25</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column>
-            <column name="nDefaultCampID">527</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">13</column>
-            <column name="strName">megacity walls N</column>
-            <column name="strDesc">megacity walls N</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">14</column>
-            <column name="strName">tent city</column>
-            <column name="strDesc">tent city</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">500</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">4</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column>
-            <column name="nDefaultCampID">755</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">15</column>
-            <column name="strName">tent city bazaar</column>
-            <column name="strDesc">tent city bazaar</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs">457</column>
-        </table>
-        <table name="hextypes">
-            <column name="id">16</column>
-            <column name="strName">rubble</column>
-            <column name="strDesc">piles of rubble from what was a city</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">22</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">725</column>
-            <column name="nScavengeItemsIDPerHour">25</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">17</column>
-            <column name="strName">megacity gates</column>
-            <column name="strDesc">megacity gates</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">18</column>
-            <column name="strName">megacity walls SE</column>
-            <column name="strDesc">megacity walls SE</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">19</column>
-            <column name="strName">megacity walls NE/N</column>
-            <column name="strDesc">megacity walls NE/N</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">20</column>
-            <column name="strName">megacity walls NE</column>
-            <column name="strDesc">megacity walls NE</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">0</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">21</column>
-            <column name="strName">megacity midtown</column>
-            <column name="strDesc">megacity midtown</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">22</column>
-            <column name="strName">hill (Clearbone Valley)</column>
-            <column name="strDesc">hills or foothills</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">1</column>
-            <column name="nTreasureID">614</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">23</column>
-            <column name="strName">testplains</column>
-            <column name="strDesc">testflat grassland</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">22</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">24</column>
-            <column name="strName">testplains</column>
-            <column name="strDesc">testflat grassland</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">22</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">25</column>
-            <column name="strName">testplains</column>
-            <column name="strDesc">testflat grassland</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">22</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">26</column>
-            <column name="strName">hill (water)</column>
-            <column name="strDesc">hills or foothills with water</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">1</column>
-            <column name="nTreasureID">309</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">27</column>
-            <column name="strName">marsh</column>
-            <column name="strDesc">marshlands</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">310</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">28</column>
-            <column name="strName">plains (water)</column>
-            <column name="strDesc">flat grassland with water</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">311</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">15</column>
-            <column name="nMaxRange">30</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">29</column>
-            <column name="strName">great black swamp</column>
-            <column name="strDesc">Great Black Swamp</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">1</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">474</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">581</column>
-            <column name="nScavengeItemsIDPerHour">475</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">527</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">8</column>
-            <column name="vCondIDs">618</column>
-        </table>
-        <table name="hextypes">
-            <column name="id">30</column>
-            <column name="strName">Zom Zom's</column>
-            <column name="strDesc">Zom Zom's, a place to eat</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">31</column>
-            <column name="strName">strange forest</column>
-            <column name="strDesc">strange forest</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">7</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">0</column>
-            <column name="vLightLevels">0.2,0.8,0.8,0.8,0.2,0.15</column>
-            <column name="nDefaultCampID">519</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">5</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">32</column>
-            <column name="strName">isotope mine</column>
-            <column name="strDesc">isotope mine</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">1</column>
-            <column name="nTreasureID">149</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">10</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">33</column>
-            <column name="strName">Allegan Fairgrounds</column>
-            <column name="strDesc">Allegan Fairgrounds</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">1</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">49</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">521</column>
-            <column name="nMinRange">4</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">34</column>
-            <column name="strName">Anishinabe Tribal Nation</column>
-            <column name="strDesc">Anishinabe Tribal Nation</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column>
-            <column name="nDefaultCampID">525</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">5</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">35</column>
-            <column name="strName">Saginaw Mental Institute</column>
-            <column name="strDesc">Saginaw Mental Institute</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">6</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">6</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">36</column>
-            <column name="strName">Camp Grayling</column>
-            <column name="strDesc">Camp Grayling</column>
-            <column name="nTerrainCost">2</column>
-            <column name="nVizLimiter">2</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">3</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">3</column>
-            <column name="nScavengeItemsIDPerHour">3</column>
-            <column name="nCampItems">3</column>
-            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">3</column>
-            <column name="nMaxRange">15</column>
-            <column name="vCondIDs"></column>
-        </table>
-        <table name="hextypes">
-            <column name="id">37</column>
-            <column name="strName">plains</column>
-            <column name="strDesc">flat grassland</column>
-            <column name="nTerrainCost">1</column>
-            <column name="nVizLimiter">0</column>
-            <column name="nVizIncrease">0</column>
-            <column name="nTreasureID">1</column>
-            <column name="bPassable">1</column>
-            <column name="nScavengeInitialID">579</column>
-            <column name="nScavengeItemsIDPerHour">29</column>
-            <column name="nCampItems">5</column>
-            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column>
-            <column name="nDefaultCampID">517</column>
-            <column name="nMinRange">20</column>
-            <column name="nMaxRange">30</column>
-            <column name="vCondIDs"></column>
-        </table>
-    </database>
-</pma_xml_export>
+        <table name="hextypes"><!-- 48 NumeroDaLinhaReal-->
+            <column name="id">1</column><!-- 49 NumeroDaLinhaReal-->
+            <column name="strName">Oceano</column><!-- 50 NumeroDaLinhaReal-->
+            <column name="strDesc">deep water</column><!-- 51 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">11</column><!-- 52 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 53 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 54 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 55 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 56 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 57 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 58 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 59 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 60 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 61 NumeroDaLinhaReal-->
+            <column name="nMinRange">20</column><!-- 62 NumeroDaLinhaReal-->
+            <column name="nMaxRange">40</column><!-- 63 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 64 NumeroDaLinhaReal-->
+        </table><!-- 65 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 66 NumeroDaLinhaReal-->
+            <column name="id">2</column><!-- 67 NumeroDaLinhaReal-->
+            <column name="strName">Litoral/Costa</column><!-- 68 NumeroDaLinhaReal-->
+            <column name="strDesc">aguas rasas</column><!-- 69 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">11</column><!-- 70 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 71 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 72 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 73 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 74 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 75 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 76 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 77 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 78 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 79 NumeroDaLinhaReal-->
+            <column name="nMinRange">20</column><!-- 80 NumeroDaLinhaReal-->
+            <column name="nMaxRange">40</column><!-- 81 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 82 NumeroDaLinhaReal-->
+        </table><!-- 83 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 84 NumeroDaLinhaReal-->
+            <column name="id">3</column><!-- 85 NumeroDaLinhaReal-->
+            <column name="strName">sand</column><!-- 86 NumeroDaLinhaReal-->
+            <column name="strDesc">flat area of dirt</column><!-- 87 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 88 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 89 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 90 NumeroDaLinhaReal-->
+            <column name="nTreasureID">22</column><!-- 91 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 92 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 93 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 94 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 95 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 96 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 97 NumeroDaLinhaReal-->
+            <column name="nMinRange">20</column><!-- 98 NumeroDaLinhaReal-->
+            <column name="nMaxRange">40</column><!-- 99 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 100 NumeroDaLinhaReal-->
+        </table><!-- 101 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 102 NumeroDaLinhaReal-->
+            <column name="id">4</column><!-- 103 NumeroDaLinhaReal-->
+            <column name="strName">plains</column><!-- 104 NumeroDaLinhaReal-->
+            <column name="strDesc">flat grassland</column><!-- 105 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 106 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 107 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 108 NumeroDaLinhaReal-->
+            <column name="nTreasureID">1</column><!-- 109 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 110 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 111 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 112 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 113 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 114 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 115 NumeroDaLinhaReal-->
+            <column name="nMinRange">20</column><!-- 116 NumeroDaLinhaReal-->
+            <column name="nMaxRange">30</column><!-- 117 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 118 NumeroDaLinhaReal-->
+        </table><!-- 119 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 120 NumeroDaLinhaReal-->
+            <column name="id">5</column><!-- 121 NumeroDaLinhaReal-->
+            <column name="strName">forest</column><!-- 122 NumeroDaLinhaReal-->
+            <column name="strDesc">forested area</column><!-- 123 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 124 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 125 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 126 NumeroDaLinhaReal-->
+            <column name="nTreasureID">7</column><!-- 127 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 128 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">578</column><!-- 129 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">28</column><!-- 130 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 131 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.25,1.0,1.0,1.0,0.25,0.15</column><!-- 132 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">519</column><!-- 133 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 134 NumeroDaLinhaReal-->
+            <column name="nMaxRange">5</column><!-- 135 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 136 NumeroDaLinhaReal-->
+        </table><!-- 137 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 138 NumeroDaLinhaReal-->
+            <column name="id">6</column><!-- 139 NumeroDaLinhaReal-->
+            <column name="strName">hill</column><!-- 140 NumeroDaLinhaReal-->
+            <column name="strDesc">hills or foothills</column><!-- 141 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 142 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 143 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">1</column><!-- 144 NumeroDaLinhaReal-->
+            <column name="nTreasureID">149</column><!-- 145 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 146 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 147 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 148 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 149 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 150 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 151 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 152 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 153 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 154 NumeroDaLinhaReal-->
+        </table><!-- 155 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 156 NumeroDaLinhaReal-->
+            <column name="id">7</column><!-- 157 NumeroDaLinhaReal-->
+            <column name="strName">mountain</column><!-- 158 NumeroDaLinhaReal-->
+            <column name="strDesc">high mountains</column><!-- 159 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">11</column><!-- 160 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 161 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 162 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 163 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 164 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 165 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 166 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 167 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 168 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 169 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 170 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 171 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 172 NumeroDaLinhaReal-->
+        </table><!-- 173 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 174 NumeroDaLinhaReal-->
+            <column name="id">8</column><!-- 175 NumeroDaLinhaReal-->
+            <column name="strName">suburban ruins</column><!-- 176 NumeroDaLinhaReal-->
+            <column name="strDesc">abandoned houses and trailers</column><!-- 177 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 178 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">1</column><!-- 179 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 180 NumeroDaLinhaReal-->
+            <column name="nTreasureID">49</column><!-- 181 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 182 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">726</column><!-- 183 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">27</column><!-- 184 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 185 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 186 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">521</column><!-- 187 NumeroDaLinhaReal-->
+            <column name="nMinRange">4</column><!-- 188 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 189 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 190 NumeroDaLinhaReal-->
+        </table><!-- 191 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 192 NumeroDaLinhaReal-->
+            <column name="id">9</column><!-- 193 NumeroDaLinhaReal-->
+            <column name="strName">cryo facility</column><!-- 194 NumeroDaLinhaReal-->
+            <column name="strDesc">cryogenics lab where player wakes up</column><!-- 195 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 196 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 197 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 198 NumeroDaLinhaReal-->
+            <column name="nTreasureID">164</column><!-- 199 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 200 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">575</column><!-- 201 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 202 NumeroDaLinhaReal-->
+            <column name="nCampItems">2</column><!-- 203 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 204 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 205 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 206 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 207 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 208 NumeroDaLinhaReal-->
+        </table><!-- 209 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 210 NumeroDaLinhaReal-->
+            <column name="id">10</column><!-- 211 NumeroDaLinhaReal-->
+            <column name="strName">urban ruins (skyscraper)</column><!-- 212 NumeroDaLinhaReal-->
+            <column name="strDesc">abandoned high-rise buildings</column><!-- 213 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 214 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 215 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 216 NumeroDaLinhaReal-->
+            <column name="nTreasureID">6</column><!-- 217 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 218 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">727</column><!-- 219 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">25</column><!-- 220 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 221 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column><!-- 222 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">523</column><!-- 223 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 224 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 225 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 226 NumeroDaLinhaReal-->
+        </table><!-- 227 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 228 NumeroDaLinhaReal-->
+            <column name="id">11</column><!-- 229 NumeroDaLinhaReal-->
+            <column name="strName">forest shack</column><!-- 230 NumeroDaLinhaReal-->
+            <column name="strDesc">secluded shack in the woods</column><!-- 231 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 232 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 233 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 234 NumeroDaLinhaReal-->
+            <column name="nTreasureID">7</column><!-- 235 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 236 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">580</column><!-- 237 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">30</column><!-- 238 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 239 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.25,1.0,1.0,1.0,0.25,0.15</column><!-- 240 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">525</column><!-- 241 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 242 NumeroDaLinhaReal-->
+            <column name="nMaxRange">5</column><!-- 243 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 244 NumeroDaLinhaReal-->
+        </table><!-- 245 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 246 NumeroDaLinhaReal-->
+            <column name="id">12</column><!-- 247 NumeroDaLinhaReal-->
+            <column name="strName">urban ruins</column><!-- 248 NumeroDaLinhaReal-->
+            <column name="strDesc">abandoned buildings</column><!-- 249 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 250 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 251 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 252 NumeroDaLinhaReal-->
+            <column name="nTreasureID">6</column><!-- 253 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 254 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">727</column><!-- 255 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">25</column><!-- 256 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 257 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column><!-- 258 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">527</column><!-- 259 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 260 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 261 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 262 NumeroDaLinhaReal-->
+        </table><!-- 263 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 264 NumeroDaLinhaReal-->
+            <column name="id">13</column><!-- 265 NumeroDaLinhaReal-->
+            <column name="strName">megacity walls N</column><!-- 266 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity walls N</column><!-- 267 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 268 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 269 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 270 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 271 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 272 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 273 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 274 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 275 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 276 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 277 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 278 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 279 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 280 NumeroDaLinhaReal-->
+        </table><!-- 281 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 282 NumeroDaLinhaReal-->
+            <column name="id">14</column><!-- 283 NumeroDaLinhaReal-->
+            <column name="strName">tent city</column><!-- 284 NumeroDaLinhaReal-->
+            <column name="strDesc">tent city</column><!-- 285 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 286 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 287 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 288 NumeroDaLinhaReal-->
+            <column name="nTreasureID">500</column><!-- 289 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 290 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 291 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 292 NumeroDaLinhaReal-->
+            <column name="nCampItems">4</column><!-- 293 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column><!-- 294 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">755</column><!-- 295 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 296 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 297 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 298 NumeroDaLinhaReal-->
+        </table><!-- 299 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 300 NumeroDaLinhaReal-->
+            <column name="id">15</column><!-- 301 NumeroDaLinhaReal-->
+            <column name="strName">tent city bazaar</column><!-- 302 NumeroDaLinhaReal-->
+            <column name="strDesc">tent city bazaar</column><!-- 303 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 304 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 305 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 306 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 307 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 308 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 309 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 310 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 311 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column><!-- 312 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 313 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 314 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 315 NumeroDaLinhaReal-->
+            <column name="vCondIDs">457</column><!-- 316 NumeroDaLinhaReal-->
+        </table><!-- 317 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 318 NumeroDaLinhaReal-->
+            <column name="id">16</column><!-- 319 NumeroDaLinhaReal-->
+            <column name="strName">rubble</column><!-- 320 NumeroDaLinhaReal-->
+            <column name="strDesc">piles of rubble from what was a city</column><!-- 321 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 322 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 323 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 324 NumeroDaLinhaReal-->
+            <column name="nTreasureID">22</column><!-- 325 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 326 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">725</column><!-- 327 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">25</column><!-- 328 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 329 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 330 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 331 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 332 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 333 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 334 NumeroDaLinhaReal-->
+        </table><!-- 335 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 336 NumeroDaLinhaReal-->
+            <column name="id">17</column><!-- 337 NumeroDaLinhaReal-->
+            <column name="strName">megacity gates</column><!-- 338 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity gates</column><!-- 339 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 340 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 341 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 342 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 343 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 344 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 345 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 346 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 347 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 348 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 349 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 350 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 351 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 352 NumeroDaLinhaReal-->
+        </table><!-- 353 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 354 NumeroDaLinhaReal-->
+            <column name="id">18</column><!-- 355 NumeroDaLinhaReal-->
+            <column name="strName">megacity walls SE</column><!-- 356 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity walls SE</column><!-- 357 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 358 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 359 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 360 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 361 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 362 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 363 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 364 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 365 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 366 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 367 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 368 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 369 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 370 NumeroDaLinhaReal-->
+        </table><!-- 371 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 372 NumeroDaLinhaReal-->
+            <column name="id">19</column><!-- 373 NumeroDaLinhaReal-->
+            <column name="strName">megacity walls NE/N</column><!-- 374 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity walls NE/N</column><!-- 375 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 376 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 377 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 378 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 379 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 380 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 381 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 382 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 383 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 384 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 385 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 386 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 387 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 388 NumeroDaLinhaReal-->
+        </table><!-- 389 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 390 NumeroDaLinhaReal-->
+            <column name="id">20</column><!-- 391 NumeroDaLinhaReal-->
+            <column name="strName">megacity walls NE</column><!-- 392 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity walls NE</column><!-- 393 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 394 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 395 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 396 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 397 NumeroDaLinhaReal-->
+            <column name="bPassable">0</column><!-- 398 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 399 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 400 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 401 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 402 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 403 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 404 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 405 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 406 NumeroDaLinhaReal-->
+        </table><!-- 407 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 408 NumeroDaLinhaReal-->
+            <column name="id">21</column><!-- 409 NumeroDaLinhaReal-->
+            <column name="strName">megacity midtown</column><!-- 410 NumeroDaLinhaReal-->
+            <column name="strDesc">megacity midtown</column><!-- 411 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 412 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 413 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 414 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 415 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 416 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 417 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 418 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 419 NumeroDaLinhaReal-->
+            <column name="vLightLevels">1.0,1.0,1.0,1.0,1.0,1.0</column><!-- 420 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 421 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 422 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 423 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 424 NumeroDaLinhaReal-->
+        </table><!-- 425 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 426 NumeroDaLinhaReal-->
+            <column name="id">22</column><!-- 427 NumeroDaLinhaReal-->
+            <column name="strName">hill (Clearbone Valley)</column><!-- 428 NumeroDaLinhaReal-->
+            <column name="strDesc">hills or foothills</column><!-- 429 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 430 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 431 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">1</column><!-- 432 NumeroDaLinhaReal-->
+            <column name="nTreasureID">614</column><!-- 433 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 434 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 435 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 436 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 437 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 438 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 439 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 440 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 441 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 442 NumeroDaLinhaReal-->
+        </table><!-- 443 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 444 NumeroDaLinhaReal-->
+            <column name="id">23</column><!-- 445 NumeroDaLinhaReal-->
+            <column name="strName">testplains</column><!-- 446 NumeroDaLinhaReal-->
+            <column name="strDesc">testflat grassland</column><!-- 447 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 448 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 449 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 450 NumeroDaLinhaReal-->
+            <column name="nTreasureID">22</column><!-- 451 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 452 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 453 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 454 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 455 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 456 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 457 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 458 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 459 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 460 NumeroDaLinhaReal-->
+        </table><!-- 461 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 462 NumeroDaLinhaReal-->
+            <column name="id">24</column><!-- 463 NumeroDaLinhaReal-->
+            <column name="strName">testplains</column><!-- 464 NumeroDaLinhaReal-->
+            <column name="strDesc">testflat grassland</column><!-- 465 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 466 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 467 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 468 NumeroDaLinhaReal-->
+            <column name="nTreasureID">22</column><!-- 469 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 470 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 471 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 472 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 473 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 474 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 475 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 476 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 477 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 478 NumeroDaLinhaReal-->
+        </table><!-- 479 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 480 NumeroDaLinhaReal-->
+            <column name="id">25</column><!-- 481 NumeroDaLinhaReal-->
+            <column name="strName">testplains</column><!-- 482 NumeroDaLinhaReal-->
+            <column name="strDesc">testflat grassland</column><!-- 483 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 484 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 485 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 486 NumeroDaLinhaReal-->
+            <column name="nTreasureID">22</column><!-- 487 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 488 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 489 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 490 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 491 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 492 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 493 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 494 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 495 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 496 NumeroDaLinhaReal-->
+        </table><!-- 497 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 498 NumeroDaLinhaReal-->
+            <column name="id">26</column><!-- 499 NumeroDaLinhaReal-->
+            <column name="strName">hill (water)</column><!-- 500 NumeroDaLinhaReal-->
+            <column name="strDesc">hills or foothills with water</column><!-- 501 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 502 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 503 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">1</column><!-- 504 NumeroDaLinhaReal-->
+            <column name="nTreasureID">309</column><!-- 505 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 506 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 507 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 508 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 509 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 510 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 511 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 512 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 513 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 514 NumeroDaLinhaReal-->
+        </table><!-- 515 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 516 NumeroDaLinhaReal-->
+            <column name="id">27</column><!-- 517 NumeroDaLinhaReal-->
+            <column name="strName">marsh</column><!-- 518 NumeroDaLinhaReal-->
+            <column name="strDesc">marshlands</column><!-- 519 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 520 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 521 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 522 NumeroDaLinhaReal-->
+            <column name="nTreasureID">310</column><!-- 523 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 524 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 525 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 526 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 527 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 528 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 529 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 530 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 531 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 532 NumeroDaLinhaReal-->
+        </table><!-- 533 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 534 NumeroDaLinhaReal-->
+            <column name="id">28</column><!-- 535 NumeroDaLinhaReal-->
+            <column name="strName">plains (water)</column><!-- 536 NumeroDaLinhaReal-->
+            <column name="strDesc">flat grassland with water</column><!-- 537 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 538 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 539 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 540 NumeroDaLinhaReal-->
+            <column name="nTreasureID">311</column><!-- 541 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 542 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 543 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 544 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 545 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 546 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 547 NumeroDaLinhaReal-->
+            <column name="nMinRange">15</column><!-- 548 NumeroDaLinhaReal-->
+            <column name="nMaxRange">30</column><!-- 549 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 550 NumeroDaLinhaReal-->
+        </table><!-- 551 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 552 NumeroDaLinhaReal-->
+            <column name="id">29</column><!-- 553 NumeroDaLinhaReal-->
+            <column name="strName">great black swamp</column><!-- 554 NumeroDaLinhaReal-->
+            <column name="strDesc">Great Black Swamp</column><!-- 555 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 556 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">1</column><!-- 557 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 558 NumeroDaLinhaReal-->
+            <column name="nTreasureID">474</column><!-- 559 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 560 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">581</column><!-- 561 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">475</column><!-- 562 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 563 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 564 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">527</column><!-- 565 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 566 NumeroDaLinhaReal-->
+            <column name="nMaxRange">8</column><!-- 567 NumeroDaLinhaReal-->
+            <column name="vCondIDs">618</column><!-- 568 NumeroDaLinhaReal-->
+        </table><!-- 569 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 570 NumeroDaLinhaReal-->
+            <column name="id">30</column><!-- 571 NumeroDaLinhaReal-->
+            <column name="strName">Zom Zom's</column><!-- 572 NumeroDaLinhaReal-->
+            <column name="strDesc">Zom Zom's, a place to eat</column><!-- 573 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 574 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 575 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 576 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 577 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 578 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 579 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 580 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 581 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column><!-- 582 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 583 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 584 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 585 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 586 NumeroDaLinhaReal-->
+        </table><!-- 587 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 588 NumeroDaLinhaReal-->
+            <column name="id">31</column><!-- 589 NumeroDaLinhaReal-->
+            <column name="strName">strange forest</column><!-- 590 NumeroDaLinhaReal-->
+            <column name="strDesc">strange forest</column><!-- 591 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 592 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 593 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 594 NumeroDaLinhaReal-->
+            <column name="nTreasureID">7</column><!-- 595 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 596 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 597 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 598 NumeroDaLinhaReal-->
+            <column name="nCampItems">0</column><!-- 599 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.2,0.8,0.8,0.8,0.2,0.15</column><!-- 600 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">519</column><!-- 601 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 602 NumeroDaLinhaReal-->
+            <column name="nMaxRange">5</column><!-- 603 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 604 NumeroDaLinhaReal-->
+        </table><!-- 605 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 606 NumeroDaLinhaReal-->
+            <column name="id">32</column><!-- 607 NumeroDaLinhaReal-->
+            <column name="strName">isotope mine</column><!-- 608 NumeroDaLinhaReal-->
+            <column name="strDesc">isotope mine</column><!-- 609 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 610 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 611 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">1</column><!-- 612 NumeroDaLinhaReal-->
+            <column name="nTreasureID">149</column><!-- 613 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 614 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 615 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 616 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 617 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 618 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 619 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 620 NumeroDaLinhaReal-->
+            <column name="nMaxRange">10</column><!-- 621 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 622 NumeroDaLinhaReal-->
+        </table><!-- 623 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 624 NumeroDaLinhaReal-->
+            <column name="id">33</column><!-- 625 NumeroDaLinhaReal-->
+            <column name="strName">Allegan Fairgrounds</column><!-- 626 NumeroDaLinhaReal-->
+            <column name="strDesc">Allegan Fairgrounds</column><!-- 627 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 628 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">1</column><!-- 629 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 630 NumeroDaLinhaReal-->
+            <column name="nTreasureID">49</column><!-- 631 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 632 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 633 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 634 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 635 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 636 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">521</column><!-- 637 NumeroDaLinhaReal-->
+            <column name="nMinRange">4</column><!-- 638 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 639 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 640 NumeroDaLinhaReal-->
+        </table><!-- 641 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 642 NumeroDaLinhaReal-->
+            <column name="id">34</column><!-- 643 NumeroDaLinhaReal-->
+            <column name="strName">Anishinabe Tribal Nation</column><!-- 644 NumeroDaLinhaReal-->
+            <column name="strDesc">Anishinabe Tribal Nation</column><!-- 645 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 646 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 647 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 648 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 649 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 650 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 651 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 652 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 653 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.8</column><!-- 654 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">525</column><!-- 655 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 656 NumeroDaLinhaReal-->
+            <column name="nMaxRange">5</column><!-- 657 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 658 NumeroDaLinhaReal-->
+        </table><!-- 659 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 660 NumeroDaLinhaReal-->
+            <column name="id">35</column><!-- 661 NumeroDaLinhaReal-->
+            <column name="strName">Saginaw Mental Institute</column><!-- 662 NumeroDaLinhaReal-->
+            <column name="strDesc">Saginaw Mental Institute</column><!-- 663 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 664 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 665 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 666 NumeroDaLinhaReal-->
+            <column name="nTreasureID">6</column><!-- 667 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 668 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 669 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 670 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 671 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column><!-- 672 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 673 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 674 NumeroDaLinhaReal-->
+            <column name="nMaxRange">6</column><!-- 675 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 676 NumeroDaLinhaReal-->
+        </table><!-- 677 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 678 NumeroDaLinhaReal-->
+            <column name="id">36</column><!-- 679 NumeroDaLinhaReal-->
+            <column name="strName">Camp Grayling</column><!-- 680 NumeroDaLinhaReal-->
+            <column name="strDesc">Camp Grayling</column><!-- 681 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">2</column><!-- 682 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">2</column><!-- 683 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 684 NumeroDaLinhaReal-->
+            <column name="nTreasureID">3</column><!-- 685 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 686 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">3</column><!-- 687 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">3</column><!-- 688 NumeroDaLinhaReal-->
+            <column name="nCampItems">3</column><!-- 689 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.8,1.0,1.0,1.0,0.8,0.57</column><!-- 690 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 691 NumeroDaLinhaReal-->
+            <column name="nMinRange">3</column><!-- 692 NumeroDaLinhaReal-->
+            <column name="nMaxRange">15</column><!-- 693 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 694 NumeroDaLinhaReal-->
+        </table><!-- 695 NumeroDaLinhaReal-->
+        <table name="hextypes"><!-- 696 NumeroDaLinhaReal-->
+            <column name="id">37</column><!-- 697 NumeroDaLinhaReal-->
+            <column name="strName">plains</column><!-- 698 NumeroDaLinhaReal-->
+            <column name="strDesc">flat grassland</column><!-- 699 NumeroDaLinhaReal-->
+            <column name="nTerrainCost">1</column><!-- 700 NumeroDaLinhaReal-->
+            <column name="nVizLimiter">0</column><!-- 701 NumeroDaLinhaReal-->
+            <column name="nVizIncrease">0</column><!-- 702 NumeroDaLinhaReal-->
+            <column name="nTreasureID">1</column><!-- 703 NumeroDaLinhaReal-->
+            <column name="bPassable">1</column><!-- 704 NumeroDaLinhaReal-->
+            <column name="nScavengeInitialID">579</column><!-- 705 NumeroDaLinhaReal-->
+            <column name="nScavengeItemsIDPerHour">29</column><!-- 706 NumeroDaLinhaReal-->
+            <column name="nCampItems">5</column><!-- 707 NumeroDaLinhaReal-->
+            <column name="vLightLevels">0.57,1.0,1.0,1.0,0.57,0.15</column><!-- 708 NumeroDaLinhaReal-->
+            <column name="nDefaultCampID">517</column><!-- 709 NumeroDaLinhaReal-->
+            <column name="nMinRange">20</column><!-- 710 NumeroDaLinhaReal-->
+            <column name="nMaxRange">30</column><!-- 711 NumeroDaLinhaReal-->
+            <column name="vCondIDs"></column><!-- 712 NumeroDaLinhaReal-->
+        </table><!-- 713 NumeroDaLinhaReal-->
+    </database><!-- 714 NumeroDaLinhaReal-->
+</pma_xml_export><!-- 715 NumeroDaLinhaReal-->
