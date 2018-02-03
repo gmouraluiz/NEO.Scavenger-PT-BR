@@ -594,6 +594,27 @@ Sub encounters()
 			Line = Replace(Line, "Rig the door to stay shut.", "Fechar a porta com seus conhecimentos de Eletricista.")
 		ElseIf (NumberLine = 397) Then
 			Line = Replace(Line, "Using a common maintenance override code, you switch the door controls into maintenance mode, forcing the door closed and locked. The creature howls madly, slams into the door, and rams it a few times, before its muffled sounds recede again.", "Usando um codigo comum de substituicao de manutencao, voce alterna os controles da porta para o modo de manutencao, forcando a porta a se fechar. A criatura uiva loucamente, bate na porta e a forcando algumas vezes, e depois de um tempo seus sons abafados recuam.")
+		ElseIf (NumberLine = 422) Then
+			Line = Replace(Line, "Search for clues.", "Procurar pistas.")
+		ElseIf (NumberLine = 423) Then
+			Line = Replace(Line, "The dust on the ground makes it easy for your trained eye to pick out one set of tracks in particular.", "A poeira no chao facilita o seu olho treinado para escolher um conjunto de faixas em particular.")
+			Line = Replace(Line, "They seem to belong to a humanoid dragging something, probably a mantle or cloak. It was here fairly recently, probably in the past 24 hours. It entered through the doorway, walked to your stasis tank, went to the control console, and then left.", "Eles parecem pertencer a um humano arrastando algo, provavelmente um manto ou capa. Os rastros sao bastante recente, provavelmente nas ultimas 24 horas. Entrou atraves da entrada, caminhou ate o tanque de estase, foi ao console de controle e depois saiu.")
+			Line = Replace(Line, "You'd bet good money that it wasn't the dogman you just faced.", "Você apostaria um bom dinheiro, para dizer que nao era o Lobisomem que voce acabou de enfrentar.")
+		ElseIf (NumberLine = 448) Then
+			Line = Replace(Line, "Inside Cryo Facility, Dogman Gone", "Dentro da Cryo-Facility com Lobisomem morto.")
+		ElseIf (NumberLine = 449) Then
+			Line = Replace(Line, "You're standing in a cryostasis room. Though it looks like you might've been the only survivor.", "Voce esta em uma sala de de cryostasis. Porem parece que voce tenha sido o unico sobrevivente.")
+		ElseIf (NumberLine = 526) Then
+			Line = Replace(Line, "Climb out the window.", "Passar pela janela.")
+		ElseIf (NumberLine = 527) Then
+			Line = Replace(Line, "You decide to go outside, and see if you can figure out where you are.", "Voce decide sair e ver se consegue descobrir onde voce esta.")
+			Line = Replace(Line, "Avoiding the broken glass, you step onto the sill and outside, rustling some plants that have grown wild in the area. It's cool outside, and damp. Probably morning.", "Evitando o vidro quebrado, voce pisa no peitoril e sai para fora, abrindo caminho pelas plantas voce ve que esta crescendo varias plantas selvagens na area. E legal la fora um pouco e umido. Provavelmente e de manha.")
+			Line = Replace(Line, "The distant report of a gun catches your attention. You cock your head, listening, but it's over as quickly as it started.", "Voce ouve bem distante um tiro de uma arma que chama sua atencao. Voce vira sua cabeca, mas o som acabou tao rapido.")
+			Line = Replace(Line, "Obviously you're not alone out here. Though that doesn't necessarily comfort you.", "Obviamente voce nao esta sozinho aqui. Embora isso nao necessariamente o conforte.")
+		ElseIf (NumberLine = 656) Then
+			Line = Replace(Line, "Search the console for records.", "Procurou no console para obter registros.")
+		ElseIf (NumberLine = 657) Then
+			Line = Replace(Line, "You check the console for any patient info, and come across three records:", "Voce verifica o console, em busca das informacoes dos pacientes, e encontra tres registros:")
 		ElseIf (NumberLine = 2814) Then
 			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
 		ElseIf (NumberLine = 2815) Then
@@ -609,12 +630,21 @@ Sub encounters()
 			Line = Replace(Line, "It connects with a force that jars you both, and the dogman actually has to step back to keep its balance.", "Ele se choca com uma forca que igual a sua, e o Lobisomem realmente tem que voltar para manter seu equilibrio.")		
 			Line = Replace(Line, "Taking advantage of his distraction, you knock him to the ground, and grab his throat. His claws tear into your flesh as you crush his windpipe with every ounce of strength you have.", "Aproveitando sua distracao, voce bateu no chao e pega sua garganta. Suas garras rasgam sua carne enquanto esmagam sua traqueia com cada grama de forca que voc tem.")
 			Line = Replace(Line, "Moments later, he stops moving. You realize it cost you some nasty wounds, but at least you're alive.", "Momentos depois, ele para de se mecher. Voce percebe que isso lhe custou feridas desagradaveis, mas pelo menos voce esta vivo.")
+		ElseIf (NumberLine = 6350) Then
+			Line = Replace(Line, "Search the console for records.", "Procurou no console para obter registros.")
+		ElseIf (NumberLine = 6351) Then
+			Line = Replace(Line, "You check the console for any patient info, and come across three records:", "Voce verifica o console, em busca das informacoes dos pacientes, e encontra tres registros:")			
 		ElseIf (NumberLine = 37812) Then
 			Line = Replace(Line, "Prepare to fight it!", "Prepare-se para lutar contra isso!")
 			Line = Replace(Line, "You make it clear you're not going down without a fight, and wait for its next move.", "Voce deixa claro que nao vai sair sem lutar, e aguarda a proxima jogada.")
 			Line = Replace(Line, "It doesn't come, though. It continues to stand there, staring at you.", "Nao vem, no entanto. Continua a ficar de pe, olhando para voce.")
 			Line = Replace(Line, "However, whipping leaves and footfalls approach rapidly from the side, and something collides with you in the dirt.", "No entanto, chicoteando folhas e pisadas se aproximam rapidamente do lado, e algo colide com voce na sujeira.")
 			Line = Replace(Line, "It has you. You can feel its grip on your arms, its weight on your back.", "Tem voce. Voce pode sentir seu aperto em seus bracos, seu peso nas costas.")
+		ElseIf (NumberLine = 55118) Then
+			Line = Replace(Line, "Climb out window cont'd.", "Continuando a escalar a janela.")
+		ElseIf (NumberLine = 55119) Then
+			Line = Replace(Line, "You're in the parking lot of Gyges Cryo Facility, but everything looks disused and in disrepair. Plants have pushed their way through the pavement and over the facility.", "Voce esta no estacionamento do Gyges-Cryo-Facility, mas tudo parece estar em desuso e em falta. As plantas seguiram o pavimento e as instalacoes.")
+			Line = Replace(Line, "Worst of all, nothing looks familiar. You don't remember this place, or even who you are. Your frustration mounts, but you catch it and put it in check. Might as well take a look around.", "O pior é que nada parece familiar. Voce nao se lembra deste lugar, nem mesmo de quem es voce. Sua frustracao se monta, mas voce o coloca sob controle. Podendo assim dar uma olhada ao redor.")
 			
 			
 			
