@@ -604,8 +604,8 @@
         </table><!-- 604 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 605 NumeroDaLinhaReal-->
             <column name="id">25</column><!-- 606 NumeroDaLinhaReal-->
-            <column name="strName">Warmed by campfire</column><!-- 607 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is warmed by a campfire, but also easier to spot.</column><!-- 608 NumeroDaLinhaReal-->
+            <column name="strName">Aquecido/Fogueira</column><!-- 607 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta se aquecido por uma fogueira, mas tambem e mais facil de detectar.</column><!-- 608 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,m_fVisibility,m_fScent,LightLevel</column><!-- 609 NumeroDaLinhaReal-->
             <column name="aModifiers">-40,0.5,1,0.8</column><!-- 610 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 611 NumeroDaLinhaReal-->
@@ -1639,8 +1639,8 @@
         </table><!-- 1639 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1640 NumeroDaLinhaReal-->
             <column name="id">70</column><!-- 1641 NumeroDaLinhaReal-->
-            <column name="strName">Warmed by a small flame</column><!-- 1642 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is warmed a little by a small flame, but is also a little bit easier to spot.</column><!-- 1643 NumeroDaLinhaReal-->
+            <column name="strName">Aquecido/Pequena Chama</column><!-- 1642 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sendo aquecido um pouco por uma pequena chama, mas tambem e um pouco mais facil de detectar.</column><!-- 1643 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,m_fVisibility,m_fScent,LightLevel</column><!-- 1644 NumeroDaLinhaReal-->
             <column name="aModifiers">-10,0.125,0.25,0.25</column><!-- 1645 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1646 NumeroDaLinhaReal-->
@@ -2467,8 +2467,8 @@
         </table><!-- 2467 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 2468 NumeroDaLinhaReal-->
             <column name="id">106</column><!-- 2469 NumeroDaLinhaReal-->
-            <column name="strName">Bleeding</column><!-- 2470 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is bleeding.</column><!-- 2471 NumeroDaLinhaReal-->
+            <column name="strName">Sangramento</column><!-- 2470 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta com sangramento</column><!-- 2471 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fScent,fWaterConsumptionRate</column><!-- 2472 NumeroDaLinhaReal-->
             <column name="aModifiers">2,0.5</column><!-- 2473 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 2474 NumeroDaLinhaReal-->
@@ -4974,8 +4974,8 @@
         </table><!-- 4974 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 4975 NumeroDaLinhaReal-->
             <column name="id">215</column><!-- 4976 NumeroDaLinhaReal-->
-            <column name="strName">Warmed by a heater</column><!-- 4977 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is warmed by a heater.</column><!-- 4978 NumeroDaLinhaReal-->
+            <column name="strName">Aquecido/Aquecedor</column><!-- 4977 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sendo aquecido por um aquecedor.</column><!-- 4978 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp</column><!-- 4979 NumeroDaLinhaReal-->
             <column name="aModifiers">-40</column><!-- 4980 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 4981 NumeroDaLinhaReal-->
