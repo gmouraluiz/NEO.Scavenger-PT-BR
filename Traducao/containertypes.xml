@@ -45,19 +45,19 @@
         </table><!-- 45 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 46 NumeroDaLinhaReal-->
             <column name="id">4</column><!-- 47 NumeroDaLinhaReal-->
-            <column name="strName">encounter</column><!-- 48 NumeroDaLinhaReal-->
+            <column name="strName">encontro</column><!-- 48 NumeroDaLinhaReal-->
         </table><!-- 49 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 50 NumeroDaLinhaReal-->
             <column name="id">5</column><!-- 51 NumeroDaLinhaReal-->
-            <column name="strName">skill</column><!-- 52 NumeroDaLinhaReal-->
+            <column name="strName">habilidade/pros</column><!-- 52 NumeroDaLinhaReal-->
         </table><!-- 53 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 54 NumeroDaLinhaReal-->
             <column name="id">6</column><!-- 55 NumeroDaLinhaReal-->
-            <column name="strName">camps</column><!-- 56 NumeroDaLinhaReal-->
+            <column name="strName">acampamento</column><!-- 56 NumeroDaLinhaReal-->
         </table><!-- 57 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 58 NumeroDaLinhaReal-->
             <column name="id">7</column><!-- 59 NumeroDaLinhaReal-->
-            <column name="strName">fireproof</column><!-- 60 NumeroDaLinhaReal-->
+            <column name="strName">a prova de fogo</column><!-- 60 NumeroDaLinhaReal-->
         </table><!-- 61 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 62 NumeroDaLinhaReal-->
             <column name="id">8</column><!-- 63 NumeroDaLinhaReal-->
@@ -69,15 +69,15 @@
         </table><!-- 69 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 70 NumeroDaLinhaReal-->
             <column name="id">10</column><!-- 71 NumeroDaLinhaReal-->
-            <column name="strName">electric</column><!-- 72 NumeroDaLinhaReal-->
+            <column name="strName">eletrico</column><!-- 72 NumeroDaLinhaReal-->
         </table><!-- 73 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 74 NumeroDaLinhaReal-->
             <column name="id">11</column><!-- 75 NumeroDaLinhaReal-->
-            <column name="strName">trait</column><!-- 76 NumeroDaLinhaReal-->
+            <column name="strName">contras</column><!-- 76 NumeroDaLinhaReal-->
         </table><!-- 77 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 78 NumeroDaLinhaReal-->
             <column name="id">12</column><!-- 79 NumeroDaLinhaReal-->
-            <column name="strName">craft yield</column><!-- 80 NumeroDaLinhaReal-->
+            <column name="strName">producao artesanal</column><!-- 80 NumeroDaLinhaReal-->
         </table><!-- 81 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 82 NumeroDaLinhaReal-->
             <column name="id">13</column><!-- 83 NumeroDaLinhaReal-->
@@ -89,11 +89,11 @@
         </table><!-- 89 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 90 NumeroDaLinhaReal-->
             <column name="id">15</column><!-- 91 NumeroDaLinhaReal-->
-            <column name="strName">terrain</column><!-- 92 NumeroDaLinhaReal-->
+            <column name="strName">terreno</column><!-- 92 NumeroDaLinhaReal-->
         </table><!-- 93 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 94 NumeroDaLinhaReal-->
             <column name="id">16</column><!-- 95 NumeroDaLinhaReal-->
-            <column name="strName">camp fixture</column><!-- 96 NumeroDaLinhaReal-->
+            <column name="strName">acampamento fixo</column><!-- 96 NumeroDaLinhaReal-->
         </table><!-- 97 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 98 NumeroDaLinhaReal-->
             <column name="id">17</column><!-- 99 NumeroDaLinhaReal-->
@@ -101,7 +101,7 @@
         </table><!-- 101 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 102 NumeroDaLinhaReal-->
             <column name="id">18</column><!-- 103 NumeroDaLinhaReal-->
-            <column name="strName">arrow (archery)</column><!-- 104 NumeroDaLinhaReal-->
+            <column name="strName">flexa(arco)</column><!-- 104 NumeroDaLinhaReal-->
         </table><!-- 105 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 106 NumeroDaLinhaReal-->
             <column name="id">19</column><!-- 107 NumeroDaLinhaReal-->
@@ -161,11 +161,11 @@
         </table><!-- 161 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 162 NumeroDaLinhaReal-->
             <column name="id">33</column><!-- 163 NumeroDaLinhaReal-->
-            <column name="strName">pebble (sling)</column><!-- 164 NumeroDaLinhaReal-->
+            <column name="strName">seixo(estilingue)</column><!-- 164 NumeroDaLinhaReal-->
         </table><!-- 165 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 166 NumeroDaLinhaReal-->
             <column name="id">34</column><!-- 167 NumeroDaLinhaReal-->
-            <column name="strName">stone (sling)</column><!-- 168 NumeroDaLinhaReal-->
+            <column name="strName">pedra(estilingue)</column><!-- 168 NumeroDaLinhaReal-->
         </table><!-- 169 NumeroDaLinhaReal-->
         <table name="containertypes"><!-- 170 NumeroDaLinhaReal-->
             <column name="id">35</column><!-- 171 NumeroDaLinhaReal-->

@@ -75,8 +75,8 @@
         </table><!-- 75 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 76 NumeroDaLinhaReal-->
             <column name="id">2</column><!-- 77 NumeroDaLinhaReal-->
-            <column name="strName">Morreu de fome</column><!-- 78 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; morreu de fome.</column><!-- 79 NumeroDaLinhaReal-->
+            <column name="strName">morrendo de fome</column><!-- 78 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta morrendo de fome.</column><!-- 79 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 80 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 81 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 82 NumeroDaLinhaReal-->
@@ -98,8 +98,8 @@
         </table><!-- 98 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 99 NumeroDaLinhaReal-->
             <column name="id">3</column><!-- 100 NumeroDaLinhaReal-->
-            <column name="strName">Starving</column><!-- 101 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is starving.</column><!-- 102 NumeroDaLinhaReal-->
+            <column name="strName">passando fome</column><!-- 101 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta passando fome</column><!-- 102 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fEncumberanceLimit,m_fMoraleHidden,m_fDefense</column><!-- 103 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.001,-0.0002,-2,-45,0.2,-0.1</column><!-- 104 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 105 NumeroDaLinhaReal-->
@@ -121,8 +121,8 @@
         </table><!-- 121 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 122 NumeroDaLinhaReal-->
             <column name="id">4</column><!-- 123 NumeroDaLinhaReal-->
-            <column name="strName">Malnourished</column><!-- 124 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is weak with hunger.</column><!-- 125 NumeroDaLinhaReal-->
+            <column name="strName">Desnutrido</column><!-- 124 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta desnutrido</column><!-- 125 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fEncumberanceLimit,m_fMoraleHidden,m_fDefense</column><!-- 126 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.005,-0.0005,-0.0001,-1,-25,-0.1,-0.05</column><!-- 127 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 128 NumeroDaLinhaReal-->
@@ -144,8 +144,8 @@
         </table><!-- 144 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 145 NumeroDaLinhaReal-->
             <column name="id">5</column><!-- 146 NumeroDaLinhaReal-->
-            <column name="strName">Hungry</column><!-- 147 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is hungry.</column><!-- 148 NumeroDaLinhaReal-->
+            <column name="strName">Com fome</column><!-- 147 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta com fome</column><!-- 148 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 149 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 150 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 151 NumeroDaLinhaReal-->
@@ -167,8 +167,8 @@
         </table><!-- 167 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 168 NumeroDaLinhaReal-->
             <column name="id">6</column><!-- 169 NumeroDaLinhaReal-->
-            <column name="strName">Blacking out</column><!-- 170 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is blacking out from exhaustion.</column><!-- 171 NumeroDaLinhaReal-->
+            <column name="strName">Desmaiado</column><!-- 170 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta apagando por exaustao.</column><!-- 171 NumeroDaLinhaReal-->
             <column name="aFieldNames">Asleep,fSleepQuality,m_fSleepAwareness</column><!-- 172 NumeroDaLinhaReal-->
             <column name="aModifiers">1,1,-1</column><!-- 173 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 174 NumeroDaLinhaReal-->
@@ -190,8 +190,8 @@
         </table><!-- 190 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 191 NumeroDaLinhaReal-->
             <column name="id">7</column><!-- 192 NumeroDaLinhaReal-->
-            <column name="strName">Weary</column><!-- 193 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is weary.</column><!-- 194 NumeroDaLinhaReal-->
+            <column name="strName">Exausto</column><!-- 193 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta exausto.</column><!-- 194 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fEncumberanceLimit,BaseDetectionLevel,fFoodConsumptionRate,fWaterConsumptionRate,m_fMoraleHidden,m_fDefense,fSleepQuality,m_fSleepAwareness</column><!-- 195 NumeroDaLinhaReal-->
             <column name="aModifiers">-25,0.125,0.25,0.25,-0.3,-0.12,0.35,-0.25</column><!-- 196 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 197 NumeroDaLinhaReal-->
@@ -213,8 +213,8 @@
         </table><!-- 213 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 214 NumeroDaLinhaReal-->
             <column name="id">8</column><!-- 215 NumeroDaLinhaReal-->
-            <column name="strName">Tired</column><!-- 216 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is tired.</column><!-- 217 NumeroDaLinhaReal-->
+            <column name="strName">Cansado</column><!-- 216 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta cansado.</column><!-- 217 NumeroDaLinhaReal-->
             <column name="aFieldNames">BaseDetectionLevel,m_fMoraleHidden,m_fDefense</column><!-- 218 NumeroDaLinhaReal-->
             <column name="aModifiers">0.06,-0.15,-0.06</column><!-- 219 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 220 NumeroDaLinhaReal-->
@@ -236,8 +236,8 @@
         </table><!-- 236 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 237 NumeroDaLinhaReal-->
             <column name="id">9</column><!-- 238 NumeroDaLinhaReal-->
-            <column name="strName">Froze to death</column><!-- 239 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; froze to death.</column><!-- 240 NumeroDaLinhaReal-->
+            <column name="strName">Congelou ate a morte</column><!-- 239 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; congelou ate a morte.</column><!-- 240 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 241 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 242 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 243 NumeroDaLinhaReal-->
@@ -259,8 +259,8 @@
         </table><!-- 259 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 260 NumeroDaLinhaReal-->
             <column name="id">10</column><!-- 261 NumeroDaLinhaReal-->
-            <column name="strName">Hypothermic</column><!-- 262 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; has severe hypothermia.</column><!-- 263 NumeroDaLinhaReal-->
+            <column name="strName">Hipotermia</column><!-- 262 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta com hipotermia grave.</column><!-- 263 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fMoraleHidden,m_fDefense</column><!-- 264 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.001,-0.0002,-2,-0.15,-0.05</column><!-- 265 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 266 NumeroDaLinhaReal-->
@@ -282,8 +282,8 @@
         </table><!-- 282 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 283 NumeroDaLinhaReal-->
             <column name="id">11</column><!-- 284 NumeroDaLinhaReal-->
-            <column name="strName">Freezing</column><!-- 285 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; has moderate hypothermia.</column><!-- 286 NumeroDaLinhaReal-->
+            <column name="strName">Congelando</column><!-- 285 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta com hipotermia moderada.</column><!-- 286 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fMoraleHidden,m_fDefense</column><!-- 287 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.005,-0.0005,-0.0001,-1,-0.1,-0.02</column><!-- 288 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 289 NumeroDaLinhaReal-->
@@ -305,8 +305,8 @@
         </table><!-- 305 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 306 NumeroDaLinhaReal-->
             <column name="id">12</column><!-- 307 NumeroDaLinhaReal-->
-            <column name="strName">Shivering</column><!-- 308 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is shivering.</column><!-- 309 NumeroDaLinhaReal-->
+            <column name="strName">Tremendo</column><!-- 308 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta tremendo.</column><!-- 309 NumeroDaLinhaReal-->
             <column name="aFieldNames">fSleepQuality,MinSafeTemp,MaxSafeTemp,m_fFatigueModifier</column><!-- 310 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.35,-5,-5,0.25</column><!-- 311 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 312 NumeroDaLinhaReal-->

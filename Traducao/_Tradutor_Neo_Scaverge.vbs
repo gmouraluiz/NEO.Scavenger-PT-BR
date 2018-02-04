@@ -260,9 +260,49 @@ Sub conditions()
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 78) Then
-			Line = Replace(Line, "Starved to death", "Morreu de fome")
+			Line = Replace(Line, "Starved to death", "morrendo de fome")
 		ElseIf (NumberLine = 79) Then
-			Line = Replace(Line, "starved to death", "morreu de fome")
+			Line = Replace(Line, "starved to death", "esta morrendo de fome")
+		ElseIf (NumberLine = 101) Then
+			Line = Replace(Line, "Starving", "passando fome")
+		ElseIf (NumberLine = 102) Then
+			Line = Replace(Line, "is starving.", "esta passando fome")
+		ElseIf (NumberLine = 124) Then
+			Line = Replace(Line, "Malnourished", "Desnutrido")
+		ElseIf (NumberLine = 125) Then
+			Line = Replace(Line, "is weak with hunger.", "esta desnutrido")
+		ElseIf (NumberLine = 147) Then
+			Line = Replace(Line, "Hungry", "Com fome")
+		ElseIf (NumberLine = 148) Then
+			Line = Replace(Line, "is hungry.", "esta com fome")
+		ElseIf (NumberLine = 170) Then
+			Line = Replace(Line, "Blacking out", "Desmaiado")
+		ElseIf (NumberLine = 171) Then
+			Line = Replace(Line, "is blacking out from exhaustion.", "esta apagando por exaustao.")
+		ElseIf (NumberLine = 193) Then
+			Line = Replace(Line, "Weary", "Exausto")
+		ElseIf (NumberLine = 194) Then
+			Line = Replace(Line, "is weary.", "esta exausto.")
+		ElseIf (NumberLine = 216) Then
+			Line = Replace(Line, "Tired", "Cansado")
+		ElseIf (NumberLine = 217) Then
+			Line = Replace(Line, "is tired.", "esta cansado.")
+		ElseIf (NumberLine = 239) Then
+			Line = Replace(Line, "Froze to death", "Congelou ate a morte")
+		ElseIf (NumberLine = 240) Then
+			Line = Replace(Line, "froze to death.", "congelou ate a morte.")
+		ElseIf (NumberLine = 262) Then
+			Line = Replace(Line, "Hypothermic", "Hipotermia")
+		ElseIf (NumberLine = 263) Then
+			Line = Replace(Line, "has severe hypothermia.", "esta com hipotermia grave.")
+		ElseIf (NumberLine = 285) Then
+			Line = Replace(Line, "Freezing", "Congelando")
+		ElseIf (NumberLine = 286) Then
+			Line = Replace(Line, "has moderate hypothermia.", "esta com hipotermia moderada.")
+		ElseIf (NumberLine = 308) Then
+			Line = Replace(Line, "Shivering", "Tremendo")
+		ElseIf (NumberLine = 309) Then
+			Line = Replace(Line, "is shivering.", "esta tremendo.")			
 		ElseIf (NumberLine = 607) Then
 			Line = Replace(Line, "Warmed by campfire", "Aquecido/Fogueira")
 		ElseIf (NumberLine = 608) Then
@@ -361,6 +401,30 @@ Sub containertypes()
 			Line = Replace(Line, "fine", "fino")
 		ElseIf (NumberLine = 44) Then
 			Line = Replace(Line, "coarse", "grosseiro")
+		ElseIf (NumberLine = 48) Then
+			Line = Replace(Line, "encounter", "encontro")
+		ElseIf (NumberLine = 52) Then
+			Line = Replace(Line, "skill", "habilidade/pros")
+		ElseIf (NumberLine = 56) Then
+			Line = Replace(Line, "camps", "acampamento")
+		ElseIf (NumberLine = 60) Then
+			Line = Replace(Line, "fireproof", "a prova de fogo")
+		ElseIf (NumberLine = 72) Then
+			Line = Replace(Line, "electric", "eletrico")
+		ElseIf (NumberLine = 76) Then
+			Line = Replace(Line, "trait", "contras")
+		ElseIf (NumberLine = 80) Then
+			Line = Replace(Line, "craft yield", "producao artesanal")
+		ElseIf (NumberLine = 92) Then
+			Line = Replace(Line, "terrain", "terreno")
+		ElseIf (NumberLine = 96) Then
+			Line = Replace(Line, "camp fixture", "acampamento fixo")
+		ElseIf (NumberLine = 104) Then
+			Line = Replace(Line, "arrow (archery)", "flexa(arco)")
+		ElseIf (NumberLine = 164) Then
+			Line = Replace(Line, "pebble (sling)", "seixo(estilingue)")
+		ElseIf (NumberLine = 168) Then
+			Line = Replace(Line, "stone (sling)", "pedra(estilingue)")
 
 
 			
@@ -822,61 +886,7 @@ Sub encountertriggers()
 	FileSystem.DeleteFile TempFilename
 End Sub
 
-factions()
-Sub factions()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("factions.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "factions.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
-		'Traducao das Linhas
-		If (NumberLine = 1) Then
-            Line = Replace(Line, "utf-8", "UTF-8")
-		ElseIf (NumberLine = 37) Then
-			Line = Replace(Line, "Dogman", "Lobisomem")
-		ElseIf (NumberLine = 42) Then
-			Line = Replace(Line, "Looter", "Saqueador")
-		ElseIf (NumberLine = 72) Then
-			Line = Replace(Line, "Deer", "Cervo")
-
-
-
-			
-		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+'forbiddenhexes Não vou traduzir agora para não confudir
 
 'forbiddenhexes S/Texto para traduzir
 
