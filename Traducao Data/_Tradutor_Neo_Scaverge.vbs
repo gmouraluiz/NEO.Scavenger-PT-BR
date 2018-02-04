@@ -438,6 +438,19 @@ Sub conditions()
 			Line = Replace(Line, "000000", "000000")	
 		ElseIf (NumberLine = 00000) Then
 			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+		ElseIf (NumberLine = 00000) Then
+			Line = Replace(Line, "000000", "000000")
+			
 			
 		ElseIf (NumberLine = 1481) Then
 			Line = Replace(Line, "Comfortable", "Confortavel")
