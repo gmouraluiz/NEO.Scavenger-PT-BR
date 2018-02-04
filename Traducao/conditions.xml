@@ -328,8 +328,8 @@
         </table><!-- 328 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 329 NumeroDaLinhaReal-->
             <column name="id">13</column><!-- 330 NumeroDaLinhaReal-->
-            <column name="strName">Heat exhaustion</column><!-- 331 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is suffering from heat exhaustion.</column><!-- 332 NumeroDaLinhaReal-->
+            <column name="strName">Exaustao (Calor)</column><!-- 331 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sofrendo de exaustao por calor.</column><!-- 332 NumeroDaLinhaReal-->
             <column name="aFieldNames">fWaterConsumptionRate,fSleepQuality,m_fMoraleHidden,m_fDefense,MinSafeTemp,MaxSafeTemp,fPassiveRewarmPerHour</column><!-- 333 NumeroDaLinhaReal-->
             <column name="aModifiers">0.5,-0.75,-0.1,-0.02,15,15,-1</column><!-- 334 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 335 NumeroDaLinhaReal-->
@@ -351,8 +351,8 @@
         </table><!-- 351 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 352 NumeroDaLinhaReal-->
             <column name="id">14</column><!-- 353 NumeroDaLinhaReal-->
-            <column name="strName">Heat stroke</column><!-- 354 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is dizzy with heat stroke.</column><!-- 355 NumeroDaLinhaReal-->
+            <column name="strName">Insolacao</column><!-- 354 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta tonto com o excesso de calor.</column><!-- 355 NumeroDaLinhaReal-->
             <column name="aFieldNames">fMovesPerTurnModifier,fWaterConsumptionRate,m_fMoraleHidden,m_fDefense,MinSafeTemp,MaxSafeTemp,fPassiveRewarmPerHour</column><!-- 356 NumeroDaLinhaReal-->
             <column name="aModifiers">-2,1,-0.2,-0.05,15,15,-1</column><!-- 357 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 358 NumeroDaLinhaReal-->
@@ -374,8 +374,8 @@
         </table><!-- 374 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 375 NumeroDaLinhaReal-->
             <column name="id">15</column><!-- 376 NumeroDaLinhaReal-->
-            <column name="strName">Organ failure due to heat stroke</column><!-- 377 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; suffered organ failure due to heat stroke.</column><!-- 378 NumeroDaLinhaReal-->
+            <column name="strName">Orgaos estao falhando por excesso de calor</column><!-- 377 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sofrendo de uma falha de orgao devido ao excesso de calor.</column><!-- 378 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 379 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 380 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 381 NumeroDaLinhaReal-->
@@ -397,8 +397,8 @@
         </table><!-- 397 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 398 NumeroDaLinhaReal-->
             <column name="id">16</column><!-- 399 NumeroDaLinhaReal-->
-            <column name="strName">Cryo facility multitool found</column><!-- 400 NumeroDaLinhaReal-->
-            <column name="strDesc">The multitool at the cryo facility was found.</column><!-- 401 NumeroDaLinhaReal-->
+            <column name="strName">Encontrado Mult-Ferramenta de Cryo-Facility</column><!-- 400 NumeroDaLinhaReal-->
+            <column name="strDesc">Foi encontrado Mult-Ferramenta de Cryo-Facility.</column><!-- 401 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 402 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 403 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 404 NumeroDaLinhaReal-->
@@ -420,8 +420,8 @@
         </table><!-- 420 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 421 NumeroDaLinhaReal-->
             <column name="id">17</column><!-- 422 NumeroDaLinhaReal-->
-            <column name="strName">Merga Wraith already spawned</column><!-- 423 NumeroDaLinhaReal-->
-            <column name="strDesc">The Merga Wraith already spawned.</column><!-- 424 NumeroDaLinhaReal-->
+            <column name="strName">Ja gerado um Merga-Wraith</column><!-- 423 NumeroDaLinhaReal-->
+            <column name="strDesc">O Merga-Wraith ja foi gerado.</column><!-- 424 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 425 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 426 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 427 NumeroDaLinhaReal-->
@@ -443,8 +443,8 @@
         </table><!-- 443 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 444 NumeroDaLinhaReal-->
             <column name="id">18</column><!-- 445 NumeroDaLinhaReal-->
-            <column name="strName">Unconscious</column><!-- 446 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is unconscious.</column><!-- 447 NumeroDaLinhaReal-->
+            <column name="strName">Inconsciente</column><!-- 446 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta inconsciente</column><!-- 447 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,fFoodConsumptionRate,fWaterConsumptionRate,m_fMorale,m_fDefense,MinSafeTemp,MaxSafeTemp</column><!-- 448 NumeroDaLinhaReal-->
             <column name="aModifiers">0.05,0.002,0.0002,-100,-0.5,-0.5,-1.0,-1,15,15</column><!-- 449 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 450 NumeroDaLinhaReal-->
@@ -466,8 +466,8 @@
         </table><!-- 466 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 467 NumeroDaLinhaReal-->
             <column name="id">19</column><!-- 468 NumeroDaLinhaReal-->
-            <column name="strName">Wearing light shirt</column><!-- 469 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a light shirt.</column><!-- 470 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo camisa leve</column><!-- 469 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo uma camisa leve.</column><!-- 470 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 471 NumeroDaLinhaReal-->
             <column name="aModifiers">-3.5,-3,-0.5</column><!-- 472 NumeroDaLinhaReal-->
             <column name="aEffects">ArmorWound=100,0.02,0.01;ArmorWound=111,0.02,0.01;ArmorWound=104,0.02,0.01;ArmorWound=105,0.02,0.01;ArmorWound=106,0.02,0.01;ArmorWound=107,0.02,0.01;</column><!-- 473 NumeroDaLinhaReal-->
@@ -489,8 +489,8 @@
         </table><!-- 489 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 490 NumeroDaLinhaReal-->
             <column name="id">20</column><!-- 491 NumeroDaLinhaReal-->
-            <column name="strName">Wearing light pants</column><!-- 492 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a pair of light pants.</column><!-- 493 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo calcas leves</column><!-- 492 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo calcas leves.</column><!-- 493 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 494 NumeroDaLinhaReal-->
             <column name="aModifiers">-3.5,-6,-0.5</column><!-- 495 NumeroDaLinhaReal-->
             <column name="aEffects">ArmorWound=108,0.04,0.02;ArmorWound=114,0.04,0.02;ArmorWound=109,0.04,0.02;ArmorWound=115,0.04,0.02;ArmorWound=110,0.04,0.02;ArmorWound=116,0.04,0.02;</column><!-- 496 NumeroDaLinhaReal-->
@@ -512,8 +512,8 @@
         </table><!-- 512 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 513 NumeroDaLinhaReal-->
             <column name="id">21</column><!-- 514 NumeroDaLinhaReal-->
-            <column name="strName">Wearing left shoe</column><!-- 515 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a shoe on their left foot.</column><!-- 516 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo sapato esquerdo</column><!-- 515 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta usando um sapato no pe esquerdo.</column><!-- 516 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 517 NumeroDaLinhaReal-->
             <column name="aModifiers">-1,0,-0.05</column><!-- 518 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 519 NumeroDaLinhaReal-->
@@ -535,8 +535,8 @@
         </table><!-- 535 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 536 NumeroDaLinhaReal-->
             <column name="id">22</column><!-- 537 NumeroDaLinhaReal-->
-            <column name="strName">Wearing right shoe</column><!-- 538 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a shoe on their right foot.</column><!-- 539 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo sapato direito</column><!-- 538 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo sapato direito.</column><!-- 539 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 540 NumeroDaLinhaReal-->
             <column name="aModifiers">-1,0,-0.05</column><!-- 541 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 542 NumeroDaLinhaReal-->
@@ -558,8 +558,8 @@
         </table><!-- 558 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 559 NumeroDaLinhaReal-->
             <column name="id">23</column><!-- 560 NumeroDaLinhaReal-->
-            <column name="strName">Cryo facility medkit found</column><!-- 561 NumeroDaLinhaReal-->
-            <column name="strDesc">The medkit in the cryo facility was found.</column><!-- 562 NumeroDaLinhaReal-->
+            <column name="strName">Kit Medico de Cryo-Facility encontrado</column><!-- 561 NumeroDaLinhaReal-->
+            <column name="strDesc">O Kit Medico de Cryo-Facility foi encontrado</column><!-- 562 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 563 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 564 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 565 NumeroDaLinhaReal-->
@@ -581,8 +581,8 @@
         </table><!-- 581 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 582 NumeroDaLinhaReal-->
             <column name="id">24</column><!-- 583 NumeroDaLinhaReal-->
-            <column name="strName">Myopic</column><!-- 584 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is suffering from nearsightedness.</column><!-- 585 NumeroDaLinhaReal-->
+            <column name="strName">Miope</column><!-- 584 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sofrendo de miopia.</column><!-- 585 NumeroDaLinhaReal-->
             <column name="aFieldNames">VisionRange,BaseDetectionLevel</column><!-- 586 NumeroDaLinhaReal-->
             <column name="aModifiers">-1,0.25</column><!-- 587 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 588 NumeroDaLinhaReal-->
@@ -627,8 +627,8 @@
         </table><!-- 627 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 628 NumeroDaLinhaReal-->
             <column name="id">26</column><!-- 629 NumeroDaLinhaReal-->
-            <column name="strName">Visited Seven Gables Upstairs</column><!-- 630 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; already visited the upstairs of Seven Gables.</column><!-- 631 NumeroDaLinhaReal-->
+            <column name="strName">Visitei andar de cima de Seven-Gables</column><!-- 630 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; ja visitou o andar de cima de Seven-Gables.</column><!-- 631 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 632 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 633 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 634 NumeroDaLinhaReal-->
@@ -650,8 +650,8 @@
         </table><!-- 650 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 651 NumeroDaLinhaReal-->
             <column name="id">27</column><!-- 652 NumeroDaLinhaReal-->
-            <column name="strName">Haunted by the entity of Seven Gables Road</column><!-- 653 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is haunted by the entity that dwelled at Seven Gables Road.</column><!-- 654 NumeroDaLinhaReal-->
+            <column name="strName">Assombrado pela entidade da estrada de Seven-Gables</column><!-- 653 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta sendo assombrada pela entidade que habitava a estrada de Seven-Gables.</column><!-- 654 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 655 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 656 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 657 NumeroDaLinhaReal-->
@@ -673,8 +673,8 @@
         </table><!-- 673 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 674 NumeroDaLinhaReal-->
             <column name="id">28</column><!-- 675 NumeroDaLinhaReal-->
-            <column name="strName">Wearing visitor pass</column><!-- 676 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a megacity visitor pass.</column><!-- 677 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo passe de visitante</column><!-- 676 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta usando um passe de visitante de Megacity.</column><!-- 677 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 678 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 679 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 680 NumeroDaLinhaReal-->
@@ -696,8 +696,8 @@
         </table><!-- 696 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 697 NumeroDaLinhaReal-->
             <column name="id">29</column><!-- 698 NumeroDaLinhaReal-->
-            <column name="strName">Hatter introduced</column><!-- 699 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; was introduced to Hatter.</column><!-- 700 NumeroDaLinhaReal-->
+            <column name="strName">Apresentado ao Chapeleiro</column><!-- 699 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; foi apresentado ao Chapeleiro.</column><!-- 700 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 701 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 702 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 703 NumeroDaLinhaReal-->
@@ -719,8 +719,8 @@
         </table><!-- 719 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 720 NumeroDaLinhaReal-->
             <column name="id">30</column><!-- 721 NumeroDaLinhaReal-->
-            <column name="strName">Parched</column><!-- 722 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is weak with thirst.</column><!-- 723 NumeroDaLinhaReal-->
+            <column name="strName">Sede</column><!-- 722 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta fraco com sede.</column><!-- 723 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fEncumberanceLimit,m_fMoraleHidden,m_fDefense</column><!-- 724 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.005,-0.0005,-0.0001,-1,-25,-0.1,-0.02</column><!-- 725 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 726 NumeroDaLinhaReal-->
@@ -742,8 +742,8 @@
         </table><!-- 742 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 743 NumeroDaLinhaReal-->
             <column name="id">31</column><!-- 744 NumeroDaLinhaReal-->
-            <column name="strName">Dehydrated</column><!-- 745 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is dying of thirst.</column><!-- 746 NumeroDaLinhaReal-->
+            <column name="strName">Desidratado</column><!-- 745 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta morrendo de sede.</column><!-- 746 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fEncumberanceLimit,m_fMoraleHidden,m_fDefense</column><!-- 747 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.001,-0.0002,-2,-45,-0.2,-0.05</column><!-- 748 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 749 NumeroDaLinhaReal-->
@@ -765,8 +765,8 @@
         </table><!-- 765 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 766 NumeroDaLinhaReal-->
             <column name="id">32</column><!-- 767 NumeroDaLinhaReal-->
-            <column name="strName">Died of dehydration</column><!-- 768 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; died of dehydration.</column><!-- 769 NumeroDaLinhaReal-->
+            <column name="strName">Morreu de desidratacao</column><!-- 768 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; morreu de desidratacao.</column><!-- 769 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 770 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 771 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 772 NumeroDaLinhaReal-->
@@ -788,8 +788,8 @@
         </table><!-- 788 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 789 NumeroDaLinhaReal-->
             <column name="id">33</column><!-- 790 NumeroDaLinhaReal-->
-            <column name="strName">Ate soup</column><!-- 791 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; ate a can of Chef Yummy &quot;Creamy Crumb&quot; condensed soup.</column><!-- 792 NumeroDaLinhaReal-->
+            <column name="strName">Comeu sopa</column><!-- 791 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu uma lata de Chef Yummy &quot;Creamy Crumb&quot; sopa enlatada.</column><!-- 792 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt,fWaterDebt</column><!-- 793 NumeroDaLinhaReal-->
             <column name="aModifiers">-4,-2</column><!-- 794 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 795 NumeroDaLinhaReal-->
@@ -811,8 +811,8 @@
         </table><!-- 811 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 812 NumeroDaLinhaReal-->
             <column name="id">34</column><!-- 813 NumeroDaLinhaReal-->
-            <column name="strName">Magnifying optics equipped</column><!-- 814 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is using an optical magnification device.</column><!-- 815 NumeroDaLinhaReal-->
+            <column name="strName">Equipado ampliacao optica</column><!-- 814 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta usando um dispositivo de ampliacao optica.</column><!-- 815 NumeroDaLinhaReal-->
             <column name="aFieldNames">VisionRange,BaseDetectionLevel</column><!-- 816 NumeroDaLinhaReal-->
             <column name="aModifiers">1,-0.125</column><!-- 817 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 818 NumeroDaLinhaReal-->
@@ -834,8 +834,8 @@
         </table><!-- 834 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 835 NumeroDaLinhaReal-->
             <column name="id">35</column><!-- 836 NumeroDaLinhaReal-->
-            <column name="strName">Eagle eye</column><!-- 837 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; can see distant objects better than most people.</column><!-- 838 NumeroDaLinhaReal-->
+            <column name="strName">Olho de aguia</column><!-- 837 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; pode ver objetos distantes melhor do que a maioria das pessoas.</column><!-- 838 NumeroDaLinhaReal-->
             <column name="aFieldNames">VisionRange,BaseDetectionLevel</column><!-- 839 NumeroDaLinhaReal-->
             <column name="aModifiers">1,-0.125</column><!-- 840 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 841 NumeroDaLinhaReal-->
@@ -857,8 +857,8 @@
         </table><!-- 857 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 858 NumeroDaLinhaReal-->
             <column name="id">36</column><!-- 859 NumeroDaLinhaReal-->
-            <column name="strName">Drank water</column><!-- 860 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; drank some water.</column><!-- 861 NumeroDaLinhaReal-->
+            <column name="strName">Bebeu agua</column><!-- 860 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; tomou um pouco de agua.</column><!-- 861 NumeroDaLinhaReal-->
             <column name="aFieldNames">fWaterDebt</column><!-- 862 NumeroDaLinhaReal-->
             <column name="aModifiers">-4</column><!-- 863 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 864 NumeroDaLinhaReal-->
@@ -880,8 +880,8 @@
         </table><!-- 880 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 881 NumeroDaLinhaReal-->
             <column name="id">37</column><!-- 882 NumeroDaLinhaReal-->
-            <column name="strName">Wearing heavy shirt</column><!-- 883 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a heavy shirt.</column><!-- 884 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo camisa pesada</column><!-- 883 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo uma camisa pesada.</column><!-- 884 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 885 NumeroDaLinhaReal-->
             <column name="aModifiers">-12,-9,-1.5</column><!-- 886 NumeroDaLinhaReal-->
             <column name="aEffects">ArmorWound=100,0.1,0.05;ArmorWound=111,0.1,0.05;ArmorWound=102,0.1,0.05;ArmorWound=112,0.1,0.05;ArmorWound=103,0.1,0.05;ArmorWound=113,0.1,0.05;ArmorWound=104,0.1,0.05;ArmorWound=105,0.1,0.05;ArmorWound=106,0.1,0.05;ArmorWound=107,0.1,0.05;</column><!-- 887 NumeroDaLinhaReal-->
@@ -903,8 +903,8 @@
         </table><!-- 903 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 904 NumeroDaLinhaReal-->
             <column name="id">38</column><!-- 905 NumeroDaLinhaReal-->
-            <column name="strName">Wearing a coat</column><!-- 906 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is wearing a warm coat.</column><!-- 907 NumeroDaLinhaReal-->
+            <column name="strName">Vestindo um casaco</column><!-- 906 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta vestindo um casaco quente.</column><!-- 907 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column><!-- 908 NumeroDaLinhaReal-->
             <column name="aModifiers">-42,-15,-2.5</column><!-- 909 NumeroDaLinhaReal-->
             <column name="aEffects">ArmorWound=100,0.3,0.1;ArmorWound=111,0.3,0.1;ArmorWound=102,0.3,0.1;ArmorWound=112,0.3,0.1;ArmorWound=103,0.3,0.1;ArmorWound=113,0.3,0.1;ArmorWound=104,0.3,0.1;ArmorWound=105,0.3,0.1;ArmorWound=106,0.3,0.1;ArmorWound=107,0.3,0.1;</column><!-- 910 NumeroDaLinhaReal-->
@@ -926,8 +926,8 @@
         </table><!-- 926 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 927 NumeroDaLinhaReal-->
             <column name="id">39</column><!-- 928 NumeroDaLinhaReal-->
-            <column name="strName">Ate crackers</column><!-- 929 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; ate a packet of crackers.</column><!-- 930 NumeroDaLinhaReal-->
+            <column name="strName">Comeu bolachas</column><!-- 929 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu um pacote de bolachas.</column><!-- 930 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt,fWaterDebt</column><!-- 931 NumeroDaLinhaReal-->
             <column name="aModifiers">-1,0.5</column><!-- 932 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 933 NumeroDaLinhaReal-->
@@ -949,8 +949,8 @@
         </table><!-- 949 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 950 NumeroDaLinhaReal-->
             <column name="id">40</column><!-- 951 NumeroDaLinhaReal-->
-            <column name="strName">Cholera</column><!-- 952 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; contracted cholera.</column><!-- 953 NumeroDaLinhaReal-->
+            <column name="strName">Colera I (Doenca)</column><!-- 952 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; contraiu Colera I (Doenca).</column><!-- 953 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 954 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 955 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 956 NumeroDaLinhaReal-->
@@ -972,8 +972,8 @@
         </table><!-- 972 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 973 NumeroDaLinhaReal-->
             <column name="id">41</column><!-- 974 NumeroDaLinhaReal-->
-            <column name="strName">Cholera 2</column><!-- 975 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; feels nauseous, and has uncontrollable bouts of vomiting and diarrhea.</column><!-- 976 NumeroDaLinhaReal-->
+            <column name="strName">Colera II (Doenca)</column><!-- 975 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; sente-se enjoado e tem ataques incontrolaveis ​​de vomitos e diarreia.</column><!-- 976 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate,fWaterConsumptionRate</column><!-- 977 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.05,2.5</column><!-- 978 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 979 NumeroDaLinhaReal-->
@@ -995,8 +995,8 @@
         </table><!-- 995 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 996 NumeroDaLinhaReal-->
             <column name="id">42</column><!-- 997 NumeroDaLinhaReal-->
-            <column name="strName">Cholera 3</column><!-- 998 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt;'s diarrhea and vomiting has worsened. &lt;us&gt;'s skin is starting to take on a bluish tint.</column><!-- 999 NumeroDaLinhaReal-->
+            <column name="strName">Colera III (Doenca)</column><!-- 998 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt;'s sua diarreia e o vomito pioraram. &lt;us&gt;'s sua pele esta comecando a ter uma tonalidade azulada.</column><!-- 999 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate,fWaterConsumptionRate</column><!-- 1000 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.15,5</column><!-- 1001 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1002 NumeroDaLinhaReal-->
@@ -1018,8 +1018,8 @@
         </table><!-- 1018 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1019 NumeroDaLinhaReal-->
             <column name="id">43</column><!-- 1020 NumeroDaLinhaReal-->
-            <column name="strName">Died of cholera</column><!-- 1021 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; died of cholera.</column><!-- 1022 NumeroDaLinhaReal-->
+            <column name="strName">Morreu de Colera</column><!-- 1021 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; morreu de Colera.</column><!-- 1022 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 1023 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 1024 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1025 NumeroDaLinhaReal-->
