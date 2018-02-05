@@ -1,7 +1,7 @@
 'Criado por Geovani Luiz de Moura
 'Aconselho usar Notepad++ 
 'Plugins: RumMe(Shift+F5) Executar arquivo mais rapido
-'Caracteres nao suportados no jogo: (ç, é, á, í, ó, à, ã, õ, â, ê, ô, ú) Obs: não descobri como contornar esse problema
+'Caracteres nao suportados no jogo: (ç, é, á, í, ó, à, ã, õ, â, ê, ô, ú) Obs: nao descobri como contornar esse problema
 
 Option Explicit
 
@@ -220,7 +220,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 585) Then
 		Line = Replace(Line, "Roll Dodge", "Rolar para esquivar")
 	ElseIf (NumberLine = 586) Then
-		Line = Replace(Line, "Roll from target, making you harder to hit.", "Rolar para esquivar, tornando-o mais difícil de acertar.")
+		Line = Replace(Line, "Roll from target, making you harder to hit.", "Rolar para esquivar, tornando-o mais dificil de acertar.")
 	ElseIf (NumberLine = 587) Then
 		Line = Replace(Line, "Chance to move 1 space away from target.", "Possibilidade de mover 1 espaco para longe do alvo.")
 	ElseIf (NumberLine = 588) Then
@@ -281,7 +281,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 717) Then
 		Line = Replace(Line, "Sneak Away", "Recuar esgueirando-se")
 	ElseIf (NumberLine = 718) Then
-		Line = Replace(Line, "Move 1 space away from target while hiding.", "Mova 1 espaço longe do alvo enquanto se esconde.")
+		Line = Replace(Line, "Move 1 space away from target while hiding.", "Mova 1 espaco longe do alvo enquanto se esconde.")
 	ElseIf (NumberLine = 719) Then
 		Line = Replace(Line, "Must see target, and target must not see you yet.", "Precisa estar vendo o alvo e o alvo nao deve estar o vendo.")
 	ElseIf (NumberLine = 720) Then
@@ -565,7 +565,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1403) Then
 		Line = Replace(Line, "High chance of being detected if hidden", "Grande chance de ser detectado se escondido")
 	ElseIf (NumberLine = 1404) Then
-		Line = Replace(Line, "Not always available", "Não esta sempre disponivel")		
+		Line = Replace(Line, "Not always available", "Nao esta sempre disponivel")		
 	ElseIf (NumberLine = 1438) Then
 		Line = Replace(Line, "Create Obstacle", "Criar obstaculo")
 	ElseIf (NumberLine = 1440) Then
@@ -604,7 +604,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1491) Then
 		Line = Replace(Line, "High chance of being detected if hidden", "Grande chance de ser detectado se escondido")
 	ElseIf (NumberLine = 1492) Then
-		Line = Replace(Line, "Not always available", "Não esta sempre disponivel")		
+		Line = Replace(Line, "Not always available", "Nao esta sempre disponivel")		
 	ElseIf (NumberLine = 1526) Then
 		Line = Replace(Line, "Trample", "Pisar")
 	ElseIf (NumberLine = 1528) Then
@@ -630,7 +630,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1570) Then
 		Line = Replace(Line, "Call Melonhead", "Melonheads pedindo ajuda")
 	ElseIf (NumberLine = 1572) Then
-		Line = Replace(Line, "started wailing for help", "começou a gritar por ajuda por outros Melonheads")
+		Line = Replace(Line, "started wailing for help", "comecou a gritar por ajuda por outros Melonheads")
 	ElseIf (NumberLine = 1574) Then
 		Line = Replace(Line, "Call Melonhead", "Melonheads esta pedindo ajuda")
 	ElseIf (NumberLine = 1575) Then
@@ -723,7 +723,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1866) Then
 		Line = Replace(Line, "Surrender to Target", "Entregue-se ao alvo")
 	ElseIf (NumberLine = 1867) Then
-		Line = Replace(Line, "Drop all your items, and offer your surrender", "Solte todos os seus itens e ofereça sua rendição")
+		Line = Replace(Line, "Drop all your items, and offer your surrender", "Solte todos os seus itens e ofereca sua rendicao")
 	ElseIf (NumberLine = 1868) Then
 		Line = Replace(Line, "Both you and target must see each other", "Tanto voce como o alvo devem se ver")		
 	ElseIf (NumberLine = 1902) Then
@@ -747,7 +747,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1944) Then
 		Line = Replace(Line, "Ditch Vehicle", "Veiculo de vala")
 	ElseIf (NumberLine = 1946) Then
-		Line = Replace(Line, "ditches their vehicle", "mergulhou seu veículo")
+		Line = Replace(Line, "ditches their vehicle", "mergulhou seu veiculo")
 	ElseIf (NumberLine = 1948) Then
 		Line = Replace(Line, "Ditch Vehicle", "Veiculo de vala")
 	ElseIf (NumberLine = 1949) Then
@@ -755,7 +755,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 1950) Then
 		Line = Replace(Line, "Drops equipped vehicle onto the ground", "Descartado veiculo equipado no chao")
 	ElseIf (NumberLine = 1951) Then
-		Line = Replace(Line, "Must be using a vehicle that can be quickly discarded", "Deve usar um veículo que pode ser descartado rapidamente")		
+		Line = Replace(Line, "Must be using a vehicle that can be quickly discarded", "Deve usar um veiculo que pode ser descartado rapidamente")		
 	ElseIf (NumberLine = 1985) Then
 		Line = Replace(Line, "Offer to Talk", "Tentar conversa")
 	ElseIf (NumberLine = 1987) Then
@@ -851,7 +851,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 2277) Then
 		Line = Replace(Line, "Crawl Away", "Retroceder rastejando")
 	ElseIf (NumberLine = 2278) Then
-		Line = Replace(Line, "Move 1 space away from target", "Mova 1 espaço longe do alvo")
+		Line = Replace(Line, "Move 1 space away from target", "Mova 1 espaco longe do alvo")
 	ElseIf (NumberLine = 2279) Then
 		Line = Replace(Line, "Must see target", "Precisa ver o alvo")
 	ElseIf (NumberLine = 2280) Then
@@ -863,7 +863,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 2318) Then
 		Line = Replace(Line, "Advance", "Avancar")
 	ElseIf (NumberLine = 2319) Then
-		Line = Replace(Line, "Move 1 space closer to target", "Mova 1 espaço mais perto do alvo")
+		Line = Replace(Line, "Move 1 space closer to target", "Mova 1 espaco mais perto do alvo")
 	ElseIf (NumberLine = 2320) Then
 		Line = Replace(Line, "Must see target", "Precisa estar vendo o alvo")
 	ElseIf (NumberLine = 2321) Then

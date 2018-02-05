@@ -583,7 +583,7 @@ Nao estara sempre disponivel.</column><!-- 547 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; faz um rolamento para se esquiva do &lt;them&gt;.</column><!-- 583 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 584 NumeroDaLinhaReal-->
             <column name="strPopUp">Rolar para esquivar<!-- 585 NumeroDaLinhaReal-->
-Rolar para esquivar, tornando-o mais difícil de acertar.<!-- 586 NumeroDaLinhaReal-->
+Rolar para esquivar, tornando-o mais dificil de acertar.<!-- 586 NumeroDaLinhaReal-->
 Possibilidade de mover 1 espaco para longe do alvo.<!-- 587 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 588 NumeroDaLinhaReal-->
 Grande chance de ser detectado se escondido.<!-- 589 NumeroDaLinhaReal-->
@@ -715,7 +715,7 @@ Nao estara sempre disponivel.</column><!-- 679 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; esta recuando escondido lentamente de &lt;them&gt;.</column><!-- 715 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 716 NumeroDaLinhaReal-->
             <column name="strPopUp">Recuar esgueirando-se<!-- 717 NumeroDaLinhaReal-->
-Mova 1 espaço longe do alvo enquanto se esconde.<!-- 718 NumeroDaLinhaReal-->
+Mova 1 espaco longe do alvo enquanto se esconde.<!-- 718 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo e o alvo nao deve estar o vendo.<!-- 719 NumeroDaLinhaReal-->
 Baixa chance de tropecar no terreno.<!-- 720 NumeroDaLinhaReal-->
 Baixa chance de ser detectada se escondida.</column><!-- 721 NumeroDaLinhaReal-->
@@ -1401,7 +1401,7 @@ Deve estar no alcance do corpo a corpo.<!-- 1400 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 1401 NumeroDaLinhaReal-->
 Tanto voce como o alvo podem cair.<!-- 1402 NumeroDaLinhaReal-->
 Grande chance de ser detectado se escondido.<!-- 1403 NumeroDaLinhaReal-->
-Não esta sempre disponivel.</column><!-- 1404 NumeroDaLinhaReal-->
+Nao esta sempre disponivel.</column><!-- 1404 NumeroDaLinhaReal-->
             <column name="vChanceType">0,1,2</column><!-- 1405 NumeroDaLinhaReal-->
             <column name="vUsConditions">[155,0,0],[737,0,0]</column><!-- 1406 NumeroDaLinhaReal-->
             <column name="vThemConditions">[144,0,0],[152,0,0]</column><!-- 1407 NumeroDaLinhaReal-->
@@ -1489,7 +1489,7 @@ Possibilidade de derrubar o alvo e faze-los perder 1 turno.<!-- 1488 NumeroDaLin
 Precisa estar vendo o alvo.<!-- 1489 NumeroDaLinhaReal-->
 Automaticamente perde a guarda.<!-- 1490 NumeroDaLinhaReal-->
 Grande chance de ser detectado se escondido.<!-- 1491 NumeroDaLinhaReal-->
-Não esta sempre disponivel.</column><!-- 1492 NumeroDaLinhaReal-->
+Nao esta sempre disponivel.</column><!-- 1492 NumeroDaLinhaReal-->
             <column name="vChanceType">0,2,1</column><!-- 1493 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-137,0,0],[155,0,0],[737,0,0]</column><!-- 1494 NumeroDaLinhaReal-->
             <column name="vThemConditions">[152,0,0],[144,0,0]</column><!-- 1495 NumeroDaLinhaReal-->
@@ -1569,7 +1569,7 @@ Nao esta sempre disponivel.</column><!-- 1536 NumeroDaLinhaReal-->
             <column name="strID">90.87</column><!-- 1569 NumeroDaLinhaReal-->
             <column name="strName">Melonheads pedindo ajuda</column><!-- 1570 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1571 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; começou a gritar por ajuda por outros Melonheads!</column><!-- 1572 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; comecou a gritar por ajuda por outros Melonheads!</column><!-- 1572 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1573 NumeroDaLinhaReal-->
             <column name="strPopUp">Melonheads esta pedindo ajuda<!-- 1574 NumeroDaLinhaReal-->
 Chamando ajuda de outros Melonheads.</column><!-- 1575 NumeroDaLinhaReal-->
@@ -1864,7 +1864,7 @@ O alvo deve ter exigido a rendicao.</column><!-- 1828 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; oferece sua rendicao a &lt;them&gt;!</column><!-- 1864 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1865 NumeroDaLinhaReal-->
             <column name="strPopUp">Entregue-se ao alvo<!-- 1866 NumeroDaLinhaReal-->
-Solte todos os seus itens e ofereça sua rendição.<!-- 1867 NumeroDaLinhaReal-->
+Solte todos os seus itens e ofereca sua rendicao.<!-- 1867 NumeroDaLinhaReal-->
 Tanto voce como o alvo devem se ver.</column><!-- 1868 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 1869 NumeroDaLinhaReal-->
             <column name="vUsConditions">[155,0,0],[400,0,0],[403,0,0],[737,0,0]</column><!-- 1870 NumeroDaLinhaReal-->
@@ -1943,12 +1943,12 @@ Grande chance de ser detectado se escondido.</column><!-- 1910 NumeroDaLinhaReal
             <column name="strID">90.102</column><!-- 1943 NumeroDaLinhaReal-->
             <column name="strName">Veiculo de vala</column><!-- 1944 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1945 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; mergulhou seu veículo!</column><!-- 1946 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; mergulhou seu veiculo!</column><!-- 1946 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1947 NumeroDaLinhaReal-->
             <column name="strPopUp">Veiculo de vala<!-- 1948 NumeroDaLinhaReal-->
 Veiculo abandonado, liberando voce para correr. Torna-se mais dificil atingir ente turno.<!-- 1949 NumeroDaLinhaReal-->
 Descartado veiculo equipado no chao.<!-- 1950 NumeroDaLinhaReal-->
-Deve usar um veículo que pode ser descartado rapidamente.</column><!-- 1951 NumeroDaLinhaReal-->
+Deve usar um veiculo que pode ser descartado rapidamente.</column><!-- 1951 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 1952 NumeroDaLinhaReal-->
             <column name="vUsConditions">[489,0,0],[153,0,0],[155,0,0],[339,0,0],[738,0,0]</column><!-- 1953 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 1954 NumeroDaLinhaReal-->
@@ -2275,7 +2275,7 @@ Possibilidade de ser detectado se escondido.</column><!-- 2239 NumeroDaLinhaReal
             <column name="strSuccess">&lt;us&gt; rasteja para longe de &lt;them&gt;.</column><!-- 2275 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2276 NumeroDaLinhaReal-->
             <column name="strPopUp">Retroceder rastejando<!-- 2277 NumeroDaLinhaReal-->
-Mova 1 espaço longe do alvo.<!-- 2278 NumeroDaLinhaReal-->
+Mova 1 espaco longe do alvo.<!-- 2278 NumeroDaLinhaReal-->
 Precisa ver o alvo.<!-- 2279 NumeroDaLinhaReal-->
 Possibilidade de ser detectado se escondido.</column><!-- 2280 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2281 NumeroDaLinhaReal-->
@@ -2316,7 +2316,7 @@ Possibilidade de ser detectado se escondido.</column><!-- 2280 NumeroDaLinhaReal
             <column name="strSuccess">&lt;us&gt; avanca para &lt;them&gt;.</column><!-- 2316 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2317 NumeroDaLinhaReal-->
             <column name="strPopUp">Avancar <!-- 2318 NumeroDaLinhaReal-->
-Mova 1 espaço mais perto do alvo.<!-- 2319 NumeroDaLinhaReal-->
+Mova 1 espaco mais perto do alvo.<!-- 2319 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 2320 NumeroDaLinhaReal-->
 Remove sua guarda.<!-- 2321 NumeroDaLinhaReal-->
 Possibilidade de tropecar no terreno.<!-- 2322 NumeroDaLinhaReal-->
