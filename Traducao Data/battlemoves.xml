@@ -665,18 +665,18 @@ Nao esta sempre disponivel.</column><!-- 634 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 665 NumeroDaLinhaReal-->
             <column name="id">15</column><!-- 666 NumeroDaLinhaReal-->
             <column name="strID">90.37</column><!-- 667 NumeroDaLinhaReal-->
-            <column name="strName">Desperate Retreat</column><!-- 668 NumeroDaLinhaReal-->
+            <column name="strName">Retirada Desesperada</column><!-- 668 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 669 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; desperately retreats from &lt;them&gt;.</column><!-- 670 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; desperately tries to retreat from &lt;them&gt;...but can't get away!</column><!-- 671 NumeroDaLinhaReal-->
-            <column name="strPopUp">Desperate Retreat <!-- 672 NumeroDaLinhaReal-->
-Move 1-2 spaces away from target and try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.<!-- 673 NumeroDaLinhaReal-->
-Must not be in melee range from any enemy.<!-- 674 NumeroDaLinhaReal-->
-Removes cover.<!-- 675 NumeroDaLinhaReal-->
-Makes you vulnerable.<!-- 676 NumeroDaLinhaReal-->
-High chance of tripping on terrain.<!-- 677 NumeroDaLinhaReal-->
-High chance of being detected if hidden.<!-- 678 NumeroDaLinhaReal-->
-Not always available.</column><!-- 679 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; desesperadamente se retira do &lt;them&gt;.</column><!-- 670 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta desesperadamente se retirar do &lt;them&gt;...mas nao conseguiu fugir!</column><!-- 671 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirada Desesperada <!-- 672 NumeroDaLinhaReal-->
+Mova 1-2 espacos para longe do alvo e tente sair do campo de batalha, com base na distancia do inimigo, taxas de movimento, etc.<!-- 673 NumeroDaLinhaReal-->
+Nao deve estar no alcance de uma briga corpo a corpo de qualquer inimigo.<!-- 674 NumeroDaLinhaReal-->
+Remove sua guarda.<!-- 675 NumeroDaLinhaReal-->
+Faz voce ficar vulneravel.<!-- 676 NumeroDaLinhaReal-->
+Grande chance de tropecar no terreno.<!-- 677 NumeroDaLinhaReal-->
+Grande chance de ser detectado se escondido.<!-- 678 NumeroDaLinhaReal-->
+Nao estara sempre disponivel.</column><!-- 679 NumeroDaLinhaReal-->
             <column name="vChanceType">0,7,0</column><!-- 680 NumeroDaLinhaReal-->
             <column name="vUsConditions">[142,0,0],[155,0,0],[-137,0,0],[339,0,0],[737,0,0]</column><!-- 681 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 682 NumeroDaLinhaReal-->
@@ -710,15 +710,15 @@ Not always available.</column><!-- 679 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 710 NumeroDaLinhaReal-->
             <column name="id">16</column><!-- 711 NumeroDaLinhaReal-->
             <column name="strID">90.27</column><!-- 712 NumeroDaLinhaReal-->
-            <column name="strName">Sneak Away</column><!-- 713 NumeroDaLinhaReal-->
+            <column name="strName">Esgueirar-se</column><!-- 713 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 714 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; sneaks away from &lt;them&gt;.</column><!-- 715 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; escapa de &lt;them&gt;.</column><!-- 715 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 716 NumeroDaLinhaReal-->
-            <column name="strPopUp">Sneak Away<!-- 717 NumeroDaLinhaReal-->
-Move 1 space away from target while hiding.<!-- 718 NumeroDaLinhaReal-->
-Must see target, and target must not see you yet.<!-- 719 NumeroDaLinhaReal-->
-Low chance of tripping on terrain.<!-- 720 NumeroDaLinhaReal-->
-Low chance of being detected if hidden.</column><!-- 721 NumeroDaLinhaReal-->
+            <column name="strPopUp">Esgueirar-se<!-- 717 NumeroDaLinhaReal-->
+Mova 1 espaço longe do alvo enquanto se esconde.<!-- 718 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo e o alvo nao deve estar o vendo.<!-- 719 NumeroDaLinhaReal-->
+Baixa chance de tropecar no terreno.<!-- 720 NumeroDaLinhaReal-->
+Baixa chance de ser detectada se escondida.</column><!-- 721 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 722 NumeroDaLinhaReal-->
             <column name="vUsConditions">[98,0,0],[739,0,0]</column><!-- 723 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 724 NumeroDaLinhaReal-->
@@ -752,15 +752,15 @@ Low chance of being detected if hidden.</column><!-- 721 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 752 NumeroDaLinhaReal-->
             <column name="id">17</column><!-- 753 NumeroDaLinhaReal-->
             <column name="strID">90.41</column><!-- 754 NumeroDaLinhaReal-->
-            <column name="strName">Ranged Attack</column><!-- 755 NumeroDaLinhaReal-->
+            <column name="strName">Ataque a distancia</column><!-- 755 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 756 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; attacks &lt;them&gt;...and hits!</column><!-- 757 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tries to attack &lt;them&gt;...but misses!</column><!-- 758 NumeroDaLinhaReal-->
-            <column name="strPopUp">Ranged Attack<!-- 759 NumeroDaLinhaReal-->
-Use current ranged attack on target.<!-- 760 NumeroDaLinhaReal-->
-Must see target.<!-- 761 NumeroDaLinhaReal-->
-Low chance of making you vulnerable.<!-- 762 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 763 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; ataca o &lt;them&gt;...e o acerta!</column><!-- 757 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta atacar o &lt;them&gt;...mas o erra</column><!-- 758 NumeroDaLinhaReal-->
+            <column name="strPopUp">Ataque a distancia<!-- 759 NumeroDaLinhaReal-->
+Usar o atual ataque a distancia no alvo.<!-- 760 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 761 NumeroDaLinhaReal-->
+Baixa chance de torna-lo vulneravel.<!-- 762 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 763 NumeroDaLinhaReal-->
             <column name="vChanceType">0,2,1</column><!-- 764 NumeroDaLinhaReal-->
             <column name="vUsConditions"></column><!-- 765 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 766 NumeroDaLinhaReal-->
@@ -794,12 +794,12 @@ Chance of being detected if hidden.</column><!-- 763 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 794 NumeroDaLinhaReal-->
             <column name="id">18</column><!-- 795 NumeroDaLinhaReal-->
             <column name="strID">90.40</column><!-- 796 NumeroDaLinhaReal-->
-            <column name="strName">Get Up</column><!-- 797 NumeroDaLinhaReal-->
+            <column name="strName">Levantar-se</column><!-- 797 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 798 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; gets up.</column><!-- 799 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; vai se levantar.</column><!-- 799 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 800 NumeroDaLinhaReal-->
-            <column name="strPopUp">Get Up<!-- 801 NumeroDaLinhaReal-->
-Stand up from being prone.</column><!-- 802 NumeroDaLinhaReal-->
+            <column name="strPopUp">Levantar-se<!-- 801 NumeroDaLinhaReal-->
+Levante-se de brucos.</column><!-- 802 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 803 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-143,0,0],[155,0,0]</column><!-- 804 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 805 NumeroDaLinhaReal-->
@@ -833,14 +833,14 @@ Stand up from being prone.</column><!-- 802 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 833 NumeroDaLinhaReal-->
             <column name="id">19</column><!-- 834 NumeroDaLinhaReal-->
             <column name="strID">90.49</column><!-- 835 NumeroDaLinhaReal-->
-            <column name="strName">Blind Attack</column><!-- 836 NumeroDaLinhaReal-->
+            <column name="strName">Atacar cegamente</column><!-- 836 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 837 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; blindly lashes out...and hits!</column><!-- 838 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; blindly flails about...but misses!</column><!-- 839 NumeroDaLinhaReal-->
-            <column name="strPopUp">Blind Attack<!-- 840 NumeroDaLinhaReal-->
-Try to melee attack an unseen target.<!-- 841 NumeroDaLinhaReal-->
-Slim chance to hit target.<!-- 842 NumeroDaLinhaReal-->
-Must be in melee range.</column><!-- 843 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; vai atacar cegamente... e acerta!</column><!-- 838 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; vai atacar cegamente... e erra!</column><!-- 839 NumeroDaLinhaReal-->
+            <column name="strPopUp">Atacar cegamente<!-- 840 NumeroDaLinhaReal-->
+Tente atacar corpo a corpo um alvo nao visto.<!-- 841 NumeroDaLinhaReal-->
+Pequena chance de atingir o alvo.<!-- 842 NumeroDaLinhaReal-->
+Deve estar na faixa de corpo a corpo.</column><!-- 843 NumeroDaLinhaReal-->
             <column name="vChanceType">0,1,0.1</column><!-- 844 NumeroDaLinhaReal-->
             <column name="vUsConditions">[155,0,0],[737,0,0]</column><!-- 845 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 846 NumeroDaLinhaReal-->
