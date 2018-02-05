@@ -68,15 +68,15 @@
         <table name="battlemoves"><!-- 68 NumeroDaLinhaReal-->
             <column name="id">1</column><!-- 69 NumeroDaLinhaReal-->
             <column name="strID">90.35</column><!-- 70 NumeroDaLinhaReal-->
-            <column name="strName">Fall Back Under Cover</column><!-- 71 NumeroDaLinhaReal-->
+            <column name="strName">Retirar-se escondido</column><!-- 71 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 72 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; falls back from &lt;them&gt; under cover.</column><!-- 73 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; se afastou escondido do &lt;them&gt; escondido.</column><!-- 73 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 74 NumeroDaLinhaReal-->
-            <column name="strPopUp">Fall Back Under Cover<!-- 75 NumeroDaLinhaReal-->
-Move 1 space away from target, maintaining cover.<!-- 76 NumeroDaLinhaReal-->
-Must see target.<!-- 77 NumeroDaLinhaReal-->
-Low chance of tripping on terrain.<!-- 78 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 79 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirar-se escondido<!-- 75 NumeroDaLinhaReal-->
+Mova 1 espaco longe do alvo, mantendo escondido.<!-- 76 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 77 NumeroDaLinhaReal-->
+Baixa chance de tropecar no terreno.<!-- 78 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 79 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 80 NumeroDaLinhaReal-->
             <column name="vUsConditions">[98,0,0],[339,0,0]</column><!-- 81 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 82 NumeroDaLinhaReal-->
@@ -193,11 +193,11 @@ Baixa chance de ser detectada se escondida.</column><!-- 162 NumeroDaLinhaReal--
         <table name="battlemoves"><!-- 193 NumeroDaLinhaReal-->
             <column name="id">4</column><!-- 194 NumeroDaLinhaReal-->
             <column name="strID">90.22</column><!-- 195 NumeroDaLinhaReal-->
-            <column name="strName">Esgueirar-se</column><!-- 196 NumeroDaLinhaReal-->
+            <column name="strName">Avancar esgueirando</column><!-- 196 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 197 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; esgueira para &lt;them&gt;.</column><!-- 198 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; esta avancando lentamente para &lt;them&gt;.</column><!-- 198 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 199 NumeroDaLinhaReal-->
-            <column name="strPopUp">Esgueirar-se <!-- 200 NumeroDaLinhaReal-->
+            <column name="strPopUp">Avancar esgueirando <!-- 200 NumeroDaLinhaReal-->
 Mova 1 espaco mais perto do alvo enquanto estiver escondido.<!-- 201 NumeroDaLinhaReal-->
 Precisa ver o alvo e o alvo nao deve ve-lo ainda.<!-- 202 NumeroDaLinhaReal-->
 Baixa chance de tropecar no terreno.<!-- 203 NumeroDaLinhaReal-->
@@ -447,11 +447,11 @@ Ainda nao e possivel ver o alvo.</column><!-- 416 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 447 NumeroDaLinhaReal-->
             <column name="id">10</column><!-- 448 NumeroDaLinhaReal-->
             <column name="strID">90.30</column><!-- 449 NumeroDaLinhaReal-->
-            <column name="strName">Arrancada!</column><!-- 450 NumeroDaLinhaReal-->
+            <column name="strName">Avancar correndo!</column><!-- 450 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 451 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; arrancada para &lt;them&gt;.</column><!-- 452 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; avancar correndo para &lt;them&gt;.</column><!-- 452 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 453 NumeroDaLinhaReal-->
-            <column name="strPopUp">Arrancada! <!-- 454 NumeroDaLinhaReal-->
+            <column name="strPopUp">Avancar correndo! <!-- 454 NumeroDaLinhaReal-->
 Mova 2-3 espacos em direcao ao alvo.<!-- 455 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 456 NumeroDaLinhaReal-->
 Remove sua guarda.<!-- 457 NumeroDaLinhaReal-->
@@ -491,12 +491,12 @@ Grande chance de ser detectado se escondido.</column><!-- 460 NumeroDaLinhaReal-
         <table name="battlemoves"><!-- 491 NumeroDaLinhaReal-->
             <column name="id">11</column><!-- 492 NumeroDaLinhaReal-->
             <column name="strID">90.44</column><!-- 493 NumeroDaLinhaReal-->
-            <column name="strName">Desviar</column><!-- 494 NumeroDaLinhaReal-->
+            <column name="strName">Defender-se</column><!-- 494 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 495 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; vai desviar do &lt;them&gt;'s de seu proximo movimento.</column><!-- 496 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; vai defender-se do &lt;them&gt;'s de seu proximo movimento.</column><!-- 496 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 497 NumeroDaLinhaReal-->
-            <column name="strPopUp">Desviar <!-- 498 NumeroDaLinhaReal-->
-Desviar do proximo ataque do alvo, tornando-se muito mais dificil de bater.<!-- 499 NumeroDaLinhaReal-->
+            <column name="strPopUp">Defender-se <!-- 498 NumeroDaLinhaReal-->
+Defender-se do proximo ataque do alvo, tornando-se muito mais dificil de bater.<!-- 499 NumeroDaLinhaReal-->
 Deve estar na faixa de luta corpo a corpo.<!-- 500 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 501 NumeroDaLinhaReal-->
 Possibilidade de ser detectado se escondido.<!-- 502 NumeroDaLinhaReal-->
@@ -534,12 +534,12 @@ Nao estara sempre disponivel.</column><!-- 503 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 534 NumeroDaLinhaReal-->
             <column name="id">12</column><!-- 535 NumeroDaLinhaReal-->
             <column name="strID">90.45</column><!-- 536 NumeroDaLinhaReal-->
-            <column name="strName">Chute</column><!-- 537 NumeroDaLinhaReal-->
+            <column name="strName">Pontape</column><!-- 537 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 538 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; vai dar um chute no &lt;them&gt; enquanto ele esta caido!</column><!-- 539 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tentou chutar &lt;them&gt; enquanto ele estava caido ... mas errou!</column><!-- 540 NumeroDaLinhaReal-->
-            <column name="strPopUp">Chute <!-- 541 NumeroDaLinhaReal-->
-Chute o alvo enquanto ele esta caido.<!-- 542 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; vai dar um pontape no &lt;them&gt; enquanto ele esta caido!</column><!-- 539 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tentou pontape &lt;them&gt; enquanto ele estava caido ... mas errou!</column><!-- 540 NumeroDaLinhaReal-->
+            <column name="strPopUp">pontape <!-- 541 NumeroDaLinhaReal-->
+Da um pontape no alvo enquanto ele esta caido.<!-- 542 NumeroDaLinhaReal-->
 Possibilidade de ferir o alvo, alem de mante-lo caido e forca-lo a perder 1 turno.<!-- 543 NumeroDaLinhaReal-->
 Deve estar na faixa de corpo a corpo.<!-- 544 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 545 NumeroDaLinhaReal-->
@@ -621,11 +621,11 @@ Nao estara sempre disponivel.</column><!-- 590 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 621 NumeroDaLinhaReal-->
             <column name="id">14</column><!-- 622 NumeroDaLinhaReal-->
             <column name="strID">90.46</column><!-- 623 NumeroDaLinhaReal-->
-            <column name="strName">Empurrar</column><!-- 624 NumeroDaLinhaReal-->
+            <column name="strName">Puxar para chao</column><!-- 624 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 625 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; empurrar o &lt;them&gt; no o chao!</column><!-- 626 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tenta empurrar o &lt;them&gt;...mas nao consegue!</column><!-- 627 NumeroDaLinhaReal-->
-            <column name="strPopUp">Empurrar <!-- 628 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; puxa o &lt;them&gt; para o chao!</column><!-- 626 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta puxar o &lt;them&gt;...mas nao consegue!</column><!-- 627 NumeroDaLinhaReal-->
+            <column name="strPopUp">Puxar para chao <!-- 628 NumeroDaLinhaReal-->
 Alcanca o alvo e tenta empurrar.<!-- 629 NumeroDaLinhaReal-->
 Possibilidade de ferir o alvo e derruba-lo.<!-- 630 NumeroDaLinhaReal-->
 Deve estar na faixa de corpo a corpo.<!-- 631 NumeroDaLinhaReal-->
@@ -710,11 +710,11 @@ Nao estara sempre disponivel.</column><!-- 679 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 710 NumeroDaLinhaReal-->
             <column name="id">16</column><!-- 711 NumeroDaLinhaReal-->
             <column name="strID">90.27</column><!-- 712 NumeroDaLinhaReal-->
-            <column name="strName">Esgueirar-se</column><!-- 713 NumeroDaLinhaReal-->
+            <column name="strName">Recuar esgueirando-se</column><!-- 713 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 714 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; escapa de &lt;them&gt;.</column><!-- 715 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; esta recuando escondido lentamente de &lt;them&gt;.</column><!-- 715 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 716 NumeroDaLinhaReal-->
-            <column name="strPopUp">Esgueirar-se<!-- 717 NumeroDaLinhaReal-->
+            <column name="strPopUp">Recuar esgueirando-se<!-- 717 NumeroDaLinhaReal-->
 Mova 1 espaço longe do alvo enquanto se esconde.<!-- 718 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo e o alvo nao deve estar o vendo.<!-- 719 NumeroDaLinhaReal-->
 Baixa chance de tropecar no terreno.<!-- 720 NumeroDaLinhaReal-->
@@ -874,11 +874,11 @@ Deve estar na faixa de corpo a corpo.</column><!-- 843 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 874 NumeroDaLinhaReal-->
             <column name="id">20</column><!-- 875 NumeroDaLinhaReal-->
             <column name="strID">90.47</column><!-- 876 NumeroDaLinhaReal-->
-            <column name="strName">Ataques Corpo a corpo</column><!-- 877 NumeroDaLinhaReal-->
+            <column name="strName">Ataque forte Corpo a corpo</column><!-- 877 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 878 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; lanca enxurrada de ataques em &lt;them&gt;...e o acerta!</column><!-- 879 NumeroDaLinhaReal-->
             <column name="strFail">&lt;us&gt; tenta lancar uma enxurrada de ataques em &lt;them&gt;...e erra!</column><!-- 880 NumeroDaLinhaReal-->
-            <column name="strPopUp">Ataques Corpo a corpo<!-- 881 NumeroDaLinhaReal-->
+            <column name="strPopUp">Ataque forte Corpo a corpo<!-- 881 NumeroDaLinhaReal-->
 Lanca uma enxurrada de ataques corpo a corpo no alvo.<!-- 882 NumeroDaLinhaReal-->
 Chance de atingir o alvo 1-3 vezes e atordoar por 1 vez.<!-- 883 NumeroDaLinhaReal-->
 Automaticamente perde 1 turno.<!-- 884 NumeroDaLinhaReal-->
@@ -918,11 +918,11 @@ Grande chance de ser detectado se escondido.</column><!-- 887 NumeroDaLinhaReal-
         <table name="battlemoves"><!-- 918 NumeroDaLinhaReal-->
             <column name="id">21</column><!-- 919 NumeroDaLinhaReal-->
             <column name="strID">90.10</column><!-- 920 NumeroDaLinhaReal-->
-            <column name="strName">Retirada</column><!-- 921 NumeroDaLinhaReal-->
+            <column name="strName">Retirar-se</column><!-- 921 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 922 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; recuar do &lt;them&gt;.</column><!-- 923 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; recuou do &lt;them&gt;.</column><!-- 923 NumeroDaLinhaReal-->
             <column name="strFail">&lt;us&gt; tenta recuar do &lt;them&gt;...mas nao pode fugir!</column><!-- 924 NumeroDaLinhaReal-->
-            <column name="strPopUp">Retirada <!-- 925 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirar-se <!-- 925 NumeroDaLinhaReal-->
 Tente sair do campo de batalha, com base na distancia do inimigo, taxas de movimento, etc.<!-- 926 NumeroDaLinhaReal-->
 Deve estar fora de todos os limites dos inimigos.<!-- 927 NumeroDaLinhaReal-->
 Remove sua guarda</column><!-- 928 NumeroDaLinhaReal-->
@@ -959,11 +959,11 @@ Remove sua guarda</column><!-- 928 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 959 NumeroDaLinhaReal-->
             <column name="id">22</column><!-- 960 NumeroDaLinhaReal-->
             <column name="strID">90.39</column><!-- 961 NumeroDaLinhaReal-->
-            <column name="strName">Atacar alvo</column><!-- 962 NumeroDaLinhaReal-->
+            <column name="strName">Se jogar no alvo</column><!-- 962 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 963 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; atacou &lt;them&gt;.</column><!-- 964 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tenta atacar &lt;them&gt;...e errou!</column><!-- 965 NumeroDaLinhaReal-->
-            <column name="strPopUp">Atacar alvo<!-- 966 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; se jogou no &lt;them&gt;.</column><!-- 964 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta se jogar no &lt;them&gt;...e errou!</column><!-- 965 NumeroDaLinhaReal-->
+            <column name="strPopUp">Se jogar no alvo<!-- 966 NumeroDaLinhaReal-->
 Atacar o alvo, movendo 1 espaco mais perto e tentando derruba-los.<!-- 967 NumeroDaLinhaReal-->
 Possibilidade de derrubar o alvo e faze-los perder 1 turno.<!-- 968 NumeroDaLinhaReal-->
 Automaticamente ao cair ele perder a guarda.<!-- 969 NumeroDaLinhaReal-->
@@ -1045,11 +1045,11 @@ Grande chance de ser detectado se escondido.</column><!-- 1014 NumeroDaLinhaReal
         <table name="battlemoves"><!-- 1045 NumeroDaLinhaReal-->
             <column name="id">24</column><!-- 1046 NumeroDaLinhaReal-->
             <column name="strID">90.29</column><!-- 1047 NumeroDaLinhaReal-->
-            <column name="strName">Retroceder</column><!-- 1048 NumeroDaLinhaReal-->
+            <column name="strName">Retirar-se</column><!-- 1048 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1049 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; se afastou do &lt;them&gt;.</column><!-- 1050 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1051 NumeroDaLinhaReal-->
-            <column name="strPopUp">Retroceder<!-- 1052 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirar-se<!-- 1052 NumeroDaLinhaReal-->
 Mova 1 espaco para longe do alvo.<!-- 1053 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 1054 NumeroDaLinhaReal-->
 Remove sua guarda.<!-- 1055 NumeroDaLinhaReal-->
@@ -1255,11 +1255,11 @@ Tanto voce como o alvo devem se ver.</column><!-- 1224 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 1255 NumeroDaLinhaReal-->
             <column name="id">29</column><!-- 1256 NumeroDaLinhaReal-->
             <column name="strID">90.53</column><!-- 1257 NumeroDaLinhaReal-->
-            <column name="strName">Afastar-se!</column><!-- 1258 NumeroDaLinhaReal-->
+            <column name="strName">Correr muito rapido!</column><!-- 1258 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1259 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; afastar-se da briga!</column><!-- 1260 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; correr da briga!</column><!-- 1260 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1261 NumeroDaLinhaReal-->
-            <column name="strPopUp">Afasta-se!<!-- 1262 NumeroDaLinhaReal-->
+            <column name="strPopUp">Correr muito rapido!<!-- 1262 NumeroDaLinhaReal-->
 Mova 3-5 espacos para longe de todos os alvos visiveis.<!-- 1263 NumeroDaLinhaReal-->
 Precisa estar vendo o alvo.<!-- 1264 NumeroDaLinhaReal-->
 Remove sua guarda.<!-- 1265 NumeroDaLinhaReal-->
@@ -1300,12 +1300,12 @@ Nao esta sempre disponivel.</column><!-- 1269 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 1300 NumeroDaLinhaReal-->
             <column name="id">30</column><!-- 1301 NumeroDaLinhaReal-->
             <column name="strID">90.54</column><!-- 1302 NumeroDaLinhaReal-->
-            <column name="strName">Atrair</column><!-- 1303 NumeroDaLinhaReal-->
+            <column name="strName">Armadilha</column><!-- 1303 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1304 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; atraiu &lt;them&gt; em uma armadilha!</column><!-- 1305 NumeroDaLinhaReal-->
             <column name="strFail">&lt;us&gt; tentou atrair &lt;them&gt; em uma armadilha... mas falhou!</column><!-- 1306 NumeroDaLinhaReal-->
-            <column name="strPopUp">Atrair<!-- 1307 NumeroDaLinhaReal-->
-Tente usar o ambiente contra alvo.<!-- 1308 NumeroDaLinhaReal-->
+            <column name="strPopUp">Armadilha<!-- 1307 NumeroDaLinhaReal-->
+Tente usar o meio ambiente contra alvo.<!-- 1308 NumeroDaLinhaReal-->
 Mova 1 espaco longe do alvo.<!-- 1309 NumeroDaLinhaReal-->
 Possibilidade de derrubar o alvo e faze-los perder 1 turno.<!-- 1310 NumeroDaLinhaReal-->
 Possibilidade de ferir o alvo.<!-- 1311 NumeroDaLinhaReal-->
@@ -1347,7 +1347,7 @@ Nao esta sempre disponivel.</column><!-- 1314 NumeroDaLinhaReal-->
             <column name="strID">90.55</column><!-- 1347 NumeroDaLinhaReal-->
             <column name="strName">Cabecada</column><!-- 1348 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 1349 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; deu uma Cabecada no &lt;them&gt;!</column><!-- 1350 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; deu uma cabecada no &lt;them&gt;!</column><!-- 1350 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 1351 NumeroDaLinhaReal-->
             <column name="strPopUp">Cabecada<!-- 1352 NumeroDaLinhaReal-->
 Cabecada no alvo.<!-- 1353 NumeroDaLinhaReal-->
@@ -2188,13 +2188,13 @@ Precisa estar vendo o alvo.</column><!-- 2157 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2188 NumeroDaLinhaReal-->
             <column name="id">51</column><!-- 2189 NumeroDaLinhaReal-->
             <column name="strID">90.105</column><!-- 2190 NumeroDaLinhaReal-->
-            <column name="strName">Radio DMC Drone</column><!-- 2191 NumeroDaLinhaReal-->
+            <column name="strName">Mensagem(radio) DMC Drone(Suporte/Atirador)</column><!-- 2191 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2192 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; radioed for drone support fire!</column><!-- 2193 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; mensagem de radio pelo drone de suporte(atirador)!</column><!-- 2193 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2194 NumeroDaLinhaReal-->
-            <column name="strPopUp">Radio DMC Drone<!-- 2195 NumeroDaLinhaReal-->
-Call in drone support fire.<!-- 2196 NumeroDaLinhaReal-->
-Marks target as enemy of DMC if they don't stand down.</column><!-- 2197 NumeroDaLinhaReal-->
+            <column name="strPopUp">Mensagem do Drone(radio)<!-- 2195 NumeroDaLinhaReal-->
+Falar com drone de suporte(atirador).<!-- 2196 NumeroDaLinhaReal-->
+Marca o alvo como inimigo da DMC se eles nao sairem.</column><!-- 2197 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2198 NumeroDaLinhaReal-->
             <column name="vUsConditions">[559,0,0],[729,0,0],[737,0,0]</column><!-- 2199 NumeroDaLinhaReal-->
             <column name="vThemConditions">[599,0,0]</column><!-- 2200 NumeroDaLinhaReal-->
@@ -2228,15 +2228,15 @@ Marks target as enemy of DMC if they don't stand down.</column><!-- 2197 NumeroD
         <table name="battlemoves"><!-- 2228 NumeroDaLinhaReal-->
             <column name="id">52</column><!-- 2229 NumeroDaLinhaReal-->
             <column name="strID">90.107</column><!-- 2230 NumeroDaLinhaReal-->
-            <column name="strName">Crawl Towards</column><!-- 2231 NumeroDaLinhaReal-->
+            <column name="strName">Avancar rastejando</column><!-- 2231 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2232 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; crawls towards &lt;them&gt;.</column><!-- 2233 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; avanca rastejando para &lt;them&gt;.</column><!-- 2233 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2234 NumeroDaLinhaReal-->
-            <column name="strPopUp">Crawl Towards<!-- 2235 NumeroDaLinhaReal-->
-Move 1 space closer to target.<!-- 2236 NumeroDaLinhaReal-->
-Must see target.<!-- 2237 NumeroDaLinhaReal-->
-Chance of tripping on terrain.<!-- 2238 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 2239 NumeroDaLinhaReal-->
+            <column name="strPopUp">Avancar rastejando<!-- 2235 NumeroDaLinhaReal-->
+Mova 1 espaco mais perto do alvo.<!-- 2236 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 2237 NumeroDaLinhaReal-->
+Possibilidade de tropecar no terreno.<!-- 2238 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 2239 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2240 NumeroDaLinhaReal-->
             <column name="vUsConditions">[98,0,0],[340,0,0]</column><!-- 2241 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2242 NumeroDaLinhaReal-->
@@ -2270,14 +2270,14 @@ Chance of being detected if hidden.</column><!-- 2239 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2270 NumeroDaLinhaReal-->
             <column name="id">53</column><!-- 2271 NumeroDaLinhaReal-->
             <column name="strID">90.108</column><!-- 2272 NumeroDaLinhaReal-->
-            <column name="strName">Crawl Away</column><!-- 2273 NumeroDaLinhaReal-->
+            <column name="strName">Retroceder rastejando</column><!-- 2273 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2274 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; crawls away from &lt;them&gt;.</column><!-- 2275 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; rasteja para longe de &lt;them&gt;.</column><!-- 2275 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2276 NumeroDaLinhaReal-->
-            <column name="strPopUp">Crawl Away<!-- 2277 NumeroDaLinhaReal-->
-Move 1 space away from target.<!-- 2278 NumeroDaLinhaReal-->
-Must see target.<!-- 2279 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 2280 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retroceder rastejando<!-- 2277 NumeroDaLinhaReal-->
+Mova 1 espaço longe do alvo.<!-- 2278 NumeroDaLinhaReal-->
+Precisa ver o alvo.<!-- 2279 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 2280 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2281 NumeroDaLinhaReal-->
             <column name="vUsConditions">[98,0,0],[339,0,0]</column><!-- 2282 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2283 NumeroDaLinhaReal-->
@@ -2311,16 +2311,16 @@ Chance of being detected if hidden.</column><!-- 2280 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2311 NumeroDaLinhaReal-->
             <column name="id">54</column><!-- 2312 NumeroDaLinhaReal-->
             <column name="strID">90.109</column><!-- 2313 NumeroDaLinhaReal-->
-            <column name="strName">Advance</column><!-- 2314 NumeroDaLinhaReal-->
+            <column name="strName">Avancar</column><!-- 2314 NumeroDaLinhaReal-->
             <column name="strNotes">Ignore ceasefire/talk version</column><!-- 2315 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; advances towards &lt;them&gt;.</column><!-- 2316 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; avanca para &lt;them&gt;.</column><!-- 2316 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2317 NumeroDaLinhaReal-->
-            <column name="strPopUp">Advance <!-- 2318 NumeroDaLinhaReal-->
-Move 1 space closer to target.<!-- 2319 NumeroDaLinhaReal-->
-Must see target.<!-- 2320 NumeroDaLinhaReal-->
-Removes cover.<!-- 2321 NumeroDaLinhaReal-->
-Chance of tripping on terrain.<!-- 2322 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 2323 NumeroDaLinhaReal-->
+            <column name="strPopUp">Avancar <!-- 2318 NumeroDaLinhaReal-->
+Mova 1 espaço mais perto do alvo.<!-- 2319 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 2320 NumeroDaLinhaReal-->
+Remove sua guarda.<!-- 2321 NumeroDaLinhaReal-->
+Possibilidade de tropecar no terreno.<!-- 2322 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 2323 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2324 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-137,0,0],[155,0,0],[340,0,0]</column><!-- 2325 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2326 NumeroDaLinhaReal-->
@@ -2354,12 +2354,12 @@ Chance of being detected if hidden.</column><!-- 2323 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2354 NumeroDaLinhaReal-->
             <column name="id">55</column><!-- 2355 NumeroDaLinhaReal-->
             <column name="strID">90.110</column><!-- 2356 NumeroDaLinhaReal-->
-            <column name="strName">Exit Battle</column><!-- 2357 NumeroDaLinhaReal-->
+            <column name="strName">Sair da batalha</column><!-- 2357 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2358 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; leaves battle.</column><!-- 2359 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; deixar a batalha.</column><!-- 2359 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2360 NumeroDaLinhaReal-->
-            <column name="strPopUp">Exit Battle<!-- 2361 NumeroDaLinhaReal-->
-Always succeeds.</column><!-- 2362 NumeroDaLinhaReal-->
+            <column name="strPopUp">Sair da batalha<!-- 2361 NumeroDaLinhaReal-->
+Sempre e bem sucedido.</column><!-- 2362 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2363 NumeroDaLinhaReal-->
             <column name="vUsConditions">[142,0,0],[155,0,0],[739,0,0]</column><!-- 2364 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2365 NumeroDaLinhaReal-->
@@ -2393,12 +2393,12 @@ Always succeeds.</column><!-- 2362 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2393 NumeroDaLinhaReal-->
             <column name="id">56</column><!-- 2394 NumeroDaLinhaReal-->
             <column name="strID">90.70</column><!-- 2395 NumeroDaLinhaReal-->
-            <column name="strName">Wait</column><!-- 2396 NumeroDaLinhaReal-->
+            <column name="strName">Esperar</column><!-- 2396 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2397 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; waits.</column><!-- 2398 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; vai esperar.</column><!-- 2398 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2399 NumeroDaLinhaReal-->
-            <column name="strPopUp">Wait<!-- 2400 NumeroDaLinhaReal-->
-Wait for one turn, doing nothing.</column><!-- 2401 NumeroDaLinhaReal-->
+            <column name="strPopUp">Esperar<!-- 2400 NumeroDaLinhaReal-->
+Aguarde por um turno, nao fazendo nada.</column><!-- 2401 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2402 NumeroDaLinhaReal-->
             <column name="vUsConditions"></column><!-- 2403 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2404 NumeroDaLinhaReal-->
@@ -2432,14 +2432,14 @@ Wait for one turn, doing nothing.</column><!-- 2401 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2432 NumeroDaLinhaReal-->
             <column name="id">57</column><!-- 2433 NumeroDaLinhaReal-->
             <column name="strID">90.111</column><!-- 2434 NumeroDaLinhaReal-->
-            <column name="strName">Retreat (Crawl)</column><!-- 2435 NumeroDaLinhaReal-->
+            <column name="strName">Retirar-se rastejando</column><!-- 2435 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2436 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; crawls away from &lt;them&gt;.</column><!-- 2437 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tries to crawl away from &lt;them&gt;...but can't get away!</column><!-- 2438 NumeroDaLinhaReal-->
-            <column name="strPopUp">Retreat (Crawl)<!-- 2439 NumeroDaLinhaReal-->
-Try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.<!-- 2440 NumeroDaLinhaReal-->
-Must be out of all enemies' ranges.<!-- 2441 NumeroDaLinhaReal-->
-Removes cover.</column><!-- 2442 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; se retirou rastejando para longe do &lt;them&gt;.</column><!-- 2437 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta retirar-se rastejando de &lt;them&gt;...mas nao pode fugir!</column><!-- 2438 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirar-se rastejando<!-- 2439 NumeroDaLinhaReal-->
+Tente sair do campo de batalha, com base na distancia do inimigo, taxas de movimento, etc.<!-- 2440 NumeroDaLinhaReal-->
+Deve estar distante de todos os inimigos.<!-- 2441 NumeroDaLinhaReal-->
+Remove sua guarda.</column><!-- 2442 NumeroDaLinhaReal-->
             <column name="vChanceType">0,7,0</column><!-- 2443 NumeroDaLinhaReal-->
             <column name="vUsConditions">[142,0,0],[-137,0,0],[98,0,0],[339,0,0]</column><!-- 2444 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2445 NumeroDaLinhaReal-->
@@ -2473,12 +2473,12 @@ Removes cover.</column><!-- 2442 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2473 NumeroDaLinhaReal-->
             <column name="id">58</column><!-- 2474 NumeroDaLinhaReal-->
             <column name="strID">90.120</column><!-- 2475 NumeroDaLinhaReal-->
-            <column name="strName">Radio DMC Drone</column><!-- 2476 NumeroDaLinhaReal-->
+            <column name="strName">DMC Drone(Suporte/Atirador/Cego)</column><!-- 2476 NumeroDaLinhaReal-->
             <column name="strNotes">(blind)</column><!-- 2477 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; radioed for drone support fire!</column><!-- 2478 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; mensagem de radio pelo drone de suporte(atirador)!</column><!-- 2478 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2479 NumeroDaLinhaReal-->
-            <column name="strPopUp">Radio DMC Drone<!-- 2480 NumeroDaLinhaReal-->
-Call in drone support fire.</column><!-- 2481 NumeroDaLinhaReal-->
+            <column name="strPopUp">Mensagem do Drone(radio)<!-- 2480 NumeroDaLinhaReal-->
+Falar com drone de suporte(atirador).</column><!-- 2481 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2482 NumeroDaLinhaReal-->
             <column name="vUsConditions">[559,0,0],[729,0,0],[737,0,0]</column><!-- 2483 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2484 NumeroDaLinhaReal-->
@@ -2512,13 +2512,13 @@ Call in drone support fire.</column><!-- 2481 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2512 NumeroDaLinhaReal-->
             <column name="id">59</column><!-- 2513 NumeroDaLinhaReal-->
             <column name="strID">90.121</column><!-- 2514 NumeroDaLinhaReal-->
-            <column name="strName">Search</column><!-- 2515 NumeroDaLinhaReal-->
+            <column name="strName">Procurar</column><!-- 2515 NumeroDaLinhaReal-->
             <column name="strNotes">drone</column><!-- 2516 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; searches for &lt;them&gt;.</column><!-- 2517 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; procurar por &lt;them&gt;.</column><!-- 2517 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2518 NumeroDaLinhaReal-->
-            <column name="strPopUp">Search <!-- 2519 NumeroDaLinhaReal-->
-Scan area for hidden targets.<!-- 2520 NumeroDaLinhaReal-->
-Must not see target yet.</column><!-- 2521 NumeroDaLinhaReal-->
+            <column name="strPopUp">Procurar <!-- 2519 NumeroDaLinhaReal-->
+Area de procura para alvos ocultos.<!-- 2520 NumeroDaLinhaReal-->
+Nao deve ver o alvo ainda.</column><!-- 2521 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2522 NumeroDaLinhaReal-->
             <column name="vUsConditions">[141,0,0],[141,0,0],[141,0,0],[141,0,0],[141,0,0],[141,0,0]</column><!-- 2523 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2524 NumeroDaLinhaReal-->
@@ -2552,13 +2552,13 @@ Must not see target yet.</column><!-- 2521 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2552 NumeroDaLinhaReal-->
             <column name="id">60</column><!-- 2553 NumeroDaLinhaReal-->
             <column name="strID">90.127</column><!-- 2554 NumeroDaLinhaReal-->
-            <column name="strName">Vanish</column><!-- 2555 NumeroDaLinhaReal-->
+            <column name="strName">Desaparecer</column><!-- 2555 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2556 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; vanishes from sight.</column><!-- 2557 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; desaparece da vista.</column><!-- 2557 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2558 NumeroDaLinhaReal-->
-            <column name="strPopUp">Vanish from Sight<!-- 2559 NumeroDaLinhaReal-->
-Disappears from battle without being seen.<!-- 2560 NumeroDaLinhaReal-->
-Must see target.<!-- 2561 NumeroDaLinhaReal-->
+            <column name="strPopUp">Desaparecer da Visao<!-- 2559 NumeroDaLinhaReal-->
+Desaparece da batalha sem ser visto.<!-- 2560 NumeroDaLinhaReal-->
+Precisa ver o alvo.<!-- 2561 NumeroDaLinhaReal-->
 </column><!-- 2562 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2563 NumeroDaLinhaReal-->
             <column name="vUsConditions">[142,0,0],[98,0,0],[739,0,0]</column><!-- 2564 NumeroDaLinhaReal-->
@@ -2593,13 +2593,13 @@ Must see target.<!-- 2561 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2593 NumeroDaLinhaReal-->
             <column name="id">61</column><!-- 2594 NumeroDaLinhaReal-->
             <column name="strID">90.128</column><!-- 2595 NumeroDaLinhaReal-->
-            <column name="strName">Exploit Weakness</column><!-- 2596 NumeroDaLinhaReal-->
+            <column name="strName">Procurar uma fraqueza</column><!-- 2596 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2597 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; finds a weakness in &lt;them&gt;!</column><!-- 2598 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; encontra uma fraqueza em &lt;them&gt;!</column><!-- 2598 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2599 NumeroDaLinhaReal-->
-            <column name="strPopUp">Exploit Weakness<!-- 2600 NumeroDaLinhaReal-->
-Seeks a weakness to exploit in target, helping future attacks against it.<!-- 2601 NumeroDaLinhaReal-->
-Must see target.</column><!-- 2602 NumeroDaLinhaReal-->
+            <column name="strPopUp">Procurar uma fraqueza<!-- 2600 NumeroDaLinhaReal-->
+Procura uma fraqueza para explorar no alvo, ajudando em futuros ataques contra o alvo.<!-- 2601 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.</column><!-- 2602 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2603 NumeroDaLinhaReal-->
             <column name="vUsConditions"></column><!-- 2604 NumeroDaLinhaReal-->
             <column name="vThemConditions">[847,0,0]</column><!-- 2605 NumeroDaLinhaReal-->
@@ -2633,13 +2633,13 @@ Must see target.</column><!-- 2602 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2633 NumeroDaLinhaReal-->
             <column name="id">62</column><!-- 2634 NumeroDaLinhaReal-->
             <column name="strID">90.129</column><!-- 2635 NumeroDaLinhaReal-->
-            <column name="strName">Intimidate</column><!-- 2636 NumeroDaLinhaReal-->
+            <column name="strName">Intimidar</column><!-- 2636 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2637 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; goes absolutely berzerk with rage!</column><!-- 2638 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; esta ha gritar nervoso e mostrando raiva!</column><!-- 2638 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2639 NumeroDaLinhaReal-->
-            <column name="strPopUp">Intimidate<!-- 2640 NumeroDaLinhaReal-->
-Explode with unbridled rage, scaring target.<!-- 2641 NumeroDaLinhaReal-->
-Both you and target must see each other.</column><!-- 2642 NumeroDaLinhaReal-->
+            <column name="strPopUp">Intimidar<!-- 2640 NumeroDaLinhaReal-->
+Explodir gritos com raiva desenfreada, tentando assustar o alvo.<!-- 2641 NumeroDaLinhaReal-->
+Tanto voce como o alvo devem se ver.</column><!-- 2642 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2643 NumeroDaLinhaReal-->
             <column name="vUsConditions">[848,0,0],[737,0,0]</column><!-- 2644 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 2645 NumeroDaLinhaReal-->
@@ -2673,15 +2673,15 @@ Both you and target must see each other.</column><!-- 2642 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 2673 NumeroDaLinhaReal-->
             <column name="id">63</column><!-- 2674 NumeroDaLinhaReal-->
             <column name="strID">90.130</column><!-- 2675 NumeroDaLinhaReal-->
-            <column name="strName">Lethal Trap</column><!-- 2676 NumeroDaLinhaReal-->
+            <column name="strName">Armadilha letal</column><!-- 2676 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 2677 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; lures &lt;them&gt; into a lethal trap!</column><!-- 2678 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; atrair &lt;them&gt; em uma armadilha letal!</column><!-- 2678 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 2679 NumeroDaLinhaReal-->
-            <column name="strPopUp">Lethal Trap<!-- 2680 NumeroDaLinhaReal-->
-Leads target into a deadly situation, killing it.<!-- 2681 NumeroDaLinhaReal-->
-Must be closer to target than 4 spaces.<!-- 2682 NumeroDaLinhaReal-->
-Both you and target must see each other.<!-- 2683 NumeroDaLinhaReal-->
-Rarely available.</column><!-- 2684 NumeroDaLinhaReal-->
+            <column name="strPopUp">Armadilha letal<!-- 2680 NumeroDaLinhaReal-->
+Atrair o alvo em uma situacao mortal, matando-o.<!-- 2681 NumeroDaLinhaReal-->
+Deve estar mais perto do alvo do que 4 espacos.<!-- 2682 NumeroDaLinhaReal-->
+Tanto voce como o alvo devem se ver.<!-- 2683 NumeroDaLinhaReal-->
+Raramente disponivel.</column><!-- 2684 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 2685 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[737,0,0]</column><!-- 2686 NumeroDaLinhaReal-->
             <column name="vThemConditions">[641,0,0]</column><!-- 2687 NumeroDaLinhaReal-->
