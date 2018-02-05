@@ -1,5 +1,5 @@
 'Criado por Geovani Luiz de Moura
-'Caracteres nao suportados no jogo: ç é á à ã õ â ê
+'Caracteres nao suportados no jogo: ç é á í à ã õ â ê ô 
 
 Option Explicit
 
@@ -1749,7 +1749,7 @@ Sub recipes()
 		ElseIf (NumberLine = 70) Then
 			Line = Replace(Line, "small campfire (lit)", "fogueira pequena (acesa)")
 		ElseIf (NumberLine = 89) Then
-			Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pílula)")
+			Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
 		ElseIf (NumberLine = 108) Then
 			Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
 
