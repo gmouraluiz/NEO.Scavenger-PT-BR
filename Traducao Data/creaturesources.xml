@@ -209,7 +209,7 @@
         </table><!-- 209 NumeroDaLinhaReal-->
         <table name="creaturesources"><!-- 210 NumeroDaLinhaReal-->
             <column name="id">18</column><!-- 211 NumeroDaLinhaReal-->
-            <column name="strName">DMC Guardaa</column><!-- 212 NumeroDaLinhaReal-->
+            <column name="strName">DMC Guardaaaaaaaaaaaaaaaa</column><!-- 212 NumeroDaLinhaReal-->
             <column name="nX">57</column><!-- 213 NumeroDaLinhaReal-->
             <column name="nY">192</column><!-- 214 NumeroDaLinhaReal-->
             <column name="nCreatureID">14</column><!-- 215 NumeroDaLinhaReal-->

@@ -112,13 +112,13 @@ Chance of being detected if hidden.</column><!-- 79 NumeroDaLinhaReal-->
             <column name="strID">90.33</column><!-- 112 NumeroDaLinhaReal-->
             <column name="strName">Ataque corpo a corpo</column><!-- 113 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 114 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; attacks &lt;them&gt;...and hits!</column><!-- 115 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tries to attack &lt;them&gt;...but misses!</column><!-- 116 NumeroDaLinhaReal-->
-            <column name="strPopUp">Melee Attack<!-- 117 NumeroDaLinhaReal-->
-Use current melee attack on target.<!-- 118 NumeroDaLinhaReal-->
-Must see target.<!-- 119 NumeroDaLinhaReal-->
-Low chance of making you vulnerable.<!-- 120 NumeroDaLinhaReal-->
-High chance of being detected if hidden.</column><!-- 121 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; atacou &lt;them&gt;...e acertou!</column><!-- 115 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tentou atacar &lt;them&gt;...mas errou!</column><!-- 116 NumeroDaLinhaReal-->
+            <column name="strPopUp">Ataque corpo a corpo<!-- 117 NumeroDaLinhaReal-->
+Usou o ataque corpo a corpo atual no alvo.<!-- 118 NumeroDaLinhaReal-->
+Precisa ver o alvo.<!-- 119 NumeroDaLinhaReal-->
+Baixa chance de torná-lo vulneravel.<!-- 120 NumeroDaLinhaReal-->
+Grande chance de ser detectado se escondido.</column><!-- 121 NumeroDaLinhaReal-->
             <column name="vChanceType">0,1,1</column><!-- 122 NumeroDaLinhaReal-->
             <column name="vUsConditions">[155,0,0],[737,0,0]</column><!-- 123 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 124 NumeroDaLinhaReal-->
@@ -154,12 +154,12 @@ High chance of being detected if hidden.</column><!-- 121 NumeroDaLinhaReal-->
             <column name="strID">90.32</column><!-- 154 NumeroDaLinhaReal-->
             <column name="strName">Abrigar-se</column><!-- 155 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 156 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; takes cover from &lt;them&gt;.</column><!-- 157 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; se esconde do &lt;them&gt;.</column><!-- 157 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 158 NumeroDaLinhaReal-->
-            <column name="strPopUp">Take Cover<!-- 159 NumeroDaLinhaReal-->
-Dive behind best cover terrain can provide.<!-- 160 NumeroDaLinhaReal-->
-Must be at least 1 space away from all enemies.<!-- 161 NumeroDaLinhaReal-->
-Low chance of being detected if hidden.</column><!-- 162 NumeroDaLinhaReal-->
+            <column name="strPopUp">Se esconder<!-- 159 NumeroDaLinhaReal-->
+Mergulho por trás do melhor terreno de cobertura pode fornecer.<!-- 160 NumeroDaLinhaReal-->
+Deve ter pelo menos 1 espaço de distância de todos os inimigos.<!-- 161 NumeroDaLinhaReal-->
+Baixa chance de ser detectada se escondida.</column><!-- 162 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 163 NumeroDaLinhaReal-->
             <column name="vUsConditions">[137,0,0],[98,0,0],[339,0,0],[738,0,0]</column><!-- 164 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 165 NumeroDaLinhaReal-->
@@ -193,15 +193,15 @@ Low chance of being detected if hidden.</column><!-- 162 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 193 NumeroDaLinhaReal-->
             <column name="id">4</column><!-- 194 NumeroDaLinhaReal-->
             <column name="strID">90.22</column><!-- 195 NumeroDaLinhaReal-->
-            <column name="strName">Sneak Towards</column><!-- 196 NumeroDaLinhaReal-->
+            <column name="strName">Esgueirar-se</column><!-- 196 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 197 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; sneaks towards &lt;them&gt;.</column><!-- 198 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; esgueira para &lt;them&gt;.</column><!-- 198 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 199 NumeroDaLinhaReal-->
-            <column name="strPopUp">Sneak Towards <!-- 200 NumeroDaLinhaReal-->
-Move 1 space closer to target while staying hidden.<!-- 201 NumeroDaLinhaReal-->
-Must see target, and target must not see you yet.<!-- 202 NumeroDaLinhaReal-->
-Low chance of tripping on terrain.<!-- 203 NumeroDaLinhaReal-->
-Low chance of being detected if hidden.</column><!-- 204 NumeroDaLinhaReal-->
+            <column name="strPopUp">Esgueirar-se <!-- 200 NumeroDaLinhaReal-->
+Mova 1 espaco mais perto do alvo enquanto estiver escondido.<!-- 201 NumeroDaLinhaReal-->
+Precisa ver o alvo e o alvo nao deve ve-lo ainda.<!-- 202 NumeroDaLinhaReal-->
+Baixa chance de tropecar no terreno.<!-- 203 NumeroDaLinhaReal-->
+Baixa chance de ser detectada se escondida.</column><!-- 204 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 205 NumeroDaLinhaReal-->
             <column name="vUsConditions">[98,0,0],[739,0,0]</column><!-- 206 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 207 NumeroDaLinhaReal-->
@@ -235,16 +235,16 @@ Low chance of being detected if hidden.</column><!-- 204 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 235 NumeroDaLinhaReal-->
             <column name="id">5</column><!-- 236 NumeroDaLinhaReal-->
             <column name="strID">90.38</column><!-- 237 NumeroDaLinhaReal-->
-            <column name="strName">Sneaky Retreat</column><!-- 238 NumeroDaLinhaReal-->
+            <column name="strName">Retirada furtiva</column><!-- 238 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 239 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; sneaks out of battle from &lt;them&gt;.</column><!-- 240 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; tries to sneak out of battle from &lt;them&gt;...but can't get away!</column><!-- 241 NumeroDaLinhaReal-->
-            <column name="strPopUp">Sneaky Retreat <!-- 242 NumeroDaLinhaReal-->
-Try to sneak out of battle without being seen.<!-- 243 NumeroDaLinhaReal-->
-Chance to move one space away from target if escape fails.<!-- 244 NumeroDaLinhaReal-->
-Must see target, and target must not see you yet.<!-- 245 NumeroDaLinhaReal-->
-Low chance of tripping on terrain.<!-- 246 NumeroDaLinhaReal-->
-Low chance of being detected if hidden.</column><!-- 247 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; retirada furtiva de uma batalha com &lt;them&gt;.</column><!-- 240 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; esta tentando escapar de uma batalha com &lt;them&gt;...mas nao conseguiu fugir!</column><!-- 241 NumeroDaLinhaReal-->
+            <column name="strPopUp">Retirada furtiva <!-- 242 NumeroDaLinhaReal-->
+Tente fugir da batalha sem ser visto.<!-- 243 NumeroDaLinhaReal-->
+Possibilidade de mover um espaco longe do alvo se o escape falhar.<!-- 244 NumeroDaLinhaReal-->
+Precisa ver o alvo e o alvo nao deve ve-lo ainda.<!-- 245 NumeroDaLinhaReal-->
+Baixa chance de tropecar no terreno.<!-- 246 NumeroDaLinhaReal-->
+Baixa chance de ser detectada se escondida.</column><!-- 247 NumeroDaLinhaReal-->
             <column name="vChanceType">0,7,0</column><!-- 248 NumeroDaLinhaReal-->
             <column name="vUsConditions">[142,0,0],[98,0,0],[739,0,0]</column><!-- 249 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 250 NumeroDaLinhaReal-->
@@ -278,17 +278,17 @@ Low chance of being detected if hidden.</column><!-- 247 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 278 NumeroDaLinhaReal-->
             <column name="id">6</column><!-- 279 NumeroDaLinhaReal-->
             <column name="strID">90.31</column><!-- 280 NumeroDaLinhaReal-->
-            <column name="strName">Run!</column><!-- 281 NumeroDaLinhaReal-->
+            <column name="strName">Correr!</column><!-- 281 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 282 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; runs from &lt;them&gt;.</column><!-- 283 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; corre de &lt;them&gt;.</column><!-- 283 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 284 NumeroDaLinhaReal-->
-            <column name="strPopUp">Run! <!-- 285 NumeroDaLinhaReal-->
-Move 2-4 spaces away from target.<!-- 286 NumeroDaLinhaReal-->
-Must see target.<!-- 287 NumeroDaLinhaReal-->
-Removes cover.<!-- 288 NumeroDaLinhaReal-->
-Makes you vulnerable.<!-- 289 NumeroDaLinhaReal-->
-High chance of tripping on terrain.<!-- 290 NumeroDaLinhaReal-->
-High chance of being detected if hidden.</column><!-- 291 NumeroDaLinhaReal-->
+            <column name="strPopUp">Correr! <!-- 285 NumeroDaLinhaReal-->
+Mova 2-4 espacos para longe do alvo.<!-- 286 NumeroDaLinhaReal-->
+Precisa ver o alvo.<!-- 287 NumeroDaLinhaReal-->
+Remove a guarda.<!-- 288 NumeroDaLinhaReal-->
+O torna vulneravel.<!-- 289 NumeroDaLinhaReal-->
+Grande chance de tropecar no terreno.<!-- 290 NumeroDaLinhaReal-->
+Grande chance de ser detectado se escondido.</column><!-- 291 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 292 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-137,0,0],[147,0,0],[155,0,0],[339,0,0],[737,0,0]</column><!-- 293 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 294 NumeroDaLinhaReal-->
@@ -322,16 +322,16 @@ High chance of being detected if hidden.</column><!-- 291 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 322 NumeroDaLinhaReal-->
             <column name="id">7</column><!-- 323 NumeroDaLinhaReal-->
             <column name="strID">90.28</column><!-- 324 NumeroDaLinhaReal-->
-            <column name="strName">Advance</column><!-- 325 NumeroDaLinhaReal-->
+            <column name="strName">Avancar</column><!-- 325 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 326 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; advances towards &lt;them&gt;.</column><!-- 327 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; avanca para &lt;them&gt;.</column><!-- 327 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 328 NumeroDaLinhaReal-->
-            <column name="strPopUp">Advance <!-- 329 NumeroDaLinhaReal-->
-Move 1 space closer to target.<!-- 330 NumeroDaLinhaReal-->
-Must see target.<!-- 331 NumeroDaLinhaReal-->
-Removes cover.<!-- 332 NumeroDaLinhaReal-->
-Chance of tripping on terrain.<!-- 333 NumeroDaLinhaReal-->
-Chance of being detected if hidden.</column><!-- 334 NumeroDaLinhaReal-->
+            <column name="strPopUp">Avancar <!-- 329 NumeroDaLinhaReal-->
+Mova 1 espaco mais perto do alvo.<!-- 330 NumeroDaLinhaReal-->
+Precisa ver o alvo.<!-- 331 NumeroDaLinhaReal-->
+Remove a guarda.<!-- 332 NumeroDaLinhaReal-->
+Possibilidade de tropecar no terreno.<!-- 333 NumeroDaLinhaReal-->
+Possibilidade de ser detectado se escondido.</column><!-- 334 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 335 NumeroDaLinhaReal-->
             <column name="vUsConditions">[-137,0,0],[155,0,0],[340,0,0]</column><!-- 336 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 337 NumeroDaLinhaReal-->

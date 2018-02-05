@@ -1041,8 +1041,8 @@
         </table><!-- 1041 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1042 NumeroDaLinhaReal-->
             <column name="id">44</column><!-- 1043 NumeroDaLinhaReal-->
-            <column name="strName">Ate Gelli Bears</column><!-- 1044 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; ate some Gelli Bears.</column><!-- 1045 NumeroDaLinhaReal-->
+            <column name="strName">Comeu Gelli Bears</column><!-- 1044 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu alguns Gelli Bears.</column><!-- 1045 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt</column><!-- 1046 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.5</column><!-- 1047 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1048 NumeroDaLinhaReal-->
@@ -1064,8 +1064,8 @@
         </table><!-- 1064 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1065 NumeroDaLinhaReal-->
             <column name="id">45</column><!-- 1066 NumeroDaLinhaReal-->
-            <column name="strName">Ate Blinkies</column><!-- 1067 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; ate a packet of French-Made &quot;Blinkies&quot; snack cakes.</column><!-- 1068 NumeroDaLinhaReal-->
+            <column name="strName">comeu lanche de bolo</column><!-- 1067 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu um pacote que foi feito na franca de &quot;Blinkies&quot; lanche de bolo..</column><!-- 1068 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt,fWaterDebt</column><!-- 1069 NumeroDaLinhaReal-->
             <column name="aModifiers">-3,-1</column><!-- 1070 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1071 NumeroDaLinhaReal-->
@@ -1087,8 +1087,8 @@
         </table><!-- 1087 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1088 NumeroDaLinhaReal-->
             <column name="id">46</column><!-- 1089 NumeroDaLinhaReal-->
-            <column name="strName">Ate ketchup</column><!-- 1090 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; ate a packet of ketchup.</column><!-- 1091 NumeroDaLinhaReal-->
+            <column name="strName">comeu ketchup</column><!-- 1090 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu um pacote de ketchup.</column><!-- 1091 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt</column><!-- 1092 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.5</column><!-- 1093 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1094 NumeroDaLinhaReal-->
@@ -1110,8 +1110,8 @@
         </table><!-- 1110 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1111 NumeroDaLinhaReal-->
             <column name="id">47</column><!-- 1112 NumeroDaLinhaReal-->
-            <column name="strName">Took a pink pill.</column><!-- 1113 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; took a pink pill.</column><!-- 1114 NumeroDaLinhaReal-->
+            <column name="strName">Tomou uma pilula rosa.</column><!-- 1113 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; tomou uma pilula rosa.</column><!-- 1114 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 1115 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 1116 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1117 NumeroDaLinhaReal-->
@@ -1133,8 +1133,8 @@
         </table><!-- 1133 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1134 NumeroDaLinhaReal-->
             <column name="id">48</column><!-- 1135 NumeroDaLinhaReal-->
-            <column name="strName">Gastroenteritis</column><!-- 1136 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; contracted gastroenteritis.</column><!-- 1137 NumeroDaLinhaReal-->
+            <column name="strName">Gastroenterite</column><!-- 1136 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; contraiu gastroenterite.</column><!-- 1137 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 1138 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 1139 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1140 NumeroDaLinhaReal-->
@@ -1156,8 +1156,8 @@
         </table><!-- 1156 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1157 NumeroDaLinhaReal-->
             <column name="id">49</column><!-- 1158 NumeroDaLinhaReal-->
-            <column name="strName">Gastroenteritis</column><!-- 1159 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt;'s stomach feels awful, and is having diarrhea.</column><!-- 1160 NumeroDaLinhaReal-->
+            <column name="strName">Gastroenterite II</column><!-- 1159 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt;'s esta com estomago ruim e esta tendo diarreia.</column><!-- 1160 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate</column><!-- 1161 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.01,-0.002</column><!-- 1162 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1163 NumeroDaLinhaReal-->
@@ -1179,8 +1179,8 @@
         </table><!-- 1179 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1180 NumeroDaLinhaReal-->
             <column name="id">50</column><!-- 1181 NumeroDaLinhaReal-->
-            <column name="strName">Skilled in hand-to-hand combat</column><!-- 1182 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is skilled in hand-to-hand combat. Melee weapons are more effective and degrade slower.</column><!-- 1183 NumeroDaLinhaReal-->
+            <column name="strName">Habil no combate corpo a corpo</column><!-- 1182 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; es habil no combate corpo a corpo. As armas brancas sao mais eficazes e se degradam mais lentamente.</column><!-- 1183 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fDefense,m_fMorale,AttDmgMult</column><!-- 1184 NumeroDaLinhaReal-->
             <column name="aModifiers">0.2,0.3,0.5</column><!-- 1185 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1186 NumeroDaLinhaReal-->
@@ -1202,8 +1202,8 @@
         </table><!-- 1202 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1203 NumeroDaLinhaReal-->
             <column name="id">51</column><!-- 1204 NumeroDaLinhaReal-->
-            <column name="strName">Skilled in tracking</column><!-- 1205 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is skilled in obscuring the trail they leave behind and tracking others.</column><!-- 1206 NumeroDaLinhaReal-->
+            <column name="strName">Habil em rastreamento</column><!-- 1205 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; es habilidoso em ocultar a trilha que deixa para tras e rastrear outros.</column><!-- 1206 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fTrackingThreshold,m_fScent</column><!-- 1207 NumeroDaLinhaReal-->
             <column name="aModifiers">-3,-2</column><!-- 1208 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1209 NumeroDaLinhaReal-->
