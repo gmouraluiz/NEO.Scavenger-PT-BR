@@ -1,8 +1,7 @@
 'Criado por Geovani Luiz de Moura
 'Aconselho usar Notepad++ 
-'Linguagem: Visual Basic 
-'Plugins: RumMe / IndentByFold
-'Caracteres nao suportados no jogo: ç é á í à ã õ â ê ô 
+'Plugins: RumMe(Shift+F5) Executar arquivo mais rapido
+'Caracteres nao suportados no jogo: (ç, é, á, í, à, ã, õ, â, ê, ô) Obs: não descobri como contornar esse problema
 
 Option Explicit
 
@@ -324,11 +323,7 @@ Function camptypes(NumberLine, Line)
 	ElseIf (NumberLine = 68) Then
 		Line = Replace(Line, "the woods", "O Bosque")
 	ElseIf (NumberLine = 92) Then
-		Line = Replace(Line, "a burned-out apartment", "Um apartamento queimado")
-		
-		
-		
-		
+		Line = Replace(Line, "a burned-out apartment", "Um apartamento queimado")		
 	End If 		
 	TempFile.WriteLine(Line)
 	camptypes = CStr(Line)
@@ -345,11 +340,7 @@ Function chargeprofiles(NumberLine, Line)
 	ElseIf (NumberLine = 232) Then
 		Line = Replace(Line, "hard spear", "Lanca Endurecida")
 	ElseIf (NumberLine = 242) Then
-		Line = Replace(Line, "broad spear", "Lanca Longa")		
-		
-		
-		
-		
+		Line = Replace(Line, "broad spear", "Lanca Longa")				
 	End If 		
 	chargeprofiles = CStr(Line)
 End Function
@@ -668,10 +659,7 @@ Function containertypes(NumberLine, Line)
 	ElseIf (NumberLine = 164) Then
 		Line = Replace(Line, "pebble (sling)", "seixo(estilingue)")
 	ElseIf (NumberLine = 168) Then
-		Line = Replace(Line, "stone (sling)", "pedra(estilingue)")
-		
-		
-		
+		Line = Replace(Line, "stone (sling)", "pedra(estilingue)")		
 	End If 		
 	containertypes = CStr(Line)
 End Function
@@ -687,10 +675,7 @@ Function creatures(NumberLine, Line)
 	ElseIf (NumberLine = 182) Then
 		Line = Replace(Line, "Looter", "Saqueador")
 	ElseIf (NumberLine = 184) Then
-		Line = Replace(Line, "Shifty personality", "Personalidade Desonesta")
-		
-		
-		
+		Line = Replace(Line, "Shifty personality", "Personalidade Desonesta")		
 	End If 		
 	creatures = CStr(Line)
 End Function
@@ -704,11 +689,7 @@ Function creaturesources(NumberLine, Line)
 	ElseIf (NumberLine = 222) Then
 		Line = Replace(Line, "Warrior Female", "Guerreira")
 	ElseIf (NumberLine = 232) Then
-		Line = Replace(Line, "Warrior Male", "Guerreiro")
-		
-		
-		
-		
+		Line = Replace(Line, "Warrior Male", "Guerreiro")		
 	End If 		
 	creaturesources = CStr(Line)
 End Function
@@ -722,11 +703,7 @@ Function datafiles(NumberLine, Line)
 	ElseIf (NumberLine = 47) Then
 		Line = Replace(Line, "Corporate employee records, addresses, and contact info", "Registos, enderecos e informacoes de contato dos funcionarios corporativos")
 	ElseIf (NumberLine = 54) Then
-		Line = Replace(Line, "Fall class schedule", "Horario das aulas de outono")
-		
-		
-		
-		
+		Line = Replace(Line, "Fall class schedule", "Horario das aulas de outono")		
 	End If 		
 	datafiles = CStr(Line)
 End Function
@@ -904,11 +881,6 @@ Function encounters(NumberLine, Line)
 	ElseIf (NumberLine = 55119) Then
 		Line = Replace(Line, "You're in the parking lot of Gyges Cryo Facility, but everything looks disused and in disrepair. Plants have pushed their way through the pavement and over the facility.", "Voce esta no estacionamento do Gyges-Cryo-Facility, mas tudo parece estar em desuso e em falta. As plantas seguiram o pavimento e as instalacoes.")
 		Line = Replace(Line, "Worst of all, nothing looks familiar. You don't remember this place, or even who you are. Your frustration mounts, but you catch it and put it in check. Might as well take a look around.", "O pior e que nada parece familiar. Voce nao se lembra deste lugar, nem mesmo de quem es voce. Sua frustracao se monta, mas voce o coloca sob controle. Podendo assim dar uma olhada ao redor.")
-		
-		
-		
-		
-		
 	End If 		
 	encounters = CStr(Line)
 End Function
@@ -923,10 +895,6 @@ Function encountertriggers(NumberLine, Line)
 		Line = Replace(Line, "First nightfall", "Primeira noite")
 	ElseIf (NumberLine = 137) Then
 		Line = Replace(Line, "Return to cryo", "Retornar para cryo")
-		
-		
-		
-		
 	End If 		
 	encountertriggers = CStr(Line)
 End Function
@@ -941,10 +909,6 @@ Function headlines(NumberLine, Line)
 		Line = Replace(Line, "Drugs for Sale", "Drogas a Venda")
 	ElseIf (NumberLine = 77) Then
 		Line = Replace(Line, "Road to Nowhere", "Estrada para lugar nenhum")
-		
-		
-		
-		
 	End If 		
 	headlines = CStr(Line)
 End Function
@@ -963,10 +927,6 @@ Function hextypes(NumberLine, Line)
 		Line = Replace(Line, "abandoned houses and trailers", "casas abandonadas e trailers")
 	ElseIf (NumberLine = 195) Then
 		Line = Replace(Line, "cryogenics lab where player wakes up", "Laboratorio de criogenia onde o jogador acordou")
-		
-		
-		
-		
 	End If 		
 	hextypes = CStr(Line)
 End Function
@@ -981,10 +941,6 @@ Function ingredients(NumberLine, Line)
 		Line = Replace(Line, "kindling", "gravetos")
 	ElseIf (NumberLine = 50) Then
 		Line = Replace(Line, "medium fire fuel", "combustivel de fogo medio")
-		
-		
-		
-		
 	End If 		
 	ingredients = CStr(Line)
 End Function
@@ -999,10 +955,6 @@ Function itemprops(NumberLine, Line)
 		Line = Replace(Line, "container", "recipiente")
 	ElseIf (NumberLine = 68) Then
 		Line = Replace(Line, "waterproof", "impermeavel")
-		
-		
-		
-		
 	End If 		
 	itemprops = CStr(Line)
 End Function
@@ -1157,7 +1109,6 @@ Function itemtypes(NumberLine, Line)
 		Line = Replace(Line, "trait: enervated", "Contras: Enfraquecido")
 	ElseIf (NumberLine = 19418) Then
 		Line = Replace(Line, "out of shape, and fatigues faster than usual", "fora de forma e fatiga mais rapido do que o normal")
-		
 	End If 		
 	itemtypes = CStr(Line)
 End Function
@@ -1174,10 +1125,6 @@ Function recipes(NumberLine, Line)
 		Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
 	ElseIf (NumberLine = 108) Then
 		Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
-		
-		
-		
-		
 	End If 		
 	recipes = CStr(Line)
 End Function
@@ -1190,11 +1137,6 @@ Function treasuretable(NumberLine, Line)
 		Line = Replace(Line, "medical kit", "kit medico")
 	ElseIf (NumberLine = 96) Then
 		Line = Replace(Line, "medium campfire", "fogueira media")
-		
-		
-		
-		
-		
 	End If 		
 	treasuretable = CStr(Line)
 End Function
@@ -1229,19 +1171,22 @@ TraduzirArquivo("treasuretable")
 'Funcao de traducao
 '------------------
 Sub TraduzirArquivo(Nome)
+	'Constantes
 	Const WindowsFolder = 0
 	Const SystemFolder = 1
 	Const TemporaryFolder = 2
+	'Variaveis
 	Dim FileSystem
 	Dim Filename
 	Dim OriginalFile, TempFile, Line
 	Dim TempFilename
 	Dim NumberLine
-	Dim IgnoreLinhaNumero
+	Dim IgnoreLinhaNumero	
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
 	Set Filename = FileSystem.GetFile(Nome & ".xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
 	TempFilename = Nome & ".tmp"
+	'Apa arquivo temporario
 	If FileSystem.FileExists(TempFilename) Then
 		FileSystem.DeleteFile TempFilename
 	End If
@@ -1252,25 +1197,64 @@ Sub TraduzirArquivo(Nome)
 	Do Until OriginalFile.AtEndOfStream
 		Line = OriginalFile.ReadLine
 		NumberLine = NumberLine + 1
+		'Ignora linha que sejam apenas comentarios
 		If InStr(Line, "<!--") > 0 Then
 			IgnoreLinhaNumero = False
-		End If		
+		End If
+		'Adiciona uma marcacao para saber qual o numero da linha
 		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
 			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
 		End If
+		'Ignora linha que sejam apenas comentarios
 		If InStr(Line, "-->") > 0 Then
 			IgnoreLinhaNumero = True
 		End If
+		'Qual arquivo esta sendo traduzido
 		If(Nome = "attackmodes") Then
 			Line = attackmodes(NumberLine, CStr(Line))
 		ElseIf (Nome = "battlemoves") Then
 			Line = battlemoves(NumberLine, CStr(Line))
+		ElseIf (Nome = "camptypes") Then
+			Line = camptypes(NumberLine, CStr(Line))
+		ElseIf (Nome = "chargeprofiles") Then
+			Line = chargeprofiles(NumberLine, CStr(Line))
+		ElseIf (Nome = "conditions") Then
+			Line = conditions(NumberLine, CStr(Line))
+		ElseIf (Nome = "containertypes") Then
+			Line = containertypes(NumberLine, CStr(Line))
+		ElseIf (Nome = "creatures") Then
+			Line = creatures(NumberLine, CStr(Line))
+		ElseIf (Nome = "creaturesources") Then
+			Line = creaturesources(NumberLine, CStr(Line))
+		ElseIf (Nome = "datafiles") Then
+			Line = datafiles(NumberLine, CStr(Line))
+		ElseIf (Nome = "encounters") Then
+			Line = encounters(NumberLine, CStr(Line))
+		ElseIf (Nome = "encountertriggers") Then
+			Line = encountertriggers(NumberLine, CStr(Line))
+		ElseIf (Nome = "headlines") Then
+			Line = headlines(NumberLine, CStr(Line))
+		ElseIf (Nome = "hextypes") Then
+			Line = hextypes(NumberLine, CStr(Line))
+		ElseIf (Nome = "ingredients") Then
+			Line = ingredients(NumberLine, CStr(Line))
+		ElseIf (Nome = "itemprops") Then
+			Line = itemprops(NumberLine, CStr(Line))
+		ElseIf (Nome = "itemtypes") Then
+			Line = itemtypes(NumberLine, CStr(Line))
+		ElseIf (Nome = "recipes") Then
+			Line = recipes(NumberLine, CStr(Line))
+		ElseIf (Nome = "treasuretable") Then
+			Line = treasuretable(NumberLine, CStr(Line))		
 		End If
 		TempFile.WriteLine(Line)
 	Loop
+	'Fecha arquivos
 	OriginalFile.Close
 	TempFile.Close
+	'Copia o aquivo temporario para o arquivo original
 	FileSystem.CopyFile TempFilename, Filename, True
+	'Apaga arquivo temporario
 	FileSystem.DeleteFile TempFilename
 End Sub
 
