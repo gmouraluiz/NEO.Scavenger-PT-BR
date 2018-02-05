@@ -1,42 +1,8 @@
 'Criado por Geovani Luiz de Moura
 'Caracteres nao suportados no jogo: ç é á í à ã õ â ê ô 
-
 Option Explicit
 
-attackmodes()
-Sub attackmodes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("attackmodes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "attackmodes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function attackmodes(NumberLine, Line)
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -49,310 +15,310 @@ Sub attackmodes()
 			
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		attackmodes = CStr(Line)
+End Function
 
-'barterhexes S/Texto para traduzir
+Function battlemoves(NumberLine, Line)	
+	If (NumberLine = 1) Then
+           Line = Replace(Line, "utf-8", "UTF-8")
+	ElseIf (NumberLine = 113) Then
+		Line = Replace(Line, "Melee Attack", "Ataque corpo a corpo")
+	ElseIf (NumberLine = 115) Then
+		Line = Replace(Line, "attacks", "atacou")
+		Line = Replace(Line, "and hits", "e acertou")
+	ElseIf (NumberLine = 116) Then
+		Line = Replace(Line, "tries to attack", "tentou atacar")
+		Line = Replace(Line, "but misses", "mas errou")
+	ElseIf (NumberLine = 117) Then
+		Line = Replace(Line, "Melee Attack", "Ataque corpo a corpo")
+	ElseIf (NumberLine = 118) Then
+		Line = Replace(Line, "Use current melee attack on target.", "Usou o ataque corpo a corpo atual no alvo.")
+	ElseIf (NumberLine = 119) Then
+		Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
+	ElseIf (NumberLine = 120) Then
+		Line = Replace(Line, "Low chance of making you vulnerable.", "Baixa chance de torna-lo vulneravel.")
+	ElseIf (NumberLine = 121) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
+	ElseIf (NumberLine = 155) Then
+		Line = Replace(Line, "Take Cover", "Se esconder")
+	ElseIf (NumberLine = 157) Then
+		Line = Replace(Line, "takes cover from", "se esconde do")
+	ElseIf (NumberLine = 159) Then
+		Line = Replace(Line, "Take Cover", "Se esconder")			
+	ElseIf (NumberLine = 160) Then
+		Line = Replace(Line, "Dive behind best cover terrain can provide.", "Mergulho por tras do melhor terreno de cobertura pode fornecer.")
+	ElseIf (NumberLine = 161) Then
+		Line = Replace(Line, "Must be at least 1 space away from all enemies.", "Deve ter pelo menos 1 espaco de distancia de todos os inimigos.")
+	ElseIf (NumberLine = 162) Then
+		Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")		
+	ElseIf (NumberLine = 196) Then
+		Line = Replace(Line, "Sneak Towards", "Esgueirar-se")
+	ElseIf (NumberLine = 198) Then
+		Line = Replace(Line, "sneaks towards", "esgueira para")
+	ElseIf (NumberLine = 200) Then
+		Line = Replace(Line, "Sneak Towards", "Esgueirar-se")
+	ElseIf (NumberLine = 201) Then
+		Line = Replace(Line, "Move 1 space closer to target while staying hidden.", "Mova 1 espaco mais perto do alvo enquanto estiver escondido.")
+	ElseIf (NumberLine = 202) Then
+		Line = Replace(Line, "Must see target, and target must not see you yet.", "Precisa ver o alvo e o alvo nao deve ve-lo ainda.")
+	ElseIf (NumberLine = 203) Then
+		Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
+	ElseIf (NumberLine = 204) Then
+		Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")			
+	ElseIf (NumberLine = 238) Then
+		Line = Replace(Line, "Sneaky Retreat", "Retirada furtiva")
+	ElseIf (NumberLine = 240) Then
+		Line = Replace(Line, "sneaks out of battle from", "retirada furtiva de uma batalha com")
+	ElseIf (NumberLine = 241) Then
+		Line = Replace(Line, "tries to sneak out of battle from", "esta tentando escapar de uma batalha com")
+		Line = Replace(Line, "but can't get away!", "mas nao conseguiu fugir!")
+	ElseIf (NumberLine = 242) Then
+		Line = Replace(Line, "Sneaky Retreat", "Retirada furtiva")
+	ElseIf (NumberLine = 243) Then
+		Line = Replace(Line, "Try to sneak out of battle without being seen.", "Tente fugir da batalha sem ser visto.")
+	ElseIf (NumberLine = 244) Then
+		Line = Replace(Line, "Chance to move one space away from target if escape fails.", "Possibilidade de mover um espaco longe do alvo se o escape falhar.")
+	ElseIf (NumberLine = 245) Then
+		Line = Replace(Line, "Must see target, and target must not see you yet.", "Precisa ver o alvo e o alvo nao deve ve-lo ainda.")
+	ElseIf (NumberLine = 246) Then
+		Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
+	ElseIf (NumberLine = 247) Then
+		Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")			
+	ElseIf (NumberLine = 281) Then
+		Line = Replace(Line, "Run!", "Correr!")
+	ElseIf (NumberLine = 283) Then
+		Line = Replace(Line, "runs from", "corre de")
+	ElseIf (NumberLine = 285) Then
+		Line = Replace(Line, "Run!", "Correr!")
+	ElseIf (NumberLine = 286) Then
+		Line = Replace(Line, "Move 2-4 spaces away from target.", "Mova 2-4 espacos para longe do alvo.")
+	ElseIf (NumberLine = 287) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 288) Then
+		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+	ElseIf (NumberLine = 289) Then
+		Line = Replace(Line, "Makes you vulnerable.", "O torna vulneravel.")
+	ElseIf (NumberLine = 290) Then
+		Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
+	ElseIf (NumberLine = 291) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
+	ElseIf (NumberLine = 325) Then
+		Line = Replace(Line, "Advance", "Avancar")
+	ElseIf (NumberLine = 327) Then
+		Line = Replace(Line, "advances towards", "avanca para")
+	ElseIf (NumberLine = 329) Then
+		Line = Replace(Line, "Advance", "Avancar")
+	ElseIf (NumberLine = 330) Then
+		Line = Replace(Line, "Move 1 space closer to target.", "Mova 1 espaco mais perto do alvo.")
+	ElseIf (NumberLine = 331) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 332) Then
+		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+	ElseIf (NumberLine = 333) Then
+		Line = Replace(Line, "Chance of tripping on terrain.", "Possibilidade de tropecar no terreno.")
+	ElseIf (NumberLine = 334) Then
+		Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
+	ElseIf (NumberLine = 368) Then
+		Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
+	ElseIf (NumberLine = 370) Then
+		Line = Replace(Line, "advances towards", "avanca para")
+		Line = Replace(Line, "under cover.", "encondido.")
+	ElseIf (NumberLine = 372) Then
+		Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
+	ElseIf (NumberLine = 373) Then
+		Line = Replace(Line, "Move 1 space closer to target, maintaining cover.", "Mova 1 espaco mais perto do alvo, se mantendo escondido.")
+	ElseIf (NumberLine = 374) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 375) Then
+		Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
+	ElseIf (NumberLine = 376) Then
+		Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
+	ElseIf (NumberLine = 410) Then
+		Line = Replace(Line, "Search", "Procurar")
+	ElseIf (NumberLine = 412) Then
+		Line = Replace(Line, "searches for", "procurando por")
+	ElseIf (NumberLine = 414) Then
+		Line = Replace(Line, "Search", "Procurar")
+	ElseIf (NumberLine = 415) Then
+		Line = Replace(Line, "Scan area for hidden targets.", "Procurando alvos ocultos.")
+	ElseIf (NumberLine = 416) Then
+		Line = Replace(Line, "Must not see target yet.", "Ainda nao e possivel ver o alvo.")			
+	ElseIf (NumberLine = 450) Then
+		Line = Replace(Line, "Charge!", "Arrancada!")
+	ElseIf (NumberLine = 452) Then
+		Line = Replace(Line, "charges at", "arrancada para")
+	ElseIf (NumberLine = 454) Then
+		Line = Replace(Line, "Charge!", "Arrancada!")
+	ElseIf (NumberLine = 455) Then
+		Line = Replace(Line, "Move 2-3 spaces towards target.", "Mova 2-3 espacos em direcao ao alvo.")
+	ElseIf (NumberLine = 456) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 457) Then
+		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+	ElseIf (NumberLine = 458) Then
+		Line = Replace(Line, "Makes you vulnerable.", "Faz voce vulneravel.")
+	ElseIf (NumberLine = 459) Then
+		Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
+	ElseIf (NumberLine = 460) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
+	ElseIf (NumberLine = 494) Then
+		Line = Replace(Line, "Parry", "Desviar")
+	ElseIf (NumberLine = 496) Then
+		Line = Replace(Line, "parries", "vai desviar do")
+		Line = Replace(Line, "move.", "seu proximo movimento.")
+	ElseIf (NumberLine = 498) Then
+		Line = Replace(Line, "Parry", "Desviar")
+	ElseIf (NumberLine = 499) Then
+		Line = Replace(Line, "Parry target's next attack, making you much harder to hit.", "Desviar do proximo ataque do alvo, tornando-se muito mais dificil de bater.")
+	ElseIf (NumberLine = 500) Then
+		Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de luta corpo a corpo.")
+	ElseIf (NumberLine = 501) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 502) Then
+		Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")
+	ElseIf (NumberLine = 503) Then
+		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+	ElseIf (NumberLine = 537) Then
+		Line = Replace(Line, "Kick", "Chute")
+	ElseIf (NumberLine = 539) Then
+		Line = Replace(Line, "kicks", "vai dar um chute no")
+		Line = Replace(Line, "while they're down!", "enquanto ele esta caido!")
+	ElseIf (NumberLine = 540) Then
+		Line = Replace(Line, "tries to kick", "tentou chutar")
+		Line = Replace(Line, "while they're down...but misses!", "enquanto ele estava caido ... mas errou!")
+	ElseIf (NumberLine = 541) Then
+		Line = Replace(Line, "Kick", "Chute")
+	ElseIf (NumberLine = 542) Then
+		Line = Replace(Line, "Kick target while they're down.", "Chute o alvo enquanto ele esta caido.")
+	ElseIf (NumberLine = 543) Then
+		Line = Replace(Line, "Chance to injure target, plus keep them fallen and force them to lose 1 turn.", "Possibilidade de ferir o alvo, alem de mante-lo caido e forca-lo a perder 1 turno.")
+	ElseIf (NumberLine = 544) Then
+		Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de corpo a corpo.")
+	ElseIf (NumberLine = 545) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 546) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
+	ElseIf (NumberLine = 547) Then
+		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+	ElseIf (NumberLine = 581) Then
+		Line = Replace(Line, "Roll Dodge", "Rolar para esquivar")
+	ElseIf (NumberLine = 583) Then
+		Line = Replace(Line, "rolls from", "se rola para esquiva de")
+	ElseIf (NumberLine = 585) Then
+		Line = Replace(Line, "Roll Dodge", "Rolar para esquivar")
+	ElseIf (NumberLine = 586) Then
+		Line = Replace(Line, "Roll from target, making you harder to hit.", "Rolar para esquivar, tornando-o mais difícil de acertar.")
+	ElseIf (NumberLine = 587) Then
+		Line = Replace(Line, "Chance to move 1 space away from target.", "Possibilidade de mover 1 espaco para longe do alvo.")
+	ElseIf (NumberLine = 588) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 589) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
+	ElseIf (NumberLine = 590) Then
+		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	ElseIf (NumberLine = 000000) Then
+		Line = Replace(Line, "000000", "000000")
+	End If 
+	battlemoves = CStr(Line)
+End Function
 
-battlemoves()
-Sub battlemoves()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("battlemoves.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "battlemoves.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
-		'Traducao das Linhas
-		If (NumberLine = 1) Then
-            Line = Replace(Line, "utf-8", "UTF-8")
-		ElseIf (NumberLine = 113) Then
-			Line = Replace(Line, "Melee Attack", "Ataque corpo a corpo")
-		ElseIf (NumberLine = 115) Then
-			Line = Replace(Line, "attacks", "atacou")
-			Line = Replace(Line, "and hits", "e acertou")
-		ElseIf (NumberLine = 116) Then
-			Line = Replace(Line, "tries to attack", "tentou atacar")
-			Line = Replace(Line, "but misses", "mas errou")
-		ElseIf (NumberLine = 117) Then
-			Line = Replace(Line, "Melee Attack", "Ataque corpo a corpo")
-		ElseIf (NumberLine = 118) Then
-			Line = Replace(Line, "Use current melee attack on target.", "Usou o ataque corpo a corpo atual no alvo.")
-		ElseIf (NumberLine = 119) Then
-			Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
-		ElseIf (NumberLine = 120) Then
-			Line = Replace(Line, "Low chance of making you vulnerable.", "Baixa chance de torna-lo vulneravel.")
-		ElseIf (NumberLine = 121) Then
-			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
-		ElseIf (NumberLine = 155) Then
-			Line = Replace(Line, "Take Cover", "Se esconder")
-		ElseIf (NumberLine = 157) Then
-			Line = Replace(Line, "takes cover from", "se esconde do")
-		ElseIf (NumberLine = 159) Then
-			Line = Replace(Line, "Take Cover", "Se esconder")			
-		ElseIf (NumberLine = 160) Then
-			Line = Replace(Line, "Dive behind best cover terrain can provide.", "Mergulho por tras do melhor terreno de cobertura pode fornecer.")
-		ElseIf (NumberLine = 161) Then
-			Line = Replace(Line, "Must be at least 1 space away from all enemies.", "Deve ter pelo menos 1 espaco de distancia de todos os inimigos.")
-		ElseIf (NumberLine = 162) Then
-			Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")		
-		ElseIf (NumberLine = 196) Then
-			Line = Replace(Line, "Sneak Towards", "Esgueirar-se")
-		ElseIf (NumberLine = 198) Then
-			Line = Replace(Line, "sneaks towards", "esgueira para")
-		ElseIf (NumberLine = 200) Then
-			Line = Replace(Line, "Sneak Towards", "Esgueirar-se")
-		ElseIf (NumberLine = 201) Then
-			Line = Replace(Line, "Move 1 space closer to target while staying hidden.", "Mova 1 espaco mais perto do alvo enquanto estiver escondido.")
-		ElseIf (NumberLine = 202) Then
-			Line = Replace(Line, "Must see target, and target must not see you yet.", "Precisa ver o alvo e o alvo nao deve ve-lo ainda.")
-		ElseIf (NumberLine = 203) Then
-			Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
-		ElseIf (NumberLine = 204) Then
-			Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")			
-		ElseIf (NumberLine = 238) Then
-			Line = Replace(Line, "Sneaky Retreat", "Retirada furtiva")
-		ElseIf (NumberLine = 240) Then
-			Line = Replace(Line, "sneaks out of battle from", "retirada furtiva de uma batalha com")
-		ElseIf (NumberLine = 241) Then
-			Line = Replace(Line, "tries to sneak out of battle from", "esta tentando escapar de uma batalha com")
-			Line = Replace(Line, "but can't get away!", "mas nao conseguiu fugir!")
-		ElseIf (NumberLine = 242) Then
-			Line = Replace(Line, "Sneaky Retreat", "Retirada furtiva")
-		ElseIf (NumberLine = 243) Then
-			Line = Replace(Line, "Try to sneak out of battle without being seen.", "Tente fugir da batalha sem ser visto.")
-		ElseIf (NumberLine = 244) Then
-			Line = Replace(Line, "Chance to move one space away from target if escape fails.", "Possibilidade de mover um espaco longe do alvo se o escape falhar.")
-		ElseIf (NumberLine = 245) Then
-			Line = Replace(Line, "Must see target, and target must not see you yet.", "Precisa ver o alvo e o alvo nao deve ve-lo ainda.")
-		ElseIf (NumberLine = 246) Then
-			Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
-		ElseIf (NumberLine = 247) Then
-			Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")			
-		ElseIf (NumberLine = 281) Then
-			Line = Replace(Line, "Run!", "Correr!")
-		ElseIf (NumberLine = 283) Then
-			Line = Replace(Line, "runs from", "corre de")
-		ElseIf (NumberLine = 285) Then
-			Line = Replace(Line, "Run!", "Correr!")
-		ElseIf (NumberLine = 286) Then
-			Line = Replace(Line, "Move 2-4 spaces away from target.", "Mova 2-4 espacos para longe do alvo.")
-		ElseIf (NumberLine = 287) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 288) Then
-			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
-		ElseIf (NumberLine = 289) Then
-			Line = Replace(Line, "Makes you vulnerable.", "O torna vulneravel.")
-		ElseIf (NumberLine = 290) Then
-			Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
-		ElseIf (NumberLine = 291) Then
-			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
-		ElseIf (NumberLine = 325) Then
-			Line = Replace(Line, "Advance", "Avancar")
-		ElseIf (NumberLine = 327) Then
-			Line = Replace(Line, "advances towards", "avanca para")
-		ElseIf (NumberLine = 329) Then
-			Line = Replace(Line, "Advance", "Avancar")
-		ElseIf (NumberLine = 330) Then
-			Line = Replace(Line, "Move 1 space closer to target.", "Mova 1 espaco mais perto do alvo.")
-		ElseIf (NumberLine = 331) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 332) Then
-			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
-		ElseIf (NumberLine = 333) Then
-			Line = Replace(Line, "Chance of tripping on terrain.", "Possibilidade de tropecar no terreno.")
-		ElseIf (NumberLine = 334) Then
-			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
-		ElseIf (NumberLine = 368) Then
-			Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
-		ElseIf (NumberLine = 370) Then
-			Line = Replace(Line, "advances towards", "avanca para")
-			Line = Replace(Line, "under cover.", "encondido.")
-		ElseIf (NumberLine = 372) Then
-			Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
-		ElseIf (NumberLine = 373) Then
-			Line = Replace(Line, "Move 1 space closer to target, maintaining cover.", "Mova 1 espaco mais perto do alvo, se mantendo escondido.")
-		ElseIf (NumberLine = 374) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 375) Then
-			Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
-		ElseIf (NumberLine = 376) Then
-			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
-		ElseIf (NumberLine = 410) Then
-			Line = Replace(Line, "Search", "Procurar")
-		ElseIf (NumberLine = 412) Then
-			Line = Replace(Line, "searches for", "procurando por")
-		ElseIf (NumberLine = 414) Then
-			Line = Replace(Line, "Search", "Procurar")
-		ElseIf (NumberLine = 415) Then
-			Line = Replace(Line, "Scan area for hidden targets.", "Procurando alvos ocultos.")
-		ElseIf (NumberLine = 416) Then
-			Line = Replace(Line, "Must not see target yet.", "Ainda nao e possivel ver o alvo.")			
-		ElseIf (NumberLine = 450) Then
-			Line = Replace(Line, "Charge!", "Arrancada!")
-		ElseIf (NumberLine = 452) Then
-			Line = Replace(Line, "charges at", "arrancada para")
-		ElseIf (NumberLine = 454) Then
-			Line = Replace(Line, "Charge!", "Arrancada!")
-		ElseIf (NumberLine = 455) Then
-			Line = Replace(Line, "Move 2-3 spaces towards target.", "Mova 2-3 espacos em direcao ao alvo.")
-		ElseIf (NumberLine = 456) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 457) Then
-			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
-		ElseIf (NumberLine = 458) Then
-			Line = Replace(Line, "Makes you vulnerable.", "Faz voce vulneravel.")
-		ElseIf (NumberLine = 459) Then
-			Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
-		ElseIf (NumberLine = 460) Then
-			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
-		ElseIf (NumberLine = 494) Then
-			Line = Replace(Line, "Parry", "Desviar")
-		ElseIf (NumberLine = 496) Then
-			Line = Replace(Line, "parries", "vai desviar do")
-			Line = Replace(Line, "move.", "seu proximo movimento.")
-		ElseIf (NumberLine = 498) Then
-			Line = Replace(Line, "Parry", "Desviar")
-		ElseIf (NumberLine = 499) Then
-			Line = Replace(Line, "Parry target's next attack, making you much harder to hit.", "Desviar do proximo ataque do alvo, tornando-se muito mais dificil de bater.")
-		ElseIf (NumberLine = 500) Then
-			Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de luta corpo a corpo.")
-		ElseIf (NumberLine = 501) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 502) Then
-			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")
-		ElseIf (NumberLine = 503) Then
-			Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
-		ElseIf (NumberLine = 537) Then
-			Line = Replace(Line, "Kick", "Chute")
-		ElseIf (NumberLine = 539) Then
-			Line = Replace(Line, "kicks", "vai dar um chute no")
-			Line = Replace(Line, "while they're down!", "enquanto ele esta caido!")
-		ElseIf (NumberLine = 540) Then
-			Line = Replace(Line, "tries to kick", "tentou chutar")
-			Line = Replace(Line, "while they're down...but misses!", "enquanto ele estava caido ... mas errou!")
-		ElseIf (NumberLine = 541) Then
-			Line = Replace(Line, "Kick", "Chute")
-		ElseIf (NumberLine = 542) Then
-			Line = Replace(Line, "Kick target while they're down.", "Chute o alvo enquanto ele esta caido.")
-		ElseIf (NumberLine = 543) Then
-			Line = Replace(Line, "Chance to injure target, plus keep them fallen and force them to lose 1 turn.", "Possibilidade de ferir o alvo, alem de mante-lo caido e forca-lo a perder 1 turno.")
-		ElseIf (NumberLine = 544) Then
-			Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de corpo a corpo.")
-		ElseIf (NumberLine = 545) Then
-			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
-		ElseIf (NumberLine = 546) Then
-			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
-		ElseIf (NumberLine = 547) Then
-			Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")
-			
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-			
-			
-			
-			
-		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
-
-camptypes()
-Sub camptypes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("camptypes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "camptypes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function camptypes(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -366,47 +332,10 @@ Sub camptypes()
 			
 		End If 		
 		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+	camptypes = CStr(Line)
+End Function
 
-chargeprofiles()
-Sub chargeprofiles()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("chargeprofiles.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "chargeprofiles.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function chargeprofiles(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -423,48 +352,10 @@ Sub chargeprofiles()
 			
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		chargeprofiles = CStr(Line)
+End Function
 
-conditions()
-Sub conditions()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("conditions.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "conditions.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function conditions(NumberLine, Line)		
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -742,48 +633,10 @@ Sub conditions()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		conditions = CStr(Line)
+End Function
 
-containertypes()
-Sub containertypes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("containertypes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "containertypes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function containertypes(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -821,48 +674,10 @@ Sub containertypes()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		containertypes = CStr(Line)
+End Function
 
-creatures()
-Sub creatures()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("creatures.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "creatures.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function creatures(NumberLine, Line)		
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -878,48 +693,10 @@ Sub creatures()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		creatures = CStr(Line)
+End Function
 
-creaturesources()
-Sub creaturesources()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("creaturesources.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "creaturesources.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function creaturesources(NumberLine, Line)		
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -934,48 +711,10 @@ Sub creaturesources()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		creaturesources = CStr(Line)
+End Function
 
-datafiles()
-Sub datafiles()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("datafiles.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "datafiles.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function datafiles(NumberLine, Line)		
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -990,52 +729,10 @@ Sub datafiles()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		datafiles = CStr(Line)
+End Function
 
-'dmcplaces S/Texto para traduzir
-
-'Obs: este e o unico arquivo que e dificil verificar pela numero de linhas porque ele se perde por causa dos \r que tem no codigo
-'Antes de comecar a traduzir fazer um procedimento na qual tira todos os \r do texto, para voce nao ver a linha errada
-encounters()
-Sub encounters()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("encounters.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "encounters.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function encounters(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1214,48 +911,10 @@ Sub encounters()
 			
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		encounters = CStr(Line)
+End Function
 
-encountertriggers()
-Sub encountertriggers()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("encountertriggers.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "encountertriggers.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function encountertriggers(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1270,54 +929,10 @@ Sub encountertriggers()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		encountertriggers = CStr(Line)
+End Function
 
-'forbiddenhexes Nao vou traduzir agora para nao confudir
-
-'forbiddenhexes S/Texto para traduzir
-
-'gamevars S/Texto para traduzir
-
-headlines()
-Sub headlines()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("headlines.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "headlines.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function headlines(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1332,48 +947,10 @@ Sub headlines()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+	headlines = CStr(Line)
+End Function
 
-hextypes()
-Sub hextypes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("hextypes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "hextypes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function hextypes(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1392,48 +969,10 @@ Sub hextypes()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		hextypes = CStr(Line)
+End Function
 
-ingredients()
-Sub ingredients()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("ingredients.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "ingredients.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function ingredients(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1448,48 +987,10 @@ Sub ingredients()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		ingredients = CStr(Line)
+End Function
 
-itemprops()
-Sub itemprops()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("itemprops.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "itemprops.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function itemprops(NumberLine, Line)	
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1504,48 +1005,10 @@ Sub itemprops()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		itemprops = CStr(Line)
+End Function
 
-itemtypes()
-Sub itemtypes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("itemtypes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "itemtypes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function itemtypes(NumberLine, Line)	
 		'Traducao das Linhas	
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1697,50 +1160,10 @@ Sub itemtypes()
 			Line = Replace(Line, "out of shape, and fatigues faster than usual", "fora de forma e fatiga mais rapido do que o normal")
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		itemtypes = CStr(Line)
+End Function
 
-'maps S/Texto para traduzir
-
-recipes()
-Sub recipes()
-	Const WindowsFolder = 0
-	Const SystemFolder = 1
-	Const TemporaryFolder = 2
-	Dim FileSystem
-	Dim Filename
-	Dim OriginalFile, TempFile, Line
-	Dim TempFilename
-	Dim NumberLine
-	Dim IgnoreLinhaNumero
-	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("recipes.xml")
-	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "recipes.tmp"
-	If FileSystem.FileExists(TempFilename) Then
-		FileSystem.DeleteFile TempFilename
-	End If
-	Set TempFile = FileSystem.CreateTextFile(TempFilename, True, 0)
-	Set OriginalFile = FileSystem.OpenTextFile(Filename)
-	 NumberLine = 0
-	 IgnoreLinhaNumero = True
-	Do Until OriginalFile.AtEndOfStream
-		Line = OriginalFile.ReadLine
-		NumberLine = NumberLine + 1
-		If InStr(Line, "<!--") > 0 Then
-			IgnoreLinhaNumero = False
-		End If		
-		If IgnoreLinhaNumero And InStr(Line, "NumeroDaLinhaReal-->") = 0 Then
-			Line = Line + "<!-- " + CStr(NumberLine) + " NumeroDaLinhaReal-->"
-		End If
-		If InStr(Line, "-->") > 0 Then
-			IgnoreLinhaNumero = True
-		End If
+Function recipes(NumberLine, Line)		
 		'Traducao das Linhas
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
@@ -1757,16 +1180,56 @@ Sub recipes()
 
 			
 		End If 		
-		TempFile.WriteLine(Line)
-	Loop
-	OriginalFile.Close
-	TempFile.Close
-	FileSystem.CopyFile TempFilename, Filename, True
-	FileSystem.DeleteFile TempFilename
-End Sub
+		recipes = CStr(Line)
+End Function
 
-treasuretable()
-Sub treasuretable()
+Function treasuretable(NumberLine, Line)	
+		'Traducao das Linhas
+		If (NumberLine = 1) Then
+            Line = Replace(Line, "utf-8", "UTF-8")
+		ElseIf (NumberLine = 72) Then
+			Line = Replace(Line, "medical kit", "kit medico")
+		ElseIf (NumberLine = 96) Then
+			Line = Replace(Line, "medium campfire", "fogueira media")
+
+
+
+
+			
+		End If 		
+		treasuretable = CStr(Line)
+End Function
+
+'Chamada das Funcoes de traducao
+'-------------------------------
+TraduzirArquivo("attackmodes")
+'barterhexes S/Texto para traduzir
+TraduzirArquivo("battlemoves")
+TraduzirArquivo("camptypes")
+TraduzirArquivo("chargeprofiles")
+TraduzirArquivo("conditions")
+TraduzirArquivo("containertypes")
+TraduzirArquivo("creatures")
+TraduzirArquivo("creaturesources")
+TraduzirArquivo("datafiles")
+'dmcplaces S/Texto para traduzir
+TraduzirArquivo("encounters")
+TraduzirArquivo("encountertriggers")
+'forbiddenhexes Nao vou traduzir agora para nao confudir
+'forbiddenhexes S/Texto para traduzir
+'gamevars S/Texto para traduzir
+TraduzirArquivo("headlines")
+TraduzirArquivo("hextypes")
+TraduzirArquivo("ingredients")
+TraduzirArquivo("itemprops")
+TraduzirArquivo("itemtypes")
+'maps S/Texto para traduzir
+TraduzirArquivo("recipes")
+TraduzirArquivo("treasuretable")
+
+'Funcao de traducao
+'------------------
+Sub TraduzirArquivo(Nome)
 	Const WindowsFolder = 0
 	Const SystemFolder = 1
 	Const TemporaryFolder = 2
@@ -1777,9 +1240,9 @@ Sub treasuretable()
 	Dim NumberLine
 	Dim IgnoreLinhaNumero
 	Set FileSystem = CreateObject("Scripting.FileSystemObject")
-	Set Filename = FileSystem.GetFile("treasuretable.xml")
+	Set Filename = FileSystem.GetFile(Nome & ".xml")
 	Dim tempFolder: tempFolder = FileSystem.GetSpecialFolder(TemporaryFolder)
-	TempFilename = "treasuretable.tmp"
+	TempFilename = Nome & ".tmp"
 	If FileSystem.FileExists(TempFilename) Then
 		FileSystem.DeleteFile TempFilename
 	End If
@@ -1799,19 +1262,11 @@ Sub treasuretable()
 		If InStr(Line, "-->") > 0 Then
 			IgnoreLinhaNumero = True
 		End If
-		'Traducao das Linhas
-		If (NumberLine = 1) Then
-            Line = Replace(Line, "utf-8", "UTF-8")
-		ElseIf (NumberLine = 72) Then
-			Line = Replace(Line, "medical kit", "kit medico")
-		ElseIf (NumberLine = 96) Then
-			Line = Replace(Line, "medium campfire", "fogueira media")
-
-
-
-
-			
-		End If 		
+		If(Nome = "attackmodes") Then
+			Line = attackmodes(NumberLine, CStr(Line))
+		ElseIf (Nome = "battlemoves") Then
+			Line = battlemoves(NumberLine, CStr(Line))
+		End If
 		TempFile.WriteLine(Line)
 	Loop
 	OriginalFile.Close
@@ -1822,3 +1277,4 @@ End Sub
 
 Wscript.echo "Sucesso: Arquivos traduzidos"
 Wscript.Quit
+
