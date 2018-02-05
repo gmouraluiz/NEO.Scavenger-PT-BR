@@ -1,3 +1,6 @@
+'Criado por Geovani Luiz de Moura
+'Caracteres nao suportados no jogo: ç é á à ã õ â ê
+
 Option Explicit
 
 attackmodes()
@@ -108,7 +111,7 @@ Sub battlemoves()
 		ElseIf (NumberLine = 119) Then
 			Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
 		ElseIf (NumberLine = 120) Then
-			Line = Replace(Line, "Low chance of making you vulnerable.", "Baixa chance de torná-lo vulneravel.")
+			Line = Replace(Line, "Low chance of making you vulnerable.", "Baixa chance de torna-lo vulneravel.")
 		ElseIf (NumberLine = 121) Then
 			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
 		ElseIf (NumberLine = 155) Then
@@ -118,9 +121,9 @@ Sub battlemoves()
 		ElseIf (NumberLine = 159) Then
 			Line = Replace(Line, "Take Cover", "Se esconder")			
 		ElseIf (NumberLine = 160) Then
-			Line = Replace(Line, "Dive behind best cover terrain can provide.", "Mergulho por trás do melhor terreno de cobertura pode fornecer.")
+			Line = Replace(Line, "Dive behind best cover terrain can provide.", "Mergulho por tras do melhor terreno de cobertura pode fornecer.")
 		ElseIf (NumberLine = 161) Then
-			Line = Replace(Line, "Must be at least 1 space away from all enemies.", "Deve ter pelo menos 1 espaço de distância de todos os inimigos.")
+			Line = Replace(Line, "Must be at least 1 space away from all enemies.", "Deve ter pelo menos 1 espaco de distancia de todos os inimigos.")
 		ElseIf (NumberLine = 162) Then
 			Line = Replace(Line, "Low chance of being detected if hidden.", "Baixa chance de ser detectada se escondida.")		
 		ElseIf (NumberLine = 196) Then
@@ -165,7 +168,7 @@ Sub battlemoves()
 		ElseIf (NumberLine = 286) Then
 			Line = Replace(Line, "Move 2-4 spaces away from target.", "Mova 2-4 espacos para longe do alvo.")
 		ElseIf (NumberLine = 287) Then
-			Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 		ElseIf (NumberLine = 288) Then
 			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
 		ElseIf (NumberLine = 289) Then
@@ -183,93 +186,96 @@ Sub battlemoves()
 		ElseIf (NumberLine = 330) Then
 			Line = Replace(Line, "Move 1 space closer to target.", "Mova 1 espaco mais perto do alvo.")
 		ElseIf (NumberLine = 331) Then
-			Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 		ElseIf (NumberLine = 332) Then
 			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
 		ElseIf (NumberLine = 333) Then
 			Line = Replace(Line, "Chance of tripping on terrain.", "Possibilidade de tropecar no terreno.")
 		ElseIf (NumberLine = 334) Then
+			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
+		ElseIf (NumberLine = 368) Then
+			Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
+		ElseIf (NumberLine = 370) Then
+			Line = Replace(Line, "advances towards", "avanca para")
+			Line = Replace(Line, "under cover.", "encondido.")
+		ElseIf (NumberLine = 372) Then
+			Line = Replace(Line, "Advance Under Cover", "Avancar Escondido")
+		ElseIf (NumberLine = 373) Then
+			Line = Replace(Line, "Move 1 space closer to target, maintaining cover.", "Mova 1 espaco mais perto do alvo, se mantendo escondido.")
+		ElseIf (NumberLine = 374) Then
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+		ElseIf (NumberLine = 375) Then
+			Line = Replace(Line, "Low chance of tripping on terrain.", "Baixa chance de tropecar no terreno.")
+		ElseIf (NumberLine = 376) Then
+			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")			
+		ElseIf (NumberLine = 410) Then
+			Line = Replace(Line, "Search", "Procurar")
+		ElseIf (NumberLine = 412) Then
+			Line = Replace(Line, "searches for", "procurando por")
+		ElseIf (NumberLine = 414) Then
+			Line = Replace(Line, "Search", "Procurar")
+		ElseIf (NumberLine = 415) Then
+			Line = Replace(Line, "Scan area for hidden targets.", "Procurando alvos ocultos.")
+		ElseIf (NumberLine = 416) Then
+			Line = Replace(Line, "Must not see target yet.", "Ainda nao e possivel ver o alvo.")			
+		ElseIf (NumberLine = 450) Then
+			Line = Replace(Line, "Charge!", "Arrancada!")
+		ElseIf (NumberLine = 452) Then
+			Line = Replace(Line, "charges at", "arrancada para")
+		ElseIf (NumberLine = 454) Then
+			Line = Replace(Line, "Charge!", "Arrancada!")
+		ElseIf (NumberLine = 455) Then
+			Line = Replace(Line, "Move 2-3 spaces towards target.", "Mova 2-3 espacos em direcao ao alvo.")
+		ElseIf (NumberLine = 456) Then
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+		ElseIf (NumberLine = 457) Then
+			Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+		ElseIf (NumberLine = 458) Then
+			Line = Replace(Line, "Makes you vulnerable.", "Faz voce vulneravel.")
+		ElseIf (NumberLine = 459) Then
+			Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
+		ElseIf (NumberLine = 460) Then
+			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")			
+		ElseIf (NumberLine = 494) Then
+			Line = Replace(Line, "Parry", "Desviar")
+		ElseIf (NumberLine = 496) Then
+			Line = Replace(Line, "parries", "vai desviar do")
+			Line = Replace(Line, "move.", "seu proximo movimento.")
+		ElseIf (NumberLine = 498) Then
+			Line = Replace(Line, "Parry", "Desviar")
+		ElseIf (NumberLine = 499) Then
+			Line = Replace(Line, "Parry target's next attack, making you much harder to hit.", "Desviar do proximo ataque do alvo, tornando-se muito mais dificil de bater.")
+		ElseIf (NumberLine = 500) Then
+			Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de luta corpo a corpo.")
+		ElseIf (NumberLine = 501) Then
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+		ElseIf (NumberLine = 502) Then
 			Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")
+		ElseIf (NumberLine = 503) Then
+			Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+		ElseIf (NumberLine = 537) Then
+			Line = Replace(Line, "Kick", "Chute")
+		ElseIf (NumberLine = 539) Then
+			Line = Replace(Line, "kicks", "vai dar um chute no")
+			Line = Replace(Line, "while they're down!", "enquanto ele esta caido!")
+		ElseIf (NumberLine = 540) Then
+			Line = Replace(Line, "tries to kick", "tentou chutar")
+			Line = Replace(Line, "while they're down...but misses!", "enquanto ele estava caido ... mas errou!")
+		ElseIf (NumberLine = 541) Then
+			Line = Replace(Line, "Kick", "Chute")
+		ElseIf (NumberLine = 542) Then
+			Line = Replace(Line, "Kick target while they're down.", "Chute o alvo enquanto ele esta caido.")
+		ElseIf (NumberLine = 543) Then
+			Line = Replace(Line, "Chance to injure target, plus keep them fallen and force them to lose 1 turn.", "Possibilidade de ferir o alvo, alem de mante-lo caido e forca-lo a perder 1 turno.")
+		ElseIf (NumberLine = 544) Then
+			Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de corpo a corpo.")
+		ElseIf (NumberLine = 545) Then
+			Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+		ElseIf (NumberLine = 546) Then
+			Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
+		ElseIf (NumberLine = 547) Then
+			Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")
 			
-			
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
-		ElseIf (NumberLine = 000000) Then
-			Line = Replace(Line, "000000", "000000")
 		ElseIf (NumberLine = 000000) Then
 			Line = Replace(Line, "000000", "000000")
 		ElseIf (NumberLine = 000000) Then
@@ -994,8 +1000,8 @@ End Sub
 
 'dmcplaces S/Texto para traduzir
 
-'Obs: este é o unico arquivo que é dificil verificar pela numero de linhas porque ele se perde por causa dos \r que tem no codigo
-'Antes de começar a traduzir fazer um procedimento na qual tira todos os \r do texto, para voce não ver a linha errada
+'Obs: este e o unico arquivo que e dificil verificar pela numero de linhas porque ele se perde por causa dos \r que tem no codigo
+'Antes de comecar a traduzir fazer um procedimento na qual tira todos os \r do texto, para voce nao ver a linha errada
 encounters()
 Sub encounters()
 	Const WindowsFolder = 0
@@ -1072,7 +1078,7 @@ Sub encounters()
 		ElseIf (NumberLine = 423) Then
 			Line = Replace(Line, "The dust on the ground makes it easy for your trained eye to pick out one set of tracks in particular.", "A poeira no chao facilita o seu olho treinado para escolher um conjunto de faixas em particular.")
 			Line = Replace(Line, "They seem to belong to a humanoid dragging something, probably a mantle or cloak. It was here fairly recently, probably in the past 24 hours. It entered through the doorway, walked to your stasis tank, went to the control console, and then left.", "Eles parecem pertencer a um humano arrastando algo, provavelmente um manto ou capa. Os rastros sao bastante recente, provavelmente nas ultimas 24 horas. Entrou atraves da entrada, caminhou ate o tanque de estase, foi ao console de controle e depois saiu.")
-			Line = Replace(Line, "You'd bet good money that it wasn't the dogman you just faced.", "Você apostaria um bom dinheiro, para dizer que nao era o Lobisomem que voce acabou de enfrentar.")
+			Line = Replace(Line, "You'd bet good money that it wasn't the dogman you just faced.", "Voce apostaria um bom dinheiro, para dizer que nao era o Lobisomem que voce acabou de enfrentar.")
 		ElseIf (NumberLine = 448) Then
 			Line = Replace(Line, "Inside Cryo Facility, Dogman Gone", "Dentro da Cryo-Facility com Lobisomem morto.")
 		ElseIf (NumberLine = 449) Then
@@ -1112,7 +1118,7 @@ Sub encounters()
 			Line = Replace(Line, "About Scavenging II", "Sobre Scavenging II")
 		ElseIf (NumberLine = 1827) Then
 			Line = Replace(Line, "To scavenge a hex, you must first choose a location to search. Some hexes have only one, but others may have more.", "Para  vasculhar um hexadecimal, primeiro voce deve escolher um local para a pesquisa. Alguns hexagonos tem apenas um local, mas outros podem ter mais.")
-			Line = Replace(Line, "Then, you will be shown the relative success chance and safety levels of the scavenging process. You are also shown tools and skills you can use to adjust the results.", "Então, sera mostrado o sucesso relativo de sua busca e os niveis de seguranca do processo da sua vasculha. Voce tambem pode fazer uso das ferramentas e habilidades para ajustar os resultados.")
+			Line = Replace(Line, "Then, you will be shown the relative success chance and safety levels of the scavenging process. You are also shown tools and skills you can use to adjust the results.", "Entao, sera mostrado o sucesso relativo de sua busca e os niveis de seguranca do processo da sua vasculha. Voce tambem pode fazer uso das ferramentas e habilidades para ajustar os resultados.")
 			Line = Replace(Line, "Green/full bars are good, red/empty bars are bad.", "As barras verdes/cheias sao boas, as barras vermelhas/vazias sao ruins.")
 			Line = Replace(Line, "Loot: Chance of finding loot or a campsite.", "Loot: Possibilidade de encontrar loot ou um acampamento.")
 			Line = Replace(Line, "Safety: Chance of avoiding an accident.", "Safety(Seguranca): Possibilidade de evitar um acidente.")
@@ -1141,7 +1147,7 @@ Sub encounters()
 		ElseIf (NumberLine = 6272) Then
 			Line = Replace(Line, "Leave the cryo facility.", "Deixe as instalacoes de Cryo-Facility.")
 		ElseIf (NumberLine = 6273) Then
-			Line = Replace(Line, "You climb back outside the cryo facility.", "Você vai para fora de Cryo-Facility.")
+			Line = Replace(Line, "You climb back outside the cryo facility.", "Voce vai para fora de Cryo-Facility.")
 		ElseIf (NumberLine = 6220) Then
 			Line = Replace(Line, "Explore down the hall.", "Explorando o corredor.")
 		ElseIf (NumberLine = 6221) Then
@@ -1201,7 +1207,7 @@ Sub encounters()
 			Line = Replace(Line, "Climb out window cont'd.", "Continuando a escalar a janela.")
 		ElseIf (NumberLine = 55119) Then
 			Line = Replace(Line, "You're in the parking lot of Gyges Cryo Facility, but everything looks disused and in disrepair. Plants have pushed their way through the pavement and over the facility.", "Voce esta no estacionamento do Gyges-Cryo-Facility, mas tudo parece estar em desuso e em falta. As plantas seguiram o pavimento e as instalacoes.")
-			Line = Replace(Line, "Worst of all, nothing looks familiar. You don't remember this place, or even who you are. Your frustration mounts, but you catch it and put it in check. Might as well take a look around.", "O pior é que nada parece familiar. Voce nao se lembra deste lugar, nem mesmo de quem es voce. Sua frustracao se monta, mas voce o coloca sob controle. Podendo assim dar uma olhada ao redor.")
+			Line = Replace(Line, "Worst of all, nothing looks familiar. You don't remember this place, or even who you are. Your frustration mounts, but you catch it and put it in check. Might as well take a look around.", "O pior e que nada parece familiar. Voce nao se lembra deste lugar, nem mesmo de quem es voce. Sua frustracao se monta, mas voce o coloca sob controle. Podendo assim dar uma olhada ao redor.")
 			
 			
 			
@@ -1272,7 +1278,7 @@ Sub encountertriggers()
 	FileSystem.DeleteFile TempFilename
 End Sub
 
-'forbiddenhexes Não vou traduzir agora para não confudir
+'forbiddenhexes Nao vou traduzir agora para nao confudir
 
 'forbiddenhexes S/Texto para traduzir
 
@@ -1584,7 +1590,7 @@ Sub itemtypes()
 		ElseIf (NumberLine = 2218) Then
 			Line = Replace(Line, "skill: athletics", "Pros: Atletismo")
 		ElseIf (NumberLine = 2219) Then
-			Line = Replace(Line, "less fatigue per move, can run away faster in battle, can run further on map before run moves deplete", "menos fadiga por movimento, pode fugir mais rapido na batalha, pode avançar no mapa antes que os movimentos da corrida se esgotem")
+			Line = Replace(Line, "less fatigue per move, can run away faster in battle, can run further on map before run moves deplete", "menos fadiga por movimento, pode fugir mais rapido na batalha, pode avancar no mapa antes que os movimentos da corrida se esgotem")
 		ElseIf (NumberLine = 2296) Then
 			Line = Replace(Line, "trait: fast metabolism", "Contras: Metabolismo acelerado")
 		ElseIf (NumberLine = 2297) Then
@@ -1739,13 +1745,13 @@ Sub recipes()
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 51) Then
-			Line = Replace(Line, "medium campfire (lit)", "fogueira média (acesa)")
+			Line = Replace(Line, "medium campfire (lit)", "fogueira media (acesa)")
 		ElseIf (NumberLine = 70) Then
 			Line = Replace(Line, "small campfire (lit)", "fogueira pequena (acesa)")
 		ElseIf (NumberLine = 89) Then
-			Line = Replace(Line, "sterilized water (pill)", "água esterilizada (pílula)")
+			Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pílula)")
 		ElseIf (NumberLine = 108) Then
-			Line = Replace(Line, "sterilized water (boiled)", "água esterilizada (fervida)")
+			Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
 
 
 
@@ -1797,9 +1803,9 @@ Sub treasuretable()
 		If (NumberLine = 1) Then
             Line = Replace(Line, "utf-8", "UTF-8")
 		ElseIf (NumberLine = 72) Then
-			Line = Replace(Line, "medical kit", "kit médico")
+			Line = Replace(Line, "medical kit", "kit medico")
 		ElseIf (NumberLine = 96) Then
-			Line = Replace(Line, "medium campfire", "fogueira média")
+			Line = Replace(Line, "medium campfire", "fogueira media")
 
 
 

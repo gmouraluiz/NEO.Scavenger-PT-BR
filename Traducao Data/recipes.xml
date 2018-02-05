@@ -48,7 +48,7 @@
         <!-- Table recipes -->
         <table name="recipes"><!-- 49 NumeroDaLinhaReal-->
             <column name="nID">1</column><!-- 50 NumeroDaLinhaReal-->
-            <column name="strName">fogueira média (acesa)</column><!-- 51 NumeroDaLinhaReal-->
+            <column name="strName">fogueira media (acesa)</column><!-- 51 NumeroDaLinhaReal-->
             <column name="strSecretName"></column><!-- 52 NumeroDaLinhaReal-->
             <column name="strTools">1x1</column><!-- 53 NumeroDaLinhaReal-->
             <column name="strConsumed">1x2+1x3</column><!-- 54 NumeroDaLinhaReal-->
@@ -86,7 +86,7 @@
         </table><!-- 86 NumeroDaLinhaReal-->
         <table name="recipes"><!-- 87 NumeroDaLinhaReal-->
             <column name="nID">3</column><!-- 88 NumeroDaLinhaReal-->
-            <column name="strName">água esterilizada (pílula)</column><!-- 89 NumeroDaLinhaReal-->
+            <column name="strName">agua esterilizada (pílula)</column><!-- 89 NumeroDaLinhaReal-->
             <column name="strSecretName">sterilized water (pill) (pure)</column><!-- 90 NumeroDaLinhaReal-->
             <column name="strTools"></column><!-- 91 NumeroDaLinhaReal-->
             <column name="strConsumed">1x4+1x5</column><!-- 92 NumeroDaLinhaReal-->
@@ -105,7 +105,7 @@
         </table><!-- 105 NumeroDaLinhaReal-->
         <table name="recipes"><!-- 106 NumeroDaLinhaReal-->
             <column name="nID">4</column><!-- 107 NumeroDaLinhaReal-->
-            <column name="strName">água esterilizada (fervida)</column><!-- 108 NumeroDaLinhaReal-->
+            <column name="strName">agua esterilizada (fervida)</column><!-- 108 NumeroDaLinhaReal-->
             <column name="strSecretName">sterilized water (boiled) (pure)</column><!-- 109 NumeroDaLinhaReal-->
             <column name="strTools">1x6+1x7</column><!-- 110 NumeroDaLinhaReal-->
             <column name="strConsumed">1x4</column><!-- 111 NumeroDaLinhaReal-->

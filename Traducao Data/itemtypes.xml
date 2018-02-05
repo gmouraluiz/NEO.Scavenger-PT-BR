@@ -2216,7 +2216,7 @@
             <column name="nGroupID">91</column><!-- 2216 NumeroDaLinhaReal-->
             <column name="nSubgroupID">6</column><!-- 2217 NumeroDaLinhaReal-->
             <column name="strName">Pros: Atletismo</column><!-- 2218 NumeroDaLinhaReal-->
-            <column name="strDesc">menos fadiga por movimento, pode fugir mais rapido na batalha, pode avançar no mapa antes que os movimentos da corrida se esgotem</column><!-- 2219 NumeroDaLinhaReal-->
+            <column name="strDesc">menos fadiga por movimento, pode fugir mais rapido na batalha, pode avancar no mapa antes que os movimentos da corrida se esgotem</column><!-- 2219 NumeroDaLinhaReal-->
             <column name="strDescAlt"></column><!-- 2220 NumeroDaLinhaReal-->
             <column name="nCondID">1</column><!-- 2221 NumeroDaLinhaReal-->
             <column name="vImageList">ItmSkillAth.png</column><!-- 2222 NumeroDaLinhaReal-->

@@ -69,7 +69,7 @@
         </table><!-- 69 NumeroDaLinhaReal-->
         <table name="treasuretable"><!-- 70 NumeroDaLinhaReal-->
             <column name="id">5</column><!-- 71 NumeroDaLinhaReal-->
-            <column name="strName">kit médico</column><!-- 72 NumeroDaLinhaReal-->
+            <column name="strName">kit medico</column><!-- 72 NumeroDaLinhaReal-->
             <column name="aTreasures">94.2x1.0x1-1,11.6x0.5x1-1,11.5x1.0x1-1</column><!-- 73 NumeroDaLinhaReal-->
             <column name="bNested">1</column><!-- 74 NumeroDaLinhaReal-->
             <column name="bSuppress">0</column><!-- 75 NumeroDaLinhaReal-->
@@ -93,7 +93,7 @@
         </table><!-- 93 NumeroDaLinhaReal-->
         <table name="treasuretable"><!-- 94 NumeroDaLinhaReal-->
             <column name="id">8</column><!-- 95 NumeroDaLinhaReal-->
-            <column name="strName">fogueira média</column><!-- 96 NumeroDaLinhaReal-->
+            <column name="strName">fogueira media</column><!-- 96 NumeroDaLinhaReal-->
             <column name="aTreasures">97.0x1.0x1-1</column><!-- 97 NumeroDaLinhaReal-->
             <column name="bNested">0</column><!-- 98 NumeroDaLinhaReal-->
             <column name="bSuppress">0</column><!-- 99 NumeroDaLinhaReal-->
