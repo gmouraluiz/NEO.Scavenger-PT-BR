@@ -86,7 +86,7 @@
         </table><!-- 86 NumeroDaLinhaReal-->
         <table name="recipes"><!-- 87 NumeroDaLinhaReal-->
             <column name="nID">3</column><!-- 88 NumeroDaLinhaReal-->
-            <column name="strName">agua esterilizada (pílula)</column><!-- 89 NumeroDaLinhaReal-->
+            <column name="strName">agua esterilizada (pilula)</column><!-- 89 NumeroDaLinhaReal-->
             <column name="strSecretName">sterilized water (pill) (pure)</column><!-- 90 NumeroDaLinhaReal-->
             <column name="strTools"></column><!-- 91 NumeroDaLinhaReal-->
             <column name="strConsumed">1x4+1x5</column><!-- 92 NumeroDaLinhaReal-->

@@ -580,7 +580,7 @@ Nao esta sempre disponivel.</column><!-- 547 NumeroDaLinhaReal-->
             <column name="strID">90.42</column><!-- 580 NumeroDaLinhaReal-->
             <column name="strName">Rolar para esquivar</column><!-- 581 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 582 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; se rola para esquiva de &lt;them&gt;.</column><!-- 583 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; faz um rolamento para se esquiva do &lt;them&gt;.</column><!-- 583 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 584 NumeroDaLinhaReal-->
             <column name="strPopUp">Rolar para esquivar<!-- 585 NumeroDaLinhaReal-->
 Rolar para esquivar, tornando-o mais difícil de acertar.<!-- 586 NumeroDaLinhaReal-->
@@ -621,17 +621,17 @@ Nao esta sempre disponivel.</column><!-- 590 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 621 NumeroDaLinhaReal-->
             <column name="id">14</column><!-- 622 NumeroDaLinhaReal-->
             <column name="strID">90.46</column><!-- 623 NumeroDaLinhaReal-->
-            <column name="strName">Pull Down</column><!-- 624 NumeroDaLinhaReal-->
+            <column name="strName">Empurrar</column><!-- 624 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 625 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; pulls &lt;them&gt; down to the ground!</column><!-- 626 NumeroDaLinhaReal-->
-            <column name="strFail">&lt;us&gt; reaches for &lt;them&gt;...but misses!</column><!-- 627 NumeroDaLinhaReal-->
-            <column name="strPopUp">Pull Down <!-- 628 NumeroDaLinhaReal-->
-Reach for target and attempt to throw off their footing.<!-- 629 NumeroDaLinhaReal-->
-Chance to injure target and knock them down.<!-- 630 NumeroDaLinhaReal-->
-Must be in melee range.<!-- 631 NumeroDaLinhaReal-->
-Must see target.<!-- 632 NumeroDaLinhaReal-->
-High chance of being detected if hidden.<!-- 633 NumeroDaLinhaReal-->
-Not always available.</column><!-- 634 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; empurrar o &lt;them&gt; no o chao!</column><!-- 626 NumeroDaLinhaReal-->
+            <column name="strFail">&lt;us&gt; tenta empurrar o &lt;them&gt;...mas nao consegue!</column><!-- 627 NumeroDaLinhaReal-->
+            <column name="strPopUp">Empurrar <!-- 628 NumeroDaLinhaReal-->
+Alcanca o alvo e tenta empurrar.<!-- 629 NumeroDaLinhaReal-->
+Possibilidade de ferir o alvo e derruba-lo.<!-- 630 NumeroDaLinhaReal-->
+Deve estar na faixa de corpo a corpo.<!-- 631 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 632 NumeroDaLinhaReal-->
+Grande chance de ser detectado se escondido.<!-- 633 NumeroDaLinhaReal-->
+Nao esta sempre disponivel.</column><!-- 634 NumeroDaLinhaReal-->
             <column name="vChanceType">0,1,1</column><!-- 635 NumeroDaLinhaReal-->
             <column name="vUsConditions">[155,0,0],[737,0,0]</column><!-- 636 NumeroDaLinhaReal-->
             <column name="vThemConditions">[68,0,0],[152,0,0]</column><!-- 637 NumeroDaLinhaReal-->

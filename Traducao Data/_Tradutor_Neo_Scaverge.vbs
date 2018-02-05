@@ -1,7 +1,7 @@
 'Criado por Geovani Luiz de Moura
 'Aconselho usar Notepad++ 
 'Plugins: RumMe(Shift+F5) Executar arquivo mais rapido
-'Caracteres nao suportados no jogo: (ç, é, á, í, à, ã, õ, â, ê, ô) Obs: não descobri como contornar esse problema
+'Caracteres nao suportados no jogo: (ç, é, á, í, à, ã, õ, â, ê, ô, ú) Obs: não descobri como contornar esse problema
 
 Option Explicit
 
@@ -32,7 +32,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 118) Then
 		Line = Replace(Line, "Use current melee attack on target.", "Usou o ataque corpo a corpo atual no alvo.")
 	ElseIf (NumberLine = 119) Then
-		Line = Replace(Line, "Must see target.", "Precisa ver o alvo.")
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 	ElseIf (NumberLine = 120) Then
 		Line = Replace(Line, "Low chance of making you vulnerable.", "Baixa chance de torna-lo vulneravel.")
 	ElseIf (NumberLine = 121) Then
@@ -85,7 +85,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 281) Then
 		Line = Replace(Line, "Run!", "Correr!")
 	ElseIf (NumberLine = 283) Then
-		Line = Replace(Line, "runs from", "corre de")
+		Line = Replace(Line, "runs from", "correr de")
 	ElseIf (NumberLine = 285) Then
 		Line = Replace(Line, "Run!", "Correr!")
 	ElseIf (NumberLine = 286) Then
@@ -93,9 +93,9 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 287) Then
 		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 	ElseIf (NumberLine = 288) Then
-		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+		Line = Replace(Line, "Removes cover.", "Remove sua guarda.")
 	ElseIf (NumberLine = 289) Then
-		Line = Replace(Line, "Makes you vulnerable.", "O torna vulneravel.")
+		Line = Replace(Line, "Makes you vulnerable.", "Faz voce ficar vulneravel.")
 	ElseIf (NumberLine = 290) Then
 		Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
 	ElseIf (NumberLine = 291) Then
@@ -111,7 +111,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 331) Then
 		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 	ElseIf (NumberLine = 332) Then
-		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+		Line = Replace(Line, "Removes cover.", "Remove sua guarda.")
 	ElseIf (NumberLine = 333) Then
 		Line = Replace(Line, "Chance of tripping on terrain.", "Possibilidade de tropecar no terreno.")
 	ElseIf (NumberLine = 334) Then
@@ -152,9 +152,9 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 456) Then
 		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
 	ElseIf (NumberLine = 457) Then
-		Line = Replace(Line, "Removes cover.", "Remove a guarda.")
+		Line = Replace(Line, "Removes cover.", "Remove sua guarda.")
 	ElseIf (NumberLine = 458) Then
-		Line = Replace(Line, "Makes you vulnerable.", "Faz voce vulneravel.")
+		Line = Replace(Line, "Makes you vulnerable.", "Faz voce ficar vulneravel.")
 	ElseIf (NumberLine = 459) Then
 		Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
 	ElseIf (NumberLine = 460) Then
@@ -175,7 +175,7 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 502) Then
 		Line = Replace(Line, "Chance of being detected if hidden.", "Possibilidade de ser detectado se escondido.")
 	ElseIf (NumberLine = 503) Then
-		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+		Line = Replace(Line, "Not always available.", "Nao estara sempre disponivel.")			
 	ElseIf (NumberLine = 537) Then
 		Line = Replace(Line, "Kick", "Chute")
 	ElseIf (NumberLine = 539) Then
@@ -197,11 +197,11 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 546) Then
 		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
 	ElseIf (NumberLine = 547) Then
-		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
+		Line = Replace(Line, "Not always available.", "Nao estara sempre disponivel.")			
 	ElseIf (NumberLine = 581) Then
 		Line = Replace(Line, "Roll Dodge", "Rolar para esquivar")
 	ElseIf (NumberLine = 583) Then
-		Line = Replace(Line, "rolls from", "se rola para esquiva de")
+		Line = Replace(Line, "rolls from", "faz um rolamento para se esquiva do")
 	ElseIf (NumberLine = 585) Then
 		Line = Replace(Line, "Roll Dodge", "Rolar para esquivar")
 	ElseIf (NumberLine = 586) Then
@@ -213,49 +213,54 @@ Function battlemoves(NumberLine, Line)
 	ElseIf (NumberLine = 589) Then
 		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
 	ElseIf (NumberLine = 590) Then
-		Line = Replace(Line, "Not always available.", "Nao esta sempre disponivel.")			
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
-	ElseIf (NumberLine = 000000) Then
-		Line = Replace(Line, "000000", "000000")
+		Line = Replace(Line, "Not always available.", "Nao estara sempre disponivel.")		
+	ElseIf (NumberLine = 624) Then
+		Line = Replace(Line, "Pull Down", "Empurrar")
+	ElseIf (NumberLine = 626) Then
+		Line = Replace(Line, "pulls", "empurrar o")
+		Line = Replace(Line, "down to the ground!", "no o chao!")
+	ElseIf (NumberLine = 627) Then
+		Line = Replace(Line, "reaches for", "tenta empurrar o")
+		Line = Replace(Line, "but misses!", "mas nao consegue!")
+	ElseIf (NumberLine = 628) Then
+		Line = Replace(Line, "Pull Down", "Empurrar")
+	ElseIf (NumberLine = 629) Then
+		Line = Replace(Line, "Reach for target and attempt to throw off their footing.", "Alcanca o alvo e tenta empurrar.")
+	ElseIf (NumberLine = 630) Then
+		Line = Replace(Line, "Chance to injure target and knock them down.", "Possibilidade de ferir o alvo e derruba-lo.")
+	ElseIf (NumberLine = 631) Then
+		Line = Replace(Line, "Must be in melee range.", "Deve estar na faixa de corpo a corpo.")
+	ElseIf (NumberLine = 632) Then
+		Line = Replace(Line, "Must see target.", "Precisa estar vendo o alvo.")
+	ElseIf (NumberLine = 633) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
+	ElseIf (NumberLine = 634) Then
+		Line = Replace(Line, "Not always available.", "Nao estara sempre disponivel.")		
+	ElseIf (NumberLine = 668) Then
+		Line = Replace(Line, "Desperate Retreat", "Retirada Desesperada")
+	ElseIf (NumberLine = 670) Then
+		Line = Replace(Line, "desperately retreats from", "desesperadamente se retira do")
+	ElseIf (NumberLine = 671) Then
+		Line = Replace(Line, "desperately tries to retreat from", "tenta desesperadamente se retirar do")
+		Line = Replace(Line, "but can't get away!", "mas nao conseguiu fugir!")
+	ElseIf (NumberLine = 672) Then
+		Line = Replace(Line, "Desperate Retreat", "Retirada Desesperada")
+	ElseIf (NumberLine = 673) Then
+		Line = Replace(Line, "Move 1-2 spaces away from target and try to leave the battlefield, based on enemy numbers and proximities, movement rates, etc.", "Mova 1-2 espacos para longe do alvo e tente sair do campo de batalha, com base na distancia do inimigo, taxas de movimento, etc.")
+	ElseIf (NumberLine = 674) Then
+		Line = Replace(Line, "Must not be in melee range from any enemy.", "Nao deve estar no alcance de uma briga corpo a corpo de qualquer inimigo.")
+	ElseIf (NumberLine = 675) Then
+		Line = Replace(Line, "Removes cover.", "Remove sua guarda.")
+	ElseIf (NumberLine = 676) Then
+		Line = Replace(Line, "Makes you vulnerable.", "Faz voce ficar vulneravel.")
+	ElseIf (NumberLine = 677) Then
+		Line = Replace(Line, "High chance of tripping on terrain.", "Grande chance de tropecar no terreno.")
+	ElseIf (NumberLine = 678) Then
+		Line = Replace(Line, "High chance of being detected if hidden.", "Grande chance de ser detectado se escondido.")
+	ElseIf (NumberLine = 679) Then
+		Line = Replace(Line, "Not always available.", "Nao estara sempre disponivel.")
+		
+		
 	ElseIf (NumberLine = 000000) Then
 		Line = Replace(Line, "000000", "000000")
 	ElseIf (NumberLine = 000000) Then
@@ -324,8 +329,7 @@ Function camptypes(NumberLine, Line)
 		Line = Replace(Line, "the woods", "O Bosque")
 	ElseIf (NumberLine = 92) Then
 		Line = Replace(Line, "a burned-out apartment", "Um apartamento queimado")		
-	End If 		
-	TempFile.WriteLine(Line)
+	End If 
 	camptypes = CStr(Line)
 End Function
 
