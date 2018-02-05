@@ -999,7 +999,6 @@ Function chargeprofiles(NumberLine, Line)
 End Function
 
 Function conditions(NumberLine, Line)		
-	'Traducao das Linhas
 	If (NumberLine = 1) Then
 		Line = Replace(Line, "utf-8", "UTF-8")
 	ElseIf (NumberLine = 78) Then
@@ -1097,7 +1096,7 @@ Function conditions(NumberLine, Line)
 	ElseIf (NumberLine = 607) Then
 		Line = Replace(Line, "Warmed by campfire", "Aquecido/Fogueira")
 	ElseIf (NumberLine = 608) Then
-		Line = Replace(Line, "is warmed by a campfire, but also easier to spot.", "esta se aquecido por uma fogueira, mas tambem e mais facil de detectar.")			
+		Line = Replace(Line, "is warmed by a campfire, but also easier to spot.", "esta se aquecendo por uma fogueira, mas tambem fica mais facil de ser detectar.")			
 	ElseIf (NumberLine = 630) Then
 		Line = Replace(Line, "Visited Seven Gables Upstairs", "Visitei andar de cima de Seven-Gables")	
 	ElseIf (NumberLine = 631) Then
