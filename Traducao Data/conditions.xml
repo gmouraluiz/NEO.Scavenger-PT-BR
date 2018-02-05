@@ -1065,7 +1065,7 @@
         <table name="conditions"><!-- 1065 NumeroDaLinhaReal-->
             <column name="id">45</column><!-- 1066 NumeroDaLinhaReal-->
             <column name="strName">comeu lanche de bolo</column><!-- 1067 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; comeu um pacote que foi feito na franca de &quot;Blinkies&quot; lanche de bolo..</column><!-- 1068 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; comeu um pacote que foi feito na franca de &quot;Blinkies&quot; lanche de bolo.</column><!-- 1068 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodDebt,fWaterDebt</column><!-- 1069 NumeroDaLinhaReal-->
             <column name="aModifiers">-3,-1</column><!-- 1070 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1071 NumeroDaLinhaReal-->
@@ -1133,7 +1133,7 @@
         </table><!-- 1133 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1134 NumeroDaLinhaReal-->
             <column name="id">48</column><!-- 1135 NumeroDaLinhaReal-->
-            <column name="strName">Gastroenterite</column><!-- 1136 NumeroDaLinhaReal-->
+            <column name="strName">Gastroenterite I</column><!-- 1136 NumeroDaLinhaReal-->
             <column name="strDesc">&lt;us&gt; contraiu gastroenterite.</column><!-- 1137 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 1138 NumeroDaLinhaReal-->
             <column name="aModifiers"></column><!-- 1139 NumeroDaLinhaReal-->

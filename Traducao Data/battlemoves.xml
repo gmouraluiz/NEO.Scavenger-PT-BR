@@ -152,7 +152,7 @@ Grande chance de ser detectado se escondido.</column><!-- 121 NumeroDaLinhaReal-
         <table name="battlemoves"><!-- 152 NumeroDaLinhaReal-->
             <column name="id">3</column><!-- 153 NumeroDaLinhaReal-->
             <column name="strID">90.32</column><!-- 154 NumeroDaLinhaReal-->
-            <column name="strName">Abrigar-se</column><!-- 155 NumeroDaLinhaReal-->
+            <column name="strName">Se esconder</column><!-- 155 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 156 NumeroDaLinhaReal-->
             <column name="strSuccess">&lt;us&gt; se esconde do &lt;them&gt;.</column><!-- 157 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 158 NumeroDaLinhaReal-->
