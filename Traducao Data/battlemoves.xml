@@ -578,16 +578,16 @@ Nao esta sempre disponivel.</column><!-- 547 NumeroDaLinhaReal-->
         <table name="battlemoves"><!-- 578 NumeroDaLinhaReal-->
             <column name="id">13</column><!-- 579 NumeroDaLinhaReal-->
             <column name="strID">90.42</column><!-- 580 NumeroDaLinhaReal-->
-            <column name="strName">Roll Dodge</column><!-- 581 NumeroDaLinhaReal-->
+            <column name="strName">Rolar para esquivar</column><!-- 581 NumeroDaLinhaReal-->
             <column name="strNotes"></column><!-- 582 NumeroDaLinhaReal-->
-            <column name="strSuccess">&lt;us&gt; rolls from &lt;them&gt;.</column><!-- 583 NumeroDaLinhaReal-->
+            <column name="strSuccess">&lt;us&gt; se rola para esquiva de &lt;them&gt;.</column><!-- 583 NumeroDaLinhaReal-->
             <column name="strFail"></column><!-- 584 NumeroDaLinhaReal-->
-            <column name="strPopUp">Roll Dodge<!-- 585 NumeroDaLinhaReal-->
-Roll from target, making you harder to hit.<!-- 586 NumeroDaLinhaReal-->
-Chance to move 1 space away from target.<!-- 587 NumeroDaLinhaReal-->
-Must see target.<!-- 588 NumeroDaLinhaReal-->
-High chance of being detected if hidden.<!-- 589 NumeroDaLinhaReal-->
-Not always available.</column><!-- 590 NumeroDaLinhaReal-->
+            <column name="strPopUp">Rolar para esquivar<!-- 585 NumeroDaLinhaReal-->
+Rolar para esquivar, tornando-o mais difícil de acertar.<!-- 586 NumeroDaLinhaReal-->
+Possibilidade de mover 1 espaco para longe do alvo.<!-- 587 NumeroDaLinhaReal-->
+Precisa estar vendo o alvo.<!-- 588 NumeroDaLinhaReal-->
+Grande chance de ser detectado se escondido.<!-- 589 NumeroDaLinhaReal-->
+Nao esta sempre disponivel.</column><!-- 590 NumeroDaLinhaReal-->
             <column name="vChanceType">0,0,0</column><!-- 591 NumeroDaLinhaReal-->
             <column name="vUsConditions">[152,0,0],[153,0,0],[155,0,0],[737,0,0]</column><!-- 592 NumeroDaLinhaReal-->
             <column name="vThemConditions"></column><!-- 593 NumeroDaLinhaReal-->
