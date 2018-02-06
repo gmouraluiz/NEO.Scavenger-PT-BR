@@ -605,7 +605,7 @@
         <table name="conditions"><!-- 605 NumeroDaLinhaReal-->
             <column name="id">25</column><!-- 606 NumeroDaLinhaReal-->
             <column name="strName">Aquecido/Fogueira</column><!-- 607 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; esta se aquecido por uma fogueira, mas tambem e mais facil de detectar.</column><!-- 608 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta se aquecendo por uma fogueira, mas tambem fica mais facil de ser detectar.</column><!-- 608 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinSafeTemp,m_fVisibility,m_fScent,LightLevel</column><!-- 609 NumeroDaLinhaReal-->
             <column name="aModifiers">-40,0.5,1,0.8</column><!-- 610 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 611 NumeroDaLinhaReal-->
@@ -1225,8 +1225,8 @@
         </table><!-- 1225 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1226 NumeroDaLinhaReal-->
             <column name="id">52</column><!-- 1227 NumeroDaLinhaReal-->
-            <column name="strName">Athletic</column><!-- 1228 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is athletic, and can move with less fatigue.</column><!-- 1229 NumeroDaLinhaReal-->
+            <column name="strName">Atletico</column><!-- 1228 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; e atletico e pode se mover com menos fadiga.</column><!-- 1229 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fFatigueModifier,m_fMoveReserve,m_fDefense,m_fMorale,m_fMoveReserveRemaining</column><!-- 1230 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.5,2,0.1,0.15,2</column><!-- 1231 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1232 NumeroDaLinhaReal-->
@@ -1248,8 +1248,8 @@
         </table><!-- 1248 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1249 NumeroDaLinhaReal-->
             <column name="id">53</column><!-- 1250 NumeroDaLinhaReal-->
-            <column name="strName">Skilled in medicine</column><!-- 1251 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is skilled in medical procedures, which increases rate of recovery from wounds.</column><!-- 1252 NumeroDaLinhaReal-->
+            <column name="strName">Especializado em medicina</column><!-- 1251 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; e especialista em procedimentos medicos, o que aumenta a taxa de recuperacao de feridas.</column><!-- 1252 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fHealPerHourMod</column><!-- 1253 NumeroDaLinhaReal-->
             <column name="aModifiers">.04</column><!-- 1254 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1255 NumeroDaLinhaReal-->
@@ -1271,8 +1271,8 @@
         </table><!-- 1271 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1272 NumeroDaLinhaReal-->
             <column name="id">54</column><!-- 1273 NumeroDaLinhaReal-->
-            <column name="strName">Burdened</column><!-- 1274 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is carrying a moderate load, and their movement rate is slower. &lt;us&gt; also fatigues faster.</column><!-- 1275 NumeroDaLinhaReal-->
+            <column name="strName">Carga moderada</column><!-- 1274 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta carregando uma carga moderada, e sua taxa de movimento esta mais lenta. &lt;us&gt; tambem fatiga mais rapido.</column><!-- 1275 NumeroDaLinhaReal-->
             <column name="aFieldNames">fMovesPerTurnModifier,m_fFatigueModifier,m_fDefense,m_fMoveReserve</column><!-- 1276 NumeroDaLinhaReal-->
             <column name="aModifiers">-1,0.5,-0.05,-1</column><!-- 1277 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1278 NumeroDaLinhaReal-->
@@ -1294,8 +1294,8 @@
         </table><!-- 1294 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1295 NumeroDaLinhaReal-->
             <column name="id">55</column><!-- 1296 NumeroDaLinhaReal-->
-            <column name="strName">Struggling</column><!-- 1297 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is carrying a heavy load, and their movement rate is much slower. &lt;us&gt; also fatigues much faster.</column><!-- 1298 NumeroDaLinhaReal-->
+            <column name="strName">Carga pesada</column><!-- 1297 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta carregando uma carga pesada, e sua taxa de movimento e muito mais lenta. &lt;us&gt; tambem se cansa muito mais rapido.</column><!-- 1298 NumeroDaLinhaReal-->
             <column name="aFieldNames">fMovesPerTurnModifier,m_fFatigueModifier,m_fDefense,m_fMoveReserve</column><!-- 1299 NumeroDaLinhaReal-->
             <column name="aModifiers">-3,1.0,-0.1,-3</column><!-- 1300 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1301 NumeroDaLinhaReal-->
@@ -1317,8 +1317,8 @@
         </table><!-- 1317 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1318 NumeroDaLinhaReal-->
             <column name="id">56</column><!-- 1319 NumeroDaLinhaReal-->
-            <column name="strName">Overloaded</column><!-- 1320 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is carrying too much weight, and unable to move.</column><!-- 1321 NumeroDaLinhaReal-->
+            <column name="strName">Sobrecarregado</column><!-- 1320 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; esta carregando muito peso e incapaz de se mover.</column><!-- 1321 NumeroDaLinhaReal-->
             <column name="aFieldNames">fMovesPerTurnModifier,m_fDefense,m_fMoveReserve</column><!-- 1322 NumeroDaLinhaReal-->
             <column name="aModifiers">-100,-1.0,-5</column><!-- 1323 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1324 NumeroDaLinhaReal-->
@@ -1340,8 +1340,8 @@
         </table><!-- 1340 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1341 NumeroDaLinhaReal-->
             <column name="id">57</column><!-- 1342 NumeroDaLinhaReal-->
-            <column name="strName">Night Vision</column><!-- 1343 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is able to see almost normally at night.</column><!-- 1344 NumeroDaLinhaReal-->
+            <column name="strName">Visao noturna</column><!-- 1343 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; e capaz de ver quase que normalmente a noite.</column><!-- 1344 NumeroDaLinhaReal-->
             <column name="aFieldNames">MinLightLevel</column><!-- 1345 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.4</column><!-- 1346 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1347 NumeroDaLinhaReal-->
@@ -1363,8 +1363,8 @@
         </table><!-- 1363 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1364 NumeroDaLinhaReal-->
             <column name="id">58</column><!-- 1365 NumeroDaLinhaReal-->
-            <column name="strName">Fast metabolism</column><!-- 1366 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; has a high metabolism, and consumes food and water faster than most. However, &lt;us&gt; also recovers faster from wounds and illness.</column><!-- 1367 NumeroDaLinhaReal-->
+            <column name="strName">Metabolismo acelerado</column><!-- 1366 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; tem um alto metabolismo que aumenta o consumo de comida e agua se comparado com a maioria. Contudo, &lt;us&gt; tambem se recupera mais rapido de feridas e doencas.</column><!-- 1367 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodConsumptionRate,fWaterConsumptionRate,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate</column><!-- 1368 NumeroDaLinhaReal-->
             <column name="aModifiers">0.25,0.5,0.02,0.0001,0.0005</column><!-- 1369 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1370 NumeroDaLinhaReal-->
@@ -1386,8 +1386,8 @@
         </table><!-- 1386 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1387 NumeroDaLinhaReal-->
             <column name="id">59</column><!-- 1388 NumeroDaLinhaReal-->
-            <column name="strName">Slow metabolism</column><!-- 1389 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; has a slow metabolism, and consumes food and water slower than most. However, &lt;us&gt; also recovers slower from wounds and illness.</column><!-- 1390 NumeroDaLinhaReal-->
+            <column name="strName">Metabolismo lento</column><!-- 1389 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; tem um metabolismo lento e o consumo de alimentos e agua sao mais lentos do que a maioria. Contudo, &lt;us&gt; tambem se recupera mais devagar de feridas e doencas.</column><!-- 1390 NumeroDaLinhaReal-->
             <column name="aFieldNames">fFoodConsumptionRate,fWaterConsumptionRate,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate</column><!-- 1391 NumeroDaLinhaReal-->
             <column name="aModifiers">-0.25,-0.5,-0.02,-0.0001,-0.0005</column><!-- 1392 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1393 NumeroDaLinhaReal-->
@@ -1409,8 +1409,8 @@
         </table><!-- 1409 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1410 NumeroDaLinhaReal-->
             <column name="id">60</column><!-- 1411 NumeroDaLinhaReal-->
-            <column name="strName">Strong</column><!-- 1412 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is strong, and can carry more than most.</column><!-- 1413 NumeroDaLinhaReal-->
+            <column name="strName">Forte</column><!-- 1412 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; e forte e pode transportar mais do que a maioria.</column><!-- 1413 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fEncumberanceLimit,m_fMorale,AttDmgMult</column><!-- 1414 NumeroDaLinhaReal-->
             <column name="aModifiers">50,0.3,0.5</column><!-- 1415 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1416 NumeroDaLinhaReal-->
@@ -1432,8 +1432,8 @@
         </table><!-- 1432 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1433 NumeroDaLinhaReal-->
             <column name="id">61</column><!-- 1434 NumeroDaLinhaReal-->
-            <column name="strName">Feeble</column><!-- 1435 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is weak, and can carry less than most.</column><!-- 1436 NumeroDaLinhaReal-->
+            <column name="strName">Fraco</column><!-- 1435 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; e fraco e pode carregar menos do que a maioria.</column><!-- 1436 NumeroDaLinhaReal-->
             <column name="aFieldNames">m_fEncumberanceLimit,m_fMorale,AttDmgMult</column><!-- 1437 NumeroDaLinhaReal-->
             <column name="aModifiers">-45,-0.3,-0.25</column><!-- 1438 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1439 NumeroDaLinhaReal-->
@@ -1455,8 +1455,8 @@
         </table><!-- 1455 NumeroDaLinhaReal-->
         <table name="conditions"><!-- 1456 NumeroDaLinhaReal-->
             <column name="id">62</column><!-- 1457 NumeroDaLinhaReal-->
-            <column name="strName">Thirsty</column><!-- 1458 NumeroDaLinhaReal-->
-            <column name="strDesc">&lt;us&gt; is thirsty.</column><!-- 1459 NumeroDaLinhaReal-->
+            <column name="strName">Sedento</column><!-- 1458 NumeroDaLinhaReal-->
+            <column name="strDesc">&lt;us&gt; Esta com sede.</column><!-- 1459 NumeroDaLinhaReal-->
             <column name="aFieldNames"></column><!-- 1460 NumeroDaLinhaReal-->
             <column name="aModifiers">0</column><!-- 1461 NumeroDaLinhaReal-->
             <column name="aEffects"></column><!-- 1462 NumeroDaLinhaReal-->
