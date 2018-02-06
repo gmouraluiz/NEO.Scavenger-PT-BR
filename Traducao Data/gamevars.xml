@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Mar 01, 2016 at 10:12 PM
+- Server version: 5.5.48
+- PHP Version: 5.5.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="gamevars">
+                CREATE TABLE `gamevars` (
+                  `strName` varchar(255) NOT NULL,
+                  `strType` varchar(255) NOT NULL,
+                  `strValue` varchar(255) NOT NULL,
+                  PRIMARY KEY (`strName`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table gamevars -->
+        <table name="gamevars">
+            <column name="strName">fCloudChanceJan</column>
+            <column name="strType">Number</column>
+            <column name="strValue">80</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">fCloudChanceJuly</column>
+            <column name="strType">Number</column>
+            <column name="strValue">20</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">fCloudChanceVar</column>
+            <column name="strType">Number</column>
+            <column name="strValue">30</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">fPrecipChanceJan</column>
+            <column name="strType">Number</column>
+            <column name="strValue">50</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">fPrecipChanceJuly</column>
+            <column name="strType">Number</column>
+            <column name="strValue">30</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">fPrecipChanceVar</column>
+            <column name="strType">Number</column>
+            <column name="strValue">35</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nSkillPoints</column>
+            <column name="strType">int</column>
+            <column name="strValue">15</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartDateDay</column>
+            <column name="strType">int</column>
+            <column name="strValue">14</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartDateHour</column>
+            <column name="strType">int</column>
+            <column name="strValue">6</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartDateMonth</column>
+            <column name="strType">int</column>
+            <column name="strValue">9</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartDateYear</column>
+            <column name="strType">int</column>
+            <column name="strValue">2064</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartHexX</column>
+            <column name="strType">int</column>
+            <column name="strValue">20</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nStartHexY</column>
+            <column name="strType">int</column>
+            <column name="strValue">164</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJanHigh</column>
+            <column name="strType">int</column>
+            <column name="strValue">25</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJanLow</column>
+            <column name="strType">int</column>
+            <column name="strValue">8</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJanVar</column>
+            <column name="strType">int</column>
+            <column name="strValue">42</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJulyHigh</column>
+            <column name="strType">int</column>
+            <column name="strValue">80</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJulyLow</column>
+            <column name="strType">int</column>
+            <column name="strValue">58</column>
+        </table>
+        <table name="gamevars">
+            <column name="strName">nTempJulyVar</column>
+            <column name="strType">int</column>
+            <column name="strValue">25</column>
+        </table>
+    </database>
+</pma_xml_export>
