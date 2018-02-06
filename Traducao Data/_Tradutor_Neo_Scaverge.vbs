@@ -1,5 +1,6 @@
 Option Explicit
 
+'Total de ids 61
 Function attackmodes(id, attr, Line)	
 	Select case id
 		case 1
@@ -13,6 +14,8 @@ Function attackmodes(id, attr, Line)
 	attackmodes = CStr(Line)
 End Function
 
+'100% traduzido
+'Total de ids 63
 Function battlemoves(id, attr, Line)
 	Select case id
 		case 1
@@ -902,44 +905,12 @@ Function battlemoves(id, attr, Line)
 					Line = Replace(Line, "Must be closer to target than 4 spaces", "Deve estar mais perto do alvo do que 4 espacos")
 					Line = Replace(Line, "Both you and target must see each other", "Tanto voce como o alvo devem se ver")
 					Line = Replace(Line, "Rarely available", "Raramente disponivel")
-			End select
-		case 0000000000
-			Select case attr
-				case "strName"
-				
-				case "strSuccess"
-				
-				case "strFail"
-				
-				case "strPopUp"
-
-			End select
-		case 0000000000
-			Select case attr
-				case "strName"
-				
-				case "strSuccess"
-				
-				case "strFail"
-				
-				case "strPopUp"
-
-			End select
-		case 0000000000
-			Select case attr
-				case "strName"
-				
-				case "strSuccess"
-				
-				case "strFail"
-				
-				case "strPopUp"
-
-			End select
+			End select		
 	End select
 	battlemoves = CStr(Line)
 End Function
 
+'Total de ids 14
 Function camptypes(id, attr, Line)		
 	Select case id
 		case 3
@@ -956,6 +927,7 @@ Function camptypes(id, attr, Line)
 	camptypes = CStr(Line)
 End Function
 
+'Total de ids 32
 Function chargeprofiles(id, attr, Line)	
 	Select case id
 		case 12
@@ -982,6 +954,7 @@ Function chargeprofiles(id, attr, Line)
 	chargeprofiles = CStr(Line)
 End Function
 
+'Total de ids 872
 Function conditions(id, attr, Line)		
 	Select case id
 		case 2
@@ -1493,6 +1466,7 @@ Function conditions(id, attr, Line)
 	conditions = CStr(Line)
 End Function
 
+'Total de ids 39
 Function containertypes(id, attr, Line)	
 	Select case id
 		case 1
@@ -1574,6 +1548,7 @@ Function containertypes(id, attr, Line)
 	containertypes = CStr(Line)
 End Function
 
+'Total de ids 28
 Function creatures(id, attr, Line)		
 	Select case id
 		case 1
@@ -1594,6 +1569,7 @@ Function creatures(id, attr, Line)
 	creatures = CStr(Line)
 End Function
 
+'Total de ids 32
 Function creaturesources(id, attr, Line)		
 	Select case id
 		case 18
@@ -1615,6 +1591,7 @@ Function creaturesources(id, attr, Line)
 	creaturesources = CStr(Line)
 End Function
 
+'Total de ids 88
 Function datafiles(id, attr, Line)		
 	Select case id
 		case 1
@@ -1636,6 +1613,7 @@ Function datafiles(id, attr, Line)
 	datafiles = CStr(Line)
 End Function
 
+'Total de ids 2264
 Function encounters(id, attr, Line)	
 	Select case id
 		case 1
@@ -1908,6 +1886,7 @@ Function encounters(id, attr, Line)
 	encounters = CStr(Line)
 End Function
 
+'Total de ids 133
 Function encountertriggers(id, attr, Line)	
 	Select case id
 		case 2
@@ -1929,6 +1908,7 @@ Function encountertriggers(id, attr, Line)
 	encountertriggers = CStr(Line)
 End Function
 
+'Total de ids 48
 Function headlines(id, attr, Line)	
 	Select case id
 		case 5
@@ -1950,6 +1930,7 @@ Function headlines(id, attr, Line)
 	headlines = CStr(Line)
 End Function
 
+'Total de ids 37
 Function hextypes(id, attr, Line)	
 	Select case id
 		case 1
@@ -1984,6 +1965,7 @@ Function hextypes(id, attr, Line)
 	hextypes = CStr(Line)
 End Function
 
+'Total de ids 128
 Function ingredients(id, attr, Line)	
 	Select case id
 		case 1
@@ -2005,6 +1987,7 @@ Function ingredients(id, attr, Line)
 	ingredients = CStr(Line)
 End Function
 
+'Total de ids 108
 Function itemprops(id, attr, Line)		
 	Select case id
 		case 7
@@ -2026,6 +2009,7 @@ Function itemprops(id, attr, Line)
 	itemprops = CStr(Line)
 End Function
 
+'Total de ids 537
 Function itemtypes(id, attr, Line)
 	Select case id
 		case 2
@@ -2284,6 +2268,7 @@ Function itemtypes(id, attr, Line)
 	itemtypes = CStr(Line)
 End Function
 
+'Total de ids 105
 Function recipes(id, attr, Line)		
 	Select case id
 		case 1
@@ -2310,6 +2295,7 @@ Function recipes(id, attr, Line)
 	recipes = CStr(Line)
 End Function
 
+'Total de ids 764
 Function treasuretable(id, attr, Line)		
 	Select case id
 		case 5
@@ -2329,7 +2315,6 @@ End Function
 'Chamada das Funcoes de traducao
 '-------------------------------
 TraduzirArquivo("attackmodes")
-'barterhexes S/Texto para traduzir
 TraduzirArquivo("battlemoves")
 TraduzirArquivo("camptypes")
 TraduzirArquivo("chargeprofiles")
@@ -2338,21 +2323,15 @@ TraduzirArquivo("containertypes")
 TraduzirArquivo("creatures")
 TraduzirArquivo("creaturesources")
 TraduzirArquivo("datafiles")
-'dmcplaces S/Texto para traduzir
 TraduzirArquivo("encounters")
 TraduzirArquivo("encountertriggers")
-'forbiddenhexes Nao vou traduzir agora para nao confudir
-'forbiddenhexes S/Texto para traduzir
-'gamevars S/Texto para traduzir
 TraduzirArquivo("headlines")
 TraduzirArquivo("hextypes")
 TraduzirArquivo("ingredients")
 TraduzirArquivo("itemprops")
 TraduzirArquivo("itemtypes")
-'maps S/Texto para traduzir
 TraduzirArquivo("recipes")
 TraduzirArquivo("treasuretable")
-
 
 Sub TraduzirArquivo(Nome)
 	'Variaveis
