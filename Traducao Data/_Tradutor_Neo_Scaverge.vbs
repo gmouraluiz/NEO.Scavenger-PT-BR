@@ -1951,227 +1951,378 @@ Function headlines(id, attr, Line)
 End Function
 
 Function hextypes(id, attr, Line)	
-	'Traducao das Linhas
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 50) Then
-		Line = Replace(Line, "ocean", "Oceano")
-	ElseIf (NumberLine = 68) Then
-		Line = Replace(Line, "coast", "Litoral/Costa")
-	ElseIf (NumberLine = 69) Then
-		Line = Replace(Line, "shallow water", "aguas rasas")
-	ElseIf (NumberLine = 177) Then
-		Line = Replace(Line, "abandoned houses and trailers", "casas abandonadas e trailers")
-	ElseIf (NumberLine = 195) Then
-		Line = Replace(Line, "cryogenics lab where player wakes up", "Laboratorio de criogenia onde o jogador acordou")
-	End If 		
+	Select case id
+		case 1
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ocean", "Oceano")
+				case "strDesc"
+					Line = Replace(Line, "deep water", "aguas profundas")
+			End Select
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "coast", "Litoral/Costa")
+				case "strDesc"
+					Line = Replace(Line, "shallow water", "aguas rasas")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "suburban ruins", "ruinas suburbana")
+				case "strDesc"
+					Line = Replace(Line, "abandoned houses and trailers", "casas abandonadas e trailers")
+			End Select		
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "cryo facility", "cryo-facility")
+				case "strDesc"
+					Line = Replace(Line, "cryogenics lab where player wakes up", "Laboratorio de criogenia onde o jogador acordou")
+			End Select		
+	End Select
 	hextypes = CStr(Line)
 End Function
 
 Function ingredients(id, attr, Line)	
-	'Traducao das Linhas
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 38) Then
-		Line = Replace(Line, "flame source", "fonte de chama")
-	ElseIf (NumberLine = 44) Then
-		Line = Replace(Line, "kindling", "gravetos")
-	ElseIf (NumberLine = 50) Then
-		Line = Replace(Line, "medium fire fuel", "combustivel de fogo medio")
-	End If 		
+	Select case id
+		case 1
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "flame source", "fonte de chama")
+			End Select
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "kindling", "gravetos")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium fire fuel", "combustivel de fogo medio")
+			End Select
+	End Select
 	ingredients = CStr(Line)
 End Function
 
 Function itemprops(id, attr, Line)		
-	'Traducao das Linhas
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 60) Then
-		Line = Replace(Line, "water purifier", "purificador de agua")
-	ElseIf (NumberLine = 64) Then
-		Line = Replace(Line, "container", "recipiente")
-	ElseIf (NumberLine = 68) Then
-		Line = Replace(Line, "waterproof", "impermeavel")
-	End If 		
+	Select case id
+		case 7
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "water purifier", "purificador de agua")
+			End Select
+		case 8
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "container", "recipiente")
+			End Select
+		case 9
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "waterproof", "impermeavel")
+			End Select
+	End Select
 	itemprops = CStr(Line)
 End Function
 
-Function itemtypes(id, attr, Line)		
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 112) Then
-		Line = Replace(Line, "bottle", "garrafa")
-	ElseIf (NumberLine = 113) Then
-		Line = Replace(Line, "silver urn", "urna de prata")
-	ElseIf (NumberLine = 151) Then
-		Line = Replace(Line, "branch", "galho")
-	ElseIf (NumberLine = 152) Then
-		Line = Replace(Line, "medium-sized branch from a tree", "galho medio")
-	ElseIf (NumberLine = 658) Then
-		Line = Replace(Line, "skill: hacking", "Pros: hacking")
-	ElseIf (NumberLine = 659) Then
-		Line = Replace(Line, "skill at manipulating computers", "habilidade na manipulacao de computadores")
-	ElseIf (NumberLine = 658) Then
-		Line = Replace(Line, "skill: hacking", "Pros: hacking")
-	ElseIf (NumberLine = 697) Then
-		Line = Replace(Line, "skill: medic", "Pros: Medico")
-	ElseIf (NumberLine = 698) Then
-		Line = Replace(Line, "improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen", "taxa de cicatrizacao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes")
-	ElseIf (NumberLine = 736) Then
-		Line = Replace(Line, "skill: hiding", "Pros: Esconder")
-	ElseIf (NumberLine = 737) Then
-		Line = Replace(Line, "ability to hide is more effective, camp concealment stat visible on Camp screen", "A capacidade de esconder-se fica mais efetiva, ganha estatistica de ocultacao no campo visivel na tela Camp")
-	ElseIf (NumberLine = 775) Then
-		Line = Replace(Line, "skill: melee", "Pros: Briga")
-	ElseIf (NumberLine = 776) Then
-		Line = Replace(Line, "better chance to hit in melee combat, higher wound severity, better defense in combat, can leg trip in combat", "maior chance de acertos em combate corpo a corpo, maior gravidade nas feridas, melhor defesa no combate, pode usar a perna em combate")
-	ElseIf (NumberLine = 1165) Then
-		Line = Replace(Line, "trait: myopia", "Contras: Miopia")
-	ElseIf (NumberLine = 1166) Then
-		Line = Replace(Line, "can see one hex less than normal, and detecting hidden creatures is harder", "vai ver uma distancia menor do que o normal, e tem dificuldade em detecta criaturas escondidas")
-	ElseIf (NumberLine = 1360) Then
-		Line = Replace(Line, "skill: eagle eye", "Pros: Olho de aguia")
-	ElseIf (NumberLine = 1361) Then
-		Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier", "pode ver em uma distancia maior do que o normal, luz e linha de visao permitindo, e pode detectar coisas ocultas mais facilmente")
-	ElseIf (NumberLine = 2179) Then
-		Line = Replace(Line, "skill: tracking", "Pros: Rastreamento")
-	ElseIf (NumberLine = 2180) Then
-		Line = Replace(Line, "can spot older tracks than normal, and can hide tracks more effectively", "pode detectar rastros/pegadas mais antigas do que o normal e pode ocultar rastros/pegadas de forma mais eficaz")
-	ElseIf (NumberLine = 2218) Then
-		Line = Replace(Line, "skill: athletics", "Pros: Atletismo")
-	ElseIf (NumberLine = 2219) Then
-		Line = Replace(Line, "less fatigue per move, can run away faster in battle, can run further on map before run moves deplete", "menos fadiga por movimento, pode fugir mais rapido na batalha, pode avancar no mapa antes que os movimentos da corrida se esgotem")
-	ElseIf (NumberLine = 2296) Then
-		Line = Replace(Line, "trait: fast metabolism", "Contras: Metabolismo acelerado")
-	ElseIf (NumberLine = 2297) Then
-		Line = Replace(Line, "food and water intake rates increased, healing rates slightly increased", "As taxas de ingestao de alimentos e agua aumentaram, as taxas de cicatrizacao aumentaram ligeiramente")
-	ElseIf (NumberLine = 2335) Then
-		Line = Replace(Line, "skill: slow metabolism", "Pros: Metabolismo Lento")
-	ElseIf (NumberLine = 2336) Then
-		Line = Replace(Line, "food and water intake rates reduced, healing rates slightly reduced", "Taxas de ingestao de alimentos e agua reduzidas, taxas de cicatrizacao ligeiramente reduzidas")
-	ElseIf (NumberLine = 2374) Then
-		Line = Replace(Line, "skill: strong", "Pros: Forte")
-	ElseIf (NumberLine = 2375) Then
-		Line = Replace(Line, "can carry more without being encumbered, melee attacks are more damaging, can create obstacle in combat", "pode carregar mais peso sem ser sobrecarregar, ataques corpo a corpo sao mais prejudiciais, pode criar obstaculos em combate")
-	ElseIf (NumberLine = 2413) Then
-		Line = Replace(Line, "trait: feeble", "Contras: Fraco")
-	ElseIf (NumberLine = 2414) Then
-		Line = Replace(Line, "melee attack effectiveness is lessened, can carry less", "A eficacia do ataque corpo a corpo e diminuida, carrega menos peso")
-	ElseIf (NumberLine = 2569) Then
-		Line = Replace(Line, "trait: frail", "Contras: Fragil")
-	ElseIf (NumberLine = 2570) Then
-		Line = Replace(Line, "physical wounds, pain, and infections are more severe to you, healing is slower", "feridas fisicas, dor e infeccoes sao mais graves para voce, a cura e mais lenta")
-	ElseIf (NumberLine = 2608) Then
-		Line = Replace(Line, "skill: tough", "Pros: Resistente")
-	ElseIf (NumberLine = 2609) Then
-		Line = Replace(Line, "higher pain threshold, immune system effectiveness, and resistance to wounds, can headbutt in combat", "maior limiar de dor, eficacia do sistema imunologico e resistencia a feridas, pode dar cabeca em combate")
-	ElseIf (NumberLine = 2803) Then
-		Line = Replace(Line, "trait: basic human", "Contras: Humano basico")
-	ElseIf (NumberLine = 2804) Then
-		Line = Replace(Line, "free, default starting points", "pontos de partida gratuitos e padrao")
-	ElseIf (NumberLine = 2842) Then
-		Line = Replace(Line, "skill: night vision", "Pros: Visao noturna")
-	ElseIf (NumberLine = 2843) Then
-		Line = Replace(Line, "can see better in dark areas", "pode ver melhor em areas escuras")	
-	ElseIf (NumberLine = 3427) Then
-		Line = Replace(Line, "trait: eye surgery", "Contras: Cirurgia Ocular")			
-	ElseIf (NumberLine = 3428) Then
-		Line = Replace(Line, "has had corrective eye surgery, removing myopia (encounter)", "teve cirurgia corretiva no olho, removendo miopia (encontro)")	
-	ElseIf (NumberLine = 3622) Then
-		Line = Replace(Line, "skill: trapping", "Pros: Sobrevivencia")
-	ElseIf (NumberLine = 3623) Then
-		Line = Replace(Line, "can trap and prepare animals", "pode aprisionar e preparar animais, aumenta a quantidade de carne e peles adquiridas, Desbloqueia (Alerta)")
-	ElseIf (NumberLine = 3661) Then
-		Line = Replace(Line, "skill: botany", "Pros: botanico")
-	ElseIf (NumberLine = 3662) Then
-		Line = Replace(Line, "knowledge of herbs, fungi, and other useful plants", "conhecimento de ervas, fungos e outras plantas uteis")
-	ElseIf (NumberLine = 3700) Then
-		Line = Replace(Line, "skill: lockpicking", "Pros: Desbloqueio")
-	ElseIf (NumberLine = 3701) Then
-		Line = Replace(Line, "knowledge in bypassing locks and other security devices", "conhecimento em ignorar bloqueios e outros dispositivos de seguranca")
-	ElseIf (NumberLine = 3739) Then
-		Line = Replace(Line, "skill: electrician", "Pros: Eletricista")
-	ElseIf (NumberLine = 3740) Then
-		Line = Replace(Line, "knowledge of electronic systems and components", "conhecimento de sistemas e componentes eletronicos")
-	ElseIf (NumberLine = 3778) Then
-		Line = Replace(Line, "skill: mechanic", "Pros: Mecanico")
-	ElseIf (NumberLine = 3779) Then
-		Line = Replace(Line, "knowledge of mechanical systems and components", "conhecimento de sistemas e componentes mecanicos")
-	ElseIf (NumberLine = 4558) Then
-		Line = Replace(Line, "trait: basic eye augmentation", "Contras: Aumento Basico do Olho")
-	ElseIf (NumberLine = 4559) Then
-		Line = Replace(Line, "has had artificial eyes installed, with perfect vision (encounter)", "olhos artificiais instalados, com visao perfeita(encontro)")
-	ElseIf (NumberLine = 4636) Then
-		Line = Replace(Line, "trait: night vision eye augmentation", "Contras: Aumento da Visao Noturna")
-	ElseIf (NumberLine = 4637) Then
-		Line = Replace(Line, "has had artificial eyes upgraded with night vision (encounter)", "tem olhos artificiais atualizados com visao noturna(encontro)")
-	ElseIf (NumberLine = 4714) Then
-		Line = Replace(Line, "trait: telescopic eye augmentation", "Contras: Aumento de Olho Telescopico")
-	ElseIf (NumberLine = 4715) Then
-		Line = Replace(Line, "has had artificial eyes upgraded with telescopic zoom (encounter)", "teve olhos artificiais atualizados com zoom telescopico (encontro)")
-	ElseIf (NumberLine = 5026) Then
-		Line = Replace(Line, "skill: ranged", "Pros: Distancia")
-	ElseIf (NumberLine = 5027) Then
-		Line = Replace(Line, "skill with ranged weaponry", "habilidade com armas a distancia")
-	ElseIf (NumberLine = 6001) Then
-		Line = Replace(Line, "trait: insomniac", "Contras: Insonia")
-	ElseIf (NumberLine = 6002) Then
-		Line = Replace(Line, "difficulty staying asleep, and sleep is less beneficial", "dormir e menos benefico e tem dificuldade em cair no sono")
-	ElseIf (NumberLine = 9823) Then
-		Line = Replace(Line, "trait: eye surgery", "Contras: Cirurgia Ocular")
-	ElseIf (NumberLine = 9824) Then
-		Line = Replace(Line, "has had corrective eye surgery, removing myopia", "Cirurgia corretiva no olho, removendo miopia")
-	ElseIf (NumberLine = 9862) Then
-		Line = Replace(Line, "trait: basic eye augmentation", "Contras: Aumento Basico do Olho")
-	ElseIf (NumberLine = 9863) Then
-		Line = Replace(Line, "has had artificial eyes installed, with perfect vision", "teve olhos artificiais instalados, com visao perfeita")
-	ElseIf (NumberLine = 9901) Then
-		Line = Replace(Line, "trait: night vision eye augmentation", "Contras: Aumento do olho na visao noturna")
-	ElseIf (NumberLine = 9902) Then
-		Line = Replace(Line, "has had artificial eyes upgraded with night vision", "Teve olhos artificiais atualizados com visao noturna")
-	ElseIf (NumberLine = 9940) Then
-		Line = Replace(Line, "trait: telescopic eye augmentation", "Contras: Aumento Telescopico do Olho")
-	ElseIf (NumberLine = 9941) Then
-		Line = Replace(Line, "has had artificial eyes upgraded with telescopic zoom", "teve olhos artificiais atualizados com zoom telescopico")
-	ElseIf (NumberLine = 9979) Then
-		Line = Replace(Line, "skill: telescopic zoom", "Pros: Zoom Telescopico")
-	ElseIf (NumberLine = 9980) Then
-		Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver em uma distancia maior do que o normal, luz e linha de visao permitindo")
-	ElseIf (NumberLine = 19378) Then
-		Line = Replace(Line, "trait: legendary reputation", "Contras: Reputacao Lendaria")
-	ElseIf (NumberLine = 19379) Then
-		Line = Replace(Line, "legendary reputation for something", "reputacao lendaria de algo")
-	ElseIf (NumberLine = 19417) Then
-		Line = Replace(Line, "trait: enervated", "Contras: Enfraquecido")
-	ElseIf (NumberLine = 19418) Then
-		Line = Replace(Line, "out of shape, and fatigues faster than usual", "fora de forma e fatiga mais rapido do que o normal")
-	End If 		
+Function itemtypes(id, attr, Line)
+	Select case id
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bottle", "garrafa")
+				case "strDesc"
+					Line = Replace(Line, "silver urn", "urna de prata")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "branch", "galho")
+				case "strDesc"
+					Line = Replace(Line, "medium-sized branch from a tree", "galho medio")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: hacking", "Pros: hacking")
+				case "strDesc"
+					Line = Replace(Line, "skill at manipulating computers", "habilidade na manipulacao de computadores")
+			End Select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: medic", "Pros: Medico")
+				case "strDesc"
+					Line = Replace(Line, "improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen", "taxa de cicatrizacao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: hiding", "Pros: Esconder")
+				case "strDesc"
+					Line = Replace(Line, "ability to hide is more effective, camp concealment stat visible on Camp screen", "A capacidade de esconder-se fica mais efetiva, ganha estatistica de ocultacao no campo visivel na tela Camp")
+			End Select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: melee", "Pros: Briga")
+				case "strDesc"
+					Line = Replace(Line, "better chance to hit in melee combat, higher wound severity, better defense in combat, can leg trip in combat", "maior chance de acertos em combate corpo a corpo, maior gravidade nas feridas, melhor defesa no combate, pode usar a perna em combate")
+			End Select
+		case 29
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: myopia", "Contras: Miopia")
+				case "strDesc"
+					Line = Replace(Line, "can see one hex less than normal, and detecting hidden creatures is harder", "vai ver uma distancia menor do que o normal, e tem dificuldade em detecta criaturas escondidas")
+			End Select
+		case 34
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: eagle eye", "Pros: Olho de aguia")
+				case "strDesc"
+					Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting, and can detect hidden things easier", "pode ver em uma distancia maior do que o normal, luz e linha de visao permitindo, e pode detectar coisas ocultas mais facilmente")
+			End Select
+		case 55
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: tracking", "Pros: Rastreamento")
+				case "strDesc"
+					Line = Replace(Line, "can spot older tracks than normal, and can hide tracks more effectively", "pode detectar rastros/pegadas mais antigas do que o normal e pode ocultar rastros/pegadas de forma mais eficaz")
+			End Select
+		case 56
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: athletics", "Pros: Atletismo")
+				case "strDesc"
+					Line = Replace(Line, "less fatigue per move, can run away faster in battle, can run further on map before run moves deplete", "menos fadiga por movimento, pode fugir mais rapido na batalha, pode avancar no mapa antes que os movimentos da corrida se esgotem")
+			End Select
+		case 58
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: fast metabolism", "Contras: Metabolismo acelerado")
+				case "strDesc"
+					Line = Replace(Line, "food and water intake rates increased, healing rates slightly increased", "As taxas de ingestao de alimentos e agua aumentaram, as taxas de cicatrizacao aumentaram ligeiramente")
+			End Select
+		case 59
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: slow metabolism", "Pros: Metabolismo Lento")
+				case "strDesc"
+					Line = Replace(Line, "food and water intake rates reduced, healing rates slightly reduced", "Taxas de ingestao de alimentos e agua reduzidas, taxas de cicatrizacao ligeiramente reduzidas")
+			End Select
+		case 60
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: strong", "Pros: Forte")
+				case "strDesc"
+					Line = Replace(Line, "can carry more without being encumbered, melee attacks are more damaging, can create obstacle in combat", "pode carregar mais peso sem ser sobrecarregar, ataques corpo a corpo sao mais prejudiciais, pode criar obstaculos em combate")
+			End Select
+		case 61
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: feeble", "Contras: Fraco")
+				case "strDesc"
+					Line = Replace(Line, "melee attack effectiveness is lessened, can carry less", "A eficacia do ataque corpo a corpo e diminuida, carrega menos peso")
+			End Select
+		case 65
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: frail", "Contras: Fragil")
+				case "strDesc"
+					Line = Replace(Line, "physical wounds, pain, and infections are more severe to you, healing is slower", "feridas fisicas, dor e infeccoes sao mais graves para voce, a cura e mais lenta")
+			End Select
+		case 66
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: tough", "Pros: Resistente")
+				case "strDesc"
+					Line = Replace(Line, "higher pain threshold, immune system effectiveness, and resistance to wounds, can headbutt in combat", "maior limiar de dor, eficacia do sistema imunologico e resistencia a feridas, pode dar cabeca em combate")
+			End Select
+		case 71
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: basic human", "Contras: Humano basico")
+				case "strDesc"
+					Line = Replace(Line, "free, default starting points", "pontos de partida gratuitos e padrao")
+			End Select
+		case 72
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: night vision", "Pros: Visao noturna")
+				case "strDesc"
+					Line = Replace(Line, "can see better in dark areas", "pode ver melhor em areas escuras")	
+			End Select
+		case 87
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: eye surgery", "Contras: Cirurgia Ocular")	
+				case "strDesc"
+					Line = Replace(Line, "has had corrective eye surgery, removing myopia (encounter)", "teve cirurgia corretiva no olho, removendo miopia (encontro)")	
+			End Select
+		case 92
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: trapping", "Pros: Sobrevivencia")
+				case "strDesc"
+					Line = Replace(Line, "can trap and prepare animals", "pode aprisionar e preparar animais, aumenta a quantidade de carne e peles adquiridas, Desbloqueia (Alerta)")
+			End Select
+		case 93
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: botany", "Pros: botanico")
+				case "strDesc"
+					Line = Replace(Line, "knowledge of herbs, fungi, and other useful plants", "conhecimento de ervas, fungos e outras plantas uteis")
+			End Select
+		case 94
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: lockpicking", "Pros: Desbloqueio")
+				case "strDesc"
+					Line = Replace(Line, "knowledge in bypassing locks and other security devices", "conhecimento em ignorar bloqueios e outros dispositivos de seguranca")
+			End Select
+		case 95
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: electrician", "Pros: Eletricista")
+				case "strDesc"
+					Line = Replace(Line, "knowledge of electronic systems and components", "conhecimento de sistemas e componentes eletronicos")
+			End Select
+		case 96
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: mechanic", "Pros: Mecanico")
+				case "strDesc"
+					Line = Replace(Line, "knowledge of mechanical systems and components", "conhecimento de sistemas e componentes mecanicos")
+			End Select
+		case 116
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: basic eye augmentation", "Contras: Aumento Basico do Olho")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes installed, with perfect vision (encounter)", "olhos artificiais instalados, com visao perfeita(encontro)")
+			End Select
+		case 118
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: night vision eye augmentation", "Contras: Aumento da Visao Noturna")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes upgraded with night vision (encounter)", "tem olhos artificiais atualizados com visao noturna(encontro)")
+			End Select
+		case 120
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: telescopic eye augmentation", "Contras: Aumento de Olho Telescopico")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes upgraded with telescopic zoom (encounter)", "teve olhos artificiais atualizados com zoom telescopico (encontro)")
+			End Select
+		case 128
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: ranged", "Pros: Distancia")
+				case "strDesc"
+					Line = Replace(Line, "skill with ranged weaponry", "habilidade com armas a distancia")
+			End Select
+		case 153
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: insomniac", "Contras: Insonia")
+				case "strDesc"
+					Line = Replace(Line, "difficulty staying asleep, and sleep is less beneficial", "dormir e menos benefico e tem dificuldade em cair no sono")
+			End Select
+		case 251
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: eye surgery", "Contras: Cirurgia Ocular")
+				case "strDesc"
+					Line = Replace(Line, "has had corrective eye surgery, removing myopia", "Cirurgia corretiva no olho, removendo miopia")
+			End Select
+		case 252
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: basic eye augmentation", "Contras: Aumento Basico do Olho")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes installed, with perfect vision", "teve olhos artificiais instalados, com visao perfeita")
+			End Select
+		case 253
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: night vision eye augmentation", "Contras: Aumento do olho na visao noturna")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes upgraded with night vision", "Teve olhos artificiais atualizados com visao noturna")
+			End Select
+		case 254
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: telescopic eye augmentation", "Contras: Aumento Telescopico do Olho")
+				case "strDesc"
+					Line = Replace(Line, "has had artificial eyes upgraded with telescopic zoom", "teve olhos artificiais atualizados com zoom telescopico")
+			End Select
+		case 255
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "skill: telescopic zoom", "Pros: Zoom Telescopico")
+				case "strDesc"
+					Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver em uma distancia maior do que o normal, luz e linha de visao permitindo")
+			End Select
+		case 496
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: legendary reputation", "Contras: Reputacao Lendaria")
+				case "strDesc"
+					Line = Replace(Line, "legendary reputation for something", "reputacao lendaria de algo")
+			End Select
+		case 497
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trait: enervated", "Contras: Enfraquecido")
+				case "strDesc"
+					Line = Replace(Line, "out of shape, and fatigues faster than usual", "fora de forma e fatiga mais rapido do que o normal")
+			End Select		
+	End Select	
 	itemtypes = CStr(Line)
 End Function
 
 Function recipes(id, attr, Line)		
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 51) Then
-		Line = Replace(Line, "medium campfire (lit)", "fogueira media (acesa)")
-	ElseIf (NumberLine = 70) Then
-		Line = Replace(Line, "small campfire (lit)", "fogueira pequena (acesa)")
-	ElseIf (NumberLine = 89) Then
-		Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
-	ElseIf (NumberLine = 108) Then
-		Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
-	End If 		
+	Select case id
+		case 1
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium campfire (lit)", "fogueira media (acesa)")
+			End Select
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small campfire (lit)", "fogueira pequena (acesa)")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
+			End Select
+	End Select
 	recipes = CStr(Line)
 End Function
 
 Function treasuretable(id, attr, Line)		
-	If (NumberLine = 1) Then
-		Line = Replace(Line, "utf-8", "UTF-8")
-	ElseIf (NumberLine = 72) Then
-		Line = Replace(Line, "medical kit", "kit medico")
-	ElseIf (NumberLine = 96) Then
-		Line = Replace(Line, "medium campfire", "fogueira media")
-	End If 		
+	Select case id
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medical kit", "kit medico")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium campfire", "fogueira media")
+			End Select
+	End Select
 	treasuretable = CStr(Line)
 End Function
 
@@ -2194,13 +2345,13 @@ TraduzirArquivo("encountertriggers")
 'forbiddenhexes S/Texto para traduzir
 'gamevars S/Texto para traduzir
 TraduzirArquivo("headlines")
-'TraduzirArquivo("hextypes")
-'TraduzirArquivo("ingredients")
-'TraduzirArquivo("itemprops")
-'TraduzirArquivo("itemtypes")
+TraduzirArquivo("hextypes")
+TraduzirArquivo("ingredients")
+TraduzirArquivo("itemprops")
+TraduzirArquivo("itemtypes")
 'maps S/Texto para traduzir
-'TraduzirArquivo("recipes")
-'TraduzirArquivo("treasuretable")
+TraduzirArquivo("recipes")
+TraduzirArquivo("treasuretable")
 
 
 Sub TraduzirArquivo(Nome)
@@ -2223,7 +2374,7 @@ Sub TraduzirArquivo(Nome)
 	For i = 0 To docNodes.length - 1
 		Set subNodes = docNodes(i).childNodes
 		For s = 0 To subNodes.length - 1	
-			If subNodes(s).getAttribute("name") = "id" Then			
+			If ((subNodes(s).getAttribute("name") = "id") or (subNodes(s).getAttribute("name") = "nID"))  Then			
 				id = subNodes(s).Text
 			End If			
 			'Qual arquivo esta sendo traduzido
