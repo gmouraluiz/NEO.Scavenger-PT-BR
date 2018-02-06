@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,797 +9,797 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-<!-- 12 NumeroDaLinhaReal-->
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
     <!--
     - Structure schemas
     -->
-    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
-            <pma:table name="ingredients"><!-- 19 NumeroDaLinhaReal-->
-                CREATE TABLE `ingredients` (<!-- 20 NumeroDaLinhaReal-->
-                  `nID` int(4) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
-                  `strName` varchar(255) NOT NULL,<!-- 22 NumeroDaLinhaReal-->
-                  `strRequiredProps` varchar(255) NOT NULL,<!-- 23 NumeroDaLinhaReal-->
-                  `strForbidProps` varchar(255) NOT NULL,<!-- 24 NumeroDaLinhaReal-->
-                  PRIMARY KEY (`nID`)<!-- 25 NumeroDaLinhaReal-->
-                ) ENGINE=InnoDB AUTO_INCREMENT=129 DEFAULT CHARSET=latin1;<!-- 26 NumeroDaLinhaReal-->
-            </pma:table><!-- 27 NumeroDaLinhaReal-->
-        </pma:database><!-- 28 NumeroDaLinhaReal-->
-    </pma:structure_schemas><!-- 29 NumeroDaLinhaReal-->
-<!-- 30 NumeroDaLinhaReal-->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="ingredients">
+                CREATE TABLE `ingredients` (
+                  `nID` int(4) NOT NULL AUTO_INCREMENT,
+                  `strName` varchar(255) NOT NULL,
+                  `strRequiredProps` varchar(255) NOT NULL,
+                  `strForbidProps` varchar(255) NOT NULL,
+                  PRIMARY KEY (`nID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=129 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
     <!--
     - Database: 'neogame'
     -->
-    <database name="neogame"><!-- 34 NumeroDaLinhaReal-->
+    <database name="neogame">
         <!-- Table ingredients -->
-        <table name="ingredients"><!-- 36 NumeroDaLinhaReal-->
-            <column name="nID">1</column><!-- 37 NumeroDaLinhaReal-->
-            <column name="strName">fonte de chama</column><!-- 38 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">3</column><!-- 39 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 40 NumeroDaLinhaReal-->
-        </table><!-- 41 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 42 NumeroDaLinhaReal-->
-            <column name="nID">2</column><!-- 43 NumeroDaLinhaReal-->
-            <column name="strName">gravetos</column><!-- 44 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">1</column><!-- 45 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 46 NumeroDaLinhaReal-->
-        </table><!-- 47 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 48 NumeroDaLinhaReal-->
-            <column name="nID">3</column><!-- 49 NumeroDaLinhaReal-->
-            <column name="strName">combustivel de fogo medio</column><!-- 50 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;46</column><!-- 51 NumeroDaLinhaReal-->
-            <column name="strForbidProps">1</column><!-- 52 NumeroDaLinhaReal-->
-        </table><!-- 53 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 54 NumeroDaLinhaReal-->
-            <column name="nID">4</column><!-- 55 NumeroDaLinhaReal-->
-            <column name="strName">water (non-chemical)</column><!-- 56 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">27&amp;29&amp;56</column><!-- 57 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26&amp;39</column><!-- 58 NumeroDaLinhaReal-->
-        </table><!-- 59 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 60 NumeroDaLinhaReal-->
-            <column name="nID">5</column><!-- 61 NumeroDaLinhaReal-->
-            <column name="strName">water purification pill</column><!-- 62 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">7</column><!-- 63 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 64 NumeroDaLinhaReal-->
-        </table><!-- 65 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 66 NumeroDaLinhaReal-->
-            <column name="nID">6</column><!-- 67 NumeroDaLinhaReal-->
-            <column name="strName">fireproof, waterproof container</column><!-- 68 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">8&amp;9&amp;10</column><!-- 69 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 70 NumeroDaLinhaReal-->
-        </table><!-- 71 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 72 NumeroDaLinhaReal-->
-            <column name="nID">7</column><!-- 73 NumeroDaLinhaReal-->
-            <column name="strName">heat source</column><!-- 74 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">11</column><!-- 75 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 76 NumeroDaLinhaReal-->
-        </table><!-- 77 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 78 NumeroDaLinhaReal-->
-            <column name="nID">8</column><!-- 79 NumeroDaLinhaReal-->
-            <column name="strName">tannin source</column><!-- 80 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">4</column><!-- 81 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 82 NumeroDaLinhaReal-->
-        </table><!-- 83 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 84 NumeroDaLinhaReal-->
-            <column name="nID">9</column><!-- 85 NumeroDaLinhaReal-->
-            <column name="strName">small fresh meat</column><!-- 86 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">12&amp;15&amp;14&amp;66</column><!-- 87 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26&amp;67&amp;70</column><!-- 88 NumeroDaLinhaReal-->
-        </table><!-- 89 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 90 NumeroDaLinhaReal-->
-            <column name="nID">10</column><!-- 91 NumeroDaLinhaReal-->
-            <column name="strName">medium shaft</column><!-- 92 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">13&amp;16&amp;28</column><!-- 93 NumeroDaLinhaReal-->
-            <column name="strForbidProps">3</column><!-- 94 NumeroDaLinhaReal-->
-        </table><!-- 95 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 96 NumeroDaLinhaReal-->
-            <column name="nID">11</column><!-- 97 NumeroDaLinhaReal-->
-            <column name="strName">sharp point</column><!-- 98 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">18</column><!-- 99 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 100 NumeroDaLinhaReal-->
-        </table><!-- 101 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 102 NumeroDaLinhaReal-->
-            <column name="nID">12</column><!-- 103 NumeroDaLinhaReal-->
-            <column name="strName">small pelt</column><!-- 104 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;20</column><!-- 105 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 106 NumeroDaLinhaReal-->
-        </table><!-- 107 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 108 NumeroDaLinhaReal-->
-            <column name="nID">13</column><!-- 109 NumeroDaLinhaReal-->
-            <column name="strName">small thread</column><!-- 110 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;19</column><!-- 111 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 112 NumeroDaLinhaReal-->
-        </table><!-- 113 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 114 NumeroDaLinhaReal-->
-            <column name="nID">14</column><!-- 115 NumeroDaLinhaReal-->
-            <column name="strName">sharp edge</column><!-- 116 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">21</column><!-- 117 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 118 NumeroDaLinhaReal-->
-        </table><!-- 119 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 120 NumeroDaLinhaReal-->
-            <column name="nID">15</column><!-- 121 NumeroDaLinhaReal-->
-            <column name="strName">small corpse</column><!-- 122 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;22</column><!-- 123 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 124 NumeroDaLinhaReal-->
-        </table><!-- 125 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 126 NumeroDaLinhaReal-->
-            <column name="nID">16</column><!-- 127 NumeroDaLinhaReal-->
-            <column name="strName">Trapping skill</column><!-- 128 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">23</column><!-- 129 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 130 NumeroDaLinhaReal-->
-        </table><!-- 131 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 132 NumeroDaLinhaReal-->
-            <column name="nID">17</column><!-- 133 NumeroDaLinhaReal-->
-            <column name="strName">medium or large shaft</column><!-- 134 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">13&amp;28</column><!-- 135 NumeroDaLinhaReal-->
-            <column name="strForbidProps">15</column><!-- 136 NumeroDaLinhaReal-->
-        </table><!-- 137 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 138 NumeroDaLinhaReal-->
-            <column name="nID">18</column><!-- 139 NumeroDaLinhaReal-->
-            <column name="strName">medium thread</column><!-- 140 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;19</column><!-- 141 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 142 NumeroDaLinhaReal-->
-        </table><!-- 143 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 144 NumeroDaLinhaReal-->
-            <column name="nID">19</column><!-- 145 NumeroDaLinhaReal-->
-            <column name="strName">.308 rifle, no scope, no strap</column><!-- 146 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">30</column><!-- 147 NumeroDaLinhaReal-->
-            <column name="strForbidProps">2&amp;68</column><!-- 148 NumeroDaLinhaReal-->
-        </table><!-- 149 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 150 NumeroDaLinhaReal-->
-            <column name="nID">20</column><!-- 151 NumeroDaLinhaReal-->
-            <column name="strName">small or medium monocular optical zoom</column><!-- 152 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">2&amp;32</column><!-- 153 NumeroDaLinhaReal-->
-            <column name="strForbidProps">17&amp;65</column><!-- 154 NumeroDaLinhaReal-->
-        </table><!-- 155 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 156 NumeroDaLinhaReal-->
-            <column name="nID">21</column><!-- 157 NumeroDaLinhaReal-->
-            <column name="strName">small mechanical parts</column><!-- 158 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;31</column><!-- 159 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 160 NumeroDaLinhaReal-->
-        </table><!-- 161 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 162 NumeroDaLinhaReal-->
-            <column name="nID">22</column><!-- 163 NumeroDaLinhaReal-->
-            <column name="strName">Philips-head screwdriver</column><!-- 164 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">5</column><!-- 165 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 166 NumeroDaLinhaReal-->
-        </table><!-- 167 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 168 NumeroDaLinhaReal-->
-            <column name="nID">23</column><!-- 169 NumeroDaLinhaReal-->
-            <column name="strName">Lockpicking skill</column><!-- 170 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">34</column><!-- 171 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 172 NumeroDaLinhaReal-->
-        </table><!-- 173 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 174 NumeroDaLinhaReal-->
-            <column name="nID">24</column><!-- 175 NumeroDaLinhaReal-->
-            <column name="strName">handful of ashes</column><!-- 176 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">35</column><!-- 177 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 178 NumeroDaLinhaReal-->
-        </table><!-- 179 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 180 NumeroDaLinhaReal-->
-            <column name="nID">25</column><!-- 181 NumeroDaLinhaReal-->
-            <column name="strName">small or medium rigid container</column><!-- 182 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">28&amp;8</column><!-- 183 NumeroDaLinhaReal-->
-            <column name="strForbidProps">17&amp;65</column><!-- 184 NumeroDaLinhaReal-->
-        </table><!-- 185 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 186 NumeroDaLinhaReal-->
-            <column name="nID">26</column><!-- 187 NumeroDaLinhaReal-->
-            <column name="strName">large waterproof sheet</column><!-- 188 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;9&amp;36</column><!-- 189 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 190 NumeroDaLinhaReal-->
-        </table><!-- 191 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 192 NumeroDaLinhaReal-->
-            <column name="nID">27</column><!-- 193 NumeroDaLinhaReal-->
-            <column name="strName">small flammable, non-rigid sheet</column><!-- 194 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;1&amp;36</column><!-- 195 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 196 NumeroDaLinhaReal-->
-        </table><!-- 197 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 198 NumeroDaLinhaReal-->
-            <column name="nID">28</column><!-- 199 NumeroDaLinhaReal-->
-            <column name="strName">medium absorbent, non-rigid, non-springy sheet</column><!-- 200 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;36&amp;37</column><!-- 201 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28&amp;60</column><!-- 202 NumeroDaLinhaReal-->
-        </table><!-- 203 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 204 NumeroDaLinhaReal-->
-            <column name="nID">29</column><!-- 205 NumeroDaLinhaReal-->
-            <column name="strName">water (any)</column><!-- 206 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">27&amp;29&amp;56</column><!-- 207 NumeroDaLinhaReal-->
-            <column name="strForbidProps">39</column><!-- 208 NumeroDaLinhaReal-->
-        </table><!-- 209 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 210 NumeroDaLinhaReal-->
-            <column name="nID">30</column><!-- 211 NumeroDaLinhaReal-->
-            <column name="strName">small absorbent, non-rigid sheet</column><!-- 212 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;36&amp;37</column><!-- 213 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 214 NumeroDaLinhaReal-->
-        </table><!-- 215 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 216 NumeroDaLinhaReal-->
-            <column name="nID">31</column><!-- 217 NumeroDaLinhaReal-->
-            <column name="strName">liquid disinfectant</column><!-- 218 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">38&amp;27</column><!-- 219 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 220 NumeroDaLinhaReal-->
-        </table><!-- 221 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 222 NumeroDaLinhaReal-->
-            <column name="nID">32</column><!-- 223 NumeroDaLinhaReal-->
-            <column name="strName">small or medium non-rigid sheet</column><!-- 224 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">36&amp;37</column><!-- 225 NumeroDaLinhaReal-->
-            <column name="strForbidProps">17&amp;28&amp;65</column><!-- 226 NumeroDaLinhaReal-->
-        </table><!-- 227 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 228 NumeroDaLinhaReal-->
-            <column name="nID">33</column><!-- 229 NumeroDaLinhaReal-->
-            <column name="strName">natural water source (non-chemical)</column><!-- 230 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">39&amp;27&amp;29</column><!-- 231 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26</column><!-- 232 NumeroDaLinhaReal-->
-        </table><!-- 233 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 234 NumeroDaLinhaReal-->
-            <column name="nID">34</column><!-- 235 NumeroDaLinhaReal-->
-            <column name="strName">forest</column><!-- 236 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">39&amp;40</column><!-- 237 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 238 NumeroDaLinhaReal-->
-        </table><!-- 239 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 240 NumeroDaLinhaReal-->
-            <column name="nID">35</column><!-- 241 NumeroDaLinhaReal-->
-            <column name="strName">Mechanic skill</column><!-- 242 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">41</column><!-- 243 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 244 NumeroDaLinhaReal-->
-        </table><!-- 245 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 246 NumeroDaLinhaReal-->
-            <column name="nID">36</column><!-- 247 NumeroDaLinhaReal-->
-            <column name="strName">large non-rigid sheet</column><!-- 248 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;9&amp;36</column><!-- 249 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 250 NumeroDaLinhaReal-->
-        </table><!-- 251 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 252 NumeroDaLinhaReal-->
-            <column name="nID">37</column><!-- 253 NumeroDaLinhaReal-->
-            <column name="strName">HVAC (unheated)</column><!-- 254 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">42</column><!-- 255 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 256 NumeroDaLinhaReal-->
-        </table><!-- 257 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 258 NumeroDaLinhaReal-->
-            <column name="nID">38</column><!-- 259 NumeroDaLinhaReal-->
-            <column name="strName">electrical panel</column><!-- 260 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">43</column><!-- 261 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 262 NumeroDaLinhaReal-->
-        </table><!-- 263 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 264 NumeroDaLinhaReal-->
-            <column name="nID">39</column><!-- 265 NumeroDaLinhaReal-->
-            <column name="strName">electrician skill</column><!-- 266 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">44</column><!-- 267 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 268 NumeroDaLinhaReal-->
-        </table><!-- 269 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 270 NumeroDaLinhaReal-->
-            <column name="nID">40</column><!-- 271 NumeroDaLinhaReal-->
-            <column name="strName">pliers</column><!-- 272 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">45</column><!-- 273 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 274 NumeroDaLinhaReal-->
-        </table><!-- 275 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 276 NumeroDaLinhaReal-->
-            <column name="nID">41</column><!-- 277 NumeroDaLinhaReal-->
-            <column name="strName">small furry corpse</column><!-- 278 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;22&amp;20</column><!-- 279 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 280 NumeroDaLinhaReal-->
-        </table><!-- 281 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 282 NumeroDaLinhaReal-->
-            <column name="nID">42</column><!-- 283 NumeroDaLinhaReal-->
-            <column name="strName">small or medium flexible non-food object</column><!-- 284 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">48</column><!-- 285 NumeroDaLinhaReal-->
-            <column name="strForbidProps">3&amp;17&amp;28&amp;14&amp;58&amp;22&amp;65</column><!-- 286 NumeroDaLinhaReal-->
-        </table><!-- 287 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 288 NumeroDaLinhaReal-->
-            <column name="nID">43</column><!-- 289 NumeroDaLinhaReal-->
-            <column name="strName">small flame and heat source</column><!-- 290 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">3&amp;11&amp;15</column><!-- 291 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 292 NumeroDaLinhaReal-->
-        </table><!-- 293 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 294 NumeroDaLinhaReal-->
-            <column name="nID">44</column><!-- 295 NumeroDaLinhaReal-->
-            <column name="strName">medium flame and heat source</column><!-- 296 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">3&amp;11&amp;16</column><!-- 297 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 298 NumeroDaLinhaReal-->
-        </table><!-- 299 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 300 NumeroDaLinhaReal-->
-            <column name="nID">45</column><!-- 301 NumeroDaLinhaReal-->
-            <column name="strName">medium shaft w/kindling (unlit)</column><!-- 302 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">1&amp;13&amp;16&amp;28</column><!-- 303 NumeroDaLinhaReal-->
-            <column name="strForbidProps">3&amp;47</column><!-- 304 NumeroDaLinhaReal-->
-        </table><!-- 305 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 306 NumeroDaLinhaReal-->
-            <column name="nID">46</column><!-- 307 NumeroDaLinhaReal-->
-            <column name="strName">quality medium shaft w/kindling (unlit)</column><!-- 308 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">1&amp;13&amp;16&amp;28&amp;47</column><!-- 309 NumeroDaLinhaReal-->
-            <column name="strForbidProps">3</column><!-- 310 NumeroDaLinhaReal-->
-        </table><!-- 311 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 312 NumeroDaLinhaReal-->
-            <column name="nID">47</column><!-- 313 NumeroDaLinhaReal-->
-            <column name="strName">optical zoom</column><!-- 314 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">2</column><!-- 315 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 316 NumeroDaLinhaReal-->
-        </table><!-- 317 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 318 NumeroDaLinhaReal-->
-            <column name="nID">48</column><!-- 319 NumeroDaLinhaReal-->
-            <column name="strName">small kindling (unlit)</column><!-- 320 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">1&amp;15</column><!-- 321 NumeroDaLinhaReal-->
-            <column name="strForbidProps">3</column><!-- 322 NumeroDaLinhaReal-->
-        </table><!-- 323 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 324 NumeroDaLinhaReal-->
-            <column name="nID">49</column><!-- 325 NumeroDaLinhaReal-->
-            <column name="strName">handheld light source</column><!-- 326 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">49&amp;50</column><!-- 327 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 328 NumeroDaLinhaReal-->
-        </table><!-- 329 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 330 NumeroDaLinhaReal-->
-            <column name="nID">50</column><!-- 331 NumeroDaLinhaReal-->
-            <column name="strName">medium flammable, rigid shaft</column><!-- 332 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;46&amp;13&amp;28</column><!-- 333 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 334 NumeroDaLinhaReal-->
-        </table><!-- 335 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 336 NumeroDaLinhaReal-->
-            <column name="nID">51</column><!-- 337 NumeroDaLinhaReal-->
-            <column name="strName">Ranged skill</column><!-- 338 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">51</column><!-- 339 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 340 NumeroDaLinhaReal-->
-        </table><!-- 341 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 342 NumeroDaLinhaReal-->
-            <column name="nID">52</column><!-- 343 NumeroDaLinhaReal-->
-            <column name="strName">crowbar</column><!-- 344 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">52</column><!-- 345 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 346 NumeroDaLinhaReal-->
-        </table><!-- 347 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 348 NumeroDaLinhaReal-->
-            <column name="nID">53</column><!-- 349 NumeroDaLinhaReal-->
-            <column name="strName">binocular optical zoom</column><!-- 350 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">2&amp;33</column><!-- 351 NumeroDaLinhaReal-->
-            <column name="strForbidProps">17&amp;65</column><!-- 352 NumeroDaLinhaReal-->
-        </table><!-- 353 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 354 NumeroDaLinhaReal-->
-            <column name="nID">54</column><!-- 355 NumeroDaLinhaReal-->
-            <column name="strName">very large rigid container</column><!-- 356 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">65&amp;28&amp;8</column><!-- 357 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 358 NumeroDaLinhaReal-->
-        </table><!-- 359 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 360 NumeroDaLinhaReal-->
-            <column name="nID">55</column><!-- 361 NumeroDaLinhaReal-->
-            <column name="strName">shopping cart frame</column><!-- 362 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">55</column><!-- 363 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 364 NumeroDaLinhaReal-->
-        </table><!-- 365 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 366 NumeroDaLinhaReal-->
-            <column name="nID">56</column><!-- 367 NumeroDaLinhaReal-->
-            <column name="strName">caster wheel</column><!-- 368 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">53</column><!-- 369 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 370 NumeroDaLinhaReal-->
-        </table><!-- 371 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 372 NumeroDaLinhaReal-->
-            <column name="nID">57</column><!-- 373 NumeroDaLinhaReal-->
-            <column name="strName">large fireproof basket</column><!-- 374 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">10&amp;17&amp;54</column><!-- 375 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 376 NumeroDaLinhaReal-->
-        </table><!-- 377 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 378 NumeroDaLinhaReal-->
-            <column name="nID">58</column><!-- 379 NumeroDaLinhaReal-->
-            <column name="strName">very large rigid sheet container</column><!-- 380 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">8&amp;28&amp;36&amp;48&amp;65</column><!-- 381 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 382 NumeroDaLinhaReal-->
-        </table><!-- 383 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 384 NumeroDaLinhaReal-->
-            <column name="nID">59</column><!-- 385 NumeroDaLinhaReal-->
-            <column name="strName">Botany skill</column><!-- 386 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">57</column><!-- 387 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 388 NumeroDaLinhaReal-->
-        </table><!-- 389 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 390 NumeroDaLinhaReal-->
-            <column name="nID">60</column><!-- 391 NumeroDaLinhaReal-->
-            <column name="strName">large shaft</column><!-- 392 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">13&amp;17&amp;28</column><!-- 393 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 394 NumeroDaLinhaReal-->
-        </table><!-- 395 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 396 NumeroDaLinhaReal-->
-            <column name="nID">61</column><!-- 397 NumeroDaLinhaReal-->
-            <column name="strName">medium brittle, rigid container</column><!-- 398 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;28&amp;8&amp;58</column><!-- 399 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 400 NumeroDaLinhaReal-->
-        </table><!-- 401 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 402 NumeroDaLinhaReal-->
-            <column name="nID">62</column><!-- 403 NumeroDaLinhaReal-->
-            <column name="strName">medium brittle, non-flexible, rigid object</column><!-- 404 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;28&amp;58</column><!-- 405 NumeroDaLinhaReal-->
-            <column name="strForbidProps">60</column><!-- 406 NumeroDaLinhaReal-->
-        </table><!-- 407 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 408 NumeroDaLinhaReal-->
-            <column name="nID">63</column><!-- 409 NumeroDaLinhaReal-->
-            <column name="strName">small brittle, rigid, sharp handheld sheet object</column><!-- 410 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;18&amp;21&amp;28&amp;50&amp;58</column><!-- 411 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 412 NumeroDaLinhaReal-->
-        </table><!-- 413 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 414 NumeroDaLinhaReal-->
-            <column name="nID">64</column><!-- 415 NumeroDaLinhaReal-->
-            <column name="strName">compound bow</column><!-- 416 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">59</column><!-- 417 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 418 NumeroDaLinhaReal-->
-        </table><!-- 419 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 420 NumeroDaLinhaReal-->
-            <column name="nID">65</column><!-- 421 NumeroDaLinhaReal-->
-            <column name="strName">large rigid, flexible shaft</column><!-- 422 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">13&amp;17&amp;28&amp;60</column><!-- 423 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 424 NumeroDaLinhaReal-->
-        </table><!-- 425 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 426 NumeroDaLinhaReal-->
-            <column name="nID">66</column><!-- 427 NumeroDaLinhaReal-->
-            <column name="strName">small rigid, sharp edge with point</column><!-- 428 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;18&amp;21&amp;28</column><!-- 429 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 430 NumeroDaLinhaReal-->
-        </table><!-- 431 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 432 NumeroDaLinhaReal-->
-            <column name="nID">67</column><!-- 433 NumeroDaLinhaReal-->
-            <column name="strName">small springy sheet</column><!-- 434 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;36&amp;60</column><!-- 435 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 436 NumeroDaLinhaReal-->
-        </table><!-- 437 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 438 NumeroDaLinhaReal-->
-            <column name="nID">68</column><!-- 439 NumeroDaLinhaReal-->
-            <column name="strName">small sharp point</column><!-- 440 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;18</column><!-- 441 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 442 NumeroDaLinhaReal-->
-        </table><!-- 443 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 444 NumeroDaLinhaReal-->
-            <column name="nID">69</column><!-- 445 NumeroDaLinhaReal-->
-            <column name="strName">12-gauge shotgun w/o strap</column><!-- 446 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">61</column><!-- 447 NumeroDaLinhaReal-->
-            <column name="strForbidProps">68</column><!-- 448 NumeroDaLinhaReal-->
-        </table><!-- 449 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 450 NumeroDaLinhaReal-->
-            <column name="nID">70</column><!-- 451 NumeroDaLinhaReal-->
-            <column name="strName">large fireproof, waterproof container</column><!-- 452 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">8&amp;9&amp;10</column><!-- 453 NumeroDaLinhaReal-->
-            <column name="strForbidProps">15&amp;16</column><!-- 454 NumeroDaLinhaReal-->
-        </table><!-- 455 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 456 NumeroDaLinhaReal-->
-            <column name="nID">71</column><!-- 457 NumeroDaLinhaReal-->
-            <column name="strName">large corpse</column><!-- 458 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;22</column><!-- 459 NumeroDaLinhaReal-->
-            <column name="strForbidProps">70</column><!-- 460 NumeroDaLinhaReal-->
-        </table><!-- 461 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 462 NumeroDaLinhaReal-->
-            <column name="nID">72</column><!-- 463 NumeroDaLinhaReal-->
-            <column name="strName">Dogman corpse</column><!-- 464 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;22&amp;20&amp;62</column><!-- 465 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 466 NumeroDaLinhaReal-->
-        </table><!-- 467 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 468 NumeroDaLinhaReal-->
-            <column name="nID">73</column><!-- 469 NumeroDaLinhaReal-->
-            <column name="strName">large furry corpse</column><!-- 470 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;20&amp;22</column><!-- 471 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 472 NumeroDaLinhaReal-->
-        </table><!-- 473 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 474 NumeroDaLinhaReal-->
-            <column name="nID">74</column><!-- 475 NumeroDaLinhaReal-->
-            <column name="strName">medium fresh meat</column><!-- 476 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">12&amp;16&amp;14&amp;66</column><!-- 477 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26&amp;67&amp;70</column><!-- 478 NumeroDaLinhaReal-->
-        </table><!-- 479 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 480 NumeroDaLinhaReal-->
-            <column name="nID">75</column><!-- 481 NumeroDaLinhaReal-->
-            <column name="strName">medium furry corpse</column><!-- 482 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;20&amp;22</column><!-- 483 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 484 NumeroDaLinhaReal-->
-        </table><!-- 485 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 486 NumeroDaLinhaReal-->
-            <column name="nID">76</column><!-- 487 NumeroDaLinhaReal-->
-            <column name="strName">any combat skill</column><!-- 488 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">63</column><!-- 489 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 490 NumeroDaLinhaReal-->
-        </table><!-- 491 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 492 NumeroDaLinhaReal-->
-            <column name="nID">77</column><!-- 493 NumeroDaLinhaReal-->
-            <column name="strName">small rigid parts</column><!-- 494 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;28&amp;48</column><!-- 495 NumeroDaLinhaReal-->
-            <column name="strForbidProps">86</column><!-- 496 NumeroDaLinhaReal-->
-        </table><!-- 497 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 498 NumeroDaLinhaReal-->
-            <column name="nID">78</column><!-- 499 NumeroDaLinhaReal-->
-            <column name="strName">night vision</column><!-- 500 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">64</column><!-- 501 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 502 NumeroDaLinhaReal-->
-        </table><!-- 503 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 504 NumeroDaLinhaReal-->
-            <column name="nID">79</column><!-- 505 NumeroDaLinhaReal-->
-            <column name="strName">medium paper</column><!-- 506 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">1&amp;16&amp;36&amp;37&amp;48&amp;50&amp;60</column><!-- 507 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 508 NumeroDaLinhaReal-->
-        </table><!-- 509 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 510 NumeroDaLinhaReal-->
-            <column name="nID">80</column><!-- 511 NumeroDaLinhaReal-->
-            <column name="strName">medium rigid, springy shaft</column><!-- 512 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;13&amp;28&amp;60</column><!-- 513 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 514 NumeroDaLinhaReal-->
-        </table><!-- 515 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 516 NumeroDaLinhaReal-->
-            <column name="nID">81</column><!-- 517 NumeroDaLinhaReal-->
-            <column name="strName">scoped .308, no strap</column><!-- 518 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">2&amp;30</column><!-- 519 NumeroDaLinhaReal-->
-            <column name="strForbidProps">68</column><!-- 520 NumeroDaLinhaReal-->
-        </table><!-- 521 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 522 NumeroDaLinhaReal-->
-            <column name="nID">82</column><!-- 523 NumeroDaLinhaReal-->
-            <column name="strName">strapped .308, no scope</column><!-- 524 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">30&amp;68</column><!-- 525 NumeroDaLinhaReal-->
-            <column name="strForbidProps">2</column><!-- 526 NumeroDaLinhaReal-->
-        </table><!-- 527 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 528 NumeroDaLinhaReal-->
-            <column name="nID">83</column><!-- 529 NumeroDaLinhaReal-->
-            <column name="strName">iSlab</column><!-- 530 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">69</column><!-- 531 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 532 NumeroDaLinhaReal-->
-        </table><!-- 533 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 534 NumeroDaLinhaReal-->
-            <column name="nID">84</column><!-- 535 NumeroDaLinhaReal-->
-            <column name="strName">medium fresh human meat</column><!-- 536 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">12&amp;16&amp;14&amp;66&amp;70</column><!-- 537 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26&amp;67</column><!-- 538 NumeroDaLinhaReal-->
-        </table><!-- 539 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 540 NumeroDaLinhaReal-->
-            <column name="nID">85</column><!-- 541 NumeroDaLinhaReal-->
-            <column name="strName">small fresh human meat</column><!-- 542 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">12&amp;15&amp;14&amp;66&amp;70</column><!-- 543 NumeroDaLinhaReal-->
-            <column name="strForbidProps">26&amp;67</column><!-- 544 NumeroDaLinhaReal-->
-        </table><!-- 545 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 546 NumeroDaLinhaReal-->
-            <column name="nID">86</column><!-- 547 NumeroDaLinhaReal-->
-            <column name="strName">water (chemical)</column><!-- 548 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">26&amp;27&amp;29&amp;56</column><!-- 549 NumeroDaLinhaReal-->
-            <column name="strForbidProps">39</column><!-- 550 NumeroDaLinhaReal-->
-        </table><!-- 551 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 552 NumeroDaLinhaReal-->
-            <column name="nID">87</column><!-- 553 NumeroDaLinhaReal-->
-            <column name="strName">water tester</column><!-- 554 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">71</column><!-- 555 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 556 NumeroDaLinhaReal-->
-        </table><!-- 557 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 558 NumeroDaLinhaReal-->
-            <column name="nID">88</column><!-- 559 NumeroDaLinhaReal-->
-            <column name="strName">water (biohazard)</column><!-- 560 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">24&amp;27&amp;29&amp;56</column><!-- 561 NumeroDaLinhaReal-->
-            <column name="strForbidProps">39</column><!-- 562 NumeroDaLinhaReal-->
-        </table><!-- 563 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 564 NumeroDaLinhaReal-->
-            <column name="nID">89</column><!-- 565 NumeroDaLinhaReal-->
-            <column name="strName">water (non-biohazard, non-chemical)</column><!-- 566 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">27&amp;29&amp;56</column><!-- 567 NumeroDaLinhaReal-->
-            <column name="strForbidProps">24&amp;26&amp;39</column><!-- 568 NumeroDaLinhaReal-->
-        </table><!-- 569 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 570 NumeroDaLinhaReal-->
-            <column name="nID">90</column><!-- 571 NumeroDaLinhaReal-->
-            <column name="strName">water (unidentified)</column><!-- 572 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">56</column><!-- 573 NumeroDaLinhaReal-->
-            <column name="strForbidProps">56</column><!-- 574 NumeroDaLinhaReal-->
-        </table><!-- 575 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 576 NumeroDaLinhaReal-->
-            <column name="nID">91</column><!-- 577 NumeroDaLinhaReal-->
-            <column name="strName">large human corpse</column><!-- 578 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;22&amp;70</column><!-- 579 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 580 NumeroDaLinhaReal-->
-        </table><!-- 581 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 582 NumeroDaLinhaReal-->
-            <column name="nID">92</column><!-- 583 NumeroDaLinhaReal-->
-            <column name="strName">stuff Radiation Bob wants (big)</column><!-- 584 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">73</column><!-- 585 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 586 NumeroDaLinhaReal-->
-        </table><!-- 587 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 588 NumeroDaLinhaReal-->
-            <column name="nID">93</column><!-- 589 NumeroDaLinhaReal-->
-            <column name="strName">stuff Radiation Bob wants (small)</column><!-- 590 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">74</column><!-- 591 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 592 NumeroDaLinhaReal-->
-        </table><!-- 593 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 594 NumeroDaLinhaReal-->
-            <column name="nID">94</column><!-- 595 NumeroDaLinhaReal-->
-            <column name="strName">stuff Zom Zom's wants</column><!-- 596 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">75</column><!-- 597 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 598 NumeroDaLinhaReal-->
-        </table><!-- 599 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 600 NumeroDaLinhaReal-->
-            <column name="nID">95</column><!-- 601 NumeroDaLinhaReal-->
-            <column name="strName">smartphone</column><!-- 602 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">79</column><!-- 603 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 604 NumeroDaLinhaReal-->
-        </table><!-- 605 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 606 NumeroDaLinhaReal-->
-            <column name="nID">96</column><!-- 607 NumeroDaLinhaReal-->
-            <column name="strName">SBS4 shotgun</column><!-- 608 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">80</column><!-- 609 NumeroDaLinhaReal-->
-            <column name="strForbidProps">68</column><!-- 610 NumeroDaLinhaReal-->
-        </table><!-- 611 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 612 NumeroDaLinhaReal-->
-            <column name="nID">97</column><!-- 613 NumeroDaLinhaReal-->
-            <column name="strName">medium brittle, flexible, rigid object</column><!-- 614 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;28&amp;58&amp;60</column><!-- 615 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 616 NumeroDaLinhaReal-->
-        </table><!-- 617 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 618 NumeroDaLinhaReal-->
-            <column name="nID">98</column><!-- 619 NumeroDaLinhaReal-->
-            <column name="strName">anything except talisman and GUI items</column><!-- 620 NumeroDaLinhaReal-->
-            <column name="strRequiredProps"></column><!-- 621 NumeroDaLinhaReal-->
-            <column name="strForbidProps">85&amp;86</column><!-- 622 NumeroDaLinhaReal-->
-        </table><!-- 623 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 624 NumeroDaLinhaReal-->
-            <column name="nID">99</column><!-- 625 NumeroDaLinhaReal-->
-            <column name="strName">ZZ's items to confiscate</column><!-- 626 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">87</column><!-- 627 NumeroDaLinhaReal-->
-            <column name="strForbidProps">85&amp;86</column><!-- 628 NumeroDaLinhaReal-->
-        </table><!-- 629 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 630 NumeroDaLinhaReal-->
-            <column name="nID">100</column><!-- 631 NumeroDaLinhaReal-->
-            <column name="strName">4mm Gauss rifle, no scope, no strap</column><!-- 632 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">89</column><!-- 633 NumeroDaLinhaReal-->
-            <column name="strForbidProps">2&amp;68</column><!-- 634 NumeroDaLinhaReal-->
-        </table><!-- 635 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 636 NumeroDaLinhaReal-->
-            <column name="nID">101</column><!-- 637 NumeroDaLinhaReal-->
-            <column name="strName">scoped 4mm Gauss rifle, no strap</column><!-- 638 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">2&amp;89</column><!-- 639 NumeroDaLinhaReal-->
-            <column name="strForbidProps">68</column><!-- 640 NumeroDaLinhaReal-->
-        </table><!-- 641 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 642 NumeroDaLinhaReal-->
-            <column name="nID">102</column><!-- 643 NumeroDaLinhaReal-->
-            <column name="strName">strapped 4mm Gauss rifle, no scope</column><!-- 644 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">68&amp;89</column><!-- 645 NumeroDaLinhaReal-->
-            <column name="strForbidProps">2</column><!-- 646 NumeroDaLinhaReal-->
-        </table><!-- 647 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 648 NumeroDaLinhaReal-->
-            <column name="nID">103</column><!-- 649 NumeroDaLinhaReal-->
-            <column name="strName">wooden rifle stock</column><!-- 650 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">95</column><!-- 651 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 652 NumeroDaLinhaReal-->
-        </table><!-- 653 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 654 NumeroDaLinhaReal-->
-            <column name="nID">104</column><!-- 655 NumeroDaLinhaReal-->
-            <column name="strName">high-energy capacitor</column><!-- 656 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">90</column><!-- 657 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 658 NumeroDaLinhaReal-->
-        </table><!-- 659 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 660 NumeroDaLinhaReal-->
-            <column name="nID">105</column><!-- 661 NumeroDaLinhaReal-->
-            <column name="strName">4mm Gauss gun barrel</column><!-- 662 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">91</column><!-- 663 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 664 NumeroDaLinhaReal-->
-        </table><!-- 665 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 666 NumeroDaLinhaReal-->
-            <column name="nID">106</column><!-- 667 NumeroDaLinhaReal-->
-            <column name="strName">4mm Gauss gun receiver</column><!-- 668 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">92</column><!-- 669 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 670 NumeroDaLinhaReal-->
-        </table><!-- 671 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 672 NumeroDaLinhaReal-->
-            <column name="nID">107</column><!-- 673 NumeroDaLinhaReal-->
-            <column name="strName">stage-switching circuit</column><!-- 674 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">93</column><!-- 675 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 676 NumeroDaLinhaReal-->
-        </table><!-- 677 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 678 NumeroDaLinhaReal-->
-            <column name="nID">108</column><!-- 679 NumeroDaLinhaReal-->
-            <column name="strName">charging circuit</column><!-- 680 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">94</column><!-- 681 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 682 NumeroDaLinhaReal-->
-        </table><!-- 683 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 684 NumeroDaLinhaReal-->
-            <column name="nID">109</column><!-- 685 NumeroDaLinhaReal-->
-            <column name="strName">DMC drone wreckage</column><!-- 686 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">96</column><!-- 687 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 688 NumeroDaLinhaReal-->
-        </table><!-- 689 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 690 NumeroDaLinhaReal-->
-            <column name="nID">110</column><!-- 691 NumeroDaLinhaReal-->
-            <column name="strName">unobtainable item</column><!-- 692 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">48</column><!-- 693 NumeroDaLinhaReal-->
-            <column name="strForbidProps">48</column><!-- 694 NumeroDaLinhaReal-->
-        </table><!-- 695 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 696 NumeroDaLinhaReal-->
-            <column name="nID">111</column><!-- 697 NumeroDaLinhaReal-->
-            <column name="strName">laptop battery</column><!-- 698 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">97</column><!-- 699 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 700 NumeroDaLinhaReal-->
-        </table><!-- 701 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 702 NumeroDaLinhaReal-->
-            <column name="nID">112</column><!-- 703 NumeroDaLinhaReal-->
-            <column name="strName">smudge stick</column><!-- 704 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">98</column><!-- 705 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 706 NumeroDaLinhaReal-->
-        </table><!-- 707 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 708 NumeroDaLinhaReal-->
-            <column name="nID">113</column><!-- 709 NumeroDaLinhaReal-->
-            <column name="strName">small or medium flexible, EM-reflective sheet</column><!-- 710 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">36&amp;60&amp;99</column><!-- 711 NumeroDaLinhaReal-->
-            <column name="strForbidProps">17</column><!-- 712 NumeroDaLinhaReal-->
-        </table><!-- 713 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 714 NumeroDaLinhaReal-->
-            <column name="nID">114</column><!-- 715 NumeroDaLinhaReal-->
-            <column name="strName">medium non-rigid, EM-reflective sheet</column><!-- 716 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;36&amp;60&amp;99</column><!-- 717 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 718 NumeroDaLinhaReal-->
-        </table><!-- 719 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 720 NumeroDaLinhaReal-->
-            <column name="nID">115</column><!-- 721 NumeroDaLinhaReal-->
-            <column name="strName">wire cutters</column><!-- 722 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">100</column><!-- 723 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 724 NumeroDaLinhaReal-->
-        </table><!-- 725 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 726 NumeroDaLinhaReal-->
-            <column name="nID">116</column><!-- 727 NumeroDaLinhaReal-->
-            <column name="strName">tracking device</column><!-- 728 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">101</column><!-- 729 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 730 NumeroDaLinhaReal-->
-        </table><!-- 731 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 732 NumeroDaLinhaReal-->
-            <column name="nID">117</column><!-- 733 NumeroDaLinhaReal-->
-            <column name="strName">vehicle too large to bring through fence breach</column><!-- 734 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">102</column><!-- 735 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 736 NumeroDaLinhaReal-->
-        </table><!-- 737 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 738 NumeroDaLinhaReal-->
-            <column name="nID">118</column><!-- 739 NumeroDaLinhaReal-->
-            <column name="strName">blue jeans</column><!-- 740 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">103</column><!-- 741 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 742 NumeroDaLinhaReal-->
-        </table><!-- 743 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 744 NumeroDaLinhaReal-->
-            <column name="nID">119</column><!-- 745 NumeroDaLinhaReal-->
-            <column name="strName">small battery</column><!-- 746 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">15&amp;104</column><!-- 747 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 748 NumeroDaLinhaReal-->
-        </table><!-- 749 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 750 NumeroDaLinhaReal-->
-            <column name="nID">120</column><!-- 751 NumeroDaLinhaReal-->
-            <column name="strName">medium battery</column><!-- 752 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">16&amp;104</column><!-- 753 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 754 NumeroDaLinhaReal-->
-        </table><!-- 755 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 756 NumeroDaLinhaReal-->
-            <column name="nID">121</column><!-- 757 NumeroDaLinhaReal-->
-            <column name="strName">handheld focusing lens or reflector</column><!-- 758 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">50&amp;106</column><!-- 759 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 760 NumeroDaLinhaReal-->
-        </table><!-- 761 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 762 NumeroDaLinhaReal-->
-            <column name="nID">122</column><!-- 763 NumeroDaLinhaReal-->
-            <column name="strName">sunlight</column><!-- 764 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">105</column><!-- 765 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 766 NumeroDaLinhaReal-->
-        </table><!-- 767 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 768 NumeroDaLinhaReal-->
-            <column name="nID">123</column><!-- 769 NumeroDaLinhaReal-->
-            <column name="strName">sleeping bag</column><!-- 770 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">107</column><!-- 771 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 772 NumeroDaLinhaReal-->
-        </table><!-- 773 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 774 NumeroDaLinhaReal-->
-            <column name="nID">124</column><!-- 775 NumeroDaLinhaReal-->
-            <column name="strName">large, non-rigid sheet</column><!-- 776 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">17&amp;36</column><!-- 777 NumeroDaLinhaReal-->
-            <column name="strForbidProps">28</column><!-- 778 NumeroDaLinhaReal-->
-        </table><!-- 779 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 780 NumeroDaLinhaReal-->
-            <column name="nID">125</column><!-- 781 NumeroDaLinhaReal-->
-            <column name="strName">large branch</column><!-- 782 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">56</column><!-- 783 NumeroDaLinhaReal-->
-            <column name="strForbidProps">56</column><!-- 784 NumeroDaLinhaReal-->
-        </table><!-- 785 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 786 NumeroDaLinhaReal-->
-            <column name="nID">126</column><!-- 787 NumeroDaLinhaReal-->
-            <column name="strName">medium, waterproof, flexible sheet</column><!-- 788 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">9&amp;16&amp;36&amp;60</column><!-- 789 NumeroDaLinhaReal-->
-            <column name="strForbidProps">58</column><!-- 790 NumeroDaLinhaReal-->
-        </table><!-- 791 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 792 NumeroDaLinhaReal-->
-            <column name="nID">127</column><!-- 793 NumeroDaLinhaReal-->
-            <column name="strName">small-medium furry corpse</column><!-- 794 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">108&amp;20&amp;22</column><!-- 795 NumeroDaLinhaReal-->
-            <column name="strForbidProps"></column><!-- 796 NumeroDaLinhaReal-->
-        </table><!-- 797 NumeroDaLinhaReal-->
-        <table name="ingredients"><!-- 798 NumeroDaLinhaReal-->
-            <column name="nID">128</column><!-- 799 NumeroDaLinhaReal-->
-            <column name="strName">medium flame and heat source, extinguishable</column><!-- 800 NumeroDaLinhaReal-->
-            <column name="strRequiredProps">3&amp;11&amp;16</column><!-- 801 NumeroDaLinhaReal-->
-            <column name="strForbidProps">39</column><!-- 802 NumeroDaLinhaReal-->
-        </table><!-- 803 NumeroDaLinhaReal-->
-    </database><!-- 804 NumeroDaLinhaReal-->
-</pma_xml_export><!-- 805 NumeroDaLinhaReal-->
+        <table name="ingredients">
+            <column name="nID">1</column>
+            <column name="strName">flame source</column>
+            <column name="strRequiredProps">3</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">2</column>
+            <column name="strName">kindling</column>
+            <column name="strRequiredProps">1</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">3</column>
+            <column name="strName">medium fire fuel</column>
+            <column name="strRequiredProps">16&amp;46</column>
+            <column name="strForbidProps">1</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">4</column>
+            <column name="strName">water (non-chemical)</column>
+            <column name="strRequiredProps">27&amp;29&amp;56</column>
+            <column name="strForbidProps">26&amp;39</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">5</column>
+            <column name="strName">water purification pill</column>
+            <column name="strRequiredProps">7</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">6</column>
+            <column name="strName">fireproof, waterproof container</column>
+            <column name="strRequiredProps">8&amp;9&amp;10</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">7</column>
+            <column name="strName">heat source</column>
+            <column name="strRequiredProps">11</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">8</column>
+            <column name="strName">tannin source</column>
+            <column name="strRequiredProps">4</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">9</column>
+            <column name="strName">small fresh meat</column>
+            <column name="strRequiredProps">12&amp;15&amp;14&amp;66</column>
+            <column name="strForbidProps">26&amp;67&amp;70</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">10</column>
+            <column name="strName">medium shaft</column>
+            <column name="strRequiredProps">13&amp;16&amp;28</column>
+            <column name="strForbidProps">3</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">11</column>
+            <column name="strName">sharp point</column>
+            <column name="strRequiredProps">18</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">12</column>
+            <column name="strName">small pelt</column>
+            <column name="strRequiredProps">15&amp;20</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">13</column>
+            <column name="strName">small thread</column>
+            <column name="strRequiredProps">15&amp;19</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">14</column>
+            <column name="strName">sharp edge</column>
+            <column name="strRequiredProps">21</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">15</column>
+            <column name="strName">small corpse</column>
+            <column name="strRequiredProps">15&amp;22</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">16</column>
+            <column name="strName">Trapping skill</column>
+            <column name="strRequiredProps">23</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">17</column>
+            <column name="strName">medium or large shaft</column>
+            <column name="strRequiredProps">13&amp;28</column>
+            <column name="strForbidProps">15</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">18</column>
+            <column name="strName">medium thread</column>
+            <column name="strRequiredProps">16&amp;19</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">19</column>
+            <column name="strName">.308 rifle, no scope, no strap</column>
+            <column name="strRequiredProps">30</column>
+            <column name="strForbidProps">2&amp;68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">20</column>
+            <column name="strName">small or medium monocular optical zoom</column>
+            <column name="strRequiredProps">2&amp;32</column>
+            <column name="strForbidProps">17&amp;65</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">21</column>
+            <column name="strName">small mechanical parts</column>
+            <column name="strRequiredProps">15&amp;31</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">22</column>
+            <column name="strName">Philips-head screwdriver</column>
+            <column name="strRequiredProps">5</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">23</column>
+            <column name="strName">Lockpicking skill</column>
+            <column name="strRequiredProps">34</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">24</column>
+            <column name="strName">handful of ashes</column>
+            <column name="strRequiredProps">35</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">25</column>
+            <column name="strName">small or medium rigid container</column>
+            <column name="strRequiredProps">28&amp;8</column>
+            <column name="strForbidProps">17&amp;65</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">26</column>
+            <column name="strName">large waterproof sheet</column>
+            <column name="strRequiredProps">17&amp;9&amp;36</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">27</column>
+            <column name="strName">small flammable, non-rigid sheet</column>
+            <column name="strRequiredProps">15&amp;1&amp;36</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">28</column>
+            <column name="strName">medium absorbent, non-rigid, non-springy sheet</column>
+            <column name="strRequiredProps">16&amp;36&amp;37</column>
+            <column name="strForbidProps">28&amp;60</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">29</column>
+            <column name="strName">water (any)</column>
+            <column name="strRequiredProps">27&amp;29&amp;56</column>
+            <column name="strForbidProps">39</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">30</column>
+            <column name="strName">small absorbent, non-rigid sheet</column>
+            <column name="strRequiredProps">15&amp;36&amp;37</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">31</column>
+            <column name="strName">liquid disinfectant</column>
+            <column name="strRequiredProps">38&amp;27</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">32</column>
+            <column name="strName">small or medium non-rigid sheet</column>
+            <column name="strRequiredProps">36&amp;37</column>
+            <column name="strForbidProps">17&amp;28&amp;65</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">33</column>
+            <column name="strName">natural water source (non-chemical)</column>
+            <column name="strRequiredProps">39&amp;27&amp;29</column>
+            <column name="strForbidProps">26</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">34</column>
+            <column name="strName">forest</column>
+            <column name="strRequiredProps">39&amp;40</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">35</column>
+            <column name="strName">Mechanic skill</column>
+            <column name="strRequiredProps">41</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">36</column>
+            <column name="strName">large non-rigid sheet</column>
+            <column name="strRequiredProps">17&amp;9&amp;36</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">37</column>
+            <column name="strName">HVAC (unheated)</column>
+            <column name="strRequiredProps">42</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">38</column>
+            <column name="strName">electrical panel</column>
+            <column name="strRequiredProps">43</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">39</column>
+            <column name="strName">electrician skill</column>
+            <column name="strRequiredProps">44</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">40</column>
+            <column name="strName">pliers</column>
+            <column name="strRequiredProps">45</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">41</column>
+            <column name="strName">small furry corpse</column>
+            <column name="strRequiredProps">15&amp;22&amp;20</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">42</column>
+            <column name="strName">small or medium flexible non-food object</column>
+            <column name="strRequiredProps">48</column>
+            <column name="strForbidProps">3&amp;17&amp;28&amp;14&amp;58&amp;22&amp;65</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">43</column>
+            <column name="strName">small flame and heat source</column>
+            <column name="strRequiredProps">3&amp;11&amp;15</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">44</column>
+            <column name="strName">medium flame and heat source</column>
+            <column name="strRequiredProps">3&amp;11&amp;16</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">45</column>
+            <column name="strName">medium shaft w/kindling (unlit)</column>
+            <column name="strRequiredProps">1&amp;13&amp;16&amp;28</column>
+            <column name="strForbidProps">3&amp;47</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">46</column>
+            <column name="strName">quality medium shaft w/kindling (unlit)</column>
+            <column name="strRequiredProps">1&amp;13&amp;16&amp;28&amp;47</column>
+            <column name="strForbidProps">3</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">47</column>
+            <column name="strName">optical zoom</column>
+            <column name="strRequiredProps">2</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">48</column>
+            <column name="strName">small kindling (unlit)</column>
+            <column name="strRequiredProps">1&amp;15</column>
+            <column name="strForbidProps">3</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">49</column>
+            <column name="strName">handheld light source</column>
+            <column name="strRequiredProps">49&amp;50</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">50</column>
+            <column name="strName">medium flammable, rigid shaft</column>
+            <column name="strRequiredProps">16&amp;46&amp;13&amp;28</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">51</column>
+            <column name="strName">Ranged skill</column>
+            <column name="strRequiredProps">51</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">52</column>
+            <column name="strName">crowbar</column>
+            <column name="strRequiredProps">52</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">53</column>
+            <column name="strName">binocular optical zoom</column>
+            <column name="strRequiredProps">2&amp;33</column>
+            <column name="strForbidProps">17&amp;65</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">54</column>
+            <column name="strName">very large rigid container</column>
+            <column name="strRequiredProps">65&amp;28&amp;8</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">55</column>
+            <column name="strName">shopping cart frame</column>
+            <column name="strRequiredProps">55</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">56</column>
+            <column name="strName">caster wheel</column>
+            <column name="strRequiredProps">53</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">57</column>
+            <column name="strName">large fireproof basket</column>
+            <column name="strRequiredProps">10&amp;17&amp;54</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">58</column>
+            <column name="strName">very large rigid sheet container</column>
+            <column name="strRequiredProps">8&amp;28&amp;36&amp;48&amp;65</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">59</column>
+            <column name="strName">Botany skill</column>
+            <column name="strRequiredProps">57</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">60</column>
+            <column name="strName">large shaft</column>
+            <column name="strRequiredProps">13&amp;17&amp;28</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">61</column>
+            <column name="strName">medium brittle, rigid container</column>
+            <column name="strRequiredProps">16&amp;28&amp;8&amp;58</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">62</column>
+            <column name="strName">medium brittle, non-flexible, rigid object</column>
+            <column name="strRequiredProps">16&amp;28&amp;58</column>
+            <column name="strForbidProps">60</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">63</column>
+            <column name="strName">small brittle, rigid, sharp handheld sheet object</column>
+            <column name="strRequiredProps">15&amp;18&amp;21&amp;28&amp;50&amp;58</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">64</column>
+            <column name="strName">compound bow</column>
+            <column name="strRequiredProps">59</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">65</column>
+            <column name="strName">large rigid, flexible shaft</column>
+            <column name="strRequiredProps">13&amp;17&amp;28&amp;60</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">66</column>
+            <column name="strName">small rigid, sharp edge with point</column>
+            <column name="strRequiredProps">15&amp;18&amp;21&amp;28</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">67</column>
+            <column name="strName">small springy sheet</column>
+            <column name="strRequiredProps">15&amp;36&amp;60</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">68</column>
+            <column name="strName">small sharp point</column>
+            <column name="strRequiredProps">15&amp;18</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">69</column>
+            <column name="strName">12-gauge shotgun w/o strap</column>
+            <column name="strRequiredProps">61</column>
+            <column name="strForbidProps">68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">70</column>
+            <column name="strName">large fireproof, waterproof container</column>
+            <column name="strRequiredProps">8&amp;9&amp;10</column>
+            <column name="strForbidProps">15&amp;16</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">71</column>
+            <column name="strName">large corpse</column>
+            <column name="strRequiredProps">17&amp;22</column>
+            <column name="strForbidProps">70</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">72</column>
+            <column name="strName">Dogman corpse</column>
+            <column name="strRequiredProps">17&amp;22&amp;20&amp;62</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">73</column>
+            <column name="strName">large furry corpse</column>
+            <column name="strRequiredProps">17&amp;20&amp;22</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">74</column>
+            <column name="strName">medium fresh meat</column>
+            <column name="strRequiredProps">12&amp;16&amp;14&amp;66</column>
+            <column name="strForbidProps">26&amp;67&amp;70</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">75</column>
+            <column name="strName">medium furry corpse</column>
+            <column name="strRequiredProps">16&amp;20&amp;22</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">76</column>
+            <column name="strName">any combat skill</column>
+            <column name="strRequiredProps">63</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">77</column>
+            <column name="strName">small rigid parts</column>
+            <column name="strRequiredProps">15&amp;28&amp;48</column>
+            <column name="strForbidProps">86</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">78</column>
+            <column name="strName">night vision</column>
+            <column name="strRequiredProps">64</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">79</column>
+            <column name="strName">medium paper</column>
+            <column name="strRequiredProps">1&amp;16&amp;36&amp;37&amp;48&amp;50&amp;60</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">80</column>
+            <column name="strName">medium rigid, springy shaft</column>
+            <column name="strRequiredProps">16&amp;13&amp;28&amp;60</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">81</column>
+            <column name="strName">scoped .308, no strap</column>
+            <column name="strRequiredProps">2&amp;30</column>
+            <column name="strForbidProps">68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">82</column>
+            <column name="strName">strapped .308, no scope</column>
+            <column name="strRequiredProps">30&amp;68</column>
+            <column name="strForbidProps">2</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">83</column>
+            <column name="strName">iSlab</column>
+            <column name="strRequiredProps">69</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">84</column>
+            <column name="strName">medium fresh human meat</column>
+            <column name="strRequiredProps">12&amp;16&amp;14&amp;66&amp;70</column>
+            <column name="strForbidProps">26&amp;67</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">85</column>
+            <column name="strName">small fresh human meat</column>
+            <column name="strRequiredProps">12&amp;15&amp;14&amp;66&amp;70</column>
+            <column name="strForbidProps">26&amp;67</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">86</column>
+            <column name="strName">water (chemical)</column>
+            <column name="strRequiredProps">26&amp;27&amp;29&amp;56</column>
+            <column name="strForbidProps">39</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">87</column>
+            <column name="strName">water tester</column>
+            <column name="strRequiredProps">71</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">88</column>
+            <column name="strName">water (biohazard)</column>
+            <column name="strRequiredProps">24&amp;27&amp;29&amp;56</column>
+            <column name="strForbidProps">39</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">89</column>
+            <column name="strName">water (non-biohazard, non-chemical)</column>
+            <column name="strRequiredProps">27&amp;29&amp;56</column>
+            <column name="strForbidProps">24&amp;26&amp;39</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">90</column>
+            <column name="strName">water (unidentified)</column>
+            <column name="strRequiredProps">56</column>
+            <column name="strForbidProps">56</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">91</column>
+            <column name="strName">large human corpse</column>
+            <column name="strRequiredProps">17&amp;22&amp;70</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">92</column>
+            <column name="strName">stuff Radiation Bob wants (big)</column>
+            <column name="strRequiredProps">73</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">93</column>
+            <column name="strName">stuff Radiation Bob wants (small)</column>
+            <column name="strRequiredProps">74</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">94</column>
+            <column name="strName">stuff Zom Zom's wants</column>
+            <column name="strRequiredProps">75</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">95</column>
+            <column name="strName">smartphone</column>
+            <column name="strRequiredProps">79</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">96</column>
+            <column name="strName">SBS4 shotgun</column>
+            <column name="strRequiredProps">80</column>
+            <column name="strForbidProps">68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">97</column>
+            <column name="strName">medium brittle, flexible, rigid object</column>
+            <column name="strRequiredProps">16&amp;28&amp;58&amp;60</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">98</column>
+            <column name="strName">anything except talisman and GUI items</column>
+            <column name="strRequiredProps"></column>
+            <column name="strForbidProps">85&amp;86</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">99</column>
+            <column name="strName">ZZ's items to confiscate</column>
+            <column name="strRequiredProps">87</column>
+            <column name="strForbidProps">85&amp;86</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">100</column>
+            <column name="strName">4mm Gauss rifle, no scope, no strap</column>
+            <column name="strRequiredProps">89</column>
+            <column name="strForbidProps">2&amp;68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">101</column>
+            <column name="strName">scoped 4mm Gauss rifle, no strap</column>
+            <column name="strRequiredProps">2&amp;89</column>
+            <column name="strForbidProps">68</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">102</column>
+            <column name="strName">strapped 4mm Gauss rifle, no scope</column>
+            <column name="strRequiredProps">68&amp;89</column>
+            <column name="strForbidProps">2</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">103</column>
+            <column name="strName">wooden rifle stock</column>
+            <column name="strRequiredProps">95</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">104</column>
+            <column name="strName">high-energy capacitor</column>
+            <column name="strRequiredProps">90</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">105</column>
+            <column name="strName">4mm Gauss gun barrel</column>
+            <column name="strRequiredProps">91</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">106</column>
+            <column name="strName">4mm Gauss gun receiver</column>
+            <column name="strRequiredProps">92</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">107</column>
+            <column name="strName">stage-switching circuit</column>
+            <column name="strRequiredProps">93</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">108</column>
+            <column name="strName">charging circuit</column>
+            <column name="strRequiredProps">94</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">109</column>
+            <column name="strName">DMC drone wreckage</column>
+            <column name="strRequiredProps">96</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">110</column>
+            <column name="strName">unobtainable item</column>
+            <column name="strRequiredProps">48</column>
+            <column name="strForbidProps">48</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">111</column>
+            <column name="strName">laptop battery</column>
+            <column name="strRequiredProps">97</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">112</column>
+            <column name="strName">smudge stick</column>
+            <column name="strRequiredProps">98</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">113</column>
+            <column name="strName">small or medium flexible, EM-reflective sheet</column>
+            <column name="strRequiredProps">36&amp;60&amp;99</column>
+            <column name="strForbidProps">17</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">114</column>
+            <column name="strName">medium non-rigid, EM-reflective sheet</column>
+            <column name="strRequiredProps">16&amp;36&amp;60&amp;99</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">115</column>
+            <column name="strName">wire cutters</column>
+            <column name="strRequiredProps">100</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">116</column>
+            <column name="strName">tracking device</column>
+            <column name="strRequiredProps">101</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">117</column>
+            <column name="strName">vehicle too large to bring through fence breach</column>
+            <column name="strRequiredProps">102</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">118</column>
+            <column name="strName">blue jeans</column>
+            <column name="strRequiredProps">103</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">119</column>
+            <column name="strName">small battery</column>
+            <column name="strRequiredProps">15&amp;104</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">120</column>
+            <column name="strName">medium battery</column>
+            <column name="strRequiredProps">16&amp;104</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">121</column>
+            <column name="strName">handheld focusing lens or reflector</column>
+            <column name="strRequiredProps">50&amp;106</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">122</column>
+            <column name="strName">sunlight</column>
+            <column name="strRequiredProps">105</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">123</column>
+            <column name="strName">sleeping bag</column>
+            <column name="strRequiredProps">107</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">124</column>
+            <column name="strName">large, non-rigid sheet</column>
+            <column name="strRequiredProps">17&amp;36</column>
+            <column name="strForbidProps">28</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">125</column>
+            <column name="strName">large branch</column>
+            <column name="strRequiredProps">56</column>
+            <column name="strForbidProps">56</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">126</column>
+            <column name="strName">medium, waterproof, flexible sheet</column>
+            <column name="strRequiredProps">9&amp;16&amp;36&amp;60</column>
+            <column name="strForbidProps">58</column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">127</column>
+            <column name="strName">small-medium furry corpse</column>
+            <column name="strRequiredProps">108&amp;20&amp;22</column>
+            <column name="strForbidProps"></column>
+        </table>
+        <table name="ingredients">
+            <column name="nID">128</column>
+            <column name="strName">medium flame and heat source, extinguishable</column>
+            <column name="strRequiredProps">3&amp;11&amp;16</column>
+            <column name="strForbidProps">39</column>
+        </table>
+    </database>
+</pma_xml_export>

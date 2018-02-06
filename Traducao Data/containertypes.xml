@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,183 +9,181 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-<!-- 12 NumeroDaLinhaReal-->
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
-    <!--
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+	<!--
     - Structure schemas
     -->
-    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
-            <pma:table name="containertypes"><!-- 19 NumeroDaLinhaReal-->
-                CREATE TABLE `containertypes` (<!-- 20 NumeroDaLinhaReal-->
-                  `id` int(3) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
-                  `strName` varchar(255) NOT NULL,<!-- 22 NumeroDaLinhaReal-->
-                  PRIMARY KEY (`id`)<!-- 23 NumeroDaLinhaReal-->
-                ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;<!-- 24 NumeroDaLinhaReal-->
-            </pma:table><!-- 25 NumeroDaLinhaReal-->
-        </pma:database><!-- 26 NumeroDaLinhaReal-->
-    </pma:structure_schemas><!-- 27 NumeroDaLinhaReal-->
-<!-- 28 NumeroDaLinhaReal-->
-    <!--
+	<pma:structure_schemas>
+		<pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+			<pma:table name="containertypes">
+                CREATE TABLE `containertypes` (
+                  `id` int(3) NOT NULL AUTO_INCREMENT,
+                  `strName` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
+            </pma:table>
+		</pma:database>
+	</pma:structure_schemas>
+	<!--
     - Database: 'neogame'
     -->
-    <database name="neogame"><!-- 32 NumeroDaLinhaReal-->
-        <!-- Table containertypes -->
-        <table name="containertypes"><!-- 34 NumeroDaLinhaReal-->
-            <column name="id">1</column><!-- 35 NumeroDaLinhaReal-->
-            <column name="strName">impermeavel</column><!-- 36 NumeroDaLinhaReal-->
-        </table><!-- 37 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 38 NumeroDaLinhaReal-->
-            <column name="id">2</column><!-- 39 NumeroDaLinhaReal-->
-            <column name="strName">fino</column><!-- 40 NumeroDaLinhaReal-->
-        </table><!-- 41 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 42 NumeroDaLinhaReal-->
-            <column name="id">3</column><!-- 43 NumeroDaLinhaReal-->
-            <column name="strName">grosseiro</column><!-- 44 NumeroDaLinhaReal-->
-        </table><!-- 45 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 46 NumeroDaLinhaReal-->
-            <column name="id">4</column><!-- 47 NumeroDaLinhaReal-->
-            <column name="strName">encontro</column><!-- 48 NumeroDaLinhaReal-->
-        </table><!-- 49 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 50 NumeroDaLinhaReal-->
-            <column name="id">5</column><!-- 51 NumeroDaLinhaReal-->
-            <column name="strName">habilidade/pros</column><!-- 52 NumeroDaLinhaReal-->
-        </table><!-- 53 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 54 NumeroDaLinhaReal-->
-            <column name="id">6</column><!-- 55 NumeroDaLinhaReal-->
-            <column name="strName">acampamento</column><!-- 56 NumeroDaLinhaReal-->
-        </table><!-- 57 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 58 NumeroDaLinhaReal-->
-            <column name="id">7</column><!-- 59 NumeroDaLinhaReal-->
-            <column name="strName">a prova de fogo</column><!-- 60 NumeroDaLinhaReal-->
-        </table><!-- 61 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 62 NumeroDaLinhaReal-->
-            <column name="id">8</column><!-- 63 NumeroDaLinhaReal-->
-            <column name="strName">.308</column><!-- 64 NumeroDaLinhaReal-->
-        </table><!-- 65 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 66 NumeroDaLinhaReal-->
-            <column name="id">9</column><!-- 67 NumeroDaLinhaReal-->
-            <column name="strName">lar10</column><!-- 68 NumeroDaLinhaReal-->
-        </table><!-- 69 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 70 NumeroDaLinhaReal-->
-            <column name="id">10</column><!-- 71 NumeroDaLinhaReal-->
-            <column name="strName">eletrico</column><!-- 72 NumeroDaLinhaReal-->
-        </table><!-- 73 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 74 NumeroDaLinhaReal-->
-            <column name="id">11</column><!-- 75 NumeroDaLinhaReal-->
-            <column name="strName">contras</column><!-- 76 NumeroDaLinhaReal-->
-        </table><!-- 77 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 78 NumeroDaLinhaReal-->
-            <column name="id">12</column><!-- 79 NumeroDaLinhaReal-->
-            <column name="strName">producao artesanal</column><!-- 80 NumeroDaLinhaReal-->
-        </table><!-- 81 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 82 NumeroDaLinhaReal-->
-            <column name="id">13</column><!-- 83 NumeroDaLinhaReal-->
-            <column name="strName">jelly</column><!-- 84 NumeroDaLinhaReal-->
-        </table><!-- 85 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 86 NumeroDaLinhaReal-->
-            <column name="id">14</column><!-- 87 NumeroDaLinhaReal-->
-            <column name="strName">nanobot suspension</column><!-- 88 NumeroDaLinhaReal-->
-        </table><!-- 89 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 90 NumeroDaLinhaReal-->
-            <column name="id">15</column><!-- 91 NumeroDaLinhaReal-->
-            <column name="strName">terreno</column><!-- 92 NumeroDaLinhaReal-->
-        </table><!-- 93 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 94 NumeroDaLinhaReal-->
-            <column name="id">16</column><!-- 95 NumeroDaLinhaReal-->
-            <column name="strName">acampamento fixo</column><!-- 96 NumeroDaLinhaReal-->
-        </table><!-- 97 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 98 NumeroDaLinhaReal-->
-            <column name="id">17</column><!-- 99 NumeroDaLinhaReal-->
-            <column name="strName">craft inputs</column><!-- 100 NumeroDaLinhaReal-->
-        </table><!-- 101 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 102 NumeroDaLinhaReal-->
-            <column name="id">18</column><!-- 103 NumeroDaLinhaReal-->
-            <column name="strName">flexa(arco)</column><!-- 104 NumeroDaLinhaReal-->
-        </table><!-- 105 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 106 NumeroDaLinhaReal-->
-            <column name="id">19</column><!-- 107 NumeroDaLinhaReal-->
-            <column name="strName">.38</column><!-- 108 NumeroDaLinhaReal-->
-        </table><!-- 109 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 110 NumeroDaLinhaReal-->
-            <column name="id">20</column><!-- 111 NumeroDaLinhaReal-->
-            <column name="strName">.45</column><!-- 112 NumeroDaLinhaReal-->
-        </table><!-- 113 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 114 NumeroDaLinhaReal-->
-            <column name="id">21</column><!-- 115 NumeroDaLinhaReal-->
-            <column name="strName">12-gauge</column><!-- 116 NumeroDaLinhaReal-->
-        </table><!-- 117 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 118 NumeroDaLinhaReal-->
-            <column name="id">22</column><!-- 119 NumeroDaLinhaReal-->
-            <column name="strName">military micro cell</column><!-- 120 NumeroDaLinhaReal-->
-        </table><!-- 121 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 122 NumeroDaLinhaReal-->
-            <column name="id">23</column><!-- 123 NumeroDaLinhaReal-->
-            <column name="strName">AA battery</column><!-- 124 NumeroDaLinhaReal-->
-        </table><!-- 125 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 126 NumeroDaLinhaReal-->
-            <column name="id">24</column><!-- 127 NumeroDaLinhaReal-->
-            <column name="strName">carts and wagons</column><!-- 128 NumeroDaLinhaReal-->
-        </table><!-- 129 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 130 NumeroDaLinhaReal-->
-            <column name="id">25</column><!-- 131 NumeroDaLinhaReal-->
-            <column name="strName">laptop battery</column><!-- 132 NumeroDaLinhaReal-->
-        </table><!-- 133 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 134 NumeroDaLinhaReal-->
-            <column name="id">26</column><!-- 135 NumeroDaLinhaReal-->
-            <column name="strName">software: PC</column><!-- 136 NumeroDaLinhaReal-->
-        </table><!-- 137 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 138 NumeroDaLinhaReal-->
-            <column name="id">27</column><!-- 139 NumeroDaLinhaReal-->
-            <column name="strName">software: tablet</column><!-- 140 NumeroDaLinhaReal-->
-        </table><!-- 141 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 142 NumeroDaLinhaReal-->
-            <column name="id">28</column><!-- 143 NumeroDaLinhaReal-->
-            <column name="strName">software: data</column><!-- 144 NumeroDaLinhaReal-->
-        </table><!-- 145 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 146 NumeroDaLinhaReal-->
-            <column name="id">29</column><!-- 147 NumeroDaLinhaReal-->
-            <column name="strName">islab battery</column><!-- 148 NumeroDaLinhaReal-->
-        </table><!-- 149 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 150 NumeroDaLinhaReal-->
-            <column name="id">30</column><!-- 151 NumeroDaLinhaReal-->
-            <column name="strName">cellphone battery</column><!-- 152 NumeroDaLinhaReal-->
-        </table><!-- 153 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 154 NumeroDaLinhaReal-->
-            <column name="id">31</column><!-- 155 NumeroDaLinhaReal-->
-            <column name="strName">smartphone battery</column><!-- 156 NumeroDaLinhaReal-->
-        </table><!-- 157 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 158 NumeroDaLinhaReal-->
-            <column name="id">32</column><!-- 159 NumeroDaLinhaReal-->
-            <column name="strName">software: smartphone</column><!-- 160 NumeroDaLinhaReal-->
-        </table><!-- 161 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 162 NumeroDaLinhaReal-->
-            <column name="id">33</column><!-- 163 NumeroDaLinhaReal-->
-            <column name="strName">seixo(estilingue)</column><!-- 164 NumeroDaLinhaReal-->
-        </table><!-- 165 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 166 NumeroDaLinhaReal-->
-            <column name="id">34</column><!-- 167 NumeroDaLinhaReal-->
-            <column name="strName">pedra(estilingue)</column><!-- 168 NumeroDaLinhaReal-->
-        </table><!-- 169 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 170 NumeroDaLinhaReal-->
-            <column name="id">35</column><!-- 171 NumeroDaLinhaReal-->
-            <column name="strName">invalid (no items)</column><!-- 172 NumeroDaLinhaReal-->
-        </table><!-- 173 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 174 NumeroDaLinhaReal-->
-            <column name="id">36</column><!-- 175 NumeroDaLinhaReal-->
-            <column name="strName">4mm</column><!-- 176 NumeroDaLinhaReal-->
-        </table><!-- 177 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 178 NumeroDaLinhaReal-->
-            <column name="id">37</column><!-- 179 NumeroDaLinhaReal-->
-            <column name="strName">XM54 Gas Mask Cartridge</column><!-- 180 NumeroDaLinhaReal-->
-        </table><!-- 181 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 182 NumeroDaLinhaReal-->
-            <column name="id">38</column><!-- 183 NumeroDaLinhaReal-->
-            <column name="strName">UVD</column><!-- 184 NumeroDaLinhaReal-->
-        </table><!-- 185 NumeroDaLinhaReal-->
-        <table name="containertypes"><!-- 186 NumeroDaLinhaReal-->
-            <column name="id">39</column><!-- 187 NumeroDaLinhaReal-->
-            <column name="strName">non-nesting bags</column><!-- 188 NumeroDaLinhaReal-->
-        </table><!-- 189 NumeroDaLinhaReal-->
-    </database><!-- 190 NumeroDaLinhaReal-->
-</pma_xml_export><!-- 191 NumeroDaLinhaReal-->
+	<database name="neogame">
+		<!-- Table containertypes -->
+		<table name="containertypes">
+			<column name="id">1</column>
+			<column name="strName">impermeavel</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">2</column>
+			<column name="strName">fino</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">3</column>
+			<column name="strName">grosseiro</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">4</column>
+			<column name="strName">encontro</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">5</column>
+			<column name="strName">habilidade/pros</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">6</column>
+			<column name="strName">acampamento</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">7</column>
+			<column name="strName">a prova de fogo</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">8</column>
+			<column name="strName">.308</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">9</column>
+			<column name="strName">lar10</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">10</column>
+			<column name="strName">eletrico</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">11</column>
+			<column name="strName">contras</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">12</column>
+			<column name="strName">producao artesanal</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">13</column>
+			<column name="strName">jelly</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">14</column>
+			<column name="strName">nanobot suspension</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">15</column>
+			<column name="strName">terreno</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">16</column>
+			<column name="strName">acampamento fixo</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">17</column>
+			<column name="strName">craft inputs</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">18</column>
+			<column name="strName">flexa(arco)</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">19</column>
+			<column name="strName">.38</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">20</column>
+			<column name="strName">.45</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">21</column>
+			<column name="strName">12-gauge</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">22</column>
+			<column name="strName">military micro cell</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">23</column>
+			<column name="strName">AA battery</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">24</column>
+			<column name="strName">carts and wagons</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">25</column>
+			<column name="strName">laptop battery</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">26</column>
+			<column name="strName">software: PC</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">27</column>
+			<column name="strName">software: tablet</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">28</column>
+			<column name="strName">software: data</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">29</column>
+			<column name="strName">islab battery</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">30</column>
+			<column name="strName">cellphone battery</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">31</column>
+			<column name="strName">smartphone battery</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">32</column>
+			<column name="strName">software: smartphone</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">33</column>
+			<column name="strName">seixo(estilingue)</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">34</column>
+			<column name="strName">pedra(estilingue)</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">35</column>
+			<column name="strName">invalid (no items)</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">36</column>
+			<column name="strName">4mm</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">37</column>
+			<column name="strName">XM54 Gas Mask Cartridge</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">38</column>
+			<column name="strName">UVD</column>
+		</table>
+		<table name="containertypes">
+			<column name="id">39</column>
+			<column name="strName">non-nesting bags</column>
+		</table>
+	</database>
+</pma_xml_export>

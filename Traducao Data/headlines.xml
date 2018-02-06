@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,270 +9,267 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-<!-- 12 NumeroDaLinhaReal-->
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
-    <!--
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+	<!--
     - Structure schemas
     -->
-    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
-            <pma:table name="headlines"><!-- 19 NumeroDaLinhaReal-->
-                CREATE TABLE `headlines` (<!-- 20 NumeroDaLinhaReal-->
-                  `id` int(4) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
-                  `strHeadline` longtext NOT NULL,<!-- 22 NumeroDaLinhaReal-->
-                  PRIMARY KEY (`id`)<!-- 23 NumeroDaLinhaReal-->
-                ) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=latin1;<!-- 24 NumeroDaLinhaReal-->
-            </pma:table><!-- 25 NumeroDaLinhaReal-->
-        </pma:database><!-- 26 NumeroDaLinhaReal-->
-    </pma:structure_schemas><!-- 27 NumeroDaLinhaReal-->
-<!-- 28 NumeroDaLinhaReal-->
-    <!--
+	<pma:structure_schemas>
+		<pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+			<pma:table name="headlines">
+                CREATE TABLE `headlines` (
+                  `id` int(4) NOT NULL AUTO_INCREMENT,
+                  `strHeadline` longtext NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=latin1;
+            </pma:table>
+		</pma:database>
+	</pma:structure_schemas>
+	<!--
     - Database: 'neogame'
     -->
-    <database name="neogame"><!-- 32 NumeroDaLinhaReal-->
-        <!-- Table headlines -->
-        <table name="headlines"><!-- 34 NumeroDaLinhaReal-->
-            <column name="id">1</column><!-- 35 NumeroDaLinhaReal-->
-            <column name="strHeadline">Sowing the Seeds of Destruction<!-- 36 NumeroDaLinhaReal-->
-Agrasanto corporation successfully lobbied the dismantling of Svalbard Seed Vault last Tuesday. Arguing that the collection of seeds represented a contamination risk for its own line of genetically modified seeds, aggressive marketing and lobbying pressured the Norwegian government to dismantle the seed vault project. Agrasanto seeds are used in over 73% of global agriculture, and contamination of even a single strain of the Agrasanto seed could devastate food production worldwide.</column><!-- 37 NumeroDaLinhaReal-->
-        </table><!-- 38 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 39 NumeroDaLinhaReal-->
-            <column name="id">2</column><!-- 40 NumeroDaLinhaReal-->
-            <column name="strHeadline">Vat's for Dinner, Mom? Why, Cloned Meat!<!-- 41 NumeroDaLinhaReal-->
-Agrasanto broke ground today on its first animal-free meat-cloning facility. Detroit plays host to a revolution in food production, as cloned meat cells are grown within blocks of the families who will consume them. With a vastly reduced environmental and physical footprint, the cloned meat facility represents a leap forward in food production and infrastructure.</column><!-- 42 NumeroDaLinhaReal-->
-        </table><!-- 43 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 44 NumeroDaLinhaReal-->
-            <column name="id">3</column><!-- 45 NumeroDaLinhaReal-->
-            <column name="strHeadline">Riders in the Sky<!-- 46 NumeroDaLinhaReal-->
-Detroit establishes first corporate skybike security force. In a bid to increase the law enforcement presence, Detroit becomes the first metropolitan precinct to establish a corporate security force of hover bikes. SkyCorps successfully negotiated a 10-year contract for metropolitan security in the Detroit area. The state-of-the-art skybikes employed by SkyCorps allow peacekeepers a much wider area of operation, longer duration, and vastly-improved response time over traditional police interceptor vehicles.</column><!-- 47 NumeroDaLinhaReal-->
-        </table><!-- 48 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 49 NumeroDaLinhaReal-->
-            <column name="id">4</column><!-- 50 NumeroDaLinhaReal-->
-            <column name="strHeadline">Detroit to Be a Walled City?<!-- 51 NumeroDaLinhaReal-->
-As successful policing of Detroit becomes increasingly difficult, discussions of creating a physical perimeter for the city gain traction. Dubbed the &quot;Detroit Mega City&quot; project, it would be one of the largest public works projects in recent history, employing dozens of contractors and millions of workers.</column><!-- 52 NumeroDaLinhaReal-->
-        </table><!-- 53 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 54 NumeroDaLinhaReal-->
-            <column name="id">5</column><!-- 55 NumeroDaLinhaReal-->
-            <column name="strHeadline">Emergencia!<!-- 56 NumeroDaLinhaReal-->
-As economic downturn puts the squeeze on local governments, local firefighting and law enforcement services are being reduced in an effort to stem hemorrhaging budgets.</column><!-- 57 NumeroDaLinhaReal-->
-        </table><!-- 58 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 59 NumeroDaLinhaReal-->
-            <column name="id">6</column><!-- 60 NumeroDaLinhaReal-->
-            <column name="strHeadline">Police in a Downward Spiral<!-- 61 NumeroDaLinhaReal-->
-Overworked law enforcement personnel report an inability to keep up with emergency calls. Officer turnover are at record highs as reduced police presence makes law enforcement increasingly dangerous.<!-- 62 NumeroDaLinhaReal-->
-Representatives of SkyCorps Security have begun regular meetings with governor Richard Jones, possibly involving discussions on supplementing law enforcement with private security firms.</column><!-- 63 NumeroDaLinhaReal-->
-        </table><!-- 64 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 65 NumeroDaLinhaReal-->
-            <column name="id">7</column><!-- 66 NumeroDaLinhaReal-->
-            <column name="strHeadline">Tunnel People<!-- 67 NumeroDaLinhaReal-->
-The second housing collapse in as many years sends people flocking to flood tunnels for shelter. Record numbers of beleaguered mortgagers are seeking shelter anywhere they can find it. Many are turning to ad-hoc communities centered around abandoned infrastructure, including flood tunnels, metro stations, and transfer stations.</column><!-- 68 NumeroDaLinhaReal-->
-        </table><!-- 69 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 70 NumeroDaLinhaReal-->
-            <column name="id">8</column><!-- 71 NumeroDaLinhaReal-->
-            <column name="strHeadline">Drogas a Venda<!-- 72 NumeroDaLinhaReal-->
-Open-air drug markets are becoming an increasingly common sight as law enforcement presence dwindles, alongside crumbling infrastructure and abandoning of neighborhoods. Many speculate that militarization of these market owners is soon to follow.</column><!-- 73 NumeroDaLinhaReal-->
-        </table><!-- 74 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 75 NumeroDaLinhaReal-->
-            <column name="id">9</column><!-- 76 NumeroDaLinhaReal-->
-            <column name="strHeadline">Estrada para lugar nenhum<!-- 77 NumeroDaLinhaReal-->
-Faced with never-ending budget deficits, the Michigan Department of Transportation is to commence grinding of asphalt roads into gravel. Critics of the &quot;Resurfacing Budget Reclamation&quot; initiative claim that this will only further balkanize the declining neighborhoods outside major cities. Governor Jones assured the public that the focus of the program will be on secondary roads and low-traffic zones.</column><!-- 78 NumeroDaLinhaReal-->
-        </table><!-- 79 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 80 NumeroDaLinhaReal-->
-            <column name="id">10</column><!-- 81 NumeroDaLinhaReal-->
-            <column name="strHeadline">End of the Road for I69<!-- 82 NumeroDaLinhaReal-->
-I69 becomes the second interstate highway to be reduced to gravel in Michigan DoT's &quot;Resurfacing Budget Reclamation&quot; initiative. With two of the three major traffic arteries to mainland America reduced to secondary road status, many are concerned that access to mainland USA will become severed.</column><!-- 83 NumeroDaLinhaReal-->
-        </table><!-- 84 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 85 NumeroDaLinhaReal-->
-            <column name="id">11</column><!-- 86 NumeroDaLinhaReal-->
-            <column name="strHeadline">Roid Rage<!-- 87 NumeroDaLinhaReal-->
-Troy-Jupiter Group has been dealing with a month-long strike at its mine at Jupiter's L4 supercluster. The sometimes violent dispute has choked supplies to Earth, and cost Troy-Jupiter around S1.2bn in revenue.<!-- 88 NumeroDaLinhaReal-->
-</column><!-- 89 NumeroDaLinhaReal-->
-        </table><!-- 90 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 91 NumeroDaLinhaReal-->
-            <column name="id">12</column><!-- 92 NumeroDaLinhaReal-->
-            <column name="strHeadline">Lights-Out<!-- 93 NumeroDaLinhaReal-->
-Battle Creek residents claim they are being made prisoners in their own homes because of city council's controversial street light switch-off. The budget-reducing plan has led to criminal gangs running larger and larger percentages of infrastructure in the beleaguered city.</column><!-- 94 NumeroDaLinhaReal-->
-        </table><!-- 95 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 96 NumeroDaLinhaReal-->
-            <column name="id">13</column><!-- 97 NumeroDaLinhaReal-->
-            <column name="strHeadline">And Yet It Moves<!-- 98 NumeroDaLinhaReal-->
-A year after uprising, militias hold sway in the Galilean Confederacy. One militia controls Europa's spaceport. Others carve up colonies on Ganymede into fiefdoms. They clash both on the surface and in orbit, terrifying colonists and holding detainees in makeshift prisons where torture is said to be rampant.</column><!-- 99 NumeroDaLinhaReal-->
-        </table><!-- 100 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 101 NumeroDaLinhaReal-->
-            <column name="id">14</column><!-- 102 NumeroDaLinhaReal-->
-            <column name="strHeadline">Super-Soldier Program Revealed<!-- 103 NumeroDaLinhaReal-->
-International outrage is the sentiment of the day, as the existence of the &quot;Eternal Protector&quot; program leaked to news outlets worldwide. The 47 leaked documents revealed the existence of a privately-funded program for researching &quot;super soldiers&quot; in China, shocking governments worldwide, including officials of the People's Republic of China.</column><!-- 104 NumeroDaLinhaReal-->
-        </table><!-- 105 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 106 NumeroDaLinhaReal-->
-            <column name="id">15</column><!-- 107 NumeroDaLinhaReal-->
-            <column name="strHeadline">Han Shot First<!-- 108 NumeroDaLinhaReal-->
-On the heels of the revelation of the controversial &quot;Eternal Protector&quot; super-soldier program, insurrection threatens to destabilize the industrial giant. While the official China News Service is not disclosing information on the activity, short-burst uploads from civilians caught in the struggle seem to indicate a full-scale coup, with popular support.</column><!-- 109 NumeroDaLinhaReal-->
-        </table><!-- 110 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 111 NumeroDaLinhaReal-->
-            <column name="id">16</column><!-- 112 NumeroDaLinhaReal-->
-            <column name="strHeadline">The Rise of Xinhua<!-- 113 NumeroDaLinhaReal-->
-Last week's insurrection in China has left the world reeling, as the Xinhua government wrests control with surgical precision and frightening speed. In a statement to the global community, Xinhua representatives have stated that the new government is only a &quot;natural evolution of the civilization-state, and Xinhua are simply custodians of the Han people as they enter a new age of enlightenment&quot;.</column><!-- 114 NumeroDaLinhaReal-->
-        </table><!-- 115 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 116 NumeroDaLinhaReal-->
-            <column name="id">17</column><!-- 117 NumeroDaLinhaReal-->
-            <column name="strHeadline">US Spies in Xinhua?<!-- 118 NumeroDaLinhaReal-->
-US citizen Roger McGill was killed by Xinhua Protectors in Zhongguancun, Beijing Saturday, after allegedly infiltrating an unmarked office tower. McGill is suspected of being a CIA operative after a Xinhua government investigation. When asked at Monday's White House press conference, administration representatives denied the allegations.</column><!-- 119 NumeroDaLinhaReal-->
-        </table><!-- 120 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 121 NumeroDaLinhaReal-->
-            <column name="id">18</column><!-- 122 NumeroDaLinhaReal-->
-            <column name="strHeadline">A Native American Werewolf in New Mexico<!-- 123 NumeroDaLinhaReal-->
-The Pueblo Rock Casino has been plagued by controversy since its announcement last fall. First, a debate over possible uranium contamination in the soil, then reports that soil from an archeological native grave site was being used as landfill for the casino. Now, a week after its grand opening, casino operations are suspended indefinitely as mutilated bodies are found on the premises by guests. Several staff members quit shortly after the discovery, reporting having seen &quot;skinwalkers&quot; in the casino. New Mexico authorities are barring access to the casino as the investigation continues.</column><!-- 124 NumeroDaLinhaReal-->
-        </table><!-- 125 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 126 NumeroDaLinhaReal-->
-            <column name="id">19</column><!-- 127 NumeroDaLinhaReal-->
-            <column name="strHeadline">More Where That Came From<!-- 128 NumeroDaLinhaReal-->
-US researchers have developed the first self-replicating nanomachine cell, in a breakthrough which raises new issues about recreating life in a laboratory. &quot;This is the first synthetic cell that's been made,&quot; said lead researcher Miles Dyson, unveiling the culmination of 15 years of research.</column><!-- 129 NumeroDaLinhaReal-->
-        </table><!-- 130 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 131 NumeroDaLinhaReal-->
-            <column name="id">20</column><!-- 132 NumeroDaLinhaReal-->
-            <column name="strHeadline">Something Fishy<!-- 133 NumeroDaLinhaReal-->
-Officials are investigating what may have killed some 100,000 fish in the Arkansas River in the northwestern section of the state, authorities said on Sunday. This is the second mass-extinction event to strike Arkansas in as many weeks, and the Arkansas Game and Fish Commission is still investigating the cause.</column><!-- 134 NumeroDaLinhaReal-->
-        </table><!-- 135 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 136 NumeroDaLinhaReal-->
-            <column name="id">21</column><!-- 137 NumeroDaLinhaReal-->
-            <column name="strHeadline">Bird is the Word<!-- 138 NumeroDaLinhaReal-->
-State biologists are trying to determine what killed an estimated 500 birds in Point Coupee Parish. Authorities say the birds all suffered from spontaneous blood clots, falling suddenly along a 10-mile stretch of Louisiana Highway 1. This comes just three days after more than 3,000 blackbirds fell from the sky in Beebe, Arkansas, also without explanation.</column><!-- 139 NumeroDaLinhaReal-->
-        </table><!-- 140 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 141 NumeroDaLinhaReal-->
-            <column name="id">22</column><!-- 142 NumeroDaLinhaReal-->
-            <column name="strHeadline">The Swedish Death<!-- 143 NumeroDaLinhaReal-->
-Reports of mass extinction events are on the rise, as thousands of birds and other animals are found dead around the world. The Falkoeping incident in Sweden represents the latest event. &quot;We have received information from local residents last night that the birds just started falling suddenly, with no apparent cause.&quot; There is growing concern around the world that these clustered deaths are related, with some religious groups claiming this establishes a timeline for Judgment Day.</column><!-- 144 NumeroDaLinhaReal-->
-        </table><!-- 145 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 146 NumeroDaLinhaReal-->
-            <column name="id">23</column><!-- 147 NumeroDaLinhaReal-->
-            <column name="strHeadline">Corn-a-Cola: Made with real corn syrup!</column><!-- 148 NumeroDaLinhaReal-->
-        </table><!-- 149 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 150 NumeroDaLinhaReal-->
-            <column name="id">24</column><!-- 151 NumeroDaLinhaReal-->
-            <column name="strHeadline">Corn-a-Cola: All the sweet you can stand, and double the caffeine!</column><!-- 152 NumeroDaLinhaReal-->
-        </table><!-- 153 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 154 NumeroDaLinhaReal-->
-            <column name="id">25</column><!-- 155 NumeroDaLinhaReal-->
-            <column name="strHeadline">OX News: News that's 100% Bull</column><!-- 156 NumeroDaLinhaReal-->
-        </table><!-- 157 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 158 NumeroDaLinhaReal-->
-            <column name="id">26</column><!-- 159 NumeroDaLinhaReal-->
-            <column name="strHeadline">OX News: We report the facts, you decide if they're true.</column><!-- 160 NumeroDaLinhaReal-->
-        </table><!-- 161 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 162 NumeroDaLinhaReal-->
-            <column name="id">27</column><!-- 163 NumeroDaLinhaReal-->
-            <column name="strHeadline">iSlab: Now free with multi-generational contracts!</column><!-- 164 NumeroDaLinhaReal-->
-        </table><!-- 165 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 166 NumeroDaLinhaReal-->
-            <column name="id">28</column><!-- 167 NumeroDaLinhaReal-->
-            <column name="strHeadline">iSlab: Look younger than the kids who assembled it!</column><!-- 168 NumeroDaLinhaReal-->
-        </table><!-- 169 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 170 NumeroDaLinhaReal-->
-            <column name="id">29</column><!-- 171 NumeroDaLinhaReal-->
-            <column name="strHeadline">Hyperpreservatives: Bacteria are scared to eat it, so you don't have to be! Just one more way Mr. Johnson Company is watching out for you.</column><!-- 172 NumeroDaLinhaReal-->
-        </table><!-- 173 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 174 NumeroDaLinhaReal-->
-            <column name="id">30</column><!-- 175 NumeroDaLinhaReal-->
-            <column name="strHeadline">Agrasanto Congealed Grease Popsicles: Meat without the heat!</column><!-- 176 NumeroDaLinhaReal-->
-        </table><!-- 177 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 178 NumeroDaLinhaReal-->
-            <column name="id">31</column><!-- 179 NumeroDaLinhaReal-->
-            <column name="strHeadline">iSlab: Octo-core cpu, 6 cameras, orbital data storage plan, 3D LED display, flexi-touch screen, wi-fi and 8G connectivity, GPS tracking device, FirePrint sheet burner.</column><!-- 180 NumeroDaLinhaReal-->
-        </table><!-- 181 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 182 NumeroDaLinhaReal-->
-            <column name="id">32</column><!-- 183 NumeroDaLinhaReal-->
-            <column name="strHeadline">Next week, on &quot;Date a Fish!&quot; Lucy finds herself on thin ice as...</column><!-- 184 NumeroDaLinhaReal-->
-        </table><!-- 185 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 186 NumeroDaLinhaReal-->
-            <column name="id">33</column><!-- 187 NumeroDaLinhaReal-->
-            <column name="strHeadline">Foiled Again!<!-- 188 NumeroDaLinhaReal-->
-A protestor associated with an international peace movement was arrested Thursday after bypassing the Active Denial System (ADS) perimeter at Camp Grayling in a &quot;tinfoil suit&quot;.<!-- 189 NumeroDaLinhaReal-->
-Jack Haley, 43, of Grayling, MI was cited on suspicion of trespassing on government property. He was found by security forces after crossing a runway, wearing a reflective suit composed of aluminum foil. It is believed the foil allowed him to bypass the ADS unharmed.<!-- 190 NumeroDaLinhaReal-->
-When asked if this constituted a failure in the ADS, an Army spokesman said, &quot;We had a breach, we responded, and everybody walked away healthy. I don't think we have any more concerns today than we had before.&quot;</column><!-- 191 NumeroDaLinhaReal-->
-        </table><!-- 192 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 193 NumeroDaLinhaReal-->
-            <column name="id">34</column><!-- 194 NumeroDaLinhaReal-->
-            <column name="strHeadline">A Game of Drones<!-- 195 NumeroDaLinhaReal-->
-To support the growing role of unmanned aerial vehicles in the US Military, Camp Grayling will be expanding its UAV maintenance and operations facilities. Planned construction includes 3 new hangars, an array of 8 landing pads, and a refueling pipeline, all connected via short-length runways. Facilities for support personnel are also in the works.<!-- 196 NumeroDaLinhaReal-->
-Local engineering firm Stansted Automated has been contracted to install an optical and radio registration system for automated vehicle guidance. The system will be one of the first of its kind, allowing both ground- and aerial-based unmanned vehicles to navigate the facility without human oversight.</column><!-- 197 NumeroDaLinhaReal-->
-        </table><!-- 198 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 199 NumeroDaLinhaReal-->
-            <column name="id">35</column><!-- 200 NumeroDaLinhaReal-->
-            <column name="strHeadline">Mending Fences<!-- 201 NumeroDaLinhaReal-->
-In the wake of growing global security concerns, the US military has begun an unprecedented amount of spending on security revitalization. Facilities across the US are seeing ramp-ups in both security forces and technology.<!-- 202 NumeroDaLinhaReal-->
-Michigan's own Camp Grayling has already begun a new energized perimeter project, inciting concern among civil rights groups and local residents alike.</column><!-- 203 NumeroDaLinhaReal-->
-        </table><!-- 204 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 205 NumeroDaLinhaReal-->
-            <column name="id">36</column><!-- 206 NumeroDaLinhaReal-->
-            <column name="strHeadline">Grayling's Perimeter a Power Player<!-- 207 NumeroDaLinhaReal-->
-For the third day, picketers assembled outside Camp Grayling, where it was recently revealed that the new &quot;energized perimeter&quot; is the Department of Defense's Active Denial System (ADS).<!-- 208 NumeroDaLinhaReal-->
-The ADS operates by emitting microwave fields at a frequency which induces a burning sensation in the skin of the target. Critics of the system cite concerns that prolonged exposure has resulted in 2nd- and 3rd-degree burns during testing and if left unchecked could prove life-threatening.<!-- 209 NumeroDaLinhaReal-->
-A spokesman for the Pentagon's Joint Non-Lethal Weapons Directorate said, &quot;The system has completed all formal legal and treaty compliance laws.&quot;</column><!-- 210 NumeroDaLinhaReal-->
-        </table><!-- 211 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 212 NumeroDaLinhaReal-->
-            <column name="id">37</column><!-- 213 NumeroDaLinhaReal-->
-            <column name="strHeadline">One Headlight<!-- 214 NumeroDaLinhaReal-->
-A huge swath of motor city is about to go dark. With population count dipping below the halfway mark of its once-2-million-person peak, the cash-strapped city cannot afford to power and maintain crumbling infrastructure. Some 88,000 streetlights are in need of power and maintenance. Simply abandoning them could save the city $10 million annually. However, many feel the encroaching darkness could spur criminal activity.</column><!-- 215 NumeroDaLinhaReal-->
-        </table><!-- 216 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 217 NumeroDaLinhaReal-->
-            <column name="id">38</column><!-- 218 NumeroDaLinhaReal-->
-            <column name="strHeadline">Apoxalypse Now<!-- 219 NumeroDaLinhaReal-->
-An outbreak of what appears to be smallpox has infected 28 people in Charleston, SC, health officials said Wednesday. Four people have died. With such a contagious disease, and vaccines in short supply, more fatalities are expected.<!-- 220 NumeroDaLinhaReal-->
-Scientists are scrambling to determine how the disease, believed to be eradicated in 1980, has infected the general population again. And more puzzling, why all reported cases thus far are concentrated in this seaside city.</column><!-- 221 NumeroDaLinhaReal-->
-        </table><!-- 222 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 223 NumeroDaLinhaReal-->
-            <column name="id">39</column><!-- 224 NumeroDaLinhaReal-->
-            <column name="strHeadline">Life's a Beach, Then You Die (of Smallpox)<!-- 225 NumeroDaLinhaReal-->
-Charleston's health authority said Tuesday it is investigating twelve new smallpox cases, including one that has been linked to an emergency landing of a private watercraft in the Atlantic. A number of the reported cases involve visitors to the South Carolina beaches.<!-- 226 NumeroDaLinhaReal-->
-Dr. Sunil Reddy, senior medical officer at South Carolina Health Department, has ordered a general curfew of all beaches in the area until an investigation into the cause can be conducted.</column><!-- 227 NumeroDaLinhaReal-->
-        </table><!-- 228 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 229 NumeroDaLinhaReal-->
-            <column name="id">40</column><!-- 230 NumeroDaLinhaReal-->
-            <column name="strHeadline">You Sunk My Battleship!<!-- 231 NumeroDaLinhaReal-->
-The U.S. Coast Guard unleashed cannon fire Thursday at an abandoned vessel found drifting 50km off the coast of South Carolina. The vessel had no markings other than the code &quot;D32&quot; and was not found to have any crew or cargo.<!-- 232 NumeroDaLinhaReal-->
-The plans to sink the ship were briefly put on hold earlier Thursday when a fishing vessel, the 62-foot Eleganza, claimed salvage rights over the ghost ship. However, officials told Ox News that the Eleganza was unable to tow the abandoned ship, and scuttling operations resumed.</column><!-- 233 NumeroDaLinhaReal-->
-        </table><!-- 234 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 235 NumeroDaLinhaReal-->
-            <column name="id">41</column><!-- 236 NumeroDaLinhaReal-->
-            <column name="strHeadline">Race to the Bottom<!-- 237 NumeroDaLinhaReal-->
-Seventeen more lives, including those of three Coast Guard crewmembers, were claimed by smallpox Sunday night. The Guardsmen were crew aboard the Edward Rose, the Coast Guard vessel responsible for scuttling the derelict ship, labeled only with &quot;D32&quot;, off the coast of South Carolina two weeks ago. In addition, two of the deaths were of crewmen of the salvage ship which failed to tow the &quot;D32&quot; to shore.<!-- 238 NumeroDaLinhaReal-->
-The recent connection between these deaths and the derelict ship has caused investigators to consider &quot;D32&quot; as a possible source of the outbreak. In a race against time, officials are assembling a diving research team to return to the scuttle site, hoping to find any information to explain the sudden outbreak.</column><!-- 239 NumeroDaLinhaReal-->
-        </table><!-- 240 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 241 NumeroDaLinhaReal-->
-            <column name="id">42</column><!-- 242 NumeroDaLinhaReal-->
-            <column name="strHeadline">Clear the Air<!-- 243 NumeroDaLinhaReal-->
-Last week's smallpox outbreaks in Chicago, Minneapolis, and Denver may have prompted a nationwide grounding of all air travel, but the pandemic smallpox continues to spread around the world. Researcher Gary Bardi, of the Health Protection Agency in the U.K., says this is no surprise.<!-- 244 NumeroDaLinhaReal-->
-Using data that modeled the effect of travel restrictions on the spread of a pandemic, Bardi showed that even in the best-case scenario, a pandemic would merely be postponed by several weeks. &quot;This is assuming that 99.9 percent of all travelers are stopped after the first case. As you can see,&quot; he says, &quot;it delays things a bit, but even such an extreme intervention is not effective.&quot;</column><!-- 245 NumeroDaLinhaReal-->
-        </table><!-- 246 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 247 NumeroDaLinhaReal-->
-            <column name="id">43</column><!-- 248 NumeroDaLinhaReal-->
-            <column name="strHeadline">Hungry Like the Wolf<!-- 249 NumeroDaLinhaReal-->
-North America has joined the ranks of regions plagued by so-called wolf &quot;super packs&quot;. Known for hunting in smaller packs of just six or seven, wolves have always been a common sight in less populated areas of the continent. However, recent surges in wolf attacks suggest a &quot;super pack&quot; may be prowling the Lakes region, numbering as many as 400.<!-- 250 NumeroDaLinhaReal-->
-Naturalists are hesitant to report a definite cause, though many point out that imbalances in the ecosystem can sometimes drive wolves into more populated areas to search for food. Horse and cattle owners are reporting alarming rates of animal losses as a result of the migration, and authorities are worried the attacks could soon escalate to human prey.</column><!-- 251 NumeroDaLinhaReal-->
-        </table><!-- 252 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 253 NumeroDaLinhaReal-->
-            <column name="id">44</column><!-- 254 NumeroDaLinhaReal-->
-            <column name="strHeadline">Beacon in the Night<!-- 255 NumeroDaLinhaReal-->
-In the wake of the mass evacuations of the Great Black Swamp, stories of families separated are all too common. Today, however, two sisters have reunited despite impossible odds.<!-- 256 NumeroDaLinhaReal-->
-Cassandra and Veronica, sisters who lost contact during the forced evacuation of their hometown, are finally together again. Thanks to their shared interest in astronomy, and a nightly ritual of pointing out stars with flashlights, Cassandra and Veronica were able to spot each other's light beams from nearby refugee camps. &quot;As soon as we saw the flashlights in the care packages, we knew we had a chance,&quot; they beamed.</column><!-- 257 NumeroDaLinhaReal-->
-        </table><!-- 258 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 259 NumeroDaLinhaReal-->
-            <column name="id">45</column><!-- 260 NumeroDaLinhaReal-->
-            <column name="strHeadline">Wavs Potato Chips: So irresistible, they're like an eating disorder in a bag!</column><!-- 261 NumeroDaLinhaReal-->
-        </table><!-- 262 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 263 NumeroDaLinhaReal-->
-            <column name="id">46</column><!-- 264 NumeroDaLinhaReal-->
-            <column name="strHeadline">Wavs Potato Chips: Can't stop at just one. Literally!</column><!-- 265 NumeroDaLinhaReal-->
-        </table><!-- 266 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 267 NumeroDaLinhaReal-->
-            <column name="id">47</column><!-- 268 NumeroDaLinhaReal-->
-            <column name="strHeadline">Who Wears Short Shorts?<!-- 269 NumeroDaLinhaReal-->
-Spaz Jeanswear is making a fashion return. The jeanswear designer is back with a vengeance, and this time it has a different plan for more...exposure.<!-- 270 NumeroDaLinhaReal-->
-Said Tony Bobberts, Spaz CEO, &quot;I started thinking about how impersonal assembly-line clothes can be. What could I do to make them more of a personal expression? Suddenly, I realized that it wasn't what I could add, but rather what my customers could cut away!&quot;</column><!-- 271 NumeroDaLinhaReal-->
-        </table><!-- 272 NumeroDaLinhaReal-->
-        <table name="headlines"><!-- 273 NumeroDaLinhaReal-->
-            <column name="id">48</column><!-- 274 NumeroDaLinhaReal-->
-            <column name="strHeadline">Twiggy Twine: The best way to bundle a bushel of cotton socks!</column><!-- 275 NumeroDaLinhaReal-->
-        </table><!-- 276 NumeroDaLinhaReal-->
-    </database><!-- 277 NumeroDaLinhaReal-->
-</pma_xml_export><!-- 278 NumeroDaLinhaReal-->
+	<database name="neogame">
+		<!-- Table headlines -->
+		<table name="headlines">
+			<column name="id">1</column>
+			<column name="strHeadline">Sowing the Seeds of Destruction
+Agrasanto corporation successfully lobbied the dismantling of Svalbard Seed Vault last Tuesday. Arguing that the collection of seeds represented a contamination risk for its own line of genetically modified seeds, aggressive marketing and lobbying pressured the Norwegian government to dismantle the seed vault project. Agrasanto seeds are used in over 73% of global agriculture, and contamination of even a single strain of the Agrasanto seed could devastate food production worldwide.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">2</column>
+			<column name="strHeadline">Vat's for Dinner, Mom? Why, Cloned Meat!
+Agrasanto broke ground today on its first animal-free meat-cloning facility. Detroit plays host to a revolution in food production, as cloned meat cells are grown within blocks of the families who will consume them. With a vastly reduced environmental and physical footprint, the cloned meat facility represents a leap forward in food production and infrastructure.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">3</column>
+			<column name="strHeadline">Riders in the Sky
+Detroit establishes first corporate skybike security force. In a bid to increase the law enforcement presence, Detroit becomes the first metropolitan precinct to establish a corporate security force of hover bikes. SkyCorps successfully negotiated a 10-year contract for metropolitan security in the Detroit area. The state-of-the-art skybikes employed by SkyCorps allow peacekeepers a much wider area of operation, longer duration, and vastly-improved response time over traditional police interceptor vehicles.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">4</column>
+			<column name="strHeadline">Detroit to Be a Walled City?
+As successful policing of Detroit becomes increasingly difficult, discussions of creating a physical perimeter for the city gain traction. Dubbed the "Detroit Mega City" project, it would be one of the largest public works projects in recent history, employing dozens of contractors and millions of workers.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">5</column>
+			<column name="strHeadline">Emergencia!
+As economic downturn puts the squeeze on local governments, local firefighting and law enforcement services are being reduced in an effort to stem hemorrhaging budgets.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">6</column>
+			<column name="strHeadline">Police in a Downward Spiral
+Overworked law enforcement personnel report an inability to keep up with emergency calls. Officer turnover are at record highs as reduced police presence makes law enforcement increasingly dangerous.
+Representatives of SkyCorps Security have begun regular meetings with governor Richard Jones, possibly involving discussions on supplementing law enforcement with private security firms.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">7</column>
+			<column name="strHeadline">Tunnel People
+The second housing collapse in as many years sends people flocking to flood tunnels for shelter. Record numbers of beleaguered mortgagers are seeking shelter anywhere they can find it. Many are turning to ad-hoc communities centered around abandoned infrastructure, including flood tunnels, metro stations, and transfer stations.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">8</column>
+			<column name="strHeadline">Drogas a Venda
+Open-air drug markets are becoming an increasingly common sight as law enforcement presence dwindles, alongside crumbling infrastructure and abandoning of neighborhoods. Many speculate that militarization of these market owners is soon to follow.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">9</column>
+			<column name="strHeadline">Estrada para lugar nenhum
+Faced with never-ending budget deficits, the Michigan Department of Transportation is to commence grinding of asphalt roads into gravel. Critics of the "Resurfacing Budget Reclamation" initiative claim that this will only further balkanize the declining neighborhoods outside major cities. Governor Jones assured the public that the focus of the program will be on secondary roads and low-traffic zones.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">10</column>
+			<column name="strHeadline">End of the Road for I69
+I69 becomes the second interstate highway to be reduced to gravel in Michigan DoT's "Resurfacing Budget Reclamation" initiative. With two of the three major traffic arteries to mainland America reduced to secondary road status, many are concerned that access to mainland USA will become severed.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">11</column>
+			<column name="strHeadline">Roid Rage
+Troy-Jupiter Group has been dealing with a month-long strike at its mine at Jupiter's L4 supercluster. The sometimes violent dispute has choked supplies to Earth, and cost Troy-Jupiter around S1.2bn in revenue.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">12</column>
+			<column name="strHeadline">Lights-Out
+Battle Creek residents claim they are being made prisoners in their own homes because of city council's controversial street light switch-off. The budget-reducing plan has led to criminal gangs running larger and larger percentages of infrastructure in the beleaguered city.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">13</column>
+			<column name="strHeadline">And Yet It Moves
+A year after uprising, militias hold sway in the Galilean Confederacy. One militia controls Europa's spaceport. Others carve up colonies on Ganymede into fiefdoms. They clash both on the surface and in orbit, terrifying colonists and holding detainees in makeshift prisons where torture is said to be rampant.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">14</column>
+			<column name="strHeadline">Super-Soldier Program Revealed
+International outrage is the sentiment of the day, as the existence of the "Eternal Protector" program leaked to news outlets worldwide. The 47 leaked documents revealed the existence of a privately-funded program for researching "super soldiers" in China, shocking governments worldwide, including officials of the People's Republic of China.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">15</column>
+			<column name="strHeadline">Han Shot First
+On the heels of the revelation of the controversial "Eternal Protector" super-soldier program, insurrection threatens to destabilize the industrial giant. While the official China News Service is not disclosing information on the activity, short-burst uploads from civilians caught in the struggle seem to indicate a full-scale coup, with popular support.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">16</column>
+			<column name="strHeadline">The Rise of Xinhua
+Last week's insurrection in China has left the world reeling, as the Xinhua government wrests control with surgical precision and frightening speed. In a statement to the global community, Xinhua representatives have stated that the new government is only a "natural evolution of the civilization-state, and Xinhua are simply custodians of the Han people as they enter a new age of enlightenment".</column>
+		</table>
+		<table name="headlines">
+			<column name="id">17</column>
+			<column name="strHeadline">US Spies in Xinhua?
+US citizen Roger McGill was killed by Xinhua Protectors in Zhongguancun, Beijing Saturday, after allegedly infiltrating an unmarked office tower. McGill is suspected of being a CIA operative after a Xinhua government investigation. When asked at Monday's White House press conference, administration representatives denied the allegations.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">18</column>
+			<column name="strHeadline">A Native American Werewolf in New Mexico
+The Pueblo Rock Casino has been plagued by controversy since its announcement last fall. First, a debate over possible uranium contamination in the soil, then reports that soil from an archeological native grave site was being used as landfill for the casino. Now, a week after its grand opening, casino operations are suspended indefinitely as mutilated bodies are found on the premises by guests. Several staff members quit shortly after the discovery, reporting having seen "skinwalkers" in the casino. New Mexico authorities are barring access to the casino as the investigation continues.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">19</column>
+			<column name="strHeadline">More Where That Came From
+US researchers have developed the first self-replicating nanomachine cell, in a breakthrough which raises new issues about recreating life in a laboratory. "This is the first synthetic cell that's been made," said lead researcher Miles Dyson, unveiling the culmination of 15 years of research.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">20</column>
+			<column name="strHeadline">Something Fishy
+Officials are investigating what may have killed some 100,000 fish in the Arkansas River in the northwestern section of the state, authorities said on Sunday. This is the second mass-extinction event to strike Arkansas in as many weeks, and the Arkansas Game and Fish Commission is still investigating the cause.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">21</column>
+			<column name="strHeadline">Bird is the Word
+State biologists are trying to determine what killed an estimated 500 birds in Point Coupee Parish. Authorities say the birds all suffered from spontaneous blood clots, falling suddenly along a 10-mile stretch of Louisiana Highway 1. This comes just three days after more than 3,000 blackbirds fell from the sky in Beebe, Arkansas, also without explanation.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">22</column>
+			<column name="strHeadline">The Swedish Death
+Reports of mass extinction events are on the rise, as thousands of birds and other animals are found dead around the world. The Falkoeping incident in Sweden represents the latest event. "We have received information from local residents last night that the birds just started falling suddenly, with no apparent cause." There is growing concern around the world that these clustered deaths are related, with some religious groups claiming this establishes a timeline for Judgment Day.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">23</column>
+			<column name="strHeadline">Corn-a-Cola: Made with real corn syrup!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">24</column>
+			<column name="strHeadline">Corn-a-Cola: All the sweet you can stand, and double the caffeine!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">25</column>
+			<column name="strHeadline">OX News: News that's 100% Bull</column>
+		</table>
+		<table name="headlines">
+			<column name="id">26</column>
+			<column name="strHeadline">OX News: We report the facts, you decide if they're true.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">27</column>
+			<column name="strHeadline">iSlab: Now free with multi-generational contracts!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">28</column>
+			<column name="strHeadline">iSlab: Look younger than the kids who assembled it!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">29</column>
+			<column name="strHeadline">Hyperpreservatives: Bacteria are scared to eat it, so you don't have to be! Just one more way Mr. Johnson Company is watching out for you.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">30</column>
+			<column name="strHeadline">Agrasanto Congealed Grease Popsicles: Meat without the heat!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">31</column>
+			<column name="strHeadline">iSlab: Octo-core cpu, 6 cameras, orbital data storage plan, 3D LED display, flexi-touch screen, wi-fi and 8G connectivity, GPS tracking device, FirePrint sheet burner.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">32</column>
+			<column name="strHeadline">Next week, on "Date a Fish!" Lucy finds herself on thin ice as...</column>
+		</table>
+		<table name="headlines">
+			<column name="id">33</column>
+			<column name="strHeadline">Foiled Again!
+A protestor associated with an international peace movement was arrested Thursday after bypassing the Active Denial System (ADS) perimeter at Camp Grayling in a "tinfoil suit".
+Jack Haley, 43, of Grayling, MI was cited on suspicion of trespassing on government property. He was found by security forces after crossing a runway, wearing a reflective suit composed of aluminum foil. It is believed the foil allowed him to bypass the ADS unharmed.
+When asked if this constituted a failure in the ADS, an Army spokesman said, "We had a breach, we responded, and everybody walked away healthy. I don't think we have any more concerns today than we had before."</column>
+		</table>
+		<table name="headlines">
+			<column name="id">34</column>
+			<column name="strHeadline">A Game of Drones
+To support the growing role of unmanned aerial vehicles in the US Military, Camp Grayling will be expanding its UAV maintenance and operations facilities. Planned construction includes 3 new hangars, an array of 8 landing pads, and a refueling pipeline, all connected via short-length runways. Facilities for support personnel are also in the works.
+Local engineering firm Stansted Automated has been contracted to install an optical and radio registration system for automated vehicle guidance. The system will be one of the first of its kind, allowing both ground- and aerial-based unmanned vehicles to navigate the facility without human oversight.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">35</column>
+			<column name="strHeadline">Mending Fences
+In the wake of growing global security concerns, the US military has begun an unprecedented amount of spending on security revitalization. Facilities across the US are seeing ramp-ups in both security forces and technology.
+Michigan's own Camp Grayling has already begun a new energized perimeter project, inciting concern among civil rights groups and local residents alike.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">36</column>
+			<column name="strHeadline">Grayling's Perimeter a Power Player
+For the third day, picketers assembled outside Camp Grayling, where it was recently revealed that the new "energized perimeter" is the Department of Defense's Active Denial System (ADS).
+The ADS operates by emitting microwave fields at a frequency which induces a burning sensation in the skin of the target. Critics of the system cite concerns that prolonged exposure has resulted in 2nd- and 3rd-degree burns during testing and if left unchecked could prove life-threatening.
+A spokesman for the Pentagon's Joint Non-Lethal Weapons Directorate said, "The system has completed all formal legal and treaty compliance laws."</column>
+		</table>
+		<table name="headlines">
+			<column name="id">37</column>
+			<column name="strHeadline">One Headlight
+A huge swath of motor city is about to go dark. With population count dipping below the halfway mark of its once-2-million-person peak, the cash-strapped city cannot afford to power and maintain crumbling infrastructure. Some 88,000 streetlights are in need of power and maintenance. Simply abandoning them could save the city $10 million annually. However, many feel the encroaching darkness could spur criminal activity.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">38</column>
+			<column name="strHeadline">Apoxalypse Now
+An outbreak of what appears to be smallpox has infected 28 people in Charleston, SC, health officials said Wednesday. Four people have died. With such a contagious disease, and vaccines in short supply, more fatalities are expected.
+Scientists are scrambling to determine how the disease, believed to be eradicated in 1980, has infected the general population again. And more puzzling, why all reported cases thus far are concentrated in this seaside city.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">39</column>
+			<column name="strHeadline">Life's a Beach, Then You Die (of Smallpox)
+Charleston's health authority said Tuesday it is investigating twelve new smallpox cases, including one that has been linked to an emergency landing of a private watercraft in the Atlantic. A number of the reported cases involve visitors to the South Carolina beaches.
+Dr. Sunil Reddy, senior medical officer at South Carolina Health Department, has ordered a general curfew of all beaches in the area until an investigation into the cause can be conducted.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">40</column>
+			<column name="strHeadline">You Sunk My Battleship!
+The U.S. Coast Guard unleashed cannon fire Thursday at an abandoned vessel found drifting 50km off the coast of South Carolina. The vessel had no markings other than the code "D32" and was not found to have any crew or cargo.
+The plans to sink the ship were briefly put on hold earlier Thursday when a fishing vessel, the 62-foot Eleganza, claimed salvage rights over the ghost ship. However, officials told Ox News that the Eleganza was unable to tow the abandoned ship, and scuttling operations resumed.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">41</column>
+			<column name="strHeadline">Race to the Bottom
+Seventeen more lives, including those of three Coast Guard crewmembers, were claimed by smallpox Sunday night. The Guardsmen were crew aboard the Edward Rose, the Coast Guard vessel responsible for scuttling the derelict ship, labeled only with "D32", off the coast of South Carolina two weeks ago. In addition, two of the deaths were of crewmen of the salvage ship which failed to tow the "D32" to shore.
+The recent connection between these deaths and the derelict ship has caused investigators to consider "D32" as a possible source of the outbreak. In a race against time, officials are assembling a diving research team to return to the scuttle site, hoping to find any information to explain the sudden outbreak.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">42</column>
+			<column name="strHeadline">Clear the Air
+Last week's smallpox outbreaks in Chicago, Minneapolis, and Denver may have prompted a nationwide grounding of all air travel, but the pandemic smallpox continues to spread around the world. Researcher Gary Bardi, of the Health Protection Agency in the U.K., says this is no surprise.
+Using data that modeled the effect of travel restrictions on the spread of a pandemic, Bardi showed that even in the best-case scenario, a pandemic would merely be postponed by several weeks. "This is assuming that 99.9 percent of all travelers are stopped after the first case. As you can see," he says, "it delays things a bit, but even such an extreme intervention is not effective."</column>
+		</table>
+		<table name="headlines">
+			<column name="id">43</column>
+			<column name="strHeadline">Hungry Like the Wolf
+North America has joined the ranks of regions plagued by so-called wolf "super packs". Known for hunting in smaller packs of just six or seven, wolves have always been a common sight in less populated areas of the continent. However, recent surges in wolf attacks suggest a "super pack" may be prowling the Lakes region, numbering as many as 400.
+Naturalists are hesitant to report a definite cause, though many point out that imbalances in the ecosystem can sometimes drive wolves into more populated areas to search for food. Horse and cattle owners are reporting alarming rates of animal losses as a result of the migration, and authorities are worried the attacks could soon escalate to human prey.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">44</column>
+			<column name="strHeadline">Beacon in the Night
+In the wake of the mass evacuations of the Great Black Swamp, stories of families separated are all too common. Today, however, two sisters have reunited despite impossible odds.
+Cassandra and Veronica, sisters who lost contact during the forced evacuation of their hometown, are finally together again. Thanks to their shared interest in astronomy, and a nightly ritual of pointing out stars with flashlights, Cassandra and Veronica were able to spot each other's light beams from nearby refugee camps. "As soon as we saw the flashlights in the care packages, we knew we had a chance," they beamed.</column>
+		</table>
+		<table name="headlines">
+			<column name="id">45</column>
+			<column name="strHeadline">Wavs Potato Chips: So irresistible, they're like an eating disorder in a bag!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">46</column>
+			<column name="strHeadline">Wavs Potato Chips: Can't stop at just one. Literally!</column>
+		</table>
+		<table name="headlines">
+			<column name="id">47</column>
+			<column name="strHeadline">Who Wears Short Shorts?
+Spaz Jeanswear is making a fashion return. The jeanswear designer is back with a vengeance, and this time it has a different plan for more...exposure.
+Said Tony Bobberts, Spaz CEO, "I started thinking about how impersonal assembly-line clothes can be. What could I do to make them more of a personal expression? Suddenly, I realized that it wasn't what I could add, but rather what my customers could cut away!"</column>
+		</table>
+		<table name="headlines">
+			<column name="id">48</column>
+			<column name="strHeadline">Twiggy Twine: The best way to bundle a bushel of cotton socks!</column>
+		</table>
+	</database>
+</pma_xml_export>

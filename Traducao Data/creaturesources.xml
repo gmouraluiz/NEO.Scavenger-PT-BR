@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- 1 NumeroDaLinhaReal-->
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
 - version 4.0.10.14
@@ -9,353 +9,351 @@
 - Server version: 5.5.48
 - PHP Version: 5.5.32
 -->
-<!-- 12 NumeroDaLinhaReal-->
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/"><!-- 13 NumeroDaLinhaReal-->
-    <!--
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+	<!--
     - Structure schemas
     -->
-    <pma:structure_schemas><!-- 17 NumeroDaLinhaReal-->
-        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1"><!-- 18 NumeroDaLinhaReal-->
-            <pma:table name="creaturesources"><!-- 19 NumeroDaLinhaReal-->
-                CREATE TABLE `creaturesources` (<!-- 20 NumeroDaLinhaReal-->
-                  `id` int(3) NOT NULL AUTO_INCREMENT,<!-- 21 NumeroDaLinhaReal-->
-                  `strName` varchar(255) NOT NULL,<!-- 22 NumeroDaLinhaReal-->
-                  `nX` int(5) NOT NULL DEFAULT '-1',<!-- 23 NumeroDaLinhaReal-->
-                  `nY` int(5) NOT NULL DEFAULT '-1',<!-- 24 NumeroDaLinhaReal-->
-                  `nCreatureID` int(4) NOT NULL DEFAULT '0',<!-- 25 NumeroDaLinhaReal-->
-                  `nMin` int(11) NOT NULL DEFAULT '0',<!-- 26 NumeroDaLinhaReal-->
-                  `nMax` int(11) NOT NULL DEFAULT '0',<!-- 27 NumeroDaLinhaReal-->
-                  `fWeight` float NOT NULL DEFAULT '1',<!-- 28 NumeroDaLinhaReal-->
-                  PRIMARY KEY (`id`)<!-- 29 NumeroDaLinhaReal-->
-                ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;<!-- 30 NumeroDaLinhaReal-->
-            </pma:table><!-- 31 NumeroDaLinhaReal-->
-        </pma:database><!-- 32 NumeroDaLinhaReal-->
-    </pma:structure_schemas><!-- 33 NumeroDaLinhaReal-->
-<!-- 34 NumeroDaLinhaReal-->
-    <!--
+	<pma:structure_schemas>
+		<pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+			<pma:table name="creaturesources">
+                CREATE TABLE `creaturesources` (
+                  `id` int(3) NOT NULL AUTO_INCREMENT,
+                  `strName` varchar(255) NOT NULL,
+                  `nX` int(5) NOT NULL DEFAULT '-1',
+                  `nY` int(5) NOT NULL DEFAULT '-1',
+                  `nCreatureID` int(4) NOT NULL DEFAULT '0',
+                  `nMin` int(11) NOT NULL DEFAULT '0',
+                  `nMax` int(11) NOT NULL DEFAULT '0',
+                  `fWeight` float NOT NULL DEFAULT '1',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
+            </pma:table>
+		</pma:database>
+	</pma:structure_schemas>
+	<!--
     - Database: 'neogame'
     -->
-    <database name="neogame"><!-- 38 NumeroDaLinhaReal-->
-        <!-- Table creaturesources -->
-        <table name="creaturesources"><!-- 40 NumeroDaLinhaReal-->
-            <column name="id">1</column><!-- 41 NumeroDaLinhaReal-->
-            <column name="strName"></column><!-- 42 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 43 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 44 NumeroDaLinhaReal-->
-            <column name="nCreatureID">0</column><!-- 45 NumeroDaLinhaReal-->
-            <column name="nMin">0</column><!-- 46 NumeroDaLinhaReal-->
-            <column name="nMax">0</column><!-- 47 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 48 NumeroDaLinhaReal-->
-        </table><!-- 49 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 50 NumeroDaLinhaReal-->
-            <column name="id">2</column><!-- 51 NumeroDaLinhaReal-->
-            <column name="strName">Cryo Dogman</column><!-- 52 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 53 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 54 NumeroDaLinhaReal-->
-            <column name="nCreatureID">1</column><!-- 55 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 56 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 57 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 58 NumeroDaLinhaReal-->
-        </table><!-- 59 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 60 NumeroDaLinhaReal-->
-            <column name="id">3</column><!-- 61 NumeroDaLinhaReal-->
-            <column name="strName">Merga Wraith</column><!-- 62 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 63 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 64 NumeroDaLinhaReal-->
-            <column name="nCreatureID">5</column><!-- 65 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 66 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 67 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 68 NumeroDaLinhaReal-->
-        </table><!-- 69 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 70 NumeroDaLinhaReal-->
-            <column name="id">4</column><!-- 71 NumeroDaLinhaReal-->
-            <column name="strName">SE Looter</column><!-- 72 NumeroDaLinhaReal-->
-            <column name="nX">48</column><!-- 73 NumeroDaLinhaReal-->
-            <column name="nY">164</column><!-- 74 NumeroDaLinhaReal-->
-            <column name="nCreatureID">2</column><!-- 75 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 76 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 77 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 78 NumeroDaLinhaReal-->
-        </table><!-- 79 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 80 NumeroDaLinhaReal-->
-            <column name="id">5</column><!-- 81 NumeroDaLinhaReal-->
-            <column name="strName">SE Looter</column><!-- 82 NumeroDaLinhaReal-->
-            <column name="nX">48</column><!-- 83 NumeroDaLinhaReal-->
-            <column name="nY">164</column><!-- 84 NumeroDaLinhaReal-->
-            <column name="nCreatureID">10</column><!-- 85 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 86 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 87 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 88 NumeroDaLinhaReal-->
-        </table><!-- 89 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 90 NumeroDaLinhaReal-->
-            <column name="id">6</column><!-- 91 NumeroDaLinhaReal-->
-            <column name="strName">SE Looter</column><!-- 92 NumeroDaLinhaReal-->
-            <column name="nX">48</column><!-- 93 NumeroDaLinhaReal-->
-            <column name="nY">164</column><!-- 94 NumeroDaLinhaReal-->
-            <column name="nCreatureID">11</column><!-- 95 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 96 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 97 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 98 NumeroDaLinhaReal-->
-        </table><!-- 99 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 100 NumeroDaLinhaReal-->
-            <column name="id">7</column><!-- 101 NumeroDaLinhaReal-->
-            <column name="strName">SE Looter</column><!-- 102 NumeroDaLinhaReal-->
-            <column name="nX">48</column><!-- 103 NumeroDaLinhaReal-->
-            <column name="nY">164</column><!-- 104 NumeroDaLinhaReal-->
-            <column name="nCreatureID">12</column><!-- 105 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 106 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 107 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 108 NumeroDaLinhaReal-->
-        </table><!-- 109 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 110 NumeroDaLinhaReal-->
-            <column name="id">8</column><!-- 111 NumeroDaLinhaReal-->
-            <column name="strName">SE Looter</column><!-- 112 NumeroDaLinhaReal-->
-            <column name="nX">48</column><!-- 113 NumeroDaLinhaReal-->
-            <column name="nY">164</column><!-- 114 NumeroDaLinhaReal-->
-            <column name="nCreatureID">13</column><!-- 115 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 116 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 117 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 118 NumeroDaLinhaReal-->
-        </table><!-- 119 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 120 NumeroDaLinhaReal-->
-            <column name="id">9</column><!-- 121 NumeroDaLinhaReal-->
-            <column name="strName">Blue Frogs Cultist</column><!-- 122 NumeroDaLinhaReal-->
-            <column name="nX">40</column><!-- 123 NumeroDaLinhaReal-->
-            <column name="nY">108</column><!-- 124 NumeroDaLinhaReal-->
-            <column name="nCreatureID">18</column><!-- 125 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 126 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 127 NumeroDaLinhaReal-->
-            <column name="fWeight">0.8</column><!-- 128 NumeroDaLinhaReal-->
-        </table><!-- 129 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 130 NumeroDaLinhaReal-->
-            <column name="id">10</column><!-- 131 NumeroDaLinhaReal-->
-            <column name="strName">Zom Zom's Bad Mutha</column><!-- 132 NumeroDaLinhaReal-->
-            <column name="nX">20</column><!-- 133 NumeroDaLinhaReal-->
-            <column name="nY">148</column><!-- 134 NumeroDaLinhaReal-->
-            <column name="nCreatureID">3</column><!-- 135 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 136 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 137 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 138 NumeroDaLinhaReal-->
-        </table><!-- 139 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 140 NumeroDaLinhaReal-->
-            <column name="id">11</column><!-- 141 NumeroDaLinhaReal-->
-            <column name="strName">SW Enfield Horror</column><!-- 142 NumeroDaLinhaReal-->
-            <column name="nX">1</column><!-- 143 NumeroDaLinhaReal-->
-            <column name="nY">192</column><!-- 144 NumeroDaLinhaReal-->
-            <column name="nCreatureID">7</column><!-- 145 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 146 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 147 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 148 NumeroDaLinhaReal-->
-        </table><!-- 149 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 150 NumeroDaLinhaReal-->
-            <column name="id">12</column><!-- 151 NumeroDaLinhaReal-->
-            <column name="strName">Allegan Melonhead</column><!-- 152 NumeroDaLinhaReal-->
-            <column name="nX">17</column><!-- 153 NumeroDaLinhaReal-->
-            <column name="nY">124</column><!-- 154 NumeroDaLinhaReal-->
-            <column name="nCreatureID">6</column><!-- 155 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 156 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 157 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 158 NumeroDaLinhaReal-->
-        </table><!-- 159 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 160 NumeroDaLinhaReal-->
-            <column name="id">13</column><!-- 161 NumeroDaLinhaReal-->
-            <column name="strName">Solo Northern Dogman</column><!-- 162 NumeroDaLinhaReal-->
-            <column name="nX">28</column><!-- 163 NumeroDaLinhaReal-->
-            <column name="nY">78</column><!-- 164 NumeroDaLinhaReal-->
-            <column name="nCreatureID">1</column><!-- 165 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 166 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 167 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 168 NumeroDaLinhaReal-->
-        </table><!-- 169 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 170 NumeroDaLinhaReal-->
-            <column name="id">14</column><!-- 171 NumeroDaLinhaReal-->
-            <column name="strName">Northtip Dogman Pack</column><!-- 172 NumeroDaLinhaReal-->
-            <column name="nX">28</column><!-- 173 NumeroDaLinhaReal-->
-            <column name="nY">2</column><!-- 174 NumeroDaLinhaReal-->
-            <column name="nCreatureID">1</column><!-- 175 NumeroDaLinhaReal-->
-            <column name="nMin">2</column><!-- 176 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 177 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 178 NumeroDaLinhaReal-->
-        </table><!-- 179 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 180 NumeroDaLinhaReal-->
-            <column name="id">15</column><!-- 181 NumeroDaLinhaReal-->
-            <column name="strName">Midland Deer Pack</column><!-- 182 NumeroDaLinhaReal-->
-            <column name="nX">18</column><!-- 183 NumeroDaLinhaReal-->
-            <column name="nY">100</column><!-- 184 NumeroDaLinhaReal-->
-            <column name="nCreatureID">8</column><!-- 185 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 186 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 187 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 188 NumeroDaLinhaReal-->
-        </table><!-- 189 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 190 NumeroDaLinhaReal-->
-            <column name="id">16</column><!-- 191 NumeroDaLinhaReal-->
-            <column name="strName">Eastern Deer Pack</column><!-- 192 NumeroDaLinhaReal-->
-            <column name="nX">42</column><!-- 193 NumeroDaLinhaReal-->
-            <column name="nY">30</column><!-- 194 NumeroDaLinhaReal-->
-            <column name="nCreatureID">8</column><!-- 195 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 196 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 197 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 198 NumeroDaLinhaReal-->
-        </table><!-- 199 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 200 NumeroDaLinhaReal-->
-            <column name="id">17</column><!-- 201 NumeroDaLinhaReal-->
-            <column name="strName">Yezinka</column><!-- 202 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 203 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 204 NumeroDaLinhaReal-->
-            <column name="nCreatureID">9</column><!-- 205 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 206 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 207 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 208 NumeroDaLinhaReal-->
-        </table><!-- 209 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 210 NumeroDaLinhaReal-->
-            <column name="id">18</column><!-- 211 NumeroDaLinhaReal-->
-            <column name="strName">DMC Guardaaaaaaaaaaaaaaaa</column><!-- 212 NumeroDaLinhaReal-->
-            <column name="nX">57</column><!-- 213 NumeroDaLinhaReal-->
-            <column name="nY">192</column><!-- 214 NumeroDaLinhaReal-->
-            <column name="nCreatureID">14</column><!-- 215 NumeroDaLinhaReal-->
-            <column name="nMin">2</column><!-- 216 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 217 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 218 NumeroDaLinhaReal-->
-        </table><!-- 219 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 220 NumeroDaLinhaReal-->
-            <column name="id">19</column><!-- 221 NumeroDaLinhaReal-->
-            <column name="strName">ATN Guerreira</column><!-- 222 NumeroDaLinhaReal-->
-            <column name="nX">26</column><!-- 223 NumeroDaLinhaReal-->
-            <column name="nY">104</column><!-- 224 NumeroDaLinhaReal-->
-            <column name="nCreatureID">15</column><!-- 225 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 226 NumeroDaLinhaReal-->
-            <column name="nMax">3</column><!-- 227 NumeroDaLinhaReal-->
-            <column name="fWeight">0.5</column><!-- 228 NumeroDaLinhaReal-->
-        </table><!-- 229 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 230 NumeroDaLinhaReal-->
-            <column name="id">20</column><!-- 231 NumeroDaLinhaReal-->
-            <column name="strName">ATN Guerreiro</column><!-- 232 NumeroDaLinhaReal-->
-            <column name="nX">26</column><!-- 233 NumeroDaLinhaReal-->
-            <column name="nY">104</column><!-- 234 NumeroDaLinhaReal-->
-            <column name="nCreatureID">16</column><!-- 235 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 236 NumeroDaLinhaReal-->
-            <column name="nMax">3</column><!-- 237 NumeroDaLinhaReal-->
-            <column name="fWeight">0.5</column><!-- 238 NumeroDaLinhaReal-->
-        </table><!-- 239 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 240 NumeroDaLinhaReal-->
-            <column name="id">21</column><!-- 241 NumeroDaLinhaReal-->
-            <column name="strName">Midland Large Deer Pack</column><!-- 242 NumeroDaLinhaReal-->
-            <column name="nX">42</column><!-- 243 NumeroDaLinhaReal-->
-            <column name="nY">30</column><!-- 244 NumeroDaLinhaReal-->
-            <column name="nCreatureID">8</column><!-- 245 NumeroDaLinhaReal-->
-            <column name="nMin">3</column><!-- 246 NumeroDaLinhaReal-->
-            <column name="nMax">6</column><!-- 247 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 248 NumeroDaLinhaReal-->
-        </table><!-- 249 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 250 NumeroDaLinhaReal-->
-            <column name="id">22</column><!-- 251 NumeroDaLinhaReal-->
-            <column name="strName">Blue Frogs Preacher</column><!-- 252 NumeroDaLinhaReal-->
-            <column name="nX">40</column><!-- 253 NumeroDaLinhaReal-->
-            <column name="nY">108</column><!-- 254 NumeroDaLinhaReal-->
-            <column name="nCreatureID">4</column><!-- 255 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 256 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 257 NumeroDaLinhaReal-->
-            <column name="fWeight">0.2</column><!-- 258 NumeroDaLinhaReal-->
-        </table><!-- 259 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 260 NumeroDaLinhaReal-->
-            <column name="id">23</column><!-- 261 NumeroDaLinhaReal-->
-            <column name="strName">King Elias</column><!-- 262 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 263 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 264 NumeroDaLinhaReal-->
-            <column name="nCreatureID">19</column><!-- 265 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 266 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 267 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 268 NumeroDaLinhaReal-->
-        </table><!-- 269 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 270 NumeroDaLinhaReal-->
-            <column name="id">24</column><!-- 271 NumeroDaLinhaReal-->
-            <column name="strName">King Elias (no destroy)</column><!-- 272 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 273 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 274 NumeroDaLinhaReal-->
-            <column name="nCreatureID">20</column><!-- 275 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 276 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 277 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 278 NumeroDaLinhaReal-->
-        </table><!-- 279 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 280 NumeroDaLinhaReal-->
-            <column name="id">25</column><!-- 281 NumeroDaLinhaReal-->
-            <column name="strName">King Elias (destroyed, to DMC)</column><!-- 282 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 283 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 284 NumeroDaLinhaReal-->
-            <column name="nCreatureID">21</column><!-- 285 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 286 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 287 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 288 NumeroDaLinhaReal-->
-        </table><!-- 289 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 290 NumeroDaLinhaReal-->
-            <column name="id">26</column><!-- 291 NumeroDaLinhaReal-->
-            <column name="strName">Queen Liza (to Clearbone, then Saginaw)</column><!-- 292 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 293 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 294 NumeroDaLinhaReal-->
-            <column name="nCreatureID">22</column><!-- 295 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 296 NumeroDaLinhaReal-->
-            <column name="nMax">1</column><!-- 297 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 298 NumeroDaLinhaReal-->
-        </table><!-- 299 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 300 NumeroDaLinhaReal-->
-            <column name="id">27</column><!-- 301 NumeroDaLinhaReal-->
-            <column name="strName">Martha's Army Soldier 1</column><!-- 302 NumeroDaLinhaReal-->
-            <column name="nX">32</column><!-- 303 NumeroDaLinhaReal-->
-            <column name="nY">69</column><!-- 304 NumeroDaLinhaReal-->
-            <column name="nCreatureID">24</column><!-- 305 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 306 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 307 NumeroDaLinhaReal-->
-            <column name="fWeight">0.6</column><!-- 308 NumeroDaLinhaReal-->
-        </table><!-- 309 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 310 NumeroDaLinhaReal-->
-            <column name="id">28</column><!-- 311 NumeroDaLinhaReal-->
-            <column name="strName">Martha's Army Soldier 2</column><!-- 312 NumeroDaLinhaReal-->
-            <column name="nX">32</column><!-- 313 NumeroDaLinhaReal-->
-            <column name="nY">69</column><!-- 314 NumeroDaLinhaReal-->
-            <column name="nCreatureID">25</column><!-- 315 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 316 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 317 NumeroDaLinhaReal-->
-            <column name="fWeight">0.4</column><!-- 318 NumeroDaLinhaReal-->
-        </table><!-- 319 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 320 NumeroDaLinhaReal-->
-            <column name="id">29</column><!-- 321 NumeroDaLinhaReal-->
-            <column name="strName">Martha's Army Soldier Grayling</column><!-- 322 NumeroDaLinhaReal-->
-            <column name="nX">-1</column><!-- 323 NumeroDaLinhaReal-->
-            <column name="nY">-1</column><!-- 324 NumeroDaLinhaReal-->
-            <column name="nCreatureID">24</column><!-- 325 NumeroDaLinhaReal-->
-            <column name="nMin">4</column><!-- 326 NumeroDaLinhaReal-->
-            <column name="nMax">4</column><!-- 327 NumeroDaLinhaReal-->
-            <column name="fWeight">1</column><!-- 328 NumeroDaLinhaReal-->
-        </table><!-- 329 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 330 NumeroDaLinhaReal-->
-            <column name="id">30</column><!-- 331 NumeroDaLinhaReal-->
-            <column name="strName">Feral Dog Pack (BR, South Central)</column><!-- 332 NumeroDaLinhaReal-->
-            <column name="nX">20</column><!-- 333 NumeroDaLinhaReal-->
-            <column name="nY">158</column><!-- 334 NumeroDaLinhaReal-->
-            <column name="nCreatureID">26</column><!-- 335 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 336 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 337 NumeroDaLinhaReal-->
-            <column name="fWeight">0.33</column><!-- 338 NumeroDaLinhaReal-->
-        </table><!-- 339 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 340 NumeroDaLinhaReal-->
-            <column name="id">31</column><!-- 341 NumeroDaLinhaReal-->
-            <column name="strName">Feral Dog Pack (NF, South Central)</column><!-- 342 NumeroDaLinhaReal-->
-            <column name="nX">20</column><!-- 343 NumeroDaLinhaReal-->
-            <column name="nY">158</column><!-- 344 NumeroDaLinhaReal-->
-            <column name="nCreatureID">27</column><!-- 345 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 346 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 347 NumeroDaLinhaReal-->
-            <column name="fWeight">0.33</column><!-- 348 NumeroDaLinhaReal-->
-        </table><!-- 349 NumeroDaLinhaReal-->
-        <table name="creaturesources"><!-- 350 NumeroDaLinhaReal-->
-            <column name="id">32</column><!-- 351 NumeroDaLinhaReal-->
-            <column name="strName">Feral Dog Pack (BM, South Central)</column><!-- 352 NumeroDaLinhaReal-->
-            <column name="nX">20</column><!-- 353 NumeroDaLinhaReal-->
-            <column name="nY">158</column><!-- 354 NumeroDaLinhaReal-->
-            <column name="nCreatureID">28</column><!-- 355 NumeroDaLinhaReal-->
-            <column name="nMin">1</column><!-- 356 NumeroDaLinhaReal-->
-            <column name="nMax">2</column><!-- 357 NumeroDaLinhaReal-->
-            <column name="fWeight">0.33</column><!-- 358 NumeroDaLinhaReal-->
-        </table><!-- 359 NumeroDaLinhaReal-->
-    </database><!-- 360 NumeroDaLinhaReal-->
-</pma_xml_export><!-- 361 NumeroDaLinhaReal-->
+	<database name="neogame">
+		<!-- Table creaturesources -->
+		<table name="creaturesources">
+			<column name="id">1</column>
+			<column name="strName"></column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">0</column>
+			<column name="nMin">0</column>
+			<column name="nMax">0</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">2</column>
+			<column name="strName">Cryo Dogman</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">1</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">3</column>
+			<column name="strName">Merga Wraith</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">5</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">4</column>
+			<column name="strName">SE Looter</column>
+			<column name="nX">48</column>
+			<column name="nY">164</column>
+			<column name="nCreatureID">2</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">5</column>
+			<column name="strName">SE Looter</column>
+			<column name="nX">48</column>
+			<column name="nY">164</column>
+			<column name="nCreatureID">10</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">6</column>
+			<column name="strName">SE Looter</column>
+			<column name="nX">48</column>
+			<column name="nY">164</column>
+			<column name="nCreatureID">11</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">7</column>
+			<column name="strName">SE Looter</column>
+			<column name="nX">48</column>
+			<column name="nY">164</column>
+			<column name="nCreatureID">12</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">8</column>
+			<column name="strName">SE Looter</column>
+			<column name="nX">48</column>
+			<column name="nY">164</column>
+			<column name="nCreatureID">13</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">9</column>
+			<column name="strName">Blue Frogs Cultist</column>
+			<column name="nX">40</column>
+			<column name="nY">108</column>
+			<column name="nCreatureID">18</column>
+			<column name="nMin">1</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">0.8</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">10</column>
+			<column name="strName">Zom Zom's Bad Mutha</column>
+			<column name="nX">20</column>
+			<column name="nY">148</column>
+			<column name="nCreatureID">3</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">11</column>
+			<column name="strName">SW Enfield Horror</column>
+			<column name="nX">1</column>
+			<column name="nY">192</column>
+			<column name="nCreatureID">7</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">12</column>
+			<column name="strName">Allegan Melonhead</column>
+			<column name="nX">17</column>
+			<column name="nY">124</column>
+			<column name="nCreatureID">6</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">13</column>
+			<column name="strName">Solo Northern Dogman</column>
+			<column name="nX">28</column>
+			<column name="nY">78</column>
+			<column name="nCreatureID">1</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">14</column>
+			<column name="strName">Northtip Dogman Pack</column>
+			<column name="nX">28</column>
+			<column name="nY">2</column>
+			<column name="nCreatureID">1</column>
+			<column name="nMin">2</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">15</column>
+			<column name="strName">Midland Deer Pack</column>
+			<column name="nX">18</column>
+			<column name="nY">100</column>
+			<column name="nCreatureID">8</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">16</column>
+			<column name="strName">Eastern Deer Pack</column>
+			<column name="nX">42</column>
+			<column name="nY">30</column>
+			<column name="nCreatureID">8</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">17</column>
+			<column name="strName">Yezinka</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">9</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">18</column>
+			<column name="strName">DMC Guardaaa</column>
+			<column name="nX">57</column>
+			<column name="nY">192</column>
+			<column name="nCreatureID">14</column>
+			<column name="nMin">2</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">19</column>
+			<column name="strName">ATN Guerreira</column>
+			<column name="nX">26</column>
+			<column name="nY">104</column>
+			<column name="nCreatureID">15</column>
+			<column name="nMin">1</column>
+			<column name="nMax">3</column>
+			<column name="fWeight">0.5</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">20</column>
+			<column name="strName">ATN Guerreiro</column>
+			<column name="nX">26</column>
+			<column name="nY">104</column>
+			<column name="nCreatureID">16</column>
+			<column name="nMin">1</column>
+			<column name="nMax">3</column>
+			<column name="fWeight">0.5</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">21</column>
+			<column name="strName">Midland Large Deer Pack</column>
+			<column name="nX">42</column>
+			<column name="nY">30</column>
+			<column name="nCreatureID">8</column>
+			<column name="nMin">3</column>
+			<column name="nMax">6</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">22</column>
+			<column name="strName">Blue Frogs Preacher</column>
+			<column name="nX">40</column>
+			<column name="nY">108</column>
+			<column name="nCreatureID">4</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">0.2</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">23</column>
+			<column name="strName">King Elias</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">19</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">24</column>
+			<column name="strName">King Elias (no destroy)</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">20</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">25</column>
+			<column name="strName">King Elias (destroyed, to DMC)</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">21</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">26</column>
+			<column name="strName">Queen Liza (to Clearbone, then Saginaw)</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">22</column>
+			<column name="nMin">1</column>
+			<column name="nMax">1</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">27</column>
+			<column name="strName">Martha's Army Soldier 1</column>
+			<column name="nX">32</column>
+			<column name="nY">69</column>
+			<column name="nCreatureID">24</column>
+			<column name="nMin">1</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">0.6</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">28</column>
+			<column name="strName">Martha's Army Soldier 2</column>
+			<column name="nX">32</column>
+			<column name="nY">69</column>
+			<column name="nCreatureID">25</column>
+			<column name="nMin">1</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">0.4</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">29</column>
+			<column name="strName">Martha's Army Soldier Grayling</column>
+			<column name="nX">-1</column>
+			<column name="nY">-1</column>
+			<column name="nCreatureID">24</column>
+			<column name="nMin">4</column>
+			<column name="nMax">4</column>
+			<column name="fWeight">1</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">30</column>
+			<column name="strName">Feral Dog Pack (BR, South Central)</column>
+			<column name="nX">20</column>
+			<column name="nY">158</column>
+			<column name="nCreatureID">26</column>
+			<column name="nMin">1</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">0.33</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">31</column>
+			<column name="strName">Feral Dog Pack (NF, South Central)</column>
+			<column name="nX">20</column>
+			<column name="nY">158</column>
+			<column name="nCreatureID">27</column>
+			<column name="nMin">1</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">0.33</column>
+		</table>
+		<table name="creaturesources">
+			<column name="id">32</column>
+			<column name="strName">Feral Dog Pack (BM, South Central)</column>
+			<column name="nX">20</column>
+			<column name="nY">158</column>
+			<column name="nCreatureID">28</column>
+			<column name="nMin">1</column>
+			<column name="nMax">2</column>
+			<column name="fWeight">0.33</column>
+		</table>
+	</database>
+</pma_xml_export>
