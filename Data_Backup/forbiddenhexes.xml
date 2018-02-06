@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Mar 01, 2016 at 10:12 PM
+- Server version: 5.5.48
+- PHP Version: 5.5.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="neogame" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="forbiddenhexes">
+                CREATE TABLE `forbiddenhexes` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nX` int(5) NOT NULL DEFAULT '0',
+                  `nY` int(5) NOT NULL DEFAULT '0',
+                  `strName` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+        <!-- Table forbiddenhexes -->
+        <table name="forbiddenhexes">
+            <column name="id">1</column>
+            <column name="nX">26</column>
+            <column name="nY">102</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">2</column>
+            <column name="nX">26</column>
+            <column name="nY">103</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">3</column>
+            <column name="nX">26</column>
+            <column name="nY">104</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">4</column>
+            <column name="nX">57</column>
+            <column name="nY">189</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">5</column>
+            <column name="nX">57</column>
+            <column name="nY">191</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">6</column>
+            <column name="nX">58</column>
+            <column name="nY">188</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">7</column>
+            <column name="nX">58</column>
+            <column name="nY">190</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">8</column>
+            <column name="nX">58</column>
+            <column name="nY">192</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">9</column>
+            <column name="nX">58</column>
+            <column name="nY">187</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">10</column>
+            <column name="nX">58</column>
+            <column name="nY">189</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">11</column>
+            <column name="nX">58</column>
+            <column name="nY">191</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">12</column>
+            <column name="nX">58</column>
+            <column name="nY">193</column>
+            <column name="strName">DMC</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">13</column>
+            <column name="nX">25</column>
+            <column name="nY">103</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">14</column>
+            <column name="nX">25</column>
+            <column name="nY">105</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">15</column>
+            <column name="nX">26</column>
+            <column name="nY">105</column>
+            <column name="strName">ATN</column>
+        </table>
+        <table name="forbiddenhexes">
+            <column name="id">16</column>
+            <column name="nX">26</column>
+            <column name="nY">106</column>
+            <column name="strName">ATN</column>
+        </table>
+    </database>
+</pma_xml_export>
