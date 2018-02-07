@@ -1,5 +1,6 @@
 Option Explicit
 
+'100% traduzido
 'Total de ids 61
 Function attackmodes(id, attr, Line)	
 	Select case id
@@ -9,26 +10,36 @@ Function attackmodes(id, attr, Line)
 					Line = Replace(Line, "punch", "Soco")
 				case "strWieldPhrase"
 					Line = Replace(Line, "raises their fists, ready to fight", "levanta os punhos, pronto para lutar")
+				case "vAttackPhrases"
+					Line = Replace(Line, "swings at,jabs at,roundhouses,gut-punches", "movimentos como socos e golpes")
 			End select
 		case 2
 			Select case attr
 				case "strWieldPhrase"
 					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
 			End select
 		case 3
 			Select case attr				
 				case "strWieldPhrase"
 					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
 			End select
 		case 4
 			Select case attr				
 				case "strWieldPhrase"
-					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, alinhando um tiro em")
+					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, pronto para atirar em")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
 			End select
 		case 5
 			Select case attr				
 				case "strWieldPhrase"
-					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, alinhando um tiro em")
+					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, pronto para atirar em")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
 			End select
 		case 6
 			Select case attr
@@ -36,6 +47,8 @@ Function attackmodes(id, attr, Line)
 					Line = Replace(Line, "rifle butt", "coronha do rifle")
 				case "strWieldPhrase"
 					Line = Replace(Line, "changes grip on their .308 hunting rifle, ready to bash", "muda a forma de segurar o rifle de caca .308, pronto para bater")
+				case "vAttackPhrases"
+					Line = Replace(Line, "thrusts the butt of their rifle at,swings the butt of their rifle at,hauls off with their rifle butt on", "usar a coronha de seu rifle em, atacar com coronha de seu rifle em, se afasta com a coronha de rifle em")
 			End select
 		case 7
 			Select case attr
@@ -196,6 +209,104 @@ Function attackmodes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "pistol whip", "coronha da pistola")
 			End select
+		case 44
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sharpened spear stab", "furar com a lanca afiada")
+			End select
+		case 45
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sharpened spear throw", "lancar a lanca afiada")
+			End select
+		case 46
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hardened spear stab", "furar com a lanca endurecida")
+			End select
+		case 47
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hardened spear throw", "lancar a lanca endurecida")
+			End select
+		case 48
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "broad spear stab", "furar com a lanca larga")
+			End select
+		case 49
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "broad spear throw", "lancar a lanca larga")
+			End select
+		case 50
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hoof", "coice")
+				case "strWieldPhrase"
+					Line = Replace(Line, "raises their fists, ready to fight", "se levanta, pronto para lutar")
+				case "vAttackPhrases"
+					Line = Replace(Line, "swings at,jabs at,roundhouses,gut-punches", "movimentos como socos e golpes")
+			End select
+		case 51
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "flashlight", "lanterna")
+				case "strWieldPhrase"
+					Line = Replace(Line, "raises their fists, ready to fight", "levanta lanterna, pronto para lutar")
+				case "vAttackPhrases"
+					Line = Replace(Line, "swings at,jabs at,roundhouses,gut-punches", "movimentos como batidas e golpes")
+			End select
+		case 54
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Anishinaabe bow w/broadhead", "arco Anishinaabe cabeca larga")
+			End select
+		case 55
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Anishinaabe bow w/crude piercing", "arco Anishinaabe bruto/penetrante")
+			End select
+		case 56
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Anishinaabe bow w/crude broadhead", "arco Anishinaabe bruto/cabeca larga")
+			End select
+		case 57
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "war club", "bastao de guerra")
+			End select
+		case 58
+			Select case attr
+				case "strWieldPhrase"
+					Line = Replace(Line, "peers through their Gauss rifle, lining up a shot at", "levanta seu rifle Gauss, pronto para atirar em")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at", "disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em")
+			End select
+		case 59
+			Select case attr
+				case "strWieldPhrase"
+					Line = Replace(Line, "peers through their Gauss rifle, lining up a shot at", "levanta seu rifle Gauss, pronto para atirar em")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at", "disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em")
+			End select
+		case 60
+			Select case attr
+				case "strWieldPhrase"
+					Line = Replace(Line, "peers through their Gauss rifle, lining up a shot at", "levanta seu rifle Gauss, pronto para atirar em")
+				case "vAttackPhrases"
+					Line = Replace(Line, "pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at", "disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em")
+			End select
+		case 61
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bite", "mordida")
+				case "strNotes"
+					Line = Replace(Line, "dog bite", "mordida de cachorro")
+				case "strWieldPhrase"
+					Line = Replace(Line, "brandishes a set of nasty-looking claws, ready to tear at", "mostrou um conjunto de dentes de aparencia desagradavel, prontas para rasgar")
+			End select		
 	End select
 	attackmodes = CStr(Line)
 End Function

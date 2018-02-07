@@ -58,8 +58,8 @@
 			<column name="vAttackerConditions"></column>
 			<column name="strIMG">AModePunch.png</column>
 			<column name="fMorale">0.05</column>
-			<column name="strWieldPhrase">Levanta os punhos, pronto para lutar</column>
-			<column name="vAttackPhrases">swings at,jabs at,roundhouses,gut-punches</column>
+			<column name="strWieldPhrase">levanta os punhos, pronto para lutar</column>
+			<column name="vAttackPhrases">movimentos como socos e golpes</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">2</column>
@@ -77,7 +77,7 @@
 			<column name="strIMG">AMode308.png</column>
 			<column name="fMorale">0.4</column>
 			<column name="strWieldPhrase">prepara seu rifle de caca .308</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their .308 at,takes a shot at,fires at</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">3</column>
@@ -95,7 +95,7 @@
 			<column name="strIMG">AMode308.png</column>
 			<column name="fMorale">0.4</column>
 			<column name="strWieldPhrase">prepara seu rifle de caca .308</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their .308 at,takes a shot at,fires at</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">4</column>
@@ -112,8 +112,8 @@
 			<column name="vAttackerConditions">211x1.0</column>
 			<column name="strIMG">AMode308Scoped.png</column>
 			<column name="fMorale">0.5</column>
-			<column name="strWieldPhrase">levanta seu .308, alinhando um tiro em</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their .308 at,takes a shot at,fires at</column>
+			<column name="strWieldPhrase">levanta seu .308, pronto para atirar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">5</column>
@@ -130,8 +130,8 @@
 			<column name="vAttackerConditions">211x1.0</column>
 			<column name="strIMG">AMode308Scoped.png</column>
 			<column name="fMorale">0.5</column>
-			<column name="strWieldPhrase">levanta seu .308, alinhando um tiro em</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their .308 at,takes a shot at,fires at</column>
+			<column name="strWieldPhrase">levanta seu .308, pronto para atirar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">6</column>
@@ -149,7 +149,7 @@
 			<column name="strIMG">AMode308Butt.png</column>
 			<column name="fMorale">0.25</column>
 			<column name="strWieldPhrase">muda a forma de segurar o rifle de caca .308, pronto para bater</column>
-			<column name="vAttackPhrases">thrusts the butt of their rifle at,swings the butt of their rifle at,hauls off with their rifle butt on</column>
+			<column name="vAttackPhrases">usar a coronha de seu rifle em, atacar com coronha de seu rifle em, se afasta com a coronha de rifle em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">7</column>
@@ -171,7 +171,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">8</column>
-			<column name="strName">Cutelo</column>
+			<column name="strName">cutelo</column>
 			<column name="strNotes"></column>
 			<column name="nRange">1</column>
 			<column name="fDamageCut">1.2</column>
@@ -207,7 +207,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">10</column>
-			<column name="strName">galho</column>
+			<column name="strName">bastao</column>
 			<column name="strNotes"></column>
 			<column name="nRange">2</column>
 			<column name="fDamageCut">0.2</column>
@@ -819,7 +819,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">44</column>
-			<column name="strName">sharpened spear stab</column>
+			<column name="strName">furar com a lanca afiada</column>
 			<column name="strNotes"></column>
 			<column name="nRange">3</column>
 			<column name="fDamageCut">0.8</column>
@@ -837,7 +837,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">45</column>
-			<column name="strName">sharpened spear throw</column>
+			<column name="strName">lancar a lanca afiada</column>
 			<column name="strNotes"></column>
 			<column name="nRange">10</column>
 			<column name="fDamageCut">0.8</column>
@@ -855,7 +855,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">46</column>
-			<column name="strName">hardened spear stab</column>
+			<column name="strName">furar com a lanca endurecida</column>
 			<column name="strNotes"></column>
 			<column name="nRange">3</column>
 			<column name="fDamageCut">0.8</column>
@@ -873,7 +873,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">47</column>
-			<column name="strName">hardened spear throw</column>
+			<column name="strName">lancar a lanca endurecida</column>
 			<column name="strNotes"></column>
 			<column name="nRange">10</column>
 			<column name="fDamageCut">0.8</column>
@@ -891,7 +891,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">48</column>
-			<column name="strName">broad spear stab</column>
+			<column name="strName">furar com a lanca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">3</column>
 			<column name="fDamageCut">1</column>
@@ -909,7 +909,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">49</column>
-			<column name="strName">broad spear throw</column>
+			<column name="strName">lancar a lanca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">10</column>
 			<column name="fDamageCut">0.8</column>
@@ -927,7 +927,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">50</column>
-			<column name="strName">hoof</column>
+			<column name="strName">coice</column>
 			<column name="strNotes"></column>
 			<column name="nRange">1</column>
 			<column name="fDamageCut">0</column>
@@ -940,12 +940,12 @@
 			<column name="vAttackerConditions"></column>
 			<column name="strIMG">blank.png</column>
 			<column name="fMorale">0</column>
-			<column name="strWieldPhrase">raises their fists, ready to fight</column>
-			<column name="vAttackPhrases">swings at,jabs at,roundhouses,gut-punches</column>
+			<column name="strWieldPhrase">se levanta, pronto para lutar</column>
+			<column name="vAttackPhrases">movimentos como socos e golpes</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">51</column>
-			<column name="strName">flashlight</column>
+			<column name="strName">lanterna</column>
 			<column name="strNotes"></column>
 			<column name="nRange">1</column>
 			<column name="fDamageCut">0</column>
@@ -958,8 +958,8 @@
 			<column name="vAttackerConditions"></column>
 			<column name="strIMG">AModeFlashlight.png</column>
 			<column name="fMorale">0</column>
-			<column name="strWieldPhrase">raises their fists, ready to fight</column>
-			<column name="vAttackPhrases">swings at,jabs at,roundhouses,gut-punches</column>
+			<column name="strWieldPhrase">levanta lanterna, pronto para lutar</column>
+			<column name="vAttackPhrases">movimentos como batidas e golpes</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">52</column>
@@ -999,7 +999,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">54</column>
-			<column name="strName">Anishinaabe bow w/broadhead</column>
+			<column name="strName">arco Anishinaabe cabeca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">30</column>
 			<column name="fDamageCut">0.8</column>
@@ -1017,7 +1017,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">55</column>
-			<column name="strName">Anishinaabe bow w/crude piercing</column>
+			<column name="strName">arco Anishinaabe bruto/penetrante</column>
 			<column name="strNotes"></column>
 			<column name="nRange">30</column>
 			<column name="fDamageCut">0.8</column>
@@ -1035,7 +1035,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">56</column>
-			<column name="strName">Anishinaabe bow w/crude broadhead</column>
+			<column name="strName">arco Anishinaabe bruto/cabeca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">30</column>
 			<column name="fDamageCut">0.8</column>
@@ -1053,7 +1053,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">57</column>
-			<column name="strName">war club</column>
+			<column name="strName">bastao de guerra</column>
 			<column name="strNotes"></column>
 			<column name="nRange">2</column>
 			<column name="fDamageCut">0</column>
@@ -1084,8 +1084,8 @@
 			<column name="vAttackerConditions">211x1.0</column>
 			<column name="strIMG">AMode4mm.png</column>
 			<column name="fMorale">0.6</column>
-			<column name="strWieldPhrase">peers through their Gauss rifle, lining up a shot at</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at</column>
+			<column name="strWieldPhrase">levanta seu rifle Gauss, pronto para atirar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">59</column>
@@ -1102,8 +1102,8 @@
 			<column name="vAttackerConditions">211x1.0</column>
 			<column name="strIMG">AMode4mm.png</column>
 			<column name="fMorale">0.6</column>
-			<column name="strWieldPhrase">peers through their Gauss rifle, lining up a shot at</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at</column>
+			<column name="strWieldPhrase">levanta seu rifle Gauss, pronto para atirar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">60</column>
@@ -1120,13 +1120,13 @@
 			<column name="vAttackerConditions">211x1.0</column>
 			<column name="strIMG">AMode4mmScoped.png</column>
 			<column name="fMorale">0.6</column>
-			<column name="strWieldPhrase">peers through their Gauss rifle, lining up a shot at</column>
-			<column name="vAttackPhrases">pops a shot off at,fires their Gauss rifle at,takes a shot at,fires at</column>
+			<column name="strWieldPhrase">levanta seu rifle Gauss, pronto para atirar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu rifle Gauss, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">61</column>
-			<column name="strName">bite</column>
-			<column name="strNotes">dog bite</column>
+			<column name="strName">mordida</column>
+			<column name="strNotes">mordida de cachorro</column>
 			<column name="nRange">1</column>
 			<column name="fDamageCut">0.4</column>
 			<column name="fDamageBlunt">0.1</column>
@@ -1138,7 +1138,7 @@
 			<column name="vAttackerConditions"></column>
 			<column name="strIMG">blank.png</column>
 			<column name="fMorale">0.25</column>
-			<column name="strWieldPhrase">brandishes a set of nasty-looking claws, ready to tear at</column>
+			<column name="strWieldPhrase">mostrou um conjunto de dentes de aparencia desagradavel, prontas para rasgar</column>
 			<column name="vAttackPhrases"></column>
 		</table>
 	</database>
