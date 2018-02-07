@@ -39,7 +39,7 @@
 		<!-- Table camptypes -->
 		<table name="camptypes">
 			<column name="id">1</column>
-			<column name="strDesc">any old spot on the ground</column>
+			<column name="strDesc">um campo aberto</column>
 			<column name="vImageList">ItmScavengeGrass01.png</column>
 			<column name="aCapacities">34x26</column>
 			<column name="nTreasureID">3</column>
@@ -51,7 +51,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">2</column>
-			<column name="strDesc">a 5x10 unit in a U-Stash-It self-storage facility</column>
+			<column name="strDesc">um armazem pequeno</column>
 			<column name="vImageList">ItmScavengeGarage01.png</column>
 			<column name="aCapacities">17x26</column>
 			<column name="nTreasureID">3</column>
@@ -63,7 +63,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">3</column>
-			<column name="strDesc">O Bosque</column>
+			<column name="strDesc">uma floresta</column>
 			<column name="vImageList">ItmScavengeForest01.png</column>
 			<column name="aCapacities">22x26</column>
 			<column name="nTreasureID">3</column>
@@ -75,7 +75,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">4</column>
-			<column name="strDesc">a dense thicket of trees</column>
+			<column name="strDesc">uma floresta densa</column>
 			<column name="vImageList">ItmScavengeForest01.png</column>
 			<column name="aCapacities">15x20</column>
 			<column name="nTreasureID">3</column>
@@ -87,7 +87,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">5</column>
-			<column name="strDesc">Um apartamento queimado</column>
+			<column name="strDesc">um apartamento queimado</column>
 			<column name="vImageList">ItmScavengeApt01.png</column>
 			<column name="aCapacities">20x25</column>
 			<column name="nTreasureID">3</column>
@@ -99,7 +99,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">6</column>
-			<column name="strDesc">a ruined bungalow</column>
+			<column name="strDesc">um bangalo destruida</column>
 			<column name="vImageList">ItmScavengeHouse01.png</column>
 			<column name="aCapacities">20x25</column>
 			<column name="nTreasureID">3</column>
@@ -111,7 +111,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">7</column>
-			<column name="strDesc">an abandoned IT office</column>
+			<column name="strDesc">um escritorio de TI abandonado</column>
 			<column name="vImageList">ItmScavengeOffice01.png</column>
 			<column name="aCapacities">17x26</column>
 			<column name="nTreasureID">3</column>
@@ -123,7 +123,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">8</column>
-			<column name="strDesc">Exam Room 17</column>
+			<column name="strDesc">sala de exame 17</column>
 			<column name="vImageList">ItmScavengeCryo01.png</column>
 			<column name="aCapacities">17x26</column>
 			<column name="nTreasureID">163</column>
@@ -135,7 +135,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">9</column>
-			<column name="strDesc">a burnt shell of a building</column>
+			<column name="strDesc">uns edificios queimados</column>
 			<column name="vImageList">ItmScavengeGBS01.png</column>
 			<column name="aCapacities">15x20</column>
 			<column name="nTreasureID">3</column>
@@ -147,7 +147,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">10</column>
-			<column name="strDesc">Clearbone Valley Basement</column>
+			<column name="strDesc">Base de Clearbone Valley</column>
 			<column name="vImageList">ItmScavengeClearbone.png</column>
 			<column name="aCapacities">17x26</column>
 			<column name="nTreasureID">615</column>
@@ -159,7 +159,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">11</column>
-			<column name="strDesc">a pickup truck</column>
+			<column name="strDesc">uma caminhonete</column>
 			<column name="vImageList">ItmScavengeCar03.png</column>
 			<column name="aCapacities">15x20</column>
 			<column name="nTreasureID">734</column>
@@ -171,7 +171,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">12</column>
-			<column name="strDesc">a hatchback</column>
+			<column name="strDesc">um Hatchback(carro/compartilhado/Bom armazenamento)</column>
 			<column name="vImageList">ItmScavengeCar02.png</column>
 			<column name="aCapacities">12x16</column>
 			<column name="nTreasureID">735</column>
@@ -183,7 +183,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">13</column>
-			<column name="strDesc">a full-size van</column>
+			<column name="strDesc">uma van de tamanho grande</column>
 			<column name="vImageList">ItmScavengeCar01.png</column>
 			<column name="aCapacities">15x20</column>
 			<column name="nTreasureID">735</column>
@@ -195,7 +195,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">14</column>
-			<column name="strDesc">open ground near a communal trash fire</column>
+			<column name="strDesc">terreno aberto com tambor de lixo(fogueira)</column>
 			<column name="vImageList">ItmScavengeSprawl01.png</column>
 			<column name="aCapacities">20x25</column>
 			<column name="nTreasureID">754</column>

@@ -1210,15 +1210,75 @@ End Function
 'Total de ids 14
 Function camptypes(id, attr, Line)		
 	Select case id
+		case 1
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "any old spot on the ground", "um campo aberto")
+			End select
+		case 2
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a 5x10 unit in a U-Stash-It self-storage facility", "um armazem pequeno")
+			End select
 		case 3
 			Select case attr
 				case "strDesc"
-					Line = Replace(Line, "the woods", "O Bosque")
+					Line = Replace(Line, "the woods", "uma floresta")
+			End select
+		case 4
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a dense thicket of trees", "uma floresta densa")
 			End select
 		case 5
 			Select case attr
 				case "strDesc"
-					Line = Replace(Line, "a burned-out apartment", "Um apartamento queimado")					
+					Line = Replace(Line, "a burned-out apartment", "um apartamento queimado")					
+			End select
+		case 6
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a ruined bungalow", "um bangalo destruida")					
+			End select
+		case 7
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "an abandoned IT office", "um escritorio de TI abandonado")				
+			End select
+		case 8
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "Exam Room 17", "sala de exame 17")				
+			End select
+		case 9
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a burnt shell of a building", "uns edificios queimados")			
+			End select
+		case 10
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "Clearbone Valley Basement", "Base de Clearbone Valley")			
+			End select
+		case 11
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a pickup truck", "uma caminhonete")			
+			End select
+		case 12
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a hatchback", "um Hatchback(carro/compartilhado/Bom armazenamento)")	
+			End select
+		case 13
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "a full-size van", "uma van de tamanho grande")	
+			End select
+		case 14
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "open ground near a communal trash fire", "terreno aberto com tambor de lixo(fogueira)")	
 			End select
 	End select
 	camptypes = CStr(Line)
