@@ -8,7 +8,193 @@ Function attackmodes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "punch", "Soco")
 				case "strWieldPhrase"
-					Line = Replace(Line, "raises their fists, ready to fight", "Levanta os punhos, pronto para lutar")
+					Line = Replace(Line, "raises their fists, ready to fight", "levanta os punhos, pronto para lutar")
+			End select
+		case 2
+			Select case attr
+				case "strWieldPhrase"
+					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
+			End select
+		case 3
+			Select case attr				
+				case "strWieldPhrase"
+					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
+			End select
+		case 4
+			Select case attr				
+				case "strWieldPhrase"
+					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, alinhando um tiro em")
+			End select
+		case 5
+			Select case attr				
+				case "strWieldPhrase"
+					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, alinhando um tiro em")
+			End select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "rifle butt", "coronha do rifle")
+				case "strWieldPhrase"
+					Line = Replace(Line, "changes grip on their .308 hunting rifle, ready to bash", "muda a forma de segurar o rifle de caca .308, pronto para bater")
+			End select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "claw", "garra")
+				case "strWieldPhrase"
+					Line = Replace(Line, "brandishes a set of nasty-looking claws, ready to tear at", "brandiu um conjunto de garras de aparencia desagradavel, prontas para rasgar")
+			End select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "meat cleaver", "cutelo")
+			End select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "monkey wrench", "chave inglesa")
+			End select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stick", "bastao")
+			End select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "crowbar", "pe de cabra")
+			End select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "multitool blade", "canivete multi-ferramentas")
+			End select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "high setting", "configuracao alta")
+			End select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "low setting", "configuracao baixa")
+			End select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "metal sauce pan", "panela de metal")
+			End select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "silence the rasping thing", "silencia-lo com capuz")
+			End select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "grasp", "apertar")
+				case "strWieldPhrase"
+					Line = Replace(Line, "reaches for", "apertalo")
+			End select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "large stick", "bastao grande")
+			End select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "glass bottle", "garrafa de vidro")
+			End select
+		case 20
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "shard", "caco de vidro")
+			End select
+		case 21
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "broken bottle", "garrafa quebrada")
+			End select
+		case 22
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "glass shiv", "vidro enrolado")
+			End select
+		case 23
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "simple bow w/broadhead", "arco cabeca larga")
+			End select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "simple bow w/crude piercing", "arco bruto/penetrante")
+			End select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "simple bow w/crude broadhead", "arco bruto/cabeca larga")
+			End select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "compound bow w/broadhead", "arco profissional cabeca larga")
+			End select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "compound bow w/crude piercing", "arco profissional bruto/penetrante")
+			End select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "compound bow w/crude broadhead", "arco profissional bruto/cabeca larga")
+			End select
+		case 29
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "arrow stab: broadhead", "flexa: cabeca larga")
+			End select
+		case 30
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "arrow stab: crude piercing", "flexa: bruto/penetrante")
+			End select
+		case 31
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "arrow stab: crude broadhead", "flexa: bruto/cabeca larga")
+			End select
+		case 32
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "thrown pebble", "jogar seixos")
+			End select
+		case 33
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "thrown stone", "jogar pedras")
+			End select
+		case 34
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "slung pebble", "atirar seixos")
+			End select
+		case 35
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "slung stone", "atirar pedras")
+			End select
+		case 38
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stone smash", "esmagar pedras")
+			End select
+		case 39
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pistol whip", "coronha da pistola")
 			End select
 	End select
 	attackmodes = CStr(Line)
