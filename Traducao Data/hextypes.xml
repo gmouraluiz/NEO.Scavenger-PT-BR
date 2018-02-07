@@ -81,8 +81,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">3</column>
-			<column name="strName">sand</column>
-			<column name="strDesc">flat area of dirt</column>
+			<column name="strName">areia</column>
+			<column name="strDesc">terreno plano de areia</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -99,8 +99,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">4</column>
-			<column name="strName">plains</column>
-			<column name="strDesc">flat grassland</column>
+			<column name="strName">planicies</column>
+			<column name="strDesc">pastagem plana</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -117,8 +117,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">5</column>
-			<column name="strName">forest</column>
-			<column name="strDesc">forested area</column>
+			<column name="strName">floresta</column>
+			<column name="strDesc">area florestal</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -135,8 +135,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">6</column>
-			<column name="strName">hill</column>
-			<column name="strDesc">hills or foothills</column>
+			<column name="strName">colina</column>
+			<column name="strDesc">colinas ou cadeias de montanhas</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">1</column>
@@ -153,8 +153,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">7</column>
-			<column name="strName">mountain</column>
-			<column name="strDesc">high mountains</column>
+			<column name="strName">montanha</column>
+			<column name="strDesc">montanhas altas</column>
 			<column name="nTerrainCost">11</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -207,8 +207,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">10</column>
-			<column name="strName">urban ruins (skyscraper)</column>
-			<column name="strDesc">abandoned high-rise buildings</column>
+			<column name="strName">ruinas urbanas (arranha-ceu)</column>
+			<column name="strDesc">edificios altos abandonados</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -225,8 +225,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">11</column>
-			<column name="strName">forest shack</column>
-			<column name="strDesc">secluded shack in the woods</column>
+			<column name="strName">cabana na floresta</column>
+			<column name="strDesc">barraca isolada na floresta</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -243,8 +243,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">12</column>
-			<column name="strName">urban ruins</column>
-			<column name="strDesc">abandoned buildings</column>
+			<column name="strName">ruinas urbanas</column>
+			<column name="strDesc">edificios abandonados</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -261,8 +261,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">13</column>
-			<column name="strName">megacity walls N</column>
-			<column name="strDesc">megacity walls N</column>
+			<column name="strName">paredes N de megacity</column>
+			<column name="strDesc">paredes N de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -279,8 +279,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">14</column>
-			<column name="strName">tent city</column>
-			<column name="strDesc">tent city</column>
+			<column name="strName">barracas da cidade</column>
+			<column name="strDesc">barracas da cidade</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -297,8 +297,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">15</column>
-			<column name="strName">tent city bazaar</column>
-			<column name="strDesc">tent city bazaar</column>
+			<column name="strName">bazar de barracas da cidade</column>
+			<column name="strDesc">bazar de barracas da cidade</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -315,8 +315,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">16</column>
-			<column name="strName">rubble</column>
-			<column name="strDesc">piles of rubble from what was a city</column>
+			<column name="strName">destrocos/entulho</column>
+			<column name="strDesc">pilhas de entulho daquilo que era uma cidade</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -333,8 +333,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">17</column>
-			<column name="strName">megacity gates</column>
-			<column name="strDesc">megacity gates</column>
+			<column name="strName">portoes de megacity</column>
+			<column name="strDesc">portoes de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -351,8 +351,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">18</column>
-			<column name="strName">megacity walls SE</column>
-			<column name="strDesc">megacity walls SE</column>
+			<column name="strName">paredes SE de megacity</column>
+			<column name="strDesc">paredes SE de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -369,8 +369,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">19</column>
-			<column name="strName">megacity walls NE/N</column>
-			<column name="strDesc">megacity walls NE/N</column>
+			<column name="strName">paredes NE/N de megacity</column>
+			<column name="strDesc">paredes NE/N de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -387,8 +387,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">20</column>
-			<column name="strName">megacity walls NE</column>
-			<column name="strDesc">megacity walls NE</column>
+			<column name="strName">paredes NE de megacity</column>
+			<column name="strDesc">paredes NE de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -405,8 +405,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">21</column>
-			<column name="strName">megacity midtown</column>
-			<column name="strDesc">megacity midtown</column>
+			<column name="strName">centro de megacity</column>
+			<column name="strDesc">centro de megacity</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -423,8 +423,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">22</column>
-			<column name="strName">hill (Clearbone Valley)</column>
-			<column name="strDesc">hills or foothills</column>
+			<column name="strName">colina (Clearbone Valley)</column>
+			<column name="strDesc">colinas ou cadeias de montanhas</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">1</column>
@@ -441,8 +441,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">23</column>
-			<column name="strName">testplains</column>
-			<column name="strDesc">testflat grassland</column>
+			<column name="strName">planicies de test</column>
+			<column name="strDesc">planicies de test ou pastagem</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -459,8 +459,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">24</column>
-			<column name="strName">testplains</column>
-			<column name="strDesc">testflat grassland</column>
+			<column name="strName">planicies de test</column>
+			<column name="strDesc">planicies de test ou pastagem</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -477,8 +477,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">25</column>
-			<column name="strName">testplains</column>
-			<column name="strDesc">testflat grassland</column>
+			<column name="strName">planicies de test</column>
+			<column name="strDesc">planicies de test ou pastagem</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -495,8 +495,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">26</column>
-			<column name="strName">hill (water)</column>
-			<column name="strDesc">hills or foothills with water</column>
+			<column name="strName">colina (agua)</column>
+			<column name="strDesc">colinas ou montes com agua</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">1</column>
@@ -513,8 +513,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">27</column>
-			<column name="strName">marsh</column>
-			<column name="strDesc">marshlands</column>
+			<column name="strName">pantano</column>
+			<column name="strDesc">pantanos</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -531,8 +531,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">28</column>
-			<column name="strName">plains (water)</column>
-			<column name="strDesc">flat grassland with water</column>
+			<column name="strName">planicies (agua)</column>
+			<column name="strDesc">pastagem plana com agua</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -549,8 +549,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">29</column>
-			<column name="strName">great black swamp</column>
-			<column name="strDesc">Great Black Swamp</column>
+			<column name="strName">grande pantano preto</column>
+			<column name="strDesc">Grande pantano negro</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">1</column>
 			<column name="nVizIncrease">0</column>
@@ -568,7 +568,7 @@
 		<table name="hextypes">
 			<column name="id">30</column>
 			<column name="strName">Zom Zom's</column>
-			<column name="strDesc">Zom Zom's, a place to eat</column>
+			<column name="strDesc">Zom Zom's, um lugar para comer</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>
@@ -585,8 +585,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">31</column>
-			<column name="strName">strange forest</column>
-			<column name="strDesc">strange forest</column>
+			<column name="strName">estranha floresta</column>
+			<column name="strDesc">estranha floresta</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -603,8 +603,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">32</column>
-			<column name="strName">isotope mine</column>
-			<column name="strDesc">isotope mine</column>
+			<column name="strName">minas de isotopo</column>
+			<column name="strDesc">minas de isotopo</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">1</column>
@@ -621,8 +621,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">33</column>
-			<column name="strName">Allegan Fairgrounds</column>
-			<column name="strDesc">Allegan Fairgrounds</column>
+			<column name="strName">Allegan Parques de diversoes</column>
+			<column name="strDesc">Allegan Parques de diversoes</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">1</column>
 			<column name="nVizIncrease">0</column>
@@ -639,8 +639,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">34</column>
-			<column name="strName">Anishinabe Tribal Nation</column>
-			<column name="strDesc">Anishinabe Tribal Nation</column>
+			<column name="strName">Nacao Tribal Indigina</column>
+			<column name="strDesc">Nacao Tribal Indigina</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -657,8 +657,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">35</column>
-			<column name="strName">Saginaw Mental Institute</column>
-			<column name="strDesc">Saginaw Mental Institute</column>
+			<column name="strName">Instituto Mental Saginaw</column>
+			<column name="strDesc">Instituto Mental Saginaw</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -675,8 +675,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">36</column>
-			<column name="strName">Camp Grayling</column>
-			<column name="strDesc">Camp Grayling</column>
+			<column name="strName">Acampamento Grayling</column>
+			<column name="strDesc">Acampamento Grayling</column>
 			<column name="nTerrainCost">2</column>
 			<column name="nVizLimiter">2</column>
 			<column name="nVizIncrease">0</column>
@@ -693,8 +693,8 @@
 		</table>
 		<table name="hextypes">
 			<column name="id">37</column>
-			<column name="strName">plains</column>
-			<column name="strDesc">flat grassland</column>
+			<column name="strName">planicies</column>
+			<column name="strDesc">pastagem plana</column>
 			<column name="nTerrainCost">1</column>
 			<column name="nVizLimiter">0</column>
 			<column name="nVizIncrease">0</column>

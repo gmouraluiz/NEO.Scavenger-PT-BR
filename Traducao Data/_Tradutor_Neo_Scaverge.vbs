@@ -2760,6 +2760,41 @@ Function hextypes(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "shallow water", "aguas rasas")
 			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sand", "areia")
+				case "strDesc"
+					Line = Replace(Line, "flat area of dirt", "terreno plano de areia")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "plains", "planicies")
+				case "strDesc"
+					Line = Replace(Line, "flat grassland", "pastagem plana")
+			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "forest", "floresta")
+				case "strDesc"
+					Line = Replace(Line, "forested area", "area florestal")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hill", "colina")
+				case "strDesc"
+					Line = Replace(Line, "hills or foothills", "colinas ou cadeias de montanhas")
+			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "mountain", "montanha")
+				case "strDesc"
+					Line = Replace(Line, "high mountains", "montanhas altas")
+			End Select		
 		case 8
 			Select case attr
 				case "strName"
@@ -2773,6 +2808,200 @@ Function hextypes(id, attr, Line)
 					Line = Replace(Line, "cryo facility", "cryo-facility")
 				case "strDesc"
 					Line = Replace(Line, "cryogenics lab where player wakes up", "Laboratorio de criogenia onde o jogador acordou")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "urban ruins (skyscraper)", "ruinas urbanas (arranha-ceu)")
+				case "strDesc"
+					Line = Replace(Line, "abandoned high-rise buildings", "edificios altos abandonados")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "forest shack", "cabana na floresta")
+				case "strDesc"
+					Line = Replace(Line, "secluded shack in the woods", "barraca isolada na floresta")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "urban ruins", "ruinas urbanas")
+				case "strDesc"
+					Line = Replace(Line, "abandoned buildings", "edificios abandonados")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity walls N", "paredes N de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity walls N", "paredes N de megacity")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tent city", "barracas da cidade")
+				case "strDesc"
+					Line = Replace(Line, "tent city", "barracas da cidade")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tent city bazaar", "bazar de barracas da cidade")
+				case "strDesc"
+					Line = Replace(Line, "tent city bazaar", "bazar de barracas da cidade")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "rubble", "destrocos/entulho")
+				case "strDesc"
+					Line = Replace(Line, "piles of rubble from what was a city", "pilhas de entulho daquilo que era uma cidade")
+			End Select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity gates", "portoes de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity gates", "portoes de megacity")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity walls SE", "paredes SE de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity walls SE", "paredes SE de megacity")
+			End Select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity walls NE/N", "paredes NE/N de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity walls NE/N", "paredes NE/N de megacity")
+			End Select
+		case 20
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity walls NE", "paredes NE de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity walls NE", "paredes NE de megacity")
+			End Select
+		case 21
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "megacity midtown", "centro de megacity")
+				case "strDesc"
+					Line = Replace(Line, "megacity midtown", "centro de megacity")
+			End Select
+		case 22
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hill (Clearbone Valley)", "colina (Clearbone Valley)")
+				case "strDesc"
+					Line = Replace(Line, "hills or foothills", "colinas ou cadeias de montanhas")
+			End Select
+		case 23
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "testplains", "planicies de test")
+				case "strDesc"
+					Line = Replace(Line, "testflat grassland", "planicies de test ou pastagem")
+			End Select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "testplains", "planicies de test")
+				case "strDesc"
+					Line = Replace(Line, "testflat grassland", "planicies de test ou pastagem")
+			End Select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "testplains", "planicies de test")
+				case "strDesc"
+					Line = Replace(Line, "testflat grassland", "planicies de test ou pastagem")
+			End Select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "hill (water)", "colina (agua)")
+				case "strDesc"
+					Line = Replace(Line, "hills or foothills with water", "colinas ou montes com agua")
+			End Select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "marsh", "pantano")
+				case "strDesc"
+					Line = Replace(Line, "marshlands", "pantanos")
+			End Select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "plains (water)", "planicies (agua)")
+				case "strDesc"
+					Line = Replace(Line, "flat grassland with water", "pastagem plana com agua")
+			End Select
+		case 29
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "great black swamp", "grande pantano preto")
+				case "strDesc"
+					Line = Replace(Line, "Great Black Swamp", "Grande pantano negro")
+			End Select
+		case 30
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "Zom Zom's, a place to eat", "Zom Zom's, um lugar para comer")
+			End Select
+		case 31
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "strange forest", "estranha floresta")
+				case "strDesc"
+					Line = Replace(Line, "strange forest", "estranha floresta")
+			End Select
+		case 32
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "isotope mine", "minas de isotopo")
+				case "strDesc"
+					Line = Replace(Line, "isotope mine", "minas de isotopo")
+			End Select
+		case 33
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fairgrounds", "Parques de diversoes")
+				case "strDesc"
+					Line = Replace(Line, "Fairgrounds", "Parques de diversoes")
+			End Select
+		case 34
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Anishinabe Tribal Nation", "Nacao Tribal Indigina")
+				case "strDesc"
+					Line = Replace(Line, "Anishinabe Tribal Nation", "Nacao Tribal Indigina")
+			End Select
+		case 35
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Saginaw Mental Institute", "Instituto Mental Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "Saginaw Mental Institute", "Instituto Mental Saginaw")
+			End Select
+		case 36
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Camp Grayling", "Acampamento Grayling")
+				case "strDesc"
+					Line = Replace(Line, "Camp Grayling", "Acampamento Grayling")
+			End Select
+		case 37
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "plains", "planicies")
+				case "strDesc"
+					Line = Replace(Line, "flat grassland", "pastagem plana")
 			End Select		
 	End Select
 	hextypes = CStr(Line)
