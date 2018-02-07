@@ -1287,28 +1287,124 @@ Function camptypes(id, attr, Line)
 	camptypes = CStr(Line)
 End Function
 
+'99% traduzido
 'Total de ids 32
 Function chargeprofiles(id, attr, Line)	
 	Select case id
+		case 1
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "nanomedkit electricity", "Nano Kit Medico Eletrico")
+			End Select
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "nanomedkit refill", "Nano Kit Medico refill")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "night vision goggles electricity", "Oculos de visao noturna eletrico")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "high setting", "configuracao alta")
+			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "low setting", "configuracao baixa")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "broadhead arrow", "flexa de cabeca larga")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "crude pierce arrow", "flecha bruto/penetrante")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "crude broad arrow", "flecha bruto/cabeca larga")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pebble", "seixo")
+			End Select
 		case 12
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "stone", "Pedra")
+					Line = Replace(Line, "stone", "pedra")
 			End Select
 		case 19
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "sharp spear", "Lanca Afiada")
+					Line = Replace(Line, "sharp spear", "lanca afiada")
 			End Select
 		case 20
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "hard spear", "Lanca Endurecida")
+					Line = Replace(Line, "hard spear", "lanca endurecida")
 			End Select
 		case 21
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "broad spear", "Lanca Longa")	
+					Line = Replace(Line, "broad spear", "lanca longa")	
+			End Select
+		case 22
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "flashlight electricity", "lanterna eletrica")	
+			End Select
+		case 23
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "laptop electricity", "laptop eletrico")	
+			End Select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "iSlab electricity", "iSlab(tablet) eletrico")	
+			End Select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "smartphone electricity", "smartphone eletrico")	
+			End Select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "cellphone electricity", "celular eletrico")	
+			End Select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "1 electric charge per use", "1 carga eletrica por uso")	
+			End Select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "gain 10 electric charges per hour", "ganhe 10 cargas eletricas por hora")
+			End Select
+		case 29
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "12 electric charge per use", "12 cargas eletricas por uso")
+			End Select
+		case 30
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "gain 40 electric charges per use", "ganhe 40 cargas eletricas por uso")
+			End Select
+		case 32
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "200% XM54 cartridge used per day equipped", "200% de cartucho XM54 equipado por dia")
 			End Select
 	End Select
 	chargeprofiles = CStr(Line)

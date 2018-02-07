@@ -37,7 +37,7 @@
 		<!-- Table chargeprofiles -->
 		<table name="chargeprofiles">
 			<column name="nID">1</column>
-			<column name="strName">nanomedkit electricity</column>
+			<column name="strName">Nano Kit Medico Eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -47,7 +47,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">2</column>
-			<column name="strName">nanomedkit refill</column>
+			<column name="strName">Nano Kit Medico refill</column>
 			<column name="strItemID">94.1</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -57,7 +57,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">3</column>
-			<column name="strName">night vision goggles electricity</column>
+			<column name="strName">Oculos de visao noturna eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">1</column>
@@ -87,7 +87,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">6</column>
-			<column name="strName">LAR-10 high setting</column>
+			<column name="strName">LAR-10 configuracao alta</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">10</column>
 			<column name="fPerHour">0</column>
@@ -97,7 +97,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">7</column>
-			<column name="strName">LAR-10 low setting</column>
+			<column name="strName">LAR-10 configuracao baixa</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">4</column>
 			<column name="fPerHour">0</column>
@@ -107,7 +107,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">8</column>
-			<column name="strName">broadhead arrow</column>
+			<column name="strName">flexa de cabeca larga</column>
 			<column name="strItemID">10.4</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -117,7 +117,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">9</column>
-			<column name="strName">crude pierce arrow</column>
+			<column name="strName">flecha bruto/penetrante</column>
 			<column name="strItemID">10.5</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -127,7 +127,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">10</column>
-			<column name="strName">crude broad arrow</column>
+			<column name="strName">flecha bruto/cabeca larga</column>
 			<column name="strItemID">10.6</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -137,7 +137,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">11</column>
-			<column name="strName">pebble</column>
+			<column name="strName">seixo</column>
 			<column name="strItemID">86.8</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -147,7 +147,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">12</column>
-			<column name="strName">Pedra</column>
+			<column name="strName">pedra</column>
 			<column name="strItemID">86.9</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -217,7 +217,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">19</column>
-			<column name="strName">Lanca Afiada</column>
+			<column name="strName">lanca afiada</column>
 			<column name="strItemID">31.0</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -227,7 +227,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">20</column>
-			<column name="strName">Lanca Endurecida</column>
+			<column name="strName">lanca endurecida</column>
 			<column name="strItemID">31.1</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -237,7 +237,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">21</column>
-			<column name="strName">Lanca Longa</column>
+			<column name="strName">lanca longa</column>
 			<column name="strItemID">31.2</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -247,7 +247,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">22</column>
-			<column name="strName">flashlight electricity</column>
+			<column name="strName">lanterna eletrica</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">1</column>
@@ -257,7 +257,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">23</column>
-			<column name="strName">laptop electricity</column>
+			<column name="strName">laptop eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">60</column>
@@ -267,7 +267,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">24</column>
-			<column name="strName">iSlab electricity</column>
+			<column name="strName">iSlab(tablet) eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">10</column>
@@ -277,7 +277,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">25</column>
-			<column name="strName">smartphone electricity</column>
+			<column name="strName">smartphone eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">5</column>
@@ -287,7 +287,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">26</column>
-			<column name="strName">cellphone electricity</column>
+			<column name="strName">celular eletrico</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">2</column>
@@ -297,7 +297,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">27</column>
-			<column name="strName">1 electric charge per use</column>
+			<column name="strName">1 carga eletrica por uso</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">1</column>
 			<column name="fPerHour">0</column>
@@ -307,7 +307,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">28</column>
-			<column name="strName">gain 10 electric charges per hour</column>
+			<column name="strName">ganhe 10 cargas eletricas por hora</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">-10</column>
@@ -317,7 +317,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">29</column>
-			<column name="strName">12 electric charge per use</column>
+			<column name="strName">12 cargas eletricas por uso</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">12</column>
 			<column name="fPerHour">0</column>
@@ -327,7 +327,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">30</column>
-			<column name="strName">gain 40 electric charges per use</column>
+			<column name="strName">ganhe 40 cargas eletricas por uso</column>
 			<column name="strItemID">10.3</column>
 			<column name="fPerUse">-40</column>
 			<column name="fPerHour">0</column>
@@ -347,7 +347,7 @@
 		</table>
 		<table name="chargeprofiles">
 			<column name="nID">32</column>
-			<column name="strName">200% XM54 cartridge used per day equipped</column>
+			<column name="strName">200% de cartucho XM54 equipado por dia</column>
 			<column name="strItemID">40.0</column>
 			<column name="fPerUse">0</column>
 			<column name="fPerHour">0</column>
