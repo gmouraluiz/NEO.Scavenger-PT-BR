@@ -1247,7 +1247,7 @@
 		<table name="conditions">
 			<column name="id">53</column>
 			<column name="strName">Especializado em medicina</column>
-			<column name="strDesc">&lt;us&gt; e especialista em procedimentos medicos, o que aumenta a taxa de recuperacao de feridas.</column>
+			<column name="strDesc">&lt;us&gt; e especialista em procedimentos m&amp;ccedil;dicos, o que aumenta a taxa de recuperacao de feridas.</column>
 			<column name="aFieldNames">m_fHealPerHourMod</column>
 			<column name="aModifiers">.04</column>
 			<column name="aEffects"></column>
