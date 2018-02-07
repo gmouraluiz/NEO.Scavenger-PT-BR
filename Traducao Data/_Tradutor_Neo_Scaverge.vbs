@@ -2122,7 +2122,9 @@ Function creatures(id, attr, Line)
 		case 14
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Guard", "Guarda")
+					If (Line = "DMC Guard") Then
+						Line = Replace(Line, "DMC Guard", "DMC Guarda")
+					End If
 				case "strNamePublic"
 					Line = Replace(Line, "Stranger", "Desconhecido")
 				case "strNotes"
