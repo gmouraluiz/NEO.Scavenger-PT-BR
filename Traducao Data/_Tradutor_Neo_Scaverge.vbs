@@ -1207,6 +1207,7 @@ Function battlemoves(id, attr, Line)
 	battlemoves = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 14
 Function camptypes(id, attr, Line)		
 	Select case id
@@ -1905,6 +1906,7 @@ Function containertypes(id, attr, Line)
 	containertypes = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 28
 Function creatures(id, attr, Line)		
 	Select case id
@@ -1914,6 +1916,8 @@ Function creatures(id, attr, Line)
 					Line = Replace(Line, "Dogman", "Lobisomem")
 				case "strNamePublic"
 					Line = Replace(Line, "Dogman", "Lobisomem")
+				case "vActivities"
+					Line = Replace(Line, "pacing,licking a wound,grooming its fur,digging,sniffing the ground,sniffing the air", "passando, lambendo-se, preparando sua pelo, cavando, cheirando o chao, cheirando o ar")
 			End Select
 		case 2
 			Select case attr
@@ -1921,6 +1925,242 @@ Function creatures(id, attr, Line)
 					Line = Replace(Line, "Looter", "Saqueador")
 				case "strNamePublic"
 					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard", "lendo o rotulo em algum lixo, esfregando o nariz, contando com os dedos, passando, sempre de guarda")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Bad Mutha", "Bad-Mutha(Canibal)")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "pacing,standing guard,practicing their game-face,swatting at bugs,counting human ears on a string", "passando, sempre de guarda, com cara de doente, batendo em insetos, tem amarrado orelhas humanas em uma corda")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blue Frog Preacher", "Prefeito de Blue Frog(doenca/infeciosa)")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain", "recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor")
+			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Merga Wraith", "Prefeito de Blue Frog(doenca/infeciosa)")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "staring back at you", "olhando para voce")
+			End Select
+		case 6			
+			Select case attr	
+				case "vActivities"			
+					Line = Replace(Line, "braying,drooling,listening to something", "torcendo, babando, ouvindo algo")
+			End Select
+		case 7
+			Select case attr				
+				case "vActivities"
+					Line = Replace(Line, "sniffing around,prowling through some underbrush,scratching itself,rooting around in the dirt", "cheirando, passando atraves de algum mato, arranhando-se, rodeado na sujeira")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Deer", "Cervo")
+				case "strNamePublic"
+					Line = Replace(Line, "Deer", "Cervo")
+				case "vActivities"
+					Line = Replace(Line, "licking itself,grazing,looking scared,looking concerned", "lambendo-se, pastando, parece assustado, parece preocupado")
+			End Select
+		case 9
+			Select case attr			
+				case "vActivities"
+					Line = Replace(Line, "sharpening her fingernails,examining a small round object,listening carefully", "unhas afiadas, examinando um pequeno objeto redondo, ouvindo atentamente")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Looter", "Saqueador")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Shifty personality", "Personalidade desonesta")
+				case "vActivities"
+					Line = Replace(Line, "reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard", "lendo o rotulo de algum lixo, esfregando o nariz, contando com os dedos, passando, sempre de guarda")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Looter", "Saqueador")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Rita personality", "Personalidade Rita")
+				case "vActivities"
+					Line = Replace(Line, "reading the label on some trash,checking nosehairs in her reflection,checking armpit smell,pacing,standing guard", "lendo o rotulo em algum lixo, esfregando o nariz, verificando o cheiro das axilas, passando,sempre de guarda")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Looter", "Saqueador")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "John personality", "Personalidade John")
+				case "vActivities"
+					Line = Replace(Line, "reading the label on some trash,stretching his back muscles,limbering up,pacing,standing guard", "lendo o rtulo de algum lixo, esticando os musculos das costas, flexionando-se, passeando, sempre de guarda")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Looter", "Saqueador")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Kim personality", "Personalidade Kim")
+				case "vActivities"
+					Line = Replace(Line, "reading the label on some trash,looking around cautiously,listening,pacing,standing guard", "lendo o rotulo de algum lixo, olhando cautelosamente, ouvindo, passeando, sempre de guarda")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Guard", "Guarda")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Sprawl Guard", "Guarda de reconhecimento")
+				case "vActivities"
+					Line = Replace(Line, "telling a bad joke,looking disapprovingly at something,watching the clock,pacing,standing guard", "dizendo uma piada ruim, parecendo desaprovar alguma coisa, observando o relogio, passeando, sempre de guarda")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Warrior", "Guerreira")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Warrior Female", "Guerreira")
+				case "vActivities"
+					Line = Replace(Line, "examining some plants,examining some tracks,watching the trees,looking around,standing guard", "examinando algumas plantas, examinando algumas trilhas, observando as arvores, olhando ao redor, sempre de guarda")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Warrior", "Guerreiro")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Warrior Male", "Guerreiro")
+				case "vActivities"
+					Line = Replace(Line, "examining some plants,examining some tracks,watching the trees,looking around,standing guard", "examinando algumas plantas, examinando algumas trilhas, observando as arvores, olhando ao redor, sempre de guarda")
+			End Select
+		case 17
+			Select case attr				
+				case "vActivities"
+					Line = Replace(Line, "hovering menacingly", "pairando(patrulhando) ameacadoramente")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blue Frog Cultist", "Culto Blue Frog(doenca/infeciosa)")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain", "recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor")
+			End Select
+		case 19
+			Select case attr
+				case "strNotes"
+					Line = Replace(Line, "King pilgrimage to destroy Clearbone then to DMC", "peregrinacao de King Elias para destruir Clearbone depois ir para DMC")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain", "recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor")
+			End Select
+		case 20
+			Select case attr
+				case "strNotes"
+					Line = Replace(Line, "King pilgrimage to Clearbone then to Saginaw", "King Elias esta peregrinacao para Clearbone depois vai para Saginaw")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain", "recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor")
+			End Select
+		case 21
+			Select case attr
+				case "strNotes"
+					Line = Replace(Line, "King already destroyed Clearbone and on to DMC", "King Elias ja destruiu o Clearbone e passou para o DMC")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain", "recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor")
+			End Select
+		case 22
+			Select case attr
+				case "strNotes"
+					Line = Replace(Line, "Queen pilgrimage to Clearbone then to Saginaw", "Peregrinacao da Queen Liza para Clearbone, em seguida, para Saginaw")
+				case "vActivities"
+					Line = Replace(Line, "reciting something silently,staring solemnly,working something out in her head", "recitando algo silenciosamente, olhando solenemente, mexendo nos seus cabelos")
+			End Select
+		case 23
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Player", "Jogador")
+				case "strNamePublic"
+					Line = Replace(Line, "Player", "Jogador")
+				case "strNotes"
+					Line = Replace(Line, "Base player stats", "Estatisticas base do jogador")
+				case "vActivities"
+					Line = Replace(Line, "ignored for players", "ignorado para os jogadores")
+			End Select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha's Army Soldier", "Soldada Martha's Army")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "vActivities"
+					Line = Replace(Line, "shielding his face from the sky,checking his face paint,polishing his weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do céu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
+			End Select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha's Army Soldier", "Soldado Martha's Army")
+				case "strNamePublic"
+					Line = Replace(Line, "Stranger", "Desconhecido")
+				case "strNotes"
+					Line = Replace(Line, "Recruiter", "Recrutador")
+				case "vActivities"
+					Line = Replace(Line, "shielding her face from the sky,checking her face paint,polishing her weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do céu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
+			End Select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog", "Cao (Golden-Retriever))")
+				case "strNamePublic"
+					Line = Replace(Line, "Feral Dog", "Cao (Golden-Retriever))")
+				case "strNotes"
+					Line = Replace(Line, "Golden Retriever", "Da Raca Golden-Retriever")
+				case "vActivities"
+					Line = Replace(Line, "licking itself,sniffing the air,pacing,digging", "lambendo-se, cheirando o ar, passeando, cavando")
+			End Select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog", "Cao (Newfoundland))")
+				case "strNamePublic"
+					Line = Replace(Line, "Feral Dog", "Cao (Newfoundland))")
+				case "strNotes"
+					Line = Replace(Line, "Black Lab/Newfoundland", "Da Raca  Black-Lab/Newfoundland")
+				case "vActivities"
+					Line = Replace(Line, "licking itself,sniffing the air,pacing,digging", "lambendo-se, cheirando o ar, passeando, cavando")
+			End Select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog", "Cao (Bernese-Mountain))")
+				case "strNamePublic"
+					Line = Replace(Line, "Feral Dog", "Cao (Bernese-Mountain))")
+				case "strNotes"
+					Line = Replace(Line, "Bernese Mountain", "Da Raca Bernese-Mountain")
+				case "vActivities"
+					Line = Replace(Line, "licking itself,sniffing the air,pacing,digging", "lambendo-se, cheirando o ar, passeando, cavando")
 			End Select		
 	End Select	
 	creatures = CStr(Line)
@@ -2710,7 +2950,7 @@ Sub TraduzirArquivo(Nome)
 	For i = 0 To docNodes.length - 1
 		Set subNodes = docNodes(i).childNodes
 		For s = 0 To subNodes.length - 1	
-			If ((subNodes(s).getAttribute("name") = "id") or (subNodes(s).getAttribute("name") = "nID"))  Then			
+			If ((subNodes(s).getAttribute("name") = "id") or (subNodes(s).getAttribute("name") = "nID"))  Then		
 				id = subNodes(s).Text
 			End If			
 			'Qual arquivo esta sendo traduzido

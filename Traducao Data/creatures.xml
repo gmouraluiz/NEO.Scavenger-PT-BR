@@ -53,7 +53,7 @@
 			<column name="vAttackModes">7</column>
 			<column name="vBaseConditions">38=1,50=0.5,51=0.5,52=0.5,57=1,60=0.5,72=0.75,81=0.85,81=0.5,124=1.0,149=0.8,473=1,492=1,493=1,577=1</column>
 			<column name="nCorpseID">396</column>
-			<column name="vActivities">pacing,licking a wound,grooming its fur,digging,sniffing the ground,sniffing the air</column>
+			<column name="vActivities">passando, lambendo-se, preparando sua pelo, cavando, cheirando o chao, cheirando o ar</column>
 		</table>
 		<table name="creatures">
 			<column name="id">2</column>
@@ -68,12 +68,12 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard</column>
+			<column name="vActivities">lendo o rotulo em algum lixo, esfregando o nariz, contando com os dedos, passando, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">3</column>
-			<column name="strName">Bad Mutha</column>
-			<column name="strNamePublic">Stranger</column>
+			<column name="strName">Bad-Mutha(Canibal)</column>
+			<column name="strNamePublic">Desconhecido</column>
 			<column name="strNotes"></column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1398,1417,2247,2248</column>
@@ -83,12 +83,12 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">50=0.75,72=0.75,151=1,210=1,210=1,473=1,492=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">pacing,standing guard,practicing their game-face,swatting at bugs,counting human ears on a string</column>
+			<column name="vActivities">passando, sempre de guarda, com cara de doente, batendo em insetos, tem amarrado orelhas humanas em uma corda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">4</column>
-			<column name="strName">Blue Frog Preacher</column>
-			<column name="strNamePublic">Stranger</column>
+			<column name="strName">Prefeito de Blue Frog(doenca/infeciosa)</column>
+			<column name="strNamePublic">Desconhecido</column>
 			<column name="strNotes"></column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1397,1416</column>
@@ -98,11 +98,11 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">50=0.75,51=0.5,60=0.75,72=0.75,87=0.75,149=0.75,151=1,210=1,210=1,473=1,493=1,494=1,535=1,620=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain</column>
+			<column name="vActivities">recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor</column>
 		</table>
 		<table name="creatures">
 			<column name="id">5</column>
-			<column name="strName">Merga Wraith</column>
+			<column name="strName">Prefeito de Blue Frog(doenca/infeciosa)</column>
 			<column name="strNamePublic">Merga Wraith</column>
 			<column name="strNotes"></column>
 			<column name="strImg">CreWraith.png</column>
@@ -113,7 +113,7 @@
 			<column name="vAttackModes">17</column>
 			<column name="vBaseConditions">35=1,38=1,50=1,51=1,57=1,124=1,364=1,367=1,370=1,492=1,495=1,501=1,502=1,503=1,560=1,577=1,727=1,837=1</column>
 			<column name="nCorpseID">490</column>
-			<column name="vActivities">staring back at you</column>
+			<column name="vActivities">olhando para voce</column>
 		</table>
 		<table name="creatures">
 			<column name="id">6</column>
@@ -128,7 +128,7 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">61=0.75,71=0.75,151=1,210=1,210=1,392=1,473=1,494=1,577=1,804=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">braying,drooling,listening to something</column>
+			<column name="vActivities">torcendo, babando, ouvindo algo</column>
 		</table>
 		<table name="creatures">
 			<column name="id">7</column>
@@ -143,12 +143,12 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">38=1,52=0.75,57=1,72=0.75,390=1,473=1,492=1,495=1,577=1</column>
 			<column name="nCorpseID">424</column>
-			<column name="vActivities">sniffing around,prowling through some underbrush,scratching itself,rooting around in the dirt</column>
+			<column name="vActivities">cheirando, passando atraves de algum mato, arranhando-se, rodeado na sujeira</column>
 		</table>
 		<table name="creatures">
 			<column name="id">8</column>
-			<column name="strName">Deer</column>
-			<column name="strNamePublic">Deer</column>
+			<column name="strName">Cervo</column>
+			<column name="strNamePublic">Cervo</column>
 			<column name="strNotes"></column>
 			<column name="strImg">CreDeerDoe.png</column>
 			<column name="vEncounterIDs"></column>
@@ -158,7 +158,7 @@
 			<column name="vAttackModes">50</column>
 			<column name="vBaseConditions">38=1,52=0.5,57=1,409=1,473=1,492=1,577=1</column>
 			<column name="nCorpseID">409</column>
-			<column name="vActivities">licking itself,grazing,looking scared,looking concerned</column>
+			<column name="vActivities">lambendo-se, pastando, parece assustado, parece preocupado</column>
 		</table>
 		<table name="creatures">
 			<column name="id">9</column>
@@ -173,13 +173,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">38=1,50=1,51=1,52=1,57=1,81=1,124=1,151=1,462=1,464=1,492=1,495=1,577=1,727=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">sharpening her fingernails,examining a small round object,listening carefully</column>
+			<column name="vActivities">unhas afiadas, examinando um pequeno objeto redondo, ouvindo atentamente</column>
 		</table>
 		<table name="creatures">
 			<column name="id">10</column>
-			<column name="strName">Looter</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">Shifty personality</column>
+			<column name="strName">Saqueador</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">Personalidade desonesta</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1334,1384,1394,1400,2238</column>
 			<column name="nMovesPerTurn">4</column>
@@ -188,13 +188,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reading the label on some trash,picking their nose,counting on their fingers,pacing,standing guard</column>
+			<column name="vActivities">lendo o rotulo de algum lixo, esfregando o nariz, contando com os dedos, passando, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">11</column>
-			<column name="strName">Looter</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">Rita personality</column>
+			<column name="strName">Saqueador</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">Personalidade Rita</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1376,1377,1383,1401,2239,2243,2244</column>
 			<column name="nMovesPerTurn">4</column>
@@ -203,13 +203,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.5,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reading the label on some trash,checking nosehairs in her reflection,checking armpit smell,pacing,standing guard</column>
+			<column name="vActivities">lendo o rotulo em algum lixo, esfregando o nariz, verificando o cheiro das axilas, passando,sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">12</column>
-			<column name="strName">Looter</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">John personality</column>
+			<column name="strName">Saqueador</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">Personalidade John</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1367,1332,1333,1402,2245,2246</column>
 			<column name="nMovesPerTurn">4</column>
@@ -218,13 +218,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.75,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reading the label on some trash,stretching his back muscles,limbering up,pacing,standing guard</column>
+			<column name="vActivities">lendo o rtulo de algum lixo, esticando os musculos das costas, flexionando-se, passeando, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">13</column>
-			<column name="strName">Looter</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">Kim personality</column>
+			<column name="strName">Saqueador</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">Personalidade Kim</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1391,1395,1382,1403</column>
 			<column name="nMovesPerTurn">4</column>
@@ -233,13 +233,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.5,71=0.5,81=0.5,150=0.75,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reading the label on some trash,looking around cautiously,listening,pacing,standing guard</column>
+			<column name="vActivities">lendo o rotulo de algum lixo, olhando cautelosamente, ouvindo, passeando, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">14</column>
-			<column name="strName">DMC Guard</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">DMC Sprawl Guard</column>
+			<column name="strName">DMC Guarda</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">DMC Guarda de reconhecimento</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1396,1404,1410,1415,2249</column>
 			<column name="nMovesPerTurn">4</column>
@@ -248,13 +248,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">35=0.25,50=0.5,51=0.5,52=0.3,60=0.3,72=0.3,149=0.5,151=1,210=1,210=1,529=1,558=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">telling a bad joke,looking disapprovingly at something,watching the clock,pacing,standing guard</column>
+			<column name="vActivities">dizendo uma piada ruim, parecendo desaprovar alguma coisa, observando o relogio, passeando, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">15</column>
-			<column name="strName">ATN Warrior</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">ATN Warrior Female</column>
+			<column name="strName">ATN Guerreira</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">ATN Guerreira</column>
 			<column name="strImg">CreATN.png</column>
 			<column name="vEncounterIDs">1509,1508,1540</column>
 			<column name="nMovesPerTurn">4</column>
@@ -263,13 +263,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">35=0.5,50=0.75,51=0.75,52=0.75,60=0.3,72=0.3,81=0.5,122=0.5,149=0.75,151=1,207=0.5,210=1,210=1,462=0.75,529=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">examining some plants,examining some tracks,watching the trees,looking around,standing guard</column>
+			<column name="vActivities">examinando algumas plantas, examinando algumas trilhas, observando as arvores, olhando ao redor, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">16</column>
-			<column name="strName">ATN Warrior</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">ATN Warrior Male</column>
+			<column name="strName">ATN Guerreiro</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">ATN Guerreiro</column>
 			<column name="strImg">CreATN.png</column>
 			<column name="vEncounterIDs">1510,1516,1537</column>
 			<column name="nMovesPerTurn">4</column>
@@ -278,7 +278,7 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">35=0.5,50=0.75,51=0.75,52=0.75,60=0.3,72=0.3,81=0.5,122=0.5,149=0.75,151=1,207=0.5,210=1,210=1,462=0.75,529=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">examining some plants,examining some tracks,watching the trees,looking around,standing guard</column>
+			<column name="vActivities">examinando algumas plantas, examinando algumas trilhas, observando as arvores, olhando ao redor, sempre de guarda</column>
 		</table>
 		<table name="creatures">
 			<column name="id">17</column>
@@ -293,12 +293,12 @@
 			<column name="vAttackModes">59</column>
 			<column name="vBaseConditions">34=1,51=1,52=1,57=1,81=1,87=1,370=1,493=1,495=1,557=1,558=1,560=1,577=1,725=1,727=1,728=1,729=1</column>
 			<column name="nCorpseID">666</column>
-			<column name="vActivities">hovering menacingly</column>
+			<column name="vActivities">pairando(patrulhando) ameacadoramente</column>
 		</table>
 		<table name="creatures">
 			<column name="id">18</column>
-			<column name="strName">Blue Frog Cultist</column>
-			<column name="strNamePublic">Stranger</column>
+			<column name="strName">Culto Blue Frog(doenca/infeciosa)</column>
+			<column name="strNamePublic">Desconhecido</column>
 			<column name="strNotes"></column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1397,1416</column>
@@ -308,13 +308,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">50=0.75,51=0.5,60=0.75,72=0.75,87=0.75,149=0.75,151=1,210=1,210=1,473=1,493=1,494=1,535=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing their tolerance for pain</column>
+			<column name="vActivities">recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor</column>
 		</table>
 		<table name="creatures">
 			<column name="id">19</column>
 			<column name="strName">King Elias</column>
 			<column name="strNamePublic">King Elias</column>
-			<column name="strNotes">King pilgrimage to destroy Clearbone then to DMC</column>
+			<column name="strNotes">peregrinacao de King Elias para destruir Clearbone depois ir para DMC</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1728,1729,1905</column>
 			<column name="nMovesPerTurn">4</column>
@@ -323,13 +323,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,629=1,630=1,632=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+			<column name="vActivities">recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor</column>
 		</table>
 		<table name="creatures">
 			<column name="id">20</column>
 			<column name="strName">King Elias</column>
 			<column name="strNamePublic">King Elias</column>
-			<column name="strNotes">King pilgrimage to Clearbone then to Saginaw</column>
+			<column name="strNotes">King Elias esta peregrinacao para Clearbone depois vai para Saginaw</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1728,1729,1905</column>
 			<column name="nMovesPerTurn">4</column>
@@ -338,13 +338,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,630=1,632=1,643=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+			<column name="vActivities">recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor</column>
 		</table>
 		<table name="creatures">
 			<column name="id">21</column>
 			<column name="strName">King Elias</column>
 			<column name="strNamePublic">King Elias</column>
-			<column name="strNotes">King already destroyed Clearbone and on to DMC</column>
+			<column name="strNotes">King Elias ja destruiu o Clearbone e passou para o DMC</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1728,1729,1905</column>
 			<column name="nMovesPerTurn">4</column>
@@ -353,13 +353,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,629=1,630=1,632=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,picking at a scab,staring solemnly,testing his tolerance for pain</column>
+			<column name="vActivities">recitando algo em silencio, mexendo com a pele descacada, olhando solenemente, testando sua tolerancia a dor</column>
 		</table>
 		<table name="creatures">
 			<column name="id">22</column>
 			<column name="strName">Queen Liza</column>
 			<column name="strNamePublic">Queen Liza</column>
-			<column name="strNotes">Queen pilgrimage to Clearbone then to Saginaw</column>
+			<column name="strNotes">Peregrinacao da Queen Liza para Clearbone, em seguida, para Saginaw</column>
 			<column name="strImg">CreHuman.png</column>
 			<column name="vEncounterIDs">1741,1791,1906</column>
 			<column name="nMovesPerTurn">4</column>
@@ -368,13 +368,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=1,60=1,72=1,87=1,149=1,151=1,210=1,210=1,495=1,535=1,628=1,630=1,632=1,643=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">reciting something silently,staring solemnly,working something out in her head</column>
+			<column name="vActivities">recitando algo silenciosamente, olhando solenemente, mexendo nos seus cabelos</column>
 		</table>
 		<table name="creatures">
 			<column name="id">23</column>
-			<column name="strName">Player</column>
-			<column name="strNamePublic">Player</column>
-			<column name="strNotes">Base player stats</column>
+			<column name="strName">Jogador</column>
+			<column name="strNamePublic">Jogador</column>
+			<column name="strNotes">Estatisticas base do jogador</column>
 			<column name="strImg">Person.png</column>
 			<column name="vEncounterIDs"></column>
 			<column name="nMovesPerTurn">5</column>
@@ -383,12 +383,12 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">151=1,210=1,210=1,223=1,224=1,225=1,412=1,420=1,819=1,820=1,821=1,822=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">ignored for players</column>
+			<column name="vActivities">ignorado para os jogadores</column>
 		</table>
 		<table name="creatures">
 			<column name="id">24</column>
-			<column name="strName">Martha's Army Soldier</column>
-			<column name="strNamePublic">Stranger</column>
+			<column name="strName">Soldada Martha's Army</column>
+			<column name="strNamePublic">Desconhecido</column>
 			<column name="strNotes">JD</column>
 			<column name="strImg">CreMA1.png</column>
 			<column name="vEncounterIDs">2104,2105,2106,2114</column>
@@ -398,13 +398,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">shielding his face from the sky,checking his face paint,polishing his weapon,reciting something solemnly,smashing something electronic</column>
+			<column name="vActivities">protegendo o rosto do cÃ©u, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
 		</table>
 		<table name="creatures">
 			<column name="id">25</column>
-			<column name="strName">Martha's Army Soldier</column>
-			<column name="strNamePublic">Stranger</column>
-			<column name="strNotes">Recruiter</column>
+			<column name="strName">Soldado Martha's Army</column>
+			<column name="strNamePublic">Desconhecido</column>
+			<column name="strNotes">Recrutador</column>
 			<column name="strImg">CreMA2.png</column>
 			<column name="vEncounterIDs">2118,2119,2120,2121</column>
 			<column name="nMovesPerTurn">4</column>
@@ -413,13 +413,13 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">shielding her face from the sky,checking her face paint,polishing her weapon,reciting something solemnly,smashing something electronic</column>
+			<column name="vActivities">protegendo o rosto do cÃ©u, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
 		</table>
 		<table name="creatures">
 			<column name="id">26</column>
-			<column name="strName">Feral Dog</column>
-			<column name="strNamePublic">Feral Dog</column>
-			<column name="strNotes">Golden Retriever</column>
+			<column name="strName">Cao (Golden-Retriever))</column>
+			<column name="strNamePublic">Cao (Golden-Retriever))</column>
+			<column name="strNotes">Da Raca Golden-Retriever</column>
 			<column name="strImg">CreDogGR.png</column>
 			<column name="vEncounterIDs"></column>
 			<column name="nMovesPerTurn">4</column>
@@ -428,13 +428,13 @@
 			<column name="vAttackModes">61</column>
 			<column name="vBaseConditions">38=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,858=1</column>
 			<column name="nCorpseID">757</column>
-			<column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+			<column name="vActivities">lambendo-se, cheirando o ar, passeando, cavando</column>
 		</table>
 		<table name="creatures">
 			<column name="id">27</column>
-			<column name="strName">Feral Dog</column>
-			<column name="strNamePublic">Feral Dog</column>
-			<column name="strNotes">Black Lab/Newfoundland</column>
+			<column name="strName">Cao (Newfoundland))</column>
+			<column name="strNamePublic">Cao (Newfoundland))</column>
+			<column name="strNotes">Da Raca  Black-Lab/Newfoundland</column>
 			<column name="strImg">CreDogNF.png</column>
 			<column name="vEncounterIDs"></column>
 			<column name="nMovesPerTurn">4</column>
@@ -443,13 +443,13 @@
 			<column name="vAttackModes">61</column>
 			<column name="vBaseConditions">38=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,858=1</column>
 			<column name="nCorpseID">757</column>
-			<column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+			<column name="vActivities">lambendo-se, cheirando o ar, passeando, cavando</column>
 		</table>
 		<table name="creatures">
 			<column name="id">28</column>
-			<column name="strName">Feral Dog</column>
-			<column name="strNamePublic">Feral Dog</column>
-			<column name="strNotes">Bernese Mountain</column>
+			<column name="strName">Cao (Bernese-Mountain))</column>
+			<column name="strNamePublic">Cao (Bernese-Mountain))</column>
+			<column name="strNotes">Da Raca Bernese-Mountain</column>
 			<column name="strImg">CreDogBM.png</column>
 			<column name="vEncounterIDs"></column>
 			<column name="nMovesPerTurn">4</column>
@@ -458,7 +458,7 @@
 			<column name="vAttackModes">61</column>
 			<column name="vBaseConditions">38=1,52=0.5,71=0.75,57=1,124=0.75,149=0.4,473=1,577=1,858=1</column>
 			<column name="nCorpseID">757</column>
-			<column name="vActivities">licking itself,sniffing the air,pacing,digging</column>
+			<column name="vActivities">lambendo-se, cheirando o ar, passeando, cavando</column>
 		</table>
 	</database>
 </pma_xml_export>
