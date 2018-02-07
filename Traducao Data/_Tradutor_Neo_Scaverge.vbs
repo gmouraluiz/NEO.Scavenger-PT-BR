@@ -1287,7 +1287,7 @@ Function camptypes(id, attr, Line)
 	camptypes = CStr(Line)
 End Function
 
-'99% traduzido
+'100% traduzido
 'Total de ids 32
 Function chargeprofiles(id, attr, Line)	
 	Select case id
@@ -2264,13 +2264,76 @@ Function creatures(id, attr, Line)
 	creatures = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 32
 Function creaturesources(id, attr, Line)		
 	Select case id
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cryo Dogman", "Cryo Lobisomem")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SE Looter", "SE Saqueador")
+			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SE Looter", "SE Saqueador")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SE Looter", "SE Saqueador")
+			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SE Looter", "SE Saqueador")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SE Looter", "SE Saqueador")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blue Frogs Cultist", "Culto Blue Frogs(doenca/infeciosa))")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Zom Zom's Bad Mutha", "Zom Zom's Bad-Mutha(Canibal)")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Solo Northern Dogman", "Lobisomem Sozinho do Norte")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Northtip Dogman Pack", "Alcateia de Lobisomem do Norte")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Midland Deer Pack", "Bando de Cervos do Centro")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eastern Deer Pack", "Bando de Cervos do Oriente")
+			End Select		
 		case 18
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Guard", "Guarda")
+					If (Line = "DMC Guard") Then
+						Line = Replace(Line, "DMC Guard", "DMC Guarda")
+					End If
 			End Select
 		case 19
 			Select case attr
@@ -2281,6 +2344,61 @@ Function creaturesources(id, attr, Line)
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "Warrior Male", "Guerreiro")	
+			End Select
+		case 21
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Midland Large Deer Pack", "Bando Grande de Cervos do Centro")
+			End Select
+		case 22
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blue Frogs Preacher", "Prefeito de Blue Frog(doenca/infeciosa)")
+			End Select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "no destroy", "sem destruir")
+			End Select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "destroyed, to DMC", "destruido, para DMC")
+			End Select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "to Clearbone, then Saginaw", "para Clearbone, entao Saginaw")
+			End Select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha's Army Soldier 1", "Soldada Martha's Army 1")
+			End Select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha's Army Soldier 2", "Soldado Martha's Army 2")
+			End Select
+		case 29
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha's Army Soldier Grayling", "Soldada Martha's Army Grayling")
+			End Select
+		case 30
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog Pack (BR, South Central)", "Alcateia de Caes (Golden-Retriever, Central Sul)")
+			End Select
+		case 31
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog Pack (NF, South Central)", "Alcateia de Caes (Newfoundland, Central Sul)")
+			End Select
+		case 32
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Feral Dog Pack (BM, South Central)", "Alcateia de Caes (Bernese-Mountain, Central Sul)")
 			End Select
 	End Select
 	creaturesources = CStr(Line)
