@@ -237,7 +237,7 @@
 		</table>
 		<table name="creatures">
 			<column name="id">14</column>
-			<column name="strName">DMC Guarda</column>
+			<column name="strName">DMC Guardaa</column>
 			<column name="strNamePublic">Desconhecido</column>
 			<column name="strNotes">DMC Guarda de reconhecimento</column>
 			<column name="strImg">CreHuman.png</column>

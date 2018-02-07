@@ -693,7 +693,7 @@
 			<column name="nGroupID">91</column>
 			<column name="nSubgroupID">1</column>
 			<column name="strName">Pros: Medico</column>
-			<column name="strDesc">taxa de cicatrizacao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes</column>
+			<column name="strDesc">taxa de cicatriza&amp;ccedil;ao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmSkillMed.png</column>

@@ -1,3 +1,5 @@
+'Testando colocar acentos ao jogo ccedil;
+
 Option Explicit
 
 '100% traduzido
@@ -2635,7 +2637,7 @@ Function itemtypes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "skill: medic", "Pros: Medico")
 				case "strDesc"
-					Line = Replace(Line, "improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen", "taxa de cicatrizacao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes")
+					Line = Replace(Line, "improved healing rate via procedure training and sterilization techniques, more detailed stat bars on Conditions screen", "taxa de cicatrizaao melhorada atraves de treinamento de procedimentos e tecnicas de esterilizacao, barras estatisticas mais detalhadas na tela Condicoes")
 			End Select
 		case 18
 			Select case attr
