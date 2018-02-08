@@ -1,3 +1,8 @@
+'Criado por Geovani Luiz de Moura
+'Aconselho usar Notepad++ 
+'Plugins: RumMe(Shift+F5) Executar arquivo mais rapido
+'Caracteres nao suportados no jogo: (ç, é, á, í, ó, à, ã, õ, â, ê, ô, ú) Obs: nao descobri como contornar esse problema
+
 Option Explicit
 
 '100% traduzido
@@ -1421,7 +1426,7 @@ Function conditions(id, attr, Line)
 		case 3
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Starving", "passando fome")
+					Line = Replace(Line, "Starving", "Passando fome")
 				case "strDesc"
 					Line = Replace(Line, "is starving.", "esta passando fome")
 			End Select
@@ -1582,7 +1587,7 @@ Function conditions(id, attr, Line)
 		case 26
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Visited Seven Gables Upstairs", "Visitei andar de cima de Seven-Gables")	
+					Line = Replace(Line, "Visited Seven Gables Upstairs", "Visitado andar de cima de Seven-Gables")	
 				case "strDesc"
 					Line = Replace(Line, "already visited the upstairs of Seven Gables.", "ja visitou o andar de cima de Seven-Gables.")	
 			End Select
@@ -1639,7 +1644,7 @@ Function conditions(id, attr, Line)
 		case 34
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Magnifying optics equipped", "Equipado ampliacao optica")	
+					Line = Replace(Line, "Magnifying optics equipped", "Equipado amplificador optico")	
 				case "strDesc"
 					Line = Replace(Line, "is using an optical magnification device.", "esta usando um dispositivo de ampliacao optica.")	
 			End Select
@@ -1725,7 +1730,7 @@ Function conditions(id, attr, Line)
 		case 46
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Ate ketchup", "comeu ketchup")
+					Line = Replace(Line, "Ate ketchup", "Comeu ketchup")
 				case "strDesc"
 					Line = Replace(Line, "ate a packet of ketchup.", "comeu um pacote de ketchup.")		
 			End Select
@@ -1853,6 +1858,48 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is comfortable", "esta confortavel")
 			End Select
+		case 64
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Used Nanorobot Medical Kit", "Usado Kit Medico de Nanorobot")
+				case "strDesc"
+					Line = Replace(Line, "used a nanorobot medical kit, and their wounds have started mending.", "usou um kit medico de nanorobot e suas feridas comecaram a regenerar/reparar.")
+			End Select
+		case 65
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diarrhea", "Diarreia")
+				case "strDesc"
+					Line = Replace(Line, "has diarrhea", "esta com diarreia")
+			End Select
+		case 66
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Vomiting", "Vomitando")
+				case "strDesc"
+					Line = Replace(Line, "is vomiting", "esta vomitando")
+			End Select
+		case 67
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Minor Cuts", "Cortes Pequenos")
+				case "strDesc"
+					Line = Replace(Line, "sustained minor cuts", "esta com cortes pequenos")
+			End Select
+		case 68
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Minor Bruising", "Contusoes Pequenas")
+				case "strDesc"
+					Line = Replace(Line, "sustained minor bruising", "esta com contusoes pequenas")
+			End Select
+		case 69
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Moderate Cuts", "Cortes Moderados")
+				case "strDesc"
+					Line = Replace(Line, "sustained moderate cuts", "esta com cortes moderados")
+			End Select		
 		case 70
 			Select case attr
 				case "strName"
@@ -1860,6 +1907,226 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is warmed a little by a small flame, but is also a little bit easier to spot.", "esta sendo aquecido um pouco por uma pequena chama, mas tambem e um pouco mais facil de detectar.")
 			End Select
+		case 71
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Frail", "Fragil")
+				case "strDesc"
+					Line = Replace(Line, "is frail, is easier to wound, and takes longer to heal", "esta fragil, esta mais facil de ferir e leva mais tempo para curar")
+			End Select
+		case 72
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Tough", "Resistente")
+				case "strDesc"
+					Line = Replace(Line, "is tough, can take more of a beating than most, and recovers faster", "esta resistente, pode durar mais do que a maioria e recupera-se mais rapidamente")
+			End Select
+		case 73
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Chill touched", "Esfriado")
+				case "strDesc"
+					Line = Replace(Line, "Something supernatural has chilled", "Algo sobrenatural fez esfriar o")
+					Line = Replace(Line, "with its touch", "com seu toque")
+			End Select
+		case 74
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Pushing cart", "Empurrando o carrinho")
+				case "strDesc"
+					Line = Replace(Line, "has a cart that allows them to carry more", "tem um carrinho que lhes permite transportar mais")
+			End Select
+		case 75
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Moderate Bruising", "Contusoes Moderado")
+				case "strDesc"
+					Line = Replace(Line, "sustained moderate bruising", "esta com contusoes moderada")
+			End Select
+		case 76
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate some mushrooms", "Comeu Cogumelos")
+				case "strDesc"
+					Line = Replace(Line, "ate some mushrooms", "comeu alguens cogumelos")
+			End Select
+		case 77
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Poisoned 1", "Veneno I")
+				case "strDesc"
+					Line = Replace(Line, "has poison stage 1", "esta envenenado com Veneno I")
+			End Select
+		case 78
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Poisoned 2", "Veneno II")
+				case "strDesc"
+					Line = Replace(Line, "has poison stage 2", "esta envenenado com Veneno II")
+			End Select
+		case 79
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Poisoned 3", "Veneno III")
+				case "strDesc"
+					Line = Replace(Line, "has poison stage 3", "esta envenenado com Veneno III")
+			End Select
+		case 80
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Poisoned to death", "Morreu por Veneno")
+				case "strDesc"
+					Line = Replace(Line, "died of poisoning", "morreu envenenado")
+			End Select
+		case 81
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Alert", "Alerta")
+				case "strDesc"
+					Line = Replace(Line, "is more alert than most, and less likely to be surprised in their sleep", "esta mais alerta do que a maioria, e esta menos provavel que se surpreenda ao dormir")
+			End Select
+		case 82
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Immune system boost", "Aumento do sistema imunologico")
+				case "strDesc"
+					Line = Replace(Line, "immune system is temporarily bolstered", "seu sistema imunologico esta temporariamente mais forte")
+			End Select
+		case 83
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate a small portion of meat", "Comeu Pequena Carne")
+				case "strDesc"
+					Line = Replace(Line, "ate a small portion of meat", "comeu uma pequena porcao de carne")
+			End Select
+		case 84
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate a small portion of rotten meat", "Comeu Pequena Carne Podre")
+				case "strDesc"
+					Line = Replace(Line, "forced down a small portion of rotten meat", "comeu uma pequena porcao de carne podre a forca")
+			End Select
+		case 85
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing a hide glove", "Usando uma luva de couro")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a hide glove.", "esta usando uma luva de couro.")
+			End Select
+		case 86
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate some berries", "Comeu Bagas")
+				case "strDesc"
+					Line = Replace(Line, "ate some berries", "comeu algumas bagas")
+			End Select
+		case 87
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Skilled in ranged combat", "Habilidade no combate a distancia")
+				case "strDesc"
+					Line = Replace(Line, "is skilled in ranged combat", "e habilidoso em combate a distancia")
+					Line = Replace(Line, "can engage at longer range than most, and ranged weapons degrade slower", "podem se envolver em um alcance mais longo do que a maioria, e as armas a distancia se deterioram mais devagar")
+			End Select
+		case 88
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drank Corn-a-Cola", "Bebeu Corn-a-Cola")
+				case "strDesc"
+					Line = Replace(Line, "drank some Corn-a-Cola soda. Taste the corny refreshment", "Tomou um pouco de refrigerante de Corn-a-Cola. Experimentou o refresco")
+			End Select
+		case 89
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Caffeine high", "Cafeina Alta")
+				case "strDesc"
+					Line = Replace(Line, "is on a caffeine high", "esta com uma cafeina alta")
+			End Select
+		case 90
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Caffeine crash", "Colapso por Cafeina")
+				case "strDesc"
+					Line = Replace(Line, "is crashing after a caffeine high", "esta falhando depois de muita cafeina")
+			End Select
+		case 91
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Gave Hatter Security Footage", "Deu a filmagem de seguranca a Hatter")
+				case "strDesc"
+					Line = Replace(Line, "gave security footage of kicking a Dogman's ass to Hatter", "Deu a filmagem de seguranca sobre briga do Lobisomem a Hatter")
+			End Select
+		case 92
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter Disappointed", "Hatter Decepcionado")
+				case "strDesc"
+					Line = Replace(Line, "failed Hatter once, and Hatter is unimpressed", "falhou com Hatter uma vez, e Hatter nao esta impressionado")
+			End Select
+		case 93
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Visited Seven Gables Downstairs", "Visitou andar de baixo de Seven-Gables")
+				case "strDesc"
+					Line = Replace(Line, "already visited the downstairs of Seven Gables", "esta visitando o andar de baixo de Seven Gables")
+			End Select
+		case 94
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter Excommunicated Player", "Hatter Excomungou Jogador")
+				case "strDesc"
+					Line = Replace(Line, "failed Hatter too many times, and he won't speak with them any more", "fracassou com Hatter muitas vezes, e ele nao falara mais com voce")
+			End Select
+		case 95
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Agreed to work for Hatter", "Aceita trabalhar para Hatter")
+				case "strDesc"
+					Line = Replace(Line, "agreed to do a contract for Hatter", "concordou em fazer um contrato com Hatter")
+			End Select
+		case 96
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Allied with Hatter", "Aliado com Hatter")
+				case "strDesc"
+					Line = Replace(Line, "allied with Hatter", "aliado com Hatter")
+			End Select
+		case 97
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Insomniac", "Insonia")
+				case "strDesc"
+					Line = Replace(Line, "has trouble staying asleep, and sleep is less restful", "tem problemas para ficar dormindo, e nao dorme com facilidade")
+			End Select
+		case 98
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Recently moved", "Mudou recentemente")
+				case "strDesc"
+					Line = Replace(Line, "recently moved, making them easier to spot and less aware of others, but also harder to hit", "recentemente mudou-se, tornando-os mais faceis de detectar e menos conscientes dos outros, mas tambem sao mais dificeis de bater")
+			End Select
+		case 99
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Scavenging", "Vasculhar")
+				case "strDesc"
+					Line = Replace(Line, "is scavenging a hex", "esta vasculhar um hex")
+			End Select
+		case 100
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate a small portion of cured meat", "Comeu Pequena Carne Curada")
+				case "strDesc"
+					Line = Replace(Line, "ate a small portion of cured meat", "comeu uma pequena porcao de carne curada")
+			End Select
+		case 101
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Alerted by noise trap", "Alertado pela armadilha de ruido")
+				case "strDesc"
+					Line = Replace(Line, "Noise traps strung around this area help alert", "Armadilhas de ruido instaladas nesta area ajudam a alertar o")
+					Line = Replace(Line, "to creatures while they sleep", "para as criaturas se aproximando, enquanto dormem")
+			End Select		
 		case 102
 			Select case attr
 				case "strName"
@@ -1894,6 +2161,62 @@ Function conditions(id, attr, Line)
 					Line = Replace(Line, "Bleeding", "Sangramento")
 				case "strDesc"
 					Line = Replace(Line, "is bleeding.", "esta com sangramento")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
 			End Select
 		case 210
 			Select case attr
@@ -2214,7 +2537,7 @@ Function creatures(id, attr, Line)
 				case "strNamePublic"
 					Line = Replace(Line, "Stranger", "Desconhecido")
 				case "vActivities"
-					Line = Replace(Line, "shielding his face from the sky,checking his face paint,polishing his weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do céu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
+					Line = Replace(Line, "shielding his face from the sky,checking his face paint,polishing his weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do ceu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
 			End Select
 		case 25
 			Select case attr
@@ -2225,7 +2548,7 @@ Function creatures(id, attr, Line)
 				case "strNotes"
 					Line = Replace(Line, "Recruiter", "Recrutador")
 				case "vActivities"
-					Line = Replace(Line, "shielding her face from the sky,checking her face paint,polishing her weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do céu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
+					Line = Replace(Line, "shielding her face from the sky,checking her face paint,polishing her weapon,reciting something solemnly,smashing something electronic", "protegendo o rosto do ceu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos")
 			End Select
 		case 26
 			Select case attr

@@ -96,7 +96,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">3</column>
-			<column name="strName">passando fome</column>
+			<column name="strName">Passando fome</column>
 			<column name="strDesc">&lt;us&gt; esta passando fome</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fMovesPerTurnModifier,m_fEncumberanceLimit,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">-0.01,-0.001,-0.0002,-2,-45,0.2,-0.1</column>
@@ -625,7 +625,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">26</column>
-			<column name="strName">Visitei andar de cima de Seven-Gables</column>
+			<column name="strName">Visitado andar de cima de Seven-Gables</column>
 			<column name="strDesc">&lt;us&gt; ja visitou o andar de cima de Seven-Gables.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -809,7 +809,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">34</column>
-			<column name="strName">Equipado ampliacao optica</column>
+			<column name="strName">Equipado amplificador optico</column>
 			<column name="strDesc">&lt;us&gt; esta usando um dispositivo de ampliacao optica.</column>
 			<column name="aFieldNames">VisionRange,BaseDetectionLevel</column>
 			<column name="aModifiers">1,-0.125</column>
@@ -1085,7 +1085,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">46</column>
-			<column name="strName">comeu ketchup</column>
+			<column name="strName">Comeu ketchup</column>
 			<column name="strDesc">&lt;us&gt; comeu um pacote de ketchup.</column>
 			<column name="aFieldNames">fFoodDebt</column>
 			<column name="aModifiers">-0.5</column>
@@ -1499,8 +1499,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">64</column>
-			<column name="strName">Used Nanorobot Medical Kit</column>
-			<column name="strDesc">&lt;us&gt; used a nanorobot medical kit, and their wounds have started mending.</column>
+			<column name="strName">Usado Kit Medico de Nanorobot</column>
+			<column name="strDesc">&lt;us&gt; usou um kit medico de nanorobot e suas feridas comecaram a regenerar/reparar.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fBloodRestoreRate</column>
 			<column name="aModifiers">0.1,0.0003</column>
 			<column name="aEffects">SetImmunity=40,48,198,303</column>
@@ -1522,8 +1522,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">65</column>
-			<column name="strName">Diarrhea</column>
-			<column name="strDesc">&lt;us&gt; has diarrhea.</column>
+			<column name="strName">Diarreia</column>
+			<column name="strDesc">&lt;us&gt; esta com diarreia.</column>
 			<column name="aFieldNames">m_fScent,fWaterConsumptionRate,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">1,1.5,-0.07,-0.05</column>
 			<column name="aEffects"></column>
@@ -1545,8 +1545,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">66</column>
-			<column name="strName">Vomiting</column>
-			<column name="strDesc">&lt;us&gt; is vomiting.</column>
+			<column name="strName">Vomitando</column>
+			<column name="strDesc">&lt;us&gt; esta vomitando.</column>
 			<column name="aFieldNames">m_fScent,fWaterConsumptionRate,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">1,1.5,-0.07,-0.05</column>
 			<column name="aEffects"></column>
@@ -1568,8 +1568,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">67</column>
-			<column name="strName">Minor Cuts</column>
-			<column name="strDesc">&lt;us&gt; sustained minor cuts.</column>
+			<column name="strName">Cortes Pequenos</column>
+			<column name="strDesc">&lt;us&gt; esta com cortes pequenos.</column>
 			<column name="aFieldNames">WoundCut</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -1591,8 +1591,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">68</column>
-			<column name="strName">Minor Bruising</column>
-			<column name="strDesc">&lt;us&gt; sustained minor bruising.</column>
+			<column name="strName">Contusoes Pequenas</column>
+			<column name="strDesc">&lt;us&gt; esta com contusoes pequenas.</column>
 			<column name="aFieldNames">WoundBruise</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -1614,8 +1614,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">69</column>
-			<column name="strName">Moderate Cuts</column>
-			<column name="strDesc">&lt;us&gt; sustained moderate cuts.</column>
+			<column name="strName">Cortes Moderados</column>
+			<column name="strDesc">&lt;us&gt; esta com cortes moderados.</column>
 			<column name="aFieldNames">WoundCut</column>
 			<column name="aModifiers">0.3</column>
 			<column name="aEffects"></column>
@@ -1660,8 +1660,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">71</column>
-			<column name="strName">Frail</column>
-			<column name="strDesc">&lt;us&gt; is frail, is easier to wound, and takes longer to heal.</column>
+			<column name="strName">Fragil</column>
+			<column name="strDesc">&lt;us&gt; esta fragil, esta mais facil de ferir e leva mais tempo para curar.</column>
 			<column name="aFieldNames">m_fPainLeftBase,m_fImmuneLeftBase,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate,m_fPainLeft,m_fImmuneLeft,m_fMorale,DefDmgMult</column>
 			<column name="aModifiers">-0.33,-0.25,-0.02,-0.0001,-0.0005,-0.33,-0.25,-0.3,0.5</column>
 			<column name="aEffects"></column>
@@ -1683,8 +1683,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">72</column>
-			<column name="strName">Tough</column>
-			<column name="strDesc">&lt;us&gt; is tough, can take more of a beating than most, and recovers faster.</column>
+			<column name="strName">Resistente</column>
+			<column name="strDesc">&lt;us&gt; esta resistente, pode durar mais do que a maioria e recupera-se mais rapidamente.</column>
 			<column name="aFieldNames">m_fPainLeftBase,m_fImmuneLeftBase,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate,m_fPainLeft,m_fImmuneLeft,m_fMorale</column>
 			<column name="aModifiers">0.5,0.33,0.03,0.0002,0.001,0.5,0.33,0.3</column>
 			<column name="aEffects"></column>
@@ -1706,8 +1706,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">73</column>
-			<column name="strName">Chill touched</column>
-			<column name="strDesc">Something supernatural has chilled &lt;us&gt; with its touch.</column>
+			<column name="strName">Esfriado</column>
+			<column name="strDesc">Algo sobrenatural fez esfriar o &lt;us&gt; com seu toque.</column>
 			<column name="aFieldNames">fCoreTemp</column>
 			<column name="aModifiers">-3.0</column>
 			<column name="aEffects"></column>
@@ -1729,8 +1729,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">74</column>
-			<column name="strName">Pushing cart</column>
-			<column name="strDesc">&lt;us&gt; has a cart that allows them to carry more.</column>
+			<column name="strName">Empurrando o carrinho</column>
+			<column name="strDesc">&lt;us&gt; tem um carrinho que lhes permite transportar mais.</column>
 			<column name="aFieldNames">m_fEncumberanceLimit,m_fScent,m_fVisibility</column>
 			<column name="aModifiers">150,3,0.5</column>
 			<column name="aEffects"></column>
@@ -1752,8 +1752,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">75</column>
-			<column name="strName">Moderate Bruising</column>
-			<column name="strDesc">&lt;us&gt; sustained moderate bruising.</column>
+			<column name="strName">Contusoes Moderado</column>
+			<column name="strDesc">&lt;us&gt; esta com contusoes moderada.</column>
 			<column name="aFieldNames">WoundBruise</column>
 			<column name="aModifiers">0.3</column>
 			<column name="aEffects"></column>
@@ -1775,8 +1775,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">76</column>
-			<column name="strName">Ate some mushrooms</column>
-			<column name="strDesc">&lt;us&gt; ate some mushrooms.</column>
+			<column name="strName">Comeu Cogumelos</column>
+			<column name="strDesc">&lt;us&gt; comeu alguens cogumelos.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-2,-0.5</column>
 			<column name="aEffects"></column>
@@ -1798,8 +1798,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">77</column>
-			<column name="strName">Poisoned 1</column>
-			<column name="strDesc">&lt;us&gt; has poison stage 1.</column>
+			<column name="strName">Veneno I</column>
+			<column name="strDesc">&lt;us&gt; esta envenenado com Veneno I.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -1821,8 +1821,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">78</column>
-			<column name="strName">Poisoned 2</column>
-			<column name="strDesc">&lt;us&gt; has poison stage 2.</column>
+			<column name="strName">Veneno II</column>
+			<column name="strDesc">&lt;us&gt; esta envenenado com Veneno II.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">-0.01,-0.02</column>
 			<column name="aEffects"></column>
@@ -1844,8 +1844,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">79</column>
-			<column name="strName">Poisoned 3</column>
-			<column name="strDesc">&lt;us&gt; has poison stage 3.</column>
+			<column name="strName">Veneno III</column>
+			<column name="strDesc">&lt;us&gt; esta envenenado com Veneno III.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">-0.01,-0.03</column>
 			<column name="aEffects"></column>
@@ -1867,8 +1867,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">80</column>
-			<column name="strName">Poisoned to death</column>
-			<column name="strDesc">&lt;us&gt; died of poisoning.</column>
+			<column name="strName">Morreu por Veneno</column>
+			<column name="strDesc">&lt;us&gt; morreu envenenado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -1890,8 +1890,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">81</column>
-			<column name="strName">Alert</column>
-			<column name="strDesc">&lt;us&gt; is more alert than most, and less likely to be surprised in their sleep.</column>
+			<column name="strName">Alerta</column>
+			<column name="strDesc">&lt;us&gt; esta mais alerta do que a maioria, e esta menos provavel que se surpreenda ao dormir.</column>
 			<column name="aFieldNames">m_fSleepAwareness</column>
 			<column name="aModifiers">0.5</column>
 			<column name="aEffects"></column>
@@ -1913,8 +1913,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">82</column>
-			<column name="strName">Immune system boost</column>
-			<column name="strDesc">&lt;us&gt;'s immune system is temporarily bolstered.</column>
+			<column name="strName">Aumento do sistema imunologico</column>
+			<column name="strDesc">&lt;us&gt;'s seu sistema imunologico esta temporariamente mais forte.</column>
 			<column name="aFieldNames">m_fImmuneRestoreRate</column>
 			<column name="aModifiers">0.002</column>
 			<column name="aEffects"></column>
@@ -1936,8 +1936,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">83</column>
-			<column name="strName">Ate a small portion of meat</column>
-			<column name="strDesc">&lt;us&gt; ate a small portion of meat.</column>
+			<column name="strName">Comeu Pequena Carne</column>
+			<column name="strDesc">&lt;us&gt; comeu uma pequena porcao de carne.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-4,-0.5</column>
 			<column name="aEffects"></column>
@@ -1959,8 +1959,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">84</column>
-			<column name="strName">Ate a small portion of rotten meat</column>
-			<column name="strDesc">Blech! &lt;us&gt; forced down a small portion of rotten meat.</column>
+			<column name="strName">Comeu Pequena Carne Podre</column>
+			<column name="strDesc">Blech! &lt;us&gt; comeu uma pequena porcao de carne podre a forca.</column>
 			<column name="aFieldNames">fFoodDebt</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -1982,8 +1982,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">85</column>
-			<column name="strName">Wearing a hide glove</column>
-			<column name="strDesc">&lt;us&gt; is wearing a hide glove.</column>
+			<column name="strName">Usando uma luva de couro</column>
+			<column name="strDesc">&lt;us&gt; esta usando uma luva de couro.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-1,0,-0.05</column>
 			<column name="aEffects"></column>
@@ -2005,8 +2005,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">86</column>
-			<column name="strName">Ate some berries</column>
-			<column name="strDesc">&lt;us&gt; ate some berries.</column>
+			<column name="strName">Comeu Bagas</column>
+			<column name="strDesc">&lt;us&gt; comeu algumas bagas.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-1,-0.5</column>
 			<column name="aEffects"></column>
@@ -2028,8 +2028,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">87</column>
-			<column name="strName">Skilled in ranged combat</column>
-			<column name="strDesc">&lt;us&gt; is skilled in ranged combat. &lt;us&gt; can engage at longer range than most, and ranged weapons degrade slower.</column>
+			<column name="strName">Habilidade no combate a distancia</column>
+			<column name="strDesc">&lt;us&gt; e habilidoso em combate a distancia. &lt;us&gt; podem se envolver em um alcance mais longo do que a maioria, e as armas a distancia se deterioram mais devagar.</column>
 			<column name="aFieldNames">m_fDefense</column>
 			<column name="aModifiers">0.05</column>
 			<column name="aEffects"></column>
@@ -2051,8 +2051,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">88</column>
-			<column name="strName">Drank Corn-a-Cola</column>
-			<column name="strDesc">&lt;us&gt; drank some Corn-a-Cola soda. Taste the corny refreshment!</column>
+			<column name="strName">Bebeu Corn-a-Cola</column>
+			<column name="strDesc">&lt;us&gt; Tomou um pouco de refrigerante de Corn-a-Cola. Experimentou o refresco!</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-3,-1</column>
 			<column name="aEffects"></column>
@@ -2074,8 +2074,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">89</column>
-			<column name="strName">Caffeine high</column>
-			<column name="strDesc">&lt;us&gt; is on a caffeine high.</column>
+			<column name="strName">Cafeina Alta</column>
+			<column name="strDesc">&lt;us&gt; esta com uma cafeina alta.</column>
 			<column name="aFieldNames">fSleepDebt,fWaterConsumptionRate,fCoreTemp</column>
 			<column name="aModifiers">-25,0.25,2</column>
 			<column name="aEffects"></column>
@@ -2097,8 +2097,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">90</column>
-			<column name="strName">Caffeine crash</column>
-			<column name="strDesc">&lt;us&gt; is crashing after a caffeine high.</column>
+			<column name="strName">Colapso por Cafeina</column>
+			<column name="strDesc">&lt;us&gt; esta falhando depois de muita cafeina.</column>
 			<column name="aFieldNames">fSleepDebt,fCoreTemp</column>
 			<column name="aModifiers">25,-2</column>
 			<column name="aEffects"></column>
@@ -2120,8 +2120,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">91</column>
-			<column name="strName">Gave Hatter Security Footage</column>
-			<column name="strDesc">&lt;us&gt; gave security footage of kicking a Dogman's ass to Hatter.</column>
+			<column name="strName">Deu a filmagem de seguranca a Hatter</column>
+			<column name="strDesc">&lt;us&gt; Deu a filmagem de seguranca sobre briga do Lobisomem a Hatter.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2143,8 +2143,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">92</column>
-			<column name="strName">Hatter Disappointed</column>
-			<column name="strDesc">&lt;us&gt; failed Hatter once, and Hatter is unimpressed.</column>
+			<column name="strName">Hatter Decepcionado</column>
+			<column name="strDesc">&lt;us&gt; falhou com Hatter uma vez, e Hatter nao esta impressionado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2166,8 +2166,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">93</column>
-			<column name="strName">Visited Seven Gables Downstairs</column>
-			<column name="strDesc">&lt;us&gt; already visited the downstairs of Seven Gables.</column>
+			<column name="strName">Visitou andar de baixo de Seven-Gables</column>
+			<column name="strDesc">&lt;us&gt; esta visitando o andar de baixo de Seven Gables.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2189,8 +2189,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">94</column>
-			<column name="strName">Hatter Excommunicated Player</column>
-			<column name="strDesc">&lt;us&gt; failed Hatter too many times, and he won't speak with them any more.</column>
+			<column name="strName">Hatter Excomungou Jogador</column>
+			<column name="strDesc">&lt;us&gt; fracassou com Hatter muitas vezes, e ele nao falara mais com voce.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2212,8 +2212,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">95</column>
-			<column name="strName">Agreed to work for Hatter</column>
-			<column name="strDesc">&lt;us&gt; agreed to do a contract for Hatter.</column>
+			<column name="strName">Aceita trabalhar para Hatter</column>
+			<column name="strDesc">&lt;us&gt; concordou em fazer um contrato com Hatter.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2235,8 +2235,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">96</column>
-			<column name="strName">Allied with Hatter</column>
-			<column name="strDesc">&lt;us&gt; allied with Hatter.</column>
+			<column name="strName">Aliado com Hatter</column>
+			<column name="strDesc">&lt;us&gt; aliado com Hatter.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2258,8 +2258,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">97</column>
-			<column name="strName">Insomniac</column>
-			<column name="strDesc">&lt;us&gt; has trouble staying asleep, and sleep is less restful.</column>
+			<column name="strName">Insonia</column>
+			<column name="strDesc">&lt;us&gt; tem problemas para ficar dormindo, e nao dorme com facilidade.</column>
 			<column name="aFieldNames">fSleepQuality</column>
 			<column name="aModifiers">-0.35</column>
 			<column name="aEffects"></column>
@@ -2281,8 +2281,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">98</column>
-			<column name="strName">Recently moved</column>
-			<column name="strDesc">&lt;us&gt; recently moved, making them easier to spot and less aware of others, but also harder to hit.</column>
+			<column name="strName">Mudou recentemente</column>
+			<column name="strDesc">&lt;us&gt; recentemente mudou-se, tornando-os mais faceis de detectar e menos conscientes dos outros, mas tambem sao mais dificeis de bater.</column>
 			<column name="aFieldNames">m_fVisibility,BaseDetectionLevel,m_fDefense</column>
 			<column name="aModifiers">0.5,0.25,0.25</column>
 			<column name="aEffects"></column>
@@ -2304,8 +2304,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">99</column>
-			<column name="strName">Scavenging</column>
-			<column name="strDesc">&lt;us&gt; is scavenging a hex.</column>
+			<column name="strName">Vasculhar</column>
+			<column name="strDesc">&lt;us&gt; esta vasculhar um hex.</column>
 			<column name="aFieldNames">m_fMovesLeft</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -2327,8 +2327,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">100</column>
-			<column name="strName">Ate a small portion of cured meat</column>
-			<column name="strDesc">&lt;us&gt; ate a small portion of cured meat.</column>
+			<column name="strName">Comeu Pequena Carne Curada</column>
+			<column name="strDesc">&lt;us&gt; comeu uma pequena porcao de carne curada.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-4,0.5</column>
 			<column name="aEffects"></column>
@@ -2350,8 +2350,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">101</column>
-			<column name="strName">Alerted by noise trap</column>
-			<column name="strDesc">Noise traps strung around this area help alert &lt;us&gt; to creatures while they sleep.</column>
+			<column name="strName">Alertado pela armadilha de ruido</column>
+			<column name="strDesc">Armadilhas de ruido instaladas nesta area ajudam a alertar o &lt;us&gt; para as criaturas se aproximando, enquanto dormem.</column>
 			<column name="aFieldNames">m_fSleepAwareness</column>
 			<column name="aModifiers">0.3</column>
 			<column name="aEffects"></column>

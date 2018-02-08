@@ -398,7 +398,7 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">protegendo o rosto do cÃ©u, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
+			<column name="vActivities">protegendo o rosto do ceu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
 		</table>
 		<table name="creatures">
 			<column name="id">25</column>
@@ -413,7 +413,7 @@
 			<column name="vAttackModes">1</column>
 			<column name="vBaseConditions">51=0.5,52=0.5,61=0.25,72=0.25,81=0.75,150=0.25,151=1,207=0.5,210=1,210=1,473=1,494=1,535=1,776=1</column>
 			<column name="nCorpseID">402</column>
-			<column name="vActivities">protegendo o rosto do cÃ©u, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
+			<column name="vActivities">protegendo o rosto do ceu, verificando a pintura do rosto, polindo sua arma, recitando algo solenemente, esmagando alguns eletronicos</column>
 		</table>
 		<table name="creatures">
 			<column name="id">26</column>
