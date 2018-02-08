@@ -1981,7 +1981,9 @@ Function conditions(id, attr, Line)
 		case 81
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Alert", "Alerta")
+					If (Line = "Alert") Then
+						Line = Replace(Line, "Alert", "Alerta")
+					End If
 				case "strDesc"
 					Line = Replace(Line, "is more alert than most, and less likely to be surprised in their sleep", "esta mais alerta do que a maioria, e esta menos provavel que se surpreenda ao dormir")
 			End Select
