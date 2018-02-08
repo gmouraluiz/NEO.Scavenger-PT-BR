@@ -3523,8 +3523,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">152</column>
-			<column name="strName">KnockDown</column>
-			<column name="strDesc">&lt;us&gt; was knocked down in combat.</column>
+			<column name="strName">Derrubado</column>
+			<column name="strDesc">&lt;us&gt; foi derrubado em combate.</column>
 			<column name="aFieldNames">KnockDown</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3546,8 +3546,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">153</column>
-			<column name="strName">Dodging</column>
-			<column name="strDesc">&lt;us&gt; is dodging out of the way, making them hard to hit for a moment.</column>
+			<column name="strName">Esquiva</column>
+			<column name="strDesc">&lt;us&gt; esta se esquivando, tornando-os dificeis de bater por um momento.</column>
 			<column name="aFieldNames">m_fDefense</column>
 			<column name="aModifiers">0.5</column>
 			<column name="aEffects"></column>
@@ -3569,8 +3569,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">154</column>
-			<column name="strName">Parrying</column>
-			<column name="strDesc">&lt;us&gt; is parrying the next attack, making them hard to hit for a moment.</column>
+			<column name="strName">Desviar</column>
+			<column name="strDesc">&lt;us&gt; vai parando o proximo ataque, tornando-os dificeis de bater por um momento.</column>
 			<column name="aFieldNames">m_fDefense</column>
 			<column name="aModifiers">0.75</column>
 			<column name="aEffects"></column>
@@ -3592,8 +3592,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">155</column>
-			<column name="strName">JustMoved</column>
-			<column name="strDesc">&lt;us&gt; recently moved.</column>
+			<column name="strName">Mudou recentimente</column>
+			<column name="strDesc">&lt;us&gt; mudou recentemente.</column>
 			<column name="aFieldNames">JustMoved</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3615,8 +3615,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">156</column>
-			<column name="strName">Discharge</column>
-			<column name="strDesc">Discharge weapon.</column>
+			<column name="strName">Arma de Choque</column>
+			<column name="strDesc">Arma de Choque.</column>
 			<column name="aFieldNames">Discharge</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3638,8 +3638,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">157</column>
-			<column name="strName">Just changed attack modes</column>
-			<column name="strDesc">&lt;us&gt; recently changed attack modes.</column>
+			<column name="strName">Mudou modo de ataque</column>
+			<column name="strDesc">&lt;us&gt; alterou o modo de ataque recentemente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3661,8 +3661,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">158</column>
-			<column name="strName">Just accessed inventory</column>
-			<column name="strDesc">&lt;us&gt; recently accessed inventory.</column>
+			<column name="strName">Acabei de acessar o inventario</column>
+			<column name="strDesc">&lt;us&gt;acessou o inventario recentemente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3684,8 +3684,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">159</column>
-			<column name="strName">Tripped</column>
-			<column name="strDesc">&lt;us&gt; tripped and fell.</column>
+			<column name="strName">Tropecou</column>
+			<column name="strDesc">&lt;us&gt; tropecou e caiu.</column>
 			<column name="aFieldNames">Trip</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3707,8 +3707,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">160</column>
-			<column name="strName">Bandaged</column>
-			<column name="strDesc">&lt;us&gt;'s wound was bandaged.</column>
+			<column name="strName">Enfaixado</column>
+			<column name="strDesc">&lt;us&gt;'s feridas foi enfaixada.</column>
 			<column name="aFieldNames">Bandaged</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3730,8 +3730,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">161</column>
-			<column name="strName">Infected</column>
-			<column name="strDesc">&lt;us&gt;'s wound became infected.</column>
+			<column name="strName">Infectado</column>
+			<column name="strDesc">&lt;us&gt;'s esta com ferida infectada.</column>
 			<column name="aFieldNames">Infected</column>
 			<column name="aModifiers">0.01</column>
 			<column name="aEffects"></column>
@@ -3753,8 +3753,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">162</column>
-			<column name="strName">Disinfect</column>
-			<column name="strDesc">&lt;us&gt;'s wound was disinfected.</column>
+			<column name="strName">Ferida Desinfectada</column>
+			<column name="strDesc">&lt;us&gt;'s esta com ferida desinfectada.</column>
 			<column name="aFieldNames">Disinfected</column>
 			<column name="aModifiers">0.5</column>
 			<column name="aEffects"></column>
@@ -3776,8 +3776,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">163</column>
-			<column name="strName">Drank tannin tea</column>
-			<column name="strDesc">&lt;us&gt; drank some tannin tea.</column>
+			<column name="strName">Tomou Cha de tanino</column>
+			<column name="strDesc">&lt;us&gt; tomou Cha de tanino.</column>
 			<column name="aFieldNames">m_fImmuneRestoreRate,m_fImmuneLeft</column>
 			<column name="aModifiers">0.001,0.1</column>
 			<column name="aEffects"></column>
@@ -3799,8 +3799,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">164</column>
-			<column name="strName">Disinfect (strong)</column>
-			<column name="strDesc">&lt;us&gt;'s wound was disinfected with a strong disinfectant.</column>
+			<column name="strName">Desinfetar (forte)</column>
+			<column name="strDesc">&lt;us&gt;'s A ferida foi desinfectada com um forte desinfetante.</column>
 			<column name="aFieldNames">Disinfected</column>
 			<column name="aModifiers">0.95</column>
 			<column name="aEffects"></column>
@@ -3822,8 +3822,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">165</column>
-			<column name="strName">Painful sting</column>
-			<column name="strDesc">&lt;us&gt;'s wound stings with pain.</column>
+			<column name="strName">Picada dolorosa</column>
+			<column name="strDesc">&lt;us&gt;'s esta com ferimentos por picada e sentido dor.</column>
 			<column name="aFieldNames">m_fPain</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -3845,8 +3845,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">166</column>
-			<column name="strName">Drank whiskey</column>
-			<column name="strDesc">&lt;us&gt; drank some whiskey.</column>
+			<column name="strName">Tomou Uisque</column>
+			<column name="strDesc">&lt;us&gt; tomou um pouco de Uisque.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3868,8 +3868,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">167</column>
-			<column name="strName">Drunk</column>
-			<column name="strDesc">&lt;us&gt; is drunk.</column>
+			<column name="strName">Bebado</column>
+			<column name="strDesc">&lt;us&gt; esta bebado.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fPainLeft,m_fBloodLeft,fWaterConsumptionRate,fMovesPerTurnModifier,MinSafeTemp,MaxSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-0.01,-0.001,0.5,-0.1,0.25,-1,3.5,3,0.5</column>
 			<column name="aEffects"></column>
@@ -3891,8 +3891,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">168</column>
-			<column name="strName">Hung Over</column>
-			<column name="strDesc">&lt;us&gt; is hung over from drinking.</column>
+			<column name="strName">Ressaca</column>
+			<column name="strDesc">&lt;us&gt; esta com ressaca por beber.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,fWaterConsumptionRate</column>
 			<column name="aModifiers">-0.005,-0.0005,0.25</column>
 			<column name="aEffects"></column>
@@ -3914,8 +3914,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">169</column>
-			<column name="strName">Used prescription painkillers</column>
-			<column name="strDesc">&lt;us&gt; took some prescription painkillers.</column>
+			<column name="strName">Usou Analgesicos</column>
+			<column name="strDesc">&lt;us&gt; tomou alguns analgesicos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.5</column>
 			<column name="aEffects"></column>
@@ -3937,8 +3937,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">170</column>
-			<column name="strName">Prescription painkillers wearing off</column>
-			<column name="strDesc">&lt;us&gt;'s prescription painkillers are wearing off.</column>
+			<column name="strName">Usou AnalgÃ©sicos Vencidos</column>
+			<column name="strDesc">&lt;us&gt;'s tomou analgesicos vencidos ou velhos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.25</column>
 			<column name="aEffects"></column>
@@ -3960,8 +3960,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">171</column>
-			<column name="strName">Used painkillers</column>
-			<column name="strDesc">&lt;us&gt; took some painkillers.</column>
+			<column name="strName">Usou Analgesicos</column>
+			<column name="strDesc">&lt;us&gt; usou Analgesicos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.25</column>
 			<column name="aEffects"></column>
@@ -3983,8 +3983,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">172</column>
-			<column name="strName">Painkillers wearing off</column>
-			<column name="strDesc">&lt;us&gt;'s painkillers are wearing off.</column>
+			<column name="strName">Usou Analgesicos Vencidos</column>
+			<column name="strDesc">&lt;us&gt;'s Usou Analgesicos Vencidos ou velhos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.12</column>
 			<column name="aEffects"></column>
@@ -4006,8 +4006,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">173</column>
-			<column name="strName">No blood loss</column>
-			<column name="strDesc">&lt;us&gt; has a normal circulation of blood.</column>
+			<column name="strName">Sem/Perda/Sangue</column>
+			<column name="strDesc">&lt;us&gt; tem uma circulacao normal de sangue.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -4029,8 +4029,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">174</column>
-			<column name="strName">Mild Blood Loss</column>
-			<column name="strDesc">&lt;us&gt; has lost blood, affecting their activities somewhat.</column>
+			<column name="strName">Perda/Sangue leve</column>
+			<column name="strDesc">&lt;us&gt; esta perdendo sangue, afetando suas atividades um pouco.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fFatigueModifier,MinSafeTemp,fPassiveRewarmPerHour,m_fEncumberanceLimit,fFoodConsumptionRate,fWaterConsumptionRate</column>
 			<column name="aModifiers">-0.005,-0.0005,0.5,5,-1,-25,0.15,0.15</column>
 			<column name="aEffects"></column>
@@ -4052,8 +4052,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">175</column>
-			<column name="strName">Severe Blood Loss</column>
-			<column name="strDesc">&lt;us&gt; has lost a lot of blood, and will likely need hospital care soon.</column>
+			<column name="strName">Perda/Sangue moderada</column>
+			<column name="strDesc">&lt;us&gt; perdeu muito sangue e provavelmente precisara de cuidados hospitalares em breve.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fDefense,fMovesPerTurnModifier,m_fFatigueModifier,MinSafeTemp,fPassiveRewarmPerHour,m_fEncumberanceLimit,fFoodConsumptionRate,fWaterConsumptionRate</column>
 			<column name="aModifiers">-0.01,-0.001,-0.1,-1,1.0,10,-2,-45,0.25,0.25</column>
 			<column name="aEffects"></column>
@@ -4075,8 +4075,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">176</column>
-			<column name="strName">Hypovolemic shock</column>
-			<column name="strDesc">&lt;us&gt; died of blood loss.</column>
+			<column name="strName">Choque hemorragico</column>
+			<column name="strDesc">&lt;us&gt; morreu de perda de sangue.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4098,8 +4098,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">177</column>
-			<column name="strName">No pain</column>
-			<column name="strDesc">&lt;us&gt; is not experiencing any pain.</column>
+			<column name="strName">Sem dor</column>
+			<column name="strDesc">&lt;us&gt; nao esta sofrendo nenhuma dor.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -4121,8 +4121,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">178</column>
-			<column name="strName">Minor Pain</column>
-			<column name="strDesc">&lt;us&gt; is in minor pain, and some activities are affected.</column>
+			<column name="strName">Dor menor</column>
+			<column name="strDesc">&lt;us&gt; esta em sentido dor menor e algumas atividades sao afetadas.</column>
 			<column name="aFieldNames">fSleepQuality,BaseDetectionLevel,fMovesPerTurnModifier,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">-0.1,0.06,-1,-0.15,-0.06</column>
 			<column name="aEffects"></column>
@@ -4144,8 +4144,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">179</column>
-			<column name="strName">Severe Pain</column>
-			<column name="strDesc">&lt;us&gt; is in severe pain, and is having trouble concentrating.</column>
+			<column name="strName">Dor forte</column>
+			<column name="strDesc">&lt;us&gt; esta em dor forte e esta tendo problemas para se concentrar.</column>
 			<column name="aFieldNames">fSleepQuality,BaseDetectionLevel,fMovesPerTurnModifier,m_fMorale,m_fDefense</column>
 			<column name="aModifiers">-0.35,0.125,-2,-0.3,-0.125</column>
 			<column name="aEffects"></column>
@@ -4167,8 +4167,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">180</column>
-			<column name="strName">Shock</column>
-			<column name="strDesc">&lt;us&gt; passed out from unbearable pain.</column>
+			<column name="strName">Choque(Dor/Intesa)</column>
+			<column name="strDesc">&lt;us&gt; passou por uma dor insuportavel.</column>
 			<column name="aFieldNames">Asleep,fSleepQuality,m_fSleepAwareness</column>
 			<column name="aModifiers">1,3,-1</column>
 			<column name="aEffects"></column>
@@ -4190,8 +4190,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">181</column>
-			<column name="strName">Healthy</column>
-			<column name="strDesc">&lt;us&gt;'s immune system is healthy.</column>
+			<column name="strName">Saudavel</column>
+			<column name="strDesc">&lt;us&gt;'s esta com sistema imunologico saudavel.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -4213,8 +4213,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">182</column>
-			<column name="strName">Weakened Immune System</column>
-			<column name="strDesc">&lt;us&gt; is fighting off an infection.</column>
+			<column name="strName">Sistema imunologico enfraquecido</column>
+			<column name="strDesc">&lt;us&gt; esta lutando contra uma infeccao.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,fWaterConsumptionRate,fFoodConsumptionRate,fPassiveRewarmPerHour,MinSafeTemp,MaxSafeTemp</column>
 			<column name="aModifiers">-0.01,-0.001,0.25,0.25,-1,5,-5</column>
 			<column name="aEffects"></column>
@@ -4236,8 +4236,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">183</column>
-			<column name="strName">Sepsis</column>
-			<column name="strDesc">&lt;us&gt;'s whole body is in an inflammatory, potentially fatal state.</column>
+			<column name="strName">Sepsia</column>
+			<column name="strDesc">&lt;us&gt;'s esta com todo o seu corpo em estado inflamatorio, potencialmente fatal.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,fFatigueModifier,fWaterConsumptionRate,fFoodConsumptionRate,fPassiveRewarmPerHour,MinSafeTemp,MaxSafeTemp,m_fBloodLeft,m_fBloodRestoreRate</column>
 			<column name="aModifiers">-0.02,-0.002,1,0.25,0.25,-1,35,-35,-0.01,-0.05</column>
 			<column name="aEffects"></column>
@@ -4259,8 +4259,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">184</column>
-			<column name="strName">Septic Shock</column>
-			<column name="strDesc">&lt;us&gt; died of septicemia.</column>
+			<column name="strName">Choque septico</column>
+			<column name="strDesc">&lt;us&gt; morreu por sepsia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4282,8 +4282,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">185</column>
-			<column name="strName">Resting</column>
-			<column name="strDesc">&lt;us&gt; is resting.</column>
+			<column name="strName">Repousando</column>
+			<column name="strDesc">&lt;us&gt; esta repousando.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneRestoreRate,m_fBloodRestoreRate,fFoodConsumptionRate,fWaterConsumptionRate,MinSafeTemp,MaxSafeTemp</column>
 			<column name="aModifiers">0.025,0.001,0.0001,-0.25,-0.25,15,15</column>
 			<column name="aEffects"></column>
@@ -4305,8 +4305,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">186</column>
-			<column name="strName">Crippled Left Arm</column>
-			<column name="strDesc">&lt;us&gt;'s left arm became crippled.</column>
+			<column name="strName">Braco esquerdo aleijado</column>
+			<column name="strDesc">&lt;us&gt;'s o seu braco esquerdo ficou paralisado.</column>
 			<column name="aFieldNames">Crippled,m_fMorale</column>
 			<column name="aModifiers">1,-0.3</column>
 			<column name="aEffects"></column>
@@ -4328,8 +4328,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">187</column>
-			<column name="strName">Crippled Right Arm</column>
-			<column name="strDesc">&lt;us&gt;'s right arm became crippled.</column>
+			<column name="strName">Braco direito aleijado</column>
+			<column name="strDesc">&lt;us&gt;'s o seu braco direito ficou paralisado.</column>
 			<column name="aFieldNames">Crippled,m_fMorale</column>
 			<column name="aModifiers">2,-0.3</column>
 			<column name="aEffects"></column>
@@ -4351,8 +4351,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">188</column>
-			<column name="strName">Both Arms Crippled</column>
-			<column name="strDesc">Both of &lt;us&gt;'s arms are crippled, severely affecting actions.</column>
+			<column name="strName">Ambos os bracos estao paralisados</column>
+			<column name="strDesc">Both of &lt;us&gt;'s ambos os bracos ficou paralisado.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -4374,8 +4374,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">189</column>
-			<column name="strName">Bleeding internally</column>
-			<column name="strDesc">&lt;us&gt; is bleeding internally.</column>
+			<column name="strName">Sangramento interno</column>
+			<column name="strDesc">&lt;us&gt; esta com sangramento interno.</column>
 			<column name="aFieldNames">fWaterConsumptionRate,m_fBloodRestoreRate</column>
 			<column name="aModifiers">0.5,-0.0003</column>
 			<column name="aEffects"></column>
@@ -4397,8 +4397,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">190</column>
-			<column name="strName">Crippled Left Leg</column>
-			<column name="strDesc">&lt;us&gt;'s left leg became crippled.</column>
+			<column name="strName">Perna esquerda aleijada</column>
+			<column name="strDesc">&lt;us&gt;'s a perna esquerda ficou paralisada.</column>
 			<column name="aFieldNames">Crippled,KnockDown,fMovesPerTurnModifier,m_fScent,m_fMoveReserve,m_fMorale</column>
 			<column name="aModifiers">3,1,-3,2,-5,-0.3</column>
 			<column name="aEffects"></column>
@@ -4420,8 +4420,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">191</column>
-			<column name="strName">Crippled Right Leg</column>
-			<column name="strDesc">&lt;us&gt;'s right leg became crippled.</column>
+			<column name="strName">Perna direita aleijada</column>
+			<column name="strDesc">&lt;us&gt;'s sua perna direita tornou-se aleijada.</column>
 			<column name="aFieldNames">Crippled,KnockDown,fMovesPerTurnModifier,m_fScent,m_fMoveReserve,m_fMorale</column>
 			<column name="aModifiers">4,1,-3,2,-5,-0.3</column>
 			<column name="aEffects"></column>
@@ -4443,8 +4443,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">192</column>
-			<column name="strName">Both Legs Crippled</column>
-			<column name="strDesc">Both of &lt;us&gt;'s legs are crippled, severely affecting actions.</column>
+			<column name="strName">Ambas as pernas estao paralisados</column>
+			<column name="strDesc">Ambas as pernas do &lt;us&gt;'s estao paralisadas, afetando severamente as suas acoes.</column>
 			<column name="aFieldNames">KnockDown,fMovesPerTurnModifier,m_fMorale</column>
 			<column name="aModifiers">1,-5,-0.3</column>
 			<column name="aEffects"></column>
@@ -4466,8 +4466,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">193</column>
-			<column name="strName">Cardiac Arrest</column>
-			<column name="strDesc">&lt;us&gt;'s heart stopped, and will likely die soon.</column>
+			<column name="strName">Parada cardiaca</column>
+			<column name="strDesc">&lt;us&gt;'s seu coracao parou e provavelmente morrera em breve.</column>
 			<column name="aFieldNames">Asleep,fSleepQuality,m_fSleepAwareness</column>
 			<column name="aModifiers">1,3,-1</column>
 			<column name="aEffects"></column>
@@ -4489,8 +4489,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">194</column>
-			<column name="strName">Severe Brain Trauma</column>
-			<column name="strDesc">&lt;us&gt; died of a severe traumatic brain injury.</column>
+			<column name="strName">Traumatismo craniano grave</column>
+			<column name="strDesc">&lt;us&gt; morreu de uma lesao cerebral traumatica grave.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4512,8 +4512,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">195</column>
-			<column name="strName">Concussion</column>
-			<column name="strDesc">&lt;us&gt; has a concussion, and is somewhat disoriented.</column>
+			<column name="strName">Concussao</column>
+			<column name="strDesc">&lt;us&gt; tem uma concussao e esta um tanto desorientado.</column>
 			<column name="aFieldNames">BaseDetectionLevel,fMovesPerTurnModifier,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">0.06,-1,-0.15,-0.06</column>
 			<column name="aEffects"></column>
@@ -4535,8 +4535,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">196</column>
-			<column name="strName">Died of Cardiac Arrest</column>
-			<column name="strDesc">&lt;us&gt; died due to cardiac arrest.</column>
+			<column name="strName">Morreu por parada cardiaca</column>
+			<column name="strDesc">&lt;us&gt; morreu por parada cardiaca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4558,8 +4558,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">197</column>
-			<column name="strName">Pulmonary Hemorrhage</column>
-			<column name="strDesc">&lt;us&gt; died due to acute bleeding in the lungs.</column>
+			<column name="strName">Hemorragia pulmonar</column>
+			<column name="strDesc">&lt;us&gt; morreu por sangramento agudo nos pulmoes.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4581,8 +4581,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">198</column>
-			<column name="strName">Pneumonia 1</column>
-			<column name="strDesc">&lt;us&gt; contracted pneumonia.</column>
+			<column name="strName">Pneumonia I</column>
+			<column name="strDesc">&lt;us&gt; contraiu pneumonia I.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4604,8 +4604,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">199</column>
-			<column name="strName">Pneumonia 2</column>
-			<column name="strDesc">&lt;us&gt; came down with pneumonia.</column>
+			<column name="strName">Pneumonia II</column>
+			<column name="strDesc">&lt;us&gt; desmoronou com pneumonia II.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">-0.01,-0.00625</column>
 			<column name="aEffects">SetImmunity=198</column>
@@ -4627,8 +4627,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">200</column>
-			<column name="strName">Pneumonia 3</column>
-			<column name="strDesc">&lt;us&gt; has severe pneumonia.</column>
+			<column name="strName">Pneumonia III</column>
+			<column name="strDesc">&lt;us&gt; tem pneumonia grave.</column>
 			<column name="aFieldNames">m_fPainLeft,m_fImmuneLeft,BaseDetectionLevel,fMovesPerTurnModifier,m_fMorale,m_fDefense,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">-0.1,-0.01,0.125,-1,-0.3,-0.125,-0.00833</column>
 			<column name="aEffects">SetImmunity=198,199</column>
@@ -4650,8 +4650,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">201</column>
-			<column name="strName">Died of Pneumonia</column>
-			<column name="strDesc">&lt;us&gt; died of pneumonia.</column>
+			<column name="strName">Morreu por Pneumonia</column>
+			<column name="strDesc">&lt;us&gt; morreu por pneumonia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4673,8 +4673,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">202</column>
-			<column name="strName">Coughing</column>
-			<column name="strDesc">&lt;us&gt; developed a cough.</column>
+			<column name="strName">Tosse</column>
+			<column name="strDesc">&lt;us&gt; desenvolveu tosse.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">0.05</column>
 			<column name="aEffects"></column>
@@ -4696,8 +4696,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">203</column>
-			<column name="strName">Severe Coughing</column>
-			<column name="strDesc">&lt;us&gt; developed a severe cough.</column>
+			<column name="strName">Tosse severa</column>
+			<column name="strDesc">&lt;us&gt; desenvolveu tosse severa.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -4719,8 +4719,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">204</column>
-			<column name="strName">Coughing Blood</column>
-			<column name="strDesc">&lt;us&gt; is coughing up blood.</column>
+			<column name="strName">Tosse Sangue</column>
+			<column name="strDesc">&lt;us&gt; esta tossindo sangue.</column>
 			<column name="aFieldNames">m_fScent</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -4742,8 +4742,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">205</column>
-			<column name="strName">Fractured Rib</column>
-			<column name="strDesc">&lt;us&gt; has a fractured rib.</column>
+			<column name="strName">Costela fraturada</column>
+			<column name="strDesc">&lt;us&gt; tem uma costela fraturada.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">-0.1</column>
 			<column name="aEffects"></column>
@@ -4765,8 +4765,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">206</column>
-			<column name="strName">Splinted</column>
-			<column name="strDesc">&lt;us&gt;'s limb was splinted.</column>
+			<column name="strName">Tala</column>
+			<column name="strDesc">&lt;us&gt;'s membro foi entalado.</column>
 			<column name="aFieldNames">Splinted</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -4788,8 +4788,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">207</column>
-			<column name="strName">Skilled in trapping</column>
-			<column name="strDesc">&lt;us&gt; is skilled in trapping and snares.</column>
+			<column name="strName">Habilidoso com Sobrevivencia</column>
+			<column name="strDesc">&lt;us&gt; e habilidoso com ciladas e armadilhas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4811,8 +4811,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">208</column>
-			<column name="strName">Threatening</column>
-			<column name="strDesc">&lt;us&gt; is threatening opponents with their weapon.</column>
+			<column name="strName">Ameacador</column>
+			<column name="strDesc">&lt;us&gt; esta ameacando oponentes com sua arma.</column>
 			<column name="aFieldNames">Threat</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -4834,8 +4834,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">209</column>
-			<column name="strName">Fall Back All 1</column>
-			<column name="strDesc">Fall back 1 away from all targets.</column>
+			<column name="strName">Retirou-se 1 hex</column>
+			<column name="strDesc">Retirou-se 1 hex de distancia de todos os alvos.</column>
 			<column name="aFieldNames">ChangeRangeAll</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -4880,8 +4880,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">211</column>
-			<column name="strName">Loaded Weapon</column>
-			<column name="strDesc">&lt;us&gt; just proved their dangerous weapon is loaded, increasing their threat.</column>
+			<column name="strName">Carregar Arma</column>
+			<column name="strDesc">&lt;us&gt; apenas provou que sua arma perigosa esta carregada, aumentando sua ameaca.</column>
 			<column name="aFieldNames">Threat</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -4903,8 +4903,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">212</column>
-			<column name="strName">Exited the cryo facility</column>
-			<column name="strDesc">&lt;us&gt; already exited the cryo facility.</column>
+			<column name="strName">Saiu de Cryo-Facility</column>
+			<column name="strDesc">&lt;us&gt; ja saiu de Cryo-Facility.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -4926,8 +4926,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">213</column>
-			<column name="strName">Discovered Exam Room 17</column>
-			<column name="strDesc">&lt;us&gt; already discovered Exam Room 17.</column>
+			<column name="strName">Sala de Exame 17 descoberta</column>
+			<column name="strDesc">&lt;us&gt; descobriu a Sala de Exame 17.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -4949,8 +4949,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">214</column>
-			<column name="strName">Artificial light</column>
-			<column name="strDesc">&lt;us&gt; is using an artificial light, and can see easily even at night.</column>
+			<column name="strName">Luz artificial</column>
+			<column name="strDesc">&lt;us&gt; esta usando uma luz artificial, e pode ver facilmente, mesmo a noite.</column>
 			<column name="aFieldNames">m_fVisibility,LightLevel</column>
 			<column name="aModifiers">0.15,1</column>
 			<column name="aEffects"></column>
@@ -4995,8 +4995,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">216</column>
-			<column name="strName">Skilled electrician</column>
-			<column name="strDesc">&lt;us&gt; is skilled in diagnosing and repairing electronics.</column>
+			<column name="strName">Habilidoso em eletrecista</column>
+			<column name="strDesc">&lt;us&gt; e habilidoso em diagnosticar e reparar eletronicos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5018,8 +5018,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">217</column>
-			<column name="strName">Skilled mechanic</column>
-			<column name="strDesc">&lt;us&gt; is skilled in diagnosing and repairing machines.</column>
+			<column name="strName">Habilidoso com mecanica</column>
+			<column name="strDesc">&lt;us&gt; e habilidoso em maquinas de diagnostico e reparacao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5041,8 +5041,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">218</column>
-			<column name="strName">Trigger Cryo Return</column>
-			<column name="strDesc">&lt;us&gt; stepped into a hex that triggered the cryo return encounter.</column>
+			<column name="strName">Desencadeou o Retorno de Cryo</column>
+			<column name="strDesc">&lt;us&gt; pisou em um hex que desencadeou um reecontro e retorno a Cryo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">237</column>
 			<column name="aEffects"></column>
@@ -5064,8 +5064,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">219</column>
-			<column name="strName">Itching wound</column>
-			<column name="strDesc">&lt;us&gt;'s &lt;wound&gt; is starting to itch.</column>
+			<column name="strName">Ferida com coceira</column>
+			<column name="strDesc">&lt;us&gt;'s &lt;ferida&gt; esta comecando a cocar.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5087,8 +5087,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">220</column>
-			<column name="strName">Hurting wound</column>
-			<column name="strDesc">&lt;us&gt;'s &lt;wound&gt; is starting to burn and swell.</column>
+			<column name="strName">Ferida esta piorando</column>
+			<column name="strDesc">&lt;us&gt;'s &lt;ferida&gt; esta comecando a queimar e inchar.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5110,8 +5110,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">221</column>
-			<column name="strName">Infected wound</column>
-			<column name="strDesc">&lt;us&gt;'s &lt;wound&gt; is starting to really hurt, smells awful, and is swelling.</column>
+			<column name="strName">Ferida infectada</column>
+			<column name="strDesc">&lt;us&gt;'s &lt;ferida&gt; esta comecando a doer realmente, cheira horrivel e esta inchada.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5133,8 +5133,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">222</column>
-			<column name="strName">Can Trigger Neutral</column>
-			<column name="strDesc">&lt;us&gt; can trigger neutral random encounters.</column>
+			<column name="strName">Pode Desencadear Encontros Neutros</column>
+			<column name="strDesc">&lt;us&gt; pode desencadear encontros aleatÃ³rios neutros.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5156,8 +5156,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">223</column>
-			<column name="strName">Can Trigger Good</column>
-			<column name="strDesc">&lt;us&gt; can trigger good random encounters.</column>
+			<column name="strName">Pode desencadear encontros bons</column>
+			<column name="strDesc">&lt;us&gt; pode desencadear encontros aleatorios bons.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5179,8 +5179,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">224</column>
-			<column name="strName">Can Trigger Evil</column>
-			<column name="strDesc">&lt;us&gt; can trigger evil random encounters.</column>
+			<column name="strName">Pode desencadear encontros ruins</column>
+			<column name="strDesc">&lt;us&gt; pode desencadear encontros aleatorios ruins.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5202,8 +5202,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">225</column>
-			<column name="strName">Morality +3</column>
-			<column name="strDesc">&lt;us&gt; did something good.</column>
+			<column name="strName">Moralidade +3</column>
+			<column name="strDesc">&lt;us&gt; fez algo de bom.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">3</column>
 			<column name="aEffects"></column>
@@ -5225,8 +5225,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">226</column>
-			<column name="strName">Morality +2</column>
-			<column name="strDesc">&lt;us&gt; did something good.</column>
+			<column name="strName">Moralidade +2</column>
+			<column name="strDesc">&lt;us&gt; fez algo de bom.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>
@@ -5248,8 +5248,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">227</column>
-			<column name="strName">Morality +1</column>
-			<column name="strDesc">&lt;us&gt; did something good.</column>
+			<column name="strName">Moral +1</column>
+			<column name="strDesc">&lt;us&gt; fez algo de bom.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -5271,8 +5271,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">228</column>
-			<column name="strName">Morality -1</column>
-			<column name="strDesc">&lt;us&gt; did something evil.</column>
+			<column name="strName">Moral -1</column>
+			<column name="strDesc">&lt;us&gt; dez algo de ruim.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -5294,8 +5294,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">229</column>
-			<column name="strName">Morality -2</column>
-			<column name="strDesc">&lt;us&gt; did something evil.</column>
+			<column name="strName">Moral -2</column>
+			<column name="strDesc">&lt;us&gt; dez algo de ruim.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -5317,8 +5317,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">230</column>
-			<column name="strName">Morality -3</column>
-			<column name="strDesc">&lt;us&gt; did something evil.</column>
+			<column name="strName">Moral -3</column>
+			<column name="strDesc">&lt;us&gt; dez algo de ruim.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">-3</column>
 			<column name="aEffects"></column>
@@ -5340,8 +5340,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">231</column>
-			<column name="strName">Neutral 1.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 1.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5363,8 +5363,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">232</column>
-			<column name="strName">Neutral 1.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 1.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5386,8 +5386,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">233</column>
-			<column name="strName">Neutral 2.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 2.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5409,8 +5409,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">234</column>
-			<column name="strName">Neutral 2.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 2.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5432,8 +5432,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">235</column>
-			<column name="strName">Neutral 3.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 3.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5455,8 +5455,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">236</column>
-			<column name="strName">Neutral 3.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 3.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5478,8 +5478,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">237</column>
-			<column name="strName">Neutral 4.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 4.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5501,8 +5501,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">238</column>
-			<column name="strName">Neutral 4.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 4.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5524,8 +5524,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">239</column>
-			<column name="strName">Neutral 5.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 5.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5547,8 +5547,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">240</column>
-			<column name="strName">Neutral 5.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 5.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5570,8 +5570,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">241</column>
-			<column name="strName">Neutral 6.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 6.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5593,8 +5593,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">242</column>
-			<column name="strName">Neutral 6.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 6.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5616,8 +5616,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">243</column>
-			<column name="strName">Neutral 7.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 7.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5639,8 +5639,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">244</column>
-			<column name="strName">Neutral 7.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 7.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5662,8 +5662,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">245</column>
-			<column name="strName">Neutral 8.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 8.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5685,8 +5685,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">246</column>
-			<column name="strName">Neutral 8.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 8.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5708,8 +5708,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">247</column>
-			<column name="strName">Neutral 9.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 9.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5731,8 +5731,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">248</column>
-			<column name="strName">Neutral 9.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 9.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5754,8 +5754,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">249</column>
-			<column name="strName">Neutral 10.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 10.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5777,8 +5777,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">250</column>
-			<column name="strName">Neutral 10.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Neutra 10.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5800,8 +5800,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">251</column>
-			<column name="strName">Good 1.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 1.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5823,8 +5823,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">252</column>
-			<column name="strName">Good 1.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 1.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5846,8 +5846,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">253</column>
-			<column name="strName">Good 2.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 2.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5869,8 +5869,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">254</column>
-			<column name="strName">Good 2.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 2.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5892,8 +5892,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">255</column>
-			<column name="strName">Good 3.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 3.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5915,8 +5915,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">256</column>
-			<column name="strName">Good 3.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 3.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5938,8 +5938,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">257</column>
-			<column name="strName">Good 4.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 4.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5961,8 +5961,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">258</column>
-			<column name="strName">Good 4.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 4.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -5984,8 +5984,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">259</column>
-			<column name="strName">Good 5.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 5.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6007,8 +6007,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">260</column>
-			<column name="strName">Good 5.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 5.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6030,8 +6030,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">261</column>
-			<column name="strName">Good 6.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 6.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6053,8 +6053,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">262</column>
-			<column name="strName">Good 6.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 6.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6076,8 +6076,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">263</column>
-			<column name="strName">Good 7.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 7.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6099,8 +6099,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">264</column>
-			<column name="strName">Good 7.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 7.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6122,8 +6122,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">265</column>
-			<column name="strName">Good 8.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 8.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6145,8 +6145,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">266</column>
-			<column name="strName">Good 8.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 8.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6168,8 +6168,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">267</column>
-			<column name="strName">Good 9.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 9.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6191,8 +6191,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">268</column>
-			<column name="strName">Good 9.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 9.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6214,8 +6214,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">269</column>
-			<column name="strName">Good 10.1</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 10.1</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -6237,8 +6237,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">270</column>
-			<column name="strName">Good 10.2</column>
-			<column name="strDesc">&lt;us&gt; already had this encounter.</column>
+			<column name="strName">Bom 10.2</column>
+			<column name="strDesc">&lt;us&gt; ja teve esse encontro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
