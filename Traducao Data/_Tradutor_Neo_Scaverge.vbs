@@ -2162,6 +2162,216 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is bleeding.", "esta com sangramento")
 			End Select
+		case 107
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Using sleeping bag", "Usando saco de dormir")
+				case "strDesc"
+					Line = Replace(Line, "is in a campsite with an average sleeping bag", "esta usando um saco de dormir medio")
+			End Select
+		case 108
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Using tarp shelter", "Usando um abrigo de lona")
+				case "strDesc"
+					Line = Replace(Line, "is in a campsite with a tarp shelter", "esta usando um abrigo de lona")
+			End Select
+		case 109
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blind", "Cego")
+				case "strDesc"
+					Line = Replace(Line, "is unable to see well in these conditions, making activity difficult", "esta incapaz de ver bem nestas condicoes, dificultando a atividade")
+			End Select
+		case 110
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Carrying torch", "Tocha de mao")
+				case "strDesc"
+					Line = Replace(Line, "is carrying a torch, making it easier to navigate in the dark, but also easier to spot", "esta carregando uma tocha, facilitando ver um pouco no escuro, mas tambem e mais facil de detectar")
+			End Select
+		case 112
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed at Seven Gables", "Morto em Seven Gables")
+				case "strDesc"
+					Line = Replace(Line, "was killed by the entity at Seven Gables Road", "foi morto pela entidade que assombra e habitava a estrada de Seven-Gables")
+			End Select
+		case 113
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Recently spawned", "Recentemente gerou")
+				case "strDesc"
+					Line = Replace(Line, "recently spawned", "recentemente gerou")
+			End Select
+		case 114
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing the Strangler's hood", "Ventido Capuz do Estragulador")
+				case "strDesc"
+					Line = Replace(Line, "has a heightened awareness of creatures nearby, even if they can't be seen. The sounds of life are maddening, their every breath a grating rasp begging to be silenced", "tem uma maior consciencia de criaturas nas proximidades, mesmo que nao possam ser vistas. Os sons da vida estao enlouquecendo, cada respiracao deles, um alvo implorando para ser silenciado, precisa matar algum alvo a cada X tempo se nao o proprio capuz o mata")
+			End Select
+		case 115
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Strangler's hood start", "Capuz do Estragulador Iniciou")
+				case "strDesc"
+					Line = Replace(Line, "Initialize strangler hood chain", "O Capuz do estragulador foi inicializado")
+			End Select
+		case 116
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Strangler's hood tightens", "Capuz do Apertando I")
+				case "strDesc"
+					Line = Replace(Line, "The thick twine lining the burlap hood's opening has tightened around", "O campuz esta apertando o")
+					Line = Replace(Line, "neck", "no pescoco")
+			End Select
+		case 117
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Strangler's hood tightens more", "Capuz do Apertando II")
+				case "strDesc"
+					Line = Replace(Line, "The hood cinches tighter, making it difficult to breathe", "O capuz esta fica mais apertado, dificultando a respiracao")
+			End Select
+		case 118
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Strangler's hood", "Morto pelo capuz do estragulador")
+				case "strDesc"
+					Line = Replace(Line, "The hood constricts further, choking", "O capuz se aperta ainda mais, sufocando o")
+					Line = Replace(Line, "to death", "levando a morte")
+			End Select
+		case 119
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Strangler's hood loosens", "Capuz do Afrouxou")
+				case "strDesc"
+					Line = Replace(Line, "The twine in the hood loosens a bit", "O Capuz do Estragulador se afroxou")
+			End Select
+		case 120
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hiding", "Escondido")
+				case "strDesc"
+					Line = Replace(Line, "is actively hiding, and is harder to see", "esta se escondendo, ficando mais dificil de ser encontrado ou ser visto")
+			End Select
+		case 121
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hiding (Advanced)", "Escondido (Avancado)")
+				case "strDesc"
+					Line = Replace(Line, "is actively hiding using advanced hiding skills, and is much harder to see", "esta se escondendo usando habilidades avancadas de se Esconder, ficando mais dificil de ser encontrado ou ser visto")
+			End Select
+		case 122
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Skilled in hiding", "Esconde-se perfeitamente")
+				case "strDesc"
+					Line = Replace(Line, " is skilled at hiding, and can conceal themselves better than most", "e habilidoso em se esconder e pode se esconder melhor do que a maioria")
+			End Select
+		case 123
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Running", "Corrida")
+				case "strDesc"
+					Line = Replace(Line, "is running, moving faster, but also fatiguing faster", "esta correndo, se movendo mais rapido, mas tambem fica cansado mais rapido")
+					Line = Replace(Line, "also leaves more tracks and cannot track as well while running", "tambem deixa mais rastros e nao consegue seguir rastros enquanto corre")
+			End Select
+		case 124
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Animal predator senses", "Sentidos de predador")
+				case "strDesc"
+					Line = Replace(Line, "has a heightened awareness of creatures nearby and their spoor", "tem uma maior conscientizacao sobre as criaturas nas proximidades e a sua posicao")
+			End Select
+		case 125
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Carrying V-MADS transponder", "Transportando transponder V-MADS")
+				case "strDesc"
+					Line = Replace(Line, "is carrying the V-MADS transponder", "esta carregando o transponder V-MADS")
+			End Select
+		case 126
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Player chose", "Jogador escolheu")
+					Line = Replace(Line, "stock", "(Armazenar/Itens)")				
+				case "strDesc"
+					Line = Replace(Line, "chose to be", "escolheu")
+					Line = Replace(Line, "stock", "(Armazenar/Itens)")
+					Line = Replace(Line, "at", "para entrar em")
+			End Select
+		case 127
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate BBQ", "Comeu BBQ")
+				case "strDesc"
+					Line = Replace(Line, "ate Zom Zom's BBQ", "comeu BBQ Zom Zom's")
+			End Select
+		case 128
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Dropped down the chute at Zom Zom's", "Caiu na calha de Zom Zom's")
+				case "strDesc"
+					Line = Replace(Line, "was dropped down the chute at Zom Zom's", "foi derrubado na calha de Zom Zom's")
+			End Select
+		case 129
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed at Zom Zom's", "Morto em Zom Zom's")
+				case "strDesc"
+					Line = Replace(Line, "was killed in the gladiator pits at Zom Zom's", "foi morto nos arena de gladiadores de Zom Zom's")
+			End Select
+		case 130
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Visited Zom Zom's", "Visitando Zom Zom's")
+				case "strDesc"
+					Line = Replace(Line, "already visited Zom Zom's", "ja visitou Zom Zom's")
+			End Select
+		case 131
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by a saber-toothed tiger", "Morto por um Tigre Dentes de Sabre")
+				case "strDesc"
+					Line = Replace(Line, "was gored and eaten by a saber-toothed tiger", "foi engolido e comido por um Tigre Dentes de Sabre")
+			End Select
+		case 132
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "CRS: Onset Phase", "CRS: Fase Inicial")
+				case "strDesc"
+					Line = Replace(Line, "has Cutaneous Radiation Syndrome: Onset Phase", "tem sintomas de radiacao CRS: Fase Inicial")
+			End Select
+		case 133
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "CRS: Prodromal Phase", "CRS: Fase Inicial/Intermediaria")
+				case "strDesc"
+					Line = Replace(Line, "has Prodromal Cutaneous Radiation Syndrome", "tem sintomas de Radiacao de  Fase Intermediaria")
+					Line = Replace(Line, "skin is starting to turn reddish, and is irritated", "A pele esta comecando a ficar avermelhada e irritada")
+			End Select
+		case 134
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "CRS: Latent Phase", "CRS: Fase Intermediaria")
+				case "strDesc"
+					Line = Replace(Line, "has Cutaneous Radiation Syndrome: Latent Phase", "tem sindrome por radiacao CRS: Fase Intermediaria")
+			End Select
+		case 135
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "CRS: Illness Phase", "CRS: Fase Final")
+				case "strDesc"
+					Line = Replace(Line, "skin is reddening as if burned, and ulcers are forming", "A pele esta avermelhada como se queimada, e esta se formando ulceras")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
 		case 000
 			Select case attr
 				case "strName"

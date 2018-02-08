@@ -2488,8 +2488,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">107</column>
-			<column name="strName">Using sleeping bag</column>
-			<column name="strDesc">&lt;us&gt; is in a campsite with an average sleeping bag.</column>
+			<column name="strName">Usando saco de dormir</column>
+			<column name="strDesc">&lt;us&gt; esta usando um saco de dormir medio.</column>
 			<column name="aFieldNames">MinSafeTemp,BodyInsulation,fSleepQuality,m_fHealPerHourMod</column>
 			<column name="aModifiers">-45,-2.5,0.1,0.04</column>
 			<column name="aEffects"></column>
@@ -2511,8 +2511,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">108</column>
-			<column name="strName">Using tarp shelter</column>
-			<column name="strDesc">&lt;us&gt; is in a campsite with a tarp shelter.</column>
+			<column name="strName">Usando um abrigo de lona</column>
+			<column name="strDesc">&lt;us&gt; esta usando um abrigo de lona.</column>
 			<column name="aFieldNames">fSleepQuality,m_fHealPerHourMod,WetTempAdjustMod,m_fVisibility</column>
 			<column name="aModifiers">0.03,0.006,-7,0.2</column>
 			<column name="aEffects"></column>
@@ -2534,8 +2534,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">109</column>
-			<column name="strName">Blind</column>
-			<column name="strDesc">&lt;us&gt; is unable to see well in these conditions, making activity difficult.</column>
+			<column name="strName">Cego</column>
+			<column name="strDesc">&lt;us&gt; esta incapaz de ver bem nestas condicoes, dificultando a atividade.</column>
 			<column name="aFieldNames">fMovesPerTurnModifier,m_fMorale</column>
 			<column name="aModifiers">-5,-1.0</column>
 			<column name="aEffects"></column>
@@ -2557,8 +2557,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">110</column>
-			<column name="strName">Carrying torch</column>
-			<column name="strDesc">&lt;us&gt; is carrying a torch, making it easier to navigate in the dark, but also easier to spot.</column>
+			<column name="strName">Tocha de mao</column>
+			<column name="strDesc">&lt;us&gt; esta carregando uma tocha, facilitando ver um pouco no escuro, mas tambem e mais facil de detectar.</column>
 			<column name="aFieldNames">m_fVisibility,m_fScent,LightLevel</column>
 			<column name="aModifiers">0.5,0.5,0.8</column>
 			<column name="aEffects"></column>
@@ -2603,8 +2603,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">112</column>
-			<column name="strName">Killed at Seven Gables</column>
-			<column name="strDesc">&lt;us&gt; was killed by the entity at Seven Gables Road.</column>
+			<column name="strName">Morto em Seven Gables</column>
+			<column name="strDesc">&lt;us&gt; foi morto pela entidade que assombra e habitava a estrada de Seven-Gables.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2626,8 +2626,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">113</column>
-			<column name="strName">Recently spawned</column>
-			<column name="strDesc">&lt;us&gt; recently spawned.</column>
+			<column name="strName">Recentemente gerou</column>
+			<column name="strDesc">&lt;us&gt; recentemente gerou.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2649,8 +2649,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">114</column>
-			<column name="strName">Wearing the Strangler's hood</column>
-			<column name="strDesc">&lt;us&gt; has a heightened awareness of creatures nearby, even if they can't be seen. The sounds of life are maddening, their every breath a grating rasp begging to be silenced.</column>
+			<column name="strName">Ventido Capuz do Estragulador</column>
+			<column name="strDesc">&lt;us&gt; tem uma maior consciencia de criaturas nas proximidades, mesmo que nao possam ser vistas. Os sons da vida estao enlouquecendo, cada respiracao deles, um alvo implorando para ser silenciado, precisa matar algum alvo a cada X tempo se nao o proprio capuz o mata.</column>
 			<column name="aFieldNames">m_fTrackingThreshold,BaseDetectionLevel</column>
 			<column name="aModifiers">-1.5,-0.4</column>
 			<column name="aEffects"></column>
@@ -2672,8 +2672,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">115</column>
-			<column name="strName">Strangler's hood start</column>
-			<column name="strDesc">Initialize strangler hood chain.</column>
+			<column name="strName">Capuz do Estragulador Iniciou</column>
+			<column name="strDesc">O Capuz do estragulador foi inicializado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2695,8 +2695,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">116</column>
-			<column name="strName">Strangler's hood tightens</column>
-			<column name="strDesc">The thick twine lining the burlap hood's opening has tightened around &lt;us&gt;'s neck.</column>
+			<column name="strName">Capuz do Apertando I</column>
+			<column name="strDesc">O campuz esta apertando o &lt;us&gt;'s no pescoco.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2718,8 +2718,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">117</column>
-			<column name="strName">Strangler's hood tightens more</column>
-			<column name="strDesc">The hood cinches tighter, making it difficult to breathe.</column>
+			<column name="strName">Capuz do Apertando II</column>
+			<column name="strDesc">O capuz esta fica mais apertado, dificultando a respiracao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2741,8 +2741,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">118</column>
-			<column name="strName">Killed by Strangler's hood</column>
-			<column name="strDesc">The hood constricts further, choking &lt;us&gt; to death.</column>
+			<column name="strName">Morto pelo capuz do estragulador</column>
+			<column name="strDesc">O capuz se aperta ainda mais, sufocando o &lt;us&gt; levando a morte.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2764,8 +2764,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">119</column>
-			<column name="strName">Strangler's hood loosens</column>
-			<column name="strDesc">The twine in the hood loosens a bit.</column>
+			<column name="strName">Capuz do Afrouxou</column>
+			<column name="strDesc">O Capuz do Estragulador se afroxou.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2787,8 +2787,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">120</column>
-			<column name="strName">Hiding</column>
-			<column name="strDesc">&lt;us&gt; is actively hiding, and is harder to see.</column>
+			<column name="strName">Escondido</column>
+			<column name="strDesc">&lt;us&gt; esta se escondendo, ficando mais dificil de ser encontrado ou ser visto.</column>
 			<column name="aFieldNames">m_fVisibility,m_fMoveCost</column>
 			<column name="aModifiers">-0.25,1.0</column>
 			<column name="aEffects"></column>
@@ -2810,8 +2810,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">121</column>
-			<column name="strName">Hiding (Advanced)</column>
-			<column name="strDesc">&lt;us&gt; is actively hiding using advanced hiding skills, and is much harder to see.</column>
+			<column name="strName">Escondido (Avancado)</column>
+			<column name="strDesc">&lt;us&gt; esta se escondendo usando habilidades avancadas de se Esconder, ficando mais dificil de ser encontrado ou ser visto.</column>
 			<column name="aFieldNames">m_fVisibility,m_fMoveCost</column>
 			<column name="aModifiers">-0.5,1.0</column>
 			<column name="aEffects"></column>
@@ -2833,8 +2833,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">122</column>
-			<column name="strName">Skilled in hiding</column>
-			<column name="strDesc">&lt;us&gt; is skilled at hiding, and can conceal themselves better than most.</column>
+			<column name="strName">Esconde-se perfeitamente</column>
+			<column name="strDesc">&lt;us&gt;e habilidoso em se esconder e pode se esconder melhor do que a maioria.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -2856,8 +2856,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">123</column>
-			<column name="strName">Running</column>
-			<column name="strDesc">&lt;us&gt; is running, moving faster, but also fatiguing faster. &lt;us&gt; also leaves more tracks and cannot track as well while running.</column>
+			<column name="strName">Corrida</column>
+			<column name="strDesc">&lt;us&gt; esta correndo, se movendo mais rapido, mas tambem fica cansado mais rapido. &lt;us&gt; tambem deixa mais rastros e nao consegue seguir rastros enquanto corre.</column>
 			<column name="aFieldNames">m_fTrackingThreshold,m_fScent,m_fFatigueModifier,m_fMoveCost</column>
 			<column name="aModifiers">3,3,3,-0.5</column>
 			<column name="aEffects"></column>
@@ -2879,8 +2879,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">124</column>
-			<column name="strName">Animal predator senses</column>
-			<column name="strDesc">&lt;us&gt; has a heightened awareness of creatures nearby and their spoor.</column>
+			<column name="strName">Sentidos de predador</column>
+			<column name="strDesc">&lt;us&gt; tem uma maior conscientizacao sobre as criaturas nas proximidades e a sua posicao.</column>
 			<column name="aFieldNames">m_fTrackingThreshold,BaseDetectionLevel</column>
 			<column name="aModifiers">-1.5,-0.4</column>
 			<column name="aEffects"></column>
@@ -2902,8 +2902,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">125</column>
-			<column name="strName">Carrying V-MADS transponder</column>
-			<column name="strDesc">&lt;us&gt; is carrying the V-MADS transponder.</column>
+			<column name="strName">Transportando transponder V-MADS</column>
+			<column name="strDesc">&lt;us&gt; esta carregando o transponder V-MADS.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2925,8 +2925,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">126</column>
-			<column name="strName">Player chose "stock"</column>
-			<column name="strDesc">&lt;us&gt; chose to be "stock" at Zom Zom's.</column>
+			<column name="strName">Jogador escolheu "(Armazenar/Itens)"</column>
+			<column name="strDesc">&lt;us&gt; escolheu "(Armazenar/Itens)" para entrar em Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2948,8 +2948,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">127</column>
-			<column name="strName">Ate BBQ</column>
-			<column name="strDesc">&lt;us&gt; ate Zom Zom's BBQ.</column>
+			<column name="strName">Comeu BBQ</column>
+			<column name="strDesc">&lt;us&gt; comeu BBQ Zom Zom's.</column>
 			<column name="aFieldNames">fFoodDebt</column>
 			<column name="aModifiers">-4</column>
 			<column name="aEffects"></column>
@@ -2971,8 +2971,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">128</column>
-			<column name="strName">Dropped down the chute at Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; was dropped down the chute at Zom Zom's.</column>
+			<column name="strName">Caiu na calha de Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; foi derrubado na calha de Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -2994,8 +2994,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">129</column>
-			<column name="strName">Killed at Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; was killed in the gladiator pits at Zom Zom's.</column>
+			<column name="strName">Morto em Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; foi morto nos arena de gladiadores de Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -3017,8 +3017,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">130</column>
-			<column name="strName">Visited Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; already visited Zom Zom's.</column>
+			<column name="strName">Visitando Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; ja visitou Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -3040,8 +3040,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">131</column>
-			<column name="strName">Killed by a saber-toothed tiger</column>
-			<column name="strDesc">&lt;us&gt; was gored and eaten by a saber-toothed tiger.</column>
+			<column name="strName">Morto por um Tigre Dentes de Sabre</column>
+			<column name="strDesc">&lt;us&gt; foi engolido e comido por um Tigre Dentes de Sabre.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -3063,8 +3063,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">132</column>
-			<column name="strName">CRS: Onset Phase</column>
-			<column name="strDesc">&lt;us&gt; has Cutaneous Radiation Syndrome: Onset Phase.</column>
+			<column name="strName">CRS: Fase Inicial</column>
+			<column name="strDesc">&lt;us&gt; tem sintomas de radiacao CRS: Fase Inicial.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3086,8 +3086,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">133</column>
-			<column name="strName">CRS: Prodromal Phase</column>
-			<column name="strDesc">&lt;us&gt; has Prodromal Cutaneous Radiation Syndrome. &lt;us&gt;'s skin is starting to turn reddish, and is irritated.</column>
+			<column name="strName">CRS: Fase Inicial/Intermediaria</column>
+			<column name="strDesc">&lt;us&gt; tem sintomas de Radiacao de  Fase Intermediaria. &lt;us&gt;'s A pele esta comecando a ficar avermelhada e irritada.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">-0.05</column>
 			<column name="aEffects"></column>
@@ -3109,8 +3109,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">134</column>
-			<column name="strName">CRS: Latent Phase</column>
-			<column name="strDesc">&lt;us&gt; has Cutaneous Radiation Syndrome: Latent Phase.</column>
+			<column name="strName">CRS: Fase Intermediaria</column>
+			<column name="strDesc">&lt;us&gt; tem sindrome por radiacao CRS: Fase Intermediaria.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3132,8 +3132,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">135</column>
-			<column name="strName">CRS: Illness Phase</column>
-			<column name="strDesc">&lt;us&gt;'s skin is reddening as if burned, and ulcers are forming.</column>
+			<column name="strName">CRS: Fase Final</column>
+			<column name="strDesc">&lt;us&gt;'s A pele esta avermelhada como se queimada, e esta se formando ulceras.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
