@@ -2743,6 +2743,7 @@ Function headlines(id, attr, Line)
 	headlines = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 37
 Function hextypes(id, attr, Line)	
 	Select case id
