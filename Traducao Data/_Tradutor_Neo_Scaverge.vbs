@@ -2367,6 +2367,174 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "skin is reddening as if burned, and ulcers are forming", "A pele esta avermelhada como se queimada, e esta se formando ulceras")
 			End Select
+		case 136
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing talisman", "Vestindo talisma")
+				case "strDesc"
+					Line = Replace(Line, "is wearing the protective talisman", "esta usando o talisma de protecao")
+			End Select
+		case 137
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Behind cover", "Proteger")
+				case "strDesc"
+					Line = Replace(Line, "is taking cover, and is harder to hit with ranged weapons", "esta se protegendo, dificultando que armas a distacia o atinja")
+			End Select
+		case 138
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Advance 1", "Avancar 1 hex")
+				case "strDesc"
+					Line = Replace(Line, "Advance 1 towards target", "Avancar 1 hex para o alvo")
+			End Select
+		case 139
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fall Back 1", "Recuar 1 hex")
+				case "strDesc"
+					Line = Replace(Line, "Fall back 1 away from target", "Recuar 1 hex do alvo")
+			End Select
+		case 140
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Attack", "Ataque")
+				case "strDesc"
+					Line = Replace(Line, "Attack target", "Atacar alvo")
+			End Select
+		case 141
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Scanning", "Escanear")
+				case "strDesc"
+					Line = Replace(Line, "is scanning an area, making it easier to spot hidden targets", "esta escanear a area, e assim tornando mais facil detectar alvos ocultos")
+			End Select
+		case 142
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Retreat", "Retirada")
+				case "strDesc"
+					Line = Replace(Line, "Retreat from battle", "Retira-se da batalha")
+			End Select
+		case 143
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fallen", "Caido")
+				case "strDesc"
+					Line = Replace(Line, "fell to the ground, and must regain footing to continue", "caiu no chao e deve se levantar para continuar")
+			End Select
+		case 144
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Recovering", "Se Recuperando")
+				case "strDesc"
+					Line = Replace(Line, "needs a moment to recover before acting again", "precisa de um momento para se recuperar antes de agir de novo")
+			End Select
+		case 145
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Stunned", "Atordoado")
+				case "strDesc"
+					Line = Replace(Line, "is stunned and unable to move for a moment", "esta atordoado e incapaz de se mover por um momento")
+			End Select
+		case 146
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Distracted", "Distraido")
+				case "strDesc"
+					Line = Replace(Line, "is temporarily distracted", "esta temporariamente distraido")
+			End Select
+		case 147
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Vulnerable", "Vulneravel")
+				case "strDesc"
+					Line = Replace(Line, "is exposed to easy attack for a moment", "esta exposto a um ataque facil, guarda baixa, por um momento")
+			End Select
+		case 148
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Suppressed", "Suprimido")
+				case "strDesc"
+					Line = Replace(Line, "is pinned by suppressive fire, and unable to move or use ranged attacks", "esta fixado por disparos supressivos, esta incapaz de se mover ou usar ataques a distancia")
+			End Select
+		case 149
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Brave", "Inteligencia Artificial(Valente)")
+				case "strDesc"
+					Line = Replace(Line, "This AI is more likely to stand ground than most", "Esta Inteligencia Artificial e mais valente pois daria um suporte terrestre, comparado com a maioria")
+			End Select
+		case 150
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cowardly", "Inteligencia Artificial(Covarde)")
+				case "strDesc"
+					Line = Replace(Line, "This AI is more likely to flee than most", "Esta Inteligencia Artificial e mais provavel que acabe fugindo, comparado com a maioria")
+			End Select
+		case 151
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Intelligent AI", "Inteligencia Artificial(Inteligente)")
+				case "strDesc"
+					Line = Replace(Line, "This AI is smarter than most, and uses advanced tactics", "Esta Inteligencia Artificial e mais inteligente do que a maioria e usa taticas avancadas")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
 		case 000
 			Select case attr
 				case "strName"

@@ -3155,8 +3155,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">136</column>
-			<column name="strName">Wearing talisman</column>
-			<column name="strDesc">&lt;us&gt; is wearing the protective talisman.</column>
+			<column name="strName">Vestindo talisma</column>
+			<column name="strDesc">&lt;us&gt; esta usando o talisma de protecao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -3178,8 +3178,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">137</column>
-			<column name="strName">Behind cover</column>
-			<column name="strDesc">&lt;us&gt; is taking cover, and is harder to hit with ranged weapons.</column>
+			<column name="strName">Proteger</column>
+			<column name="strDesc">&lt;us&gt; esta se protegendo, dificultando que armas a distacia o atinja.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -3201,8 +3201,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">138</column>
-			<column name="strName">Advance 1</column>
-			<column name="strDesc">Advance 1 towards target.</column>
+			<column name="strName">Avancar 1 hex</column>
+			<column name="strDesc">Avancar 1 hex para o alvo.</column>
 			<column name="aFieldNames">ChangeRange</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -3224,8 +3224,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">139</column>
-			<column name="strName">Fall Back 1</column>
-			<column name="strDesc">Fall back 1 away from target.</column>
+			<column name="strName">Recuar 1 hex</column>
+			<column name="strDesc">Recuar 1 hex do alvo.</column>
 			<column name="aFieldNames">ChangeRange</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3247,8 +3247,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">140</column>
-			<column name="strName">Attack</column>
-			<column name="strDesc">Attack target.</column>
+			<column name="strName">Ataque</column>
+			<column name="strDesc">Atacar alvo.</column>
 			<column name="aFieldNames">Attack</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3270,8 +3270,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">141</column>
-			<column name="strName">Scanning</column>
-			<column name="strDesc">&lt;us&gt; is scanning an area, making it easier to spot hidden targets.</column>
+			<column name="strName">Escanear</column>
+			<column name="strDesc">&lt;us&gt; esta escanear a area, e assim tornando mais facil detectar alvos ocultos.</column>
 			<column name="aFieldNames">BaseDetectionLevel</column>
 			<column name="aModifiers">-0.125</column>
 			<column name="aEffects"></column>
@@ -3293,8 +3293,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">142</column>
-			<column name="strName">Retreat</column>
-			<column name="strDesc">Retreat from battle.</column>
+			<column name="strName">Retirada</column>
+			<column name="strDesc">Retira-se da batalha.</column>
 			<column name="aFieldNames">ExitBattle</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3316,8 +3316,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">143</column>
-			<column name="strName">Fallen</column>
-			<column name="strDesc">&lt;us&gt; fell to the ground, and must regain footing to continue.</column>
+			<column name="strName">Caido</column>
+			<column name="strDesc">&lt;us&gt; caiu no chao e deve se levantar para continuar.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -3339,8 +3339,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">144</column>
-			<column name="strName">Recovering</column>
-			<column name="strDesc">&lt;us&gt; needs a moment to recover before acting again.</column>
+			<column name="strName">Se Recuperando</column>
+			<column name="strDesc">&lt;us&gt; precisa de um momento para se recuperar antes de agir de novo.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -3362,8 +3362,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">145</column>
-			<column name="strName">Stunned</column>
-			<column name="strDesc">&lt;us&gt; is stunned and unable to move for a moment.</column>
+			<column name="strName">Atordoado</column>
+			<column name="strDesc">&lt;us&gt; esta atordoado e incapaz de se mover por um momento.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -3385,8 +3385,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">146</column>
-			<column name="strName">Distracted</column>
-			<column name="strDesc">&lt;us&gt; is temporarily distracted.</column>
+			<column name="strName">Distraido</column>
+			<column name="strDesc">&lt;us&gt; esta temporariamente distraido.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -3408,8 +3408,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">147</column>
-			<column name="strName">Vulnerable</column>
-			<column name="strDesc">&lt;us&gt; is exposed to easy attack for a moment.</column>
+			<column name="strName">Vulneravel</column>
+			<column name="strDesc">&lt;us&gt; esta exposto a um ataque facil, guarda baixa, por um momento.</column>
 			<column name="aFieldNames">m_fMorale,m_fDefense</column>
 			<column name="aModifiers">-0.3,-0.5</column>
 			<column name="aEffects"></column>
@@ -3431,8 +3431,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">148</column>
-			<column name="strName">Suppressed</column>
-			<column name="strDesc">&lt;us&gt; is pinned by suppressive fire, and unable to move or use ranged attacks.</column>
+			<column name="strName">Suprimido</column>
+			<column name="strDesc">&lt;us&gt; esta fixado por disparos supressivos, esta incapaz de se mover ou usar ataques a distancia.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -3454,8 +3454,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">149</column>
-			<column name="strName">Brave</column>
-			<column name="strDesc">This AI is more likely to stand ground than most.</column>
+			<column name="strName">Inteligencia Artificial(Valente)</column>
+			<column name="strDesc">Esta Inteligencia Artificial e mais valente pois daria um suporte terrestre, comparado com a maioria.</column>
 			<column name="aFieldNames">m_fMoraleHidden</column>
 			<column name="aModifiers">0.3</column>
 			<column name="aEffects"></column>
@@ -3477,8 +3477,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">150</column>
-			<column name="strName">Cowardly</column>
-			<column name="strDesc">This AI is more likely to flee than most.</column>
+			<column name="strName">Inteligencia Artificial(Covarde)</column>
+			<column name="strDesc">Esta Inteligencia Artificial e mais provavel que acabe fugindo, comparado com a maioria.</column>
 			<column name="aFieldNames">m_fMoraleHidden</column>
 			<column name="aModifiers">-0.3</column>
 			<column name="aEffects"></column>
@@ -3500,8 +3500,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">151</column>
-			<column name="strName">Intelligent AI</column>
-			<column name="strDesc">This AI is smarter than most, and uses advanced tactics.</column>
+			<column name="strName">Inteligencia Artificial(Inteligente)</column>
+			<column name="strDesc">Esta Inteligencia Artificial e mais inteligente do que a maioria e usa taticas avancadas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
