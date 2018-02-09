@@ -3523,7 +3523,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">152</column>
-			<column name="strName">Derrubado</column>
+			<column name="strName">Derrubar</column>
 			<column name="strDesc">&lt;us&gt; foi derrubado em combate.</column>
 			<column name="aFieldNames">KnockDown</column>
 			<column name="aModifiers">1</column>
@@ -3708,7 +3708,7 @@
 		<table name="conditions">
 			<column name="id">160</column>
 			<column name="strName">Enfaixado</column>
-			<column name="strDesc">&lt;us&gt;'s feridas foi enfaixada.</column>
+			<column name="strDesc">&lt;us&gt;'s esta com feridas enfaixada.</column>
 			<column name="aFieldNames">Bandaged</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -3777,7 +3777,7 @@
 		<table name="conditions">
 			<column name="id">163</column>
 			<column name="strName">Tomou Cha de tanino</column>
-			<column name="strDesc">&lt;us&gt; tomou Cha de tanino.</column>
+			<column name="strDesc">&lt;us&gt; tomou um pouco de Cha de tanino.</column>
 			<column name="aFieldNames">m_fImmuneRestoreRate,m_fImmuneLeft</column>
 			<column name="aModifiers">0.001,0.1</column>
 			<column name="aEffects"></column>
@@ -3914,8 +3914,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">169</column>
-			<column name="strName">Usou Analgesicos</column>
-			<column name="strDesc">&lt;us&gt; tomou alguns analgesicos.</column>
+			<column name="strName">Usou Analgesicos de Prescricao</column>
+			<column name="strDesc">&lt;us&gt; usou alguns analgesicos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.5</column>
 			<column name="aEffects"></column>
@@ -3937,8 +3937,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">170</column>
-			<column name="strName">Usou AnalgÃ©sicos Vencidos</column>
-			<column name="strDesc">&lt;us&gt;'s tomou analgesicos vencidos ou velhos.</column>
+			<column name="strName">Usou Analgesicos de Prescricao Vencidos</column>
+			<column name="strDesc">&lt;us&gt;'s usou analgesicos prescricao vencidos ou velhos.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">0.25</column>
 			<column name="aEffects"></column>
@@ -4098,7 +4098,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">177</column>
-			<column name="strName">Sem dor</column>
+			<column name="strName">Dor nenhuma</column>
 			<column name="strDesc">&lt;us&gt; nao esta sofrendo nenhuma dor.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -4582,7 +4582,7 @@
 		<table name="conditions">
 			<column name="id">198</column>
 			<column name="strName">Pneumonia I</column>
-			<column name="strDesc">&lt;us&gt; contraiu pneumonia I.</column>
+			<column name="strDesc">&lt;us&gt; contraiu pneumonia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -4605,7 +4605,7 @@
 		<table name="conditions">
 			<column name="id">199</column>
 			<column name="strName">Pneumonia II</column>
-			<column name="strDesc">&lt;us&gt; desmoronou com pneumonia II.</column>
+			<column name="strDesc">&lt;us&gt; tem pneumonia media.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">-0.01,-0.00625</column>
 			<column name="aEffects">SetImmunity=198</column>
@@ -5133,8 +5133,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">222</column>
-			<column name="strName">Pode Desencadear Encontros Neutros</column>
-			<column name="strDesc">&lt;us&gt; pode desencadear encontros aleatÃ³rios neutros.</column>
+			<column name="strName">Pode desencadear encontros neutros</column>
+			<column name="strDesc">&lt;us&gt; pode desencadear encontros aleatorios neutros.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -5202,7 +5202,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">225</column>
-			<column name="strName">Moralidade +3</column>
+			<column name="strName">Moral +3</column>
 			<column name="strDesc">&lt;us&gt; fez algo de bom.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">3</column>
@@ -5225,7 +5225,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">226</column>
-			<column name="strName">Moralidade +2</column>
+			<column name="strName">Moral +2</column>
 			<column name="strDesc">&lt;us&gt; fez algo de bom.</column>
 			<column name="aFieldNames">m_nMorality</column>
 			<column name="aModifiers">2</column>
@@ -7203,7 +7203,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">312</column>
-			<column name="strName">Perda de Sapato Aleatorio</column>
+			<column name="strName">Perda de sSapato aleatorio</column>
 			<column name="strDesc">&lt;us&gt; perdeu um sapato!</column>
 			<column name="aFieldNames">LoseRandomItem</column>
 			<column name="aModifiers">84</column>
@@ -7756,7 +7756,7 @@
 		<table name="conditions">
 			<column name="id">336</column>
 			<column name="strName">Pode atirar em Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; Pode atirar em Zom Zom's.</column>
+			<column name="strDesc">&lt;us&gt; pode atirar em Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -7962,8 +7962,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">345</column>
-			<column name="strName">Exilado de Red Gnome</column>
-			<column name="strDesc">&lt;us&gt; foi colocado para fora do jantar de Red Gnome, e nao sera permitido voltar para dentro.</column>
+			<column name="strName">Red Gnome diner(Exilado)</column>
+			<column name="strDesc">&lt;us&gt; foi colocado para fora do jantar de Red Gnome diner, e nao sera permitido voltar para dentro.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -7985,7 +7985,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">346</column>
-			<column name="strName">Veterano em Red Gnome diner</column>
+			<column name="strName">Red Gnome diner(Veterano)</column>
 			<column name="strDesc">&lt;us&gt; visitou o Red Gnome diner.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -8146,7 +8146,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">353</column>
-			<column name="strName">Diagnosticooo</column>
+			<column name="strName">Diagnostico</column>
 			<column name="strDesc">&lt;us&gt; recebeu um diagnostico completo.</column>
 			<column name="aFieldNames">GetDiagnostic</column>
 			<column name="aModifiers">860</column>
