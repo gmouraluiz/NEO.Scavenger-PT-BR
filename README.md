@@ -5,7 +5,7 @@ _Antes de ensinar a traduzir informo que preciso de ajuda para TRADUZIR as IMAGE
 # GRUPO da STEAM:
 http://steamcommunity.com/groups/NeoScavengerPTBR
 
-# Imagens traduzidas por Suifit Gamer
+# Imagens Traduzidas por Suifit Gamer(Youtuber)
 https://www.youtube.com/channel/UC4idFS6f9Vd7tD1ttVPR2hg
 
 # 1º Tutorial: 
