@@ -5,6 +5,9 @@ _Antes de ensinar a traduzir informo que preciso de ajuda para TRADUZIR as IMAGE
 # GRUPO da STEAM:
 http://steamcommunity.com/groups/NeoScavengerPTBR
 
+# Imagens traduzidas por Suifit Gamer
+https://www.youtube.com/channel/UC4idFS6f9Vd7tD1ttVPR2hg
+
 # 1º Tutorial: 
 1) Primeiro fazer Backup da pasta Data do jogo "Steam\steamapps\common\NEO Scavenger\data".
 2) Baixar os arquivos em "https://github.com/gmouraluiz/NEO.Scavenger-PT-BR" > Na tela em VERDE "Clone or download" > e depois em > " Download ZIP".
