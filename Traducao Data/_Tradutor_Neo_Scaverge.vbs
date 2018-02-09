@@ -3893,7 +3893,9 @@ Function conditions(id, attr, Line)
 		case 353
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Diagnostic", "Diagnostico")
+					If (Line = "Diagnostic") Then
+						Line = Replace(Line, "Diagnostic", "Diagnostico")
+					End If
 				case "strDesc"
 					Line = Replace(Line, "received a complete diagnostic", "recebeu um diagnostico completo")
 			End Select
