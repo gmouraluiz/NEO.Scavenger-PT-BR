@@ -3315,9 +3315,936 @@ Function conditions(id, attr, Line)
 					Line = Replace(Line, "Good 10.2", "Bom 10.2")
 				case "strDesc"
 					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select			
+		case 271
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 1.1", "Ruim 1.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
 			End Select
-
-			
+		case 272
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 1.2", "Ruim 1.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 273
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 2.1", "Ruim 2.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 274
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 2.2", "Ruim 2.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 275
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 3.1", "Ruim 3.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 276
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 3.2", "Ruim 3.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 277
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 4.1", "Ruim 4.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 278
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 4.2", "Ruim 4.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 279
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 5.1", "Ruim 5.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 280
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 5.2", "Ruim 5.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 281
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 6.1", "Ruim 6.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 282
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 6.2", "Ruim 6.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 283
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 7.1", "Ruim 7.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 284
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 7.2", "Ruim 7.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 285
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 8.1", "Ruim 8.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 286
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 8.2", "Ruim 8.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 287
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 9.1", "Ruim 9.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 288
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 9.2", "Ruim 9.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 289
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 10.1", "Ruim 10.1")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 290
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Evil 10.2", "Ruim 10.2")
+				case "strDesc"
+					Line = Replace(Line, "already had this encounter", "ja teve esse encontro")
+			End Select
+		case 291
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Random Item", "Perdeu item aleatorio")
+				case "strDesc"
+					Line = Replace(Line, "lost an item", "perdeu um item")
+			End Select
+		case 292
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Strained Back", "Tensao muscular")
+				case "strDesc"
+					Line = Replace(Line, "has a strained back, and is limited in what they can carry", "teve uma tensao muscular e esta limitado no que pode levar")
+			End Select
+		case 293
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fatigued from effort", "Fatigado (esforco)")
+				case "strDesc"
+					Line = Replace(Line, "is fatigued after significant physical exertion", "esta cansado apos um esforco fisico significativo")
+			End Select
+		case 294
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Headache", "Dor de cabeca")
+				case "strDesc"
+					Line = Replace(Line, "has a headache", "esta com dor de cabeca")
+			End Select
+		case 295
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot", "Blue Rot I(doenca)")
+				case "strDesc"
+					Line = Replace(Line, "contracted The Blue Rot", "contraiu a Blue Rot")
+			End Select
+		case 296
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot 2", "Blue Rot II(doenca)")
+				case "strDesc"
+					Line = Replace(Line, "feels weak, feverish, nauseous, and has a headache", "sente-se fraco, febril, enjoado e com dor de cabeca")
+			End Select
+		case 297
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot 3", "Blue Rot III(doenca)")
+				case "strDesc"
+					Line = Replace(Line, "s having shortness of breath, and is developing bluish blotches on their skin", "com falta de ar, e esta desenvolvendo manchas azuladas na pele")
+			End Select
+		case 298
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Died of The Blue Rot", "Morreu por Blue Rot")
+				case "strDesc"
+					Line = Replace(Line, "died of The Blue Rot", "morreu por Blue Rot")
+			End Select
+		case 299
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Random Food", "Perdeu comida aleatorios")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 300
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose All Items", "Perder todos os itens")
+				case "strDesc"
+					Line = Replace(Line, "lost all of their items", "perder todos os itens")
+			End Select
+		case 301
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Beaten to Death While Partying", "Espancado ate a morte")
+				case "strDesc"
+					Line = Replace(Line, "was beaten to death while partying", "foi espancado ate a morte por um grupo")
+			End Select
+		case 302
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Loss of Body Heat", "Perda de calor corporal")
+				case "strDesc"
+					Line = Replace(Line, "lost body heat", "esta com perda de calor corporal")
+			End Select
+		case 303
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acute Hepatitis 1", "Hepatite aguda I")
+				case "strDesc"
+					Line = Replace(Line, "contracted acute hepatitis", "contraiu hepatite aguda")
+			End Select
+		case 304
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acute Hepatitis 2", "Hepatite aguda II")
+				case "strDesc"
+					Line = Replace(Line, "is experiencing general aches and malaise", "esta sofrendo dores gerais e mal-estar")
+			End Select
+		case 305
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acute Hepatitis 3", "Hepatite aguda III")
+				case "strDesc"
+					Line = Replace(Line, "has a fever and is aching all over", "tem febre e esta doendo por toda parte")
+			End Select
+		case 306
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acute Hepatitis 4", "Hepatite aguda IIII")
+				case "strDesc"
+					Line = Replace(Line, "is experiencing general aches and malaise", "esta sofrendo dores gerais e mal-estar")
+			End Select
+		case 307
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Jaundice Onset", "Inicio-se Icterícia(doenca)")
+				case "strDesc"
+					Line = Replace(Line, "has a liver disorder that will lead to jaundice", "esta com uma doenca hepatica que levara a ictericia")
+			End Select
+		case 308
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Jaundice", "Ictericia(doenca)")
+				case "strDesc"
+					Line = Replace(Line, "skin and eyes are an unnatural yellowish color", "sua pele e os olhos sao uma cor amarelada nao natural")
+			End Select
+		case 309
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $500", "Recebeu $500")
+				case "strDesc"
+					Line = Replace(Line, "received $500", "recebeu $500")
+			End Select
+		case 310
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $25", "Recebeu $25")
+				case "strDesc"
+					Line = Replace(Line, "received $25", "recebeu $25")
+			End Select
+		case 311
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $100", "Recebeu $100")
+				case "strDesc"
+					Line = Replace(Line, "received $100", "recebeu $100")
+			End Select
+		case 312
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Random Shoe", "Perda de sSapato aleatorio")
+				case "strDesc"
+					Line = Replace(Line, "lost a shoe", "perdeu um sapato")
+			End Select
+		case 313
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $50", "Recebeu $50")
+				case "strDesc"
+					Line = Replace(Line, "received $50", "recebeu $50")
+			End Select
+		case 314
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $250", "Recebeu $250")
+				case "strDesc"
+					Line = Replace(Line, "received $250", "recebeu $250")
+			End Select
+		case 315
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received $1000", "Recebeu $1000")
+				case "strDesc"
+					Line = Replace(Line, "received $1000", "recebeu $1000")
+			End Select
+		case 316
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Smallpox 1", "Variola I")
+				case "strDesc"
+					Line = Replace(Line, "contracted smallpox", "contraiu variola")
+			End Select
+		case 317
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Smallpox 2", "Variola II")
+				case "strDesc"
+					Line = Replace(Line, "feels achy, feverish, and nauseous.", "parece dolorido, febril e enjoado.")
+			End Select
+		case 318
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Smallpox 3", "Variola III")
+				case "strDesc"
+					Line = Replace(Line, "is developing lesions and spots filled with fluid on their skin", "esta desenvolvendo lesoes e manchas cheias de liquido na pele")
+			End Select
+		case 319
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Smallpox 4", "Variola IIII")
+				case "strDesc"
+					Line = Replace(Line, "has skin pustules scabbing and flaking off", "tem pus dentro da pele que esta cicatrizada e esta descascando")
+			End Select
+		case 320
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Died of Smallpox", "Morreu de variola")
+				case "strDesc"
+					Line = Replace(Line, "died of smallpox", "morreu de variola")
+			End Select
+		case 321
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Died of Toxic Fumes", "Morreu de fumaca toxica")
+				case "strDesc"
+					Line = Replace(Line, "died from breathing toxic fumes", "morreu por respirar fumaca toxica")
+			End Select
+		case 322
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Left Foot Item", "Perdeu sapato esquerdo")
+				case "strDesc"
+					Line = Replace(Line, "lost their left shoe", "perdeu o sapato esquerdo")
+			End Select
+		case 323
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Right Foot Item", "Perdeu sapato direito")
+				case "strDesc"
+					Line = Replace(Line, "lost their right shoe", "perdeu o sapato direito")
+			End Select
+		case 324
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by a Blue Frog Disciple", "Morto por um Discipulo Blue Frog")
+				case "strDesc"
+					Line = Replace(Line, "was tortured to death by a Blue Frog disciple", "foi torturado ate a morte por um discipulo do Blue Frog")
+			End Select
+		case 325
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Full stomach", "Estomago cheio")
+				case "strDesc"
+					Line = Replace(Line, "ate their fill", "comeu ate estar cheio")
+			End Select
+		case 326
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eaten by Bad Muthas", "Comido por Bad Muthas(Canibais)")
+				case "strDesc"
+					Line = Replace(Line, "was killed and served as dinner by Bad Muthas", "foi morto e servido como jantar por Bad Muthas(Canibais)")
+			End Select
+		case 327
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Some Creative Gangers", "Morreu para uns Gangers")
+				case "strDesc"
+					Line = Replace(Line, "died at the hand of some enthusiastic gangers", "morreu na mao de alguns Gangers")
+			End Select
+		case 328
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Left Hand Item", "Perdeu item mao esquerda")
+				case "strDesc"
+					Line = Replace(Line, "lost the item in their left hand", "perdeu o item da mao esquerda")
+			End Select
+		case 329
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Right Hand Item", "Perdeu item mao direita")
+				case "strDesc"
+					Line = Replace(Line, "lost the item in their right hand", "perdeu o item da mao direita")
+			End Select
+		case 330
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Backpack Item", "Perder Item Mochila")
+				case "strDesc"
+					Line = Replace(Line, "lost the item on their back", "pedeu sua mochila")
+			End Select
+		case 331
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Rubble Scum", "Morto por escombros")
+				case "strDesc"
+					Line = Replace(Line, "was mugged by some rubble scum", "foi morto por escombros")
+			End Select
+		case 332
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose Random Drink", "Perdeu bebiba aleatoria")
+				case "strDesc"
+					Line = Replace(Line, "lost a drink item", "perdeu um item de bebida")
+			End Select
+		case 333
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Enclavers", "Morto por Enclavers")
+				case "strDesc"
+					Line = Replace(Line, "was shot to death by enclavers", "foi morto a tiros pelos Enclavers")
+			End Select
+		case 334
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by a Winged Creature", "Morto por uma criatura voada")
+				case "strDesc"
+					Line = Replace(Line, "was decapitated by a winged beast", "foi decapitado por uma besta alada")
+			End Select
+		case 335
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by a Dogman", "Morto por um Lobisomem")
+				case "strDesc"
+					Line = Replace(Line, "was eaten by a dogman", "foi morto por um Lobisomem")
+			End Select
+		case 336
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Trigger Zom Zom's", "Pode atirar em Zom Zom's")
+				case "strDesc"
+					Line = Replace(Line, "can trigger Zom Zom's", "pode atirar em Zom Zom's")
+			End Select
+		case 337
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Trigger Isotope Mine", "Pode atirar em Minas de Isotopo")
+				case "strDesc"
+					Line = Replace(Line, "can trigger the Isotope Mine", "Pode atirar em Minas de Isotopo")
+			End Select
+		case 338
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already saw map tutorial", "Ja vi um tutorial do mapa")
+				case "strDesc"
+					Line = Replace(Line, "already saw the map tutorial", "ja vi o tutorial do mapa")
+			End Select
+		case 339
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acted Cowardly", "Acao covarde")
+				case "strDesc"
+					Line = Replace(Line, "did something cowardly, and it shows", "fez algo covarde")
+			End Select
+		case 340
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Acted Bravely", "Acao valente")
+				case "strDesc"
+					Line = Replace(Line, " did something brave, and it shows", "fez algo corajoso")
+			End Select
+		case 341
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by the Beast of Hades Glade", "Morto pela Beast of Hades Glade")
+				case "strDesc"
+					Line = Replace(Line, " was killed by the Beast of Hades Glade", "foi morto pela Beast of Hades Glade")
+			End Select
+		case 342
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Using a dogman attractant", "Usando pele de Lobisomem")
+				case "strDesc"
+					Line = Replace(Line, "is using a dogman attractant", "esta usando pele de Lobisomem")
+			End Select
+		case 343
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing criminal visitor pass", "Vestindo passe de visitante criminal")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a criminal's megacity visitor pass", "esta usando uma passe de visitante de Megacity criminoso")
+			End Select
+		case 344
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Full meal", "Refeicao completa")
+				case "strDesc"
+					Line = Replace(Line, "ate a hearty meal", "comeu refeicao completa")
+			End Select
+		case 345
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diner exile", "Red Gnome diner(Exilado)")
+				case "strDesc"
+					Line = Replace(Line, "pissed off the Red Gnome diner, and won't be allowed back inside", "foi colocado para fora do jantar de Red Gnome diner, e nao sera permitido voltar para dentro")
+			End Select
+		case 346
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diner veteran", "Red Gnome diner(Veterano)")
+				case "strDesc"
+					Line = Replace(Line, "already visited the Red Gnome diner", "visitou o Red Gnome diner")
+			End Select
+		case 347
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diner marked", "Red Gnome diner(Marcado)")
+				case "strDesc"
+					Line = Replace(Line, "pissed off the Red Gnome diner twice, and is marked for misfortune", "esta irritando Red Gnome diner pela sengunda vez e esta marcado para um desastre")
+			End Select
+		case 348
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC marked and exiled", "DMC marcado e exilado")
+				case "strDesc"
+					Line = Replace(Line, "pissed off the DMC and is exiled", "esta exilado de DMC")
+			End Select
+		case 349
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Clinic veteran", "Haggerty Health Clinic(Veterano)")
+				case "strDesc"
+					Line = Replace(Line, "already visited Haggerty Health", "ja visitei a Haggerty Health Clinic")
+			End Select
+		case 350
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already Tested for Augs", "Testado para protese")
+				case "strDesc"
+					Line = Replace(Line, "was tested for augmentation and prosthetic eligibility", "foi testado para colocar um protese")
+			End Select
+		case 351
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Sedated", "Sedado")
+				case "strDesc"
+					Line = Replace(Line, "is under the influence of a strong sedative", "esta sob a influencia de um forte sedativo")
+			End Select
+		case 352
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received blood", "Recebeu sangue")
+				case "strDesc"
+					Line = Replace(Line, "received a transfusion of blood", "recebeu uma transfusao de sangue")
+			End Select
+		case 353
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diagnostic", "Diagnostico")
+				case "strDesc"
+					Line = Replace(Line, "received a complete diagnostic", "recebeu um diagnostico completo")
+			End Select
+		case 354
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Nourished", "Alimentado")
+				case "strDesc"
+					Line = Replace(Line, "received a full complement of nutrition and hydration", "recebeu um refeicao completa, que te nutriu e te proporcionou uma hidratacao")
+			End Select
+		case 355
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Trait Space Full", "Espaco de Contras Cheio")
+				case "strDesc"
+					Line = Replace(Line, "filled all available trait space", "preencheu todos os contras disponiveis")
+			End Select
+		case 356
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eye Surgery", "Cirurgia ocular")
+				case "strDesc"
+					Line = Replace(Line, "got corrective eye surgery", "conseguiu uma cirurgia corretiva no olho")
+			End Select
+		case 357
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received eye surgery", "Recebido cirurgia ocular")
+				case "strDesc"
+					Line = Replace(Line, "got eye surgery", "foi operada no olho")
+			End Select
+		case 358
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eye Augmentation: Basic", "Melhoria ocular: basica")
+				case "strDesc"
+					Line = Replace(Line, "had artificial eyes installed", "tem olhos artificiais instalados")
+			End Select
+		case 359
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received eye implants", "Recebeu implantes oculares")
+				case "strDesc"
+					Line = Replace(Line, "got eye implants", "obteve implantes oculares")
+			End Select
+		case 360
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eye Augmentation: Night Vision", "Melhoria ocular: visao noturna")
+				case "strDesc"
+					Line = Replace(Line, "had their artificial eyes upgraded with night vision capabilities", "teve seus olhos artificiais atualizados com capacidades de visao noturna")
+			End Select
+		case 361
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received eye upgrade: night vision", "Melhoria do olho recebido: visao noturna")
+				case "strDesc"
+					Line = Replace(Line, "had a night vision upgrade to their artificial eyes", "tem visao noturna com os seus olhos artificiais")
+			End Select
+		case 362
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eye Augmentation: Telescopic Zoom", "Melhoria ocular: Zoom telescopico")
+				case "strDesc"
+					Line = Replace(Line, "had their artificial eyes upgraded with telescopic zoom capabilities", "tem seus olhos artificiais atualizados com capacidades de zoom telescopico")
+			End Select
+		case 363
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received eye upgrade: telescopic zoom", "Melhoria do olho recebido: zoom telescopico")
+				case "strDesc"
+					Line = Replace(Line, "had a telescopic zoom upgrade to their artificial eyes", "tem uma elevacao de zoom telescopico para seus olhos artificiais")
+			End Select
+		case 364
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Telescopic Zoom", "Zoom telescopico")
+				case "strDesc"
+					Line = Replace(Line, "can see distant objects better than most people", "pode ver objetos distantes melhor do que a maioria das pessoas")
+			End Select
+		case 365
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received Thermoregulation Treatment", "Tratamento de termorregulacao recebido")
+				case "strDesc"
+					Line = Replace(Line, "received thermoregulation therapy", "recebeu terapia de termorregulacao")
+			End Select
+		case 366
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Visited DMC", "Visitou DMC")
+				case "strDesc"
+					Line = Replace(Line, "already visited the DMC", "visitou o DMC")
+			End Select
+		case 367
+			Select case attr
+				case "strDesc"
+					Line = Replace(Line, "is a Merga Wraith", "e um Merga Wraith")
+			End Select
+		case 368
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cryo Facility Tracks", "Trilhas de Cryo-Facility")
+				case "strDesc"
+					Line = Replace(Line, "examined the tracks in the cryo facility", "examinou as trilhas para Cryo-Facility")
+			End Select
+		case 369
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter Wraith Footage", "Vulto de Hatter")
+				case "strDesc"
+					Line = Replace(Line, "saw the wraith footage at Hatter's", "viu o vulto de Hatter's")
+			End Select
+		case 370
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cannot Trip", "Nao pode usar perna")
+				case "strDesc"
+					Line = Replace(Line, "cannot trip in combat. (flyer, sure-footed, etc.)", "nao pode usar perna em combate.(Voadora, seguro, etc.)")
+			End Select
+		case 371
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Traffic", "Morto pelo transito")
+				case "strDesc"
+					Line = Replace(Line, "was killed by traffic while stumbling around an intersection", "foi morto pelo transito enquanto anda e tropecou em torno de um cruzamento")
+			End Select
+		case 372
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Diner Bag-Lady Gone", "Foi jantar com Bag-Lady")
+				case "strDesc"
+					Line = Replace(Line, "The bag-lady scene outside the diner is now gone", "A Bag-Lady foi embora depois de ir ao restaurante")
+			End Select
+		case 373
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Trigger Hades Glade Lady", "Pode atirar em Hades Glade Lady")
+				case "strDesc"
+					Line = Replace(Line, "can trigger the Hades Glade Lady encounter branches", "pode atirar em Hades Glade Lady")
+			End Select
+		case 374
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Tried to Leave Hades Glade", "Tentou deixar Hades Glade")
+				case "strDesc"
+					Line = Replace(Line, "already tried to leave Hades Glade", "tentou deixar Hades Glade")
+			End Select
+		case 375
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lost water", "Perdendo agua")
+				case "strDesc"
+					Line = Replace(Line, "dehydrated a bit", "desidratou um pouco")
+			End Select
+		case 376
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Exiting Battle", "Saindo da batalha")
+				case "strDesc"
+					Line = Replace(Line, "left a battle", "deixou uma batalha")
+			End Select
+		case 377
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing clown head", "Vestindo mascara de palhaco")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a fast-food clown head, and can't see as well", "esta vestindo uma mascara de palhaco de fast food e tambem nao pode ver direito")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
 		case 000
 			Select case attr
 				case "strName"
