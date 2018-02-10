@@ -1,6 +1,4 @@
 'Criado por Geovani Luiz de Moura
-'Aconselho usar Notepad++ 
-'Plugins: RumMe(Shift+F5) Executar arquivo mais rapido
 'Caracteres nao suportados no jogo: (ç, é, á, í, ó, à, ã, õ, â, ê, ô, ú) Obs: nao descobri como contornar esse problema
 
 Option Explicit
@@ -4065,33 +4063,33 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is wearing a fast-food clown head, and can't see as well", "esta vestindo uma mascara de palhaco de fast food e tambem nao pode ver direito")
 			End Select
-		case 000
+		case 378
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Murdered by melonheads", "Morto por Melonheads")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was killed by a mob of melonheads", "foi morto por uma grupo de Melonheads")
 			End Select
-		case 000
+		case 379
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Visited Allegan Fairgrounds Already", "Visitou Allegan Fairgrounds")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already visited the Allegan Fairgrounds", "visitou o Allegan Fairgrounds")
 			End Select
-		case 000
+		case 380
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already took clown head", "Perdeu a mascara de palhaco")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The fast-food clown head was taken", "A mascara de palhaco de foi tomada")
 			End Select
-		case 000
+		case 381
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already took copper beads", "Perdeu colar de cobre")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The copper beads were taken", "O colar de cobre de foi tomada")
 			End Select
 		case 000
 			Select case attr

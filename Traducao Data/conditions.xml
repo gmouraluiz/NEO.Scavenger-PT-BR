@@ -8721,8 +8721,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">378</column>
-			<column name="strName">Murdered by melonheads</column>
-			<column name="strDesc">&lt;us&gt; was killed by a mob of melonheads.</column>
+			<column name="strName">Morto por Melonheads</column>
+			<column name="strDesc">&lt;us&gt; foi morto por uma grupo de Melonheads.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8744,8 +8744,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">379</column>
-			<column name="strName">Visited Allegan Fairgrounds Already</column>
-			<column name="strDesc">&lt;us&gt; already visited the Allegan Fairgrounds.</column>
+			<column name="strName">Visitou Allegan Fairgrounds</column>
+			<column name="strDesc">&lt;us&gt; visitou o Allegan Fairgrounds.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -8767,8 +8767,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">380</column>
-			<column name="strName">Already took clown head</column>
-			<column name="strDesc">The fast-food clown head was taken.</column>
+			<column name="strName">Perdeu a mascara de palhaco</column>
+			<column name="strDesc">A mascara de palhaco de foi tomada.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8790,8 +8790,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">381</column>
-			<column name="strName">Already took copper beads</column>
-			<column name="strDesc">The copper beads were taken.</column>
+			<column name="strName">Perdeu colar de cobre</column>
+			<column name="strDesc">O colar de cobre de foi tomada.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
