@@ -4098,131 +4098,127 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "The box of tools in Allegan was taken", "A caixa de ferramenta de Allegan foi tomada")
 			End Select
-		case 000
+		case 383
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already Saw Allegan Clown Head Text", "Perdeu mascara de palhaco em Allegan")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already triggered the clown head intro text", "A mascara de palhaco foi tomada em Allegan")
 			End Select
-		case 000
+		case 384
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Allegan Melonheads Alerted", "Alertou os Melonheads Allegan")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "alerted the Allegan melonheads", "alertou os Melonheads Allegan")
 			End Select
-		case 000
+		case 385
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Allegan Burnt Hall", "Botou fogo no corredor de Allegan")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "set fire to the hall in Allegan", "ateou fogo no corredor em Allegan")
 			End Select
-		case 000
+		case 386
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already Visited Strange Forest", "Visitou a Estranha Floresta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already explored the Strange Forest", "ja explorou a Estranha Floresta")
 			End Select
-		case 000
+		case 387
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already visited Isotope Mine", "Visitou minas de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already visited the Isotope Mine", "ja explorou a minas de isotopo")
 			End Select
-		case 000
+		case 388
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Died of BeF2 Poisoning", "Morreu por envenenamento por BeF2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "died of beryllium fluoride poisoning", "morreu de envenenamento por fluoreto de berilio")
 			End Select
-		case 000
+		case 389
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Allegan Already Revealed by Bob", "Allegan foi revelado por Bob")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "heard about Allegan from Bob", "ouviu sobre Allegan de Bob")
 			End Select
-		case 000
+		case 390
 			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is an Enfield Horror", "é um Enfield Horror")
 			End Select
-		case 000
+		case 391
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Call Melonhead", "Melonheads pedindo ajuda")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "started wailing for help", "o Melonhead comecou a gritar por ajuda por outros Melonheads")
 			End Select
-		case 000
+		case 392
 			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is a Melonhead", "e um Melonhead")
 			End Select
-		case 000
+		case 393
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Botanist", "Botanico")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is knowledgeable in plants", "e experiente com plantas")
 			End Select
-		case 000
+		case 394
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Camp Effects", "Efeitos de campo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Condition ID reserved for camp effects", "ID de condicao reservada para efeitos de acampamento")
 			End Select
-		case 000
+		case 395
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already found Isotope Mine cistern lid", "Encontrou a tampa da cisterna para a mina dos isotopos")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already found the cistern lid to the Isotope Mine", "encontrou a tampa da cisterna para a mina dos isotopos")
 			End Select
-		case 000
+		case 396
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Isotope mine ladder gone", "As escadas da mina de isotopo foi quebrada")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The isotope ladder broke, preventing further access", "As escadas do isotopo quebrou, impedindo o acesso adicional")
 			End Select
-		case 000
+		case 397
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Isotope mine cistern opened", "A cisterna da Mina de isotopo foi aberta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The isotope cistern was opened", "A cisterna da Mina de isotopo foi aberta")
 			End Select
-		case 000
+		case 398
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Pulling sled w/string", "Puxando treno (C/Corda")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is pulling a sled with a string that allows them to carry more", "esta puxando um treno com uma corda que lhes permite transportar mais")
 			End Select
-		case 000
+		case 399
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Pulling sled awkwardly", "Puxando treno (S/Corda)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is awkwardly pulling a sled without any string, hindering movement", "esta puxando um treno sem qualquer corda, dificultando o movimento")
 			End Select
-		case 000
+		case 400
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drop All Items", "Solte todos os itens")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "dropped all of their items", "largou todos os itens")
 			End Select
 		case 000
 			Select case attr

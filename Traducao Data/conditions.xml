@@ -8836,8 +8836,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">383</column>
-			<column name="strName">Already Saw Allegan Clown Head Text</column>
-			<column name="strDesc">&lt;us&gt; already triggered the clown head intro text.</column>
+			<column name="strName">Perdeu mascara de palhaco em Allegan</column>
+			<column name="strDesc">&lt;us&gt; A mascara de palhaco foi tomada em Allegan.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8859,8 +8859,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">384</column>
-			<column name="strName">Allegan Melonheads Alerted</column>
-			<column name="strDesc">&lt;us&gt; alerted the Allegan melonheads.</column>
+			<column name="strName">Alertou os Melonheads Allegan</column>
+			<column name="strDesc">&lt;us&gt; alertou os Melonheads Allegan.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8882,8 +8882,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">385</column>
-			<column name="strName">Allegan Burnt Hall</column>
-			<column name="strDesc">&lt;us&gt; set fire to the hall in Allegan.</column>
+			<column name="strName">Botou fogo no corredor de Allegan</column>
+			<column name="strDesc">&lt;us&gt; ateou fogo no corredor em Allegan.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8905,8 +8905,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">386</column>
-			<column name="strName">Already Visited Strange Forest</column>
-			<column name="strDesc">&lt;us&gt; already explored the Strange Forest.</column>
+			<column name="strName">Visitou a Estranha Floresta</column>
+			<column name="strDesc">&lt;us&gt; ja explorou a Estranha Floresta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8928,8 +8928,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">387</column>
-			<column name="strName">Already visited Isotope Mine</column>
-			<column name="strDesc">&lt;us&gt; already visited the Isotope Mine.</column>
+			<column name="strName">Visitou minas de isotopo</column>
+			<column name="strDesc">&lt;us&gt; ja explorou a minas de isotopo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8951,8 +8951,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">388</column>
-			<column name="strName">Died of BeF2 Poisoning</column>
-			<column name="strDesc">&lt;us&gt; died of beryllium fluoride poisoning.</column>
+			<column name="strName">Morreu por envenenamento por BeF2</column>
+			<column name="strDesc">&lt;us&gt; morreu de envenenamento por fluoreto de berilio.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8974,8 +8974,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">389</column>
-			<column name="strName">Allegan Already Revealed by Bob</column>
-			<column name="strDesc">&lt;us&gt; heard about Allegan from Bob.</column>
+			<column name="strName">Allegan foi revelado por Bob</column>
+			<column name="strDesc">&lt;us&gt; ouviu sobre Allegan de Bob.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -8998,7 +8998,7 @@
 		<table name="conditions">
 			<column name="id">390</column>
 			<column name="strName">Enfield Horror</column>
-			<column name="strDesc">&lt;us&gt; is an Enfield Horror.</column>
+			<column name="strDesc">&lt;us&gt; Ã© um Enfield Horror.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9020,8 +9020,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">391</column>
-			<column name="strName">Call Melonhead</column>
-			<column name="strDesc">&lt;us&gt; started wailing for help!</column>
+			<column name="strName">Melonheads pedindo ajuda</column>
+			<column name="strDesc">&lt;us&gt; o Melonhead comecou a gritar por ajuda por outros Melonheads!</column>
 			<column name="aFieldNames">SpawnNewCreature</column>
 			<column name="aModifiers">6</column>
 			<column name="aEffects"></column>
@@ -9044,7 +9044,7 @@
 		<table name="conditions">
 			<column name="id">392</column>
 			<column name="strName">Melonhead</column>
-			<column name="strDesc">&lt;us&gt; is a Melonhead.</column>
+			<column name="strDesc">&lt;us&gt; e um Melonhead.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">0.6</column>
 			<column name="aEffects"></column>
@@ -9066,8 +9066,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">393</column>
-			<column name="strName">Botanist</column>
-			<column name="strDesc">&lt;us&gt; is knowledgeable in plants.</column>
+			<column name="strName">Botanico</column>
+			<column name="strDesc">&lt;us&gt; e experiente com plantas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9089,8 +9089,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">394</column>
-			<column name="strName">Camp Effects</column>
-			<column name="strDesc">Condition ID reserved for camp effects.</column>
+			<column name="strName">Efeitos de campo</column>
+			<column name="strDesc">ID de condicao reservada para efeitos de acampamento.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9112,8 +9112,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">395</column>
-			<column name="strName">Already found Isotope Mine cistern lid</column>
-			<column name="strDesc">&lt;us&gt; already found the cistern lid to the Isotope Mine.</column>
+			<column name="strName">Encontrou a tampa da cisterna para a mina dos isotopos</column>
+			<column name="strDesc">&lt;us&gt; encontrou a tampa da cisterna para a mina dos isotopos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9135,8 +9135,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">396</column>
-			<column name="strName">Isotope mine ladder gone</column>
-			<column name="strDesc">The isotope ladder broke, preventing further access.</column>
+			<column name="strName">As escadas da mina de isotopo foi quebrada</column>
+			<column name="strDesc">As escadas do isotopo quebrou, impedindo o acesso adicional.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9158,8 +9158,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">397</column>
-			<column name="strName">Isotope mine cistern opened</column>
-			<column name="strDesc">The isotope cistern was opened.</column>
+			<column name="strName">A cisterna da Mina de isotopo foi aberta</column>
+			<column name="strDesc">A cisterna da Mina de isotopo foi aberta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9181,8 +9181,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">398</column>
-			<column name="strName">Pulling sled w/string</column>
-			<column name="strDesc">&lt;us&gt; is pulling a sled with a string that allows them to carry more.</column>
+			<column name="strName">Puxando treno (C/Corda</column>
+			<column name="strDesc">&lt;us&gt; esta puxando um treno com uma corda que lhes permite transportar mais.</column>
 			<column name="aFieldNames">m_fEncumberanceLimit,m_fScent,m_fVisibility</column>
 			<column name="aModifiers">50,3,0.5</column>
 			<column name="aEffects"></column>
@@ -9204,8 +9204,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">399</column>
-			<column name="strName">Pulling sled awkwardly</column>
-			<column name="strDesc">&lt;us&gt; is awkwardly pulling a sled without any string, hindering movement.</column>
+			<column name="strName">Puxando treno (S/Corda)</column>
+			<column name="strDesc">&lt;us&gt; esta puxando um treno sem qualquer corda, dificultando o movimento.</column>
 			<column name="aFieldNames">m_fEncumberanceLimit,m_fScent,m_fVisibility</column>
 			<column name="aModifiers">-50,3,0.5</column>
 			<column name="aEffects"></column>
@@ -9227,8 +9227,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">400</column>
-			<column name="strName">Drop All Items</column>
-			<column name="strDesc">&lt;us&gt; dropped all of their items!</column>
+			<column name="strName">Solte todos os itens</column>
+			<column name="strDesc">&lt;us&gt; largou todos os itens!</column>
 			<column name="aFieldNames">DropAllItems</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
