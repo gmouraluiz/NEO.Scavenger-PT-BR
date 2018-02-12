@@ -4220,12 +4220,12 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "dropped all of their items", "largou todos os itens")
 			End Select
-		case 000
+		case 401
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looted", "Roubado")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was already looted", "foi saqueado")
 			End Select
 		case 000
 			Select case attr

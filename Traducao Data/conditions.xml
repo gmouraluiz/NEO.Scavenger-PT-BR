@@ -9250,8 +9250,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">401</column>
-			<column name="strName">Looted</column>
-			<column name="strDesc">&lt;us&gt; was already looted.</column>
+			<column name="strName">Roubado</column>
+			<column name="strDesc">&lt;us&gt; foi saqueado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
