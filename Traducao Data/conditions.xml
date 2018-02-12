@@ -8813,8 +8813,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">382</column>
-			<column name="strName">Already took Allegan tool box</column>
-			<column name="strDesc">The box of tools in Allegan was taken.</column>
+			<column name="strName">Perdeu caixa de ferramenta de Allegan</column>
+			<column name="strDesc">A caixa de ferramenta de Allegan foi tomada.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>

@@ -4091,12 +4091,12 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "The copper beads were taken", "O colar de cobre de foi tomada")
 			End Select
-		case 000
+		case 382
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already took Allegan tool box", "Perdeu caixa de ferramenta de Allegan")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The box of tools in Allegan was taken", "A caixa de ferramenta de Allegan foi tomada")
 			End Select
 		case 000
 			Select case attr
