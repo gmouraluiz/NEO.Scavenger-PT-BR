@@ -4885,6 +4885,14 @@ Function encounters(id, attr, Line)
 					Line = Replace(Line, "With the rush of adrenaline fading, you turn your attention back to this strange room.", "Com a adrenalina baixando, voce volta sua atencao para essa sala estranha.")
 					Line = Replace(Line, "You should probably finish up here, in case there are more of those things.", "Voce provavelmente deveria sair daqui, caso existam mais dessas coisas.")
 			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Emergency-dump another stasis tank", "Despejar conteudo de um tanque no chao(fluido sub-congelante)")
+				case "strDesc"
+					Line = Replace(Line, "From the control panel, you could call up the emergency stasis evacuation code. Doing this will override the normal thawing procedure, and dump an entire tank's contents onto the floor instantly", "Com o painel de controle, voce chama um codigo de evacuacao de estase de emergencia. Fazer isso ira substituir o procedimento normal de descongelamento e despejar o conteudo de um tanque inteiro no chao instantaneamente")
+					Line = Replace(Line, "The rush of sub-freezing fluid might scare off the monster. And maybe the monster will go for the sleeper instead of you", "A pressa do fluido sub-congelante pode assustar o monstro. E talvez o monstro acabe dormindo ao ivez de voce")
+			End Select
 		case 8
 			Select case attr
 				case "strName"

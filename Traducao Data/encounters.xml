@@ -225,10 +225,10 @@ Voce provavelmente deveria sair daqui, caso existam mais dessas coisas.</column>
 		</table>
 		<table name="encounters">
 			<column name="id">7</column>
-			<column name="strName">Emergency-dump another stasis tank.</column>
-			<column name="strDesc">From the control panel, you could call up the emergency stasis evacuation code. Doing this will override the normal thawing procedure, and dump an entire tank's contents onto the floor instantly.
+			<column name="strName">Despejar conteudo de um tanque no chao(fluido sub-congelante).</column>
+			<column name="strDesc">Com o painel de controle, voce chama um codigo de evacuacao de estase de emergencia. Fazer isso ira substituir o procedimento normal de descongelamento e despejar o conteudo de um tanque inteiro no chao instantaneamente.
 
-The rush of sub-freezing fluid might scare off the monster. And maybe the monster will go for the sleeper instead of you.</column>
+A pressa do fluido sub-congelante pode assustar o monstro. E talvez o monstro acabe dormindo ao ivez de voce.</column>
 			<column name="strImg">EncCryoFacility.png</column>
 			<column name="nTreasureID">3</column>
 			<column name="nRemoveTreasureID">3</column>
