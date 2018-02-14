@@ -85,7 +85,7 @@
 		<table name="recipes">
 			<column name="nID">3</column>
 			<column name="strName">agua esterilizada (pilula)</column>
-			<column name="strSecretName">sterilized water (pill) (pure)</column>
+			<column name="strSecretName">agua esterilizada (pilula)</column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x4+1x5</column>
 			<column name="strDestroyed"></column>
@@ -104,7 +104,7 @@
 		<table name="recipes">
 			<column name="nID">4</column>
 			<column name="strName">agua esterilizada (fervida)</column>
-			<column name="strSecretName">sterilized water (boiled) (pure)</column>
+			<column name="strSecretName">agua esterilizada (fervida)</column>
 			<column name="strTools">1x6+1x7</column>
 			<column name="strConsumed">1x4</column>
 			<column name="strDestroyed"></column>
@@ -122,7 +122,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">5</column>
-			<column name="strName">tannin tea</column>
+			<column name="strName">cha de tanino</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x6+1x7+1x59</column>
 			<column name="strConsumed">1x4+1x8</column>
@@ -141,8 +141,8 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">6</column>
-			<column name="strName">roasted meat on a stick</column>
-			<column name="strSecretName">roasted meat on a stick (animal)</column>
+			<column name="strName">carne assada em uma vara</column>
+			<column name="strSecretName">carne assada em uma vara (animal)</column>
 			<column name="strTools">1x7+1x17</column>
 			<column name="strConsumed">1x9</column>
 			<column name="strDestroyed"></column>
@@ -160,7 +160,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">7</column>
-			<column name="strName">patchwork hide tunic</column>
+			<column name="strName">tunica de retalhos</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x11</column>
 			<column name="strConsumed">10x12+20x13</column>
@@ -179,8 +179,8 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">8</column>
-			<column name="strName">meat from small corpse</column>
-			<column name="strSecretName">meat from small corpse (animal)</column>
+			<column name="strName">carne de um pequeno cadaver</column>
+			<column name="strSecretName">carne de um pequeno cadaver (animal)</column>
 			<column name="strTools">1x14</column>
 			<column name="strConsumed">1x15</column>
 			<column name="strDestroyed"></column>
@@ -198,8 +198,8 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">9</column>
-			<column name="strName">meat and hide from small, furry corpse</column>
-			<column name="strSecretName">meat and hide from small, furry corpse (animal)</column>
+			<column name="strName">Carne e couro de cadaver pequeno e peludo</column>
+			<column name="strSecretName">carne e couro de cadaver pequeno e peludo (animal)</column>
 			<column name="strTools">1x14+1x16</column>
 			<column name="strConsumed">1x41</column>
 			<column name="strDestroyed"></column>

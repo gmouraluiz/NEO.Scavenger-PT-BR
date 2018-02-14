@@ -7028,12 +7028,943 @@ Function recipes(id, attr, Line)
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
+				case "strSecretName"
+					Line = Replace(Line, "sterilized water (pill) (pure)", "agua esterilizada (pilula)")
 			End Select
 		case 4
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (fervida)")
+				case "strSecretName"
+					Line = Replace(Line, "sterilized water (boiled) (pure)", "agua esterilizada (fervida)")
 			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tannin tea", "cha de tanino")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "roasted meat on a stick", "carne assada em uma vara")
+				case "strSecretName"
+					Line = Replace(Line, "roasted meat on a stick (animal)", "carne assada em uma vara (animal)")
+			End Select	
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "patchwork hide tunic", "tunica de retalhos")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "meat from small corpse", "carne de um pequeno cadaver")
+				case "strSecretName"
+					Line = Replace(Line, "meat from small corpse (animal)", "carne de um pequeno cadaver (animal)")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "meat and hide from small, furry corpse", "Carne e couro de cadaver pequeno e peludo")
+				case "strSecretName"
+					Line = Replace(Line, "meat and hide from small, furry corpse (animal)", "carne e couro de cadaver pequeno e peludo (animal)")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+				case "strSecretName"
+					Line = Replace(Line, "", "")
+			End Select	
 	End Select
 	recipes = CStr(Line)
 End Function
