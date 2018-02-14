@@ -7088,7 +7088,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">307</column>
-			<column name="strName">Inicio-se IcterÃ­cia(doenca)</column>
+			<column name="strName">Inicio-se Ictericia(doenca)</column>
 			<column name="strDesc">&lt;us&gt; esta com uma doenca hepatica que levara a ictericia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -8998,7 +8998,7 @@
 		<table name="conditions">
 			<column name="id">390</column>
 			<column name="strName">Enfield Horror</column>
-			<column name="strDesc">&lt;us&gt; Ã© um Enfield Horror.</column>
+			<column name="strDesc">&lt;us&gt; viu um Enfield Horror.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9733,8 +9733,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">422</column>
-			<column name="strName">Already took the car sleeping bag</column>
-			<column name="strDesc">The sleeping bag from the car was taken.</column>
+			<column name="strName">Pegou o saco de dormir do carro</column>
+			<column name="strDesc">O saco de dormir do carro foi retirado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9756,8 +9756,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">423</column>
-			<column name="strName">Scatter missile</column>
-			<column name="strDesc">Scatter missile for a missed shot.</column>
+			<column name="strName">Misil de dispersao</column>
+			<column name="strDesc">Missil de dispersao por um tiro perdido.</column>
 			<column name="aFieldNames">ScatterMissile</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -9779,8 +9779,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">424</column>
-			<column name="strName">Trigger Hacking w/Laptop</column>
-			<column name="strDesc">&lt;us&gt; is using a laptop to start hacking.</column>
+			<column name="strName">Inicado hackear w/Laptop</column>
+			<column name="strDesc">&lt;us&gt; esta usando um laptop para comecar a hackear.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1080</column>
 			<column name="aEffects"></column>
@@ -9802,8 +9802,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">425</column>
-			<column name="strName">Skilled in hacking</column>
-			<column name="strDesc">&lt;us&gt; is skilled at hacking.</column>
+			<column name="strName">Habilidoso com hackear</column>
+			<column name="strDesc">&lt;us&gt; Ã© habilidoso em hackear.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9825,8 +9825,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">426</column>
-			<column name="strName">Trigger iSlab Encounter</column>
-			<column name="strDesc">&lt;us&gt; is using an iSlab.</column>
+			<column name="strName">Usando iSlab(tablet)</column>
+			<column name="strDesc">&lt;us&gt; esta usando um iSlab(tablet).</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1083</column>
 			<column name="aEffects"></column>
@@ -9848,8 +9848,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">427</column>
-			<column name="strName">Trigger Smartphone Encounter</column>
-			<column name="strDesc">&lt;us&gt; is using a smartphone.</column>
+			<column name="strName">Usando Smartphone</column>
+			<column name="strDesc">&lt;us&gt; esta usando um smartphone.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1084</column>
 			<column name="aEffects"></column>
@@ -9871,8 +9871,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">428</column>
-			<column name="strName">Use GPS</column>
-			<column name="strDesc">&lt;us&gt; used a GPS app.</column>
+			<column name="strName">Usando GPS</column>
+			<column name="strDesc">&lt;us&gt; esta usando aplicativo do GPS.</column>
 			<column name="aFieldNames">UseGPS</column>
 			<column name="aModifiers">4</column>
 			<column name="aEffects"></column>
@@ -9894,8 +9894,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">429</column>
-			<column name="strName">Drank impure water</column>
-			<column name="strDesc">&lt;us&gt; drank impure water.</column>
+			<column name="strName">Bebeu agua impura</column>
+			<column name="strDesc">&lt;us&gt; bebeu agua impura.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9917,8 +9917,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">430</column>
-			<column name="strName">Trigger Cellphone  Encounter</column>
-			<column name="strDesc">This cellphone lacks any noteworthy functions.</column>
+			<column name="strName">Usando Cellphone</column>
+			<column name="strDesc">Este celular nao possui funcoes dignas de nota.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9940,8 +9940,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">431</column>
-			<column name="strName">Trigger Locked Laptop Encounter</column>
-			<column name="strDesc">&lt;us&gt; is using a locked laptop.</column>
+			<column name="strName">Usando Laptop bloqueado</column>
+			<column name="strDesc">&lt;us&gt; esta usando um laptop bloqueado.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1105</column>
 			<column name="aEffects"></column>
@@ -9963,8 +9963,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">432</column>
-			<column name="strName">Knows about cryo bank account</column>
-			<column name="strDesc">&lt;us&gt; discovered the bank account info at the cryo facility.</column>
+			<column name="strName">Conhece sobre a conta do banco crio</column>
+			<column name="strDesc">&lt;us&gt; descobriu as informacoes da conta bancaria na instalacao criologica.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9986,8 +9986,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">433</column>
-			<column name="strName">Knows bank login info</column>
-			<column name="strDesc">&lt;us&gt; learned the bank teller's login info.</column>
+			<column name="strName">Conhece informacoes de login do banco</column>
+			<column name="strDesc">&lt;us&gt; aprendeu a informacao de login do banco.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10009,8 +10009,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">434</column>
-			<column name="strName">Has Cale's Address</column>
-			<column name="strDesc">&lt;us&gt; learned of Cale's address in the DMC.</column>
+			<column name="strName">Tem o endereco de Cale</column>
+			<column name="strDesc">&lt;us&gt; Aprendeu sobre o endereco de Cale em DMC.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10032,8 +10032,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">435</column>
-			<column name="strName">Wanted by DMC</column>
-			<column name="strDesc">&lt;us&gt; was identified by police, and is wanted.</column>
+			<column name="strName">Procurado por DMC</column>
+			<column name="strDesc">&lt;us&gt; foi identificado pela policia, e esta sendo procurado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10055,8 +10055,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">436</column>
-			<column name="strName">DMC Exiled II</column>
-			<column name="strDesc">&lt;us&gt; was caught violating an exile order.</column>
+			<column name="strName">DMC Exilado II</column>
+			<column name="strDesc">&lt;us&gt; foi pego e por uma ordem de DMC foi exilado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10078,8 +10078,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">437</column>
-			<column name="strName">Discovered Skybike Weakness</column>
-			<column name="strDesc">&lt;us&gt; figured out the skybike's blind spot.</column>
+			<column name="strName">Descobriu fraqueza Skybike</column>
+			<column name="strDesc">&lt;us&gt; descobriu o ponto cego do skybike.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10101,8 +10101,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">438</column>
-			<column name="strName">Carrying a tracking device</column>
-			<column name="strDesc">&lt;us&gt; is carrying a device that DMC patrols can track.</column>
+			<column name="strName">Carregando um dispositivo de rastreamento</column>
+			<column name="strDesc">&lt;us&gt; esta carregando um dispositivo que as patrulhas DMC podem rastrear.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10124,8 +10124,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">439</column>
-			<column name="strName">Already triggered bank power cycle</column>
-			<column name="strDesc">&lt;us&gt; already triggered the bank microbranch's power cycle once.</column>
+			<column name="strName">Desencadeou o ciclo de energia do banco</column>
+			<column name="strDesc">&lt;us&gt; Desencadeou o ciclo de energia do banco microbranch's uma vez.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10147,8 +10147,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">440</column>
-			<column name="strName">Triggered bank power cycle twice</column>
-			<column name="strDesc">&lt;us&gt; triggered the bank microbranch's power cycle twice.</column>
+			<column name="strName">Ciclo de energia do banco desencadeado duas vezes</column>
+			<column name="strDesc">&lt;us&gt; desencadeou o ciclo de energia do banco microbranch's duas vezes.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10170,8 +10170,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">441</column>
-			<column name="strName">Caused security increase at bank</column>
-			<column name="strDesc">&lt;us&gt; triggered greater security at the bank.</column>
+			<column name="strName">Causou aumento de seguranca no banco</column>
+			<column name="strDesc">&lt;us&gt; provocou o aumento da seguranca no banco.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10193,8 +10193,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">442</column>
-			<column name="strName">Already tried speaking with bank teller</column>
-			<column name="strDesc">&lt;us&gt; already tried speaking with the bank teller.</column>
+			<column name="strName">Tentou falar com caixa de banco</column>
+			<column name="strDesc">&lt;us&gt; Tentou falar com caixa de banco.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10216,8 +10216,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">443</column>
-			<column name="strName">Teller Called Maintenance</column>
-			<column name="strDesc">&lt;us&gt; made the bank teller call for maintenance.</column>
+			<column name="strName">Chamada manutencao</column>
+			<column name="strDesc">&lt;us&gt; fez a chamada do banco para manutencao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10239,8 +10239,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">444</column>
-			<column name="strName">Noticed Skybike Tracking</column>
-			<column name="strDesc">&lt;us&gt; noticed that the skybike tracks via electronic devices.</column>
+			<column name="strName">Sendo rastreamento por Skybike</column>
+			<column name="strDesc">&lt;us&gt; notou as trilhas de Skybike atraves de dispositivos eletronicos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10262,8 +10262,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">445</column>
-			<column name="strName">Trigger Wendigo 1 Raw</column>
-			<column name="strDesc">&lt;us&gt; ate raw human meat for the first time.</column>
+			<column name="strName">Virando Canibal I</column>
+			<column name="strDesc">&lt;us&gt; Comeu carne humana crua pela primeira vez.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1184</column>
 			<column name="aEffects"></column>
@@ -10285,8 +10285,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">446</column>
-			<column name="strName">Trigger Wendigo 1 Cooked</column>
-			<column name="strDesc">&lt;us&gt; ate cooked human meat for the first time.</column>
+			<column name="strName">Virando Canibal I</column>
+			<column name="strDesc">&lt;us&gt; Comeu carne humana cozida pela primeira vez.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1183</column>
 			<column name="aEffects"></column>
@@ -10309,7 +10309,7 @@
 		<table name="conditions">
 			<column name="id">447</column>
 			<column name="strName">Trigger Wendigo 2</column>
-			<column name="strDesc">&lt;us&gt; continued to eat human meat.</column>
+			<column name="strDesc">&lt;us&gt; continuou a comer carne humana.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1185</column>
 			<column name="aEffects"></column>
@@ -10331,8 +10331,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">448</column>
-			<column name="strName">Trigger Wendigo 3</column>
-			<column name="strDesc">&lt;us&gt; continued to eat human meat, and is now a wendigo.</column>
+			<column name="strName">Virando Canibal III</column>
+			<column name="strDesc">&lt;us&gt; continuou a comer carne humana e agora Ã© um Canibal.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1186</column>
 			<column name="aEffects"></column>
@@ -10354,8 +10354,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">449</column>
-			<column name="strName">Wendigo 1</column>
-			<column name="strDesc">&lt;us&gt; is beginning the transformation into a wendigo.</column>
+			<column name="strName">Canibal I</column>
+			<column name="strDesc">&lt;us&gt; esta comecando a transformacao em um Canibal.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10377,8 +10377,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">450</column>
-			<column name="strName">Wendigo 2 Ready</column>
-			<column name="strDesc">&lt;us&gt; is ready to advance to wendigo 2.</column>
+			<column name="strName">Canibal II(Iniciando)</column>
+			<column name="strDesc">&lt;us&gt; esta pronto para avancar para ser um Canibal 2.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10400,8 +10400,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">451</column>
-			<column name="strName">Wendigo 2 (Satisfied)</column>
-			<column name="strDesc">&lt;us&gt; is undergoing transformation into a wendigo, but hunger is temporarily satisfied.</column>
+			<column name="strName">Canibal II(Satisfeito)</column>
+			<column name="strDesc">&lt;us&gt; esta passando por uma transformacao em um Canibal II, mas a fome esta temporariamente satisfeita.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10423,8 +10423,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">452</column>
-			<column name="strName">Wendigo 2 (Hungry)</column>
-			<column name="strDesc">&lt;us&gt; is undergoing transformation into a wendigo.</column>
+			<column name="strName">Canibal II(c/fome)</column>
+			<column name="strDesc">&lt;us&gt; esta no processo de transformacao em um Canibal esta com fome.</column>
 			<column name="aFieldNames">fFoodConsumptionRate</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -10446,8 +10446,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">453</column>
-			<column name="strName">Wendigo 3 Ready</column>
-			<column name="strDesc">&lt;us&gt; is ready to advance to wendigo 3.</column>
+			<column name="strName">Canibal III(Iniciando)</column>
+			<column name="strDesc">&lt;us&gt; esta pronto para avancar para Canibal III.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10469,8 +10469,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">454</column>
-			<column name="strName">Wendigo 3 (Satisfied)</column>
-			<column name="strDesc">&lt;us&gt; is a wendigo, but hunger is temporarily satisfied.</column>
+			<column name="strName">Canibal III(Satisfeito)</column>
+			<column name="strDesc">&lt;us&gt; e um Canibal, mas a fome esta temporariamente satisfeita.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10492,8 +10492,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">455</column>
-			<column name="strName">Wendigo 3 (Hungry)</column>
-			<column name="strDesc">&lt;us&gt; is a wendigo, and always hungry.</column>
+			<column name="strName">Canibal III(c/fome)</column>
+			<column name="strDesc">&lt;us&gt; e um Canibal, e esta sempre com fome.</column>
 			<column name="aFieldNames">fFoodConsumptionRate</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>
@@ -10515,8 +10515,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">456</column>
-			<column name="strName">Killed by a mob</column>
-			<column name="strDesc">&lt;us&gt; was beaten to death by a mob for selling human meat.</column>
+			<column name="strName">Morto por uma multidao</column>
+			<column name="strDesc">&lt;us&gt; foi espancado por uma multidao por vender carne humana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10538,8 +10538,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">457</column>
-			<column name="strName">Standing in Market</column>
-			<column name="strDesc">&lt;us&gt; is in the market hex.</column>
+			<column name="strName">Em pe no mercado</column>
+			<column name="strDesc">&lt;us&gt; esta no hexagono do mercado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10561,8 +10561,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">458</column>
-			<column name="strName">Trigger Selling Human Meat</column>
-			<column name="strDesc">&lt;us&gt; tried to sell human meat.</column>
+			<column name="strName">Tentou vender carne humana</column>
+			<column name="strDesc">&lt;us&gt; tentou vender carne humana.</column>
 			<column name="aFieldNames">TriggerEncounter,TriggerEncounter,TriggerEncounter</column>
 			<column name="aModifiers">1187,1192,1548</column>
 			<column name="aEffects"></column>
@@ -10584,8 +10584,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">459</column>
-			<column name="strName">Warned in Market</column>
-			<column name="strDesc">&lt;us&gt; already tried to sell human meat at the market.</column>
+			<column name="strName">Advertido no mercado</column>
+			<column name="strDesc">&lt;us&gt; Tentou vender carne humana no mercado e foi advertido.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10607,8 +10607,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">460</column>
-			<column name="strName">No Eyes</column>
-			<column name="strDesc">&lt;us&gt; lost their eyes.</column>
+			<column name="strName">Sem olhos</column>
+			<column name="strDesc">&lt;us&gt; perdeu seus olhos.</column>
 			<column name="aFieldNames">VisionRange,MinLightLevel,BaseDetectionLevel</column>
 			<column name="aModifiers">-5,2,1</column>
 			<column name="aEffects"></column>
@@ -10630,8 +10630,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">461</column>
-			<column name="strName">Wearing Jar of Screaming Eyes</column>
-			<column name="strDesc">&lt;us&gt; is wearing the Jar of Screaming Eyes.</column>
+			<column name="strName">Vestindo Jarra de Olhos</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo Jarra de Olhos, mais consciente dos arredores e o mantem seguro durante o sono, aumentando a barra de atencao no seu campo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10653,8 +10653,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">462</column>
-			<column name="strName">Stealthy</column>
-			<column name="strDesc">&lt;us&gt; is a stealthy mover.</column>
+			<column name="strName">Furtivo</column>
+			<column name="strDesc">&lt;us&gt; esta se movendo furtivamente.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">-0.5</column>
 			<column name="aEffects"></column>
@@ -10676,8 +10676,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">463</column>
-			<column name="strName">Already Triggered Yezinka Encounter</column>
-			<column name="strDesc">&lt;us&gt; already triggered the Yezinka encounter.</column>
+			<column name="strName">Encontrou-se com Yezinka</column>
+			<column name="strDesc">&lt;us&gt; encontrou-se com Yezinka.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10700,7 +10700,7 @@
 		<table name="conditions">
 			<column name="id">464</column>
 			<column name="strName">Yezinka</column>
-			<column name="strDesc">&lt;us&gt; is the Yezinka.</column>
+			<column name="strDesc">&lt;us&gt; viu um Yezinka.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10722,8 +10722,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">465</column>
-			<column name="strName">Scared Awake</column>
-			<column name="strDesc">&lt;us&gt; woke up in fear.</column>
+			<column name="strName">Cordou assustado</column>
+			<column name="strDesc">&lt;us&gt; acordou assustado.</column>
 			<column name="aFieldNames">fSleepQuality,m_fSleepAwareness</column>
 			<column name="aModifiers">-1,1</column>
 			<column name="aEffects"></column>
@@ -10745,8 +10745,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">466</column>
-			<column name="strName">Wake Up</column>
-			<column name="strDesc">&lt;us&gt; woke up.</column>
+			<column name="strName">Acordou</column>
+			<column name="strDesc">&lt;us&gt; acordou.</column>
 			<column name="aFieldNames">Asleep</column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10768,8 +10768,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">467</column>
-			<column name="strName">Drank toxic water</column>
-			<column name="strDesc">&lt;us&gt; drank toxic water.</column>
+			<column name="strName">Bebeu agua toxica</column>
+			<column name="strDesc">&lt;us&gt; tomou agua toxica.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10791,8 +10791,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">468</column>
-			<column name="strName">Aberrant Wound Healing</column>
-			<column name="strDesc">&lt;us&gt; has wounds that healed incorrectly, and is both easier to wound and takes longer to heal.</column>
+			<column name="strName">Grande ferida(Cicatrizada)</column>
+			<column name="strDesc">&lt;us&gt; tem feridas que se cicatrizaram incorretamente e sao mais faceis de se abrir e depois demora mais para se curar.</column>
 			<column name="aFieldNames">m_fPainLeftBase,m_fImmuneLeftBase,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate,m_fPainLeft,m_fImmuneLeft,m_fMorale</column>
 			<column name="aModifiers">-0.033,-0.025,-0.002,-0.00001,-0.00005,-0.033,-0.025,-0.03</column>
 			<column name="aEffects"></column>
@@ -10814,8 +10814,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">469</column>
-			<column name="strName">Remove All Eye Skills and Traits</column>
-			<column name="strDesc">&lt;us&gt; lost their eyes and all dependent abilities/flaws.</column>
+			<column name="strName">Remova todas as habilidades e tracos do olho</column>
+			<column name="strDesc">&lt;us&gt; loperdeu os olhos e todas os habilidades/falhas que tinha.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">RemoveSkill=91.4;RemoveSkill=91.10;RemoveSkill=91.17;RemoveTrait=96.0;ChainCondition=-356,-358,-360,-362</column>
@@ -10837,8 +10837,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">470</column>
-			<column name="strName">ResetUsSpotted</column>
-			<column name="strDesc">&lt;them&gt; must re-check all targets for visibility.</column>
+			<column name="strName">Resentar visibilidade</column>
+			<column name="strDesc">&lt;them&gt; deve verificar novamente todos os alvos para visibilidade.</column>
 			<column name="aFieldNames">ResetUsSpotted</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -10860,8 +10860,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">471</column>
-			<column name="strName">Already Visited Great Black Swamp</column>
-			<column name="strDesc">&lt;us&gt; already visited the Great Black Swamp.</column>
+			<column name="strName">Visitou Great Black Swamp</column>
+			<column name="strDesc">&lt;us&gt; visitou Great Black Swamp.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10883,8 +10883,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">472</column>
-			<column name="strName">Holding RTG Cell</column>
-			<column name="strDesc">&lt;us&gt; is holding an RTG cell, warming them a little.</column>
+			<column name="strName">Segurando a Celula RTG</column>
+			<column name="strDesc">&lt;us&gt; esta segurando uma celula RTG, se aquecendo-os um pouco.</column>
 			<column name="aFieldNames">MinSafeTemp</column>
 			<column name="aModifiers">-10.0</column>
 			<column name="aEffects"></column>
@@ -10906,8 +10906,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">473</column>
-			<column name="strName">Weathered</column>
-			<column name="strDesc">&lt;us&gt; starts the game with some injuries and hardships.</column>
+			<column name="strName">Encharcado</column>
+			<column name="strDesc">&lt;us&gt; comecou o jogo com algumas lesoes e dificuldades.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10929,8 +10929,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">474</column>
-			<column name="strName">Already traded with Bob for RTG power cell</column>
-			<column name="strDesc">&lt;us&gt; already traded with Bob for the RTG power cell.</column>
+			<column name="strName">Trocou com Bob a celula de energia RTG</column>
+			<column name="strDesc">&lt;us&gt; Negociado com Bob a celula de energia RTG.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -10952,8 +10952,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">475</column>
-			<column name="strName">Trigger Pocket Dimension</column>
-			<column name="strDesc">&lt;us&gt; found the Merga Wraith's corpse.</column>
+			<column name="strName">Outra Dimensao</column>
+			<column name="strDesc">&lt;us&gt; encontrou um cadaver de Merga Wraith.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1198</column>
 			<column name="aEffects"></column>
@@ -10975,8 +10975,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">476</column>
-			<column name="strName">Visited Merga's realm</column>
-			<column name="strDesc">&lt;us&gt; already visited Merga's realm.</column>
+			<column name="strName">Visitou o reino de Merga</column>
+			<column name="strDesc">&lt;us&gt; visitou o reino de Merga.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10998,8 +10998,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">477</column>
-			<column name="strName">Unable to Run</column>
-			<column name="strDesc">&lt;us&gt; cannot run in combat.</column>
+			<column name="strName">Nao pode correr</column>
+			<column name="strDesc">&lt;us&gt; nao pode correr em combate.</column>
 			<column name="aFieldNames">m_fMoveReserve</column>
 			<column name="aModifiers">-3</column>
 			<column name="aEffects"></column>
@@ -11021,8 +11021,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">478</column>
-			<column name="strName">Quick meal</column>
-			<column name="strDesc">&lt;us&gt; ate a quick meal.</column>
+			<column name="strName">Refeicao rapida</column>
+			<column name="strDesc">&lt;us&gt; comeu uma refeicao rapida.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-7,-2</column>
 			<column name="aEffects"></column>
@@ -11044,8 +11044,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">479</column>
-			<column name="strName">Empty Ground Slot</column>
-			<column name="strDesc">&lt;us&gt;'s ground slot was emptied.</column>
+			<column name="strName">Slot de terra vazia</column>
+			<column name="strDesc">&lt;us&gt;'s o seu slot de terra foi esvaziado.</column>
 			<column name="aFieldNames">EmptyGroundSlot</column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11067,8 +11067,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">480</column>
-			<column name="strName">Already tried waiting for apartment entry</column>
-			<column name="strDesc">&lt;us&gt; already tried waiting for apartment entry.</column>
+			<column name="strName">Tentou aguardar na entrada do apartamento</column>
+			<column name="strDesc">&lt;us&gt; tentou esperar na entrada do apartamento.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11090,8 +11090,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">481</column>
-			<column name="strName">Police Called at Concrete Forest</column>
-			<column name="strDesc">&lt;us&gt; is wanted by police in the vicinity of Concrete Forest.</column>
+			<column name="strName">Policia chamada em floresta de concreto</column>
+			<column name="strDesc">&lt;us&gt; esta sendo procurado pela policia nas imediacoes da floresta de concreto.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11113,8 +11113,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">482</column>
-			<column name="strName">Busted Cale's Door</column>
-			<column name="strDesc">&lt;us&gt; broke into Cale's apartment forcefully.</column>
+			<column name="strName">Invadiu AP de Cale</column>
+			<column name="strDesc">&lt;us&gt; invadiu o apartamento de Cale com forca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11136,8 +11136,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">483</column>
-			<column name="strName">Knows about Cale's Operation</column>
-			<column name="strDesc">&lt;us&gt; knows that Cale had an operation.</column>
+			<column name="strName">Sabe sobre a Operacao de Cale</column>
+			<column name="strDesc">&lt;us&gt; sabe que Cale teve uma operacao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11159,8 +11159,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">484</column>
-			<column name="strName">Saw Photo in Cale's Apartment</column>
-			<column name="strDesc">&lt;us&gt; saw the photo of Saginaw in Cale's apartment.</column>
+			<column name="strName">Viu fotos no AP de Cale</column>
+			<column name="strDesc">&lt;us&gt; viu uma foto no apartamento de Cale.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11182,8 +11182,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">485</column>
-			<column name="strName">Large snack</column>
-			<column name="strDesc">&lt;us&gt; ate a large snack.</column>
+			<column name="strName">Lanche Grande</column>
+			<column name="strDesc">&lt;us&gt; comeu um lanche grande.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-5,-1</column>
 			<column name="aEffects"></column>
@@ -11205,8 +11205,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">486</column>
-			<column name="strName">Knows dogman was in cryo</column>
-			<column name="strDesc">&lt;us&gt; knows that the creature coming down the hall was a dogman.</column>
+			<column name="strName">Sabe que Lobisomem estava em Cryo</column>
+			<column name="strDesc">&lt;us&gt; sabe que a criatura que desceu pelo corredor era um Lobisomem.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11228,8 +11228,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">487</column>
-			<column name="strName">Entering Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; is in the process of entering Zom Zom's for the first time.</column>
+			<column name="strName">Entrando em Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; esta entrando em Zom Zom's pela primeira vez.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11251,8 +11251,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">488</column>
-			<column name="strName">Can ditch vehicle.</column>
-			<column name="strDesc">&lt;us&gt; is using a vehicle that can be ditched.</column>
+			<column name="strName">Pode abandonar o veiculo.</column>
+			<column name="strDesc">&lt;us&gt; esta usando um veiculo que pode ser abandonado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11275,7 +11275,7 @@
 		<table name="conditions">
 			<column name="id">489</column>
 			<column name="strName">Drop Vehicle</column>
-			<column name="strDesc">&lt;us&gt; dropped their vehicle!</column>
+			<column name="strDesc">&lt;us&gt; largou o seu veiculo!</column>
 			<column name="aFieldNames">DropAllItems</column>
 			<column name="aModifiers">207</column>
 			<column name="aEffects"></column>
@@ -11297,8 +11297,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">490</column>
-			<column name="strName">Stop Fighting</column>
-			<column name="strDesc">Stop fighting target.</column>
+			<column name="strName">Pare de lutar</column>
+			<column name="strDesc">Pare o alvo de luta.</column>
 			<column name="aFieldNames">ExitBattle</column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11321,7 +11321,7 @@
 		<table name="conditions">
 			<column name="id">491</column>
 			<column name="strName">Drop Faction Rep 5 (pair)</column>
-			<column name="strDesc">Drops &lt;us&gt;'s faction rep with current pair's target 5 notches.</column>
+			<column name="strDesc">O &lt;us&gt;'s representante da faccao com o alvo do par atual 5 entalhes.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=-5</column>
@@ -11343,8 +11343,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">492</column>
-			<column name="strName">Nocturnal</column>
-			<column name="strDesc">&lt;us&gt; prefers to be active at night, and sleep by day.</column>
+			<column name="strName">Notivago(Habitos Noturno)</column>
+			<column name="strDesc">&lt;us&gt; prefere estar ativo durante a noite e dormir de dia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11366,8 +11366,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">493</column>
-			<column name="strName">Aggressive</column>
-			<column name="strDesc">&lt;us&gt; is aggressive towards non-faction creatures (will seek and attack, instead of flee).</column>
+			<column name="strName">Agressivo</column>
+			<column name="strDesc">&lt;us&gt;e agressivo para criaturas que nao sejam de usa faccoes (buscarao e atacarao, em vez de fugir).</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11389,8 +11389,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">494</column>
-			<column name="strName">Loots Items</column>
-			<column name="strDesc">&lt;us&gt; cares about loot (will seek and pick up, instead of ignore).</column>
+			<column name="strName">Saque de itens</column>
+			<column name="strDesc">&lt;us&gt; e ganacioso e se preocupa com o saque (vai procurar e pegar, em vez de ignorar).</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11412,8 +11412,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">495</column>
-			<column name="strName">Solitary</column>
-			<column name="strDesc">&lt;us&gt; prefers to operate alone.</column>
+			<column name="strName">Solitario</column>
+			<column name="strDesc">&lt;us&gt; prefere ficar sozinho.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -11436,7 +11436,7 @@
 		<table name="conditions">
 			<column name="id">496</column>
 			<column name="strName">Add Faction Rep (Pair)</column>
-			<column name="strDesc">Add Us's faction rep to Them.</column>
+			<column name="strDesc">Adicione o representante da faccao de nos a eles.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=1</column>
@@ -11458,7 +11458,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">497</column>
-			<column name="strName">Drop Faction Rep (Pair)</column>
+			<column name="strName">Saiu de Faction Rep (Pair)</column>
 			<column name="strDesc">Drop Us's faction rep to Them.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -11481,8 +11481,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">498</column>
-			<column name="strName">Offered Disengage</column>
-			<column name="strDesc">&lt;us&gt; offered to disengage.</column>
+			<column name="strName">Ofereceu para ser liberarado</column>
+			<column name="strDesc">&lt;us&gt; ofereceu para ser liberarado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11504,8 +11504,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">499</column>
-			<column name="strName">Can Trigger Talks</column>
-			<column name="strDesc">&lt;us&gt; can trigger talk encounters.</column>
+			<column name="strName">Pode desencadear conversas</column>
+			<column name="strDesc">&lt;us&gt; pode desencadear conversas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11527,8 +11527,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">500</column>
-			<column name="strName">Opted Out of Battle</column>
-			<column name="strDesc">&lt;us&gt; prefers to not fight right now.</column>
+			<column name="strName">Optou por sair da batalha</column>
+			<column name="strDesc">&lt;us&gt; prefere nao lutar neste momento.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
