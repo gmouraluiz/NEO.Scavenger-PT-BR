@@ -9273,8 +9273,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">402</column>
-			<column name="strName">Loot Target</column>
-			<column name="strDesc">&lt;us&gt; looted &lt;them&gt;!</column>
+			<column name="strName">itens do alvo</column>
+			<column name="strDesc">&lt;us&gt; esta saqueando &lt;them&gt;!</column>
 			<column name="aFieldNames">LootTarget</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -9296,8 +9296,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">403</column>
-			<column name="strName">Offered Surrender</column>
-			<column name="strDesc">&lt;us&gt; offered their surrender.</column>
+			<column name="strName">Ofereceu rendicao</column>
+			<column name="strDesc">&lt;us&gt; ofereceu sua rendicao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9319,8 +9319,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">404</column>
-			<column name="strName">Has Surrender Option</column>
-			<column name="strDesc">&lt;us&gt; has the option to surrender.</column>
+			<column name="strName">Tem opcao de entrega</column>
+			<column name="strDesc">&lt;us&gt; tem a opcao de se render.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9342,8 +9342,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">405</column>
-			<column name="strName">Ate a medium portion of meat</column>
-			<column name="strDesc">&lt;us&gt; ate a medium portion of meat.</column>
+			<column name="strName">Comeram uma porcao media de carne</column>
+			<column name="strDesc">&lt;us&gt; comeu uma porcao media de carne.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-48,-6</column>
 			<column name="aEffects"></column>
@@ -9365,8 +9365,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">406</column>
-			<column name="strName">Ate a medium portion of rotten meat</column>
-			<column name="strDesc">Blech! &lt;us&gt; forced down a medium portion of rotten meat.</column>
+			<column name="strName">Comeu uma porcao media de carne podre</column>
+			<column name="strDesc">A Forca! &lt;us&gt; forcou a comer uma porcao media de carne podre.</column>
 			<column name="aFieldNames">fFoodDebt</column>
 			<column name="aModifiers">-12</column>
 			<column name="aEffects"></column>
@@ -9388,8 +9388,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">407</column>
-			<column name="strName">Ate a medium portion of cured meat</column>
-			<column name="strDesc">&lt;us&gt; ate a medium portion of cured meat.</column>
+			<column name="strName">Comeuuma porcao media de carne curada</column>
+			<column name="strDesc">&lt;us&gt; comeu uma porcao media de carne curada.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-48,6</column>
 			<column name="aEffects"></column>
@@ -9411,8 +9411,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">408</column>
-			<column name="strName">Wearing dogman fur</column>
-			<column name="strDesc">&lt;us&gt; is wearing dogman fur, and is more intimidating.</column>
+			<column name="strName">Vestindo pele de Lobisomem</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo pele de Lobisomem e esta mais intimidante.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">0.3</column>
 			<column name="aEffects">ArmorWound=100,0.3,0.1;ArmorWound=111,0.3,0.1;ArmorWound=102,0.3,0.1;ArmorWound=112,0.3,0.1;ArmorWound=103,0.3,0.1;ArmorWound=113,0.3,0.1;ArmorWound=104,0.3,0.1;ArmorWound=105,0.3,0.1;ArmorWound=106,0.3,0.1;ArmorWound=107,0.3,0.1;</column>
@@ -9434,8 +9434,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">409</column>
-			<column name="strName">Deer</column>
-			<column name="strDesc">&lt;us&gt; is a deer.</column>
+			<column name="strName">Cervo</column>
+			<column name="strDesc">&lt;us&gt; e um cervo.</column>
 			<column name="aFieldNames">BaseDetectionLevel,m_fFatigueModifier,m_fVisibility,m_fMorale,m_fDefense</column>
 			<column name="aModifiers">-0.4,2,-0.1,-2.4,-0.1</column>
 			<column name="aEffects"></column>
@@ -9457,8 +9457,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">410</column>
-			<column name="strName">Already interacted with Stoat</column>
-			<column name="strDesc">&lt;us&gt; already interacted with The Stoat.</column>
+			<column name="strName">Ja interagiu com Stoat</column>
+			<column name="strDesc">&lt;us&gt; ja interagiu com The Stoat.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9480,8 +9480,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">411</column>
-			<column name="strName">Carrying flashlight</column>
-			<column name="strDesc">&lt;us&gt; is carrying a flashlight, making it easier to navigate in the dark, but also easier to spot.</column>
+			<column name="strName">Pilha de lanterna</column>
+			<column name="strDesc">&lt;us&gt; esta carregando uma lanterna, facilitando a navegacao no escuro, mas tambem e mais facil de ser detectado.</column>
 			<column name="aFieldNames">m_fVisibility,LightLevel</column>
 			<column name="aModifiers">0.5,0.8</column>
 			<column name="aEffects"></column>
@@ -9503,8 +9503,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">412</column>
-			<column name="strName">Player</column>
-			<column name="strDesc">&lt;us&gt; is the player, not an AI.</column>
+			<column name="strName">Jogador</column>
+			<column name="strDesc">&lt;us&gt; e o humano, nao uma AI.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9526,8 +9526,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">413</column>
-			<column name="strName">Awkwardly pulling basket</column>
-			<column name="strDesc">&lt;us&gt; is awkwardly pulling a basket without any wheels or handles, hindering movement.</column>
+			<column name="strName">Puxando Cesta (c/dificuldade)</column>
+			<column name="strDesc">&lt;us&gt; esta puxando desajeitadamente uma cesta sem rodas ou alcas, dificultando o movimento.</column>
 			<column name="aFieldNames">m_fEncumberanceLimit,m_fScent,m_fVisibility</column>
 			<column name="aModifiers">-50,3,0.5</column>
 			<column name="aEffects"></column>
@@ -9549,8 +9549,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">414</column>
-			<column name="strName">Removed sharp object from wound</column>
-			<column name="strDesc">&lt;us&gt; removed a sharp object from their wound.</column>
+			<column name="strName">Removido objeto afiado da ferida</column>
+			<column name="strDesc">&lt;us&gt; removeu um objeto afiado da ferida.</column>
 			<column name="aFieldNames">ApplyCutDamage</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -9572,8 +9572,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">415</column>
-			<column name="strName">Removed barbed object from wound</column>
-			<column name="strDesc">&lt;us&gt; removed a barbed object from their wound.</column>
+			<column name="strName">Objeto com farpas removido da ferida</column>
+			<column name="strDesc">&lt;us&gt; removeu um objeto com farpas removido da ferida.</column>
 			<column name="aFieldNames">ApplyCutDamage</column>
 			<column name="aModifiers">0.2</column>
 			<column name="aEffects"></column>
@@ -9595,8 +9595,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">416</column>
-			<column name="strName">Bumped sharp object inside wound</column>
-			<column name="strDesc">&lt;us&gt; wrenched a sharp object inside their wound.</column>
+			<column name="strName">Objeto afiado arrancado de dentro da ferida</column>
+			<column name="strDesc">&lt;us&gt; arrancou um objeto afiado dentro de sua ferida.</column>
 			<column name="aFieldNames">ApplyCutDamage,Infected</column>
 			<column name="aModifiers">0.1,0.1</column>
 			<column name="aEffects"></column>
@@ -9618,8 +9618,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">417</column>
-			<column name="strName">Has sharp object impaled in wound</column>
-			<column name="strDesc">&lt;us&gt; has a sharp object impaled in a wound.</column>
+			<column name="strName">Tem um objeto afiado empalado em ferida</column>
+			<column name="strDesc">&lt;us&gt; tem um objeto afiado empalado em uma ferida.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9641,8 +9641,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">418</column>
-			<column name="strName">Has large sharp object impaled in wound</column>
-			<column name="strDesc">&lt;us&gt; has a large sharp object impaled in a wound.</column>
+			<column name="strName">Tem grande objeto afiado empalado em ferida</column>
+			<column name="strDesc">&lt;us&gt; tem um grande objeto afiado empalado em uma ferida.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9664,8 +9664,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">419</column>
-			<column name="strName">Skilled lockpick</column>
-			<column name="strDesc">&lt;us&gt; is skilled in lockpicking.</column>
+			<column name="strName">Habilidade Arrombador</column>
+			<column name="strDesc">&lt;us&gt; e habilidozo com arromabamentos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -9687,8 +9687,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">420</column>
-			<column name="strName">Hypothermic grace period</column>
-			<column name="strDesc">&lt;us&gt; can get bailed out of hypothermia right now.</column>
+			<column name="strName">Periodo de hipotermico</column>
+			<column name="strDesc">&lt;us&gt; pode ser resgatado da hipotermia agora mesmo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -9710,8 +9710,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">421</column>
-			<column name="strName">Already found hypothermic car boot</column>
-			<column name="strDesc">The boot near the car with the sleeping bag was found.</column>
+			<column name="strName">Ja encontrou um carregador de carro hipotermico</column>
+			<column name="strDesc">A bota perto do carro com o saco de dormir foi encontrada.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
