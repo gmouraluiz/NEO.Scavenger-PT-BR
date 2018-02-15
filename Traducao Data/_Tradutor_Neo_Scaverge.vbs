@@ -6331,8 +6331,8 @@ Function datafiles(id, attr, Line)
 				Case "strDesc"
 					Line = Replace(Line, "You try opening this file, but the PDF Viewer app crashes somewhere between", "Voce tenta abrir esse arquivo, mas o aplicativo do Visualizador de PDF trava em algum lugar entre")	
 					Line = Replace(Line, "Loading Certificates", "Carregando Certificados")	
-					Line = Replace(Line, "and", "e")	
-					Line = Replace(Line, "Checking for Updates", "verificando atualizacoes")	
+					Line = Replace(Line, " and ", " e ")	
+					Line = Replace(Line, "Checking for Updates", "Verificando atualizacoes")	
 			End Select
 		case 34
 			Select case attr
@@ -6346,7 +6346,7 @@ Function datafiles(id, attr, Line)
 				Case "strName"
 					Line = Replace(Line, "Video File", "Arquivo de Video")	
 				Case "strDesc"
-					Line = Replace(Line, "A Season Without Clean Underwear", "Uma temporada sem roupa íntima limpa")
+					Line = Replace(Line, "A Season Without Clean Underwear", "Uma temporada sem roupa intima limpa")
 			End Select
 		case 36
 			Select case attr
@@ -6381,7 +6381,7 @@ Function datafiles(id, attr, Line)
 				Case "strName"
 					Line = Replace(Line, "Video File", "Arquivo de Video")
 				Case "strDesc"
-					Line = Replace(Line, "Russian dash-cam of large military VTOLs flying in formation overhead", "Rábia-cams russa de grandes VTOLs militares que voam em formacao")		
+					Line = Replace(Line, "Russian dash-cam of large military VTOLs flying in formation overhead", "Rabia-cams russa de grandes VTOLs militares que voam em formacao")		
 			End Select
 		case 41
 			Select case attr
@@ -6591,7 +6591,7 @@ Function datafiles(id, attr, Line)
 				Case "strName"
 					Line = Replace(Line, "Image File", "Aquivo de Imagem")
 				Case "strDesc"
-					Line = Replace(Line, "Massive columns of smoke rising in the distance, photographed from a car stuck in highway traffic", "Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviário")		
+					Line = Replace(Line, "Massive columns of smoke rising in the distance, photographed from a car stuck in highway traffic", "Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviario")		
 			End Select
 		case 71
 			Select case attr
@@ -6718,7 +6718,7 @@ Function datafiles(id, attr, Line)
 					Line = Replace(Line, "Text File", "Arquivo de Texto")	
 				Case "strDesc"
 					Line = Replace(Line, "3 Dog Moon", "3 Caes Vagueando")	
-					Line = Replace(Line, "T-Shirt Review", "Revisão do T-Shirt")	
+					Line = Replace(Line, "T-Shirt Review", "Revisao do T-Shirt")	
 					Line = Replace(Line, "This shirt has changed my life. I don't know what it is, but I feel like power courses through my veins when I wear it. With not one, not two, but THREE dogs AND a moon, I feel like I am nature's power incarnate. I could even take on a dogman!", "Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES cachorros e uma lua, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!")	
 					Line = Replace(Line, "If they were real, that is. For now, I practice dominating my pug, Bradley, for when that day inevitably comes.", "Se fossem reais, isso e. Por enquanto, eu pratico dominar meu pug, Bradley, pois quando esse dia inevitavelmente vem.")		
 			End Select			

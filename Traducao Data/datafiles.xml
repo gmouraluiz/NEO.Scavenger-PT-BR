@@ -259,7 +259,7 @@
 		<table name="datafiles">
 			<column name="id">33</column>
 			<column name="strName">Arquivo em PDF</column>
-			<column name="strDesc">Voce tenta abrir esse arquivo, mas o aplicativo do Visualizador de PDF trava em algum lugar entre "Carregeo Certificados" e "verificando atualizacoes".</column>
+			<column name="strDesc">Voce tenta abrir esse arquivo, mas o aplicativo do Visualizador de PDF trava em algum lugar entre "Carregando Certificados" e "Verificando atualizacoes".</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataPDF.png</column>
 		</table>
@@ -273,7 +273,7 @@
 		<table name="datafiles">
 			<column name="id">35</column>
 			<column name="strName">Arquivo de Video</column>
-			<column name="strDesc">"Uma temporada sem roupa Ã­ntima limpa!" reality show S2E1</column>
+			<column name="strDesc">"Uma temporada sem roupa intima limpa!" reality show S2E1</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
@@ -308,7 +308,7 @@
 		<table name="datafiles">
 			<column name="id">40</column>
 			<column name="strName">Arquivo de Video</column>
-			<column name="strDesc">RÃ¡bia-cams russa de grandes VTOLs militares que voam em formacao</column>
+			<column name="strDesc">Rabia-cams russa de grandes VTOLs militares que voam em formacao</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
@@ -518,7 +518,7 @@
 		<table name="datafiles">
 			<column name="id">70</column>
 			<column name="strName">Aquivo de Imagem</column>
-			<column name="strDesc">Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviÃ¡rio</column>
+			<column name="strDesc">Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviario</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
@@ -644,7 +644,7 @@
 		<table name="datafiles">
 			<column name="id">88</column>
 			<column name="strName">Arquivo de Texto</column>
-			<column name="strDesc">"3 Caes Vagueando" RevisÃ£o do T-Shirt
+			<column name="strDesc">"3 Caes Vagueando" Revisao do T-Shirt
 
 Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES cachorros e uma lua, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!
 
