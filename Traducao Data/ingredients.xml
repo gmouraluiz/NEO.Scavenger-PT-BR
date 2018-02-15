@@ -165,7 +165,7 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">23</column>
-			<column name="strName">Habilidade arromabamentos</column>
+			<column name="strName">Habilidade arromabamento</column>
 			<column name="strRequiredProps">34</column>
 			<column name="strForbidProps"></column>
 		</table>
@@ -189,13 +189,13 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">27</column>
-			<column name="strName">lencou pouco inflamavel e nao rigida</column>
+			<column name="strName">pouco inflamavel, lencol nao rigido</column>
 			<column name="strRequiredProps">15&amp;1&amp;36</column>
 			<column name="strForbidProps">28</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">28</column>
-			<column name="strName">lencou absorvente media, nao rigida e nao elastica</column>
+			<column name="strName">absorvedor medio, lencol nao rigido ou elastico</column>
 			<column name="strRequiredProps">16&amp;36&amp;37</column>
 			<column name="strForbidProps">28&amp;60</column>
 		</table>
@@ -297,7 +297,7 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">45</column>
-			<column name="strName">eixo medio, c/graveto</column>
+			<column name="strName">eixo medio, c/graveto (apagado)</column>
 			<column name="strRequiredProps">1&amp;13&amp;16&amp;28</column>
 			<column name="strForbidProps">3&amp;47</column>
 		</table>

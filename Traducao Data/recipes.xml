@@ -920,7 +920,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">47</column>
-			<column name="strName">arco: profissional c/alca</column>
+			<column name="strName">arco: composto c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x18+1x64</column>

@@ -495,7 +495,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">26</column>
-			<column name="strName">arco profissional cabeca larga</column>
+			<column name="strName">arco composto cabeca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">40</column>
 			<column name="fDamageCut">0.8</column>
@@ -513,7 +513,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">27</column>
-			<column name="strName">arco profissional bruto/penetrante</column>
+			<column name="strName">arco composto bruto/penetrante</column>
 			<column name="strNotes"></column>
 			<column name="nRange">40</column>
 			<column name="fDamageCut">0.8</column>
@@ -531,7 +531,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">28</column>
-			<column name="strName">arco profissional bruto/cabeca larga</column>
+			<column name="strName">arco composto bruto/cabeca larga</column>
 			<column name="strNotes"></column>
 			<column name="nRange">40</column>
 			<column name="fDamageCut">0.8</column>

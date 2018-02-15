@@ -7789,7 +7789,9 @@ Function ingredients(id, attr, Line)
 		case 83
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "iSlab", "iSlab(tablet)")
+					If (Line = "iSlab") Then
+						Line = Replace(Line, "iSlab", "iSlab(tablet)")
+					End If
 			End Select
 		case 84
 			Select case attr
