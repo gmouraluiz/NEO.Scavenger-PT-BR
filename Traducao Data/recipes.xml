@@ -711,7 +711,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">36</column>
-			<column name="strName">pe de cabra com correia</column>
+			<column name="strName">pe de cabra c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x18+1x52</column>
@@ -730,7 +730,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">37</column>
-			<column name="strName">binoculos com correia</column>
+			<column name="strName">binoculos c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x18+1x53</column>
@@ -768,7 +768,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">39</column>
-			<column name="strName">luneta com correias</column>
+			<column name="strName">luneta c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x18+1x20</column>
@@ -825,7 +825,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">42</column>
-			<column name="strName">treno de plastico com correia</column>
+			<column name="strName">treno de plastico c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">2x18+1x58</column>
@@ -920,7 +920,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">47</column>
-			<column name="strName">arco: profissional com correia</column>
+			<column name="strName">arco: profissional c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x18+1x64</column>
@@ -1015,7 +1015,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">52</column>
-			<column name="strName">espingarda com correia</column>
+			<column name="strName">espingarda c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x22</column>
 			<column name="strConsumed">1x69+1x18+2x21</column>

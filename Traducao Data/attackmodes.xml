@@ -113,7 +113,7 @@
 			<column name="strIMG">AMode308Scoped.png</column>
 			<column name="fMorale">0.5</column>
 			<column name="strWieldPhrase">levanta seu .308, pronto para atirar em</column>
-			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
+			<column name="vAttackPhrases">disparar um tiro em ou disparar com seu .308, atirar, disparar em</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">5</column>
