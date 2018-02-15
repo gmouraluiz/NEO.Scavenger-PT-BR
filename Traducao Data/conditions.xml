@@ -9803,7 +9803,7 @@
 		<table name="conditions">
 			<column name="id">425</column>
 			<column name="strName">Habilidoso com hackear</column>
-			<column name="strDesc">&lt;us&gt; Ã© habilidoso em hackear.</column>
+			<column name="strDesc">&lt;us&gt; habilidoso em hackear.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -10332,7 +10332,7 @@
 		<table name="conditions">
 			<column name="id">448</column>
 			<column name="strName">Virando Canibal III</column>
-			<column name="strDesc">&lt;us&gt; continuou a comer carne humana e agora Ã© um Canibal.</column>
+			<column name="strDesc">&lt;us&gt; continuou a comer carne humana e agora e um Canibal.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1186</column>
 			<column name="aEffects"></column>

@@ -34,621 +34,621 @@
 		<!-- Table datafiles -->
 		<table name="datafiles">
 			<column name="id">1</column>
-			<column name="strName">Database</column>
+			<column name="strName">Base de Dados</column>
 			<column name="strDesc">O livro de enderecos pessoal de alguem</column>
 			<column name="fValue">1</column>
 			<column name="strImg">ItmDataDB.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">2</column>
-			<column name="strName">Database</column>
-			<column name="strDesc">Registos, enderecos e informacoes de contato dos funcionarios corporativos</column>
+			<column name="strName">Base de Dados</column>
+			<column name="strDesc">Registros, enderecos e informacoes de contato dos funcionarios corporativos</column>
 			<column name="fValue">4</column>
 			<column name="strImg">ItmDataDB.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">3</column>
-			<column name="strName">Database</column>
+			<column name="strName">Base de Dados</column>
 			<column name="strDesc">Horario das aulas de outono</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataDB.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">4</column>
-			<column name="strName">Database</column>
-			<column name="strDesc">Household budget</column>
+			<column name="strName">Base de Dados</column>
+			<column name="strDesc">Orcamento da familias</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataDB.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">5</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for an outdated account</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para uma conta desatualizada</column>
 			<column name="fValue">1</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">6</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for a defunct bank</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para um banco extinto</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">7</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old bank statement for a personal account at Detroit Savings Bank</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Declaracao bancaria antiga para uma conta pessoal no Detroit Savings Bank</column>
 			<column name="fValue">50</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">8</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Outdated login details for a Detroit Savings Bank account</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Detalhes de login desatualizados para uma conta do banco de poupanca de Detroit</column>
 			<column name="fValue">5</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">9</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Login details for a defunct bank</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Detalhes de login para um banco extinto</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">10</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old corporate financial transaction statements for a defunct company</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Declaracoes de transacoes financeiras corporativas antigas para uma empresa extinta</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">11</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old corporate financial transaction statements for a company still operating in DMC</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Declaracoes de transacoes financeiras antigas para uma empresa que ainda opera em DMC</column>
 			<column name="fValue">10</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">12</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old corporate procurement records for a defunct company</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Antigos registros de compras corporativas para uma empresa extinta</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">13</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old corporate procurement records for a company still operating in DMC</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Antigos registros de compras corporativas para uma empresa que ainda atua em DMC</column>
 			<column name="fValue">15</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">14</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">High school algebra assignment</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Exercicios de algebra do ensino medio</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">15</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">High school history report on the rise of China in the 21st century</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Relatorio da historia do ensino medio sobre o auge da China no seculo XXI</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">16</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">MBA thesis on the opportunities in privatizing Detroit's assets</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Tese de MBA sobre as oportunidades de privatizar os ativos de Detroit</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">17</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Ethics paper on the use of Active Denial Systems in crowd control</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Documento sobre as eticas de uso da Active Denial Systems no controle de multidoes</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">18</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Materials science thesis on graphene recycling</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Tese de ciencia de materiais sobre reciclagem de grafeno</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">19</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to landlord about the leak in the roof</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail ao senhorio sobre o vazamento no telhado</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">20</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to employees outlining corporate policy on workplace harassment and bullying</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail aos funcionarios descrevendo a politica corporativa, sobre assedio no local de trabalho e bullying</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">21</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to employees describing a new corporate vision statement</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Email aos funcionarios descrevendo uma nova declaracao da visao corporativa</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">22</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to employees describing a new corporate mission statement</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail aos funcionarios descrevendo uma nova declaracao da missao corporativa</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">23</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to employees describing new corporate values</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para funcionarios que descrevem novos valores corporativos</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">24</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to friend about a hulking three-legged creature spotted in the backyard after dark</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail eviado de um amigo sobre uma criatura de tres pernas passando e andando no quintal depois de escurecer</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">25</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to co-worker complaining about management being out-of-touch</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para o colega de trabalho reclamando que a parte da administracao esta fora de contato</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">26</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to BFF about what Karyn wore to school today</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para BFF sobre o que Karyn usou para a escola hoje</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">27</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to BFF exhaustively detailing a conversation with Kyle in school today</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para BFF exaustivamente detalhando uma conversa com Kyle na escola hoje</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">28</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to BFF expressing disbelief in a teacher's disciplinary action</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para BFF expressando descrenca na acao disciplinar de um professor</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">29</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to BFF lamenting the unavailability of Kyle as a date to the seasonal school dancing event</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para BFF lamentando a indisponibilidade de Kyle como data para o evento sazonal de danca da escolar</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">30</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">FEMA evacuee preparedness document and packing list</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Documento de preparacao e embalagem da FEMA evacuacao</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">31</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">FEMA Black Swamp region evacuation schedule and rally points</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">Cronograma de evacuacao da regiao de Black Marsha FEMA e pontos de reuniao</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">32</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Email to friend theorizing about the origins of the "creatures" being sighted in growing numbers</column>
+			<column name="strName">Arquivo Texto</column>
+			<column name="strDesc">E-mail para amigo teorizando sobre as origens das "criaturas" sendo avistadas em numeros crescentes</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">33</column>
-			<column name="strName">PDF File</column>
-			<column name="strDesc">You try opening this file, but the PDF Viewer app crashes somewhere between "Loading Certificates" and "Checking for Updates".</column>
+			<column name="strName">Arquivo em PDF</column>
+			<column name="strDesc">Voce tenta abrir esse arquivo, mas o aplicativo do Visualizador de PDF trava em algum lugar entre "Carregeo Certificados" e "verificando atualizacoes".</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataPDF.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">34</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Miley Syrup's VMA twerking video in super HD</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">O video da VMA da Miley Syrup no super HD</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">35</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">"A Season Without Clean Underwear!" reality show S2E1</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">"Uma temporada sem roupa Ã­ntima limpa!" reality show S2E1</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">36</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">A robot squeezing ketchup inaccurately on food</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Um robo espremendo ketchup incorretamente na comida</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">37</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">"America's Top Hobo Wrestler" S8E21</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">"Americanos no topo e Lutador de Hobo" S8E21</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">38</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">"Real American House Husbands" S1E1</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">"Maridos reais nas casas americanas" S1E1</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">39</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Russian dash-cam of a freight train jumping an airliner</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Russian dash-cam de um trem de carga saltando um aviao de passageiros</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">40</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Russian dash-cam of large military VTOLs flying in formation overhead</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">RÃ¡bia-cams russa de grandes VTOLs militares que voam em formacao</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">41</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Russian dash-cam compilation of old ladies trying to cross streets</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Recopilacao de velhas senhoras rusas que tentam atravessar as ruas</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">42</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Amateur video of youths throwing firebombs at an empty section of forest, revealing a tank with active camouflage</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Video amador de jovens que lancam bombas de fogo em uma secao vazia de floresta, revelando um tanque com camuflagem ativa</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">43</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Poorly-lit footage of some rustling hedges outside, from which something leaps off-frame, causing panic and hurried camera movements</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Figuras pouco iluminadas e alguns sussurro do lado de fora, das quais algo salta fora do quadro, causando panico e movimentos de camera apressados</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">44</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Cat turning to face camera in dramatic fashion</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Gato virando para enfrentar a camera de forma dramatica</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">45</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Squirrel turning to face camera in dramatic fashion</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Esquilo girando para encarar a camera de forma dramatica</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">46</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Parrot turning to face camera in dramatic fashion</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">papagaio virando para enfrentar a camera de forma dramatica</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">47</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Hamster turning to face camera in dramatic fashion</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Hamster virando a camera de forma dramatica</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">48</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Shaky-cam footage of a dogman ramming a car's passenger door</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">camera instavel de uma filmagem de um Lobisomem empurrando a porta de um passageiro de um carro</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">49</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Cat jumping into and out of a box</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Gato que entra e sai de uma caixa</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">50</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Cat diving into a paper bag</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Gato que mergulha em um saco de papel</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">51</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Cat walking around with cardboard box on head</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Gato caminhando com caixa de papelao na cabeca</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">52</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Cat running and sliding across floor on box</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Gato correndo e deslizando pelo chao na caixa</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">53</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Compilation of goats screaming</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Compilacao de cabras gritando</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">54</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">Personnel in NBC suits taking readings in a blackened, chemical-drenched neighborhood</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Pessoal em trajes de NBC levando leituras em um bairro enegrecido e com sede em substancias quimicas</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">55</column>
-			<column name="strName">Video File</column>
-			<column name="strDesc">A multi-legged, mobile laboratory disembarking from an oversize freight truck</column>
+			<column name="strName">Arquivo de Video</column>
+			<column name="strDesc">Um laboratorio movel de varias pernas que desembarca de um caminhao de carga de grande porte</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataVID.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">56</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat in a bathtub, looking nonplussed</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato numa banheira, parecendo incomodo</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">57</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat in a bathtub, looking cute</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato em uma banheira, parecendo fofo</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">58</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat in a bathtub, playing with water</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato numa banheira, brincando com agua</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">59</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat on a leash, looking nonplussed</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato em uma coleira, parecendo desorientado</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">60</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat snuggled in blankets</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato aconchegado em cobertores</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">61</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat playing with a laser pointer</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato brincando com um ponta de laser</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">62</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat sitting slouched, with paw on TV remote</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato sentado adormecido, com a pata no controle remoto da TV</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">63</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Cat peering through screen door</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Gato olhando atraves da tela da porta</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">64</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Dog simultaneously chasing and running from a ball. With tongue out.</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Cao simultaneamente perseguindo e correndo de uma bola. Com lingua para fora.</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">65</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Dog in mid-air with a banana nearby</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Cao no meio do ar com uma banana na boca</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">66</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Dog lying on carpet with paws around beer can</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Cao deitado no tapete com as patas em torno de algo bebendo</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">67</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Sloth sitting on pavement</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Preguica sentada no pavimento</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">68</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Sloth and a cat, lying on a cushion</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Preguica e gato, deitada sobre uma almofada</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">69</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Blurry picture of a dog-like humanoid at the edge of a clearing</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Imagem embacada de um humano e cao na borda de uma clareira</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">70</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Massive columns of smoke rising in the distance, photographed from a car stuck in highway traffic</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviÃ¡rio</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">71</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Detroit skyline veiled in haze, with arcology under construction</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Detroit vista de longe com nevoa, com arcologia em construcao</column>
 			<column name="fValue">20</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">72</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Blackened plants and building frames surrounded in fumes and chemical pools</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Plantas enegrecidas e armacoes de construcao cercadas de fumos e piscinas quimicas</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">73</column>
-			<column name="strName">Image File</column>
-			<column name="strDesc">Convoy of school buses carrying what look like refugees in midwestern USA</column>
+			<column name="strName">Aquivo de Imagem</column>
+			<column name="strDesc">Comboio de onibus escolares que transportam o que se parece com refugiados no meio-oeste dos EUA</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataIMG.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">74</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for an active account at Detroit Savings Bank</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank</column>
 			<column name="fValue">191.62</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">75</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for an active account at Detroit Savings Bank</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank</column>
 			<column name="fValue">87.21</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">76</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for an active account at Detroit Savings Bank</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank</column>
 			<column name="fValue">1777.42</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">77</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Pre-authorized debit application for an active account at Detroit Savings Bank</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank</column>
 			<column name="fValue">617.97</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">78</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Old bank statement for a personal account at a defunct bank</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Declaracao bancaria antiga para uma conta pessoal em um banco extinto</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">79</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Login details for a current Detroit Savings Bank account</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Detalhes de login para uma conta atual de Detroit Savings Bank</column>
 			<column name="fValue">5264.24</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">80</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Login details for a current Detroit Savings Bank account</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Detalhes de login para uma conta atual de Detroit Savings Bank</column>
 			<column name="fValue">36.45</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">81</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Login details for a current Detroit Savings Bank account</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Detalhes de login para uma conta atual de Detroit Savings Bank</column>
 			<column name="fValue">281.18</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">82</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">Brooding, lovelorn poetry about a high school crush</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Poesia amedrontadora e amorosa sobre a queda no ensino medio</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">83</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">A cached article about vertical farming and ultra-urbanization</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Um artigo sobre agricultura vertical e ultra-urbanizacao</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">84</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">A master's thesis on the propagation of fire in a confined zero-g environment</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Uma tese de mestrado sobre a propagacao do fogo em um ambiente zero-graus confinado</column>
 			<column name="fValue">5</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">85</column>
-			<column name="strName">Database</column>
-			<column name="strDesc">Annual launch records and manifests for an asteroid mining conglomerate</column>
+			<column name="strName">Base de Dados</column>
+			<column name="strDesc">Registos e manifestacoes anuais para um conglomerado de mineracao de asteroides</column>
 			<column name="fValue">150</column>
 			<column name="strImg">ItmDataDB.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">86</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">A white paper on maintaining long-term physiological health in low-g, centrifugal environments</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Uma folha sobre a manutencao da saude fisiologica a longo prazo em ambientes centrifugos de baixo-graus</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">87</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">An urgent message from the director of the Central Bank of Nigeria</column>
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">Uma mensagem urgente do diretor do Banco Central da Nigeria</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>
 		<table name="datafiles">
 			<column name="id">88</column>
-			<column name="strName">Text File</column>
-			<column name="strDesc">"3 Dog Moon" T-Shirt Review
+			<column name="strName">Arquivo de Texto</column>
+			<column name="strDesc">"3 Caes Vagueando" RevisÃ£o do T-Shirt
 
-This shirt has changed my life. I don't know what it is, but I feel like power courses through my veins when I wear it. With not one, not two, but THREE dogs AND a moon, I feel like I am nature's power incarnate. I could even take on a dogman!
+Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES cachorros e uma lua, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!
 
-If they were real, that is. For now, I practice dominating my pug, Bradley, for when that day inevitably comes.</column>
+Se fossem reais, isso e. Por enquanto, eu pratico dominar meu pug, Bradley, pois quando esse dia inevitavelmente vem.</column>
 			<column name="fValue">0</column>
 			<column name="strImg">ItmDataTXT.png</column>
 		</table>

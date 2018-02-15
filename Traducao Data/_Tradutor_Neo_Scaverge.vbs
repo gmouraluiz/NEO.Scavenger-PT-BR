@@ -4394,7 +4394,7 @@ Function conditions(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Skilled in hacking", "Habilidoso com hackear")
 				case "strDesc"
-					Line = Replace(Line, "is skilled at hacking", "é habilidoso em hackear")
+					Line = Replace(Line, "is skilled at hacking", "habilidoso em hackear")
 			End Select
 		case 426
 			Select case attr
@@ -4555,7 +4555,7 @@ Function conditions(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Trigger Wendigo 3", "Virando Canibal III")
 				case "strDesc"
-					Line = Replace(Line, "continued to eat human meat, and is now a wendigo", "continuou a comer carne humana e agora é um Canibal")
+					Line = Replace(Line, "continued to eat human meat, and is now a wendigo", "continuou a comer carne humana e agora e um Canibal")
 			End Select
 		case 449
 			Select case attr
@@ -6100,19 +6100,628 @@ Function datafiles(id, attr, Line)
 	Select case id
 		case 1
 			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Database", "Base de Dados")
 				Case "strDesc"
 					Line = Replace(Line, "Someone's personal address book", "O livro de enderecos pessoal de alguem")
 			End Select
 		case 2
 			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Database", "Base de Dados")
 				Case "strDesc"
-					Line = Replace(Line, "Corporate employee records, addresses, and contact info", "Registos, enderecos e informacoes de contato dos funcionarios corporativos")
+					Line = Replace(Line, "Corporate employee records, addresses, and contact info", "Registros, enderecos e informacoes de contato dos funcionarios corporativos")
 			End Select
 		case 3
 			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Database", "Base de Dados")
 				Case "strDesc"
 					Line = Replace(Line, "Fall class schedule", "Horario das aulas de outono")		
 			End Select
+		case 4
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Database", "Base de Dados")
+				Case "strDesc"
+					Line = Replace(Line, "Household budget", "Orcamento da familias")		
+			End Select
+		case 5
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for an outdated account", "Pedido de debito pre-autorizado para uma conta desatualizada")		
+			End Select
+		case 6
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for a defunct bank", "Pedido de debito pre-autorizado para um banco extinto")	
+			End Select
+		case 7
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Old bank statement for a personal account at Detroit Savings Bank", "Declaracao bancaria antiga para uma conta pessoal no Detroit Savings Bank")		
+			End Select
+		case 8
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Outdated login details for a Detroit Savings Bank account", "Detalhes de login desatualizados para uma conta do banco de poupanca de Detroit")		
+			End Select
+		case 9
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Login details for a defunct bank", "Detalhes de login para um banco extinto")		
+			End Select			
+		case 10
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Old corporate financial transaction statements for a defunct company", "Declaracoes de transacoes financeiras corporativas antigas para uma empresa extinta")		
+			End Select
+		case 11
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Old corporate financial transaction statements for a company still operating in DMC", "Declaracoes de transacoes financeiras antigas para uma empresa que ainda opera em DMC")		
+			End Select
+		case 12
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Old corporate procurement records for a defunct company", "Antigos registros de compras corporativas para uma empresa extinta")		
+			End Select
+		case 13
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Old corporate procurement records for a company still operating in DMC", "Antigos registros de compras corporativas para uma empresa que ainda atua em DMC")		
+			End Select
+		case 14
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "High school algebra assignment", "Exercicios de algebra do ensino medio")		
+			End Select
+		case 15
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "High school history report on the rise of China in the 21st century", "Relatorio da historia do ensino medio sobre o auge da China no seculo XXI")		
+			End Select
+		case 16
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "MBA thesis on the opportunities in privatizing Detroit's assets", "Tese de MBA sobre as oportunidades de privatizar os ativos de Detroit")		
+			End Select
+		case 17
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Ethics paper on the use of Active Denial Systems in crowd control", "Documento sobre as eticas de uso da Active Denial Systems no controle de multidoes")		
+			End Select
+		case 18
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Materials science thesis on graphene recycling", "Tese de ciencia de materiais sobre reciclagem de grafeno")		
+			End Select
+		case 19
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Email to landlord about the leak in the roof", "E-mail ao senhorio sobre o vazamento no telhado")		
+			End Select
+		case 20
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")		
+				Case "strDesc"
+					Line = Replace(Line, "Email to employees outlining corporate policy on workplace harassment and bullying", "E-mail aos funcionarios descrevendo a politica corporativa, sobre assedio no local de trabalho e bullying")		
+			End Select
+		case 21
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to employees describing a new corporate vision statement", "Email aos funcionarios descrevendo uma nova declaracao da visao corporativa")		
+			End Select
+		case 22
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Email to employees describing a new corporate mission statement", "E-mail aos funcionarios descrevendo uma nova declaracao da missao corporativa")		
+			End Select
+		case 23
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to employees describing new corporate values", "E-mail para funcionarios que descrevem novos valores corporativos")		
+			End Select
+		case 24
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Email to friend about a hulking three-legged creature spotted in the backyard after dark", "E-mail eviado de um amigo sobre uma criatura de tres pernas passando e andando no quintal depois de escurecer")		
+			End Select
+		case 25
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Email to co-worker complaining about management being out-of-touch", "E-mail para o colega de trabalho reclamando que a parte da administracao esta fora de contato")	
+			End Select
+		case 26
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Email to BFF about what Karyn wore to school today", "E-mail para BFF sobre o que Karyn usou para a escola hoje")		
+			End Select
+		case 27
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to BFF exhaustively detailing a conversation with Kyle in school today", "E-mail para BFF exaustivamente detalhando uma conversa com Kyle na escola hoje")
+			End Select
+		case 28
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to BFF expressing disbelief in a teacher's disciplinary action", "E-mail para BFF expressando descrenca na acao disciplinar de um professor")		
+			End Select
+		case 29
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to BFF lamenting the unavailability of Kyle as a date to the seasonal school dancing event", "E-mail para BFF lamentando a indisponibilidade de Kyle como data para o evento sazonal de danca da escolar")		
+			End Select
+		case 30
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "FEMA evacuee preparedness document and packing list", "Documento de preparacao e embalagem da FEMA evacuacao")		
+			End Select
+		case 31
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "FEMA Black Swamp region evacuation schedule and rally points", "Cronograma de evacuacao da regiao de Black Marsha FEMA e pontos de reuniao")		
+			End Select
+		case 32
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Email to friend theorizing about the origins of the", "E-mail para amigo teorizando sobre as origens das")
+					Line = Replace(Line, "creatures", "criaturas")	
+					Line = Replace(Line, "being sighted in growing numbers", "sendo avistadas em numeros crescentes")		
+			End Select
+		case 33
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "PDF File", "Arquivo em PDF")
+				Case "strDesc"
+					Line = Replace(Line, "You try opening this file, but the PDF Viewer app crashes somewhere between", "Voce tenta abrir esse arquivo, mas o aplicativo do Visualizador de PDF trava em algum lugar entre")	
+					Line = Replace(Line, "Loading Certificates", "Carregando Certificados")	
+					Line = Replace(Line, "and", "e")	
+					Line = Replace(Line, "Checking for Updates", "verificando atualizacoes")	
+			End Select
+		case 34
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Miley Syrup's VMA twerking video in super HD", "O video da VMA da Miley Syrup no super HD")		
+			End Select
+		case 35
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")	
+				Case "strDesc"
+					Line = Replace(Line, "A Season Without Clean Underwear", "Uma temporada sem roupa íntima limpa")
+			End Select
+		case 36
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")	
+				Case "strDesc"
+					Line = Replace(Line, "A robot squeezing ketchup inaccurately on food", "Um robo espremendo ketchup incorretamente na comida")		
+			End Select
+		case 37
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")		
+				Case "strDesc"
+					Line = Replace(Line, "America's Top Hobo Wrestler", "Americanos no topo e Lutador de Hobo")
+			End Select
+		case 38
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Real American House Husbands", "Maridos reais nas casas americanas")
+			End Select
+		case 39
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Russian dash-cam of a freight train jumping an airliner", "Russian dash-cam de um trem de carga saltando um aviao de passageiros")		
+			End Select
+		case 40
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Russian dash-cam of large military VTOLs flying in formation overhead", "Rábia-cams russa de grandes VTOLs militares que voam em formacao")		
+			End Select
+		case 41
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Russian dash-cam compilation of old ladies trying to cross streets", "Recopilacao de velhas senhoras rusas que tentam atravessar as ruas")	
+			End Select
+		case 42
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Amateur video of youths throwing firebombs at an empty section of forest, revealing a tank with active camouflage", "Video amador de jovens que lancam bombas de fogo em uma secao vazia de floresta, revelando um tanque com camuflagem ativa")			
+			End Select
+		case 43
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Poorly-lit footage of some rustling hedges outside, from which something leaps off-frame, causing panic and hurried camera movements", "Figuras pouco iluminadas e alguns sussurro do lado de fora, das quais algo salta fora do quadro, causando panico e movimentos de camera apressados")		
+			End Select
+		case 44
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Cat turning to face camera in dramatic fashion", "Gato virando para enfrentar a camera de forma dramatica")		
+			End Select
+		case 45
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")	
+				Case "strDesc"
+					Line = Replace(Line, "Squirrel turning to face camera in dramatic fashion", "Esquilo girando para encarar a camera de forma dramatica")		
+			End Select
+		case 46
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Parrot turning to face camera in dramatic fashion", "papagaio virando para enfrentar a camera de forma dramatica")	
+			End Select
+		case 47
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")	
+				Case "strDesc"
+					Line = Replace(Line, "Hamster turning to face camera in dramatic fashion", "Hamster virando a camera de forma dramatica")		
+			End Select
+		case 48
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Shaky-cam footage of a dogman ramming a car's passenger door", "camera instavel de uma filmagem de um Lobisomem empurrando a porta de um passageiro de um carro")
+			End Select
+		case 49
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Cat jumping into and out of a box", "Gato que entra e sai de uma caixa")		
+			End Select
+		case 50
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Cat diving into a paper bag", "Gato que mergulha em um saco de papel")	
+			End Select
+		case 51
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")	
+				Case "strDesc"
+					Line = Replace(Line, "Cat walking around with cardboard box on head", "Gato caminhando com caixa de papelao na cabeca")		
+			End Select
+		case 52
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")		
+				Case "strDesc"
+					Line = Replace(Line, "Cat running and sliding across floor on box", "Gato correndo e deslizando pelo chao na caixa")		
+			End Select
+		case 53
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Compilation of goats screaming", "Compilacao de cabras gritando")	
+			End Select
+		case 54
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "Personnel in NBC suits taking readings in a blackened, chemical-drenched neighborhood", "Pessoal em trajes de NBC levando leituras em um bairro enegrecido e com sede em substancias quimicas")		
+			End Select
+		case 55
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Video File", "Arquivo de Video")
+				Case "strDesc"
+					Line = Replace(Line, "A multi-legged, mobile laboratory disembarking from an oversize freight truck", "Um laboratorio movel de varias pernas que desembarca de um caminhao de carga de grande porte")		
+			End Select
+		case 56
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Cat in a bathtub, looking nonplussed", "Gato numa banheira, parecendo incomodo")		
+			End Select
+		case 57
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Cat in a bathtub, looking cute", "Gato em uma banheira, parecendo fofo")	
+			End Select
+		case 58
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Cat in a bathtub, playing with water", "Gato numa banheira, brincando com agua")		
+			End Select
+		case 59
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Cat on a leash, looking nonplussed", "Gato em uma coleira, parecendo desorientado")		
+			End Select
+		case 60
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Cat snuggled in blankets", "Gato aconchegado em cobertores")		
+			End Select
+		case 61
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Cat playing with a laser pointer", "Gato brincando com um ponta de laser")
+			End Select
+		case 62
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Cat sitting slouched, with paw on TV remote", "Gato sentado adormecido, com a pata no controle remoto da TV")		
+			End Select
+		case 63
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Cat peering through screen door", "Gato olhando atraves da tela da porta")	
+			End Select
+		case 64
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Dog simultaneously chasing and running from a ball. With tongue out", "Cao simultaneamente perseguindo e correndo de uma bola. Com lingua para fora")		
+			End Select
+		case 65
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Dog in mid-air with a banana nearby", "Cao no meio do ar com uma banana na boca")		
+			End Select
+		case 66
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")	
+				Case "strDesc"
+					Line = Replace(Line, "Dog lying on carpet with paws around beer can", "Cao deitado no tapete com as patas em torno de algo bebendo")		
+			End Select
+		case 67
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Sloth sitting on pavement", "Preguica sentada no pavimento")		
+			End Select
+		case 68
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Sloth and a cat, lying on a cushion", "Preguica e gato, deitada sobre uma almofada")		
+			End Select
+		case 69
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Blurry picture of a dog-like humanoid at the edge of a clearing", "Imagem embacada de um humano e cao na borda de uma clareira")		
+			End Select
+		case 70
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Massive columns of smoke rising in the distance, photographed from a car stuck in highway traffic", "Colunas macicas de fumaca subindo na distancia, fotografadas de um carro preso no trafego rodoviário")		
+			End Select
+		case 71
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Detroit skyline veiled in haze, with arcology under construction", "Detroit vista de longe com nevoa, com arcologia em construcao")	
+			End Select
+		case 72
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Blackened plants and building frames surrounded in fumes and chemical pools", "Plantas enegrecidas e armacoes de construcao cercadas de fumos e piscinas quimicas")
+			End Select
+		case 73
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Image File", "Aquivo de Imagem")
+				Case "strDesc"
+					Line = Replace(Line, "Convoy of school buses carrying what look like refugees in midwestern USA", "Comboio de onibus escolares que transportam o que se parece com refugiados no meio-oeste dos EUA")		
+			End Select
+		case 74
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for an active account at Detroit Savings Bank", "Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank")	
+			End Select
+		case 75
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for an active account at Detroit Savings Bank", "Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank")	
+			End Select
+		case 76
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for an active account at Detroit Savings Bank", "Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank")	
+			End Select
+		case 77
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Pre-authorized debit application for an active account at Detroit Savings Bank", "Pedido de debito pre-autorizado para uma conta ativa no Detroit Savings Bank")	
+			End Select			
+		case 78
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "Old bank statement for a personal account at a defunct bank", "Declaracao bancaria antiga para uma conta pessoal em um banco extinto")		
+			End Select
+		case 79
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Login details for a current Detroit Savings Bank account", "Detalhes de login para uma conta atual de Detroit Savings Bank")	
+			End Select
+		case 80
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Login details for a current Detroit Savings Bank account", "Detalhes de login para uma conta atual de Detroit Savings Bank")	
+			End Select
+		case 81
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Login details for a current Detroit Savings Bank account", "Detalhes de login para uma conta atual de Detroit Savings Bank")	
+			End Select
+		case 82
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "Brooding, lovelorn poetry about a high school crush", "Poesia amedrontadora e amorosa sobre a queda no ensino medio")		
+			End Select
+		case 83
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "A cached article about vertical farming and ultra-urbanization", "Um artigo sobre agricultura vertical e ultra-urbanizacao")		
+			End Select
+		case 84
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "A master's thesis on the propagation of fire in a confined zero-g environment", "Uma tese de mestrado sobre a propagacao do fogo em um ambiente zero-graus confinado")		
+			End Select
+		case 85
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Database", "Base de Dados")
+				Case "strDesc"
+					Line = Replace(Line, "Annual launch records and manifests for an asteroid mining conglomerate", "Registos e manifestacoes anuais para um conglomerado de mineracao de asteroides")		
+			End Select
+		case 86
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "A white paper on maintaining long-term physiological health in low-g, centrifugal environments", "Uma folha sobre a manutencao da saude fisiologica a longo prazo em ambientes centrifugos de baixo-graus")	
+			End Select
+		case 87
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")
+				Case "strDesc"
+					Line = Replace(Line, "An urgent message from the director of the Central Bank of Nigeria", "Uma mensagem urgente do diretor do Banco Central da Nigeria")
+			End Select
+		case 88
+			Select case attr
+				Case "strName"
+					Line = Replace(Line, "Text File", "Arquivo de Texto")	
+				Case "strDesc"
+					Line = Replace(Line, "3 Dog Moon", "3 Caes Vagueando")	
+					Line = Replace(Line, "T-Shirt Review", "Revisão do T-Shirt")	
+					Line = Replace(Line, "This shirt has changed my life. I don't know what it is, but I feel like power courses through my veins when I wear it. With not one, not two, but THREE dogs AND a moon, I feel like I am nature's power incarnate. I could even take on a dogman!", "Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES cachorros e uma lua, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!")	
+					Line = Replace(Line, "If they were real, that is. For now, I practice dominating my pug, Bradley, for when that day inevitably comes.", "Se fossem reais, isso e. Por enquanto, eu pratico dominar meu pug, Bradley, pois quando esse dia inevitavelmente vem.")		
+			End Select			
 	End Select
 	datafiles = CStr(Line)
 End Function
@@ -7074,13 +7683,26 @@ Function recipes(id, attr, Line)
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "patchwork hide glove", "luva de retalhos")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
 			End Select
 		case 11
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "squirrel snare", "armadilha de esquilo")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, ".308 rifle w/scope and strap", ".308 rifle c/luneta/alca")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, ".308 rifle w/scope", ".308 rifle c/luneta")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, ".308 rifle w/strap", ".308 rifle c/alca")
 			End Select
 		case 15
 			Select case attr
@@ -7167,7 +7789,7 @@ Function recipes(id, attr, Line)
 		case 31
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "extinguished medium campfire", "fogueira média extinta")
+					Line = Replace(Line, "extinguished medium campfire", "fogueira media extinta")
 			End Select	
 		case 32
 			Select case attr

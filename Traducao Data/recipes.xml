@@ -255,7 +255,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">12</column>
-			<column name="strName">.308 rifle w/scope and strap</column>
+			<column name="strName">.308 rifle c/luneta/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x22</column>
 			<column name="strConsumed">1x19+1x20+1x18+4x21</column>
@@ -274,7 +274,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">13</column>
-			<column name="strName">.308 rifle w/scope</column>
+			<column name="strName">.308 rifle c/luneta</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x22</column>
 			<column name="strConsumed">1x19+1x20+2x21</column>
@@ -293,7 +293,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">14</column>
-			<column name="strName">.308 rifle w/strap</column>
+			<column name="strName">.308 rifle c/alca</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x22</column>
 			<column name="strConsumed">1x19+1x18+2x21</column>
@@ -616,7 +616,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">31</column>
-			<column name="strName">fogueira mÃ©dia extinta</column>
+			<column name="strName">fogueira media extinta</column>
 			<column name="strSecretName"></column>
 			<column name="strTools"></column>
 			<column name="strConsumed">1x128</column>
