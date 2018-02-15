@@ -7373,6 +7373,7 @@ Function hextypes(id, attr, Line)
 	hextypes = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 128
 Function ingredients(id, attr, Line)	
 	Select case id
