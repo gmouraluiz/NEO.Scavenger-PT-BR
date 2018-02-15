@@ -7508,7 +7508,7 @@ Function ingredients(id, attr, Line)
 			End Select
 		case 27
 			Select case attr
-				case "strName"
+				case "strName"					
 					Line = Replace(Line, "small flammable, non-rigid sheet", "pouco inflamavel, lencol nao rigido")
 			End Select
 		case 28
@@ -8159,12 +8159,16 @@ Function itemprops(id, attr, Line)
 		case 27
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "liquid", "liquido")
+					If (Line = "liquid") Then
+						Line = Replace(Line, "liquid", "liquido")
+					End If
 			End Select
 		case 28
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "rigid", "rigido")
+					If (Line = "rigid") Then
+						Line = Replace(Line, "rigid", "rigido")
+					End If
 			End Select
 		case 29
 			Select case attr
@@ -8184,12 +8188,16 @@ Function itemprops(id, attr, Line)
 		case 32
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "monocular", "monocular(visao ruim)")
+					If (Line = "monocular") Then
+						Line = Replace(Line, "monocular", "monocular(visao ruim)")
+					End If
 			End Select
 		case 33
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "binocular", "binocular(visao boa)")
+					If (Line = "binocular") Then
+						Line = Replace(Line, "binocular", "binocular(visao boa)")
+					End If
 			End Select
 		case 34
 			Select case attr
@@ -8369,12 +8377,16 @@ Function itemprops(id, attr, Line)
 		case 69
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "iSlab", "iSlab(tablet)")
+					If (Line = "iSlab") Then
+						Line = Replace(Line, "iSlab", "iSlab(tablet)")
+					End If
 			End Select
 		case 70
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "human", "humano")
+					If (Line = "human") Then
+						Line = Replace(Line, "human", "humano")
+					End If
 			End Select
 		case 71
 			Select case attr
