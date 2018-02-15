@@ -7034,10 +7034,45 @@ End Function
 'Total de ids 48
 Function headlines(id, attr, Line)	
 	Select case id
+		case 1
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "Sowing the Seeds of Destruction", "Semeando as sementes de destruicao")
+					Line = Replace(Line, "Agrasanto corporation successfully lobbied the dismantling of Svalbard Seed Vault last Tuesday. Arguing that the collection of seeds represented a contamination risk for its own line of genetically modified seeds, aggressive marketing and lobbying pressured the Norwegian government to dismantle the seed vault project. Agrasanto seeds are used in over 73% of global agriculture, and contamination of even a single strain of the Agrasanto seed could devastate food production worldwide", "A empresa Agrasanto-Corporation pressionou com sucesso o desmantelamento do Svalbard Seed Vault na ultima terca-feira. Argumentando que a coleta de sementes representava um risco de contaminacao para a sua propria linha de sementes geneticamente modificadas, marketing agressivo e lobby pressionaram o governo noruegues a desmantelar o projeto de fabrica de sementes. As sementes Agrasanto sao utilizadas em mais de 73% da agricultura global e a contaminacao de uma unica caixa de semente Agrasanto pode devastar a producao de alimentos em todo o mundo")
+			End Select
+		case 2
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "Vat's for Dinner, Mom? Why, Cloned Meat!", "Vat's para jantar, mae? Porque, carne clonada!")
+					Line = Replace(Line, "Agrasanto broke ground today on its first animal-free meat-cloning facility. Detroit plays host to a revolution in food production, as cloned meat cells are grown within blocks of the families who will consume them. With a vastly reduced environmental and physical footprint, the cloned meat facility represents a leap forward in food production and infrastructure", "Agrasanto abriu terreno hoje em sua primeira instalacao de clonagem de carne sem animais. Detroit e o anfitriao de uma revolucao na producao de alimentos, ja que as celulas de carne clonadas sao cultivadas dentro dos blocos das familias que as consumirao. Com uma pegada ambiental e fisica vastamente reduzida, a instalacao de carne clonada representa um grande avanco na producao e infraestrutura de alimentos")
+			End Select
+		case 3
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "Riders in the Sky", "Cavaleiros no ceu")
+					Line = Replace(Line, "Detroit establishes first corporate skybike security force. In a bid to increase the law enforcement presence, Detroit becomes the first metropolitan precinct to establish a corporate security force of hover bikes. SkyCorps successfully negotiated a 10-year contract for metropolitan security in the Detroit area. The state-of-the-art skybikes employed by SkyCorps allow peacekeepers a much wider area of operation, longer duration, and vastly-improved response time over traditional police interceptor vehicles", "Detroit estabelece a primeira forca corporativa de seguranca skybike. Em uma tentativa de aumentar a presenca da aplicacao da lei, Detroit se torna o primeiro distrito metropolitano a estabelecer uma forca de seguranca corporativa de caminhadas. A SkyCorps negociou com sucesso um contrato de 10 anos para a seguranca metropolitana na area de Detroit. Os skybikes de ultima geracao empregados pela SkyCorps permitem as forcas de paz uma area de operacao muito maior, uma duracao maior e um tempo de resposta muito melhorado em relacao aos veiculos convencionais interceptores policiais")
+			End Select
+		case 4
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "Detroit to Be a Walled City?", "Detroit passa a ser uma cidade murada?")
+					Line = Replace(Line, "As successful policing of Detroit becomes increasingly difficult, discussions of creating a physical perimeter for the city gain traction. Dubbed the", "Como o policiamento bem sucedido de Detroit se torna cada vez mais dificil, as discussoes sobre a criacao de um perimetro fisico para a cidade ganham forca. Apontado o")
+					Line = Replace(Line, "project, it would be one of the largest public works projects in recent history, employing dozens of contractors and millions of workers", "projeto, seria um dos maiores projetos de obras publicas na historia recente, empregando dezenas de empreiteiros e milhoes de trabalhadores")
+			End Select		
 		case 5
 			Select case attr
 				case "strHeadline"
 					Line = Replace(Line, "Emergency", "Emergencia")
+			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
+			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
 			End Select
 		case 8
 			Select case attr
@@ -7049,9 +7084,29 @@ Function headlines(id, attr, Line)
 				case "strHeadline"
 					Line = Replace(Line, "Road to Nowhere", "Estrada para lugar nenhum")
 			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
+			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
+			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
+			End Select
+		case 0000
+			Select case attr
+				case "strHeadline"
+					Line = Replace(Line, "", "")
+			End Select
 	End Select
 	headlines = CStr(Line)
-End Function
+End Function 
 
 '100% traduzido
 'Total de ids 37
@@ -7335,6 +7390,381 @@ Function ingredients(id, attr, Line)
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "medium fire fuel", "combustivel de fogo medio")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water (non-chemical)", "agua (nao quimica)")
+			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water purification pill", "pilula de purificacao de agua")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "fireproof, waterproof container", "recipiente a prova de fogo e impermeavel")
+			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "heat source", "fonte de calor")
+			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tannin source", "fonte de tanino")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small fresh meat", "carne pequena fresca")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium shaft", "eixo medio")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sharp point", "ponta afiada")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small pelt", "couro pequeno")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small thread", "fio pequeno")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sharp edge", "borda afiada")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small corpse", "cadaver pequeno")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Trapping skill", "habilidade de armadilha")
+			End Select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium or large shaft", "eixo medio ou grande")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium thread", "fio medio")
+			End Select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, ".308 rifle, no scope, no strap", ".308 rifle s/luneta/alca")
+			End Select
+		case 20
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small or medium monocular optical zoom", "zoom optico pequeno ou medio")
+			End Select
+		case 21
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small mechanical parts", "pequenas pecas mecanicas")
+			End Select
+		case 22
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Philips-head screwdriver", "Chave de Fenda Phillips")
+			End Select
+		case 23
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lockpicking skill", "Habilidade arromabamentos")
+			End Select
+		case 24
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "handful of ashes", "punhado de cinzas")
+			End Select
+		case 25
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small or medium rigid container", "recipiente rigido pequeno ou medio")
+			End Select
+		case 26
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "large waterproof sheet", "grande lencou impermeavel")
+			End Select
+		case 27
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small flammable, non-rigid sheet", "lencou pouco inflamavel e nao rigida")
+			End Select
+		case 28
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium absorbent, non-rigid, non-springy sheet", "lencou absorvente media, nao rigida e nao elastica")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
 			End Select
 	End Select
 	ingredients = CStr(Line)

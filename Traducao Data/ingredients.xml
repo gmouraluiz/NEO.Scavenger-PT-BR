@@ -51,151 +51,151 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">4</column>
-			<column name="strName">water (non-chemical)</column>
+			<column name="strName">agua (nao quimica)</column>
 			<column name="strRequiredProps">27&amp;29&amp;56</column>
 			<column name="strForbidProps">26&amp;39</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">5</column>
-			<column name="strName">water purification pill</column>
+			<column name="strName">pilula de purificacao de agua</column>
 			<column name="strRequiredProps">7</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">6</column>
-			<column name="strName">fireproof, waterproof container</column>
+			<column name="strName">recipiente a prova de fogo e impermeavel</column>
 			<column name="strRequiredProps">8&amp;9&amp;10</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">7</column>
-			<column name="strName">heat source</column>
+			<column name="strName">fonte de calor</column>
 			<column name="strRequiredProps">11</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">8</column>
-			<column name="strName">tannin source</column>
+			<column name="strName">fonte de tanino</column>
 			<column name="strRequiredProps">4</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">9</column>
-			<column name="strName">small fresh meat</column>
+			<column name="strName">carne pequena fresca</column>
 			<column name="strRequiredProps">12&amp;15&amp;14&amp;66</column>
 			<column name="strForbidProps">26&amp;67&amp;70</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">10</column>
-			<column name="strName">medium shaft</column>
+			<column name="strName">eixo medio</column>
 			<column name="strRequiredProps">13&amp;16&amp;28</column>
 			<column name="strForbidProps">3</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">11</column>
-			<column name="strName">sharp point</column>
+			<column name="strName">ponta afiada</column>
 			<column name="strRequiredProps">18</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">12</column>
-			<column name="strName">small pelt</column>
+			<column name="strName">couro pequeno</column>
 			<column name="strRequiredProps">15&amp;20</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">13</column>
-			<column name="strName">small thread</column>
+			<column name="strName">fio pequeno</column>
 			<column name="strRequiredProps">15&amp;19</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">14</column>
-			<column name="strName">sharp edge</column>
+			<column name="strName">borda afiada</column>
 			<column name="strRequiredProps">21</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">15</column>
-			<column name="strName">small corpse</column>
+			<column name="strName">cadaver pequeno</column>
 			<column name="strRequiredProps">15&amp;22</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">16</column>
-			<column name="strName">Trapping skill</column>
+			<column name="strName">habilidade de armadilha</column>
 			<column name="strRequiredProps">23</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">17</column>
-			<column name="strName">medium or large shaft</column>
+			<column name="strName">eixo medio ou grande</column>
 			<column name="strRequiredProps">13&amp;28</column>
 			<column name="strForbidProps">15</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">18</column>
-			<column name="strName">medium thread</column>
+			<column name="strName">fio medio</column>
 			<column name="strRequiredProps">16&amp;19</column>
 			<column name="strForbidProps">28</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">19</column>
-			<column name="strName">.308 rifle, no scope, no strap</column>
+			<column name="strName">.308 rifle s/luneta/alca</column>
 			<column name="strRequiredProps">30</column>
 			<column name="strForbidProps">2&amp;68</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">20</column>
-			<column name="strName">small or medium monocular optical zoom</column>
+			<column name="strName">zoom optico pequeno ou medio</column>
 			<column name="strRequiredProps">2&amp;32</column>
 			<column name="strForbidProps">17&amp;65</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">21</column>
-			<column name="strName">small mechanical parts</column>
+			<column name="strName">pequenas pecas mecanicas</column>
 			<column name="strRequiredProps">15&amp;31</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">22</column>
-			<column name="strName">Philips-head screwdriver</column>
+			<column name="strName">Chave de Fenda Phillips</column>
 			<column name="strRequiredProps">5</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">23</column>
-			<column name="strName">Lockpicking skill</column>
+			<column name="strName">Habilidade arromabamentos</column>
 			<column name="strRequiredProps">34</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">24</column>
-			<column name="strName">handful of ashes</column>
+			<column name="strName">punhado de cinzas</column>
 			<column name="strRequiredProps">35</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">25</column>
-			<column name="strName">small or medium rigid container</column>
+			<column name="strName">recipiente rigido pequeno ou medio</column>
 			<column name="strRequiredProps">28&amp;8</column>
 			<column name="strForbidProps">17&amp;65</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">26</column>
-			<column name="strName">large waterproof sheet</column>
+			<column name="strName">grande lencou impermeavel</column>
 			<column name="strRequiredProps">17&amp;9&amp;36</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">27</column>
-			<column name="strName">small flammable, non-rigid sheet</column>
+			<column name="strName">lencou pouco inflamavel e nao rigida</column>
 			<column name="strRequiredProps">15&amp;1&amp;36</column>
 			<column name="strForbidProps">28</column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">28</column>
-			<column name="strName">medium absorbent, non-rigid, non-springy sheet</column>
+			<column name="strName">lencou absorvente media, nao rigida e nao elastica</column>
 			<column name="strRequiredProps">16&amp;36&amp;37</column>
 			<column name="strForbidProps">28&amp;60</column>
 		</table>

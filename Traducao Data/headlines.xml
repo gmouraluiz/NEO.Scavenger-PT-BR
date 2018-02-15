@@ -31,23 +31,23 @@
 		<!-- Table headlines -->
 		<table name="headlines">
 			<column name="id">1</column>
-			<column name="strHeadline">Sowing the Seeds of Destruction
-Agrasanto corporation successfully lobbied the dismantling of Svalbard Seed Vault last Tuesday. Arguing that the collection of seeds represented a contamination risk for its own line of genetically modified seeds, aggressive marketing and lobbying pressured the Norwegian government to dismantle the seed vault project. Agrasanto seeds are used in over 73% of global agriculture, and contamination of even a single strain of the Agrasanto seed could devastate food production worldwide.</column>
+			<column name="strHeadline">Semeando as sementes de destruicao
+A empresa Agrasanto-Corporation pressionou com sucesso o desmantelamento do Svalbard Seed Vault na ultima terca-feira. Argumentando que a coleta de sementes representava um risco de contaminacao para a sua propria linha de sementes geneticamente modificadas, marketing agressivo e lobby pressionaram o governo noruegues a desmantelar o projeto de fabrica de sementes. As sementes Agrasanto sao utilizadas em mais de 73% da agricultura global e a contaminacao de uma unica caixa de semente Agrasanto pode devastar a producao de alimentos em todo o mundo.</column>
 		</table>
 		<table name="headlines">
 			<column name="id">2</column>
-			<column name="strHeadline">Vat's for Dinner, Mom? Why, Cloned Meat!
-Agrasanto broke ground today on its first animal-free meat-cloning facility. Detroit plays host to a revolution in food production, as cloned meat cells are grown within blocks of the families who will consume them. With a vastly reduced environmental and physical footprint, the cloned meat facility represents a leap forward in food production and infrastructure.</column>
+			<column name="strHeadline">Vat's para jantar, mae? Porque, carne clonada!
+Agrasanto abriu terreno hoje em sua primeira instalacao de clonagem de carne sem animais. Detroit e o anfitriao de uma revolucao na producao de alimentos, ja que as celulas de carne clonadas sao cultivadas dentro dos blocos das familias que as consumirao. Com uma pegada ambiental e fisica vastamente reduzida, a instalacao de carne clonada representa um grande avanco na producao e infraestrutura de alimentos.</column>
 		</table>
 		<table name="headlines">
 			<column name="id">3</column>
-			<column name="strHeadline">Riders in the Sky
-Detroit establishes first corporate skybike security force. In a bid to increase the law enforcement presence, Detroit becomes the first metropolitan precinct to establish a corporate security force of hover bikes. SkyCorps successfully negotiated a 10-year contract for metropolitan security in the Detroit area. The state-of-the-art skybikes employed by SkyCorps allow peacekeepers a much wider area of operation, longer duration, and vastly-improved response time over traditional police interceptor vehicles.</column>
+			<column name="strHeadline">Cavaleiros no ceu
+Detroit estabelece a primeira forca corporativa de seguranca skybike. Em uma tentativa de aumentar a presenca da aplicacao da lei, Detroit se torna o primeiro distrito metropolitano a estabelecer uma forca de seguranca corporativa de caminhadas. A SkyCorps negociou com sucesso um contrato de 10 anos para a seguranca metropolitana na area de Detroit. Os skybikes de ultima geracao empregados pela SkyCorps permitem as forcas de paz uma area de operacao muito maior, uma duracao maior e um tempo de resposta muito melhorado em relacao aos veiculos convencionais interceptores policiais.</column>
 		</table>
 		<table name="headlines">
 			<column name="id">4</column>
-			<column name="strHeadline">Detroit to Be a Walled City?
-As successful policing of Detroit becomes increasingly difficult, discussions of creating a physical perimeter for the city gain traction. Dubbed the "Detroit Mega City" project, it would be one of the largest public works projects in recent history, employing dozens of contractors and millions of workers.</column>
+			<column name="strHeadline">Detroit passa a ser uma cidade murada?
+Como o policiamento bem sucedido de Detroit se torna cada vez mais dificil, as discussoes sobre a criacao de um perimetro fisico para a cidade ganham forca. Apontado o "Detroit Mega City" projeto, seria um dos maiores projetos de obras publicas na historia recente, empregando dezenas de empreiteiros e milhoes de trabalhadores.</column>
 		</table>
 		<table name="headlines">
 			<column name="id">5</column>
