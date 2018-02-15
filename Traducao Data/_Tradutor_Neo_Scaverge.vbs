@@ -73,7 +73,7 @@ Function attackmodes(id, attr, Line)
 		case 10
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "stick", "bastao")
+					Line = Replace(Line, "stick", "galho")
 			End select
 		case 11
 			Select case attr
@@ -115,7 +115,7 @@ Function attackmodes(id, attr, Line)
 		case 18
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "large stick", "bastao grande")
+					Line = Replace(Line, "large stick", "galho grande")
 			End select
 		case 19
 			Select case attr
@@ -6180,7 +6180,7 @@ Function encounters(id, attr, Line)
 		case 14
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Rig the door to stay shut.", "Fechar a porta com seus conhecimentos de Eletricista.")
+					Line = Replace(Line, "Rig the door to stay shut.", "Fechar a porta com seus conhecimentos de Mecanico.")
 				case "strDesc"
 					Line = Replace(Line, "Using a common maintenance override code, you switch the door controls into maintenance mode, forcing the door closed and locked. The creature howls madly, slams into the door, and rams it a few times, before its muffled sounds recede again.", "Usando um codigo comum de substituicao de manutencao, voce alterna os controles da porta para o modo de manutencao, forcando a porta a se fechar. A criatura uiva loucamente, bate na porta e a forcando algumas vezes, e depois de um tempo seus sons abafados recuam.")
 			End Select
@@ -7011,6 +7011,7 @@ Function itemtypes(id, attr, Line)
 	itemtypes = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 105
 Function recipes(id, attr, Line)		
 	Select case id
@@ -7046,9 +7047,9 @@ Function recipes(id, attr, Line)
 		case 6
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "roasted meat on a stick", "carne assada em uma vara")
+					Line = Replace(Line, "roasted meat on a stick", "carne assada em uma galho")
 				case "strSecretName"
-					Line = Replace(Line, "roasted meat on a stick (animal)", "carne assada em uma vara (animal)")
+					Line = Replace(Line, "roasted meat on a stick (animal)", "carne assada em uma galho (animal)")
 			End Select	
 		case 7
 			Select case attr
@@ -7069,902 +7070,515 @@ Function recipes(id, attr, Line)
 				case "strSecretName"
 					Line = Replace(Line, "meat and hide from small, furry corpse (animal)", "carne e couro de cadaver pequeno e peludo (animal)")
 			End Select
-		case 000
+		case 10
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "patchwork hide glove", "luva de retalhos")
 				case "strSecretName"
 					Line = Replace(Line, "", "")
 			End Select
-		case 000
+		case 11
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "squirrel snare", "armadilha de esquilo")
 			End Select
-		case 000
+		case 15
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "lockpicks", "gazua(chave falsa)")
 			End Select
-		case 000
+		case 16
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured small meat over campfire", "curou pequena carne sobre fogueira")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured small meat over campfire (animal)", "curou pequena carne sobre fogueira (animal)")
 			End Select
-		case 000
+		case 17
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "noise trap", "armadilha de ruido")
 			End Select
-		case 000
+		case 18
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "tarp shelter", "abrigo de lona")
 			End Select
-		case 000
+		case 19
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crude torch", "tocha bruta")
 			End Select
-		case 000
+		case 20
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "quality torch", "tocha de qualidade")
 			End Select	
-		case 000
+		case 21
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crude torch (lit)", "tocha bruta(acesa)")
 			End Select
-		case 000
+		case 22
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "quality torch (lit)", "tocha de qualidade(acesa)")
 			End Select
-		case 000
+		case 23
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "rags from clothes", "trapos de roupas")
 			End Select
-		case 000
+		case 24
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clean rags (boiled)", "panos limpos (cozidos)")
 			End Select
-		case 000
+		case 25
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clean rags (disinfectant)", "panos limpos (desinfetante)")
 			End Select
-		case 000
+		case 26
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "rough splint", "tala de madeira")
 			End Select
-		case 000
+		case 27
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "river/marsh/lake resources", "recursos rio/pantano/lago")
 			End Select
-		case 000
+		case 28
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "forest resources", "recursos florestais")
 			End Select
-		case 000
+		case 29
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "HVAC (heated)", "HVAC (aquecido)")
 			End Select
-		case 000
+		case 30
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cryo lighting", "iluminacao Cryo")
 			End Select
-		case 000
+		case 31
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "extinguished medium campfire", "fogueira média extinta")
 			End Select	
-		case 000
+		case 32
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "extinguished small campfire", "extinguida pequena fogueira")
 			End Select
-		case 000
+		case 33
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium campfire (stoked)", "fogueira media (abastecida)")
 			End Select
-		case 000
+		case 34
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small campfire (friction)", "pequena fogueira (friccao)")
 			End Select
-		case 000
+		case 35
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium thread", "fio medio")
 			End Select
-		case 000
+		case 36
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crowbar w/strap", "pe de cabra c/alca")
 			End Select
-		case 000
+		case 37
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "binoculars w/strap", "binoculos c/alca")
 			End Select
-		case 000
+		case 38
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "binoculars", "binoculos")
 			End Select
-		case 000
+		case 39
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "scope w/strap", "luneta c/alca")
 			End Select
-		case 000
+		case 40
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "box cart", "carrinho de caixa")
 			End Select
-		case 000
+		case 41
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shopping cart", "carrinho de compras")
 			End Select
-		case 000
+		case 42
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "plastic sled w/strap", "treno de plastico c/alca")
 			End Select	
-		case 000
+		case 43
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "travois", "travois")
 			End Select
-		case 000
+		case 44
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "broken bottle", "garrafa quebrado")
 			End Select
-		case 000
+		case 45
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shards", "caco de vidro")
 			End Select
-		case 000
+		case 46
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shiv", "enrolado")
 			End Select
-		case 000
+		case 47
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bow: compound w/strap", "arco: profissional c/alca")
 			End Select
-		case 000
+		case 48
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bow: greenwood", "arco: madeira verde")
 			End Select
-		case 000
+		case 49
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "arrow: crude broadhead", "flecha: bruto/cabeca larga")
 			End Select
-		case 000
+		case 50
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "arrow: crude piercing", "flexa: bruto/penetrante")
 			End Select
-		case 000
+		case 51
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sling", "estilingue")
 			End Select
-		case 000
+		case 52
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shotgun w/strap", "espingarda c/alca")
 			End Select
-		case 000
+		case 53
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sharpened spear", "lanca afiada")
 			End Select	
-		case 000
+		case 54
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "hardened spear", "lanca endurecida")
 			End Select
-		case 000
+		case 55
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "broad spear", "lanca larga")
 			End Select
-		case 000
+		case 56
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x2 (boiled)", "agua esterilizada x2 (fervida)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x2 (boiled) (pure)", "agua esterilizada x2 (fervida) (pura)")
 			End Select
-		case 000
+		case 57
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x3 (boiled)", "agua esterilizada x3 (fervida)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x3 (boiled) (pure)", "agua esterilizada x3 (fervida) (pura)")
 			End Select
-		case 000
+		case 58
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clean rags x2 (boiled)", "trapos limpos x2 (cozidos)")
 			End Select
-		case 000
+		case 59
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clean rags x3 (boiled)", "trapos limpos x3 (cozidos)")
 			End Select
-		case 000
+		case 60
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from large corpse", "carne de grande cadaver")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from large corpse (animal)", "carne de grande cadaver (animal)")
 			End Select
-		case 000
+		case 61
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat and hide from dogman corpse", "carne e couro de um Lobisomem")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat and hide from dogman corpse (animal)", "carne e couro de um Lobisomem(animal)")
 			End Select
-		case 000
+		case 62
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from large, furry corpse", "carne de cadaver grande e peludo")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from large, furry corpse (animal)", "carne de cadaver grande e peludo (animal)")
 			End Select
-		case 000
+		case 63
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick (medium)", "carne assada em uma galho (media)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick (medium) (animal)", "carne assada em uma galho (media)(animal)")
 			End Select
-		case 000
+		case 64
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured medium meat over campfire", "carne seca curada sobre fogueira")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured medium meat over campfire (animal)", "carne seca curada sobre fogueira (animal)")
 			End Select	
-		case 000
+		case 65
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from medium, furry corpse", "carne media de um cadaver peludo")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from medium, furry corpse (animal)", "carne media de um cadaver peludo(animal)")
 			End Select
-		case 000
+		case 66
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat and hide from medium, furry corpse", "carne e couro medio de um cadaver peludo")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat and hide from medium, furry corpse (animal)", "carne e couro medio de um cadaver peludo(animal)")
 			End Select
-		case 000
+		case 67
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "paper scraps", "restos de papel")
 			End Select
-		case 000
+		case 68
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, ".308 rifle w/scope, add a strap", ".308 rifle c/luneta, add/alca")
 			End Select
-		case 000
+		case 69
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, ".308 rifle w/strap, add a scope", ".308 rifle c/correia, add/luneta")
 			End Select
-		case 000
+		case 70
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from humanoid corpse", "carne de cadaver humanoide")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from humanoid corpse (human)", "carne de cadaver humanoide (humano)")
 			End Select
-		case 000
+		case 71
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick", "carne assada em uma galho")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick (human)", "carne assada em uma galho(humano)")
 			End Select
-		case 000
+		case 72
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured small meat over campfire", "curou pequena carne sobre fogueira")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured small meat over campfire (human)", "curou pequena carne sobre a fogueira (humana)")
 			End Select
-		case 000
+		case 73
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick (medium)", "carne assada em um galho (media)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "roasted meat on a stick (medium) (human)", "carne assada em um galho (media)(humano)")
 			End Select
-		case 000
+		case 74
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured medium meat over campfire", "carne seca curada sobre fogueira")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cured medium meat over campfire (human)", "carne seca curada sobre fogueira(humano)")
 			End Select
-		case 000
+		case 75
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water (pill)", "agua esterilizada (pilula)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water (pill) (poison)", "agua esterilizada (pilula) (veneno)")
 			End Select	
-		case 000
+		case 76
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water (boiled)", "agua esterilizada (cozida)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water (boiled) (poison)", "agua esterilizada (fervida) (veneno)")
 			End Select
-		case 000
+		case 77
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x2 (boiled)", "agua esterilizada x2 (fervida)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x2 (boiled) (poison)", "agua esterilizada x2 (fervida) (veneno)")
 			End Select
-		case 000
+		case 78
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x3 (boiled)", "agua esterilizada x3 (fervida)")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "sterilized water x3 (boiled) (poison)", "agua esterilizada x3 (fervida) (veneno)")
 			End Select
-		case 000
+		case 79
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water", "agua analisada")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water (poison)", "agua analisada (veneno)")
 			End Select
-		case 000
+		case 80
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water", "agua analisada")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water (biohazard)", "agua analisada (risco biologico)")
 			End Select
-		case 000
+		case 81
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water", "agua analisada")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water (non-biohazard, non-chemical)", "agua analisada (nao biologico, nao quimico)")
 			End Select
-		case 000
+		case 82
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water", "agua analisada")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "analyzed water (generic)", "agua analisada (generica)")
 			End Select
-		case 000
+		case 83
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shotgun (military) w/strap", "espingarda (militar) c/alca")
 			End Select
-		case 000
+		case 84
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shards (plastic)", "estilhacos (plastico)")
 			End Select
-		case 000
+		case 85
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "4mm Gauss rifle w/scope and strap", "4mm Gauss rifle c/luneta/alca")
 			End Select
-		case 000
+		case 86
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "4mm Gauss rifle w/scope", "4mm Gauss rifle c/luneta")
 			End Select	
-		case 000
+		case 87
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "4mm Gauss rifle w/strap", "4mm Gauss rifle c/alca")
 			End Select
-		case 000
+		case 88
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "4mm Gauss rifle w/scope, add a strap", "4mm Gauss rifle c/luneta, add/alca")
 			End Select
-		case 000
+		case 89
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "4mm Gauss rifle w/strap, add a scope", "4mm Gauss rifle c/alca, add/luneta")
 			End Select
-		case 000
+		case 91
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "disassembled DMC drone wreckage", "disabilitado DMC drone wreckage")
 			End Select
-		case 000
+		case 93
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "smudge stick (lit)", "smudge de galho(aceso)")
 			End Select
-		case 000
+		case 94
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "patchwork foil poncho", "poncho de retalhos")
 			End Select
-		case 000
+		case 95
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "foil scraps", "restos de folha")
 			End Select
-		case 000
+		case 96
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "short shorts", "bermuda")
 			End Select
-		case 000
+		case 97
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Small Battery", "bateria pequena")		
 			End Select
-		case 000
+		case 98
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Medium Battery", "bateria media")
 			End Select
-		case 000
+		case 99
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small campfire (focused sunlight)", "pequena fogueira (luz solar focada)")
 			End Select	
-		case 000
+		case 100
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "makeshift sack", "saco improvisado")
 			End Select
-		case 000
+		case 101
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "makeshift sack (sleeping bag)", "saco improvisado (saco de dormir)")
 			End Select
-		case 000
+		case 102
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "broken branch", "galho quebrado")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "broken branch (reverse-only)", "galho quebrado (somente para reversao)")
 			End Select
-		case 000
+		case 103
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shoe (makeshift rag)", "sapato (trapo improvisado)")
 			End Select
-		case 000
+		case 104
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from small-medium, furry corpse", "carne pequena e media em cadaver")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat from small-medium, furry corpse (animal)", "carne pequena e media em cadaver(animal)")
 			End Select
-		case 000
+		case 105
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "meat and hide from small-medium, furry corpse", "carne e couro pequenos e media em cadaver")
 				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select	
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select	
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select	
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strSecretName"
-					Line = Replace(Line, "", "")
-			End Select	
+					Line = Replace(Line, "meat and hide from small-medium, furry corpse (animal)", "carne e couro pequenos e media em cadaver(animal)")
+			End Select		
 	End Select
 	recipes = CStr(Line)
 End Function

@@ -423,7 +423,7 @@ Or keep your distance?</column>
 		</table>
 		<table name="encounters">
 			<column name="id">14</column>
-			<column name="strName">Fechar a porta com seus conhecimentos de Eletricista.</column>
+			<column name="strName">Fechar a porta com seus conhecimentos de Mecanico.</column>
 			<column name="strDesc">Usando um codigo comum de substituicao de manutencao, voce alterna os controles da porta para o modo de manutencao, forcando a porta a se fechar. A criatura uiva loucamente, bate na porta e a forcando algumas vezes, e depois de um tempo seus sons abafados recuam.</column>
 			<column name="strImg">EncCryoFacility.png</column>
 			<column name="nTreasureID">3</column>

@@ -207,7 +207,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">10</column>
-			<column name="strName">bastao</column>
+			<column name="strName">galho</column>
 			<column name="strNotes"></column>
 			<column name="nRange">2</column>
 			<column name="fDamageCut">0.2</column>
@@ -351,7 +351,7 @@
 		</table>
 		<table name="attackmodes">
 			<column name="id">18</column>
-			<column name="strName">bastao grande</column>
+			<column name="strName">galho grande</column>
 			<column name="strNotes"></column>
 			<column name="nRange">3</column>
 			<column name="fDamageCut">0.2</column>
