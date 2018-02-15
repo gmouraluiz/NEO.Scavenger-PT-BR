@@ -31,27 +31,27 @@
 		<!-- Table itemprops -->
 		<table name="itemprops">
 			<column name="nID">1</column>
-			<column name="strPropertyName">easily ignitable</column>
+			<column name="strPropertyName">facilmente inflamavel</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">2</column>
-			<column name="strPropertyName">optical zoom</column>
+			<column name="strPropertyName">zoom otico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">3</column>
-			<column name="strPropertyName">igniter</column>
+			<column name="strPropertyName">ignitor</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">4</column>
-			<column name="strPropertyName">tannin source</column>
+			<column name="strPropertyName">fonte de tanino</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">5</column>
-			<column name="strPropertyName">tool: Philips-head screwdriver</column>
+			<column name="strPropertyName">ferramenta: chave de fenda Philips</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">6</column>
-			<column name="strPropertyName">tool: flathead screwdriver</column>
+			<column name="strPropertyName">ferramenta: chave de fenda</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">7</column>
@@ -67,83 +67,83 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">10</column>
-			<column name="strPropertyName">fireproof</column>
+			<column name="strPropertyName">a-prova-de-fogo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">11</column>
-			<column name="strPropertyName">hot</column>
+			<column name="strPropertyName">quente</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">12</column>
-			<column name="strPropertyName">meat</column>
+			<column name="strPropertyName">comida</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">13</column>
-			<column name="strPropertyName">shaft</column>
+			<column name="strPropertyName">eixo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">14</column>
-			<column name="strPropertyName">nourishing</column>
+			<column name="strPropertyName">nutritivo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">15</column>
-			<column name="strPropertyName">small</column>
+			<column name="strPropertyName">pequeno</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">16</column>
-			<column name="strPropertyName">medium</column>
+			<column name="strPropertyName">medio</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">17</column>
-			<column name="strPropertyName">large</column>
+			<column name="strPropertyName">grande</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">18</column>
-			<column name="strPropertyName">sharp point</column>
+			<column name="strPropertyName">ponta afiada</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">19</column>
-			<column name="strPropertyName">thread</column>
+			<column name="strPropertyName">fio</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">20</column>
-			<column name="strPropertyName">furry</column>
+			<column name="strPropertyName">peludo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">21</column>
-			<column name="strPropertyName">sharp edge</column>
+			<column name="strPropertyName">borda afiada</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">22</column>
-			<column name="strPropertyName">corpse</column>
+			<column name="strPropertyName">cadaver</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">23</column>
-			<column name="strPropertyName">skill: trapping</column>
+			<column name="strPropertyName">habilidade: Sobrevivencia</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">24</column>
-			<column name="strPropertyName">biohazard</column>
+			<column name="strPropertyName">risco biologico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">25</column>
-			<column name="strPropertyName">radioactive</column>
+			<column name="strPropertyName">radioativo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">26</column>
-			<column name="strPropertyName">poison</column>
+			<column name="strPropertyName">veneno</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">27</column>
-			<column name="strPropertyName">liquid</column>
+			<column name="strPropertyName">liquido</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">28</column>
-			<column name="strPropertyName">rigid</column>
+			<column name="strPropertyName">rigido</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">29</column>
-			<column name="strPropertyName">hydrator</column>
+			<column name="strPropertyName">hidratador</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">30</column>
@@ -151,195 +151,195 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">31</column>
-			<column name="strPropertyName">mechanical parts</column>
+			<column name="strPropertyName">partes mecanicas</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">32</column>
-			<column name="strPropertyName">monocular</column>
+			<column name="strPropertyName">monocular(visao ruim)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">33</column>
-			<column name="strPropertyName">binocular</column>
+			<column name="strPropertyName">binocular(visao boa)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">34</column>
-			<column name="strPropertyName">skill: lockpicking</column>
+			<column name="strPropertyName">habilidade: arrombador</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">35</column>
-			<column name="strPropertyName">ash</column>
+			<column name="strPropertyName">cinza</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">36</column>
-			<column name="strPropertyName">sheet</column>
+			<column name="strPropertyName">lencol</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">37</column>
-			<column name="strPropertyName">absorbent</column>
+			<column name="strPropertyName">absorvedor</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">38</column>
-			<column name="strPropertyName">disinfectant</column>
+			<column name="strPropertyName">desinfetante</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">39</column>
-			<column name="strPropertyName">infinite</column>
+			<column name="strPropertyName">infinito</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">40</column>
-			<column name="strPropertyName">forest</column>
+			<column name="strPropertyName">floresta</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">41</column>
-			<column name="strPropertyName">skill: mechanic</column>
+			<column name="strPropertyName">habilidade: mecanico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">42</column>
-			<column name="strPropertyName">HVAC (unheated)</column>
+			<column name="strPropertyName">HVAC (frio)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">43</column>
-			<column name="strPropertyName">electrical panel</column>
+			<column name="strPropertyName">painel eletronico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">44</column>
-			<column name="strPropertyName">skill: electrician</column>
+			<column name="strPropertyName">habilidade: eletricista</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">45</column>
-			<column name="strPropertyName">tool: lever grip/pliers</column>
+			<column name="strPropertyName">ferramenta: alicate de aperto/alicate</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">46</column>
-			<column name="strPropertyName">fire fuel</column>
+			<column name="strPropertyName">combustivel de fogo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">47</column>
-			<column name="strPropertyName">quality</column>
+			<column name="strPropertyName">qualidade</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">48</column>
-			<column name="strPropertyName">solid (not liquid/gas/idea)</column>
+			<column name="strPropertyName">solido (nao liquido/gasoso)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">49</column>
-			<column name="strPropertyName">light source</column>
+			<column name="strPropertyName">fonte de luz</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">50</column>
-			<column name="strPropertyName">handheld</column>
+			<column name="strPropertyName">portatil</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">51</column>
-			<column name="strPropertyName">skill: ranged</column>
+			<column name="strPropertyName">habilidade: atirador</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">52</column>
-			<column name="strPropertyName">crowbar</column>
+			<column name="strPropertyName">pe de cabra</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">53</column>
-			<column name="strPropertyName">caster wheel</column>
+			<column name="strPropertyName">roda de carrinho</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">54</column>
-			<column name="strPropertyName">basket</column>
+			<column name="strPropertyName">cesta</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">55</column>
-			<column name="strPropertyName">shopping cart frame</column>
+			<column name="strPropertyName">quadro do carrinho de compras</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">56</column>
-			<column name="strPropertyName">water</column>
+			<column name="strPropertyName">agua</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">57</column>
-			<column name="strPropertyName">skill: botany</column>
+			<column name="strPropertyName">habilidade: botanico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">58</column>
-			<column name="strPropertyName">brittle</column>
+			<column name="strPropertyName">fragil</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">59</column>
-			<column name="strPropertyName">compound bow</column>
+			<column name="strPropertyName">arco proficional</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">60</column>
-			<column name="strPropertyName">flexible/springy</column>
+			<column name="strPropertyName">flexivel/elastico</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">61</column>
-			<column name="strPropertyName">12-gauge shotgun</column>
+			<column name="strPropertyName">Espingarda de calibre 12</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">62</column>
-			<column name="strPropertyName">dogman</column>
+			<column name="strPropertyName">lobisomem</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">63</column>
-			<column name="strPropertyName">any combat skill</column>
+			<column name="strPropertyName">qualquer habilidade de combate</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">64</column>
-			<column name="strPropertyName">night vision</column>
+			<column name="strPropertyName">visao noturna</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">65</column>
-			<column name="strPropertyName">very large</column>
+			<column name="strPropertyName">muito grande</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">66</column>
-			<column name="strPropertyName">raw</column>
+			<column name="strPropertyName">cru</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">67</column>
-			<column name="strPropertyName">cured</column>
+			<column name="strPropertyName">curado</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">68</column>
-			<column name="strPropertyName">strapped</column>
+			<column name="strPropertyName">amarrado</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">69</column>
-			<column name="strPropertyName">iSlab</column>
+			<column name="strPropertyName">iSlab(tablet)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">70</column>
-			<column name="strPropertyName">human</column>
+			<column name="strPropertyName">humano</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">71</column>
-			<column name="strPropertyName">tool: water analyzer</column>
+			<column name="strPropertyName">ferramenta: analisador de agua</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">72</column>
-			<column name="strPropertyName">identified</column>
+			<column name="strPropertyName">identificado</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">73</column>
-			<column name="strPropertyName">stuff Radiation Bob wants (big)</column>
+			<column name="strPropertyName">material radioativo, Bob quer (grande)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">74</column>
-			<column name="strPropertyName">stuff Radiation Bob wants (small)</column>
+			<column name="strPropertyName">material radioativo, Bob quer (pequeno)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">75</column>
-			<column name="strPropertyName">stuff Zom Zom's wants</column>
+			<column name="strPropertyName">coisas de Zom Zom's</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">76</column>
-			<column name="strPropertyName">ignore in crafting screen</column>
+			<column name="strPropertyName">ignore na tela de criacao</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">77</column>
-			<column name="strPropertyName">AI never loots</column>
+			<column name="strPropertyName">AI nunca saqueia</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">78</column>
-			<column name="strPropertyName">AI never loots when player present</column>
+			<column name="strPropertyName">AI nunca saque quando o jogador presente</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">79</column>
@@ -351,19 +351,19 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">81</column>
-			<column name="strPropertyName">ignore in quick recipes</column>
+			<column name="strPropertyName">ignore em receitas rapidas</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">82</column>
-			<column name="strPropertyName">degrades silently when used</column>
+			<column name="strPropertyName">degrada com o uso</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">83</column>
-			<column name="strPropertyName">degrades silently when equipped</column>
+			<column name="strPropertyName">degrada com o uso/equipado</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">84</column>
-			<column name="strPropertyName">shoe</column>
+			<column name="strPropertyName">sapato</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">85</column>
@@ -371,15 +371,15 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">86</column>
-			<column name="strPropertyName">system object (e.g. GUI)</column>
+			<column name="strPropertyName">objeto de sistema (por exemplo, GUI)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">87</column>
-			<column name="strPropertyName">confiscated at ZZ's</column>
+			<column name="strPropertyName">confiscado na ZZ's</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">88</column>
-			<column name="strPropertyName">ignore subgroup when stacking</column>
+			<column name="strPropertyName">ignore o subgrupo ao empilhar</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">89</column>
@@ -387,27 +387,27 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">90</column>
-			<column name="strPropertyName">high-energy capacitor</column>
+			<column name="strPropertyName">capacitor de alta energia</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">91</column>
-			<column name="strPropertyName">4mm Gauss gun barrel</column>
+			<column name="strPropertyName">4mm Gauss gun cano</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">92</column>
-			<column name="strPropertyName">4mm Gauss gun receiver</column>
+			<column name="strPropertyName">4mm Gauss gun caixa</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">93</column>
-			<column name="strPropertyName">stage-switching circuit</column>
+			<column name="strPropertyName">circuito de comutacao de estagio</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">94</column>
-			<column name="strPropertyName">charging circuit</column>
+			<column name="strPropertyName">circuito de carga</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">95</column>
-			<column name="strPropertyName">wooden rifle stock</column>
+			<column name="strPropertyName">estoque de rifle de madeira</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">96</column>
@@ -415,51 +415,51 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">97</column>
-			<column name="strPropertyName">laptop battery</column>
+			<column name="strPropertyName">bateria de laptop</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">98</column>
-			<column name="strPropertyName">smudge stick</column>
+			<column name="strPropertyName">galho de smudge</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">99</column>
-			<column name="strPropertyName">reflects EM waves</column>
+			<column name="strPropertyName">reflete as ondas EM</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">100</column>
-			<column name="strPropertyName">wire cutters</column>
+			<column name="strPropertyName">cortador de fio</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">101</column>
-			<column name="strPropertyName">tracking device</column>
+			<column name="strPropertyName">aparelho de rastreamento</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">102</column>
-			<column name="strPropertyName">vehicle too large to fit through fence breach</column>
+			<column name="strPropertyName">veiculo muito grande para caber atraves de violacao de vedacao</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">103</column>
-			<column name="strPropertyName">blue jeans</column>
+			<column name="strPropertyName">jeans azul</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">104</column>
-			<column name="strPropertyName">battery</column>
+			<column name="strPropertyName">bateria</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">105</column>
-			<column name="strPropertyName">sunlight</column>
+			<column name="strPropertyName">luz solar</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">106</column>
-			<column name="strPropertyName">focusing lens or reflector</column>
+			<column name="strPropertyName">lente de focagem ou refletor</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">107</column>
-			<column name="strPropertyName">sleeping bag</column>
+			<column name="strPropertyName">saco de dormir</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">108</column>
-			<column name="strPropertyName">small-medium</column>
+			<column name="strPropertyName">pequeno-medio</column>
 		</table>
 	</database>
 </pma_xml_export>

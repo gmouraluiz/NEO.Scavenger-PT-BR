@@ -7770,9 +7770,40 @@ Function ingredients(id, attr, Line)
 	ingredients = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 108
 Function itemprops(id, attr, Line)		
 	Select case id
+		case 1
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "easily ignitable", "facilmente inflamavel")
+			End Select
+		case 2
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "optical zoom", "zoom otico")
+			End Select
+		case 3
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "igniter", "ignitor")
+			End Select
+		case 4
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tannin source", "fonte de tanino")
+			End Select
+		case 5
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tool: Philips-head screwdriver", "ferramenta: chave de fenda Philips")
+			End Select
+		case 6
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tool: flathead screwdriver", "ferramenta: chave de fenda")
+			End Select		
 		case 7
 			Select case attr
 				case "strPropertyName"
@@ -7788,6 +7819,501 @@ Function itemprops(id, attr, Line)
 				case "strPropertyName"
 					Line = Replace(Line, "waterproof", "impermeavel")
 			End Select
+		case 10
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "fireproof", "a-prova-de-fogo")
+			End Select
+		case 11
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "hot", "quente")
+			End Select
+		case 12
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "meat", "comida")
+			End Select
+		case 13
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "shaft", "eixo")
+			End Select
+		case 14
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "nourishing", "nutritivo")
+			End Select
+		case 15
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "small", "pequeno")
+			End Select
+		case 16
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "medium", "medio")
+			End Select
+		case 17
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "large", "grande")
+			End Select
+		case 18
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "sharp point", "ponta afiada")
+			End Select
+		case 19
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "thread", "fio")
+			End Select
+		case 20
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "furry", "peludo")
+			End Select
+		case 21
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "sharp edge", "borda afiada")
+			End Select
+		case 22
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "corpse", "cadaver")
+			End Select
+		case 23
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: trapping", "habilidade: Sobrevivencia")
+			End Select
+		case 24
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "biohazard", "risco biologico")
+			End Select
+		case 25
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "radioactive", "radioativo")
+			End Select
+		case 26
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "poison", "veneno")
+			End Select
+		case 27
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "liquid", "liquido")
+			End Select
+		case 28
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "rigid", "rigido")
+			End Select
+		case 29
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "hydrator", "hidratador")
+			End Select
+		case 30
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, ".308 rifle", ".308 rifle")
+			End Select
+		case 31
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "mechanical parts", "partes mecanicas")
+			End Select
+		case 32
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "monocular", "monocular(visao ruim)")
+			End Select
+		case 33
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "binocular", "binocular(visao boa)")
+			End Select
+		case 34
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: lockpicking", "habilidade: arrombador")
+			End Select
+		case 35
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "ash", "cinza")
+			End Select
+		case 36
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "sheet", "lencol")
+			End Select
+		case 37
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "absorbent", "absorvedor")
+			End Select
+		case 38
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "disinfectant", "desinfetante")
+			End Select
+		case 39
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "infinite", "infinito")
+			End Select
+		case 40
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "forest", "floresta")
+			End Select
+		case 41
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: mechanic", "habilidade: mecanico")
+			End Select
+		case 42
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "HVAC (unheated)", "HVAC (frio)")
+			End Select
+		case 43
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "electrical panel", "painel eletronico")
+			End Select
+		case 44
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: electrician", "habilidade: eletricista")
+			End Select
+		case 45
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tool: lever grip/pliers", "ferramenta: alicate de aperto/alicate")
+			End Select
+		case 46
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "fire fuel", "combustivel de fogo")
+			End Select
+		case 47
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "quality", "qualidade")
+			End Select
+		case 48
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "solid (not liquid/gas/idea)", "solido (nao liquido/gasoso)")
+			End Select
+		case 49
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "light source", "fonte de luz")
+			End Select
+		case 50
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "handheld", "portatil")
+			End Select
+		case 51
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: ranged", "habilidade: atirador")
+			End Select
+		case 52
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "crowbar", "pe de cabra")
+			End Select
+		case 53
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "caster wheel", "roda de carrinho")
+			End Select
+		case 54
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "basket", "cesta")
+			End Select
+		case 55
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "shopping cart frame", "quadro do carrinho de compras")
+			End Select
+		case 56
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "water", "agua")
+			End Select
+		case 57
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "skill: botany", "habilidade: botanico")
+			End Select
+		case 58
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "brittle", "fragil")
+			End Select
+		case 59
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "compound bow", "arco proficional")
+			End Select
+		case 60
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "flexible/springy", "flexivel/elastico")
+			End Select
+		case 61
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "12-gauge shotgun", "Espingarda de calibre 12")
+			End Select
+		case 62
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "dogman", "lobisomem")
+			End Select
+		case 63
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "any combat skill", "qualquer habilidade de combate")
+			End Select
+		case 64
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "night vision", "visao noturna")
+			End Select
+		case 65
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "very large", "muito grande")
+			End Select
+		case 66
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "raw", "cru")
+			End Select
+		case 67
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "cured", "curado")
+			End Select
+		case 68
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "strapped", "amarrado")
+			End Select
+		case 69
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "iSlab", "iSlab(tablet)")
+			End Select
+		case 70
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "human", "humano")
+			End Select
+		case 71
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tool: water analyzer", "ferramenta: analisador de agua")
+			End Select
+		case 72
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "identified", "identificado")
+			End Select
+		case 73
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "stuff Radiation Bob wants (big)", "material radioativo, Bob quer (grande)")
+			End Select
+		case 74
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "stuff Radiation Bob wants (small)", "material radioativo, Bob quer (pequeno)")
+			End Select
+		case 75
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "stuff Zom Zom's wants", "coisas de Zom Zom's")
+			End Select
+		case 76
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "ignore in crafting screen", "ignore na tela de criacao")
+			End Select
+		case 77
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "AI never loots", "AI nunca saqueia")
+			End Select
+		case 78
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "AI never loots when player present", "AI nunca saque quando o jogador presente")
+			End Select
+		case 79
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "smartphone", "smartphone")
+			End Select
+		case 80
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "SBS4 rifle", "SBS4 rifle")
+			End Select
+		case 81
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "ignore in quick recipes", "ignore em receitas rapidas")
+			End Select
+		case 82
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "degrades silently when used", "degrada com o uso")
+			End Select
+		case 83
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "degrades silently when equipped", "degrada com o uso/equipado")
+			End Select
+		case 84
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "shoe", "sapato")
+			End Select
+		case 85
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "don't unsocket when surrendering", "don't unsocket when surrendering")
+			End Select
+		case 86
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "system object (e.g. GUI)", "objeto de sistema (por exemplo, GUI)")
+			End Select
+		case 87
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "confiscated at ZZ's", "confiscado na ZZ's")
+			End Select
+		case 88
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "ignore subgroup when stacking", "ignore o subgrupo ao empilhar")
+			End Select
+		case 89
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "4mm Gauss Rifle", "4mm Gauss Rifle")
+			End Select
+		case 90
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "high-energy capacitor", "capacitor de alta energia")
+			End Select
+		case 91
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "4mm Gauss gun barrel", "4mm Gauss gun cano")
+			End Select
+		case 92
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "4mm Gauss gun receiver", "4mm Gauss gun caixa")
+			End Select
+		case 93
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "stage-switching circuit", "circuito de comutacao de estagio")
+			End Select
+		case 94
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "charging circuit", "circuito de carga")
+			End Select
+		case 95
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "wooden rifle stock", "estoque de rifle de madeira")
+			End Select
+		case 96
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "DMC drone wreckage", "DMC drone wreckage")
+			End Select
+		case 97
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "laptop battery", "bateria de laptop")
+			End Select
+		case 98
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "smudge stick", "galho de smudge")
+			End Select
+		case 99
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "reflects EM waves", "reflete as ondas EM")
+			End Select
+		case 100
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "wire cutters", "cortador de fio")
+			End Select
+		case 101
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "tracking device", "aparelho de rastreamento")
+			End Select
+		case 102
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "vehicle too large to fit through fence breach", "veiculo muito grande para caber atraves de violacao de vedacao")
+			End Select
+		case 103
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "blue jeans", "jeans azul")
+			End Select
+		case 104
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "battery", "bateria")
+			End Select
+		case 105
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "sunlight", "luz solar")
+			End Select
+		case 106
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "focusing lens or reflector", "lente de focagem ou refletor")
+			End Select
+		case 107
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "sleeping bag", "saco de dormir")
+			End Select
+		case 108
+			Select case attr
+				case "strPropertyName"
+					Line = Replace(Line, "small-medium", "pequeno-medio")
+			End Select		
 	End Select
 	itemprops = CStr(Line)
 End Function
