@@ -135,11 +135,11 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">27</column>
-			<column name="strPropertyName">liquido</column>
+			<column name="strPropertyName">liquidooo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">28</column>
-			<column name="strPropertyName">rigido</column>
+			<column name="strPropertyName">rigidooo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">29</column>
@@ -155,11 +155,11 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">32</column>
-			<column name="strPropertyName">monocular(visao ruim)</column>
+			<column name="strPropertyName">monocular(visao ruim)(visao ruim)(visao ruim)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">33</column>
-			<column name="strPropertyName">binocular(visao boa)</column>
+			<column name="strPropertyName">binocular(visao boa)(visao boa)(visao boa)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">34</column>
@@ -303,11 +303,11 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">69</column>
-			<column name="strPropertyName">iSlab(tablet)</column>
+			<column name="strPropertyName">iSlab(tablet)(tablet)(tablet)</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">70</column>
-			<column name="strPropertyName">humano</column>
+			<column name="strPropertyName">humanooo</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">71</column>

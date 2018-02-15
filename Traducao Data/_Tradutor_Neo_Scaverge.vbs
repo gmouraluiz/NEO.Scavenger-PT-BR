@@ -155,17 +155,17 @@ Function attackmodes(id, attr, Line)
 		case 26
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "compound bow w/broadhead", "arco profissional cabeca larga")
+					Line = Replace(Line, "compound bow w/broadhead", "arco composto cabeca larga")
 			End select
 		case 27
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "compound bow w/crude piercing", "arco profissional bruto/penetrante")
+					Line = Replace(Line, "compound bow w/crude piercing", "arco composto bruto/penetrante")
 			End select
 		case 28
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "compound bow w/crude broadhead", "arco profissional bruto/cabeca larga")
+					Line = Replace(Line, "compound bow w/crude broadhead", "arco composto bruto/cabeca larga")
 			End select
 		case 29
 			Select case attr
@@ -7489,7 +7489,7 @@ Function ingredients(id, attr, Line)
 		case 23
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Lockpicking skill", "Habilidade arromabamentos")
+					Line = Replace(Line, "Lockpicking skill", "Habilidade arromabamento")
 			End Select
 		case 24
 			Select case attr
@@ -7509,263 +7509,513 @@ Function ingredients(id, attr, Line)
 		case 27
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "small flammable, non-rigid sheet", "lencou pouco inflamavel e nao rigida")
+					Line = Replace(Line, "small flammable, non-rigid sheet", "pouco inflamavel, lencol nao rigido")
 			End Select
 		case 28
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "medium absorbent, non-rigid, non-springy sheet", "lencou absorvente media, nao rigida e nao elastica")
+					Line = Replace(Line, "medium absorbent, non-rigid, non-springy sheet", "absorvedor medio, lencol nao rigido ou elastico")
 			End Select
-		case 000
+		case 29
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "water (any)", "agua (qualquer)")
 			End Select
-		case 000
+		case 30
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small absorbent, non-rigid sheet", "pequeno absorvedor, lencol nao rigido")
 			End Select
-		case 000
+		case 31
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "liquid disinfectant", "desinfetante liquido")
 			End Select
-		case 000
+		case 32
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small or medium non-rigid sheet", "lencol pequena ou medio nao rigido")
 			End Select
-		case 000
+		case 33
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "natural water source (non-chemical)", "fonte natural de agua (nao quimica)")
 			End Select
-		case 000
+		case 34
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "forest", "floresta")
 			End Select
-		case 000
+		case 35
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Mechanic skill", "Habilidade de mecanica")
 			End Select
-		case 000
+		case 36
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large non-rigid sheet", "lencol grande nao rigido")
 			End Select
-		case 000
+		case 37
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "HVAC (unheated)", "HVAC (frio)")
 			End Select
-		case 000
+		case 38
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "electrical panel", "painel eletrico")
 			End Select
-		case 000
+		case 39
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "electrician skill", "habilidade eletricista")
 			End Select
-		case 000
+		case 40
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "pliers", "alicate")
 			End Select
-		case 000
+		case 41
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small furry corpse", "pequeno cadaver peludo")
 			End Select
-		case 000
+		case 42
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small or medium flexible non-food object", "objeto pequeno ou medio, flexivel, nao comida")
 			End Select
-		case 000
+		case 43
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small flame and heat source", "chama pequena e fonte de calor")
 			End Select
-		case 000
+		case 44
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
+					Line = Replace(Line, "medium flame and heat source", "chama media e fonte de calor")
+			End Select		
+		case 45
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium shaft w/kindling (unlit)", "eixo medio, c/graveto (apagado)")
 			End Select
-		case 000
+		case 46
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "quality medium shaft w/kindling (unlit)", "eixo medio, qualidade, c/graveto (apagado)")
 			End Select
-		case 000
+		case 47
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "optical zoom", "zoom otico")
 			End Select
-		case 000
+		case 48
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small kindling (unlit)", "graveto pequeno (apagado)")
 			End Select
-		case 000
+		case 49
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "handheld light source", "fonte de luz portatil")
 			End Select
-		case 000
+		case 50
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium flammable, rigid shaft", "medio inflamavel, eixo rigido")
 			End Select
-		case 000
+		case 51
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Ranged skill", "Habilidade de atirador")
 			End Select
-		case 000
+		case 52
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crowbar", "pe de cabra")
 			End Select
-		case 000
+		case 53
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "binocular optical zoom", "zoom optico binocular")
 			End Select
-		case 000
+		case 54
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "very large rigid container", "recipiente rigido muito grande")
 			End Select
-		case 000
+		case 55
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shopping cart frame", "quadro do carrinho de compras")
 			End Select
-		case 000
+		case 56
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "caster wheel", "roda de carrinho")
 			End Select
-		case 000
+		case 57
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large fireproof basket", "grande cesta a-prova-de-fogo")
 			End Select
-		case 000
+		case 58
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "very large rigid sheet container", "recipiente de lencol rigida muito grande")
 			End Select
-		case 000
+		case 59
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Botany skill", "habilidade botanica")
 			End Select
-		case 000
+		case 60
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large shaft", "eixo grande")
 			End Select
-		case 000
+		case 61
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium brittle, rigid container", "medio fragil, recipiente rigido")
 			End Select
-		case 000
+		case 62
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium brittle, non-flexible, rigid object", "medio fragil, nao flexivel, objeto rigido")
 			End Select
-		case 000
+		case 63
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small brittle, rigid, sharp handheld sheet object", "pequeno quebradico, rigido, objeto de posta afiada")
 			End Select
-		case 000
+		case 64
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "compound bow", "arco composto")
 			End Select
-		case 000
+		case 65
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large rigid, flexible shaft", "eixo grande, flexivel, ridido")
 			End Select
-		case 000
+		case 66
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small rigid, sharp edge with point", "pequeno rigido, borda afiada com ponta")
 			End Select
-		case 000
+		case 67
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small springy sheet", "pequena lencol elastico")
 			End Select
-		case 000
+		case 68
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small sharp point", "pequeno ponto afiado")
 			End Select
-		case 000
+		case 69
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "12-gauge shotgun w/o strap", "Espingarda de calibre 12 c/alca")
 			End Select
-		case 000
+		case 70
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large fireproof, waterproof container", "grande recipiente a-prova-de-fogo e impermeavel")
 			End Select
-		case 000
+		case 71
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large corpse", "grande cadaver")
 			End Select
-		case 000
+		case 72
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Dogman corpse", "cadaver Lobisomem")
 			End Select
-		case 000
+		case 73
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large furry corpse", "grande cadaver peludo")
 			End Select
-		case 000
+		case 74
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium fresh meat", "carne fresca media")
 			End Select
-		case 000
+		case 75
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium furry corpse", "cadaver peludo medio")
 			End Select
-		case 000
+		case 76
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "any combat skill", "qualquer habilidade de combate")
 			End Select
-		case 000
+		case 77
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small rigid parts", "pequenas pecas rigidas")
 			End Select
-		case 000
+		case 78
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "night vision", "visao noturna")
 			End Select
+		case 79
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium paper", "papel medio")
+			End Select
+		case 80
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium rigid, springy shaft", "eixo medio, rigido e elastico")
+			End Select
+		case 81
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "scoped .308, no strap", "luneta .308, s/alca")
+			End Select
+		case 82
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "strapped .308, no scope", "c/alca .308, s/luneta")
+			End Select
+		case 83
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "iSlab", "iSlab(tablet)")
+			End Select
+		case 84
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium fresh human meat", "carne media fresca humana")
+			End Select
+		case 85
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small fresh human meat", "pequena carne humana fresca")
+			End Select
+		case 86
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water (chemical)", "agua (quimica)")
+			End Select
+		case 87
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water tester", "testador de agua")
+			End Select
+		case 88
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water (biohazard)", "agua (risco biologico)")
+			End Select
+		case 89
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water (non-biohazard, non-chemical)", "agua (nao biologica, nao quimica)")
+			End Select
+		case 90
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "water (unidentified)", "agua (nao identificada)")
+			End Select
+		case 91
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "large human corpse", "grande cadaver humano")
+			End Select
+		case 92
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stuff Radiation Bob wants (big)", "material radioativo, Bob quer (grande)")
+			End Select
+		case 93
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stuff Radiation Bob wants (small)", "material radioativo, Bob quer (grande)")
+			End Select
+		case 94
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stuff Zom Zom's wants", "material de Zom Zom's")
+			End Select
+		case 95
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "smartphone", "smartphone")
+			End Select
+		case 96
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "SBS4 shotgun", "SBS4 escopeta")
+			End Select
+		case 97
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium brittle, flexible, rigid object", "medio fraquimentado, flexivel, objeto rigido")
+			End Select
+		case 98
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "anything except talisman and GUI items", "qualquer coisa, exceto itens de talisman e GUI")
+			End Select
+		case 99
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ZZ's items to confiscate", "Itens da ZZ's para confiscar")
+			End Select
+		case 100
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "4mm Gauss rifle, no scope, no strap", "4mm Gauss rifle, s/luneta/alca")
+			End Select
+		case 101
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "scoped 4mm Gauss rifle, no strap", "4mm Gauss rifle c/luneta s/alca")
+			End Select
+		case 102
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "strapped 4mm Gauss rifle, no scope", "4mm Gauss rifle c/alca s/luneta")
+			End Select
+		case 103
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "wooden rifle stock", "estoque de rifle de madeira")
+			End Select
+		case 104
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "high-energy capacitor", "capacitor de alta energia")
+			End Select
+		case 105
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "4mm Gauss gun barrel", "4mm Gauss gun cano")
+			End Select
+		case 106
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "4mm Gauss gun receiver", "4mm Gauss gun caixa")
+			End Select
+		case 107
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "stage-switching circuit", "circuito de comutacao de estagio")
+			End Select
+		case 108
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "charging circuit", "circuito de carga")
+			End Select
+		case 109
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC drone wreckage", "DMC drone wreckage")
+			End Select
+		case 110
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "unobtainable item", "item nao obtido")
+			End Select
+		case 111
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "laptop battery", "bateria de laptop")
+			End Select
+		case 112
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "smudge stick", "galho de smudge")
+			End Select
+		case 113
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small or medium flexible, EM-reflective sheet", "lencol pequeno ou medio flexivel, refletivel")
+			End Select
+		case 114
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium non-rigid, EM-reflective sheet", "lencol medio, nao rigida, refletivel")
+			End Select
+		case 115
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "wire cutters", "cortador de fio")
+			End Select
+		case 116
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tracking device", "aparelho de rastreamento")
+			End Select
+		case 117
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "vehicle too large to bring through fence breach", "veiculo muito grande para atrapalhar a vedacao")
+			End Select
+		case 118
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "blue jeans", "jeans azul")
+			End Select
+		case 119
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small battery", "bateria pequena")
+			End Select
+		case 120
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium battery", "bateria media")
+			End Select
+		case 121
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "handheld focusing lens or reflector", "lente de focagem portatil ou reflector")
+			End Select
+		case 122
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sunlight", "luz solar")
+			End Select
+		case 123
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sleeping bag", "saco de dormir")
+			End Select
+		case 124
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "large, non-rigid sheet", "grande, nao rigida lencol")
+			End Select
+		case 125
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "large branch", "grande galho")
+			End Select
+		case 126
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium, waterproof, flexible sheet", "lencol medio, impermeavel, flexivel")
+			End Select
+		case 127
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small-medium furry corpse", "cadaver pequeno ou medio peludo")
+			End Select
+		case 128
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "medium flame and heat source, extinguishable", "chama media e fonte de calor, extinguivel")
+			End Select		
 	End Select
 	ingredients = CStr(Line)
 End Function
@@ -8067,7 +8317,7 @@ Function itemprops(id, attr, Line)
 		case 59
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "compound bow", "arco proficional")
+					Line = Replace(Line, "compound bow", "arco composto")
 			End Select
 		case 60
 			Select case attr
@@ -8826,7 +9076,7 @@ Function recipes(id, attr, Line)
 		case 47
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "bow: compound w/strap", "arco: profissional c/alca")
+					Line = Replace(Line, "bow: compound w/strap", "arco: composto c/alca")
 			End Select
 		case 48
 			Select case attr
