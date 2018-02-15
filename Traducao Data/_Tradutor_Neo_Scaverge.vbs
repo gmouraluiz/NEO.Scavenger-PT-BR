@@ -35,7 +35,7 @@ Function attackmodes(id, attr, Line)
 				case "strWieldPhrase"
 					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, pronto para atirar em")
 				case "vAttackPhrases"
-					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em ou disparar com seu .308, atirar, disparar em")
 			End select
 		case 5
 			Select case attr				
