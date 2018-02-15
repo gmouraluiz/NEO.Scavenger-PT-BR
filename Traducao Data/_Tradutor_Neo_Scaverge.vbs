@@ -6095,6 +6095,7 @@ Function creaturesources(id, attr, Line)
 	creaturesources = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 88
 Function datafiles(id, attr, Line)		
 	Select case id
