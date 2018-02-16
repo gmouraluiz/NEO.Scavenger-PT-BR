@@ -12930,8 +12930,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">561</column>
-			<column name="strName">Unhittable</column>
-			<column name="strDesc">This AI is near impossible to hit.</column>
+			<column name="strName">AI Imbativel</column>
+			<column name="strDesc">Este AI e quase impossivel de bater.</column>
 			<column name="aFieldNames">m_fDefense</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>
@@ -12953,8 +12953,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">562</column>
-			<column name="strName">Force Despawn</column>
-			<column name="strDesc">&lt;us&gt; is despawning, no matter what.</column>
+			<column name="strName">Forcado a desaparecer</column>
+			<column name="strDesc">&lt;us&gt; esta desesperando, nao importa o que faca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">Despawn=1</column>
@@ -12976,8 +12976,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">563</column>
-			<column name="strName">Michelle Wants to Ask Her Question</column>
-			<column name="strDesc">&lt;us&gt; asked Michelle a question, and now she has one.</column>
+			<column name="strName">Michelle quer fazer uma pergunta</column>
+			<column name="strDesc">&lt;us&gt; fez a Michelle uma pergunta, e agora ela tem uma.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12999,8 +12999,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">564</column>
-			<column name="strName">Relapsed Into Wendigo</column>
-			<column name="strDesc">&lt;us&gt; has relapsed into a wendigo.</column>
+			<column name="strName">Recaida Canibalismo</column>
+			<column name="strDesc">&lt;us&gt; teve uma recaida em ser canibal.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13022,8 +13022,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">565</column>
-			<column name="strName">Wendigo ATN Trigger</column>
-			<column name="strDesc">&lt;us&gt; will trigger wendigo encounters at ATN.</column>
+			<column name="strName">Desencadeia encontros Canibais em ATN</column>
+			<column name="strDesc">&lt;us&gt; ira desencadear encontros de canibais na ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13045,8 +13045,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">566</column>
-			<column name="strName">Trigger Wendigo Relapse</column>
-			<column name="strDesc">&lt;us&gt; relapsed into eating human meat, and is now a wendigo.</column>
+			<column name="strName">Recaida virando Canibal</column>
+			<column name="strDesc">&lt;us&gt; teve recaida em comer carne humana, e agora e um Canibal.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1533</column>
 			<column name="aEffects"></column>
@@ -13068,8 +13068,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">567</column>
-			<column name="strName">Merga Wraith Spawned</column>
-			<column name="strDesc">Merga Wraith is spawned and active.</column>
+			<column name="strName">Merga Wraith gerado</column>
+			<column name="strDesc">Merga Wraith foi gerada e esta ativo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13091,8 +13091,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">568</column>
-			<column name="strName">Already returned to the cryo facility</column>
-			<column name="strDesc">&lt;us&gt; already returned to the cryo facility.</column>
+			<column name="strName">Ja voltou para a Cryo-Facility</column>
+			<column name="strDesc">&lt;us&gt; retornou para a Cryo-Facility.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13114,8 +13114,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">569</column>
-			<column name="strName">Already had ATN male warrior convo 1</column>
-			<column name="strDesc">&lt;us&gt; already had ATN male warrior convo 1.</column>
+			<column name="strName">Ja tinha ATN guerreiro masculino convo 1</column>
+			<column name="strDesc">&lt;us&gt; ja tinha ATN guerreiro masculino convo 1.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13137,8 +13137,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">570</column>
-			<column name="strName">Sweating</column>
-			<column name="strDesc">&lt;us&gt; is starting to sweat.</column>
+			<column name="strName">Suadouro</column>
+			<column name="strDesc">&lt;us&gt; esta comecando a suar.</column>
 			<column name="aFieldNames">fWaterConsumptionRate,fSleepQuality,MinSafeTemp,MaxSafeTemp,fPassiveRewarmPerHour,m_fScent</column>
 			<column name="aModifiers">0.25,-0.35,15,15,-1,1</column>
 			<column name="aEffects"></column>
@@ -13160,8 +13160,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">571</column>
-			<column name="strName">Minor thirst quench</column>
-			<column name="strDesc">&lt;us&gt; had some of their thirst quenched.</column>
+			<column name="strName">Sede menor</column>
+			<column name="strDesc">&lt;us&gt; um pouco de sua sede foi saciada.</column>
 			<column name="aFieldNames">fWaterDebt</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -13183,8 +13183,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">572</column>
-			<column name="strName">Carrying Timepiece</column>
-			<column name="strDesc">&lt;us&gt; is carrying an item that tells time.</column>
+			<column name="strName">Carregando Relogio</column>
+			<column name="strDesc">&lt;us&gt; esta carregando um item que informa que horas sao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -13206,8 +13206,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">573</column>
-			<column name="strName">Gather water from river.</column>
-			<column name="strDesc">&lt;us&gt; gathered water from a river.</column>
+			<column name="strName">Reuna agua do rio.</column>
+			<column name="strDesc">&lt;us&gt; recolheu agua de um rio.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddItemGround=150,0,0,0;</column>
@@ -13229,8 +13229,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">574</column>
-			<column name="strName">Gather water from marsh.</column>
-			<column name="strDesc">&lt;us&gt; gathered water from a marsh.</column>
+			<column name="strName">Reuna agua do pantano.</column>
+			<column name="strDesc">&lt;us&gt; recolheu agua de um pantano.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddItemGround=151,0,0,0;</column>
@@ -13252,8 +13252,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">575</column>
-			<column name="strName">Gather water from lake.</column>
-			<column name="strDesc">&lt;us&gt; gathered water from a lake.</column>
+			<column name="strName">Reuna agua do lago.</column>
+			<column name="strDesc">&lt;us&gt; recolheu agua de um pantano.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddItemGround=152,0,0,0;</column>
@@ -13275,8 +13275,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">576</column>
-			<column name="strName">Gather wood from forest.</column>
-			<column name="strDesc">&lt;us&gt; gathered wood from a forest.</column>
+			<column name="strName">Reuna madeira da floresta.</column>
+			<column name="strDesc">&lt;us&gt; recolheu madeira de uma floresta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddItemGround=153,0,0,0;</column>
@@ -13298,8 +13298,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">577</column>
-			<column name="strName">No item sprites</column>
-			<column name="strDesc">&lt;us&gt; does not display item sprites.</column>
+			<column name="strName">Nenhum item espirito</column>
+			<column name="strDesc">&lt;us&gt; nao tem itens para exibir de um espirito.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13321,8 +13321,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">578</column>
-			<column name="strName">Trigger Revisit Hatter</column>
-			<column name="strDesc">&lt;us&gt; is returning to Hatter after declining the urn job.</column>
+			<column name="strName">Revisita Hatter</column>
+			<column name="strDesc">&lt;us&gt; esta voltando para Hatter depois de recusar o trabalho.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">97</column>
 			<column name="aEffects"></column>
@@ -13344,8 +13344,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">579</column>
-			<column name="strName">Trigger Return to Hatter #1</column>
-			<column name="strDesc">&lt;us&gt; is returning to Hatter after accepting a job.</column>
+			<column name="strName">Revisita Hatter #1</column>
+			<column name="strDesc">&lt;us&gt; esta voltando para Hatter depois de recusar o trabalho.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">28</column>
 			<column name="aEffects"></column>
@@ -13367,8 +13367,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">580</column>
-			<column name="strName">Trigger Return to Hatter Again</column>
-			<column name="strDesc">&lt;us&gt; is returning to Hatter a second time after failing to complete a job.</column>
+			<column name="strName">Revisita Hatter novamente</column>
+			<column name="strDesc">&lt;us&gt; esta voltando para Hatter uma segunda vez depois de nao conseguir completar um trabalho.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">34</column>
 			<column name="aEffects"></column>
@@ -13390,8 +13390,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">581</column>
-			<column name="strName">Complete Hatter's Intro Job</column>
-			<column name="strDesc">&lt;us&gt; completed the intro task for Hatter.</column>
+			<column name="strName">Trabalho de Introducao Completo Hatter</column>
+			<column name="strDesc">&lt;us&gt; completou a tarefa de introducao para Hatter.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -13413,8 +13413,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">582</column>
-			<column name="strName">Trigger Hidden Lake</column>
-			<column name="strDesc">&lt;us&gt; is visiting the house at Seven Gables Road.</column>
+			<column name="strName">Visitando lago escondido</column>
+			<column name="strDesc">&lt;us&gt; esta visitando a casa em Seven Gables Road.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">27</column>
 			<column name="aEffects"></column>
@@ -13436,8 +13436,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">583</column>
-			<column name="strName">Trigger Hidden Lake (Hood)</column>
-			<column name="strDesc">&lt;us&gt; is visiting the house at Seven Gables Road w/hood.</column>
+			<column name="strName">Visitando lago escondido(C/Capuz)</column>
+			<column name="strDesc">&lt;us&gt; esta visitando a casa em Seven Gables Road C/capuz.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">123</column>
 			<column name="aEffects"></column>
@@ -13459,8 +13459,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">584</column>
-			<column name="strName">Trigger Return to Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; is visiting Zom Zom's again.</column>
+			<column name="strName">Retornou a Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; esta visitando Zom Zom's novamente.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">996</column>
 			<column name="aEffects"></column>
@@ -13482,8 +13482,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">585</column>
-			<column name="strName">Trigger Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; is visiting Zom Zom's.</column>
+			<column name="strName">Visitando Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt; esta visitando Zom Zom's.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">135</column>
 			<column name="aEffects"></column>

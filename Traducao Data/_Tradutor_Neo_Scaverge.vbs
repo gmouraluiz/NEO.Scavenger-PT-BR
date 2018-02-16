@@ -5338,184 +5338,184 @@ Function conditions(id, attr, Line)
 		case 560
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Unshakable", "Incomparavel")
+					Line = Replace(Line, "Unshakable", "AI Incomparavel")
 				case "strDesc"
 					Line = Replace(Line, "This AI is never going to retreat", "Este AI nunca vai se retirar")
 			End Select
-		case 000
+		case 561
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Unhittable", "AI Imbativel")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "This AI is near impossible to hit", "Este AI e quase impossivel de bater")
 			End Select
-		case 000
+		case 562
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Force Despawn", "Forcado a desaparecer")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is despawning, no matter what", "esta desesperando, nao importa o que faca")
 			End Select
-		case 000
+		case 563
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Michelle Wants to Ask Her Question", "Michelle quer fazer uma pergunta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "asked Michelle a question, and now she has one", "fez a Michelle uma pergunta, e agora ela tem uma")
 			End Select
-		case 000
+		case 564
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Relapsed Into Wendigo", "Recaida Canibalismo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has relapsed into a wendigo", "teve uma recaida em ser canibal")
 			End Select
-		case 000
+		case 565
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wendigo ATN Trigger", "Desencadeia encontros Canibais em ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "will trigger wendigo encounters at ATN", "ira desencadear encontros de canibais na ATN")
 			End Select
-		case 000
+		case 566
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Wendigo Relapse", "Recaida virando Canibal")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "relapsed into eating human meat, and is now a wendigo", "teve recaida em comer carne humana, e agora e um Canibal")
 			End Select
-		case 000
+		case 567
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Merga Wraith Spawned", "Merga Wraith gerado")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Merga Wraith is spawned and active", "Merga Wraith foi gerada e esta ativo")
 			End Select
-		case 000
+		case 568
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already returned to the cryo facility", "Ja voltou para a Cryo-Facility")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already returned to the cryo facility", "retornou para a Cryo-Facility")
 			End Select
-		case 000
+		case 569
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already had ATN male warrior convo 1", "Ja tinha ATN guerreiro masculino convo 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had ATN male warrior convo 1", "ja tinha ATN guerreiro masculino convo 1")
 			End Select
-		case 000
+		case 570
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Sweating", "Suadouro")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is starting to sweat", "esta comecando a suar")
 			End Select
-		case 000
+		case 571
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Minor thirst quench", "Sede menor")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "had some of their thirst quenched", "um pouco de sua sede foi saciada")
 			End Select
-		case 000
+		case 572
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Carrying Timepiece", "Carregando Relogio")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is carrying an item that tells time", "esta carregando um item que informa que horas sao")
 			End Select
-		case 000
+		case 573
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Gather water from river", "Reuna agua do rio")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "gathered water from a river", "recolheu agua de um rio")
 			End Select
-		case 000
+		case 574
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Gather water from marsh", "Reuna agua do pantano")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "gathered water from a marsh", "recolheu agua de um pantano")
 			End Select
-		case 000
+		case 575
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Gather water from lake", "Reuna agua do lago")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "gathered water from a lake", "recolheu agua de um pantano")
 			End Select
-		case 000
+		case 576
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Gather wood from forest", "Reuna madeira da floresta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "gathered wood from a forest", "recolheu madeira de uma floresta")
 			End Select
-		case 000
+		case 577
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "No item sprites", "Nenhum item espirito")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "does not display item sprites", "nao tem itens para exibir de um espirito")
 			End Select
-		case 000
+		case 578
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Revisit Hatter", "Revisita Hatter")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Hatter after declining the urn job", "esta voltando para Hatter depois de recusar o trabalho")
 			End Select
-		case 000
+		case 579
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Hatter #1", "Revisita Hatter #1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Hatter after accepting a job", "esta voltando para Hatter depois de recusar o trabalho")
 			End Select
-		case 000
+		case 580
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Hatter Again", "Revisita Hatter novamente")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Hatter a second time after failing to complete a job", "esta voltando para Hatter uma segunda vez depois de nao conseguir completar um trabalho")
 			End Select
-		case 000
+		case 581
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Complete Hatter's Intro Job", "Trabalho de Introducao Completo Hatter")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "completed the intro task for Hatter", "completou a tarefa de introducao para Hatter")
 			End Select
-		case 000
+		case 582
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Hidden Lake", "Visitando lago escondido")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting the house at Seven Gables Road", "esta visitando a casa em Seven Gables Road")
 			End Select
-		case 000
+		case 583
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Hidden Lake (Hood)", "Visitando lago escondido(C/Capuz)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting the house at Seven Gables Road w/hood", "esta visitando a casa em Seven Gables Road C/capuz")
 			End Select
-		case 000
+		case 584
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Zom Zom's", "Retornou a Zom Zom's")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting Zom Zom's again", "esta visitando Zom Zom's novamente")
 			End Select
-		case 000
+		case 585
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Zom Zom's", "Visitando Zom Zom's")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting Zom Zom's", "esta visitando Zom Zom's")
 			End Select
 		case 000
 			Select case attr
