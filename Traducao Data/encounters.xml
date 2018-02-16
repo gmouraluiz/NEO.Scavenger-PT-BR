@@ -53,7 +53,7 @@
 		<!-- Table encounters -->
 		<table name="encounters">
 			<column name="id">1</column>
-			<column name="strName">Em Branco</column>
+			<column name="strName">Blank</column>
 			<column name="strDesc"></column>
 			<column name="strImg">EncBlank.png</column>
 			<column name="nTreasureID">3</column>

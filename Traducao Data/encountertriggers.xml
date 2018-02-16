@@ -87,7 +87,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">4</column>
-			<column name="strName">Reach DMC gates</column>
+			<column name="strName">Chegou nos portoes de DMC</column>
 			<column name="nEncounterID">26</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -102,7 +102,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">5</column>
-			<column name="strName">Found hidden lake</column>
+			<column name="strName">Lago escondido encontrado</column>
 			<column name="nEncounterID">27</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -117,7 +117,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">6</column>
-			<column name="strName">Reached Clearbone Valley</column>
+			<column name="strName">Chegou a Clearbone Valley</column>
 			<column name="nEncounterID">1737</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -147,7 +147,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">8</column>
-			<column name="strName">Merga Wraith Appears</column>
+			<column name="strName">Apareceu Merga Wraith</column>
 			<column name="nEncounterID">5</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -162,7 +162,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">9</column>
-			<column name="strName">Saginaw (day, first visit)</column>
+			<column name="strName">Saginaw (dia, primeira visita)</column>
 			<column name="nEncounterID">1549</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -177,7 +177,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">10</column>
-			<column name="strName">Saginaw (pre-midnight, first visit)</column>
+			<column name="strName">Saginaw (noite, primeira visita)</column>
 			<column name="nEncounterID">1553</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -192,7 +192,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">11</column>
-			<column name="strName">Junk Market</column>
+			<column name="strName">Mercado de lixo</column>
 			<column name="nEncounterID">65</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -207,7 +207,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">12</column>
-			<column name="strName">First ruins visit, and scavenging tutorial</column>
+			<column name="strName">Primeira visita a ruinas, tutorial para vasculhar</column>
 			<column name="nEncounterID">67</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -222,7 +222,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">13</column>
-			<column name="strName">Discover Detroit Mega City</column>
+			<column name="strName">Descubriu Detroit Mega City</column>
 			<column name="nEncounterID">70</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -237,7 +237,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">14</column>
-			<column name="strName">Reach DMC gates (quarantine 14d)</column>
+			<column name="strName">Chegou nos portoes de DMC (quarentena 14d)</column>
 			<column name="nEncounterID">1740</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -252,7 +252,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">15</column>
-			<column name="strName">Saginaw (post-midnight, first visit)</column>
+			<column name="strName">Saginaw (madrugada, primeira visita)</column>
 			<column name="nEncounterID">1553</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -267,7 +267,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">16</column>
-			<column name="strName">Giizhik stick and Wendigo</column>
+			<column name="strName">Giizhik galho e Canibal</column>
 			<column name="nEncounterID">1764</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -282,7 +282,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">17</column>
-			<column name="strName">Hear Zom Zom's</column>
+			<column name="strName">Escutando Zom Zom's</column>
 			<column name="nEncounterID">134</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -297,7 +297,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">18</column>
-			<column name="strName">Discover Isotope Mine</column>
+			<column name="strName">Descubra o Mina de isotopo</column>
 			<column name="nEncounterID">199</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -312,7 +312,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">19</column>
-			<column name="strName">Discover Zom Zom's</column>
+			<column name="strName">Descubriu Zom Zom's</column>
 			<column name="nEncounterID">135</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1677,7 +1677,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">110</column>
-			<column name="strName">Return to ATN (Wendigo Relapse)</column>
+			<column name="strName">Retornar para ATN (Canibalismo recaida)</column>
 			<column name="nEncounterID">1526</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1692,7 +1692,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">111</column>
-			<column name="strName">Attracted dogman (night)</column>
+			<column name="strName">Atraiu Lobisomem (noite)</column>
 			<column name="nEncounterID">840</column>
 			<column name="fChance">0.35</column>
 			<column name="bLocBased">0</column>
@@ -1707,7 +1707,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">112</column>
-			<column name="strName">Attracted dogman (after midnight)</column>
+			<column name="strName">Atraiu Lobisomem (madrugada)</column>
 			<column name="nEncounterID">840</column>
 			<column name="fChance">0.35</column>
 			<column name="bLocBased">0</column>
@@ -1722,7 +1722,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">113</column>
-			<column name="strName">Attracted dogman (day)</column>
+			<column name="strName">Atraiu Lobisomem (dia)</column>
 			<column name="nEncounterID">840</column>
 			<column name="fChance">0.15</column>
 			<column name="bLocBased">0</column>
@@ -1737,7 +1737,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">114</column>
-			<column name="strName">Discover Hades Glade</column>
+			<column name="strName">Descobriu Hades Glade</column>
 			<column name="nEncounterID">766</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1752,7 +1752,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">115</column>
-			<column name="strName">Discover Allegan Fairgrounds</column>
+			<column name="strName">Descobriu Allegan Fairgrounds</column>
 			<column name="nEncounterID">936</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1767,7 +1767,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">116</column>
-			<column name="strName">Giizhik stick and hood</column>
+			<column name="strName">Giizhik galho e capuz</column>
 			<column name="nEncounterID">1761</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1782,7 +1782,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">117</column>
-			<column name="strName">Discover Last Chance Canteen</column>
+			<column name="strName">Descobriu Last Chance Canteen</column>
 			<column name="nEncounterID">2212</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1797,7 +1797,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">118</column>
-			<column name="strName">First sprawl visit</column>
+			<column name="strName">Primeira visita de expansao</column>
 			<column name="nEncounterID">2251</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1812,7 +1812,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">119</column>
-			<column name="strName">Discover St. James Parkade</column>
+			<column name="strName">Descobriu St. James Parkade</column>
 			<column name="nEncounterID">2213</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1872,7 +1872,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">123</column>
-			<column name="strName">Hypothermic start</column>
+			<column name="strName">Inicio hipotermico</column>
 			<column name="nEncounterID">1072</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1887,7 +1887,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">124</column>
-			<column name="strName">First swamp visit</column>
+			<column name="strName">Primeira visita ao pantano</column>
 			<column name="nEncounterID">1190</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1902,7 +1902,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">125</column>
-			<column name="strName">Concrete Forest Apts</column>
+			<column name="strName">Floresta de contrato de Apts</column>
 			<column name="nEncounterID">1224</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1917,7 +1917,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">126</column>
-			<column name="strName">ATN Perimeter</column>
+			<column name="strName">Perimetro ATN</column>
 			<column name="nEncounterID">1006</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1932,7 +1932,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">127</column>
-			<column name="strName">Return to ATN (No wendigo)</column>
+			<column name="strName">Retornar para ATN (N/E Canibal)</column>
 			<column name="nEncounterID">192</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1947,7 +1947,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">128</column>
-			<column name="strName">Return to ATN (new wendigo)</column>
+			<column name="strName">Retornar para ATN (Novo Canibal)</column>
 			<column name="nEncounterID">1527</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1962,7 +1962,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">129</column>
-			<column name="strName">Return to ATN (Enemy, no wendigo)</column>
+			<column name="strName">Retornar para ATN (Inimigo, N/E Canibal)</column>
 			<column name="nEncounterID">1531</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -1977,7 +1977,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">130</column>
-			<column name="strName">Merga Wraith Reappears</column>
+			<column name="strName">Merga Wraith Reaparece</column>
 			<column name="nEncounterID">1534</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -1992,7 +1992,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">131</column>
-			<column name="strName">Reach DMC gates (quarantine 24hr)</column>
+			<column name="strName">Chegou nos portoes de DMC (quarentena 24hr)</column>
 			<column name="nEncounterID">1877</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>
@@ -2007,7 +2007,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">132</column>
-			<column name="strName">Discover Camp Grayling</column>
+			<column name="strName">Descobriu Camp Grayling</column>
 			<column name="nEncounterID">1907</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">0</column>
@@ -2022,7 +2022,7 @@
 		</table>
 		<table name="encountertriggers">
 			<column name="id">133</column>
-			<column name="strName">St. James Parkade Expiration</column>
+			<column name="strName">Expiracao St. James Parkade</column>
 			<column name="nEncounterID">2219</column>
 			<column name="fChance">1</column>
 			<column name="bLocBased">1</column>

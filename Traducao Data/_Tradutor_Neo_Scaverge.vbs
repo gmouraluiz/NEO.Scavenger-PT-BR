@@ -6808,12 +6808,7 @@ End Function
 
 'Total de ids 2264
 Function encounters(id, attr, Line)	
-	Select case id
-		case 1
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "Blank", "Em Branco")
-			End Select
+	Select case id		
 		case 2
 			Select case attr
 				case "strName"
@@ -7088,9 +7083,10 @@ Function encounters(id, attr, Line)
 	encounters = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 133
 Function encountertriggers(id, attr, Line)	
-	Select case id
+	Select case id		
 		case 2
 			Select case attr
 				case "strName"
@@ -7101,11 +7097,191 @@ Function encountertriggers(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "First nightfall", "Primeira noite")
 			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Reach DMC gates", "Chegou nos portoes de DMC")
+			End Select
+		case 5
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found hidden lake", "Lago escondido encontrado")
+			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Reached Clearbone Valley", "Chegou a Clearbone Valley")
+			End Select		
 		case 7
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "Return to cryo", "Retornar para cryo")
 			End Select
+		case 8
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Merga Wraith Appears", "Apareceu Merga Wraith")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Saginaw (day, first visit)", "Saginaw (dia, primeira visita)")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Saginaw (pre-midnight, first visit)", "Saginaw (noite, primeira visita)")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Junk Market", "Mercado de lixo")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "First ruins visit, and scavenging tutorial", "Primeira visita a ruinas, tutorial para vasculhar")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Detroit Mega City", "Descubriu Detroit Mega City")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Reach DMC gates (quarantine 14d)", "Chegou nos portoes de DMC (quarentena 14d)")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Saginaw (post-midnight, first visit)", "Saginaw (madrugada, primeira visita)")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Giizhik stick and Wendigo", "Giizhik galho e Canibal")
+			End Select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hear Zom Zom's", "Escutando Zom Zom's")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Isotope Mine", "Descubra o Mina de isotopo")
+			End Select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Zom Zom's", "Descubriu Zom Zom's")
+			End Select
+		case 110
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Return to ATN (Wendigo Relapse)", "Retornar para ATN (Canibalismo recaida)")
+			End Select
+		case 111
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Attracted dogman (night)", "Atraiu Lobisomem (noite)")
+			End Select
+		case 112
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Attracted dogman (after midnight)", "Atraiu Lobisomem (madrugada)")
+			End Select
+		case 113
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Attracted dogman (day)", "Atraiu Lobisomem (dia)")
+			End Select
+		case 114
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Hades Glade", "Descobriu Hades Glade")
+			End Select
+		case 115
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Allegan Fairgrounds", "Descobriu Allegan Fairgrounds")
+			End Select
+		case 116
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Giizhik stick and hood", "Giizhik galho e capuz")
+			End Select
+		case 117
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Last Chance Canteen", "Descobriu Last Chance Canteen")
+			End Select
+		case 118
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "First sprawl visit", "Primeira visita de expansao")
+			End Select
+		case 119
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover St. James Parkade", "Descobriu St. James Parkade")
+			End Select		
+		case 123
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hypothermic start", "Inicio hipotermico")
+			End Select
+		case 124
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "First swamp visit", "Primeira visita ao pantano")
+			End Select
+		case 125
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Concrete Forest Apts", "Floresta de contrato de Apts")
+			End Select
+		case 126
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ATN Perimeter", "Perimetro ATN")
+			End Select
+		case 127
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Return to ATN (No wendigo)", "Retornar para ATN (N/E Canibal)")
+			End Select
+		case 128
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Return to ATN (new wendigo)", "Retornar para ATN (Novo Canibal)")
+			End Select
+		case 129
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Return to ATN (Enemy, no wendigo)", "Retornar para ATN (Inimigo, N/E Canibal)")
+			End Select
+		case 130
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Merga Wraith Reappears", "Merga Wraith Reaparece")
+			End Select
+		case 131
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Reach DMC gates (quarantine 24hr)", "Chegou nos portoes de DMC (quarentena 24hr)")
+			End Select
+		case 132
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Discover Camp Grayling", "Descobriu Camp Grayling")
+			End Select
+		case 133
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "St. James Parkade Expiration", "Expiracao St. James Parkade")
+			End Select		
 	End Select
 	encountertriggers = CStr(Line)
 End Function
