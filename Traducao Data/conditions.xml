@@ -11320,8 +11320,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">491</column>
-			<column name="strName">Drop Faction Rep 5 (pair)</column>
-			<column name="strDesc">O &lt;us&gt;'s representante da faccao com o alvo do par atual 5 entalhes.</column>
+			<column name="strName">Perde 5 Faccao (Pair)</column>
+			<column name="strDesc">O &lt;us&gt;'s pedeu 5 da faccao Pair.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=-5</column>
@@ -11458,8 +11458,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">497</column>
-			<column name="strName">Saiu de Faction Rep (Pair)</column>
-			<column name="strDesc">Drop Us's faction rep to Them.</column>
+			<column name="strName">Saiu da Faccao (Pair)</column>
+			<column name="strDesc">saiu da faccao Pair.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=-1</column>
@@ -12470,8 +12470,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">541</column>
-			<column name="strName">Can Ask ATN About Spirit</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle about the spirit.</column>
+			<column name="strName">Pergunta a ATN sobre o espirito</column>
+			<column name="strDesc">&lt;us&gt; pergunta Michelle sobre o espirito.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12493,8 +12493,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">542</column>
-			<column name="strName">Can Ask ATN How to Get Rid of Spirit</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle how to get rid of the spirit.</column>
+			<column name="strName">Pergunta a ATN como se livrar do espirito</column>
+			<column name="strDesc">&lt;us&gt; pergunta a ATN como se livrar do espirito.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12516,8 +12516,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">543</column>
-			<column name="strName">Can Ask ATN You Know Me</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle how she knows him.</column>
+			<column name="strName">Pergunta a ATN como me conhece</column>
+			<column name="strDesc">&lt;us&gt; pergunta a Michelle como ela o conhece.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12539,8 +12539,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">544</column>
-			<column name="strName">Can Ask ATN About Ghost Face</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle about Ghost Face.</column>
+			<column name="strName">Pergunta a ATN sobre o rosto do fantasma</column>
+			<column name="strDesc">&lt;us&gt; pergunta a ATN sobre o rosto do fantasma.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12562,8 +12562,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">545</column>
-			<column name="strName">Can Ask ATN About ATN</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle about ATN.</column>
+			<column name="strName">Pergunta para ATN sobre a ATN</column>
+			<column name="strDesc">&lt;us&gt; pergunta para Michelle sobre ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12585,8 +12585,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">546</column>
-			<column name="strName">Using a smudge stick</column>
-			<column name="strDesc">&lt;us&gt; is using a smudge stick.</column>
+			<column name="strName">Usando galho de smudge</column>
+			<column name="strDesc">&lt;us&gt; esta usando galho de smudge.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12608,8 +12608,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">547</column>
-			<column name="strName">Chewed on bear root</column>
-			<column name="strDesc">&lt;us&gt; chewed on some bear root.</column>
+			<column name="strName">Mastigou a raiz do urso</column>
+			<column name="strDesc">&lt;us&gt; mastigou alguma raiz do urso.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12631,8 +12631,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">548</column>
-			<column name="strName">Drop Faction Rep (ATN)</column>
-			<column name="strDesc">Drop -1 from player's rep with all local ATN creatures.</column>
+			<column name="strName">Perdeu 1 Faccao (ATN)</column>
+			<column name="strDesc">Perdeu -1 da Faccao da ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=11,-1</column>
@@ -12654,8 +12654,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">549</column>
-			<column name="strName">Invited to ATN</column>
-			<column name="strDesc">&lt;us&gt; has been invited to ATN by patrol.</column>
+			<column name="strName">Convidado para ATN</column>
+			<column name="strDesc">&lt;us&gt; foi convidado para a faccao ATN pela patrulha.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12677,8 +12677,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">550</column>
-			<column name="strName">Already had ATN female warrior convo 1</column>
-			<column name="strDesc">&lt;us&gt; already had ATN female warrior convo 1.</column>
+			<column name="strName">Ja tinha guerreiro feminino ATN 1</column>
+			<column name="strDesc">&lt;us&gt; ja tinha ATN guerreiro feminino convo 1.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12700,8 +12700,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">551</column>
-			<column name="strName">Exile of ATN</column>
-			<column name="strDesc">&lt;us&gt; became an exile of ATN.</column>
+			<column name="strName">Exilio da ATN</column>
+			<column name="strDesc">&lt;us&gt; tornou-se um exilado de ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12723,8 +12723,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">552</column>
-			<column name="strName">Clean and Dress Wounds</column>
-			<column name="strDesc">&lt;us&gt;'s wounds were cleaned and dressed.</column>
+			<column name="strName">Ferida (Limpa/Novo Curativo)</column>
+			<column name="strDesc">&lt;us&gt;'s as feridas foram limpas e feito novos curativos.</column>
 			<column name="aFieldNames">CleanAndDress</column>
 			<column name="aModifiers">-1</column>
 			<column name="aEffects"></column>
@@ -12746,8 +12746,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">553</column>
-			<column name="strName">Received Sweat Lodge Treatment</column>
-			<column name="strDesc">&lt;us&gt; received sweat lodge treatment.</column>
+			<column name="strName">Recebeu tratamento por sauna</column>
+			<column name="strDesc">&lt;us&gt; recebeu tratamento de suor.</column>
 			<column name="aFieldNames">ResetTemp</column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12769,8 +12769,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">554</column>
-			<column name="strName">Has Visited ATN</column>
-			<column name="strDesc">&lt;us&gt; already visited the ATN.</column>
+			<column name="strName">Visitou ATN</column>
+			<column name="strDesc">&lt;us&gt; visitou a ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12792,8 +12792,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">555</column>
-			<column name="strName">Treated for Wendigo</column>
-			<column name="strDesc">&lt;us&gt; was already treated by ATN for wendigo psychosis.</column>
+			<column name="strName">Tratado para Canibalismo</column>
+			<column name="strDesc">&lt;us&gt; foi tratado pela ATN para a psicose de Canibalismo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12815,8 +12815,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">556</column>
-			<column name="strName">Invisible</column>
-			<column name="strDesc">&lt;us&gt; is impossible to see.</column>
+			<column name="strName">Invisivel</column>
+			<column name="strDesc">&lt;us&gt; e impossivel ver.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -12838,8 +12838,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">557</column>
-			<column name="strName">Force Despawn in 0.05 Hours</column>
-			<column name="strDesc">&lt;us&gt; will despawn in 0.05 hours, no matter what.</column>
+			<column name="strName">Forcar desaparecer em 0.05 horas</column>
+			<column name="strDesc">&lt;us&gt; Desaparecer em 0.05 horas, nao importa o que.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12861,8 +12861,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">558</column>
-			<column name="strName">DMC Guard</column>
-			<column name="strDesc">&lt;us&gt; is a member of the DMC guard/SkyCorps.</column>
+			<column name="strName">DMC Guarda</column>
+			<column name="strDesc">&lt;us&gt; e um membro da DMC Guarda/SkyCorps.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12885,7 +12885,7 @@
 		<table name="conditions">
 			<column name="id">559</column>
 			<column name="strName">Radio DMC Sniper</column>
-			<column name="strDesc">&lt;us&gt; radioed for sniper support fire!</column>
+			<column name="strDesc">&lt;us&gt; radio para fogo de suporte de atirador!</column>
 			<column name="aFieldNames">SpawnNewCreature</column>
 			<column name="aModifiers">17</column>
 			<column name="aEffects"></column>
@@ -12907,8 +12907,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">560</column>
-			<column name="strName">Unshakable</column>
-			<column name="strDesc">This AI is never going to retreat.</column>
+			<column name="strName">Incomparavel</column>
+			<column name="strDesc">Este AI nunca vai se retirar.</column>
 			<column name="aFieldNames">m_fMoraleHidden</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>

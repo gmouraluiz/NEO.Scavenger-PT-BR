@@ -4852,10 +4852,10 @@ Function conditions(id, attr, Line)
 		case 491
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Drop Faction Rep 5 (pair)", "Drop Faction Rep 5 (pair)")
+					Line = Replace(Line, "Drop Faction Rep 5 (pair)", "Perde 5 Faccao (Pair)")
 				case "strDesc"
 					Line = Replace(Line, "Drops", "O")
-					Line = Replace(Line, "faction rep with current pair's target 5 notches", "representante da faccao com o alvo do par atual 5 entalhes")
+					Line = Replace(Line, "faction rep with current pair's target 5 notches", "pedeu 5 da faccao Pair")
 			End Select
 		case 492
 			Select case attr
@@ -4895,9 +4895,9 @@ Function conditions(id, attr, Line)
 		case 497
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Drop Faction Rep (Pair)", "Saiu de Faction Rep (Pair)")
+					Line = Replace(Line, "Drop Faction Rep (Pair)", "Saiu da Faccao (Pair)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Drop Us's faction rep to Them", "saiu da faccao Pair")
 			End Select
 		case 498
 			Select case attr
@@ -5200,145 +5200,147 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "can ask Michelle why in photo", "pode pedir a Michelle porque da foto")
 			End Select
-		case 000
+		case 541
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Can Ask ATN About Spirit", "Pergunta a ATN sobre o espirito")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "can ask Michelle about the spirit", "pergunta Michelle sobre o espirito")
 			End Select
-		case 000
+		case 542
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Can Ask ATN How to Get Rid of Spirit", "Pergunta a ATN como se livrar do espirito")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "can ask Michelle how to get rid of the spirit", "pergunta a ATN como se livrar do espirito")
 			End Select
-		case 000
+		case 543
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Can Ask ATN You Know Me", "Pergunta a ATN como me conhece")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "can ask Michelle how she knows him", "pergunta a Michelle como ela o conhece")
 			End Select
-		case 000
+		case 544
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Can Ask ATN About Ghost Face", "Pergunta a ATN sobre o rosto do fantasma")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "can ask Michelle about Ghost Face", "pergunta a ATN sobre o rosto do fantasma")
 			End Select
-		case 000
+		case 545
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Can Ask ATN About ATN", "Pergunta para ATN sobre a ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "can ask Michelle about ATN", "pergunta para Michelle sobre ATN")
 			End Select
-		case 000
+		case 546
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Using a smudge stick", "Usando galho de smudge")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is using a smudge stick", "esta usando galho de smudge")
 			End Select
-		case 000
+		case 547
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Chewed on bear root", "Mastigou a raiz do urso")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "chewed on some bear root", "mastigou alguma raiz do urso")
 			End Select
-		case 000
+		case 548
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drop Faction Rep (ATN)", "Perdeu 1 Faccao (ATN)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Drop -1 from player's rep with all local ATN creatures", "Perdeu -1 da Faccao da ATN")
 			End Select
-		case 000
+		case 549
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Invited to ATN", "Convidado para ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has been invited to ATN by patrol", "foi convidado para a faccao ATN pela patrulha")
 			End Select
-		case 000
+		case 550
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already had ATN female warrior convo 1", "Ja tinha guerreiro feminino ATN 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had ATN female warrior convo 1", "ja tinha ATN guerreiro feminino convo 1")
 			End Select
-		case 000
+		case 551
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Exile of ATN", "Exilio da ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "became an exile of ATN", "tornou-se um exilado de ATN")
 			End Select
-		case 000
+		case 552
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Clean and Dress Wounds", "Ferida (Limpa/Novo Curativo)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "wounds were cleaned and dressed", "as feridas foram limpas e feito novos curativos")
 			End Select
-		case 000
+		case 553
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received Sweat Lodge Treatment", "Recebeu tratamento por sauna")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received sweat lodge treatment", "recebeu tratamento de suor")
 			End Select
-		case 000
+		case 554
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Has Visited ATN", "Visitou ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already visited the ATN", "visitou a ATN")
 			End Select
-		case 000
+		case 555
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Treated for Wendigo", "Tratado para Canibalismo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was already treated by ATN for wendigo psychosis", "foi tratado pela ATN para a psicose de Canibalismo")
 			End Select
-		case 000
+		case 556
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Invisible", "Invisivel")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is impossible to see", "e impossivel ver")
 			End Select
-		case 000
+		case 557
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Force Despawn in 0.05 Hours", "Forcar desaparecer em 0.05 horas")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "will despawn in 0.05 hours, no matter what", "Desaparecer em 0.05 horas, nao importa o que")
 			End Select
-		case 000
+		case 558
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					If(Line = "DMC Guard") Then
+						Line = Replace(Line, "DMC Guard", "DMC Guarda")
+					End If
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is a member of the DMC guard/SkyCorps", "e um membro da DMC Guarda/SkyCorps")
 			End Select
-		case 000
+		case 559
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Radio DMC Sniper", "Radio DMC Sniper")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "radioed for sniper support fire", "radio para fogo de suporte de atirador")
 			End Select
-		case 000
+		case 560
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Unshakable", "Incomparavel")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "This AI is never going to retreat", "Este AI nunca vai se retirar")
 			End Select
 		case 000
 			Select case attr
