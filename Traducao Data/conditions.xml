@@ -11550,8 +11550,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">501</column>
-			<column name="strName">Doesn't Need Water</column>
-			<column name="strDesc">&lt;us&gt; is immune to dehydration.</column>
+			<column name="strName">Nao precisa de agua</column>
+			<column name="strDesc">&lt;us&gt; e imune a desidratacao.</column>
 			<column name="aFieldNames">fWaterConsumptionRate</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -11573,8 +11573,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">502</column>
-			<column name="strName">Doesn't Need Food</column>
-			<column name="strDesc">&lt;us&gt; is immune to hunger.</column>
+			<column name="strName">Nao precisa de comida</column>
+			<column name="strDesc">&lt;us&gt; a imune a fome.</column>
 			<column name="aFieldNames">fFoodConsumptionRate</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -11596,8 +11596,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">503</column>
-			<column name="strName">Doesn't Need Sleep</column>
-			<column name="strDesc">&lt;us&gt; is immune to fatigue.</column>
+			<column name="strName">Nao precisa dormir</column>
+			<column name="strDesc">&lt;us&gt; e imune a fadiga.</column>
 			<column name="aFieldNames">m_fFatigueModifier</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -11619,8 +11619,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">504</column>
-			<column name="strName">Known</column>
-			<column name="strDesc">&lt;us&gt; is known to Player, and shows private name.</column>
+			<column name="strName">Conhecido</column>
+			<column name="strDesc">&lt;us&gt; e conhecido pelo jogador e mostra o nome privado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11642,8 +11642,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">505</column>
-			<column name="strName">Drawing Attention</column>
-			<column name="strDesc">&lt;us&gt; made themselves easy to see for a moment.</column>
+			<column name="strName">Chamando atencao</column>
+			<column name="strDesc">&lt;us&gt; se tornaram faceis de se ver por um momento.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -11665,8 +11665,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">506</column>
-			<column name="strName">Offered Talk</column>
-			<column name="strDesc">&lt;us&gt; offered to talk.</column>
+			<column name="strName">Conversa oferecida</column>
+			<column name="strDesc">&lt;us&gt; oferecido para falar.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11688,8 +11688,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">507</column>
-			<column name="strName">Drop Faction Rep (Looter)</column>
-			<column name="strDesc">Drop -1 from player's rep with all local Looter creatures.</column>
+			<column name="strName">Perde 1 Faccao (Saqueador)</column>
+			<column name="strDesc">Perde -1 da Faccao de Saqueador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=2,-1</column>
@@ -11711,8 +11711,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">508</column>
-			<column name="strName">Add Faction Rep (Looter)</column>
-			<column name="strDesc">Add +1 to player's rep with all local Looter creatures.</column>
+			<column name="strName">Add 1 Faccao (Saqueador)</column>
+			<column name="strDesc">Adicione +1 a Faccao de Saqueador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=2,1</column>
@@ -11734,8 +11734,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">509</column>
-			<column name="strName">Drop Faction Rep 5 (Looter)</column>
-			<column name="strDesc">Drop -5 player's rep with all local Looter creatures.</column>
+			<column name="strName">Perde 5 Faccao (Saqueador)</column>
+			<column name="strDesc">Perde -5 a Faccao de Saqueador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=2,-5</column>
@@ -11757,8 +11757,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">510</column>
-			<column name="strName">Add Faction Rep 5 (Looter)</column>
-			<column name="strDesc">Add +5 player's rep to all local Looter creatures.</column>
+			<column name="strName">Add 5 Faccao (Saqueador)</column>
+			<column name="strDesc">Adicione +5 a Faccao de Saqueador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=2,5</column>
@@ -11780,8 +11780,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">511</column>
-			<column name="strName">Marked Target (1 hour)</column>
-			<column name="strDesc">&lt;us&gt; is much more likely to be attacked for the next hour.</column>
+			<column name="strName">Marcado como alvo (1 hora)</column>
+			<column name="strDesc">&lt;us&gt; e muito mais provavel que seja atacado pela proxima 1 hora.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">-2</column>
 			<column name="aEffects"></column>
@@ -11803,8 +11803,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">512</column>
-			<column name="strName">Looter Biddy 1</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 1 with Biddy.</column>
+			<column name="strName">Saqueador Biddy 1</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 1 chamado Biddy.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11826,8 +11826,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">513</column>
-			<column name="strName">Looter Biddy 2</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 2 with Biddy.</column>
+			<column name="strName">Saqueador Biddy 2</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 2 chamado Biddy.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11849,8 +11849,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">514</column>
-			<column name="strName">Looter Shifty 1</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 1 with Shifty.</column>
+			<column name="strName">Saqueador Shifty 1</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 1 chamado Shifty.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11872,8 +11872,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">515</column>
-			<column name="strName">Looter Shifty 2</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 2 with Shifty.</column>
+			<column name="strName">Saqueador Shifty 2</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 2 chamado Shifty.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11895,8 +11895,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">516</column>
-			<column name="strName">Looter Rita 1</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 1 with Rita.</column>
+			<column name="strName">Saqueador Rita 1</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 1 chamado Rita.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11918,8 +11918,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">517</column>
-			<column name="strName">Looter Rita 2</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 2 with Rita.</column>
+			<column name="strName">Saqueador Rita 2</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 2 chamado Rita.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11941,8 +11941,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">518</column>
-			<column name="strName">Looter John 1</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 1 with John.</column>
+			<column name="strName">Saqueador John 1</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 1 chamado John.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11964,8 +11964,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">519</column>
-			<column name="strName">Looter John 2</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 2 with John.</column>
+			<column name="strName">Saqueador John 2</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 2 chamado John.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -11987,8 +11987,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">520</column>
-			<column name="strName">Looter Kim 1</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 1 with Kim.</column>
+			<column name="strName">Saqueador Kim 1</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 1 chamado Kim.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12010,8 +12010,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">521</column>
-			<column name="strName">Looter Kim 2</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 2 with Kim.</column>
+			<column name="strName">Saqueador Kim 2</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 2 chamado Kim.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12033,8 +12033,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">522</column>
-			<column name="strName">Looter Biddy 3</column>
-			<column name="strDesc">&lt;us&gt; already had looter conversation 3 with Biddy.</column>
+			<column name="strName">Saqueador Biddy 3</column>
+			<column name="strDesc">&lt;us&gt; teve uma conversa com um saqueador 3 chamado Biddy.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12056,8 +12056,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">523</column>
-			<column name="strName">Wearing light shorts</column>
-			<column name="strDesc">&lt;us&gt; is wearing a pair of light shorts.</column>
+			<column name="strName">Vestindo shorts leves</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo um par de shorts leves.</column>
 			<column name="aFieldNames">MinSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-1.5,-0.2</column>
 			<column name="aEffects">ArmorWound=108,0.04,0.02;ArmorWound=114,0.04,0.02;</column>
@@ -12079,8 +12079,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">524</column>
-			<column name="strName">Wearing shirt</column>
-			<column name="strDesc">&lt;us&gt; is wearing a shirt.</column>
+			<column name="strName">Vestindo camisa</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo uma camisa.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-7,-6,-1</column>
 			<column name="aEffects">ArmorWound=100,0.04,0.02;ArmorWound=111,0.04,0.02;ArmorWound=102,0.04,0.02;ArmorWound=112,0.04,0.02;ArmorWound=103,0.04,0.02;ArmorWound=113,0.04,0.02;ArmorWound=104,0.04,0.02;ArmorWound=105,0.04,0.02;ArmorWound=106,0.04,0.02;ArmorWound=107,0.04,0.02;</column>
@@ -12102,8 +12102,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">525</column>
-			<column name="strName">Wearing a tough glove</column>
-			<column name="strDesc">&lt;us&gt; is wearing a tough glove.</column>
+			<column name="strName">Vestindo uma luvas resistente</column>
+			<column name="strDesc">&lt;us&gt; esta usando uma luva resistente.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-1,0,-0.05</column>
 			<column name="aEffects"></column>
@@ -12125,8 +12125,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">526</column>
-			<column name="strName">Wearing warm head cover</column>
-			<column name="strDesc">&lt;us&gt; is wearing a warm head covering.</column>
+			<column name="strName">Vestindo a touca</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo uma touca.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-3.5,-3,-0.5</column>
 			<column name="aEffects">ArmorWound=101,0.06,0.03;</column>
@@ -12148,8 +12148,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">527</column>
-			<column name="strName">Wearing Type IV head armor</column>
-			<column name="strDesc">&lt;us&gt; is wearing Type IV head armor.</column>
+			<column name="strName">Vestindo capacete T/IV</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo capacete de Tipo IV.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects">ArmorWound=101,4,1.0</column>
@@ -12171,8 +12171,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">528</column>
-			<column name="strName">Wearing Type III torso armor</column>
-			<column name="strDesc">&lt;us&gt; is wearing Type III torso armor.</column>
+			<column name="strName">Vestindo torso T/III</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo armadura de torso tipo III.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation,m_fMorale</column>
 			<column name="aModifiers">-42,-15,-2.5,0.2</column>
 			<column name="aEffects">ArmorWound=100,3,0.8;ArmorWound=111,3,0.8;ArmorWound=104,3,0.8;ArmorWound=105,3,0.8;ArmorWound=106,3,0.8;ArmorWound=107,3,0.8</column>
@@ -12194,8 +12194,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">529</column>
-			<column name="strName">Despawn in 8 Hours</column>
-			<column name="strDesc">&lt;us&gt; will despawn in 8 hours.</column>
+			<column name="strName">Desaparece em 8 horas</column>
+			<column name="strDesc">&lt;us&gt; desaparece em 8 horas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12217,8 +12217,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">530</column>
-			<column name="strName">Despawn</column>
-			<column name="strDesc">&lt;us&gt; is despawning.</column>
+			<column name="strName">Desaparece</column>
+			<column name="strDesc">&lt;us&gt; esta desaparecendo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">Despawn=0</column>
@@ -12240,8 +12240,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">531</column>
-			<column name="strName">Despawn in 1 Hour</column>
-			<column name="strDesc">&lt;us&gt; will despawn in 1 hour.</column>
+			<column name="strName">Desaparece em 1 horas</column>
+			<column name="strDesc">&lt;us&gt; desaparece em 1 horas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12263,8 +12263,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">532</column>
-			<column name="strName">DMC Guard 1</column>
-			<column name="strDesc">&lt;us&gt; already had DMC guard conversation 1.</column>
+			<column name="strName">DMC Guarda 1</column>
+			<column name="strDesc">&lt;us&gt; conversou com DMC Guarda 1.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12286,8 +12286,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">533</column>
-			<column name="strName">DMC Guard 2</column>
-			<column name="strDesc">&lt;us&gt; already had DMC guard conversation 2.</column>
+			<column name="strName">DMC Guarda 2</column>
+			<column name="strDesc">&lt;us&gt; conversou com DMC Guarda 2.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -12309,8 +12309,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">534</column>
-			<column name="strName">Drop Faction Rep (DMC)</column>
-			<column name="strDesc">Drop -1 from player's rep with all local DMC creatures.</column>
+			<column name="strName">Perdeu 1 Faccao (DMC)</column>
+			<column name="strDesc">Perdeu -1 da Faccao da DMC</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=10,-1</column>
@@ -12332,8 +12332,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">535</column>
-			<column name="strName">Weathered Loadout</column>
-			<column name="strDesc">&lt;us&gt; has their starting loadout weathered.</column>
+			<column name="strName">Carga avaliada</column>
+			<column name="strDesc">&lt;us&gt; o seu carregamento inicial esta resistido.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12355,8 +12355,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">536</column>
-			<column name="strName">Killed by an Anishinaabe Tribal Warrior</column>
-			<column name="strDesc">&lt;us&gt; was killed by an Anishinaabe Tribal Warrior.</column>
+			<column name="strName">Morto por um Guerreiro Tribal Anishinaabe</column>
+			<column name="strDesc">&lt;us&gt; foi morto por um Guerreiro Tribal Anishinaabe.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12378,8 +12378,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">537</column>
-			<column name="strName">Michelle Has Asked Her Question</column>
-			<column name="strDesc">&lt;us&gt; answered Michelle's question of where he's been.</column>
+			<column name="strName">Michelle perguntou-lhe</column>
+			<column name="strDesc">&lt;us&gt; respondeu a pergunta de Michelle de onde ele esteve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12401,8 +12401,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">538</column>
-			<column name="strName">Can Ask ATN How Long Ago</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle how long ago.</column>
+			<column name="strName">Pergunte a ATN quanto tempo?</column>
+			<column name="strDesc">&lt;us&gt; perguntou a Michelle ha quanto tempo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12424,8 +12424,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">539</column>
-			<column name="strName">Can Ask ATN What is Talisman</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle what the talisman is.</column>
+			<column name="strName">Pergunte ATN o que e um Talisman</column>
+			<column name="strDesc">&lt;us&gt; perguntou a Michelle o que um  talisma.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -12447,8 +12447,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">540</column>
-			<column name="strName">Can Ask ATN Why In Photo</column>
-			<column name="strDesc">&lt;us&gt; can ask Michelle why in photo.</column>
+			<column name="strName">Perguntar a ATN porque da foto</column>
+			<column name="strDesc">&lt;us&gt; pode pedir a Michelle porque da foto.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>

@@ -4920,208 +4920,285 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "prefers to not fight right now", "prefere nao lutar neste momento")
 			End Select
-		case 000
+		case 501
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Doesn't Need Water", "Nao precisa de agua")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is immune to dehydration", "e imune a desidratacao")
 			End Select
-		case 000
+		case 502
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Doesn't Need Food", "Nao precisa de comida")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is immune to hunger", "a imune a fome")
 			End Select
-		case 000
+		case 503
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Doesn't Need Sleep", "Nao precisa dormir")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is immune to fatigue", "e imune a fadiga")
 			End Select
-		case 000
+		case 504
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Known", "Conhecido")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is known to Player, and shows private name", "e conhecido pelo jogador e mostra o nome privado")
 			End Select
-		case 000
+		case 505
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drawing Attention", "Chamando atencao")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "made themselves easy to see for a moment", "se tornaram faceis de se ver por um momento")
 			End Select
-		case 000
+		case 506
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Offered Talk", "Conversa oferecida")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "offered to talk", "oferecido para falar")
 			End Select
-		case 000
+		case 507
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drop Faction Rep (Looter)", "Perde 1 Faccao (Saqueador)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Drop -1 from player's rep with all local Looter creatures", "Perde -1 da Faccao de Saqueador")
 			End Select
-		case 000
+		case 508
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Add Faction Rep (Looter)", "Add 1 Faccao (Saqueador)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Add +1 to player's rep with all local Looter creatures", "Adicione +1 a Faccao de Saqueador")
 			End Select
-		case 000
+		case 509
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drop Faction Rep 5 (Looter)", "Perde 5 Faccao (Saqueador)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Drop -5 player's rep with all local Looter creatures", "Perde -5 a Faccao de Saqueador")
 			End Select
-		case 000
+		case 510
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Add Faction Rep 5 (Looter)", "Add 5 Faccao (Saqueador)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Add +5 player's rep to all local Looter creatures", "Adicione +5 a Faccao de Saqueador")
 			End Select
-		case 000
+		case 511
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Marked Target (1 hour)", "Marcado como alvo (1 hora)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is much more likely to be attacked for the next hour", "e muito mais provavel que seja atacado pela proxima 1 hora")
 			End Select
-		case 000
+		case 512
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Biddy 1", "Saqueador Biddy 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 1 with Biddy", "teve uma conversa com um saqueador 1 chamado Biddy")
 			End Select
-		case 000
+		case 513
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Biddy 2", "Saqueador Biddy 2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 2 with Biddy", "teve uma conversa com um saqueador 2 chamado Biddy")
 			End Select
-		case 000
+		case 514
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Shifty 1", "Saqueador Shifty 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 1 with Shifty", "teve uma conversa com um saqueador 1 chamado Shifty")
 			End Select
-		case 000
+		case 515
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Shifty 2", "Saqueador Shifty 2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 2 with Shifty", "teve uma conversa com um saqueador 2 chamado Shifty")
 			End Select
-		case 000
+		case 516
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Rita 1", "Saqueador Rita 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 1 with Rita", "teve uma conversa com um saqueador 1 chamado Rita")
 			End Select
-		case 000
+		case 517
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Rita 2", "Saqueador Rita 2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 2 with Rita", "teve uma conversa com um saqueador 2 chamado Rita")
 			End Select
-		case 000
+		case 518
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter John 1", "Saqueador John 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 1 with John", "teve uma conversa com um saqueador 1 chamado John")
 			End Select
-		case 000
+		case 519
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter John 2", "Saqueador John 2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 2 with John", "teve uma conversa com um saqueador 2 chamado John")
 			End Select
-		case 000
+		case 520
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Kim 1", "Saqueador Kim 1")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 1 with Kim", "teve uma conversa com um saqueador 1 chamado Kim")
 			End Select
-		case 000
+		case 521
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Kim 2", "Saqueador Kim 2")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 2 with Kim", "teve uma conversa com um saqueador 2 chamado Kim")
 			End Select
-		case 000
+		case 522
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looter Biddy 3", "Saqueador Biddy 3")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already had looter conversation 3 with Biddy", "teve uma conversa com um saqueador 3 chamado Biddy")
 			End Select
-		case 000
+		case 523
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing light shorts", "Vestindo shorts leves")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing a pair of light shorts", "esta vestindo um par de shorts leves")
 			End Select
-		case 000
+		case 524
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing shirt", "Vestindo camisa")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing a shirt", "esta vestindo uma camisa")
 			End Select
-		case 000
+		case 525
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing a tough glove", "Vestindo uma luvas resistente")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing a tough glove", "esta usando uma luva resistente")
 			End Select
-		case 000
+		case 526
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing warm head cover", "Vestindo a touca")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing a warm head covering", "esta vestindo uma touca")
 			End Select
-		case 000
+		case 527
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing Type IV head armor", "Vestindo capacete T/IV")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing Type IV head armor", "esta vestindo capacete de Tipo IV")
 			End Select
-		case 000
+		case 528
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing Type III torso armor", "Vestindo torso T/III")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing Type III torso armor", "esta vestindo armadura de torso tipo III")
 			End Select
-		case 000
+		case 529
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Despawn in 8 Hours", "Desaparece em 8 horas")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "will despawn in 8 hours", "desaparece em 8 horas")
+			End Select
+		case 530
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Despawn", "Desaparece")
+				case "strDesc"
+					Line = Replace(Line, "is despawning", "esta desaparecendo")
+			End Select
+		case 531
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Despawn in 1 Hour", "Desaparece em 1 horas")
+				case "strDesc"
+					Line = Replace(Line, "will despawn in 1 hour", "desaparece em 1 horas")
+			End Select
+		case 532
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC Guard 1", "DMC Guarda 1")
+				case "strDesc"
+					Line = Replace(Line, "already had DMC guard conversation 1", "conversou com DMC Guarda 1")
+			End Select
+		case 533
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC Guard 2", "DMC Guarda 2")
+				case "strDesc"
+					Line = Replace(Line, "already had DMC guard conversation 2", "conversou com DMC Guarda 2")
+			End Select
+		case 534
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drop Faction Rep (DMC)", "Perdeu 1 Faccao (DMC)")
+				case "strDesc"
+					Line = Replace(Line, "Drop -1 from player's rep with all local DMC creatures.", "Perdeu -1 da Faccao da DMC")
+			End Select
+		case 535
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Weathered Loadout", "Carga avaliada")
+				case "strDesc"
+					Line = Replace(Line, "has their starting loadout weathered", "o seu carregamento inicial esta resistido")
+			End Select
+		case 536
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by an Anishinaabe Tribal Warrior", "Morto por um Guerreiro Tribal Anishinaabe")
+				case "strDesc"
+					Line = Replace(Line, "was killed by an Anishinaabe Tribal Warrior", "foi morto por um Guerreiro Tribal Anishinaabe")
+			End Select
+		case 537
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Michelle Has Asked Her Question", "Michelle perguntou-lhe")
+				case "strDesc"
+					Line = Replace(Line, "answered Michelle's question of where he's been", "respondeu a pergunta de Michelle de onde ele esteve")
+			End Select
+		case 538
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Ask ATN How Long Ago", "Pergunte a ATN quanto tempo?")
+				case "strDesc"
+					Line = Replace(Line, "can ask Michelle how long ago", "perguntou a Michelle ha quanto tempo")
+			End Select
+		case 539
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Ask ATN What is Talisman", "Pergunte ATN o que e um Talisman")
+				case "strDesc"
+					Line = Replace(Line, "can ask Michelle what the talisman is", "perguntou a Michelle o que um  talisma")
+			End Select
+		case 540
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Can Ask ATN Why In Photo", "Perguntar a ATN porque da foto")
+				case "strDesc"
+					Line = Replace(Line, "can ask Michelle why in photo", "pode pedir a Michelle porque da foto")
 			End Select
 		case 000
 			Select case attr
