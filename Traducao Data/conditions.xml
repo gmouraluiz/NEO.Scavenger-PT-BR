@@ -12907,7 +12907,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">560</column>
-			<column name="strName">Incomparavel</column>
+			<column name="strName">AI Incomparavel</column>
 			<column name="strDesc">Este AI nunca vai se retirar.</column>
 			<column name="aFieldNames">m_fMoraleHidden</column>
 			<column name="aModifiers">2</column>
