@@ -13505,8 +13505,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">586</column>
-			<column name="strName">Trigger Return to Strange Forest</column>
-			<column name="strDesc">&lt;us&gt; is visiting the Strange Forest again.</column>
+			<column name="strName">Retornou a Estranha Floresta</column>
+			<column name="strDesc">&lt;us&gt; esta visitando a Estranha Floresta novamente.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1025</column>
 			<column name="aEffects"></column>
@@ -13528,8 +13528,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">587</column>
-			<column name="strName">Trigger Strange Forest</column>
-			<column name="strDesc">&lt;us&gt; is visiting the Strange Forest.</column>
+			<column name="strName">Visitando Estranha Floresta</column>
+			<column name="strDesc">&lt;us&gt; esta visitando a Estranha Floresta.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">766</column>
 			<column name="aEffects"></column>
@@ -13551,8 +13551,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">588</column>
-			<column name="strName">Trigger Isotope Mine</column>
-			<column name="strDesc">&lt;us&gt; is visiting the Isotope Mine.</column>
+			<column name="strName">Visitando Mina de isotopo</column>
+			<column name="strDesc">&lt;us&gt; esta visitando Mina de isotopo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">199</column>
 			<column name="aEffects"></column>
@@ -13574,8 +13574,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">589</column>
-			<column name="strName">Trigger Return to Isotope Mine</column>
-			<column name="strDesc">&lt;us&gt; is returning to the Isotope Mine.</column>
+			<column name="strName">Retornou a Mina de isotopo</column>
+			<column name="strDesc">&lt;us&gt; esta visitando Mina de isotopo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1031</column>
 			<column name="aEffects"></column>
@@ -13597,8 +13597,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">590</column>
-			<column name="strName">Trigger Return to Isotope Mine Cistern Lid</column>
-			<column name="strDesc">&lt;us&gt; is returning to the Isotope Mine cistern lid.</column>
+			<column name="strName">Retornou a Cisterna da Mina de isotopo</column>
+			<column name="strDesc">&lt;us&gt; esta retornando a Cisterna da Mina de isotopo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1067</column>
 			<column name="aEffects"></column>
@@ -13620,8 +13620,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">591</column>
-			<column name="strName">Trigger Return to Isotope Mine Broken Ladder</column>
-			<column name="strDesc">&lt;us&gt; is returning to the Isotope Mine broken ladder.</column>
+			<column name="strName">Retornou a Escada quebradas da Mina de isotopo</column>
+			<column name="strDesc">&lt;us&gt; esta retornando a Escada quebradas da Mina de isotopo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1068</column>
 			<column name="aEffects"></column>
@@ -13643,8 +13643,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">592</column>
-			<column name="strName">Trigger Return to Isotope Mine Ladder</column>
-			<column name="strDesc">&lt;us&gt; is returning to the Isotope Mine ladder.</column>
+			<column name="strName">Retornou a Escadas da Mina de isotopo</column>
+			<column name="strDesc">&lt;us&gt; esta retornando a Escadas da Mina de isotopo.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1069</column>
 			<column name="aEffects"></column>
@@ -13666,8 +13666,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">593</column>
-			<column name="strName">Trigger Allegan Fairgrounds</column>
-			<column name="strDesc">&lt;us&gt; is entering Allegan Fairgrounds.</column>
+			<column name="strName">Visitando Allegan Fairgrounds</column>
+			<column name="strDesc">&lt;us&gt; esta entrando em Allegan Fairgrounds.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">936</column>
 			<column name="aEffects"></column>
@@ -13689,8 +13689,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">594</column>
-			<column name="strName">Trigger Return to Allegan Fairgrounds</column>
-			<column name="strDesc">&lt;us&gt; is returning to Allegan Fairgrounds.</column>
+			<column name="strName">Retornou a Allegan Fairgrounds</column>
+			<column name="strDesc">&lt;us&gt; esta retornando a Allegan Fairgrounds.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">934</column>
 			<column name="aEffects"></column>
@@ -13712,8 +13712,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">595</column>
-			<column name="strName">Hourly Chance of Dogman Protection</column>
-			<column name="strDesc">&lt;us&gt; has a chance of gaining protection from dogmen each hour.</column>
+			<column name="strName">Chance de protecao contra Lobisomem</column>
+			<column name="strDesc">&lt;us&gt; tem a chance de obter protecao contra os Lobisomem a cada hora.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -13735,8 +13735,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">596</column>
-			<column name="strName">Add Global Faction Rep 200 (Dogman)</column>
-			<column name="strDesc">Add 200 player's rep to all current and future Dogman creatures.</column>
+			<column name="strName">Add 200 Faccao (Lobisomem)</column>
+			<column name="strDesc">Adicione +200 a Faccao dos Lobisomem.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeGlobalFactionRep=1,200,1</column>
@@ -13758,8 +13758,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">597</column>
-			<column name="strName">Wearing 3 Dog Moon shirt</column>
-			<column name="strDesc">&lt;us&gt; is wearing the legendary "3 Dog Moon" T-shirt.</column>
+			<column name="strName">Vestindo camiseta de Lobo</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo a lendaria roupa de "Lobo" camiseta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -13781,8 +13781,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">598</column>
-			<column name="strName">Flagged by DMC Guard</column>
-			<column name="strDesc">&lt;us&gt; was flagged by DMC guards on patrol, and is wanted.</column>
+			<column name="strName">Marcado pelo DMC Guarda</column>
+			<column name="strDesc">&lt;us&gt; foi marcado pela DMC Guarda de patrulha e esta sendo procurado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13804,8 +13804,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">599</column>
-			<column name="strName">Pending Flag by DMC Guard</column>
-			<column name="strDesc">&lt;us&gt; is about to be flagged by DMC guards on patrol.</column>
+			<column name="strName">Vai ser marcado pela DMC Guarda</column>
+			<column name="strDesc">&lt;us&gt; esta prestes a ser marcado pela DMC Guarda de patrulha.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13827,8 +13827,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">600</column>
-			<column name="strName">Already ate at ATN today</column>
-			<column name="strDesc">&lt;us&gt; already ate food at ATN today.</column>
+			<column name="strName">Comeu na ATN</column>
+			<column name="strDesc">&lt;us&gt; comeu comida na ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>

@@ -5517,110 +5517,112 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is visiting Zom Zom's", "esta visitando Zom Zom's")
 			End Select
-		case 000
+		case 586
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Strange Forest", "Retornou a Estranha Floresta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting the Strange Forest again", "esta visitando a Estranha Floresta novamente")
 			End Select
-		case 000
+		case 587
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Strange Forest", "Visitando Estranha Floresta")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting the Strange Forest", "esta visitando a Estranha Floresta")
 			End Select
-		case 000
+		case 588
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Isotope Mine", "Visitando Mina de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is visiting the Isotope Mine", "esta visitando Mina de isotopo")
 			End Select
-		case 000
+		case 589
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Isotope Mine", "Retornou a Mina de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to the Isotope Mine", "esta visitando Mina de isotopo")
 			End Select
-		case 000
+		case 590
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Isotope Mine Cistern Lid", "Retornou a Cisterna da Mina de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to the Isotope Mine cistern lid", "esta retornando a Cisterna da Mina de isotopo")
 			End Select
-		case 000
+		case 591
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Isotope Mine Broken Ladder", "Retornou a Escada quebradas da Mina de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to the Isotope Mine broken ladder", "esta retornando a Escada quebradas da Mina de isotopo")
 			End Select
-		case 000
+		case 592
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Isotope Mine Ladder", "Retornou a Escadas da Mina de isotopo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to the Isotope Mine ladder", "esta retornando a Escadas da Mina de isotopo")
 			End Select
-		case 000
+		case 593
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Allegan Fairgrounds", "Visitando Allegan Fairgrounds")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is entering Allegan Fairgrounds", "esta entrando em Allegan Fairgrounds")
 			End Select
-		case 000
+		case 594
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Allegan Fairgrounds", "Retornou a Allegan Fairgrounds")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Allegan Fairgrounds", "esta retornando a Allegan Fairgrounds")
 			End Select
-		case 000
+		case 595
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Hourly Chance of Dogman Protection", "Chance de protecao contra Lobisomem")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has a chance of gaining protection from dogmen each hour", "tem a chance de obter protecao contra os Lobisomem a cada hora")
 			End Select
-		case 000
+		case 596
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Add Global Faction Rep 200 (Dogman)", "Add 200 Faccao (Lobisomem)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Add 200 player's rep to all current and future Dogman creatures", "Adicione +200 a Faccao dos Lobisomem")
 			End Select
-		case 000
+		case 597
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Wearing 3 Dog Moon shirt", "Vestindo camiseta de Lobo")
+				case "strDesc"					
+					Line = Replace(Line, "is wearing the legendary", "esta vestindo a lendaria roupa de")
+					Line = Replace(Line, "3 Dog Moon", "Lobo")
+					Line = Replace(Line, "T-shirt", "camiseta")
 			End Select
-		case 000
+		case 598
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Flagged by DMC Guard", "Marcado pelo DMC Guarda")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was flagged by DMC guards on patrol, and is wanted", "foi marcado pela DMC Guarda de patrulha e esta sendo procurado")
 			End Select
-		case 000
+		case 599
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Pending Flag by DMC Guard", "Vai ser marcado pela DMC Guarda")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is about to be flagged by DMC guards on patrol", "esta prestes a ser marcado pela DMC Guarda de patrulha")
 			End Select
-		case 000
+		case 600
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Already ate at ATN today", "Comeu na ATN")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "already ate food at ATN today", "comeu comida na ATN")
 			End Select
 		case 000
 			Select case attr
@@ -6797,9 +6799,9 @@ Function datafiles(id, attr, Line)
 				Case "strName"
 					Line = Replace(Line, "Text File", "Arquivo de Texto")	
 				Case "strDesc"
-					Line = Replace(Line, "3 Dog Moon", "3 Caes Vagueando")	
-					Line = Replace(Line, "T-Shirt Review", "Revisao do T-Shirt")	
-					Line = Replace(Line, "This shirt has changed my life. I don't know what it is, but I feel like power courses through my veins when I wear it. With not one, not two, but THREE dogs AND a moon, I feel like I am nature's power incarnate. I could even take on a dogman!", "Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES cachorros e uma lua, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!")	
+					Line = Replace(Line, "3 Dog Moon", "Camiseta de Lobo")	
+					Line = Replace(Line, "T-Shirt Review", "Revisao da Camiseta de Lobo")	
+					Line = Replace(Line, "This shirt has changed my life. I don't know what it is, but I feel like power courses through my veins when I wear it. With not one, not two, but THREE dogs AND a moon, I feel like I am nature's power incarnate. I could even take on a dogman!", "Esta camisa mudou minha vida. Eu nao sei o que e, mas eu sinto como cursos de poder atraves das minhas veias quando eu uso isso. Com nao um, nem dois, mas TRES Lobos, sinto que sou o poder da natureza encarnado. Eu poderia ate assumir ser um Lobisomem!")	
 					Line = Replace(Line, "If they were real, that is. For now, I practice dominating my pug, Bradley, for when that day inevitably comes.", "Se fossem reais, isso e. Por enquanto, eu pratico dominar meu pug, Bradley, pois quando esse dia inevitavelmente vem.")		
 			End Select			
 	End Select
