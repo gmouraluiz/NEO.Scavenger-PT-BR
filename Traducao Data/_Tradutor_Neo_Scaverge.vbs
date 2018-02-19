@@ -5974,441 +5974,441 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "tried talking to the Blue Frog in the locker room", "tentou conversar com o Blue Frog no vestiario")
 			End Select
-		case 000
+		case 651
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Welcome at Saginaw", "Bem-vindo em Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is welcome at Saginaw", "e bem-vindo em Saginaw")
 			End Select
-		case 000
+		case 652
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Caught and Killed by Blue Frog cultists", "Pego e morto pelos seguidores de Blue Frog")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was caught and killed by Blue Frog cultists while sneaking around Saginaw", "foi pego e morto pelos seguidores de Blue Frog enquanto se aproximava de Saginaw")
 			End Select
-		case 000
+		case 653
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Confiscate all items", "Confiscado todos os itens")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "items have been confiscated", "itens foram confiscados")
 			End Select
-		case 000
+		case 654
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Unconfiscate all items", "Devolvido todos os itens")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "confiscated items were returned", "os itens confiscados foram devolvidos")
 			End Select
-		case 000
+		case 655
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looted King Eli's safe", "Saqueou o cofre do Rei Eli")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "looted King Eli's safe", "saqueou o cofre do rei Eli")
 			End Select
-		case 000
+		case 656
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed by the gaunt woman in Saginaw's second floor", "Morto pela mulher magra do segundo andar de Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was killed by the gaunt woman in Saginaw's second floor", "foi morto pela mulher magra do segundo andar de Saginaw")
 			End Select
-		case 000
+		case 657
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Crafting Allowed", "Criacao Permitida")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Encounters with this condition listed will allow the Crafting screen", "Encontros com as condicoes listada permitirao abrir a tela de Criacao")
 			End Select
-		case 000
+		case 658
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Looted Strangler's corpse", "Roubou cadaver de estranho")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "looted the Strangler's corpse", "roubando cadaver de estranho")
 			End Select
-		case 000
+		case 659
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Feeling pain", "Sentindo dor")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is experiencing burning pain", "esta sofrendo com dores")
 			End Select
-		case 000
+		case 660
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Immolated by Blue Frog guards", "Sacrificado pelos Guardas Blue Frog")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was set alight by Blue Frog guards attempting to practice the Trial of Fire", "foi morto pelos guardas Blue Frog que estao tentando praticar o 'Julgamento do fogo'")
 			End Select
-		case 000
+		case 661
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Visited Rollo", "Visitando Rollo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "visited Rollo in the Induction Room", "visitou Rollo no quarto de introducao")
 			End Select
-		case 000
+		case 662
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Asked Rollo about ECT", "Perguntou a Rollo sobre ECT")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "asked Rollo about ECT", "perguntou a Rollo sobre ECT")
 			End Select
-		case 000
+		case 663
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Asked Rollo about the three frogs", "Perguntou Rollo sobre os tres frogs")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "asked Rollo about the three frogs", "perguntou Rollo sobre os tres Frogs")
 			End Select
-		case 000
+		case 664
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed by Liza", "Morto por Liza")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was killed by Liza in the Saginaw records room", "foi morto por Liza na sala de registros de Saginaw")
 			End Select
-		case 000
+		case 665
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Attacked Liza", "Atacou Liza")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "attacked Liza in the records room at Saginaw", "atacou Liza na sala de registros de Saginaw")
 			End Select
-		case 000
+		case 666
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed Liza", "Matou Liza")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "killed Liza in the records room at Saginaw", "matou Liza na sala de registros de Saginaw")
 			End Select
-		case 000
+		case 667
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed Liza, and Hid Body", "Matou Liza, escondeu cadaver")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "killed Liza and hid her body in the records room at Saginaw", "matou Liza e escondeu seu corpo na sala de registros de Saginaw")
 			End Select
-		case 000
+		case 668
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed by Mob of Cultists", "Morto por seguidores de Liza")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was killed by vengeful Blue Frogs after attacking Liza", "foi morto por vingativos Blue Frogs depois de atacar Liza")
 			End Select
-		case 000
+		case 669
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Agreed to help Liza", "Concordou em ajudar Liza")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "agreed to help Liza", "concordou em ajudar Liza")
 			End Select
-		case 000
+		case 670
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Killed by Odo", "Morto por Odo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was ground to mush in Odo's jaws at Saginaw", "esta morto por mexer nos maxilares de Odo em Saginaw")
 			End Select
-		case 000
+		case 671
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Answered Ginny Question", "Respondeu a perguntas de Ginny")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "answered one of Ginny's questions correctly", "respondeu corretamente uma das perguntas de Ginny")
 			End Select
-		case 000
+		case 672
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Answered All Ginny Questions", "Respondeu todas as perguntas de Ginny")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "answered all of Ginny's second question correctly", "respondeu todas as perguntas de Ginny")
 			End Select
-		case 000
+		case 673
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Answered Ginny Question #3", "Respondeu a perguntas de Ginny #3")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "answered Ginny's third question correctly", "respondeu a terceira pergunta de Ginny corretamente")
 			End Select
-		case 000
+		case 674
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Examine Meredith Ewing's papers", "Examinando papeis de Meredith Ewing's")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is examining Meredith Ewing's papers", "esta examinando papeis de Meredith Ewing's")
 			End Select
-		case 000
+		case 675
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Met Ginny", "Conheceu Ginny")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "met Ginny at Saginaw", "conheceu Ginny em Saginaw")
 			End Select
-		case 000
+		case 676
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Blue Frogs destroyed", "Destruiu Blue Frogs")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The Blue Frog cult was destroyed, and Saginaw is a graveyard", "O culto Blue Frog foi destruido, e Saginaw e agora um cemiterio")
 			End Select
-		case 000
+		case 677
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Blue Frogs dying out", "Blue Frogs morrendo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The Blue Frog cult is dying off, and will be gone soon", "O culto Blue Frog esta morrendo, e logo nao existira")
 			End Select
-		case 000
+		case 678
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Blue Frogs Under Mad King", "Blue Frogs esta sobe o Rei Louco")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "King Elias of the Blue Frog cult went mad, and they are worse than ever", "O rei Elias do culto Blue Frog ficou louco, e eles estao piores do que nunca")
 			End Select
-		case 000
+		case 679
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Liza Rules Blue Frogs", "Liza governa Blue Frogs")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Liza is Queen of the Blue Frogs now", "Liza e a Rainha dos Blue Frogs agora")
 			End Select
-		case 000
+		case 680
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Saginaw looted", "Roubando Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "mass-looted the corpses at Saginaw", "saquearam os cadaveres em Saginaw")
 			End Select
-		case 000
+		case 681
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Wearing cryo wrist strap", "Vestindo pulseira de Cryo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is wearing a wrist strap from Gyges Cryo Facility", "esta usando uma pulseira da Gyges Cryo-Facility")
 			End Select
-		case 000
+		case 682
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Confiscate Zom Zom's items", "Confiscar os itens de Zom Zom's")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "items have been confiscated", "itens foram confiscados")
 			End Select
-		case 000
+		case 683
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Saginaw visited", "Visitando Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has been inside Saginaw", "esteve dentro de Saginaw")
 			End Select
-		case 000
+		case 684
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Revisit Saginaw Encounters", "Revisitando Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is revisiting Saginaw", "esta novamente visitando Saginaw")
 			End Select
-		case 000
+		case 685
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Drank clear vial", "Bebeu frasco transparente")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "drank a vial of clear liquid", "tomou um frasco de liquido transparente")
 			End Select
-		case 000
+		case 686
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Clearbone Valley visited", "Visitou Clearbone Valley")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "visited Clearbone Valley", "visitou Clearbone Valley")
 			End Select
-		case 000
+		case 687
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Talked to Paul at Clearbone", "Falou com Paul no Clearbone")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "talked to Paul at Clearbone", "falou com Paul no Clearbone")
 			End Select
-		case 000
+		case 688
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Talked to Erin at Clearbone", "Falou com Erin no Clearbone")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "talked to Erin at Clearbone", "falou com Erin no Clearbone")
 			End Select
-		case 000
+		case 689
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Clearbone Compound Encounter", "Fechamento do complexo de Clearbone encadeado")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is entering Clearbone Compound", "esta entrando no complexo de Clearbone")
 			End Select
-		case 000
+		case 690
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Bishop Wraith Appear", "Bispo reaparece como um fantasma")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The Bishop reappears as a wraith", "O bispo reaparece como um fantasma")
 			End Select
-		case 000
+		case 691
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Bishop Wraith Appears", "Bispo Fantasma aparece")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The Bishop has appeared as a wraith to", "O bispo apareceu como um fantasma para")
 			End Select
-		case 000
+		case 692
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Hatter Excom", "Retornou a Hatter depois de ser excomungado")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Hatter after being excommunicated", "esta retornando a Hatter depois de ser excomungado")
 			End Select
-		case 000
+		case 693
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Carrying Blue Rot sample or Cure", "Leve a amostra de Blue Rot ou cura")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is in possession of the Blue Rot cure or sample", "esta em posse da cura ou amostra de Blue Rot")
 			End Select
-		case 000
+		case 694
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Visited Hatter with Blue Rot cure or sample", "Visitou o Hatter com cura ou amostra da Blue Rot")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "visited Hatter with the Blue Rot cure or sample", "visitou o Hatter com cura ou amostra da Blue Rot")
 			End Select
-		case 000
+		case 695
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $600", "Recebeu $600")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $600", "recebeu $600")
 			End Select
-		case 000
+		case 696
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $750", "Recebeu $750")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $750", "recebeu $750")
 			End Select
-		case 000
+		case 697
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $650", "Recebeu $650")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $650", "recebeu $650")
 			End Select
-		case 000
+		case 698
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $3500", "Recebeu $3500")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $3500", "recebeu $3500")
 			End Select
-		case 000
+		case 699
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $5000", "Recebeu $5000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $5000", "recebeu $5000")
 			End Select
-		case 000
+		case 700
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $6500", "Recebeu $6500")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $6500", "recebeu $6500")
 			End Select
-		case 000
+		case 701
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $10000", "Recebeu $10000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $10000", "recebeu $10000")
 			End Select
-		case 000
+		case 702
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $4000", "Recebeu $4000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $4000", "recebeu $4000")
 			End Select
-		case 000
+		case 703
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Made big deal with Hatter cure", "Fez grande coisa dando a cura a Hatter")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "made a big deal with Hatter for the Blue Rot cure", "fez um grande acao com Hatter dando a cura Blue Rot")
 			End Select
-		case 000
+		case 704
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Hatter finished finding big Blue Rot buyer", "Hatter terminou de encontrar o grande comprador do Blue Rot")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "finished finding a big Blue Rot buyer", "terminou de encontrar um grande comprador da Blue Rot")
 			End Select
-		case 000
+		case 705
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $200000", "Recebeu $200000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $200000", "recebeu $200000")
 			End Select
-		case 000
+		case 706
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Hatter paid PK for Blue Rot big deal", "Hatter pagou PK por Blue Rot grande coisa")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "was paid handsomely for the Blue Rot cure and sample", "foi pago abundantemente pela cura e amostra da Blue Rot")
 			End Select
-		case 000
+		case 707
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Made deal with Hatter cure", "Mandou Hatter lidar com a cura")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "made a deal with Hatter for the Blue Rot cure", "fez um acordo com Hatter para a cura Blue Rot")
 			End Select
-		case 000
+		case 708
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Hatter finished finding Blue Rot buyer", "Hatter terminou de encontrar o comprador do Blue Rot")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "finished finding a Blue Rot buyer", "terminou de encontrar um comprador do Blue Rot")
 			End Select
-		case 000
+		case 709
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $50000", "Recebeu $50000")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $50000", "recebeu $50000")
 			End Select
-		case 000
+		case 710
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "DMC Quarantined 1 day", "DMC em quarentena 1 dia")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "DMC is quarantined 1 day due to a recent disease outbreak", "DMC esta em quarentena 1 dia devido a um recente surto de doenca")
 			End Select
-		case 000
+		case 711
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Increase Faction Rep Toward Player +4", "Add 4 facction do jogador")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Add 4 to creature's opinion of player", "Adicione +4 a Faccao do Jogador")
 			End Select
-		case 000
+		case 712
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Return to Hatter suite", "Retornou a suite de Hatter")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is returning to Hatter for all suite", "esta retornando todas as suite ao Hatter")
 			End Select
-		case 000
+		case 713
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "000", "000")

@@ -14701,7 +14701,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">638</column>
-			<column name="strName">Defina ponto perto de DMC Gates </column>
+			<column name="strName">Defina ponto perto de DMC Gates</column>
 			<column name="strDesc">&lt;us&gt; estara perto de DMC Gates em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -15000,8 +15000,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">651</column>
-			<column name="strName">Welcome at Saginaw</column>
-			<column name="strDesc">&lt;us&gt; is welcome at Saginaw.</column>
+			<column name="strName">Bem-vindo em Saginaw</column>
+			<column name="strDesc">&lt;us&gt; e bem-vindo em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15023,8 +15023,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">652</column>
-			<column name="strName">Caught and Killed by Blue Frog cultists</column>
-			<column name="strDesc">&lt;us&gt; was caught and killed by Blue Frog cultists while sneaking around Saginaw.</column>
+			<column name="strName">Pego e morto pelos seguidores de Blue Frog</column>
+			<column name="strDesc">&lt;us&gt; foi pego e morto pelos seguidores de Blue Frog enquanto se aproximava de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15046,8 +15046,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">653</column>
-			<column name="strName">Confiscate all items</column>
-			<column name="strDesc">All of &lt;us&gt;'s items have been confiscated.</column>
+			<column name="strName">Confiscado todos os itens</column>
+			<column name="strDesc">All of &lt;us&gt;'s itens foram confiscados.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">Confiscate=98,0,1</column>
@@ -15069,8 +15069,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">654</column>
-			<column name="strName">Unconfiscate all items</column>
-			<column name="strDesc">&lt;us&gt;'s confiscated items were returned.</column>
+			<column name="strName">Devolvido todos os itens</column>
+			<column name="strDesc">&lt;us&gt;'s os itens confiscados foram devolvidos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">Confiscate=0,1,1</column>
@@ -15092,8 +15092,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">655</column>
-			<column name="strName">Looted King Eli's safe</column>
-			<column name="strDesc">&lt;us&gt; looted King Eli's safe.</column>
+			<column name="strName">Saqueou o cofre do Rei Eli</column>
+			<column name="strDesc">&lt;us&gt; saqueou o cofre do rei Eli.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15115,8 +15115,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">656</column>
-			<column name="strName">Killed by the gaunt woman in Saginaw's second floor</column>
-			<column name="strDesc">&lt;us&gt; was killed by the gaunt woman in Saginaw's second floor.</column>
+			<column name="strName">Morto pela mulher magra do segundo andar de Saginaw</column>
+			<column name="strDesc">&lt;us&gt; foi morto pela mulher magra do segundo andar de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15138,8 +15138,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">657</column>
-			<column name="strName">Crafting Allowed</column>
-			<column name="strDesc">Encounters with this condition listed will allow the Crafting screen.</column>
+			<column name="strName">Criacao Permitida</column>
+			<column name="strDesc">Encontros com as condicoes listada permitirao abrir a tela de Criacao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15161,8 +15161,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">658</column>
-			<column name="strName">Looted Strangler's corpse</column>
-			<column name="strDesc">&lt;us&gt; looted the Strangler's corpse.</column>
+			<column name="strName">Roubou cadaver de estranho</column>
+			<column name="strDesc">&lt;us&gt; roubando cadaver de estranho.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15184,8 +15184,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">659</column>
-			<column name="strName">Feeling pain</column>
-			<column name="strDesc">&lt;us&gt; is experiencing burning pain.</column>
+			<column name="strName">Sentindo dor</column>
+			<column name="strDesc">&lt;us&gt; esta sofrendo com dores.</column>
 			<column name="aFieldNames">m_fPainLeft</column>
 			<column name="aModifiers">-0.1</column>
 			<column name="aEffects"></column>
@@ -15207,8 +15207,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">660</column>
-			<column name="strName">Immolated by Blue Frog guards</column>
-			<column name="strDesc">&lt;us&gt; was set alight by Blue Frog guards attempting to practice the Trial of Fire.</column>
+			<column name="strName">Sacrificado pelos Guardas Blue Frog</column>
+			<column name="strDesc">&lt;us&gt; foi morto pelos guardas Blue Frog que estao tentando praticar o 'Julgamento do fogo'.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15230,8 +15230,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">661</column>
-			<column name="strName">Visited Rollo</column>
-			<column name="strDesc">&lt;us&gt; visited Rollo in the Induction Room.</column>
+			<column name="strName">Visitando Rollo</column>
+			<column name="strDesc">&lt;us&gt; visitou Rollo no quarto de introducao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15253,8 +15253,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">662</column>
-			<column name="strName">Asked Rollo about ECT</column>
-			<column name="strDesc">&lt;us&gt; asked Rollo about ECT.</column>
+			<column name="strName">Perguntou a Rollo sobre ECT</column>
+			<column name="strDesc">&lt;us&gt; perguntou a Rollo sobre ECT.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15276,8 +15276,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">663</column>
-			<column name="strName">Asked Rollo about the three frogs</column>
-			<column name="strDesc">&lt;us&gt; asked Rollo about the three frogs.</column>
+			<column name="strName">Perguntou Rollo sobre os tres frogs</column>
+			<column name="strDesc">&lt;us&gt; perguntou Rollo sobre os tres Frogs.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15299,8 +15299,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">664</column>
-			<column name="strName">Killed by Liza</column>
-			<column name="strDesc">&lt;us&gt; was killed by Liza in the Saginaw records room.</column>
+			<column name="strName">Morto por Liza</column>
+			<column name="strDesc">&lt;us&gt; foi morto por Liza na sala de registros de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15322,8 +15322,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">665</column>
-			<column name="strName">Attacked Liza</column>
-			<column name="strDesc">&lt;us&gt; attacked Liza in the records room at Saginaw.</column>
+			<column name="strName">Atacou Liza</column>
+			<column name="strDesc">&lt;us&gt; atacou Liza na sala de registros de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15345,8 +15345,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">666</column>
-			<column name="strName">Killed Liza</column>
-			<column name="strDesc">&lt;us&gt; killed Liza in the records room at Saginaw.</column>
+			<column name="strName">Matou Liza</column>
+			<column name="strDesc">&lt;us&gt; matou Liza na sala de registros de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15368,8 +15368,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">667</column>
-			<column name="strName">Killed Liza, and Hid Body</column>
-			<column name="strDesc">&lt;us&gt; killed Liza and hid her body in the records room at Saginaw.</column>
+			<column name="strName">Matou Liza, escondeu cadaver</column>
+			<column name="strDesc">&lt;us&gt; matou Liza e escondeu seu corpo na sala de registros de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15391,8 +15391,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">668</column>
-			<column name="strName">Killed by Mob of Cultists</column>
-			<column name="strDesc">&lt;us&gt; was killed by vengeful Blue Frogs after attacking Liza.</column>
+			<column name="strName">Morto por seguidores de Liza</column>
+			<column name="strDesc">&lt;us&gt; foi morto por vingativos Blue Frogs depois de atacar Liza.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15414,8 +15414,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">669</column>
-			<column name="strName">Agreed to help Liza</column>
-			<column name="strDesc">&lt;us&gt; agreed to help Liza.</column>
+			<column name="strName">Concordou em ajudar Liza</column>
+			<column name="strDesc">&lt;us&gt; concordou em ajudar Liza.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15437,8 +15437,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">670</column>
-			<column name="strName">Killed by Odo</column>
-			<column name="strDesc">&lt;us&gt; was ground to mush in Odo's jaws at Saginaw.</column>
+			<column name="strName">Morto por Odo</column>
+			<column name="strDesc">&lt;us&gt; esta morto por mexer nos maxilares de Odo em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15460,8 +15460,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">671</column>
-			<column name="strName">Answered Ginny Question</column>
-			<column name="strDesc">&lt;us&gt; answered one of Ginny's questions correctly.</column>
+			<column name="strName">Respondeu a perguntas de Ginny</column>
+			<column name="strDesc">&lt;us&gt; respondeu corretamente uma das perguntas de Ginny.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15483,8 +15483,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">672</column>
-			<column name="strName">Answered All Ginny Questions</column>
-			<column name="strDesc">&lt;us&gt; answered all of Ginny's second question correctly.</column>
+			<column name="strName">Respondeu todas as perguntas de Ginny</column>
+			<column name="strDesc">&lt;us&gt; respondeu todas as perguntas de Ginny.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15506,8 +15506,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">673</column>
-			<column name="strName">Answered Ginny Question #3</column>
-			<column name="strDesc">&lt;us&gt; answered Ginny's third question correctly.</column>
+			<column name="strName">Respondeu a perguntas de Ginny #3</column>
+			<column name="strDesc">&lt;us&gt; respondeu a terceira pergunta de Ginny corretamente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15529,8 +15529,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">674</column>
-			<column name="strName">Trigger Examine Meredith Ewing's papers</column>
-			<column name="strDesc">&lt;us&gt; is examining Meredith Ewing's papers.</column>
+			<column name="strName">Examinando papeis de Meredith Ewing's</column>
+			<column name="strDesc">&lt;us&gt; esta examinando papeis de Meredith Ewing's.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1782</column>
 			<column name="aEffects"></column>
@@ -15552,8 +15552,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">675</column>
-			<column name="strName">Met Ginny</column>
-			<column name="strDesc">&lt;us&gt; met Ginny at Saginaw.</column>
+			<column name="strName">Conheceu Ginny</column>
+			<column name="strDesc">&lt;us&gt; conheceu Ginny em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15575,8 +15575,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">676</column>
-			<column name="strName">Blue Frogs destroyed</column>
-			<column name="strDesc">The Blue Frog cult was destroyed, and Saginaw is a graveyard.</column>
+			<column name="strName">Destruiu Blue Frogs</column>
+			<column name="strDesc">O culto Blue Frog foi destruido, e Saginaw e agora um cemiterio.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15598,8 +15598,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">677</column>
-			<column name="strName">Blue Frogs dying out</column>
-			<column name="strDesc">The Blue Frog cult is dying off, and will be gone soon.</column>
+			<column name="strName">Blue Frogs morrendo</column>
+			<column name="strDesc">O culto Blue Frog esta morrendo, e logo nao existira.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15621,8 +15621,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">678</column>
-			<column name="strName">Blue Frogs Under Mad King</column>
-			<column name="strDesc">King Elias of the Blue Frog cult went mad, and they are worse than ever.</column>
+			<column name="strName">Blue Frogs esta sobe o Rei Louco</column>
+			<column name="strDesc">O rei Elias do culto Blue Frog ficou louco, e eles estao piores do que nunca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15644,8 +15644,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">679</column>
-			<column name="strName">Liza Rules Blue Frogs</column>
-			<column name="strDesc">Liza is Queen of the Blue Frogs now.</column>
+			<column name="strName">Liza governa Blue Frogs</column>
+			<column name="strDesc">Liza e a Rainha dos Blue Frogs agora.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15667,8 +15667,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">680</column>
-			<column name="strName">Saginaw looted</column>
-			<column name="strDesc">&lt;us&gt; mass-looted the corpses at Saginaw.</column>
+			<column name="strName">Roubando Saginaw</column>
+			<column name="strDesc">&lt;us&gt; saquearam os cadaveres em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15690,8 +15690,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">681</column>
-			<column name="strName">Wearing cryo wrist strap</column>
-			<column name="strDesc">&lt;us&gt; is wearing a wrist strap from Gyges Cryo Facility.</column>
+			<column name="strName">Vestindo pulseira de Cryo</column>
+			<column name="strDesc">&lt;us&gt; esta usando uma pulseira da Gyges Cryo-Facility.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -15713,8 +15713,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">682</column>
-			<column name="strName">Confiscate Zom Zom's items</column>
-			<column name="strDesc">&lt;us&gt;'s items have been confiscated.</column>
+			<column name="strName">Confiscar os itens de Zom Zom's</column>
+			<column name="strDesc">&lt;us&gt;'s itens foram confiscados.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">Confiscate=99,0,1</column>
@@ -15736,8 +15736,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">683</column>
-			<column name="strName">Saginaw visited</column>
-			<column name="strDesc">&lt;us&gt; has been inside Saginaw.</column>
+			<column name="strName">Visitando Saginaw</column>
+			<column name="strDesc">&lt;us&gt; esteve dentro de Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15759,8 +15759,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">684</column>
-			<column name="strName">Trigger Revisit Saginaw Encounters</column>
-			<column name="strDesc">&lt;us&gt; is revisiting Saginaw.</column>
+			<column name="strName">Revisitando Saginaw</column>
+			<column name="strDesc">&lt;us&gt; esta novamente visitando Saginaw.</column>
 			<column name="aFieldNames">TriggerEncounter,TriggerEncounter,TriggerEncounter,TriggerEncounter,TriggerEncounter,TriggerEncounter</column>
 			<column name="aModifiers">1783,1784,1787,1788,1789,1790</column>
 			<column name="aEffects"></column>
@@ -15782,8 +15782,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">685</column>
-			<column name="strName">Drank clear vial.</column>
-			<column name="strDesc">&lt;us&gt; drank a vial of clear liquid.</column>
+			<column name="strName">Bebeu frasco transparente.</column>
+			<column name="strDesc">&lt;us&gt; tomou um frasco de liquido transparente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15805,8 +15805,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">686</column>
-			<column name="strName">Clearbone Valley visited</column>
-			<column name="strDesc">&lt;us&gt; visited Clearbone Valley.</column>
+			<column name="strName">Visitou Clearbone Valley</column>
+			<column name="strDesc">&lt;us&gt; visitou Clearbone Valley.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15828,8 +15828,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">687</column>
-			<column name="strName">Talked to Paul at Clearbone</column>
-			<column name="strDesc">&lt;us&gt; talked to Paul at Clearbone.</column>
+			<column name="strName">Falou com Paul no Clearbone</column>
+			<column name="strDesc">&lt;us&gt; falou com Paul no Clearbone.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15851,8 +15851,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">688</column>
-			<column name="strName">Talked to Erin at Clearbone</column>
-			<column name="strDesc">&lt;us&gt; talked to Erin at Clearbone.</column>
+			<column name="strName">Falou com Erin no Clearbone</column>
+			<column name="strDesc">&lt;us&gt; falou com Erin no Clearbone.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15874,8 +15874,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">689</column>
-			<column name="strName">Trigger Clearbone Compound Encounter</column>
-			<column name="strDesc">&lt;us&gt; is entering Clearbone Compound.</column>
+			<column name="strName">Fechamento do complexo de Clearbone encadeado</column>
+			<column name="strDesc">&lt;us&gt; esta entrando no complexo de Clearbone.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1737</column>
 			<column name="aEffects"></column>
@@ -15897,8 +15897,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">690</column>
-			<column name="strName">Trigger Bishop Wraith Appear</column>
-			<column name="strDesc">The Bishop reappears as a wraith.</column>
+			<column name="strName">Bispo reaparece como um fantasma</column>
+			<column name="strDesc">O bispo reaparece como um fantasma.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1824</column>
 			<column name="aEffects"></column>
@@ -15920,8 +15920,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">691</column>
-			<column name="strName">Bishop Wraith Appears</column>
-			<column name="strDesc">The Bishop has appeared as a wraith to &lt;us&gt;.</column>
+			<column name="strName">Bispo Fantasma aparece</column>
+			<column name="strDesc">O bispo apareceu como um fantasma para &lt;us&gt;.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15943,8 +15943,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">692</column>
-			<column name="strName">Trigger Return to Hatter Excom</column>
-			<column name="strDesc">&lt;us&gt; is returning to Hatter after being excommunicated.</column>
+			<column name="strName">Retornou a Hatter depois de ser excomungado</column>
+			<column name="strDesc">&lt;us&gt; esta retornando a Hatter depois de ser excomungado.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1825</column>
 			<column name="aEffects"></column>
@@ -15966,8 +15966,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">693</column>
-			<column name="strName">Carrying Blue Rot sample or Cure</column>
-			<column name="strDesc">&lt;us&gt; is in possession of the Blue Rot cure or sample.</column>
+			<column name="strName">Leve a amostra de Blue Rot ou cura</column>
+			<column name="strDesc">&lt;us&gt; esta em posse da cura ou amostra de Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -15989,8 +15989,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">694</column>
-			<column name="strName">Visited Hatter with Blue Rot cure or sample</column>
-			<column name="strDesc">&lt;us&gt; visited Hatter with the Blue Rot cure or sample.</column>
+			<column name="strName">Visitou o Hatter com cura ou amostra da Blue Rot</column>
+			<column name="strDesc">&lt;us&gt; visitou o Hatter com cura ou amostra da Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16012,8 +16012,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">695</column>
-			<column name="strName">Received $600</column>
-			<column name="strDesc">&lt;us&gt; received $600.</column>
+			<column name="strName">Recebeu $600</column>
+			<column name="strDesc">&lt;us&gt; recebeu $600.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">600</column>
 			<column name="aEffects"></column>
@@ -16035,8 +16035,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">696</column>
-			<column name="strName">Received $750</column>
-			<column name="strDesc">&lt;us&gt; received $750.</column>
+			<column name="strName">Recebeu $750</column>
+			<column name="strDesc">&lt;us&gt; recebeu $750.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">750</column>
 			<column name="aEffects"></column>
@@ -16058,8 +16058,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">697</column>
-			<column name="strName">Received $650</column>
-			<column name="strDesc">&lt;us&gt; received $650.</column>
+			<column name="strName">Recebeu $650</column>
+			<column name="strDesc">&lt;us&gt; recebeu $650.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">650</column>
 			<column name="aEffects"></column>
@@ -16081,8 +16081,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">698</column>
-			<column name="strName">Received $3500</column>
-			<column name="strDesc">&lt;us&gt; received $3500.</column>
+			<column name="strName">Recebeu $3500</column>
+			<column name="strDesc">&lt;us&gt; recebeu $3500.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">3500</column>
 			<column name="aEffects"></column>
@@ -16104,8 +16104,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">699</column>
-			<column name="strName">Received $5000</column>
-			<column name="strDesc">&lt;us&gt; received $5000.</column>
+			<column name="strName">Recebeu $5000</column>
+			<column name="strDesc">&lt;us&gt; recebeu $5000.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">5000</column>
 			<column name="aEffects"></column>
@@ -16127,8 +16127,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">700</column>
-			<column name="strName">Received $6500</column>
-			<column name="strDesc">&lt;us&gt; received $6500.</column>
+			<column name="strName">Recebeu $6500</column>
+			<column name="strDesc">&lt;us&gt; recebeu $6500.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">6500</column>
 			<column name="aEffects"></column>
@@ -16150,8 +16150,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">701</column>
-			<column name="strName">Received $10000</column>
-			<column name="strDesc">&lt;us&gt; received $10000.</column>
+			<column name="strName">Recebeu $10000</column>
+			<column name="strDesc">&lt;us&gt; recebeu $10000.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">10000</column>
 			<column name="aEffects"></column>
@@ -16173,8 +16173,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">702</column>
-			<column name="strName">Received $4000</column>
-			<column name="strDesc">&lt;us&gt; received $4000.</column>
+			<column name="strName">Recebeu $4000</column>
+			<column name="strDesc">&lt;us&gt; recebeu $4000.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">4000</column>
 			<column name="aEffects"></column>
@@ -16196,8 +16196,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">703</column>
-			<column name="strName">Made big deal with Hatter cure</column>
-			<column name="strDesc">&lt;us&gt; made a big deal with Hatter for the Blue Rot cure.</column>
+			<column name="strName">Fez grande coisa dando a cura a Hatter</column>
+			<column name="strDesc">&lt;us&gt; fez um grande acao com Hatter dando a cura Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16219,8 +16219,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">704</column>
-			<column name="strName">Hatter finished finding big Blue Rot buyer</column>
-			<column name="strDesc">&lt;us&gt; finished finding a big Blue Rot buyer.</column>
+			<column name="strName">Hatter terminou de encontrar o grande comprador do Blue Rot</column>
+			<column name="strDesc">&lt;us&gt; terminou de encontrar um grande comprador da Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16242,8 +16242,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">705</column>
-			<column name="strName">Received $200000</column>
-			<column name="strDesc">&lt;us&gt; received $200000.</column>
+			<column name="strName">Recebeu $200000</column>
+			<column name="strDesc">&lt;us&gt; recebeu $200000.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">200000</column>
 			<column name="aEffects"></column>
@@ -16265,8 +16265,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">706</column>
-			<column name="strName">Hatter paid PK for Blue Rot big deal</column>
-			<column name="strDesc">&lt;us&gt; was paid handsomely for the Blue Rot cure and sample.</column>
+			<column name="strName">Hatter pagou PK por Blue Rot grande coisa</column>
+			<column name="strDesc">&lt;us&gt; foi pago abundantemente pela cura e amostra da Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16288,8 +16288,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">707</column>
-			<column name="strName">Made deal with Hatter cure</column>
-			<column name="strDesc">&lt;us&gt; made a deal with Hatter for the Blue Rot cure.</column>
+			<column name="strName">Mandou Hatter lidar com a cura</column>
+			<column name="strDesc">&lt;us&gt; fez um acordo com Hatter para a cura Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16311,8 +16311,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">708</column>
-			<column name="strName">Hatter finished finding Blue Rot buyer</column>
-			<column name="strDesc">&lt;us&gt; finished finding a Blue Rot buyer.</column>
+			<column name="strName">Hatter terminou de encontrar o comprador do Blue Rot</column>
+			<column name="strDesc">&lt;us&gt; terminou de encontrar um comprador do Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16334,8 +16334,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">709</column>
-			<column name="strName">Received $50000</column>
-			<column name="strDesc">&lt;us&gt; received $50000.</column>
+			<column name="strName">Recebeu $50000</column>
+			<column name="strDesc">&lt;us&gt; recebeu $50000.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">50000</column>
 			<column name="aEffects"></column>
@@ -16357,8 +16357,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">710</column>
-			<column name="strName">DMC Quarantined 1 day</column>
-			<column name="strDesc">DMC is quarantined 1 day due to a recent disease outbreak.</column>
+			<column name="strName">DMC em quarentena 1 dia</column>
+			<column name="strDesc">DMC esta em quarentena 1 dia devido a um recente surto de doenca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16380,8 +16380,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">711</column>
-			<column name="strName">Increase Faction Rep Toward Player +4</column>
-			<column name="strDesc">Add 4 to creature's opinion of player.</column>
+			<column name="strName">Add 4 facction do jogador</column>
+			<column name="strDesc">Adicione +4 a Faccao do Jogador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeFactionRep=0,4</column>
@@ -16403,8 +16403,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">712</column>
-			<column name="strName">Trigger Return to Hatter suite</column>
-			<column name="strDesc">&lt;us&gt; is returning to Hatter for all suite</column>
+			<column name="strName">Retornou a suite de Hatter</column>
+			<column name="strDesc">&lt;us&gt; esta retornando todas as suite ao Hatter</column>
 			<column name="aFieldNames">TriggerEncounter,TriggerEncounter,TriggerEncounter,TriggerEncounter</column>
 			<column name="aModifiers">1871,1868,1874,2144</column>
 			<column name="aEffects"></column>
