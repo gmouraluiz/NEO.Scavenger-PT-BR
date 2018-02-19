@@ -5624,6 +5624,958 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "already ate food at ATN today", "comeu comida na ATN")
 			End Select
+		case 601
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Warned about ATN food", "Avisado sobre comida ATN")
+				case "strDesc"
+					Line = Replace(Line, "was already warned about not eating at ATN today", "ja havia sido avisado sobre nao comer na ATN todos os dias")
+			End Select
+		case 602
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already received care at ATN", "Recebeu cuidados na ATN")
+				case "strDesc"
+					Line = Replace(Line, "already received care at ATN recently", "recentemente recebeu cuidados na ATN")
+			End Select
+		case 603
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Warned about ATN healing", "Avisado sobre a cura ATN")
+				case "strDesc"
+					Line = Replace(Line, "was already warned about no healing at ATN", "ja havia sido avisado sobre a cura na ATN")
+			End Select
+		case 604
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Add Global Faction Rep 4 (Blue Frogs)", "Add 4 Faccao (Blue Frogs)")
+				case "strDesc"
+					Line = Replace(Line, "Add 4 player's rep to all current and future Blue Frogs.", "Adicione +4 a Faccao dos Blue Frogs")
+			End Select
+		case 605
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing Respirator", "Vestindo Mascara de bio-quimico")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a working bio-chem respirator", "esta usando um respirador bio-quimico")
+			End Select
+		case 606
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Dizzy", "Tonto")
+				case "strDesc"
+					Line = Replace(Line, "is feeling dizzy", "esta ficando tonto")
+			End Select
+		case 607
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Abdominal Pains", "Dores abdominais")
+				case "strDesc"
+					Line = Replace(Line, "has severe stomach pains that seem to be getting worse every minute", "esta com dores de estomago severas que parecem piorar a cada minuto")
+			End Select
+		case 608
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Severe Abdominal Pain", "Dor abdominal severa")
+				case "strDesc"
+					Line = Replace(Line, "stomach pain has become unbearable, making them collapse in a fit of shaking", "esta com dor estomacal que tornou-se insuportavel, e esta colapsando ​​em um ataque de tremores")
+			End Select
+		case 609
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Defoliant Exposure 1", "Exposicao Desfoliante I")
+				case "strDesc"
+					Line = Replace(Line, "was overexposed to defoliant from the Great Black Swamp", "foi exposto ao desfoliante(agrotoxico) do grande pantano preto")
+			End Select
+		case 610
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Defoliant Exposure 2", "Exposicao Desfoliante II")
+				case "strDesc"
+					Line = Replace(Line, "defoliant exposure worsened", "exposicao a desfoliante esta piorando")
+			End Select
+		case 611
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Defoliant Exposure Dormant", "Exposicao Desfoliante Inativa")
+				case "strDesc"
+					Line = Replace(Line, "defoliant exposure subsided temporarily", "exposicao a desfoliante diminuiu temporariamente")
+			End Select
+		case 612
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Weakness", "Fraqueza")
+				case "strDesc"
+					Line = Replace(Line, "is feeling weak", "esta se sentindo fraco")
+			End Select
+		case 613
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hypotension", "Hipotensao")
+				case "strDesc"
+					Line = Replace(Line, "is suffering from low blood pressure, and is feeling faint", "esta sofrendo de baixa pressao arterial e esta quase desmaiando")
+			End Select
+		case 614
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fainting", "Desmaiado")
+				case "strDesc"
+					Line = Replace(Line, "is feeling faint, and blacking out", "esta a sentir-se fraco e esta desmaiando")
+			End Select
+		case 615
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Irritated Eyes", "Irritacao ocular")
+				case "strDesc"
+					Line = Replace(Line, "eyes became irritated and blurry", "os olhos ficaram irritados e esta embacados")
+			End Select
+		case 616
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Eye Irritant Exposure 1", "Exposicao Irritacao ocular I")
+				case "strDesc"
+					Line = Replace(Line, "was exposed to an eye irritant", "foi exposto a um irritacao ocular")
+			End Select
+		case 617
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing Eye Protection", "Usando Oculos Protetor")
+				case "strDesc"
+					Line = Replace(Line, "is wearing bio-chem eye protection", "esta usando protecao para olhos bio-quimicos")
+			End Select
+		case 618
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Defoliant Exposure 0", "Exposicao Desfoliante 0")
+				case "strDesc"
+					Line = Replace(Line, "was exposed to defoliant, and will develop symptoms soon", "foi exposto a Desfoliante, e ira desenvolver sintomas em breve")
+			End Select
+		case 619
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Smallpox Infectious", "Variola Infecciosa")
+				case "strDesc"
+					Line = Replace(Line, "can infect others with smallpox if in close range", "pode infectar outros com variola se estiver perto")
+			End Select
+		case 620
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot carrier", "Blue Rot")
+				case "strDesc"
+					Line = Replace(Line, "is a carrier of The Blue Rot", "esta contagiado com Blue Rot e pode contagiar outros")
+			End Select
+		case 621
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Nasal Allergies", "Alergias Nasais")
+				case "strDesc"
+					Line = Replace(Line, "nose and throat are irritated, causing discomfort like an allergy", "nariz e garganta estao irritados, causando desconforto como uma alergia")
+			End Select
+		case 622
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed while storming the gates at Saginaw", "Morto enquanto ataca os portoes de Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "was perforated by the guards at Saginaw while trying to storm the gates", "foi morto pelos guardas em Saginaw enquanto tentava torcer os portoes")
+			End Select
+		case 623
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Severe Burns", "Queimaduras graves")
+				case "strDesc"
+					Line = Replace(Line, "has severe burns, causing skin to redden and blister", "tem queimaduras graves, fazendo com que a pele se enrole e fique com bolhas")
+			End Select
+		case 624
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Bleeding internally", "Sangramento interno")
+				case "strDesc"
+					Line = Replace(Line, "is bleeding internally", "esta sangrando internamente")
+			End Select
+		case 625
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Killed by Blue Frog cultists in the King's chambers", "Morto pelos seguidores de Blue Frog(Sala do rei))")
+				case "strDesc"
+					Line = Replace(Line, "was riddled with holes by cultists in the chambers of the Blue Frogs' King", "foi morto pelos seguidores de Blue Frog(Sala do rei)")
+			End Select
+		case 626
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Pass 24 hours", "Passar 24 horas")
+				case "strDesc"
+					Line = Replace(Line, "Pass 24 hours of in-game time", "Passar 24 horas do tempo no jogo")
+			End Select
+		case 627
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already spoke to King Eli/Queen Liza", "Ja falou com o Rei/Eli/Queen Liza")
+				case "strDesc"
+					Line = Replace(Line, "already spoke to King Eli/Queen Liza on the map", "Ja falou com o Rei/Eli/Queen Liza no mapa")
+			End Select
+		case 628
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set Waypoint Clearbone, and Spawn Loot", "Defina ponto em Clearbone Valley")
+				case "strDesc"
+					Line = Replace(Line, "is heading towards Clearbone Valley", "esta indo em direcao a Clearbone Valley")
+			End Select
+		case 629
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set Waypoint Toward DMC", "Defina ponto em DMC")
+				case "strDesc"
+					Line = Replace(Line, "is going towards DMC soon", "esta indo em direcao a DMC em breve")
+			End Select
+		case 630
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Inoculated Against The Blue Rot", "Remedio contra Blue Rot")
+				case "strDesc"
+					Line = Replace(Line, "is inoculated against The Blue Rot", "tomou remedio contra Blue Rot")
+			End Select
+		case 631
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drank yellow vial", "Frasco amarelo bebido")
+				case "strDesc"
+					Line = Replace(Line, "drank a vial of yellow liquid", "bebeu um frasco de liquido amarelo")
+			End Select
+		case 632
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Is King Eli", "E Rei Eli")
+				case "strDesc"
+					Line = Replace(Line, "is King Eli", "e o rei Eli")
+			End Select
+		case 633
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Clearbone Valley active", "Clearbone Valley ativo")
+				case "strDesc"
+					Line = Replace(Line, "Clearbone Valley became a valid location", "Clearbone Valley tornou-se uma localizacao valida")
+			End Select
+		case 634
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Lose All Ground Items", "Perder todos os itens no chao")
+				case "strDesc"
+					Line = Replace(Line, "lost all items on the ground", "perdeu todos os itens no chao")
+			End Select
+		case 635
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set Clearbone Destroyed", "Definir Clearbone Destroyed")
+				case "strDesc"
+					Line = Replace(Line, "Sets Clearbone Destroyed on Player", "Define como Clearbone destruido para o Jogador")
+			End Select
+		case 636
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Clearbone Valley destroyed", "Clearbone Valley destruido")
+				case "strDesc"
+					Line = Replace(Line, "Clearbone Valley was destroyed", "Clearbone Valley foi destruido")
+			End Select
+		case 637
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Carrying Clearbone key fob", "Chave de Clearbone")
+				case "strDesc"
+					Line = Replace(Line, "is carrying the Clearbone key fob", "esta carregando a chave de Clearbone")
+			End Select
+		case 638
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set Waypoint near DMC Gates", "Defina ponto perto de DMC Gates ")
+				case "strDesc"
+					Line = Replace(Line, "is going near DMC Gates soon", "estara perto de DMC Gates em breve")
+			End Select
+		case 639
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set DMC Quarantine", "Defina DMC Quarantine")
+				case "strDesc"
+					Line = Replace(Line, "Sets DMC Quarantine on Player", "Defina DMC em quarentena para o Jogador")
+			End Select
+		case 640
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC Quarantined 2 Weeks", "DMC em quarentena em 2 semanas")
+				case "strDesc"
+					Line = Replace(Line, "DMC is quarantined 2 weeks due to a recent disease outbreak", "DMC esta em quarentena 2 semanas devido a um recente surto de doenca")
+			End Select
+		case 641
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Fell into a lethal trap", "Caiu em uma armadilha letal")
+				case "strDesc"
+					Line = Replace(Line, "has fallen into a lethal trap and died", "caiu em uma armadilha letal e morreu")
+			End Select
+		case 642
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Trigger Examine Blue Frog papers", "Examinando papeis de Blue Frog")
+				case "strDesc"
+					Line = Replace(Line, "is examining the Blue Frog papers", "esta examinando papeis de Blue Frog")
+			End Select
+		case 643
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Is King Eli (no destroy)", "O rei Eli (sem destruir)")
+				case "strDesc"
+					Line = Replace(Line, "is King Eli, but won't destroy Clearbone", "e o rei Eli, mas nao vai destruir o Clearbone")
+			End Select
+		case 644
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Set Waypoint Toward Saginaw", "Definir ponto Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "is going towards Saginaw soon", "esta em breve indo em direcao a Saginaw")
+			End Select
+		case 645
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Electrocuted", "Eletrocutado")
+				case "strDesc"
+					Line = Replace(Line, "was electrocuted during the Trial of Light", "foi eletrocutado durante o Ensaio de Luz")
+			End Select
+		case 646
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received regression therapy at Saginaw", "Terapia de regressao recebida em Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "had regression therapy at Saginaw", "recebeu terapia de regressao em Saginaw")
+			End Select
+		case 647
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Add Global Faction Rep 100 (Blue Frogs)", "Add 100 Faccao (Blue Frogs)")
+				case "strDesc"
+					Line = Replace(Line, "Add 100 player's rep to all current and future Blue Frogs", "Adicione +100 a Faccao dos Blue Frogs")
+			End Select
+		case 648
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Looted Saginaw Lockers", "Roubou armario de Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "looted the Saginaw lockers", "saqueou os armarios Saginaw")
+			End Select
+		case 649
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Snuck into Saginaw via secret entrance", "Junte-se a Saginaw atraves da entrada secreta")
+				case "strDesc"
+					Line = Replace(Line, "snuck into Saginaw via the secret entrance", "entrou em Saginaw atraves da entrada secreta")
+			End Select
+		case 650
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Tried talking to Blue Frog in locker room", "Tentou falar com um Blue Frog no vestiario")
+				case "strDesc"
+					Line = Replace(Line, "tried talking to the Blue Frog in the locker room", "tentou conversar com o Blue Frog no vestiario")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
 		case 000
 			Select case attr
 				case "strName"

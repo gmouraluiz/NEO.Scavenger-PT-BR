@@ -13850,8 +13850,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">601</column>
-			<column name="strName">Warned about ATN food</column>
-			<column name="strDesc">&lt;us&gt; was already warned about not eating at ATN today.</column>
+			<column name="strName">Avisado sobre comida ATN</column>
+			<column name="strDesc">&lt;us&gt; ja havia sido avisado sobre nao comer na ATN todos os dias.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13873,8 +13873,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">602</column>
-			<column name="strName">Already received care at ATN</column>
-			<column name="strDesc">&lt;us&gt; already received care at ATN recently.</column>
+			<column name="strName">Recebeu cuidados na ATN</column>
+			<column name="strDesc">&lt;us&gt; recentemente recebeu cuidados na ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13896,8 +13896,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">603</column>
-			<column name="strName">Warned about ATN healing</column>
-			<column name="strDesc">&lt;us&gt; was already warned about no healing at ATN.</column>
+			<column name="strName">Avisado sobre a cura ATN</column>
+			<column name="strDesc">&lt;us&gt; ja havia sido avisado sobre a cura na ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -13919,8 +13919,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">604</column>
-			<column name="strName">Add Global Faction Rep 4 (Blue Frogs)</column>
-			<column name="strDesc">Add 4 player's rep to all current and future Blue Frogs.</column>
+			<column name="strName">Add 4 Faccao (Blue Frogs)</column>
+			<column name="strDesc">Adicione +4 a Faccao dos Blue Frogs</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeGlobalFactionRep=4,4,1</column>
@@ -13942,8 +13942,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">605</column>
-			<column name="strName">Wearing Respirator</column>
-			<column name="strDesc">&lt;us&gt; is wearing a working bio-chem respirator.</column>
+			<column name="strName">Vestindo Mascara de bio-quimico</column>
+			<column name="strDesc">&lt;us&gt; esta usando um respirador bio-quimico.</column>
 			<column name="aFieldNames">VisionRange,BaseDetectionLevel</column>
 			<column name="aModifiers">-1,0.125</column>
 			<column name="aEffects">SetImmunity=316,609,619,620,621,731,732,733</column>
@@ -13965,8 +13965,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">606</column>
-			<column name="strName">Dizzy</column>
-			<column name="strDesc">&lt;us&gt; is feeling dizzy.</column>
+			<column name="strName">Tonto</column>
+			<column name="strDesc">&lt;us&gt; esta ficando tonto.</column>
 			<column name="aFieldNames">BaseDetectionLevel,fMovesPerTurnModifier,m_fMoraleHidden,m_fDefense</column>
 			<column name="aModifiers">0.06,-1,-0.15,-0.06</column>
 			<column name="aEffects"></column>
@@ -13988,8 +13988,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">607</column>
-			<column name="strName">Abdominal Pains</column>
-			<column name="strDesc">&lt;us&gt; has severe stomach pains that seem to be getting worse every minute.</column>
+			<column name="strName">Dores abdominais</column>
+			<column name="strDesc">&lt;us&gt; esta com dores de estomago severas que parecem piorar a cada minuto.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fPainLeft</column>
 			<column name="aModifiers">-0.3,-0.3</column>
 			<column name="aEffects"></column>
@@ -14011,8 +14011,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">608</column>
-			<column name="strName">Severe Abdominal Pain</column>
-			<column name="strDesc">&lt;us&gt;'s stomach pain has become unbearable, making them collapse in a fit of shaking.</column>
+			<column name="strName">Dor abdominal severa</column>
+			<column name="strDesc">&lt;us&gt;'s esta com dor estomacal que tornou-se insuportavel, e esta colapsando â€‹â€‹em um ataque de tremores.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fPainLeft</column>
 			<column name="aModifiers">-0.6,-0.76</column>
 			<column name="aEffects"></column>
@@ -14034,8 +14034,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">609</column>
-			<column name="strName">Defoliant Exposure 1</column>
-			<column name="strDesc">&lt;us&gt; was overexposed to defoliant from the Great Black Swamp.</column>
+			<column name="strName">Exposicao Desfoliante I</column>
+			<column name="strDesc">&lt;us&gt; foi exposto ao desfoliante(agrotoxico) do grande pantano preto.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14057,8 +14057,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">610</column>
-			<column name="strName">Defoliant Exposure 2</column>
-			<column name="strDesc">&lt;us&gt;'s defoliant exposure worsened.</column>
+			<column name="strName">Exposicao Desfoliante II</column>
+			<column name="strDesc">&lt;us&gt;'s exposicao a desfoliante esta piorando.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14080,8 +14080,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">611</column>
-			<column name="strName">Defoliant Exposure Dormant</column>
-			<column name="strDesc">&lt;us&gt;'s defoliant exposure subsided temporarily.</column>
+			<column name="strName">Exposicao Desfoliante Inativa</column>
+			<column name="strDesc">&lt;us&gt;'s exposicao a desfoliante diminuiu temporariamente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14103,8 +14103,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">612</column>
-			<column name="strName">Weakness</column>
-			<column name="strDesc">&lt;us&gt; is feeling weak.</column>
+			<column name="strName">Fraqueza</column>
+			<column name="strDesc">&lt;us&gt; esta se sentindo fraco.</column>
 			<column name="aFieldNames">m_fEncumberanceLimit,m_fMorale,AttDmgMult</column>
 			<column name="aModifiers">-45,-0.3,-0.25</column>
 			<column name="aEffects"></column>
@@ -14126,8 +14126,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">613</column>
-			<column name="strName">Hypotension</column>
-			<column name="strDesc">&lt;us&gt; is suffering from low blood pressure, and is feeling faint.</column>
+			<column name="strName">Hipotensao</column>
+			<column name="strDesc">&lt;us&gt; esta sofrendo de baixa pressao arterial e esta quase desmaiando.</column>
 			<column name="aFieldNames">m_fBloodLeft,fMovesPerTurnModifier,MinSafeTemp,MaxSafeTemp,BodyInsulation,m_fBloodRestoreRate</column>
 			<column name="aModifiers">-0.1,-1,3.5,3,0.5,-0.0001</column>
 			<column name="aEffects"></column>
@@ -14149,8 +14149,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">614</column>
-			<column name="strName">Fainting</column>
-			<column name="strDesc">&lt;us&gt; is feeling faint, and blacking out.</column>
+			<column name="strName">Desmaiado</column>
+			<column name="strDesc">&lt;us&gt; esta a sentir-se fraco e esta desmaiando.</column>
 			<column name="aFieldNames">Asleep,fSleepQuality,m_fSleepAwareness</column>
 			<column name="aModifiers">1,1,-1</column>
 			<column name="aEffects"></column>
@@ -14172,8 +14172,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">615</column>
-			<column name="strName">Irritated Eyes</column>
-			<column name="strDesc">&lt;us&gt;'s eyes became irritated and blurry.</column>
+			<column name="strName">Irritacao ocular</column>
+			<column name="strDesc">&lt;us&gt;'s os olhos ficaram irritados e esta embacados.</column>
 			<column name="aFieldNames">VisionRange,BaseDetectionLevel</column>
 			<column name="aModifiers">-1,0.25</column>
 			<column name="aEffects"></column>
@@ -14195,8 +14195,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">616</column>
-			<column name="strName">Eye Irritant Exposure 1</column>
-			<column name="strDesc">&lt;us&gt; was exposed to an eye irritant.</column>
+			<column name="strName">Exposicao Irritacao ocular I</column>
+			<column name="strDesc">&lt;us&gt; foi exposto a um irritacao ocular.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14218,8 +14218,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">617</column>
-			<column name="strName">Wearing Eye Protection</column>
-			<column name="strDesc">&lt;us&gt; is wearing bio-chem eye protection.</column>
+			<column name="strName">Usando Oculos Protetor</column>
+			<column name="strDesc">&lt;us&gt; esta usando protecao para olhos bio-quimicos.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">SetImmunity=616</column>
@@ -14241,8 +14241,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">618</column>
-			<column name="strName">Defoliant Exposure 0</column>
-			<column name="strDesc">&lt;us&gt; was exposed to defoliant, and will develop symptoms soon.</column>
+			<column name="strName">Exposicao Desfoliante 0</column>
+			<column name="strDesc">&lt;us&gt; foi exposto a Desfoliante, e ira desenvolver sintomas em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14264,8 +14264,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">619</column>
-			<column name="strName">Smallpox Infectious</column>
-			<column name="strDesc">&lt;us&gt; can infect others with smallpox if in close range.</column>
+			<column name="strName">Variola Infecciosa</column>
+			<column name="strDesc">&lt;us&gt; pode infectar outros com variola se estiver perto.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14287,8 +14287,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">620</column>
-			<column name="strName">The Blue Rot carrier</column>
-			<column name="strDesc">&lt;us&gt; is a carrier of The Blue Rot.</column>
+			<column name="strName">Blue Rot</column>
+			<column name="strDesc">&lt;us&gt; esta contagiado com Blue Rot e pode contagiar outros.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14310,8 +14310,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">621</column>
-			<column name="strName">Nasal Allergies</column>
-			<column name="strDesc">&lt;us&gt;'s nose and throat are irritated, causing discomfort like an allergy.</column>
+			<column name="strName">Alergias Nasais</column>
+			<column name="strDesc">&lt;us&gt;'s nariz e garganta estao irritados, causando desconforto como uma alergia.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fPainLeft,m_fMoraleHidden,m_fDefense,fSleepQuality</column>
 			<column name="aModifiers">-0.15,-0.15,-0.15,-0.06,-0.35</column>
 			<column name="aEffects"></column>
@@ -14333,8 +14333,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">622</column>
-			<column name="strName">Killed while storming the gates at Saginaw</column>
-			<column name="strDesc">&lt;us&gt; was perforated by the guards at Saginaw while trying to storm the gates.</column>
+			<column name="strName">Morto enquanto ataca os portoes de Saginaw</column>
+			<column name="strDesc">&lt;us&gt; foi morto pelos guardas em Saginaw enquanto tentava torcer os portoes.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14356,8 +14356,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">623</column>
-			<column name="strName">Severe Burns</column>
-			<column name="strDesc">&lt;us&gt; has severe burns, causing skin to redden and blister.</column>
+			<column name="strName">Queimaduras graves</column>
+			<column name="strDesc">&lt;us&gt; tem queimaduras graves, fazendo com que a pele se enrole e fique com bolhas.</column>
 			<column name="aFieldNames">m_fHealPerHourMod,m_fImmuneLeft,m_fPainLeft,m_fImmuneRestoreRate,fSleepQuality</column>
 			<column name="aModifiers">-0.005,-0.1,-0.1,-0.0005,-0.35</column>
 			<column name="aEffects"></column>
@@ -14379,8 +14379,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">624</column>
-			<column name="strName">Bleeding internally</column>
-			<column name="strDesc">&lt;us&gt; is bleeding internally.</column>
+			<column name="strName">Sangramento interno</column>
+			<column name="strDesc">&lt;us&gt; esta sangrando internamente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14402,8 +14402,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">625</column>
-			<column name="strName">Killed by Blue Frog cultists in the King's chambers</column>
-			<column name="strDesc">&lt;us&gt; was riddled with holes by cultists in the chambers of the Blue Frogs' King.</column>
+			<column name="strName">Morto pelos seguidores de Blue Frog(Sala do rei))</column>
+			<column name="strDesc">&lt;us&gt; foi morto pelos seguidores de Blue Frog(Sala do rei).</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14425,8 +14425,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">626</column>
-			<column name="strName">Pass 24 hours</column>
-			<column name="strDesc">Pass 24 hours of in-game time.</column>
+			<column name="strName">Passar 24 horas</column>
+			<column name="strDesc">Passar 24 horas do tempo no jogo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">PassTime=24,0</column>
@@ -14448,8 +14448,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">627</column>
-			<column name="strName">Already spoke to King Eli/Queen Liza</column>
-			<column name="strDesc">&lt;us&gt; already spoke to King Eli/Queen Liza on the map.</column>
+			<column name="strName">Ja falou com o Rei/Eli/Queen Liza</column>
+			<column name="strDesc">&lt;us&gt; Ja falou com o Rei/Eli/Queen Liza no mapa.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14471,8 +14471,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">628</column>
-			<column name="strName">Set Waypoint Clearbone, and Spawn Loot</column>
-			<column name="strDesc">&lt;us&gt; is heading towards Clearbone Valley.</column>
+			<column name="strName">Defina ponto em Clearbone Valley</column>
+			<column name="strDesc">&lt;us&gt; esta indo em direcao a Clearbone Valley.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetWaypoint=43,118,1730,1</column>
@@ -14494,8 +14494,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">629</column>
-			<column name="strName">Set Waypoint Toward DMC</column>
-			<column name="strDesc">&lt;us&gt; is going towards DMC soon.</column>
+			<column name="strName">Defina ponto em DMC</column>
+			<column name="strDesc">&lt;us&gt; esta indo em direcao a DMC em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetWaypoint=50,150,1738,1</column>
@@ -14517,8 +14517,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">630</column>
-			<column name="strName">Inoculated Against The Blue Rot</column>
-			<column name="strDesc">&lt;us&gt; is inoculated against The Blue Rot.</column>
+			<column name="strName">Remedio contra Blue Rot</column>
+			<column name="strDesc">&lt;us&gt; tomou remedio contra Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">SetImmunity=295,620,296,297</column>
@@ -14540,8 +14540,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">631</column>
-			<column name="strName">Drank yellow vial.</column>
-			<column name="strDesc">&lt;us&gt; drank a vial of yellow liquid.</column>
+			<column name="strName">Frasco amarelo bebido.</column>
+			<column name="strDesc">&lt;us&gt; bebeu um frasco de liquido amarelo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14563,8 +14563,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">632</column>
-			<column name="strName">Is King Eli</column>
-			<column name="strDesc">&lt;us&gt; is King Eli.</column>
+			<column name="strName">E Rei Eli</column>
+			<column name="strDesc">&lt;us&gt; e o rei Eli.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14586,8 +14586,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">633</column>
-			<column name="strName">Clearbone Valley active</column>
-			<column name="strDesc">Clearbone Valley became a valid location.</column>
+			<column name="strName">Clearbone Valley ativo</column>
+			<column name="strDesc">Clearbone Valley tornou-se uma localizacao valida.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14609,8 +14609,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">634</column>
-			<column name="strName">Lose All Ground Items</column>
-			<column name="strDesc">&lt;us&gt; lost all items on the ground!</column>
+			<column name="strName">Perder todos os itens no chao</column>
+			<column name="strDesc">&lt;us&gt; perdeu todos os itens no chao!</column>
 			<column name="aFieldNames">LoseAllItems</column>
 			<column name="aModifiers">200</column>
 			<column name="aEffects"></column>
@@ -14632,8 +14632,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">635</column>
-			<column name="strName">Set Clearbone Destroyed</column>
-			<column name="strDesc">Sets Clearbone Destroyed on Player</column>
+			<column name="strName">Definir Clearbone Destroyed</column>
+			<column name="strDesc">Define como Clearbone destruido para o Jogador</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetPlayerCondition=636;SetPlayerCondition=-633</column>
@@ -14655,8 +14655,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">636</column>
-			<column name="strName">Clearbone Valley destroyed</column>
-			<column name="strDesc">Clearbone Valley was destroyed.</column>
+			<column name="strName">Clearbone Valley destruido</column>
+			<column name="strDesc">Clearbone Valley foi destruido.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14678,8 +14678,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">637</column>
-			<column name="strName">Carrying Clearbone key fob</column>
-			<column name="strDesc">&lt;us&gt; is carrying the Clearbone key fob.</column>
+			<column name="strName">Chave de Clearbone</column>
+			<column name="strDesc">&lt;us&gt; esta carregando a chave de Clearbone.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14701,8 +14701,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">638</column>
-			<column name="strName">Set Waypoint near DMC Gates</column>
-			<column name="strDesc">&lt;us&gt; is going near DMC Gates soon.</column>
+			<column name="strName">Defina ponto perto de DMC Gates </column>
+			<column name="strDesc">&lt;us&gt; estara perto de DMC Gates em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetWaypoint=56,189,1739,1</column>
@@ -14724,8 +14724,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">639</column>
-			<column name="strName">Set DMC Quarantine</column>
-			<column name="strDesc">Sets DMC Quarantine on Player</column>
+			<column name="strName">Defina DMC Quarantine</column>
+			<column name="strDesc">Defina DMC em quarentena para o Jogador</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetPlayerCondition=640</column>
@@ -14747,8 +14747,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">640</column>
-			<column name="strName">DMC Quarantined 2 Weeks</column>
-			<column name="strDesc">DMC is quarantined 2 weeks due to a recent disease outbreak.</column>
+			<column name="strName">DMC em quarentena em 2 semanas</column>
+			<column name="strDesc">DMC esta em quarentena 2 semanas devido a um recente surto de doenca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14770,8 +14770,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">641</column>
-			<column name="strName">Fell into a lethal trap.</column>
-			<column name="strDesc">&lt;us&gt; has fallen into a lethal trap and died!</column>
+			<column name="strName">Caiu em uma armadilha letal.</column>
+			<column name="strDesc">&lt;us&gt; caiu em uma armadilha letal e morreu!</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -14793,8 +14793,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">642</column>
-			<column name="strName">Trigger Examine Blue Frog papers</column>
-			<column name="strDesc">&lt;us&gt; is examining the Blue Frog papers.</column>
+			<column name="strName">Examinando papeis de Blue Frog</column>
+			<column name="strDesc">&lt;us&gt; esta examinando papeis de Blue Frog.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">1742</column>
 			<column name="aEffects"></column>
@@ -14816,8 +14816,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">643</column>
-			<column name="strName">Is King Eli (no destroy)</column>
-			<column name="strDesc">&lt;us&gt; is King Eli, but won't destroy Clearbone.</column>
+			<column name="strName">O rei Eli (sem destruir)</column>
+			<column name="strDesc">&lt;us&gt; e o rei Eli, mas nao vai destruir o Clearbone.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14839,8 +14839,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">644</column>
-			<column name="strName">Set Waypoint Toward Saginaw</column>
-			<column name="strDesc">&lt;us&gt; is going towards Saginaw soon.</column>
+			<column name="strName">Definir ponto Saginaw</column>
+			<column name="strDesc">&lt;us&gt; esta em breve indo em direcao a Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">SetWaypoint=40,108,1745,1</column>
@@ -14862,8 +14862,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">645</column>
-			<column name="strName">Electrocuted</column>
-			<column name="strDesc">&lt;us&gt; was electrocuted during the Trial of Light.</column>
+			<column name="strName">Eletrocutado</column>
+			<column name="strDesc">&lt;us&gt; foi eletrocutado durante o Ensaio de Luz.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14885,8 +14885,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">646</column>
-			<column name="strName">Received regression therapy at Saginaw</column>
-			<column name="strDesc">&lt;us&gt; had regression therapy at Saginaw.</column>
+			<column name="strName">Terapia de regressao recebida em Saginaw</column>
+			<column name="strDesc">&lt;us&gt; recebeu terapia de regressao em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14908,8 +14908,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">647</column>
-			<column name="strName">Add Global Faction Rep 100 (Blue Frogs)</column>
-			<column name="strDesc">Add 100 player's rep to all current and future Blue Frogs.</column>
+			<column name="strName">Add 100 Faccao (Blue Frogs)</column>
+			<column name="strDesc">Adicione +100 a Faccao dos Blue Frogs.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeGlobalFactionRep=4,100,1</column>
@@ -14931,8 +14931,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">648</column>
-			<column name="strName">Looted Saginaw Lockers</column>
-			<column name="strDesc">&lt;us&gt; looted the Saginaw lockers.</column>
+			<column name="strName">Roubou armario de Saginaw</column>
+			<column name="strDesc">&lt;us&gt; saqueou os armarios Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14954,8 +14954,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">649</column>
-			<column name="strName">Snuck into Saginaw via secret entrance</column>
-			<column name="strDesc">&lt;us&gt; snuck into Saginaw via the secret entrance.</column>
+			<column name="strName">Junte-se a Saginaw atraves da entrada secreta</column>
+			<column name="strDesc">&lt;us&gt; entrou em Saginaw atraves da entrada secreta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -14977,8 +14977,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">650</column>
-			<column name="strName">Tried talking to Blue Frog in locker room.</column>
-			<column name="strDesc">&lt;us&gt; tried talking to the Blue Frog in the locker room.</column>
+			<column name="strName">Tentou falar com um Blue Frog no vestiario.</column>
+			<column name="strDesc">&lt;us&gt; tentou conversar com o Blue Frog no vestiario.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
