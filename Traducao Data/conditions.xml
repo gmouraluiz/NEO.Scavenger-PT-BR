@@ -14701,7 +14701,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">638</column>
-			<column name="strName">Defina ponto perto de DMC Gates</column>
+			<column name="strName">Defina ponto perto de DMC Gates </column>
 			<column name="strDesc">&lt;us&gt; estara perto de DMC Gates em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -16426,8 +16426,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">713</column>
-			<column name="strName">Received $3750</column>
-			<column name="strDesc">&lt;us&gt; received $3750.</column>
+			<column name="strName">Recebeu $3750</column>
+			<column name="strDesc">&lt;us&gt; recebeu $3750.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">3750</column>
 			<column name="aEffects"></column>
@@ -16449,8 +16449,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">714</column>
-			<column name="strName">Knows about Saginaw</column>
-			<column name="strDesc">&lt;us&gt; knows there's something important about Saginaw.</column>
+			<column name="strName">Sabe sobre Saginaw</column>
+			<column name="strDesc">&lt;us&gt; sabe que ha algo importante sobre Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16495,8 +16495,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">716</column>
-			<column name="strName">Blisters on Foot</column>
-			<column name="strDesc">&lt;us&gt; has painful blisters on their foot.</column>
+			<column name="strName">Bolhas no pe</column>
+			<column name="strDesc">&lt;us&gt; tem bolhas dolorosas no pe.</column>
 			<column name="aFieldNames">m_fPain,fMovesPerTurnModifier</column>
 			<column name="aModifiers">0.1,-1</column>
 			<column name="aEffects"></column>
@@ -16518,8 +16518,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">717</column>
-			<column name="strName">Examined sheaf of papers in Merga's Realm</column>
-			<column name="strDesc">&lt;us&gt; examined the papers in Merga's Realm.</column>
+			<column name="strName">Examinou alguns papeis em Merga's Realm</column>
+			<column name="strDesc">&lt;us&gt; examinou alguns papeis em Merga's Realm.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16541,8 +16541,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">718</column>
-			<column name="strName">Examined children's book in Merga's Realm</column>
-			<column name="strDesc">&lt;us&gt; examined the children's book in Merga's Realm.</column>
+			<column name="strName">Examinou Livro infantil em Merga's Realm</column>
+			<column name="strDesc">&lt;us&gt; examinou o livro infantil em Merga's Realm.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16564,8 +16564,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">719</column>
-			<column name="strName">Examined engravings in Merga's Realm</column>
-			<column name="strDesc">&lt;us&gt; examined the engravings in Merga's Realm.</column>
+			<column name="strName">Examinou gravuras em Merga's Realm</column>
+			<column name="strDesc">&lt;us&gt; examinou gravuras em Merga's Realm.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16587,8 +16587,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">720</column>
-			<column name="strName">Examined sheaf of letters in Merga's Realm</column>
-			<column name="strDesc">&lt;us&gt; examined the letters in Merga's Realm.</column>
+			<column name="strName">Examinou um algumas letras em Merga's Realm</column>
+			<column name="strDesc">&lt;us&gt; examinou um algumas letras em Merga's Realm.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16610,8 +16610,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">721</column>
-			<column name="strName">Examined film canister in Merga's Realm</column>
-			<column name="strDesc">&lt;us&gt; examined the film in Merga's Realm.</column>
+			<column name="strName">Examinou um Caixote de filme em Merga's Realm</column>
+			<column name="strDesc">&lt;us&gt; examinou um Caixote de filme em Merga's Realm.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16633,8 +16633,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">722</column>
-			<column name="strName">Drowned during Trial of Water</column>
-			<column name="strDesc">&lt;us&gt; drowned during the Trial of Water at Saginaw.</column>
+			<column name="strName">Afogado durante 'Julgamento da Agua'</column>
+			<column name="strDesc">&lt;us&gt; afogado durante o julgamento da agua em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16656,8 +16656,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">723</column>
-			<column name="strName">Cooked alive during Trial of Fire</column>
-			<column name="strDesc">&lt;us&gt; was cooked alive during the Trial of Fire at Saginaw.</column>
+			<column name="strName">Cozinhado vivo durante Julgamento do Fogo</column>
+			<column name="strDesc">&lt;us&gt; foi cozinhado vivo durante o julgamento de fogo em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16679,8 +16679,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">724</column>
-			<column name="strName">Picked lock in north wing at Saginaw</column>
-			<column name="strDesc">&lt;us&gt; picked the lock in the north wing at Saginaw.</column>
+			<column name="strName">Bloqueio escolhido na asa norte em Saginaw</column>
+			<column name="strDesc">&lt;us&gt; escolheu a fechadura na ala norte em Saginaw.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16703,7 +16703,7 @@
 		<table name="conditions">
 			<column name="id">725</column>
 			<column name="strName">DMC Drone</column>
-			<column name="strDesc">&lt;us&gt; is a drone of the DMC SkyCorps.</column>
+			<column name="strDesc">&lt;us&gt; esta com um drone de DMC SkyCorps.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">SetImmunity=159,143</column>
@@ -16725,8 +16725,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">726</column>
-			<column name="strName">Critical System Failure</column>
-			<column name="strDesc">&lt;us&gt; had a critical system failure.</column>
+			<column name="strName">Falha critica no sistema</column>
+			<column name="strDesc">&lt;us&gt; teve uma falha critica no sistema.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16748,8 +16748,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">727</column>
-			<column name="strName">Doesn't Negotiate</column>
-			<column name="strDesc">&lt;us&gt; does not negotiate in battle.</column>
+			<column name="strName">Nao negocia</column>
+			<column name="strDesc">&lt;us&gt; nao negocia em batalha.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16771,8 +16771,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">728</column>
-			<column name="strName">Mechanical Creature</column>
-			<column name="strDesc">&lt;us&gt; is mechanical, and does not suffer biological flaws.</column>
+			<column name="strName">Criatura Mecanica</column>
+			<column name="strDesc">&lt;us&gt; e mecanico e nao sofre falhas biologicas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">SetImmunity=18,106,145,146,148</column>
@@ -16794,8 +16794,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">729</column>
-			<column name="strName">Cannot Call DMC Support</column>
-			<column name="strDesc">&lt;us&gt; cannot call DMC support right now.</column>
+			<column name="strName">Nao e possivel chamar o suporte da DMC</column>
+			<column name="strDesc">&lt;us&gt; nao pode chamar o suporte da DMC neste momento.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16818,7 +16818,7 @@
 		<table name="conditions">
 			<column name="id">730</column>
 			<column name="strName">Drone Armor</column>
-			<column name="strDesc">&lt;us&gt; has fuselage armor.</column>
+			<column name="strDesc">&lt;us&gt; tem armadura de fuselagem.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ArmorWound=104,3,0.8</column>
@@ -16840,8 +16840,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">731</column>
-			<column name="strName">The Blue Rot 1a</column>
-			<column name="strDesc">&lt;us&gt; can transmit The Blue Rot at strength 1.</column>
+			<column name="strName">Blue Rot 1a</column>
+			<column name="strDesc">&lt;us&gt; pode transmitir o Blue Rot na forca 1.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16863,8 +16863,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">732</column>
-			<column name="strName">The Blue Rot 2a</column>
-			<column name="strDesc">&lt;us&gt; can transmit The Blue Rot at strength 2.</column>
+			<column name="strName">Blue Rot 2a</column>
+			<column name="strDesc">&lt;us&gt; pode transmitir o Blue Rot na forca 2.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16886,8 +16886,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">733</column>
-			<column name="strName">The Blue Rot 3a</column>
-			<column name="strDesc">&lt;us&gt; can transmit The Blue Rot at strength 3.</column>
+			<column name="strName">Blue Rot 3a</column>
+			<column name="strDesc">&lt;us&gt; pode transmitir o Blue Rot na forca 3.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -16909,8 +16909,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">734</column>
-			<column name="strName">Wearing Crude Air Filter</column>
-			<column name="strDesc">&lt;us&gt; is wearing a crude air filter.</column>
+			<column name="strName">Vestindo Filtro de ar bruto</column>
+			<column name="strDesc">&lt;us&gt; esta usando um filtro de ar bruto.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">ChainCondition=735,736</column>
@@ -16932,8 +16932,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">735</column>
-			<column name="strName">Crude Air Filter Heartbeat</column>
-			<column name="strDesc">&lt;us&gt; periodically has a working air filter.</column>
+			<column name="strName">Filtro de ar Heartbeat</column>
+			<column name="strDesc">&lt;us&gt; periodicamente tem um filtro de ar de trabalhando.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -16955,8 +16955,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">736</column>
-			<column name="strName">Crude Air Filter Active</column>
-			<column name="strDesc">&lt;us&gt; is wearing a crude air filter this turn.</column>
+			<column name="strName">Filtro de ar ativo</column>
+			<column name="strDesc">&lt;us&gt; esta usando um filtro de ar bruto neste turno.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects">SetImmunity=619,620,621,731,732,733</column>
@@ -16978,8 +16978,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">737</column>
-			<column name="strName">BattleMove Visible 2x</column>
-			<column name="strDesc">&lt;us&gt; is doing something highly visible.</column>
+			<column name="strName">Movimento de batalha visivel 2x</column>
+			<column name="strDesc">&lt;us&gt; esta fazendo algo altamente visivel.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">1.0</column>
 			<column name="aEffects"></column>
@@ -17001,8 +17001,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">738</column>
-			<column name="strName">BattleMove Visible 0.5x</column>
-			<column name="strDesc">&lt;us&gt; is doing something hidden.</column>
+			<column name="strName">Movimento de batalha escondido 0.5x</column>
+			<column name="strDesc">&lt;us&gt; esta fazendo algo escondido.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">-0.25</column>
 			<column name="aEffects"></column>
@@ -17024,8 +17024,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">739</column>
-			<column name="strName">BattleMove Visible 0.25x</column>
-			<column name="strDesc">&lt;us&gt; is doing something very hidden.</column>
+			<column name="strName">Movimento de batalha escondido 0.25x</column>
+			<column name="strDesc">&lt;us&gt; estÃ¡ fazendo algo muito escondido.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">-0.5</column>
 			<column name="aEffects"></column>
@@ -17047,8 +17047,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">740</column>
-			<column name="strName">Battle Ambush Close</column>
-			<column name="strDesc">&lt;us&gt; is preparing to ambush creatures up close in battle.</column>
+			<column name="strName">Emboscada de batalha perto</column>
+			<column name="strDesc">&lt;us&gt; esta se preparando para emboscadas criaturas de perto na batalha.</column>
 			<column name="aFieldNames">BattleRange</column>
 			<column name="aModifiers">0.1</column>
 			<column name="aEffects"></column>
@@ -17070,8 +17070,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">741</column>
-			<column name="strName">Battle Ambush Far</column>
-			<column name="strDesc">&lt;us&gt; is preparing to ambush creatures from afar in battle.</column>
+			<column name="strName">Emboscada de batalha longe</column>
+			<column name="strDesc">&lt;us&gt; esta se preparando para emboscar criaturas de longe da batalha.</column>
 			<column name="aFieldNames">BattleRange</column>
 			<column name="aModifiers">1</column>
 			<column name="aEffects"></column>
@@ -17093,8 +17093,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">742</column>
-			<column name="strName">Standing in ATN Market Hex</column>
-			<column name="strDesc">&lt;us&gt; is in an ATN Market hex.</column>
+			<column name="strName">Hex de Mercado ATN</column>
+			<column name="strDesc">&lt;us&gt; esta em um Hex de Mercado ATN.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17116,8 +17116,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">743</column>
-			<column name="strName">ADS Exposure</column>
-			<column name="strDesc">&lt;us&gt; is experiencing burning pain on their skin.</column>
+			<column name="strName">Exposicao ADS</column>
+			<column name="strDesc">&lt;us&gt; esta com dor ardente na pele.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17139,8 +17139,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">744</column>
-			<column name="strName">Death by ADS Overexposure</column>
-			<column name="strDesc">&lt;us&gt; was cooked alive by overexposure to Active Denial System emissions.</column>
+			<column name="strName">Morte por ADS Overexposure</column>
+			<column name="strDesc">&lt;us&gt; foi cozido vivo por exposicao excessiva as ADS, emissoes do sistema de negacao ativa.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17162,8 +17162,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">745</column>
-			<column name="strName">Ate chip</column>
-			<column name="strDesc">&lt;us&gt; ate a handful of potato chips.</column>
+			<column name="strName">Comeu batata frita</column>
+			<column name="strDesc">&lt;us&gt; comeu um punhado de batata frita.</column>
 			<column name="aFieldNames">fFoodDebt,fWaterDebt</column>
 			<column name="aModifiers">-1,0.5</column>
 			<column name="aEffects"></column>
@@ -17185,8 +17185,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">746</column>
-			<column name="strName">Wearing a reflective blanket</column>
-			<column name="strDesc">&lt;us&gt; is wearing a heat-reflective blanket.</column>
+			<column name="strName">Vestindo um cobertor reflexivo</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo um cobertor reflector de calor.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp,BodyInsulation,m_fVisibility</column>
 			<column name="aModifiers">-22,-8,-1.5,0.5</column>
 			<column name="aEffects"></column>
@@ -17208,8 +17208,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">747</column>
-			<column name="strName">Found Grayling Fence Weakness</column>
-			<column name="strDesc">&lt;us&gt; found the weakened section of Grayling's fence.</column>
+			<column name="strName">Encontrou fraqueza na cerca de Grayling</column>
+			<column name="strDesc">&lt;us&gt; encontrou a parte enfraquecida da cerca de Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17231,8 +17231,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">748</column>
-			<column name="strName">Grayling Weak Field</column>
-			<column name="strDesc">&lt;us&gt; chose the correct, weakened section of Grayling's fence.</column>
+			<column name="strName">Cerca fraca de Grayling</column>
+			<column name="strDesc">&lt;us&gt; escolheu a parte correta e debilitada da cerca de Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17254,8 +17254,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">749</column>
-			<column name="strName">Grayling Strong Field</column>
-			<column name="strDesc">&lt;us&gt; chose a fully-powered section of Grayling's fence.</column>
+			<column name="strName">Cerca forte de Grayling</column>
+			<column name="strDesc">&lt;us&gt; escolheu uma parte totalmente equipada da cerca de Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17277,8 +17277,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">750</column>
-			<column name="strName">ADS Overexposure Warning</column>
-			<column name="strDesc">&lt;us&gt; may not be able to take much more exposure to ADS emissions.</column>
+			<column name="strName">ADS sobreexposicao Aviso</column>
+			<column name="strDesc">&lt;us&gt; pode nao ser capaz de levar muito mais exposicao as emissoes ADS.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17300,8 +17300,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">751</column>
-			<column name="strName">ADS Overexposure Critical</column>
-			<column name="strDesc">&lt;us&gt; will not survive any more exposure to ADS emissions.</column>
+			<column name="strName">ADS sobreexposicao Critica</column>
+			<column name="strDesc">&lt;us&gt; nao sobrevivera a mais exposicao as emissoes de ADS.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17323,8 +17323,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">752</column>
-			<column name="strName">Agreed to destroy Grayling for Martha</column>
-			<column name="strDesc">&lt;us&gt; agreed to help Martha destroy Grayling.</column>
+			<column name="strName">Concordou em destruir Grayling para Martha</column>
+			<column name="strDesc">&lt;us&gt; concordou em destruir Grayling para Martha.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17346,8 +17346,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">753</column>
-			<column name="strName">Found Grayling Code: Anarchy</column>
-			<column name="strDesc">&lt;us&gt; found the Grayling mainframe Code: Anarchy.</column>
+			<column name="strName">Codigo Grayling: Anarquia</column>
+			<column name="strDesc">&lt;us&gt; descobriu o codigo do mainframe Grayling: anarquia.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17369,8 +17369,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">754</column>
-			<column name="strName">Copied control tower data for Stoat</column>
-			<column name="strDesc">&lt;us&gt; copied the control tower data onto the memory stick for Stoat.</column>
+			<column name="strName">Dados da torre de controle copiados para Stoat</column>
+			<column name="strDesc">&lt;us&gt; copiou os dados da torre de controle para o pendrive para Stoat.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17392,8 +17392,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">755</column>
-			<column name="strName">Grayling storage shed destroyed.</column>
-			<column name="strDesc">&lt;us&gt; destroyed the storage shed at Grayling with a forklift.</column>
+			<column name="strName">Grayling deposito de armazenamento destruido.</column>
+			<column name="strDesc">&lt;us&gt; destruiu o galpao de armazenamento de Grayling com uma empilhadeira.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17415,8 +17415,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">756</column>
-			<column name="strName">Agreed to get Grayling data for Stoat</column>
-			<column name="strDesc">&lt;us&gt; agreed to help Stoat get data at Grayling.</column>
+			<column name="strName">Concordou em obter dados Grayling para Stoat</column>
+			<column name="strDesc">&lt;us&gt; concordou em ajudar Stoat a obter dados em Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17438,8 +17438,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">757</column>
-			<column name="strName">Found cylindrical key at Grayling.</column>
-			<column name="strDesc">&lt;us&gt; found the cylindrical key at Grayling.</column>
+			<column name="strName">Chave cilindrica encontrada em Grayling.</column>
+			<column name="strDesc">&lt;us&gt; encontrou a chave cilindrica em Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17461,8 +17461,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">758</column>
-			<column name="strName">Found V-MADS blueprints</column>
-			<column name="strDesc">&lt;us&gt; found the V-MADS blueprints at Grayling.</column>
+			<column name="strName">Encontrados planos V-MADS</column>
+			<column name="strDesc">&lt;us&gt; encontrou os planos de V-MADS em Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17484,8 +17484,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">759</column>
-			<column name="strName">Found Grayling ID badge</column>
-			<column name="strDesc">&lt;us&gt; found the ID badge at Camp Grayling.</column>
+			<column name="strName">Marcador de identificacao Grayling encontrado</column>
+			<column name="strDesc">&lt;us&gt; encontrou o distintivo de identificacao no Camp Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17507,8 +17507,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">760</column>
-			<column name="strName">Searched the Grayling barracks bathroom</column>
-			<column name="strDesc">&lt;us&gt; searched the Grayling barracks bathroom.</column>
+			<column name="strName">Procurou o banheiro do quartel Grayling</column>
+			<column name="strDesc">&lt;us&gt; procurou o banheiro do quarlight Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17530,8 +17530,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">761</column>
-			<column name="strName">Blackwhite Lockdown</column>
-			<column name="strDesc">&lt;us&gt; triggered the Blackwhite lockdown.</column>
+			<column name="strName">Bloqueio de blackwhite</column>
+			<column name="strDesc">&lt;us&gt; desencadeou o bloqueio Blackwhite.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17553,8 +17553,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">762</column>
-			<column name="strName">Blackwhite Queries</column>
-			<column name="strDesc">&lt;us&gt; is running out of time with each query.</column>
+			<column name="strName">Blackwhite consultas</column>
+			<column name="strDesc">&lt;us&gt; esta ficando sem tempo com cada consulta.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17576,8 +17576,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">763</column>
-			<column name="strName">Blackwhite Progress 60%</column>
-			<column name="strDesc">Blackwhite's task process is at 60%.</column>
+			<column name="strName">Blackwhite 60%</column>
+			<column name="strDesc">O processo de tarefa do Blackwhite e de 60%.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17599,8 +17599,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">764</column>
-			<column name="strName">Blackwhite Progress 80%</column>
-			<column name="strDesc">Blackwhite's task process is at 80%.</column>
+			<column name="strName">Blackwhite 80%</column>
+			<column name="strDesc">O processo de tarefa do Blackwhite e de 80%.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17622,8 +17622,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">765</column>
-			<column name="strName">Knows About CNCI</column>
-			<column name="strDesc">&lt;us&gt; heard of CNCI.</column>
+			<column name="strName">Conhece o CNCI</column>
+			<column name="strDesc">&lt;us&gt; ouviu falar do CNCI.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17645,8 +17645,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">766</column>
-			<column name="strName">Knows about NEO Wiki</column>
-			<column name="strDesc">&lt;us&gt; knows about the NEO Wiki.</column>
+			<column name="strName">Conhece sobre NEO Wiki</column>
+			<column name="strDesc">&lt;us&gt; conhece o NEO Wiki.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17668,8 +17668,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">767</column>
-			<column name="strName">Hacked credentials in Blackwhite</column>
-			<column name="strDesc">&lt;us&gt; used Hacking to escalate their credentials in Blackwhite.</column>
+			<column name="strName">Credenciais hackeadas em Blackwhite</column>
+			<column name="strDesc">&lt;us&gt; usado Hacking para escalar suas credenciais em Blackwhite.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17691,8 +17691,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">768</column>
-			<column name="strName">Used ID card in Blackwhite</column>
-			<column name="strDesc">&lt;us&gt; used the ID card in Blackwhite.</column>
+			<column name="strName">Cartao de identificacao usado em Blackwhite</column>
+			<column name="strDesc">&lt;us&gt; usou o cartao de identificacao em Blackwhite.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17714,8 +17714,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">769</column>
-			<column name="strName">Used Failsafe key in Blackwhite</column>
-			<column name="strDesc">&lt;us&gt; used the failsafe key in Blackwhite.</column>
+			<column name="strName">Chave Failsafe usada em Blackwhite</column>
+			<column name="strDesc">&lt;us&gt; usou a chave de seguranca em Blackwhite.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17737,8 +17737,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">770</column>
-			<column name="strName">Knows of Merga Wraith</column>
-			<column name="strDesc">&lt;us&gt; knows the Merga Wraith exists.</column>
+			<column name="strName">Sabe de Merga Wraith</column>
+			<column name="strDesc">&lt;us&gt; sabe que Merga Wraith existe.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17760,8 +17760,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">771</column>
-			<column name="strName">Knows of PRISM</column>
-			<column name="strDesc">&lt;us&gt; knows about the PRISM surveillance network.</column>
+			<column name="strName">Conhece o PRISM</column>
+			<column name="strDesc">&lt;us&gt; conhece a rede de vigilancia PRISM.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17783,8 +17783,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">772</column>
-			<column name="strName">Martha is gone</column>
-			<column name="strDesc">&lt;us&gt; told Martha they're just passing through, and she's gone now.</column>
+			<column name="strName">Martha se foi</column>
+			<column name="strDesc">&lt;us&gt; disse a Martha que estao passando, e ela ja foi embora.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -17807,7 +17807,7 @@
 		<table name="conditions">
 			<column name="id">773</column>
 			<column name="strName">MA JD 1</column>
-			<column name="strDesc">&lt;us&gt; already had Martha's Army conversation 1 with JD.</column>
+			<column name="strDesc">&lt;us&gt; ja tinha conversa 1 do Martha's Army com JD.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17830,7 +17830,7 @@
 		<table name="conditions">
 			<column name="id">774</column>
 			<column name="strName">MA JD 2</column>
-			<column name="strDesc">&lt;us&gt; already had Martha's Army conversation 2 with JD.</column>
+			<column name="strDesc">&lt;us&gt; ja tinha conversa 2 do Martha's Army com JD.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17852,8 +17852,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">775</column>
-			<column name="strName">Drop Random Tracking Device</column>
-			<column name="strDesc">&lt;us&gt; dropped a random tracking device.</column>
+			<column name="strName">Largou um dispositivo de rastreamento</column>
+			<column name="strDesc">&lt;us&gt; largou um dispositivo de rastreamento aleatorio.</column>
 			<column name="aFieldNames">LoseRandomItem</column>
 			<column name="aModifiers">101</column>
 			<column name="aEffects"></column>
@@ -17875,8 +17875,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">776</column>
-			<column name="strName">Periodically drop tracking device</column>
-			<column name="strDesc">&lt;us&gt; periodically drops a random tracking device.</column>
+			<column name="strName">Periodicamente soltando o dispositivo de rastreamento</column>
+			<column name="strDesc">&lt;us&gt; periodicamente solta um dispositivo de rastreamento aleatorio.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17898,8 +17898,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">777</column>
-			<column name="strName">MA Recruiter 1</column>
-			<column name="strDesc">&lt;us&gt; already had Martha's Army conversation 1 with recruiter.</column>
+			<column name="strName">MA recruta 1</column>
+			<column name="strDesc">&lt;us&gt; ja tinha conversa 1 do Martha's Army com recrutador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17921,8 +17921,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">778</column>
-			<column name="strName">MA Recruiter 2</column>
-			<column name="strDesc">&lt;us&gt; already had Martha's Army conversation 2 with recruiter.</column>
+			<column name="strName">MA recruta 2</column>
+			<column name="strDesc">&lt;us&gt; ja tinha conversa 2 do Martha's Army com recrutador.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -17944,8 +17944,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">779</column>
-			<column name="strName">Subtract Global Faction Rep 10 (Martha's Army)</column>
-			<column name="strDesc">Subtract 10 player's rep to all current and future Martha's Army.</column>
+			<column name="strName">Perde 10 Faccao (Martha's Army)</column>
+			<column name="strDesc">Perde -5 a Faccao de Saqueador dos atuais e futuros Martha's Army.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">ChangeGlobalFactionRep=13,-10,1</column>
@@ -17967,8 +17967,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">780</column>
-			<column name="strName">Trigger Camp Grayling Encounter</column>
-			<column name="strDesc">&lt;us&gt; is entering Camp Grayling.</column>
+			<column name="strName">Entrando no acampamento de Grayling</column>
+			<column name="strDesc">&lt;us&gt; esta entrando acampamento de Grayling.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2094</column>
 			<column name="aEffects"></column>
@@ -17990,8 +17990,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">781</column>
-			<column name="strName">Elusive reputation</column>
-			<column name="strDesc">&lt;us&gt; gained a legendary reputation for being elusive.</column>
+			<column name="strName">Reputacao esquivo</column>
+			<column name="strDesc">&lt;us&gt; ganhou uma reputacao lendaria por ser esquivo.</column>
 			<column name="aFieldNames">m_fDefense,m_fVisibility,m_fMoveReserve,,m_fMoveReserveRemaining,m_fTrackingThreshold,m_fScent</column>
 			<column name="aModifiers">0.2,-0.25,1,1,-1.5,-1</column>
 			<column name="aEffects"></column>
@@ -18013,8 +18013,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">782</column>
-			<column name="strName">Unstoppable reputation</column>
-			<column name="strDesc">&lt;us&gt; gained a legendary reputation for being unstoppable.</column>
+			<column name="strName">Reputacao imparavel</column>
+			<column name="strDesc">&lt;us&gt; ganhou uma reputacao lendaria por ser imparavel.</column>
 			<column name="aFieldNames">m_fPainLeftBase,m_fImmuneLeftBase,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate,m_fPainLeft,m_fImmuneLeft,m_fMorale,m_fFatigueModifier,m_fDefense,AttDmgMult</column>
 			<column name="aModifiers">0.25,0.2,0.02,0.0001,0.001,0.25,0.2,0.2,-0.25,0.2,0.25</column>
 			<column name="aEffects"></column>
@@ -18036,8 +18036,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">783</column>
-			<column name="strName">Received elusive reputation</column>
-			<column name="strDesc">&lt;us&gt; gained a legendary reputation for being elusive.</column>
+			<column name="strName">Recebi reputacao esquivo</column>
+			<column name="strDesc">&lt;us&gt; ganhou uma reputacao lendaria por ser esquivo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddSkill=91.18</column>
@@ -18059,8 +18059,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">784</column>
-			<column name="strName">Received unstoppable reputation</column>
-			<column name="strDesc">&lt;us&gt; gained a legendary reputation for being unstoppable.</column>
+			<column name="strName">Recebeu reputacao imparavel</column>
+			<column name="strDesc">&lt;us&gt; ganhou uma reputacao lendaria por ser imparavel.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">AddSkill=91.19</column>
@@ -18082,8 +18082,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">785</column>
-			<column name="strName">Elusive counter</column>
-			<column name="strDesc">Number of times &lt;us&gt; has proven to be elusive.</column>
+			<column name="strName">Contador evasivo</column>
+			<column name="strDesc">Number of times &lt;us&gt; provou ser evasivo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18105,8 +18105,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">786</column>
-			<column name="strName">Unstoppable counter</column>
-			<column name="strDesc">Number of times &lt;us&gt; has proven to be unstoppable.</column>
+			<column name="strName">Contador imparavel</column>
+			<column name="strDesc">Number of times &lt;us&gt; provou ser imparavel.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18128,8 +18128,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">787</column>
-			<column name="strName">Enervated</column>
-			<column name="strDesc">&lt;us&gt; is out of shape, and fatigues more easily.</column>
+			<column name="strName">Enfraquecido</column>
+			<column name="strDesc">&lt;us&gt; esta fora de forma e se cansa mais facilmente.</column>
 			<column name="aFieldNames">m_fFatigueModifier,m_fMoveReserve,m_fDefense,m_fMorale,m_fMoveReserveRemaining</column>
 			<column name="aModifiers">1,-0.5,-0.1,-0.15,-0.5</column>
 			<column name="aEffects"></column>
@@ -18151,8 +18151,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">788</column>
-			<column name="strName">Hatter Grayling Mission Available</column>
-			<column name="strDesc">Grayling mission is available at Hatter's.</column>
+			<column name="strName">Missao Hatter Grayling disponivel</column>
+			<column name="strDesc">A missao Grayling esta disponivel no Hatter's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18174,8 +18174,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">789</column>
-			<column name="strName">Hatter away until further notice.</column>
-			<column name="strDesc">Hatter's currently away.</column>
+			<column name="strName">Hatter esta ausente.</column>
+			<column name="strDesc">Hatter estÃ¡ atualmente ausente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18197,8 +18197,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">790</column>
-			<column name="strName">Hatter Temporarily Busy</column>
-			<column name="strDesc">Hatter's not around today.</column>
+			<column name="strName">Hatter ocupado</column>
+			<column name="strDesc">Hatter nao esta por ai hoje.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18220,8 +18220,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">791</column>
-			<column name="strName">Sent security request from Grayling control tower.</column>
-			<column name="strDesc">&lt;us&gt; sent a bogus security request from Grayling's control tower.</column>
+			<column name="strName">Solicitacao de seguranca enviada da torre de controle de Grayling.</column>
+			<column name="strDesc">&lt;us&gt; enviou um pedido de seguranca falso da torre de controle de Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18243,8 +18243,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">792</column>
-			<column name="strName">Bogus Grayling security request active.</column>
-			<column name="strDesc">Bogus Grayling security request active.</column>
+			<column name="strName">Pedido de seguranca Bogus Grayling ativo.</column>
+			<column name="strDesc">Pedido de seguranca Bogus Grayling ativo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18266,8 +18266,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">793</column>
-			<column name="strName">Trigger End Game: Indiana</column>
-			<column name="strDesc">Trigger game ending: Indiana.</column>
+			<column name="strName">Desligamento final do jogo: Indiana</column>
+			<column name="strDesc">Desligamento final do jogo: Indiana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">EndGame=2198</column>
@@ -18289,8 +18289,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">794</column>
-			<column name="strName">Blackwhite Progress 40%</column>
-			<column name="strDesc">Blackwhite's task process is at 40%.</column>
+			<column name="strName">Blackwhite 40%</column>
+			<column name="strDesc">O processo de tarefa do Blackwhite e de 40%.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18312,8 +18312,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">795</column>
-			<column name="strName">Blackwhite Progress 20%</column>
-			<column name="strDesc">Blackwhite's task process is at 20%.</column>
+			<column name="strName">Blackwhite 20%</column>
+			<column name="strDesc">O processo de tarefa do Blackwhite e de 20%.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18335,8 +18335,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">796</column>
-			<column name="strName">Use Roadmap</column>
-			<column name="strDesc">&lt;us&gt; is using a roadmap.</column>
+			<column name="strName">Use o Roteiro(Roadmap)</column>
+			<column name="strDesc">&lt;us&gt; estÃ¡ usando um roteiro(Roadmap).</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2187</column>
 			<column name="aEffects"></column>
@@ -18358,8 +18358,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">797</column>
-			<column name="strName">Knows about Grayling.</column>
-			<column name="strDesc">&lt;us&gt; heard of Grayling.</column>
+			<column name="strName">Sabe sobre Grayling.</column>
+			<column name="strDesc">&lt;us&gt; ouviu falar de Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18381,8 +18381,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">798</column>
-			<column name="strName">Saw glow in east.</column>
-			<column name="strDesc">&lt;us&gt; saw the glow in the east.</column>
+			<column name="strName">Viu brilho no leste.</column>
+			<column name="strDesc">&lt;us&gt; viu o brilho no leste.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18404,8 +18404,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">799</column>
-			<column name="strName">Issued Code: Anarchy to Blackwhite AI</column>
-			<column name="strDesc">&lt;us&gt; issued Code: Anarchy command to Blackwhite AI at Grayling.</column>
+			<column name="strName">Codigo emitido: AI Anarquia para Blackwhite</column>
+			<column name="strDesc">&lt;us&gt; Codigo emitido: comando da anarquia para Blackwhite AI em Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18427,8 +18427,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">800</column>
-			<column name="strName">Applied Hatter's bug to Blackwhite</column>
-			<column name="strDesc">&lt;us&gt; inserted the bug for Hatter's mission into Blackwhite AI at Grayling.</column>
+			<column name="strName">Bicho de Hatter aplicado para Blackwhite</column>
+			<column name="strDesc">&lt;us&gt; inseriu o erro para a missao de Hatter em Blackwhite AI em Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>

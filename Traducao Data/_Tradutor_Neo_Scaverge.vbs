@@ -6411,227 +6411,17 @@ Function conditions(id, attr, Line)
 		case 713
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $3750", "Recebeu $3750")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $3750", "recebeu $3750")
 			End Select
-		case 000
+		case 714
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Knows about Saginaw", "Sabe sobre Saginaw")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "000", "000")
-				case "strDesc"
-					Line = Replace(Line, "0000", "000")
-			End Select
+					Line = Replace(Line, "knows there's something important about Saginaw", "sabe que ha algo importante sobre Saginaw")
+			End Select		
 		case 715
 			Select case attr
 				case "strName"
@@ -6639,6 +6429,853 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "is wearing improper footwear, and is uncomfortable.", "esta vestindo calcado improprio, e esta desconfortavel.")
 			End Select		
+		case 716
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blisters on Foot", "Bolhas no pe")
+				case "strDesc"
+					Line = Replace(Line, "has painful blisters on their foot", "tem bolhas dolorosas no pe")
+			End Select
+		case 717
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Examined sheaf of papers in Merga's Realm", "Examinou alguns papeis em Merga's Realm")
+				case "strDesc"
+					Line = Replace(Line, "examined the papers in Merga's Realm", "examinou alguns papeis em Merga's Realm")
+			End Select
+		case 718
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Examined children's book in Merga's Realm", "Examinou Livro infantil em Merga's Realm")
+				case "strDesc"
+					Line = Replace(Line, "examined the children's book in Merga's Realm", "examinou o livro infantil em Merga's Realm")
+			End Select
+		case 719
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Examined engravings in Merga's Realm", "Examinou gravuras em Merga's Realm")
+				case "strDesc"
+					Line = Replace(Line, "examined the engravings in Merga's Realm", "examinou gravuras em Merga's Realm")
+			End Select
+		case 720
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Examined sheaf of letters in Merga's Realm", "Examinou um algumas letras em Merga's Realm")
+				case "strDesc"
+					Line = Replace(Line, "examined the letters in Merga's Realm", "examinou um algumas letras em Merga's Realm")
+			End Select
+		case 721
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Examined film canister in Merga's Realm", "Examinou um Caixote de filme em Merga's Realm")
+				case "strDesc"
+					Line = Replace(Line, "examined the film in Merga's Realm", "examinou um Caixote de filme em Merga's Realm")
+			End Select
+		case 722
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drowned during Trial of Water", "Afogado durante 'Julgamento da Agua'")
+				case "strDesc"
+					Line = Replace(Line, "drowned during the Trial of Water at Saginaw", "afogado durante o julgamento da agua em Saginaw")
+			End Select
+		case 723
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cooked alive during Trial of Fire", "Cozinhado vivo durante Julgamento do Fogo")
+				case "strDesc"
+					Line = Replace(Line, "was cooked alive during the Trial of Fire at Saginaw", "foi cozinhado vivo durante o julgamento de fogo em Saginaw")
+			End Select
+		case 724
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Picked lock in north wing at Saginaw", "Bloqueio escolhido na asa norte em Saginaw")
+				case "strDesc"
+					Line = Replace(Line, "picked the lock in the north wing at Saginaw", "escolheu a fechadura na ala norte em Saginaw")
+			End Select
+		case 725
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "DMC Drone", "DMC Drone")
+				case "strDesc"
+					Line = Replace(Line, "is a drone of the DMC SkyCorps", "esta com um drone de DMC SkyCorps")
+			End Select
+		case 726
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Critical System Failure", "Falha critica no sistema")
+				case "strDesc"
+					Line = Replace(Line, "had a critical system failure", "teve uma falha critica no sistema")
+			End Select
+		case 727
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Doesn't Negotiate", "Nao negocia")
+				case "strDesc"
+					Line = Replace(Line, "does not negotiate in battle", "nao negocia em batalha")
+			End Select
+		case 728
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Mechanical Creature", "Criatura Mecanica")
+				case "strDesc"
+					Line = Replace(Line, "is mechanical, and does not suffer biological flaws", "e mecanico e nao sofre falhas biologicas")
+			End Select
+		case 729
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cannot Call DMC Support", "Nao e possivel chamar o suporte da DMC")
+				case "strDesc"
+					Line = Replace(Line, "cannot call DMC support right now", "nao pode chamar o suporte da DMC neste momento")
+			End Select
+		case 730
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drone Armor", "Drone Armor")
+				case "strDesc"
+					Line = Replace(Line, "has fuselage armor", "tem armadura de fuselagem")
+			End Select
+		case 731
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot 1a", "Blue Rot 1a")
+				case "strDesc"
+					Line = Replace(Line, "can transmit The Blue Rot at strength 1", "pode transmitir o Blue Rot na forca 1")
+			End Select
+		case 732
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot 2a", "Blue Rot 2a")
+				case "strDesc"
+					Line = Replace(Line, "can transmit The Blue Rot at strength 2", "pode transmitir o Blue Rot na forca 2")
+			End Select
+		case 733
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "The Blue Rot 3a", "Blue Rot 3a")
+				case "strDesc"
+					Line = Replace(Line, "can transmit The Blue Rot at strength 3", "pode transmitir o Blue Rot na forca 3")
+			End Select
+		case 734
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing Crude Air Filter", "Vestindo Filtro de ar bruto")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a crude air filter", "esta usando um filtro de ar bruto")
+			End Select
+		case 735
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Crude Air Filter Heartbeat", "Filtro de ar Heartbeat")
+				case "strDesc"
+					Line = Replace(Line, "periodically has a working air filter", "periodicamente tem um filtro de ar de trabalhando")
+			End Select
+		case 736
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Crude Air Filter Active", "Filtro de ar ativo")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a crude air filter this turn", "esta usando um filtro de ar bruto neste turno")
+			End Select
+		case 737
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "BattleMove Visible 2x", "Movimento de batalha visivel 2x")
+				case "strDesc"
+					Line = Replace(Line, "is doing something highly visible", "esta fazendo algo altamente visivel")
+			End Select
+		case 738
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "BattleMove Visible 0.5x", "Movimento de batalha escondido 0.5x")
+				case "strDesc"
+					Line = Replace(Line, "is doing something hidden", "esta fazendo algo escondido")
+			End Select
+		case 739
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "BattleMove Visible 0.25x", "Movimento de batalha escondido 0.25x")
+				case "strDesc"
+					Line = Replace(Line, "is doing something very hidden", "está fazendo algo muito escondido")
+			End Select
+		case 740
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Battle Ambush Close", "Emboscada de batalha perto")
+				case "strDesc"
+					Line = Replace(Line, "is preparing to ambush creatures up close in battle", "esta se preparando para emboscadas criaturas de perto na batalha")
+			End Select
+		case 741
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Battle Ambush Far", "Emboscada de batalha longe")
+				case "strDesc"
+					Line = Replace(Line, "is preparing to ambush creatures from afar in battle", "esta se preparando para emboscar criaturas de longe da batalha")
+			End Select
+		case 742
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Standing in ATN Market Hex", "Hex de Mercado ATN")
+				case "strDesc"
+					Line = Replace(Line, "is in an ATN Market hex", "esta em um Hex de Mercado ATN")
+			End Select
+		case 743
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ADS Exposure", "Exposicao ADS")
+				case "strDesc"
+					Line = Replace(Line, "is experiencing burning pain on their skin", "esta com dor ardente na pele")
+			End Select
+		case 744
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Death by ADS Overexposure", "Morte por ADS Overexposure")
+				case "strDesc"
+					Line = Replace(Line, "was cooked alive by overexposure to Active Denial System emissions", "foi cozido vivo por exposicao excessiva as ADS, emissoes do sistema de negacao ativa")
+			End Select
+		case 745
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ate chip", "Comeu batata frita")
+				case "strDesc"
+					Line = Replace(Line, "ate a handful of potato chips", "comeu um punhado de batata frita")
+			End Select
+		case 746
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing a reflective blanket", "Vestindo um cobertor reflexivo")
+				case "strDesc"
+					Line = Replace(Line, "is wearing a heat-reflective blanket", "esta vestindo um cobertor reflector de calor")
+			End Select
+		case 747
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found Grayling Fence Weakness", "Encontrou fraqueza na cerca de Grayling")
+				case "strDesc"
+					Line = Replace(Line, "found the weakened section of Grayling's fence", "encontrou a parte enfraquecida da cerca de Grayling")
+			End Select
+		case 748
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Grayling Weak Field", "Cerca fraca de Grayling")
+				case "strDesc"
+					Line = Replace(Line, "chose the correct, weakened section of Grayling's fence", "escolheu a parte correta e debilitada da cerca de Grayling")
+			End Select
+		case 749
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Grayling Strong Field", "Cerca forte de Grayling")
+				case "strDesc"
+					Line = Replace(Line, "chose a fully-powered section of Grayling's fence", "escolheu uma parte totalmente equipada da cerca de Grayling")
+			End Select
+		case 750
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ADS Overexposure Warning", "ADS sobreexposicao Aviso")
+				case "strDesc"
+					Line = Replace(Line, "may not be able to take much more exposure to ADS emissions", "pode nao ser capaz de levar muito mais exposicao as emissoes ADS")
+			End Select
+		case 751
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ADS Overexposure Critical", "ADS sobreexposicao Critica")
+				case "strDesc"
+					Line = Replace(Line, "will not survive any more exposure to ADS emissions", "nao sobrevivera a mais exposicao as emissoes de ADS")
+			End Select
+		case 752
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Agreed to destroy Grayling for Martha", "Concordou em destruir Grayling para Martha")
+				case "strDesc"
+					Line = Replace(Line, "agreed to help Martha destroy Grayling", "concordou em destruir Grayling para Martha")
+			End Select
+		case 753
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found Grayling Code: Anarchy", "Codigo Grayling: Anarquia")
+				case "strDesc"
+					Line = Replace(Line, "found the Grayling mainframe Code: Anarchy", "descobriu o codigo do mainframe Grayling: anarquia")
+			End Select
+		case 754
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Copied control tower data for Stoat", "Dados da torre de controle copiados para Stoat")
+				case "strDesc"
+					Line = Replace(Line, "copied the control tower data onto the memory stick for Stoat", "copiou os dados da torre de controle para o pendrive para Stoat")
+			End Select
+		case 755
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Grayling storage shed destroyed", "Grayling deposito de armazenamento destruido")
+				case "strDesc"
+					Line = Replace(Line, "destroyed the storage shed at Grayling with a forklift", "destruiu o galpao de armazenamento de Grayling com uma empilhadeira")
+			End Select
+		case 756
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Agreed to get Grayling data for Stoat", "Concordou em obter dados Grayling para Stoat")
+				case "strDesc"
+					Line = Replace(Line, "agreed to help Stoat get data at Grayling", "concordou em ajudar Stoat a obter dados em Grayling")
+			End Select
+		case 757
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found cylindrical key at Grayling", "Chave cilindrica encontrada em Grayling")
+				case "strDesc"
+					Line = Replace(Line, "found the cylindrical key at Grayling", "encontrou a chave cilindrica em Grayling")
+			End Select
+		case 758
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found V-MADS blueprints", "Encontrados planos V-MADS")
+				case "strDesc"
+					Line = Replace(Line, "found the V-MADS blueprints at Grayling", "encontrou os planos de V-MADS em Grayling")
+			End Select
+		case 759
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Found Grayling ID badge", "Marcador de identificacao Grayling encontrado")
+				case "strDesc"
+					Line = Replace(Line, "found the ID badge at Camp Grayling", "encontrou o distintivo de identificacao no Camp Grayling")
+			End Select
+		case 760
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Searched the Grayling barracks bathroom", "Procurou o banheiro do quartel Grayling")
+				case "strDesc"
+					Line = Replace(Line, "searched the Grayling barracks bathroom", "procurou o banheiro do quarlight Grayling")
+			End Select
+		case 761
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Lockdown", "Bloqueio de blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "triggered the Blackwhite lockdown", "desencadeou o bloqueio Blackwhite")
+			End Select
+		case 762
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Queries", "Blackwhite consultas")
+				case "strDesc"
+					Line = Replace(Line, "is running out of time with each query", "esta ficando sem tempo com cada consulta")
+			End Select
+		case 763
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Progress 60%", "Blackwhite 60%")
+				case "strDesc"
+					Line = Replace(Line, "Blackwhite's task process is at 60%", "O processo de tarefa do Blackwhite e de 60%")
+			End Select
+		case 764
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Progress 80%", "Blackwhite 80%")
+				case "strDesc"
+					Line = Replace(Line, "Blackwhite's task process is at 80%", "O processo de tarefa do Blackwhite e de 80%")
+			End Select
+		case 765
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Knows About CNCI", "Conhece o CNCI")
+				case "strDesc"
+					Line = Replace(Line, "heard of CNCI", "ouviu falar do CNCI")
+			End Select
+		case 766
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Knows about NEO Wiki", "Conhece sobre NEO Wiki")
+				case "strDesc"
+					Line = Replace(Line, "knows about the NEO Wiki", "conhece o NEO Wiki")
+			End Select
+		case 767
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hacked credentials in Blackwhite", "Credenciais hackeadas em Blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "used Hacking to escalate their credentials in Blackwhite", "usado Hacking para escalar suas credenciais em Blackwhite")
+			End Select
+		case 768
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Used ID card in Blackwhite", "Cartao de identificacao usado em Blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "used the ID card in Blackwhite", "usou o cartao de identificacao em Blackwhite")
+			End Select
+		case 769
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Used Failsafe key in Blackwhite", "Chave Failsafe usada em Blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "used the failsafe key in Blackwhite", "usou a chave de seguranca em Blackwhite")
+			End Select
+		case 770
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Knows of Merga Wraith", "Sabe de Merga Wraith")
+				case "strDesc"
+					Line = Replace(Line, "knows the Merga Wraith exists", "sabe que Merga Wraith existe")
+			End Select
+		case 771
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Knows of PRISM", "Conhece o PRISM")
+				case "strDesc"
+					Line = Replace(Line, "knows about the PRISM surveillance network", "conhece a rede de vigilancia PRISM")
+			End Select
+		case 772
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Martha is gone", "Martha se foi")
+				case "strDesc"
+					Line = Replace(Line, "told Martha they're just passing through, and she's gone now", "disse a Martha que estao passando, e ela ja foi embora")
+			End Select
+		case 773
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "MA JD 1", "MA JD 1")
+				case "strDesc"
+					Line = Replace(Line, "already had Martha's Army conversation 1 with JD", "ja tinha conversa 1 do Martha's Army com JD")
+			End Select
+		case 774
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "MA JD 2", "MA JD 2")
+				case "strDesc"
+					Line = Replace(Line, "already had Martha's Army conversation 2 with JD", "ja tinha conversa 2 do Martha's Army com JD")
+			End Select
+		case 775
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drop Random Tracking Device", "Largou um dispositivo de rastreamento")
+				case "strDesc"
+					Line = Replace(Line, "dropped a random tracking device", "largou um dispositivo de rastreamento aleatorio")
+			End Select
+		case 776
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Periodically drop tracking device", "Periodicamente soltando o dispositivo de rastreamento")
+				case "strDesc"
+					Line = Replace(Line, "periodically drops a random tracking device", "periodicamente solta um dispositivo de rastreamento aleatorio")
+			End Select
+		case 777
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "MA Recruiter 1", "MA recruta 1")
+				case "strDesc"
+					Line = Replace(Line, "already had Martha's Army conversation 1 with recruiter", "ja tinha conversa 1 do Martha's Army com recrutador")
+			End Select
+		case 778
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "MA Recruiter 2", "MA recruta 2")
+				case "strDesc"
+					Line = Replace(Line, "already had Martha's Army conversation 2 with recruiter", "ja tinha conversa 2 do Martha's Army com recrutador")
+			End Select
+		case 779
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Subtract Global Faction Rep 10 (Martha's Army)", "Perde 10 Faccao (Martha's Army)")
+				case "strDesc"
+					Line = Replace(Line, "Subtract 10 player's rep to all current and future Martha's Army", "Perde -5 a Faccao de Saqueador dos atuais e futuros Martha's Army")
+			End Select
+		case 780
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Trigger Camp Grayling Encounter", "Entrando no acampamento de Grayling")
+				case "strDesc"
+					Line = Replace(Line, "is entering Camp Grayling", "esta entrando acampamento de Grayling")
+			End Select
+		case 781
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Elusive reputation", "Reputacao esquivo")
+				case "strDesc"
+					Line = Replace(Line, "gained a legendary reputation for being elusive", "ganhou uma reputacao lendaria por ser esquivo")
+			End Select
+		case 782
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Unstoppable reputation", "Reputacao imparavel")
+				case "strDesc"
+					Line = Replace(Line, "gained a legendary reputation for being unstoppable", "ganhou uma reputacao lendaria por ser imparavel")
+			End Select
+		case 783
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received elusive reputation", "Recebi reputacao esquivo")
+				case "strDesc"
+					Line = Replace(Line, "gained a legendary reputation for being elusive", "ganhou uma reputacao lendaria por ser esquivo")
+			End Select
+		case 784
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Received unstoppable reputation", "Recebeu reputacao imparavel")
+				case "strDesc"
+					Line = Replace(Line, "gained a legendary reputation for being unstoppable", "ganhou uma reputacao lendaria por ser imparavel")
+			End Select
+		case 785
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Elusive counter", "Contador evasivo")
+				case "strDesc"
+					Line = Replace(Line, "has proven to be elusive", "provou ser evasivo")
+			End Select
+		case 786
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Unstoppable counter", "Contador imparavel")
+				case "strDesc"
+					Line = Replace(Line, "has proven to be unstoppable", "provou ser imparavel")
+			End Select
+		case 787
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Enervated", "Enfraquecido")
+				case "strDesc"
+					Line = Replace(Line, "is out of shape, and fatigues more easily", "esta fora de forma e se cansa mais facilmente")
+			End Select
+		case 788
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter Grayling Mission Available", "Missao Hatter Grayling disponivel")
+				case "strDesc"
+					Line = Replace(Line, "Grayling mission is available at Hatter's", "A missao Grayling esta disponivel no Hatter's")
+			End Select
+		case 789
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter away until further notice", "Hatter esta ausente")
+				case "strDesc"
+					Line = Replace(Line, "Hatter's currently away", "Hatter está atualmente ausente")
+			End Select
+		case 790
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Hatter Temporarily Busy", "Hatter ocupado")
+				case "strDesc"
+					Line = Replace(Line, "Hatter's not around today", "Hatter nao esta por ai hoje")
+			End Select
+		case 791
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Sent security request from Grayling control tower", "Solicitacao de seguranca enviada da torre de controle de Grayling")
+				case "strDesc"
+					Line = Replace(Line, "sent a bogus security request from Grayling's control tower", "enviou um pedido de seguranca falso da torre de controle de Grayling")
+			End Select
+		case 792
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Bogus Grayling security request active", "Pedido de seguranca Bogus Grayling ativo")
+				case "strDesc"
+					Line = Replace(Line, "Bogus Grayling security request active", "Pedido de seguranca Bogus Grayling ativo")
+			End Select
+		case 793
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Trigger End Game: Indiana", "Desligamento final do jogo: Indiana")
+				case "strDesc"
+					Line = Replace(Line, "Trigger game ending: Indiana", "Desligamento final do jogo: Indiana")
+			End Select
+		case 794
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Progress 40%", "Blackwhite 40%")
+				case "strDesc"
+					Line = Replace(Line, "Blackwhite's task process is at 40%", "O processo de tarefa do Blackwhite e de 40%")
+			End Select
+		case 795
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Blackwhite Progress 20%", "Blackwhite 20%")
+				case "strDesc"
+					Line = Replace(Line, "Blackwhite's task process is at 20%", "O processo de tarefa do Blackwhite e de 20%")
+			End Select
+		case 796
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Use Roadmap", "Use o Roteiro(Roadmap)")
+				case "strDesc"
+					Line = Replace(Line, "is using a roadmap", "está usando um roteiro(Roadmap)")
+			End Select
+		case 797
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Knows about Grayling", "Sabe sobre Grayling")
+				case "strDesc"
+					Line = Replace(Line, "heard of Grayling", "ouviu falar de Grayling")
+			End Select
+		case 798
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Saw glow in east", "Viu brilho no leste")
+				case "strDesc"
+					Line = Replace(Line, "saw the glow in the east", "viu o brilho no leste")
+			End Select
+		case 799
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Issued Code: Anarchy to Blackwhite AI", "Codigo emitido: AI Anarquia para Blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "issued Code: Anarchy command to Blackwhite AI at Grayling", "Codigo emitido: comando da anarquia para Blackwhite AI em Grayling")
+			End Select
+		case 800
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Applied Hatter's bug to Blackwhite", "Bicho de Hatter aplicado para Blackwhite")
+				case "strDesc"
+					Line = Replace(Line, "inserted the bug for Hatter's mission into Blackwhite AI at Grayling", "inseriu o erro para a missao de Hatter em Blackwhite AI em Grayling")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "000", "000")
+				case "strDesc"
+					Line = Replace(Line, "0000", "000")
+			End Select
 	End Select
 	conditions = CStr(Line)
 End Function
