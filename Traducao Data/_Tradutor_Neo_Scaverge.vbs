@@ -1272,7 +1272,7 @@ Function camptypes(id, attr, Line)
 		case 12
 			Select case attr
 				case "strDesc"
-					Line = Replace(Line, "a hatchback", "um Hatchback(carro/compartilhado/Bom armazenamento)")	
+					Line = Replace(Line, "a hatchback", "um Hatchback")	
 			End select
 		case 13
 			Select case attr
@@ -1411,6 +1411,7 @@ Function chargeprofiles(id, attr, Line)
 	chargeprofiles = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 872
 Function conditions(id, attr, Line)		
 	Select case id
@@ -2186,7 +2187,7 @@ Function conditions(id, attr, Line)
 		case 110
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying torch", "Tocha de mao")
+					Line = Replace(Line, "Carrying torch", "Tocha")
 				case "strDesc"
 					Line = Replace(Line, "is carrying a torch, making it easier to navigate in the dark, but also easier to spot", "esta carregando uma tocha, facilitando ver um pouco no escuro, mas tambem e mais facil de detectar")
 			End Select
@@ -2287,7 +2288,7 @@ Function conditions(id, attr, Line)
 		case 125
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying V-MADS transponder", "Transportando transponder V-MADS")
+					Line = Replace(Line, "Carrying V-MADS transponder", "Transponder V-MADS")
 				case "strDesc"
 					Line = Replace(Line, "is carrying the V-MADS transponder", "esta carregando o transponder V-MADS")
 			End Select
@@ -2311,21 +2312,21 @@ Function conditions(id, attr, Line)
 		case 128
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Dropped down the chute at Zom Zom's", "Caiu na calha de Zom Zom's")
+					Line = Replace(Line, "Dropped down the chute at Zom Zom's", "Caiu na calha de ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "was dropped down the chute at Zom Zom's", "foi derrubado na calha de Zom Zom's")
 			End Select
 		case 129
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Killed at Zom Zom's", "Morto em Zom Zom's")
+					Line = Replace(Line, "Killed at Zom Zom's", "Morto em ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "was killed in the gladiator pits at Zom Zom's", "foi morto nos arena de gladiadores de Zom Zom's")
 			End Select
 		case 130
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Visited Zom Zom's", "Visitando Zom Zom's")
+					Line = Replace(Line, "Visited Zom Zom's", "Visitando ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "already visited Zom Zom's", "ja visitou Zom Zom's")
 			End Select
@@ -3772,7 +3773,7 @@ Function conditions(id, attr, Line)
 		case 336
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Can Trigger Zom Zom's", "Pode atirar em Zom Zom's")
+					Line = Replace(Line, "Can Trigger Zom Zom's", "Pode atirar em ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "can trigger Zom Zom's", "pode atirar em Zom Zom's")
 			End Select
@@ -4294,7 +4295,7 @@ Function conditions(id, attr, Line)
 		case 411
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying flashlight", "Pilha de lanterna")
+					Line = Replace(Line, "Carrying flashlight", "Lanterna")
 				case "strDesc"
 					Line = Replace(Line, "is carrying a flashlight, making it easier to navigate in the dark, but also easier to spot", "esta carregando uma lanterna, facilitando a navegacao no escuro, mas tambem e mais facil de ser detectado")
 			End Select
@@ -4483,7 +4484,7 @@ Function conditions(id, attr, Line)
 		case 438
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying a tracking device", "Carregando um dispositivo de rastreamento")
+					Line = Replace(Line, "Carrying a tracking device", "Dispositivo de rastreamento")
 				case "strDesc"
 					Line = Replace(Line, "is carrying a device that DMC patrols can track", "esta carregando um dispositivo que as patrulhas DMC podem rastrear")
 			End Select
@@ -4824,7 +4825,7 @@ Function conditions(id, attr, Line)
 		case 487
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Entering Zom Zom's", "Entrando em Zom Zom's")
+					Line = Replace(Line, "Entering Zom Zom's", "Entrando em ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "is in the process of entering Zom Zom's for the first time", "esta entrando em Zom Zom's pela primeira vez")
 			End Select
@@ -5422,7 +5423,7 @@ Function conditions(id, attr, Line)
 		case 572
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying Timepiece", "Carregando Relogio")
+					Line = Replace(Line, "Carrying Timepiece", "Relogio")
 				case "strDesc"
 					Line = Replace(Line, "is carrying an item that tells time", "esta carregando um item que informa que horas sao")
 			End Select
@@ -5506,14 +5507,14 @@ Function conditions(id, attr, Line)
 		case 584
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Trigger Return to Zom Zom's", "Retornou a Zom Zom's")
+					Line = Replace(Line, "Trigger Return to Zom Zom's", "Retornou a ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "is visiting Zom Zom's again", "esta visitando Zom Zom's novamente")
 			End Select
 		case 585
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Trigger Zom Zom's", "Visitando Zom Zom's")
+					Line = Replace(Line, "Trigger Zom Zom's", "Visitando ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "is visiting Zom Zom's", "esta visitando Zom Zom's")
 			End Select
@@ -6194,7 +6195,7 @@ Function conditions(id, attr, Line)
 		case 682
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Confiscate Zom Zom's items", "Confiscar os itens de Zom Zom's")
+					Line = Replace(Line, "Confiscate Zom Zom's items", "Confiscado itens ZZ's")
 				case "strDesc"
 					Line = Replace(Line, "items have been confiscated", "itens foram confiscados")
 			End Select
@@ -6271,7 +6272,7 @@ Function conditions(id, attr, Line)
 		case 693
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Carrying Blue Rot sample or Cure", "Leve a amostra de Blue Rot ou cura")
+					Line = Replace(Line, "Carrying Blue Rot sample or Cure", "Amostra Blue Rot/Cura")
 				case "strDesc"
 					Line = Replace(Line, "is in possession of the Blue Rot cure or sample", "esta em posse da cura ou amostra de Blue Rot")
 			End Select
@@ -6595,7 +6596,7 @@ Function conditions(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "BattleMove Visible 0.25x", "Movimento de batalha escondido 0.25x")
 				case "strDesc"
-					Line = Replace(Line, "is doing something very hidden", "está fazendo algo muito escondido")
+					Line = Replace(Line, "is doing something very hidden", "esta fazendo algo muito escondido")
 			End Select
 		case 740
 			Select case attr
@@ -6945,7 +6946,7 @@ Function conditions(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Hatter away until further notice", "Hatter esta ausente")
 				case "strDesc"
-					Line = Replace(Line, "Hatter's currently away", "Hatter está atualmente ausente")
+					Line = Replace(Line, "Hatter's currently away", "Hatter esta atualmente ausente")
 			End Select
 		case 790
 			Select case attr
@@ -6994,7 +6995,7 @@ Function conditions(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Use Roadmap", "Use o Roteiro(Roadmap)")
 				case "strDesc"
-					Line = Replace(Line, "is using a roadmap", "está usando um roteiro(Roadmap)")
+					Line = Replace(Line, "is using a roadmap", "esta usando um roteiro(Roadmap)")
 			End Select
 		case 797
 			Select case attr
@@ -7024,258 +7025,511 @@ Function conditions(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "inserted the bug for Hatter's mission into Blackwhite AI at Grayling", "inseriu o erro para a missao de Hatter em Blackwhite AI em Grayling")
 			End Select
-		case 000
+		case 801
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Hatter will have Grayling job soon", "Hatter tera trabalho em Grayling em breve")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "Hatter will have the Grayling job in 24 hours", "Hatter tera o trabalho em Grayling dentro de 24 horas")
 			End Select
-		case 000
+		case 802
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Suffocated in AI Detention Queue", "Sufocada na fila de detencao de AI")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "suffocated in an automated detention room, awaiting security personnel who would never come", "sufocado em uma sala de detencao automatizada, aguardando pessoal de seguranca que nunca vem")
 			End Select
-		case 000
+		case 803
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Scavenged some tarp from fairgrounds", "Pegou lona de Fairgrounds")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "grabbed tarp from the Allegan Fairgrounds", "pegou uma lona de Allegan Fairgrounds")
 			End Select
-		case 000
+		case 804
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Melonhead reinforcement cooldown", "Espera dods reforcos do Melonhead")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "must wait a few turns before using reinforcement cooldown again", "deve aguardar alguns turnos antes de usar reforco novamente")
 			End Select
-		case 000
+		case 805
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Clearbone Valley basement opened", "Acesso ao porao de vale de Clearbone")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "gained access to the basement at Clearbone Valley", "ganhou acesso ao porao em Clearbone Valley")
 			End Select
-		case 000
+		case 806
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received $400", "Recebeu $400")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "received $400", "recebeu $400")
 			End Select
-		case 000
+		case 807
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Store recently restocked", "Loja recentemente reabastecida")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "The store was just restocked, so don't do it again", "A loja foi reabastecida, entao nao faca outra coisa")
 			End Select
-		case 000
+		case 808
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Fully Rested", "Totalmente Descansado")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is fully rested", "esta totalmente descansado")
 			End Select
-		case 000
+		case 809
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Skill Space Full", "Espaco de habilidade completo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has filled all available skill space", "preencheu todo o espaco de habilidade disponivel")
 			End Select
-		case 000
+		case 810
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Received eye surgery", "Recebido cirurgia ocular")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "got eye surgery", "foi operado no olho")
 			End Select
-		case 000
+		case 811
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Confiscate vehicles", "Confiscado veiculos")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "vehicles have been confiscated", "veiculos foi confiscado")
 			End Select
-		case 000
+		case 812
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Blocked from entering Grayling", "Entrada de Grayling bloqueada")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is temporarily blocked from entering Grayling", "esta bloqueado temporariamente para entrar no Grayling")
 			End Select
-		case 000
+		case 813
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger Last Chance Canteen Encounter", "Esta em Catina(Last Chance)")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is entering the Last Chance Canteen", "esta entrando em Catina(Last Chance)")
 			End Select
-		case 000
+		case 814
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Chance of Gastroenteritis", "Risco de Gastroenterite")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has a chance of gastroenteritis soon", "tem uma chance de contrair gastroenterite")
 			End Select
-		case 000
+		case 815
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trigger St. James Parkade Encounter", "Esta em St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is entering St. James Parkade", "esta entrando em St. James Parkade")
 			End Select
-		case 000
+		case 816
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Using climate control", "Usando controle climatico")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is using a heating/AC system", "esta usando um sistema de aquecimento/CA")
 			End Select
-		case 000
+		case 817
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "St. James Parkade 24hr Pass", "Acesso por 24hr a St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has access to St. James Parkade for 24 hours", "tem acesso a St. James Parkade por 24 horas")
 			End Select
-		case 000
+		case 818
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "St. James Parkade Expiration", "Acesso expirou a St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "rental at St. James Parkade has expired", "O aluguel de St. James Parkade expirou")
 			End Select
-		case 000
+		case 819
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Basic Recipes 1", "Receitas basicas I")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows basic recipes", "sabe sobre receitas basicas I")
 			End Select
-		case 000
+		case 820
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Basic Recipes 2", "Receitas basicas II")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows basic recipes", "sabe sobre receitas basicas II")
 			End Select
-		case 000
+		case 821
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Basic Recipes 3", "Receitas basicas III")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows basic recipes", "sabe sobre receitas basicas III")
 			End Select
-		case 000
+		case 822
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Basic Recipes 4", "Receitas basicas IIII")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows basic recipes", "sabe sobre receitas basicas IIII")
 			End Select
-		case 000
+		case 823
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "St. James Parkade 1 Week Pass", "Acesso por 1 semana a St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has access to St. James Parkade for 1 week", "tem acesso a St. James Parkade por 1 semana")
 			End Select
-		case 000
+		case 824
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Renting pickup truck at Parkade", "Alugou caminhonete")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is renting a pickup truck at St. James Parkade", "esta alugando uma caminhonete em St. James Parkade")
 			End Select
-		case 000
+		case 825
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Renting hatchback at Parkade", "Alugou um hatchback")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is renting a hatchback at St. James Parkade", "esta alugando um hatchback em St. James Parkade")
 			End Select
-		case 000
+		case 826
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Renting van at Parkade", "Alugou uma VAN em Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is renting a van at St. James Parkade", "esta alugando uma VAN em St. James Parkade")
 			End Select
-		case 000
+		case 827
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Renting at St. James Parkade", "Alugando em St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is renting at St. James Parkade", "esta alugando em St. James Parkade")
 			End Select
-		case 000
+		case 828
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "St. James Parkade 4 Week Pass", "Acesso por 4 semana a St. James Parkade")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "has access to St. James Parkade for 4 weeks", "tem acesso a St. James Parkade por 4 semana")
 			End Select
-		case 000
+		case 829
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Medic Recipes", "Receitas Medicas")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows medic recipes", "conhece receitas Medicas")
 			End Select
-		case 000
+		case 830
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Melee Recipes", "Receitas de Corpo a Corpo")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows melee recipes", "conhece receitas sobre Corpo a Corpo")
 			End Select
-		case 000
+		case 831
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Trapping Recipes", "Receitas de Sobrevivencia")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows trapping recipes", "conhece receitas sobre Sobrevivencia")
 			End Select
-		case 000
+		case 832
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Botany Recipes", "Receitas Botanica")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows botany recipes", "conhece receitas sobre Botanica")
 			End Select
-		case 000
+		case 833
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Lockpicking Recipes", "Receitas de Arrombamento")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows lockpicking recipes", "conhece receitas sobre Arrombamento")
 			End Select
-		case 000
+		case 834
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Mechanic Recipes", "Receitas Mecanicas")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows mechanic recipes", "conhece receitas mecanicas")
 			End Select
-		case 000
+		case 835
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Ranged Recipes", "Receitas Atirador")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "knows ranged recipes", "conhece receitas sobre Atirador")
 			End Select
-		case 000
+		case 836
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "000", "000")
+					Line = Replace(Line, "Carrying Thermometer", "Termometro")
 				case "strDesc"
-					Line = Replace(Line, "0000", "000")
+					Line = Replace(Line, "is carrying an item that tells temperature", "esta carregando um item que diz a temperatura")
+			End Select		
+		case 837
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing Merga armor", "Vestindo armadura de Merga")
+				case "strDesc"
+					Line = Replace(Line, "is wearing Merga armor", "esta vestindo armadura de Merga")
 			End Select
+		case 838
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Wearing a shorts", "Vestindo um shorts")
+				case "strDesc"
+					Line = Replace(Line, "is wearing shorts", "esta vestindo shorts")
+			End Select
+		case 839
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Electrician Recipes", "Receitas Eletricista")
+				case "strDesc"
+					Line = Replace(Line, "knows electrician recipes", "conhece receitas sobre Eletricista")
+			End Select
+		case 840
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Using Anticoagulents", "Usou Anticoagulantes")
+				case "strDesc"
+					Line = Replace(Line, "has taken a prescription anticoagulent", "tomou uma receita de anticoagulante")
+			End Select
+		case 841
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Anticoagulant Effect Delay", "Usando Anticoagulante")
+				case "strDesc"
+					Line = Replace(Line, "has just taken anticoagulents, which will take effect soon", "acaba de tomar anticoagulantes, que tera efeito em breve")
+			End Select
+		case 842
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Taken a blue pill", "Tomou uma pilula azul")
+				case "strDesc"
+					Line = Replace(Line, "has just taken a blue pill", "acabou de tomar uma pilula azul")
+			End Select
+		case 843
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Taken a white pill", "Tomou uma pilula branca")
+				case "strDesc"
+					Line = Replace(Line, "has just taken a white pill", "acabou de tomar uma pilula branca")
+			End Select
+		case 844
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Taken an orange pill", "Tomou uma pilula laranja")
+				case "strDesc"
+					Line = Replace(Line, "has just taken an orange pill", "acabou de tomar uma pilula laranja")
+			End Select
+		case 845
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Nain Rouge Curse Dormant", "Foi amaldicoado por Nain Rouge")
+				case "strDesc"
+					Line = Replace(Line, "has been cursed by Nain Rouge, causing pain and misfortune", "foi amaldicoado por Nain Rouge, causando dor e infortunio")
+			End Select
+		case 846
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Nain Rouge Curse", "Amaldicoado por Nain Rouge")
+				case "strDesc"
+					Line = Replace(Line, "has been cursed by Nain Rouge, causing pain and misfortune", "foi maldito por Nain Rouge, causando dor e infortunio")
+			End Select
+		case 847
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Exposed Weakness", "Fraqueza exposta")
+				case "strDesc"
+					Line = Replace(Line, "has an exposed weakness", "tem uma fraqueza exposta")
+			End Select
+		case 848
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Intimidating", "Intimidador")
+				case "strDesc"
+					Line = Replace(Line, "is berserk with rage", "esta frenetico com furia")
+			End Select
+		case 849
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Insomnia", "Insonia")
+				case "strDesc"
+					Line = Replace(Line, "has more trouble staying asleep than usual", "tem mais problemas para ficar dormindo do que o habitual")
+			End Select
+		case 850
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Increased Appetite", "Apetite Maior")
+				case "strDesc"
+					Line = Replace(Line, "has a bigger appetite than usual", "tem um apetite maior do que o habitual")
+			End Select
+		case 851
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Thyroid Hormone Effect Delay", "Tomou hormonio tireoidiano")
+				case "strDesc"
+					Line = Replace(Line, "has just taken thyroid hormones, which will take effect soon", "acabou de tomar hormonios tireoidianos, que entrara em vigor em breve")
+			End Select
+		case 852
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Antacid Effect Delay", "Tomou antiacido")
+				case "strDesc"
+					Line = Replace(Line, "has just taken antacid, which will take effect soon", "acabou de tomar antiacido, que entrara em vigor em breve")
+			End Select
+		case 853
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cholera V2", "Colera I V2")
+				case "strDesc"
+					Line = Replace(Line, "contracted cholera", "contraiu Colera")
+			End Select
+		case 854
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cholera 2 V2", "Colera II V2")
+				case "strDesc"
+					Line = Replace(Line, "feels nauseous, and has uncontrollable bouts of vomiting and diarrhea", "sente nauseas e tem ataques incontrolaveis ​​de vomitos e diarreia")
+			End Select
+		case 855
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cholera 3 V2", "Colera III V2")
+				case "strDesc"
+					Line = Replace(Line, "diarrhea and vomiting has worsened", "a diarreia e o vomito pioraram")
+					Line = Replace(Line, "skin is starting to take on a bluish tint", "A pele esta comecando a ficar com cor azulada")
+			End Select
+		case 856
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "-0.05 Immune Per Hour", "-0.05 Imune por hr")
+				case "strDesc"
+					Line = Replace(Line, "is losing immune system strength gradually", "esta perdendo um pouco por hora do seu sistema imune")
+			End Select
+		case 857
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "-0.05 Immune", "-0.05 Imune")
+				case "strDesc"
+					Line = Replace(Line, "lost 0.05 immune system strength", "perdeu 0.05 de seu sistema imunologico")
+			End Select
+		case 858
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Dog", "Cachorro")
+				case "strDesc"
+					Line = Replace(Line, "is a dog", "viu um cachorro")
+			End Select
+		case 859
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Loose Shoe Heartbeat (Left)", "Sapato solto (Esquerdo)")
+				case "strDesc"
+					Line = Replace(Line, "periodically has a chance of losing left shoe", "periodicamente tem chance de perder o sapato esquerdo")
+			End Select
+		case 860
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Loose Shoe Heartbeat (Right)", "Sapato solto (Direito)")
+				case "strDesc"
+					Line = Replace(Line, "periodically has a chance of losing right shoe", "periodicamente tem chance de perder o sapato direito")
+			End Select
+		case 861
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Morality Neutra", "Moral Neutra")
+				case "strDesc"
+					Line = Replace(Line, "has not acted significantly more evil or good", "nao agiu significativamente mais mal ou bom")
+			End Select
+		case 862
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Morality Good", "Moral Bom")
+				case "strDesc"
+					Line = Replace(Line, "has acted significantly more good than evil", "agiu significativamente mais para o bem do que para o mal")
+			End Select
+		case 863
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Morality Evil", "Moral Mal")
+				case "strDesc"
+					Line = Replace(Line, "has acted significantly more evil than good", "agiu significativamente mais para o mal do que para o bem")
+			End Select
+		case 864
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drop Left Foot Item", "Perdeu sapato esquerdo")
+				case "strDesc"
+					Line = Replace(Line, "left shoe fell off", "o sapato esquerdo caiu")
+			End Select
+		case 865
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Drop Right Foot Item", "Perdeu sapato direito")
+				case "strDesc"
+					Line = Replace(Line, "right shoe fell off", "o sapato direito caiu")
+			End Select
+		case 866
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Parkade Expires in 24h", "Parkade expira em 24h")
+				case "strDesc"
+					Line = Replace(Line, "access to St. James Parkade will expire in 24 hours", "o acesso a St. James Parkade expirara em 24 horas")
+			End Select
+		case 867
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Parkade Pass 1-week Timer", "Parkade expira em 1 semana")
+				case "strDesc"
+					Line = Replace(Line, "will receive a 24h warning when the 1 week pass is about to expire", "o acesso a St. James Parkade expirara em 1 semana")
+			End Select
+		case 868
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Parkade Pass 4-week Timer", "Parkade expira em 4 semana")
+				case "strDesc"
+					Line = Replace(Line, "will receive a 24h warning when the 4 week pass is about to expire", "o acesso a St. James Parkade expirara em 4 semana")
+			End Select
+		case 869
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already Unstoppable at Zom Zom's", "Imparavel em ZZ's")
+				case "strDesc"
+					Line = Replace(Line, "has already proven themselves unstoppable at Zom Zom's", "provou ser imparavel em Zom Zom's")
+			End Select
+		case 870
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Already Elusive at Zom Zom's", "Esquivo em ZZ's")
+				case "strDesc"
+					Line = Replace(Line, "has already proven themselves elusive at Zom Zom's", "provou ser esquivo em Zom Zom's")
+			End Select
+		case 871
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Sheltered", "Aquecido")
+				case "strDesc"
+					Line = Replace(Line, "is in shelter protecting them from cold", "esta protegido contra o frio")
+			End Select
+		case 872
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "lready asked Michelle about Spirit", "Ja havia perguntado a Michelle sobre o Espirito")
+				case "strDesc"
+					Line = Replace(Line, "asked Michelle a question about spirit, and cannot ask again", "perguntou a Michelle uma pergunta sobre espirito e nao pode pedir novamente")
+			End Select		
 	End Select
 	conditions = CStr(Line)
 End Function

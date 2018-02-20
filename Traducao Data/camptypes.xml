@@ -171,7 +171,7 @@
 		</table>
 		<table name="camptypes">
 			<column name="id">12</column>
-			<column name="strDesc">um Hatchback(carro/compartilhado/Bom armazenamento)</column>
+			<column name="strDesc">um Hatchback</column>
 			<column name="vImageList">ItmScavengeCar02.png</column>
 			<column name="aCapacities">12x16</column>
 			<column name="nTreasureID">735</column>

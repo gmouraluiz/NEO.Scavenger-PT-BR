@@ -2557,7 +2557,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">110</column>
-			<column name="strName">Tocha de mao</column>
+			<column name="strName">Tocha</column>
 			<column name="strDesc">&lt;us&gt; esta carregando uma tocha, facilitando ver um pouco no escuro, mas tambem e mais facil de detectar.</column>
 			<column name="aFieldNames">m_fVisibility,m_fScent,LightLevel</column>
 			<column name="aModifiers">0.5,0.5,0.8</column>
@@ -2902,7 +2902,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">125</column>
-			<column name="strName">Transportando transponder V-MADS</column>
+			<column name="strName">Transponder V-MADS</column>
 			<column name="strDesc">&lt;us&gt; esta carregando o transponder V-MADS.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -2971,7 +2971,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">128</column>
-			<column name="strName">Caiu na calha de Zom Zom's</column>
+			<column name="strName">Caiu na calha de ZZ's</column>
 			<column name="strDesc">&lt;us&gt; foi derrubado na calha de Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -2994,7 +2994,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">129</column>
-			<column name="strName">Morto em Zom Zom's</column>
+			<column name="strName">Morto em ZZ's</column>
 			<column name="strDesc">&lt;us&gt; foi morto nos arena de gladiadores de Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -3017,7 +3017,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">130</column>
-			<column name="strName">Visitando Zom Zom's</column>
+			<column name="strName">Visitando ZZ's</column>
 			<column name="strDesc">&lt;us&gt; ja visitou Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -7755,7 +7755,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">336</column>
-			<column name="strName">Pode atirar em Zom Zom's</column>
+			<column name="strName">Pode atirar em ZZ's</column>
 			<column name="strDesc">&lt;us&gt; pode atirar em Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -9480,7 +9480,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">411</column>
-			<column name="strName">Pilha de lanterna</column>
+			<column name="strName">Lanterna</column>
 			<column name="strDesc">&lt;us&gt; esta carregando uma lanterna, facilitando a navegacao no escuro, mas tambem e mais facil de ser detectado.</column>
 			<column name="aFieldNames">m_fVisibility,LightLevel</column>
 			<column name="aModifiers">0.5,0.8</column>
@@ -10101,7 +10101,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">438</column>
-			<column name="strName">Carregando um dispositivo de rastreamento</column>
+			<column name="strName">Dispositivo de rastreamento</column>
 			<column name="strDesc">&lt;us&gt; esta carregando um dispositivo que as patrulhas DMC podem rastrear.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -11228,7 +11228,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">487</column>
-			<column name="strName">Entrando em Zom Zom's</column>
+			<column name="strName">Entrando em ZZ's</column>
 			<column name="strDesc">&lt;us&gt; esta entrando em Zom Zom's pela primeira vez.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
@@ -13183,7 +13183,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">572</column>
-			<column name="strName">Carregando Relogio</column>
+			<column name="strName">Relogio</column>
 			<column name="strDesc">&lt;us&gt; esta carregando um item que informa que horas sao.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -13459,7 +13459,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">584</column>
-			<column name="strName">Retornou a Zom Zom's</column>
+			<column name="strName">Retornou a ZZ's</column>
 			<column name="strDesc">&lt;us&gt; esta visitando Zom Zom's novamente.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">996</column>
@@ -13482,7 +13482,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">585</column>
-			<column name="strName">Visitando Zom Zom's</column>
+			<column name="strName">Visitando ZZ's</column>
 			<column name="strDesc">&lt;us&gt; esta visitando Zom Zom's.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">135</column>
@@ -15713,7 +15713,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">682</column>
-			<column name="strName">Confiscar os itens de Zom Zom's</column>
+			<column name="strName">Confiscado itens ZZ's</column>
 			<column name="strDesc">&lt;us&gt;'s itens foram confiscados.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -15966,7 +15966,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">693</column>
-			<column name="strName">Leve a amostra de Blue Rot ou cura</column>
+			<column name="strName">Amostra Blue Rot/Cura</column>
 			<column name="strDesc">&lt;us&gt; esta em posse da cura ou amostra de Blue Rot.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -17025,7 +17025,7 @@
 		<table name="conditions">
 			<column name="id">739</column>
 			<column name="strName">Movimento de batalha escondido 0.25x</column>
-			<column name="strDesc">&lt;us&gt; estÃ¡ fazendo algo muito escondido.</column>
+			<column name="strDesc">&lt;us&gt; esta fazendo algo muito escondido.</column>
 			<column name="aFieldNames">m_fVisibility</column>
 			<column name="aModifiers">-0.5</column>
 			<column name="aEffects"></column>
@@ -18175,7 +18175,7 @@
 		<table name="conditions">
 			<column name="id">789</column>
 			<column name="strName">Hatter esta ausente.</column>
-			<column name="strDesc">Hatter estÃ¡ atualmente ausente.</column>
+			<column name="strDesc">Hatter esta atualmente ausente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18336,7 +18336,7 @@
 		<table name="conditions">
 			<column name="id">796</column>
 			<column name="strName">Use o Roteiro(Roadmap)</column>
-			<column name="strDesc">&lt;us&gt; estÃ¡ usando um roteiro(Roadmap).</column>
+			<column name="strDesc">&lt;us&gt; esta usando um roteiro(Roadmap).</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2187</column>
 			<column name="aEffects"></column>
@@ -18450,8 +18450,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">801</column>
-			<column name="strName">Hatter will have Grayling job soon</column>
-			<column name="strDesc">Hatter will have the Grayling job in 24 hours.</column>
+			<column name="strName">Hatter tera trabalho em Grayling em breve</column>
+			<column name="strDesc">Hatter tera o trabalho em Grayling dentro de 24 horas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -18473,8 +18473,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">802</column>
-			<column name="strName">Suffocated in AI Detention Queue</column>
-			<column name="strDesc">&lt;us&gt; suffocated in an automated detention room, awaiting security personnel who would never come.</column>
+			<column name="strName">Sufocada na fila de detencao de AI</column>
+			<column name="strDesc">&lt;us&gt; sufocado em uma sala de detencao automatizada, aguardando pessoal de seguranca que nunca vem.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18496,8 +18496,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">803</column>
-			<column name="strName">Scavenged some tarp from fairgrounds</column>
-			<column name="strDesc">&lt;us&gt; grabbed tarp from the Allegan Fairgrounds.</column>
+			<column name="strName">Pegou lona de Fairgrounds</column>
+			<column name="strDesc">&lt;us&gt; pegou uma lona de Allegan Fairgrounds.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18519,8 +18519,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">804</column>
-			<column name="strName">Melonhead reinforcement cooldown</column>
-			<column name="strDesc">&lt;us&gt; must wait a few turns before using reinforcement cooldown again.</column>
+			<column name="strName">Espera dods reforcos do Melonhead</column>
+			<column name="strDesc">&lt;us&gt; deve aguardar alguns turnos antes de usar reforco novamente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18542,8 +18542,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">805</column>
-			<column name="strName">Clearbone Valley basement opened</column>
-			<column name="strDesc">&lt;us&gt; gained access to the basement at Clearbone Valley.</column>
+			<column name="strName">Acesso ao porao de vale de Clearbone</column>
+			<column name="strDesc">&lt;us&gt; ganhou acesso ao porao em Clearbone Valley.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -18565,8 +18565,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">806</column>
-			<column name="strName">Received $400</column>
-			<column name="strDesc">&lt;us&gt; received $400.</column>
+			<column name="strName">Recebeu $400</column>
+			<column name="strDesc">&lt;us&gt; recebeu $400.</column>
 			<column name="aFieldNames">Money</column>
 			<column name="aModifiers">400</column>
 			<column name="aEffects"></column>
@@ -18588,8 +18588,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">807</column>
-			<column name="strName">Store recently restocked</column>
-			<column name="strDesc">The store was just restocked, so don't do it again.</column>
+			<column name="strName">Loja recentemente reabastecida</column>
+			<column name="strDesc">A loja foi reabastecida, entao nao faca outra coisa.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18611,8 +18611,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">808</column>
-			<column name="strName">Fully Rested</column>
-			<column name="strDesc">&lt;us&gt; is fully rested.</column>
+			<column name="strName">Totalmente Descansado</column>
+			<column name="strDesc">&lt;us&gt; esta totalmente descansado.</column>
 			<column name="aFieldNames">fSleepDebt</column>
 			<column name="aModifiers">-288</column>
 			<column name="aEffects"></column>
@@ -18634,8 +18634,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">809</column>
-			<column name="strName">Skill Space Full</column>
-			<column name="strDesc">&lt;us&gt; has filled all available skill space.</column>
+			<column name="strName">Espaco de habilidade completo</column>
+			<column name="strDesc">&lt;us&gt; preencheu todo o espaco de habilidade disponivel.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -18657,8 +18657,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">810</column>
-			<column name="strName">Received eye surgery</column>
-			<column name="strDesc">&lt;us&gt; got eye surgery.</column>
+			<column name="strName">Recebido cirurgia ocular</column>
+			<column name="strDesc">&lt;us&gt; foi operado no olho.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">RemoveTrait=96.0</column>
@@ -18680,8 +18680,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">811</column>
-			<column name="strName">Confiscate vehicles</column>
-			<column name="strDesc">All of &lt;us&gt;'s vehicles have been confiscated.</column>
+			<column name="strName">Confiscado veiculos</column>
+			<column name="strDesc">All of &lt;us&gt;'s veiculos foi confiscado.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects">Confiscate=117,0,1</column>
@@ -18703,8 +18703,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">812</column>
-			<column name="strName">Blocked from entering Grayling</column>
-			<column name="strDesc">&lt;us&gt; is temporarily blocked from entering Grayling.</column>
+			<column name="strName">Entrada de Grayling bloqueada</column>
+			<column name="strDesc">&lt;us&gt; esta bloqueado temporariamente para entrar no Grayling.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -18726,8 +18726,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">813</column>
-			<column name="strName">Trigger Last Chance Canteen Encounter</column>
-			<column name="strDesc">&lt;us&gt; is entering the Last Chance Canteen.</column>
+			<column name="strName">Esta em Catina(Last Chance)</column>
+			<column name="strDesc">&lt;us&gt; esta entrando em Catina(Last Chance).</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2203</column>
 			<column name="aEffects"></column>
@@ -18749,8 +18749,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">814</column>
-			<column name="strName">Chance of Gastroenteritis</column>
-			<column name="strDesc">&lt;us&gt; has a chance of gastroenteritis soon.</column>
+			<column name="strName">Risco de Gastroenterite</column>
+			<column name="strDesc">&lt;us&gt; tem uma chance de contrair gastroenterite.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -18772,8 +18772,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">815</column>
-			<column name="strName">Trigger St. James Parkade Encounter</column>
-			<column name="strDesc">&lt;us&gt; is entering St. James Parkade.</column>
+			<column name="strName">Esta em St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt; esta entrando em St. James Parkade.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2221</column>
 			<column name="aEffects"></column>
@@ -18795,8 +18795,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">816</column>
-			<column name="strName">Using climate control</column>
-			<column name="strDesc">&lt;us&gt; is using a heating/AC system.</column>
+			<column name="strName">Usando controle climatico</column>
+			<column name="strDesc">&lt;us&gt; esta usando um sistema de aquecimento/CA.</column>
 			<column name="aFieldNames">MinSafeTemp,MaxSafeTemp</column>
 			<column name="aModifiers">-40,40</column>
 			<column name="aEffects"></column>
@@ -18818,8 +18818,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">817</column>
-			<column name="strName">St. James Parkade 24hr Pass</column>
-			<column name="strDesc">&lt;us&gt; has access to St. James Parkade for 24 hours.</column>
+			<column name="strName">Acesso por 24hr a St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt; tem acesso a St. James Parkade por 24 horas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18841,8 +18841,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">818</column>
-			<column name="strName">St. James Parkade Expiration</column>
-			<column name="strDesc">&lt;us&gt;'s rental at St. James Parkade has expired.</column>
+			<column name="strName">Acesso expirou a St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt;'s O aluguel de St. James Parkade expirou.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18864,8 +18864,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">819</column>
-			<column name="strName">Basic Recipes 1</column>
-			<column name="strDesc">&lt;us&gt; knows basic recipes.</column>
+			<column name="strName">Receitas basicas I</column>
+			<column name="strDesc">&lt;us&gt; sabe sobre receitas basicas I.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">1,2,3,4,6,8,18,19,21,23</column>
 			<column name="aEffects"></column>
@@ -18887,8 +18887,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">820</column>
-			<column name="strName">Basic Recipes 2</column>
-			<column name="strDesc">&lt;us&gt; knows basic recipes.</column>
+			<column name="strName">Receitas basicas II</column>
+			<column name="strDesc">&lt;us&gt; sabe sobre receitas basicas II.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">24,27,28,31,32,33,35,37,42,44</column>
 			<column name="aEffects"></column>
@@ -18910,8 +18910,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">821</column>
-			<column name="strName">Basic Recipes 3</column>
-			<column name="strDesc">&lt;us&gt; knows basic recipes.</column>
+			<column name="strName">Receitas basicas III</column>
+			<column name="strDesc">&lt;us&gt; sabe sobre receitas basicas III.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">45,46,53,56,57,58,59,60,62,63</column>
 			<column name="aEffects"></column>
@@ -18933,8 +18933,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">822</column>
-			<column name="strName">Basic Recipes 4</column>
-			<column name="strDesc">&lt;us&gt; knows basic recipes.</column>
+			<column name="strName">Receitas basicas IIII</column>
+			<column name="strDesc">&lt;us&gt; sabe sobre receitas basicas IIII.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">65,67,84,95</column>
 			<column name="aEffects"></column>
@@ -18956,8 +18956,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">823</column>
-			<column name="strName">St. James Parkade 1 Week Pass</column>
-			<column name="strDesc">&lt;us&gt; has access to St. James Parkade for 1 week.</column>
+			<column name="strName">Acesso por 1 semana a St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt; tem acesso a St. James Parkade por 1 semana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -18979,8 +18979,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">824</column>
-			<column name="strName">Renting pickup truck at Parkade</column>
-			<column name="strDesc">&lt;us&gt; is renting a pickup truck at St. James Parkade.</column>
+			<column name="strName">Alugou caminhonete</column>
+			<column name="strDesc">&lt;us&gt; esta alugando uma caminhonete em St. James Parkade.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19002,8 +19002,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">825</column>
-			<column name="strName">Renting hatchback at Parkade</column>
-			<column name="strDesc">&lt;us&gt; is renting a hatchback at St. James Parkade.</column>
+			<column name="strName">Alugou um hatchback</column>
+			<column name="strDesc">&lt;us&gt; esta alugando um hatchback em St. James Parkade.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19025,8 +19025,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">826</column>
-			<column name="strName">Renting van at Parkade</column>
-			<column name="strDesc">&lt;us&gt; is renting a van at St. James Parkade.</column>
+			<column name="strName">Alugou uma VAN em Parkade</column>
+			<column name="strDesc">&lt;us&gt; esta alugando uma VAN em St. James Parkade.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19048,8 +19048,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">827</column>
-			<column name="strName">Renting at St. James Parkade</column>
-			<column name="strDesc">&lt;us&gt; is renting at St. James Parkade.</column>
+			<column name="strName">Alugando em St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt; esta alugando em St. James Parkade.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19071,8 +19071,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">828</column>
-			<column name="strName">St. James Parkade 4 Week Pass</column>
-			<column name="strDesc">&lt;us&gt; has access to St. James Parkade for 4 weeks.</column>
+			<column name="strName">Acesso por 4 semana a St. James Parkade</column>
+			<column name="strDesc">&lt;us&gt; tem acesso a St. James Parkade por 4 semana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19094,8 +19094,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">829</column>
-			<column name="strName">Medic Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows medic recipes.</column>
+			<column name="strName">Receitas Medicas</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas Medicas.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe</column>
 			<column name="aModifiers">25,26</column>
 			<column name="aEffects"></column>
@@ -19117,8 +19117,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">830</column>
-			<column name="strName">Melee Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows melee recipes.</column>
+			<column name="strName">Receitas de Corpo a Corpo</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Corpo a Corpo.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">46,53,54,55</column>
 			<column name="aEffects"></column>
@@ -19140,8 +19140,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">831</column>
-			<column name="strName">Trapping Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows trapping recipes.</column>
+			<column name="strName">Receitas de Sobrevivencia</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Sobrevivencia.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">7,9,10,11,16,17,34,61,64,66,72,74</column>
 			<column name="aEffects"></column>
@@ -19163,8 +19163,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">832</column>
-			<column name="strName">Botany Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows botany recipes.</column>
+			<column name="strName">Receitas Botanica</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Botanica.</column>
 			<column name="aFieldNames">AddRecipe</column>
 			<column name="aModifiers">5</column>
 			<column name="aEffects"></column>
@@ -19186,8 +19186,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">833</column>
-			<column name="strName">Lockpicking Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows lockpicking recipes.</column>
+			<column name="strName">Receitas de Arrombamento</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Arrombamento.</column>
 			<column name="aFieldNames">AddRecipe</column>
 			<column name="aModifiers">15</column>
 			<column name="aEffects"></column>
@@ -19209,8 +19209,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">834</column>
-			<column name="strName">Mechanic Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows mechanic recipes.</column>
+			<column name="strName">Receitas Mecanicas</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas mecanicas.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">40,41,42,43</column>
 			<column name="aEffects"></column>
@@ -19232,8 +19232,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">835</column>
-			<column name="strName">Ranged Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows ranged recipes.</column>
+			<column name="strName">Receitas Atirador</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Atirador.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe,AddRecipe</column>
 			<column name="aModifiers">12,13,14,47,48,49,50,51,52,53,54,55,68,69,83</column>
 			<column name="aEffects"></column>
@@ -19255,8 +19255,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">836</column>
-			<column name="strName">Carrying Thermometer</column>
-			<column name="strDesc">&lt;us&gt; is carrying an item that tells temperature.</column>
+			<column name="strName">Termometro</column>
+			<column name="strDesc">&lt;us&gt; esta carregando um item que diz a temperatura.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19278,8 +19278,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">837</column>
-			<column name="strName">Wearing Merga armor</column>
-			<column name="strDesc">&lt;us&gt; is wearing Merga armor.</column>
+			<column name="strName">Vestindo armadura de Merga</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo armadura de Merga.</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">0.2</column>
 			<column name="aEffects">ArmorWound=100,4,1;ArmorWound=101,4,1;ArmorWound=102,4,1;ArmorWound=103,4,1;ArmorWound=104,4,1;ArmorWound=105,4,1;ArmorWound=106,4,1;ArmorWound=107,4,1;ArmorWound=108,4,1;ArmorWound=109,4,1;ArmorWound=110,4,1;ArmorWound=111,4,1;ArmorWound=112,4,1;ArmorWound=113,4,1;ArmorWound=114,4,1;ArmorWound=115,4,1;ArmorWound=116,4,1;</column>
@@ -19301,8 +19301,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">838</column>
-			<column name="strName">Wearing a shorts</column>
-			<column name="strDesc">&lt;us&gt; is wearing shorts.</column>
+			<column name="strName">Vestindo um shorts</column>
+			<column name="strDesc">&lt;us&gt; esta vestindo shorts.</column>
 			<column name="aFieldNames">MinSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-0.5,-0.05</column>
 			<column name="aEffects"></column>
@@ -19324,8 +19324,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">839</column>
-			<column name="strName">Electrician Recipes</column>
-			<column name="strDesc">&lt;us&gt; knows electrician recipes.</column>
+			<column name="strName">Receitas Eletricista</column>
+			<column name="strDesc">&lt;us&gt; conhece receitas sobre Eletricista.</column>
 			<column name="aFieldNames">AddRecipe,AddRecipe</column>
 			<column name="aModifiers">97,98</column>
 			<column name="aEffects"></column>
@@ -19347,8 +19347,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">840</column>
-			<column name="strName">Using Anticoagulents</column>
-			<column name="strDesc">&lt;us&gt; has taken a prescription anticoagulent.</column>
+			<column name="strName">Usou Anticoagulantes</column>
+			<column name="strDesc">&lt;us&gt; tomou uma receita de anticoagulante.</column>
 			<column name="aFieldNames">m_fBloodRestoreRate,m_fHealPerHourMod</column>
 			<column name="aModifiers">-0.0004,-0.1</column>
 			<column name="aEffects"></column>
@@ -19370,8 +19370,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">841</column>
-			<column name="strName">Anticoagulant Effect Delay</column>
-			<column name="strDesc">&lt;us&gt; has just taken anticoagulents, which will take effect soon.</column>
+			<column name="strName">Usando Anticoagulante</column>
+			<column name="strDesc">&lt;us&gt; acaba de tomar anticoagulantes, que tera efeito em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19393,8 +19393,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">842</column>
-			<column name="strName">Taken a blue pill</column>
-			<column name="strDesc">&lt;us&gt; has just taken a blue pill.</column>
+			<column name="strName">Tomou uma pilula azul</column>
+			<column name="strDesc">&lt;us&gt; acabou de tomar uma pilula azul.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19416,8 +19416,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">843</column>
-			<column name="strName">Taken a white pill</column>
-			<column name="strDesc">&lt;us&gt; has just taken a white pill.</column>
+			<column name="strName">Tomou uma pilula branca</column>
+			<column name="strDesc">&lt;us&gt; acabou de tomar uma pilula branca.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19439,8 +19439,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">844</column>
-			<column name="strName">Taken an orange pill</column>
-			<column name="strDesc">&lt;us&gt; has just taken an orange pill.</column>
+			<column name="strName">Tomou uma pilula laranja</column>
+			<column name="strDesc">&lt;us&gt; acabou de tomar uma pilula laranja.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19462,8 +19462,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">845</column>
-			<column name="strName">Nain Rouge Curse Dormant</column>
-			<column name="strDesc">&lt;us&gt; has been cursed by Nain Rouge, causing pain and misfortune.</column>
+			<column name="strName">Foi amaldicoado por Nain Rouge</column>
+			<column name="strDesc">&lt;us&gt; foi amaldicoado por Nain Rouge, causando dor e infortunio.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19485,8 +19485,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">846</column>
-			<column name="strName">Nain Rouge Curse</column>
-			<column name="strDesc">&lt;us&gt; has been cursed by Nain Rouge, causing pain and misfortune.</column>
+			<column name="strName">Amaldicoado por Nain Rouge</column>
+			<column name="strDesc">&lt;us&gt; foi maldito por Nain Rouge, causando dor e infortunio.</column>
 			<column name="aFieldNames">BaseDetectionLevel,m_fDefense</column>
 			<column name="aModifiers">0.25,-0.06</column>
 			<column name="aEffects"></column>
@@ -19508,8 +19508,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">847</column>
-			<column name="strName">Exposed Weakness</column>
-			<column name="strDesc">&lt;us&gt; has an exposed weakness!</column>
+			<column name="strName">Fraqueza exposta</column>
+			<column name="strDesc">&lt;us&gt; tem uma fraqueza exposta!</column>
 			<column name="aFieldNames">m_fDefense,DefDmgMult</column>
 			<column name="aModifiers">-0.2,0.5</column>
 			<column name="aEffects">ArmorWound=100,-4,-1;ArmorWound=101,-4,-1;ArmorWound=102,-4,-1;ArmorWound=103,-4,-1;ArmorWound=104,-4,-1;ArmorWound=105,-4,-1;ArmorWound=106,-4,-1;ArmorWound=107,-4,-1;ArmorWound=108,-4,-1;ArmorWound=109,-4,-1;ArmorWound=110,-4,-1;ArmorWound=111,-4,-1;ArmorWound=112,-4,-1;ArmorWound=113,-4,-1;ArmorWound=114,-4,-1;ArmorWound=115,-4,-1;ArmorWound=116,-4,-1;</column>
@@ -19531,8 +19531,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">848</column>
-			<column name="strName">Intimidating</column>
-			<column name="strDesc">&lt;us&gt; is berserk with rage!</column>
+			<column name="strName">Intimidador</column>
+			<column name="strDesc">&lt;us&gt; esta frenetico com furia!</column>
 			<column name="aFieldNames">m_fMorale</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>
@@ -19554,8 +19554,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">849</column>
-			<column name="strName">Insomnia</column>
-			<column name="strDesc">&lt;us&gt; has more trouble staying asleep than usual.</column>
+			<column name="strName">Insonia</column>
+			<column name="strDesc">&lt;us&gt; tem mais problemas para ficar dormindo do que o habitual.</column>
 			<column name="aFieldNames">fSleepQuality</column>
 			<column name="aModifiers">-0.35</column>
 			<column name="aEffects"></column>
@@ -19577,8 +19577,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">850</column>
-			<column name="strName">Increased Appetite</column>
-			<column name="strDesc">&lt;us&gt; has a bigger appetite than usual.</column>
+			<column name="strName">Apetite Maior</column>
+			<column name="strDesc">&lt;us&gt; tem um apetite maior do que o habitual.</column>
 			<column name="aFieldNames">fFoodConsumptionRate,fWaterConsumptionRate,m_fHealPerHourMod,m_fBloodRestoreRate,m_fImmuneRestoreRate</column>
 			<column name="aModifiers">0.25,0.5,0.02,0.0001,0.0005</column>
 			<column name="aEffects"></column>
@@ -19600,8 +19600,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">851</column>
-			<column name="strName">Thyroid Hormone Effect Delay</column>
-			<column name="strDesc">&lt;us&gt; has just taken thyroid hormones, which will take effect soon.</column>
+			<column name="strName">Tomou hormonio tireoidiano</column>
+			<column name="strDesc">&lt;us&gt; acabou de tomar hormonios tireoidianos, que entrara em vigor em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19623,8 +19623,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">852</column>
-			<column name="strName">Antacid Effect Delay</column>
-			<column name="strDesc">&lt;us&gt; has just taken antacid, which will take effect soon.</column>
+			<column name="strName">Tomou antiacido</column>
+			<column name="strDesc">&lt;us&gt; acabou de tomar antiacido, que entrara em vigor em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19646,8 +19646,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">853</column>
-			<column name="strName">Cholera V2</column>
-			<column name="strDesc">&lt;us&gt; contracted cholera.</column>
+			<column name="strName">Colera I V2</column>
+			<column name="strDesc">&lt;us&gt; contraiu Colera.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19669,8 +19669,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">854</column>
-			<column name="strName">Cholera 2 V2</column>
-			<column name="strDesc">&lt;us&gt; feels nauseous, and has uncontrollable bouts of vomiting and diarrhea.</column>
+			<column name="strName">Colera II V2</column>
+			<column name="strDesc">&lt;us&gt; sente nauseas e tem ataques incontrolaveis â€‹â€‹de vomitos e diarreia.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate,fWaterConsumptionRate</column>
 			<column name="aModifiers">-0.01,-0.05,2.5</column>
 			<column name="aEffects"></column>
@@ -19692,8 +19692,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">855</column>
-			<column name="strName">Cholera 3 V2</column>
-			<column name="strDesc">&lt;us&gt;'s diarrhea and vomiting has worsened. &lt;us&gt;'s skin is starting to take on a bluish tint.</column>
+			<column name="strName">Colera III V2</column>
+			<column name="strDesc">&lt;us&gt;'s a diarreia e o vomito pioraram. &lt;us&gt;'s A pele esta comecando a ficar com cor azulada.</column>
 			<column name="aFieldNames">m_fImmuneLeft,m_fImmuneRestoreRate,fWaterConsumptionRate</column>
 			<column name="aModifiers">-0.01,-0.15,5</column>
 			<column name="aEffects"></column>
@@ -19715,8 +19715,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">856</column>
-			<column name="strName">-0.05 Immune Per Hour</column>
-			<column name="strDesc">&lt;us&gt; is losing immune system strength gradually.</column>
+			<column name="strName">-0.05 Imune por hr</column>
+			<column name="strDesc">&lt;us&gt; esta perdendo um pouco por hora do seu sistema imune.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19738,8 +19738,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">857</column>
-			<column name="strName">-0.05 Immune</column>
-			<column name="strDesc">&lt;us&gt; lost 0.05 immune system strength.</column>
+			<column name="strName">-0.05 Imune</column>
+			<column name="strDesc">&lt;us&gt; perdeu 0.05 de seu sistema imunologico.</column>
 			<column name="aFieldNames">m_fImmuneLeft</column>
 			<column name="aModifiers">-0.05</column>
 			<column name="aEffects"></column>
@@ -19761,8 +19761,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">858</column>
-			<column name="strName">Dog</column>
-			<column name="strDesc">&lt;us&gt; is a dog.</column>
+			<column name="strName">Cachorro</column>
+			<column name="strDesc">&lt;us&gt; viu um cachorro.</column>
 			<column name="aFieldNames">BaseDetectionLevel,m_fFatigueModifier</column>
 			<column name="aModifiers">-0.4,1.5</column>
 			<column name="aEffects"></column>
@@ -19784,8 +19784,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">859</column>
-			<column name="strName">Loose Shoe Heartbeat (Left)</column>
-			<column name="strDesc">&lt;us&gt; periodically has a chance of losing left shoe.</column>
+			<column name="strName">Sapato solto (Esquerdo)</column>
+			<column name="strDesc">&lt;us&gt; periodicamente tem chance de perder o sapato esquerdo.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19807,8 +19807,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">860</column>
-			<column name="strName">Loose Shoe Heartbeat (Right)</column>
-			<column name="strDesc">&lt;us&gt; periodically has a chance of losing right shoe.</column>
+			<column name="strName">Sapato solto (Direito)</column>
+			<column name="strDesc">&lt;us&gt; periodicamente tem chance de perder o sapato direito.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19830,8 +19830,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">861</column>
-			<column name="strName">Morality Neutral</column>
-			<column name="strDesc">&lt;us&gt; has not acted significantly more evil or good.</column>
+			<column name="strName">Moral Neutral</column>
+			<column name="strDesc">&lt;us&gt; nao agiu significativamente mais mal ou bom.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19853,8 +19853,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">862</column>
-			<column name="strName">Morality Good</column>
-			<column name="strDesc">&lt;us&gt; has acted significantly more good than evil.</column>
+			<column name="strName">Moral Bom</column>
+			<column name="strDesc">&lt;us&gt; agiu significativamente mais para o bem do que para o mal.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19876,8 +19876,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">863</column>
-			<column name="strName">Morality Evil</column>
-			<column name="strDesc">&lt;us&gt; has acted significantly more evil than good.</column>
+			<column name="strName">Moral Mal</column>
+			<column name="strDesc">&lt;us&gt; agiu significativamente mais para o mal do que para o bem.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -19899,8 +19899,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">864</column>
-			<column name="strName">Drop Left Foot Item</column>
-			<column name="strDesc">&lt;us&gt;'s left shoe fell off!</column>
+			<column name="strName">Perdeu sapato esquerdo</column>
+			<column name="strDesc">&lt;us&gt;'s o sapato esquerdo caiu!</column>
 			<column name="aFieldNames">DropAllItems</column>
 			<column name="aModifiers">2</column>
 			<column name="aEffects"></column>
@@ -19922,8 +19922,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">865</column>
-			<column name="strName">Drop Right Foot Item</column>
-			<column name="strDesc">&lt;us&gt;'s right shoe fell off!</column>
+			<column name="strName">Perdeu sapato direito</column>
+			<column name="strDesc">&lt;us&gt;'s o sapato direito caiu!</column>
 			<column name="aFieldNames">DropAllItems</column>
 			<column name="aModifiers">3</column>
 			<column name="aEffects"></column>
@@ -19945,8 +19945,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">866</column>
-			<column name="strName">Parkade Expires in 24h</column>
-			<column name="strDesc">&lt;us&gt;'s access to St. James Parkade will expire in 24 hours.</column>
+			<column name="strName">Parkade expira em 24h</column>
+			<column name="strDesc">&lt;us&gt;'s o acesso a St. James Parkade expirara em 24 horas.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19968,8 +19968,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">867</column>
-			<column name="strName">Parkade Pass 1-week Timer</column>
-			<column name="strDesc">&lt;us&gt; will receive a 24h warning when the 1 week pass is about to expire.</column>
+			<column name="strName">Parkade expira em 1 semana</column>
+			<column name="strDesc">&lt;us&gt; o acesso a St. James Parkade expirara em 1 semana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -19991,8 +19991,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">868</column>
-			<column name="strName">Parkade Pass 4-week Timer</column>
-			<column name="strDesc">&lt;us&gt; will receive a 24h warning when the 4 week pass is about to expire.</column>
+			<column name="strName">Parkade expira em 4 semana</column>
+			<column name="strDesc">&lt;us&gt; o acesso a St. James Parkade expirara em 4 semana.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
@@ -20014,8 +20014,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">869</column>
-			<column name="strName">Already Unstoppable at Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; has already proven themselves unstoppable at Zom Zom's.</column>
+			<column name="strName">Imparavel em ZZ's</column>
+			<column name="strDesc">&lt;us&gt; provou ser imparavel em Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -20037,8 +20037,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">870</column>
-			<column name="strName">Already Elusive at Zom Zom's</column>
-			<column name="strDesc">&lt;us&gt; has already proven themselves elusive at Zom Zom's.</column>
+			<column name="strName">Esquivo em ZZ's</column>
+			<column name="strDesc">&lt;us&gt; provou ser esquivo em Zom Zom's.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
 			<column name="aEffects"></column>
@@ -20060,8 +20060,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">871</column>
-			<column name="strName">Sheltered</column>
-			<column name="strDesc">&lt;us&gt; is in shelter protecting them from cold.</column>
+			<column name="strName">Aquecido</column>
+			<column name="strDesc">&lt;us&gt; esta protegido contra o frio.</column>
 			<column name="aFieldNames">MinSafeTemp,BodyInsulation</column>
 			<column name="aModifiers">-45,-2.5</column>
 			<column name="aEffects"></column>
@@ -20083,8 +20083,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">872</column>
-			<column name="strName">Already asked Michelle about Spirit</column>
-			<column name="strDesc">&lt;us&gt; asked Michelle a question about spirit, and cannot ask again.</column>
+			<column name="strName">AJa havia perguntado a Michelle sobre o Espirito</column>
+			<column name="strDesc">&lt;us&gt; perguntou a Michelle uma pergunta sobre espirito e nao pode pedir novamente.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>
