@@ -254,11 +254,11 @@ A pressa do fluido sub-congelante pode assustar o monstro. E talvez o monstro ac
 		<table name="encounters">
 			<column name="id">8</column>
 			<column name="strName">Encontrar algum lugar para se esconder.</column>
-			<column name="strDesc">Voce rapidamente escaneia a sala a procura de um esconderijo e encontra um atras do tanque Crio-Sono mais proximo da janela. Espero que a luz do exterior ajude e torne mais dificil ve-lo nas sombras proximas. E com a maioria do lugar cheirando ao liquido do Crio-Sono, voce tem uma otima chance de ter seu aroma mascarado. 
+			<column name="strDesc">Voce rapidamente escaneia a sala a procura de um esconderijo e encontra um atras do tanque Crio-Sono mais proximo da janela. Esperando que a luz do exterior ajude e torne mais dificil ve-lo nas sombras proximas. E com a maioria do lugar cheirando ao liquido do Crio-Sono, voce tem uma otima chance de ter seu aroma mascarado. 
 
-Voce prende a respiracao enquanto algo entra na sala. A criatura chega com sua respiracao pesada, e com o tempo torna-se mais calma quando comeca a cheirar o ar. O cheiro se aproxima, mas continua mais na sala. Ele solta um resmungo irritado, e comeca a cheirar de volta ao corredor.
+Voce prende a respiracao enquanto algo entra na sala. A criatura chega com sua respiracao pesada, e com o tempo torna-se mais calma quando comeca a cheirar o ar. A criatura chega perto cheirando, mas comeca a se afastar da sala. Ele solta um resmungo irritado, e comeca a cheirar de volta ao corredor.
 
-Alguns minutos depois, voce tem certeza de que a criatura esta fora do alcance dos seus ouvido novamente.</column>
+Alguns minutos depois, voce tem certeza de que a criatura esta fora do alcance da visao e de seus ouvidos.</column>
 			<column name="strImg">EncDeathDogman.png</column>
 			<column name="nTreasureID">3</column>
 			<column name="nRemoveTreasureID">3</column>

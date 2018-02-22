@@ -14,35 +14,35 @@ Function attackmodes(id, attr, Line)
 				case "strWieldPhrase"
 					Line = Replace(Line, "raises their fists, ready to fight", "levanta os punhos, pronto para lutar")
 				case "vAttackPhrases"
-					Line = Replace(Line, "swings at,jabs at,roundhouses,gut-punches", "movimentos como socos e golpes")
+					Line = Replace(Line, "swings at,jabs at,roundhouses,gut-punches", "balancos, socos, jabs, ganchos, golpes")
 			End select
 		case 2
 			Select case attr
 				case "strWieldPhrase"
 					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
 				case "vAttackPhrases"
-					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar")
 			End select
 		case 3
 			Select case attr				
 				case "strWieldPhrase"
 					Line = Replace(Line, "readies their .308 hunting rifle", "prepara seu rifle de caca .308")
 				case "vAttackPhrases"
-					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar")
 			End select
 		case 4
 			Select case attr				
 				case "strWieldPhrase"
 					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, pronto para atirar em")
 				case "vAttackPhrases"
-					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em ou disparar com seu .308, atirar, disparar em")
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em ou disparar com seu .308, atirar, disparar")
 			End select
 		case 5
 			Select case attr				
 				case "strWieldPhrase"
 					Line = Replace(Line, "peers through their scoped .308, lining up a shot at", "levanta seu .308, pronto para atirar em")
 				case "vAttackPhrases"
-					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar em")
+					Line = Replace(Line, "pops a shot off at,fires their .308 at,takes a shot at,fires at", "disparar um tiro em, disparar com seu .308, atirar, disparar")
 			End select
 		case 6
 			Select case attr
@@ -8702,9 +8702,9 @@ Function encounters(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Find someplace to hide.", "Encontrar algum lugar para se esconder.")
 				case "strDesc"
-					Line = Replace(Line, "You quickly scan the room for a hiding place, and duck behind the cryo tank nearest the window. Hopefully the light from outdoors will make it harder to see you in the nearby shadow. And with most of the room smelling of cryoprotectants, you stand a pretty good chance of having your scent masked.", "Voce rapidamente escaneia a sala a procura de um esconderijo e encontra um atras do tanque Crio-Sono mais proximo da janela. Espero que a luz do exterior ajude e torne mais dificil ve-lo nas sombras proximas. E com a maioria do lugar cheirando ao liquido do Crio-Sono, voce tem uma otima chance de ter seu aroma mascarado.")
-					Line = Replace(Line, "You hold your breath as something enters the room. Its heavy breathing becomes more nasal as it begins sniffing the air. The sniffing grows closer, but continues further into the room. It lets out an annoyed bark, huffs, and starts sniffing back into the hall.", "Voce prende a respiracao enquanto algo entra na sala. A criatura chega com sua respiracao pesada, e com o tempo torna-se mais calma quando comeca a cheirar o ar. O cheiro se aproxima, mas continua mais na sala. Ele solta um resmungo irritado, e comeca a cheirar de volta ao corredor.")
-					Line = Replace(Line, "A few minutes later, you're pretty sure it's out of earshot again.", "Alguns minutos depois, voce tem certeza de que a criatura esta fora do alcance dos seus ouvido novamente.")
+					Line = Replace(Line, "You quickly scan the room for a hiding place, and duck behind the cryo tank nearest the window. Hopefully the light from outdoors will make it harder to see you in the nearby shadow. And with most of the room smelling of cryoprotectants, you stand a pretty good chance of having your scent masked.", "Voce rapidamente escaneia a sala a procura de um esconderijo e encontra um atras do tanque Crio-Sono mais proximo da janela. Esperando que a luz do exterior ajude e torne mais dificil ve-lo nas sombras proximas. E com a maioria do lugar cheirando ao liquido do Crio-Sono, voce tem uma otima chance de ter seu aroma mascarado.")
+					Line = Replace(Line, "You hold your breath as something enters the room. Its heavy breathing becomes more nasal as it begins sniffing the air. The sniffing grows closer, but continues further into the room. It lets out an annoyed bark, huffs, and starts sniffing back into the hall.", "Voce prende a respiracao enquanto algo entra na sala. A criatura chega com sua respiracao pesada, e com o tempo torna-se mais calma quando comeca a cheirar o ar. A criatura chega perto cheirando, mas comeca a se afastar da sala. Ele solta um resmungo irritado, e comeca a cheirar de volta ao corredor.")
+					Line = Replace(Line, "A few minutes later, you're pretty sure it's out of earshot again.", "Alguns minutos depois, voce tem certeza de que a criatura esta fora do alcance da visao e de seus ouvidos.")
 			End Select
 		case 14
 			Select case attr

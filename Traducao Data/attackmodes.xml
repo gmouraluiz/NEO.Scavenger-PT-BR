@@ -59,7 +59,7 @@
 			<column name="strIMG">AModePunch.png</column>
 			<column name="fMorale">0.05</column>
 			<column name="strWieldPhrase">levanta os punhos, pronto para lutar</column>
-			<column name="vAttackPhrases">movimentos como socos e golpes</column>
+			<column name="vAttackPhrases">balancos, socos, jabs, ganchos, golpes</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">2</column>
@@ -77,7 +77,7 @@
 			<column name="strIMG">AMode308.png</column>
 			<column name="fMorale">0.4</column>
 			<column name="strWieldPhrase">prepara seu rifle de caca .308</column>
-			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">3</column>
@@ -95,7 +95,7 @@
 			<column name="strIMG">AMode308.png</column>
 			<column name="fMorale">0.4</column>
 			<column name="strWieldPhrase">prepara seu rifle de caca .308</column>
-			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">4</column>
@@ -113,7 +113,7 @@
 			<column name="strIMG">AMode308Scoped.png</column>
 			<column name="fMorale">0.5</column>
 			<column name="strWieldPhrase">levanta seu .308, pronto para atirar em</column>
-			<column name="vAttackPhrases">disparar um tiro em ou disparar com seu .308, atirar, disparar em</column>
+			<column name="vAttackPhrases">disparar um tiro em ou disparar com seu .308, atirar, disparar</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">5</column>
@@ -131,7 +131,7 @@
 			<column name="strIMG">AMode308Scoped.png</column>
 			<column name="fMorale">0.5</column>
 			<column name="strWieldPhrase">levanta seu .308, pronto para atirar em</column>
-			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar em</column>
+			<column name="vAttackPhrases">disparar um tiro em, disparar com seu .308, atirar, disparar</column>
 		</table>
 		<table name="attackmodes">
 			<column name="id">6</column>
