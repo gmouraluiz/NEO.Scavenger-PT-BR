@@ -12550,110 +12550,114 @@ Function itemtypes(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "can see one hex further than normal, light and line of sight permitting", "pode ver em uma distancia maior do que o normal, luz e linha de visao permitindo")
 			End Select
-		case 000
+		case 256
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					If(Line = "liquid") Then
+						Line = Replace(Line, "liquid", "liquido")
+					End If
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "blood (human)", "sangue (humano)")
 			End Select
-		case 000
+		case 257
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "blood", "sangue")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "blood (human) (encounter)", "sangue (humano) (encontro)")
 			End Select
-		case 000
+		case 258
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bottle", "frasco")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Prescription Sleeping Pills (encounter)", "frasco de comprimidos de plastico rotulado: PharmaCon Pilulas para dormir com receita medica (encontro)")
 			End Select
-		case 000
+		case 259
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bottle", "frasco")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Prescription Painkillers (encounter)", "frasco de pilula de plastico rotulado: PharmaCon Analgesicos de prescricao (encontro)")
 			End Select
-		case 000
+		case 260
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bottle", "frasco")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Prescription Antibiotics (encounter)", "frasco de comprimidos de plastico rotulado: PharmaCon Antibioticos de prescricao (encontro)")
 			End Select
-		case 000
+		case 261
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					If(Line = "liquid") Then
+						Line = Replace(Line, "liquid", "liquido")
+					End If
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "purified water (encounter)", "agua purificada (encontro)")
 			End Select
-		case 000
+		case 262
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medical kit", "kit medico")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "nanorobot medical kit (encounter)", "kit medico nanorobot (encontro)")
 			End Select
-		case 000
+		case 263
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "binoculars", "binoculos")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "pair of binoculars w/strap", "par de binoculos c/alca")
 			End Select
-		case 000
+		case 264
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium length of string", "corda de comprimento medio")
 			End Select
-		case 000
+		case 265
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crowbar", "pe de cabra")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "crowbar w/strap", "pe de cabra c/alca")
 			End Select
-		case 000
+		case 266
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "binocular half", "metade binoculos")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "half a pair of binoculars", "metade de um binoculos")
 			End Select
-		case 000
+		case 267
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "rifle scope w/strap", "escopo de rifle c/alca")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "rifle scope w/strap", "luneta de rifle c/alca")
 			End Select
-		case 000
+		case 268
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large parts", "grandes partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shopping cart basket", "cesta do carrinho de compras")
 			End Select
-		case 000
+		case 269
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "large parts", "grandes partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "shopping cart frame", "quadro do carrinho de compras")
 			End Select
-		case 000
+		case 270
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "caster wheel", "roda de carrinho")
 			End Select
 		case 000
 			Select case attr
