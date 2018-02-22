@@ -91,7 +91,7 @@
 		</table>
 		<table name="containertypes">
 			<column name="id">16</column>
-			<column name="strName">acampamento fixo</column>
+			<column name="strName">equipamento fixo</column>
 		</table>
 		<table name="containertypes">
 			<column name="id">17</column>

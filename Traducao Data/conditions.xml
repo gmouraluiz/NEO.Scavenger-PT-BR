@@ -2764,7 +2764,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">119</column>
-			<column name="strName">Capuz do Afrouxou</column>
+			<column name="strName">Capuz do estragulador Afrouxou</column>
 			<column name="strDesc">O Capuz do Estragulador se afroxou.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
@@ -3569,7 +3569,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">154</column>
-			<column name="strName">Desviar</column>
+			<column name="strName">Defender-se</column>
 			<column name="strDesc">&lt;us&gt; vai parando o proximo ataque, tornando-os dificeis de bater por um momento.</column>
 			<column name="aFieldNames">m_fDefense</column>
 			<column name="aModifiers">0.75</column>
@@ -14701,7 +14701,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">638</column>
-			<column name="strName">Defina ponto perto de DMC Gates</column>
+			<column name="strName">Defina ponto perto de DMC Gates </column>
 			<column name="strDesc">&lt;us&gt; estara perto de DMC Gates em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>

@@ -489,12 +489,12 @@ Grande chance de ser detectado se escondido.</column>
 		<table name="battlemoves">
 			<column name="id">11</column>
 			<column name="strID">90.44</column>
-			<column name="strName">Defender-se</column>
+			<column name="strName">Defesa</column>
 			<column name="strNotes"></column>
 			<column name="strSuccess">&lt;us&gt; vai defender-se do &lt;them&gt;'s de seu proximo movimento.</column>
 			<column name="strFail"></column>
-			<column name="strPopUp">Defender-se 
-Defender-se target's next attack, making you much harder to hit.
+			<column name="strPopUp">Defesa 
+Defesa target's next attack, making you much harder to hit.
 Deve estar na faixa de luta corpo a corpo.
 Precisa estar vendo o alvo.
 Possibilidade de ser detectado se escondido.
@@ -532,12 +532,12 @@ Nao estara sempre disponivel.</column>
 		<table name="battlemoves">
 			<column name="id">12</column>
 			<column name="strID">90.45</column>
-			<column name="strName">Pontape</column>
+			<column name="strName">Chute</column>
 			<column name="strNotes"></column>
-			<column name="strSuccess">&lt;us&gt; vai dar um pontape no &lt;them&gt; enquanto ele esta caido!</column>
-			<column name="strFail">&lt;us&gt; tentou pontape &lt;them&gt; enquanto ele estava caido ... mas errou!</column>
-			<column name="strPopUp">pontape 
-pontape target while they're down.
+			<column name="strSuccess">&lt;us&gt; vai dar chutes em &lt;them&gt; enquanto ele esta caido!</column>
+			<column name="strFail">&lt;us&gt; tentou chutar &lt;them&gt; enquanto ele estava caido ... mas errou!</column>
+			<column name="strPopUp">Chutar 
+Chutar target while they're down.
 Possibilidade de ferir o alvo, alem de mante-lo caido e forca-lo a perder 1 turno.
 Deve estar na faixa de corpo a corpo.
 Precisa estar vendo o alvo.
