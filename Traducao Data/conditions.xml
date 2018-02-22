@@ -14701,7 +14701,7 @@
 		</table>
 		<table name="conditions">
 			<column name="id">638</column>
-			<column name="strName">Defina ponto perto de DMC Gates </column>
+			<column name="strName">Defina ponto perto de DMC Gates</column>
 			<column name="strDesc">&lt;us&gt; estara perto de DMC Gates em breve.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers"></column>
