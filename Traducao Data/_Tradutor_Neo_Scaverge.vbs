@@ -5887,7 +5887,7 @@ Function conditions(id, attr, Line)
 		case 638
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Set Waypoint near DMC Gates", "Defina ponto perto de DMC Gates ")
+					Line = Replace(Line, "Set Waypoint near DMC Gates", "Defina ponto perto de DMC Gates")
 				case "strDesc"
 					Line = Replace(Line, "is going near DMC Gates soon", "estara perto de DMC Gates em breve")
 			End Select
