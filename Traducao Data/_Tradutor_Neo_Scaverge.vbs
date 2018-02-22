@@ -10767,7 +10767,9 @@ Function itemtypes(id, attr, Line)
 		case 12
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "bracelet", "bracelete")
+					If(Line = "bracelet") Then
+						Line = Replace(Line, "bracelet", "bracelete")
+					End If
 				case "strDesc"
 					Line = Replace(Line, "hospital wrist strap labeled", "pulseira de hospital rotulada")
 			End Select
