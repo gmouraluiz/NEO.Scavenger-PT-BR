@@ -12585,8 +12585,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">546</column>
-			<column name="strName">Usando galho de smudge</column>
-			<column name="strDesc">&lt;us&gt; esta usando galho de smudge.</column>
+			<column name="strName">Usando galho de incenso</column>
+			<column name="strDesc">&lt;us&gt; esta usando galho de incenso.</column>
 			<column name="aFieldNames"></column>
 			<column name="aModifiers">0</column>
 			<column name="aEffects"></column>

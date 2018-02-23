@@ -1794,7 +1794,7 @@
 		</table>
 		<table name="recipes">
 			<column name="nID">93</column>
-			<column name="strName">smudge de galho(aceso)</column>
+			<column name="strName">galho de incenso (aceso)</column>
 			<column name="strSecretName"></column>
 			<column name="strTools">1x1</column>
 			<column name="strConsumed">1x112</column>

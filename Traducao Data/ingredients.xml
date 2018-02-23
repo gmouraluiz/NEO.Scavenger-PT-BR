@@ -699,7 +699,7 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">112</column>
-			<column name="strName">galho de smudge</column>
+			<column name="strName">galho de incenso</column>
 			<column name="strRequiredProps">98</column>
 			<column name="strForbidProps"></column>
 		</table>
