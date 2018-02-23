@@ -12791,7 +12791,7 @@ Function itemtypes(id, attr, Line)
 		case 288
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "pistol", "pistola")
+					Line = Replace(Line, "pistol", "Pistola")
 				case "strDesc"
 					Line = Replace(Line, "revolver", "revolver")
 				case "strName"
@@ -13395,7 +13395,9 @@ Function itemtypes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "battery", "bateria")
 				case "strDesc"
-					Line = Replace(Line, "RTG Cell", "RTG Cell gerador de energia eletrica")
+					If(Line = "Bob's &quot;Hot Brick&quot; RTG Cell") Then
+						Line = Replace(Line, "Bob's "&chr(34)&"Hot Brick"&chr(34)&" RTG Cell", "Bob's "&chr(34)&"Hot Brick"&chr(34)&" RTG Cell gerador de energia eletrica")
+					End If
 			End Select
 		case 371
 			Select case attr
@@ -13416,7 +13418,9 @@ Function itemtypes(id, attr, Line)
 		case 373
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "film", "filme")
+					If (Line = "film") Then
+						Line = Replace(Line, "film", "filme")
+					End If
 				case "strDesc"
 					Line = Replace(Line, "60mm film spool in a canister, labeled", "rolo de filmes de 60mm em uma lata, rotulada")
 			End Select
@@ -13456,7 +13460,9 @@ Function itemtypes(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "RF1:D", "RF1:D")
 				case "strDescAlt"
-					Line = Replace(Line, "RF1:D RFID spoofer software (tablet)", "RF1:D RFID spoofer software (tablet) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency")
+					If(Line = "RF1:D RFID spoofer software (tablet)") Then
+						Line = Replace(Line, "RF1:D RFID spoofer software (tablet)", "RF1:D RFID spoofer software (tablet) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency")
+					End If
 			End Select
 		case 379
 			Select case attr

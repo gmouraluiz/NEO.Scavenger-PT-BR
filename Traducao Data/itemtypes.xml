@@ -11261,7 +11261,7 @@
 			<column name="id">288</column>
 			<column name="nGroupID">30</column>
 			<column name="nSubgroupID">0</column>
-			<column name="strName">pistola</column>
+			<column name="strName">Pistola</column>
 			<column name="strDesc">revolver</column>
 			<column name="strDescAlt">Cathcart North "Detective" .38 revolver</column>
 			<column name="nCondID">87</column>
@@ -14460,7 +14460,7 @@
 			<column name="nGroupID">33</column>
 			<column name="nSubgroupID">6</column>
 			<column name="strName">bateria</column>
-			<column name="strDesc">Bob's "Hot Brick" RTG Cell gerador de energia eletrica</column>
+			<column name="strDesc">Bob's "Hot Brick" RTG Cell</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmBattRTG.png</column>
@@ -14812,7 +14812,7 @@
 			<column name="nSubgroupID">9</column>
 			<column name="strName">Software</column>
 			<column name="strDesc">RF1:D</column>
-			<column name="strDescAlt">RF1:D RFID spoofer software (smartphone) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency</column>
+			<column name="strDescAlt">RF1:D RFID spoofer software (smartphone) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency</column>
 			<column name="nCondID">425</column>
 			<column name="vImageList">ItmSWSmartphoneRFID.png</column>
 			<column name="vSpriteList"></column>
@@ -15396,7 +15396,7 @@
 			<column name="nGroupID">102</column>
 			<column name="nSubgroupID">4</column>
 			<column name="strName">chapeu</column>
-			<column name="strDesc">balaclava (capuz)</column>
+			<column name="strDesc">balaclava (capuz) (capuz)</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmBalaclava.png,ItmBalaclavaStored.png</column>
