@@ -13471,7 +13471,9 @@ Function itemtypes(id, attr, Line)
 				case "strDesc"
 					Line = Replace(Line, "RF1:D", "RF1:D")
 				case "strDescAlt"
-					Line = Replace(Line, "RF1:D RFID spoofer software (smartphone)", "RF1:D RFID spoofer software (smartphone) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency")
+					If(Line = "RF1:D RFID spoofer software (smartphone)") Then
+						Line = Replace(Line, "RF1:D RFID spoofer software (smartphone)", "RF1:D RFID spoofer software (smartphone) usado, como o nome indica, para falsificar RFIDs ou Radio-Frequency")
+					End If
 			End Select
 		case 380
 			Select case attr
@@ -13576,7 +13578,9 @@ Function itemtypes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "headwear", "chapeu")
 				case "strDesc"
-					Line = Replace(Line, "balaclava", "balaclava (capuz)")
+					If(Line = "balaclava") Then
+						Line = Replace(Line, "balaclava", "balaclava (capuz)")
+					End If
 			End Select
 		case 395
 			Select case attr
