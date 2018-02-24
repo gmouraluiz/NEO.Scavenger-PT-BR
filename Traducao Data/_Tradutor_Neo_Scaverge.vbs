@@ -6993,9 +6993,9 @@ Function conditions(id, attr, Line)
 		case 796
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "Use Roadmap", "Use o Roteiro(Roadmap)")
+					Line = Replace(Line, "Use Roadmap", "Use o guia de rota")
 				case "strDesc"
-					Line = Replace(Line, "is using a roadmap", "esta usando um roteiro(Roadmap)")
+					Line = Replace(Line, "is using a roadmap", "esta usando um guia de rota")
 			End Select
 		case 797
 			Select case attr
@@ -9992,7 +9992,7 @@ Function ingredients(id, attr, Line)
 		case 103
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "wooden rifle stock", "estoque de rifle de madeira")
+					Line = Replace(Line, "wooden rifle stock", "cabo de rifle de madeira")
 			End Select
 		case 104
 			Select case attr
@@ -10612,7 +10612,7 @@ Function itemprops(id, attr, Line)
 		case 95
 			Select case attr
 				case "strPropertyName"
-					Line = Replace(Line, "wooden rifle stock", "estoque de rifle de madeira")
+					Line = Replace(Line, "wooden rifle stock", "cabo de rifle de madeira")
 			End Select
 		case 96
 			Select case attr
@@ -10683,6 +10683,7 @@ Function itemprops(id, attr, Line)
 	itemprops = CStr(Line)
 End Function
 
+'100% traduzido
 'Total de ids 537
 Function itemtypes(id, attr, Line)
 	Select case id
@@ -10762,7 +10763,7 @@ Function itemtypes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "talisman", "talisman")
 				case "strDesc"
-					Line = Replace(Line, "bronze talisman on a braided leather string", "talisma de bronze em uma corda de couro trancada")
+					Line = Replace(Line, "bronze talisman on a braided leather string", "talisma de bronze em uma corda de couro amarrada")
 			End Select
 		case 12
 			Select case attr
@@ -10948,7 +10949,7 @@ Function itemtypes(id, attr, Line)
 					End If
 				case "strDesc"
 					Line = Replace(Line, "water", "agua")
-				case "strDesc"
+				case "strDescAlt"
 					Line = Replace(Line, "water (sterilized)", "agua (esterilizado)")
 			End Select
 		case 37
@@ -12050,9 +12051,9 @@ Function itemtypes(id, attr, Line)
 		case 187
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "spy", "espiao")
+					Line = Replace(Line, "spy", "espiar")
 				case "strDesc"
-					Line = Replace(Line, "Spy", "Espiao")
+					Line = Replace(Line, "Spy", "Espiar")
 			End Select
 		case 188
 			Select case attr
@@ -14057,195 +14058,190 @@ Function itemtypes(id, attr, Line)
 				case "strDescAlt"
 					Line = Replace(Line, "4mm Gauss gun barrel", "cano da Pistola 4mm Gauss")
 			End Select
-		case 000
+		case 469
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "metal box", "caixa de metal")
+				case "strDescAlt"
+					Line = Replace(Line, "4mm Gauss gun receiver", "receiver de Pistola 4mm Gauss")
 			End Select
-		case 000
+		case 470
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "metal box with electrical connectors", "caixa metalica com conectores eletricos")
+				case "strDescAlt"
+					Line = Replace(Line, "stage-switching circuit", "circuito de comutacao de estagio")
 			End Select
-		case 000
+		case 471
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "small metal box with switches", "pequena caixa de metal com interruptores")
+				case "strDescAlt"
+					Line = Replace(Line, "charging circuit", "circuito de carga")
 			End Select
-		case 000
+		case 472
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "medium parts", "medias partes")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "wooden rifle stock", "cabo de rifle de madeira")
 			End Select
-		case 000
+		case 473
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "corpse", "cadaver")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "UAV wreckage spare parts", "pecas sobressalentes de um destroco UAV")
 			End Select
-		case 000
+		case 474
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Drone Armor", "Drone Armor")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "drone fuselage armor", "armadura de fuselagem de drone")
 			End Select
-		case 000
+		case 475
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bag", "bolsa")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "children's backpack", "mochila infantil")
 			End Select
-		case 000
+		case 476
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "campfire (lit) (ATN)", "fogueira (acesa)  (ATN)")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "lit campfire", "fogueira acesa")
 			End Select
-		case 000
+		case 477
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "food", "comida")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "handful of potato chips", "punhado de batata frita")
 			End Select
-		case 000
+		case 478
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "a scrap of foil", "pedaco de papel aluminio")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "scrap of foil", "pedaco de papelao")
 			End Select
-		case 000
+		case 479
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "bag", "bolsa")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "potato chip bag", "saco de batata")
 			End Select
-		case 000
+		case 480
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clothes (torso)", "roupas (torso)")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "patchwork foil poncho", "poncho de papelao retalhos")
 			End Select
-		case 000
+		case 481
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "memory stick", "cartao de memoria")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Stoat's flashdrive for use at Camp Grayling", "O flashdrive de Stoat para uso em Camp Grayling")
 			End Select
-		case 000
+		case 482
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "move back", "voltar para tras")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Move Back", "Voltar para tras")
 			End Select
-		case 000
+		case 483
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "key", "chave")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cylindrical key", "chave cilindrica")
 			End Select
-		case 000
+		case 484
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					If (Line = "document") then
+						Line = Replace(Line, "document", "documento")
+					End If
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "blueprints of the V-MADS system", "planos do sistema V-MADS")
 			End Select
-		case 000
+		case 485
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "card", "cartao")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "ID card", "ID cartao")
 			End Select
-		case 000
+		case 488
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "who", "quem")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Who", "Quem")
 			End Select
-		case 000
+		case 489
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "what", "o que")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "What", "O que")
 			End Select
-		case 000
+		case 490
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "key", "chave")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "failsafe key", "chave de seguranca")
 			End Select
-		case 000
+		case 491
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "memory stick", "cartao de memoria")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Hatter's flashdrive for use at Camp Grayling", "O flashdrive do Hatter para uso em Camp Grayling")
 			End Select
-		case 000
+		case 492
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "clothes (torso)", "roupas (torso)")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "gray shirt", "camisa cinza")
 			End Select
-		case 000
+		case 493
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "ground fixture", "instalacao terrestre")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "consume/use", "consumir/usar")
+					Line = Replace(Line, "this to re-enter Camp Grayling", "voltar a entrar na Camp Grayling")
 			End Select
-		case 000
+		case 494
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "legendary reputation: elusive", "reputacao lendaria: evasivo")
 				case "strDesc"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "legendary reputation for eluding capture", "reputacao lendaria por ser evasivo a captura")
 			End Select
-		case 000
+		case 495
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "legendary reputation: unstoppable", "reputacao lendaria: imparavel")
 				case "strDesc"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strDesc"
-					Line = Replace(Line, "", "")
-			End Select
-		case 000
-			Select case attr
-				case "strName"
-					Line = Replace(Line, "", "")
-				case "strDesc"
-					Line = Replace(Line, "", "")
-			End Select
+					Line = Replace(Line, "legendary reputation for being unstoppable", "reputacao lendaria por ser imparavel")
+			End Select		
 		case 496
 			Select case attr
 				case "strName"
@@ -14259,6 +14255,300 @@ Function itemtypes(id, attr, Line)
 					Line = Replace(Line, "trait: enervated", "Contras: Enfraquecido")
 				case "strDesc"
 					Line = Replace(Line, "out of shape, and fatigues faster than usual", "fora de forma e fatiga mais rapido do que o normal")
+			End Select
+		case 498
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "radio DMC support (blind)", "suporte de radio DMC (cego)")
+				case "strDesc"
+					Line = Replace(Line, "radio DMC support", "suporte de radio DMC")
+			End Select
+		case 499
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "roadmap", "guia de rota")
+				case "strDesc"
+					Line = Replace(Line, "Gill and Burton"&chr(34)&"Roads and Routes of Michigan"&chr(34)&" roadmap", "Gill e Burton "&chr(34)&"estradas e rotas do Michigan"&chr(34)&" guia de rota") 
+			End Select
+		case 500
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "spy", "espiar")
+				case "strDesc"
+					Line = Replace(Line, "Spy (drone)", "Espiar (drone)")
+			End Select
+		case 501
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "GUI Container", "GUI Container")
+				case "strDesc"
+					Line = Replace(Line, "Abilities you've chosen", "Habilidades que voce escolheu")
+			End Select
+		case 502
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "GUI Container", "GUI Container")
+				case "strDesc"
+					Line = Replace(Line, "Flaws you have chosen", "Falhas que voce escolheu")
+			End Select
+		case 503
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "mixed veggie bowl", "tigela mista de vegetais")
+				case "strDesc"
+					Line = Replace(Line, "mixed veggie bowl", "tigela mista de vegetais")
+			End Select
+		case 504
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "mixed veggie bowl w/protein", "tigela mista de vegetais com proteinas")
+				case "strDesc"
+					Line = Replace(Line, "mixed veggie bowl w/protein", "tigela mista de vegetais com proteinas")
+			End Select
+		case 505
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "sweet and sour seagull wings", "asas de gaivota azedo e azeda")
+				case "strDesc"
+					Line = Replace(Line, "sweet and sour seagull wings", "asas de gaivota azedo e azeda")
+			End Select
+		case 506
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tenders", "propostas")
+				case "strDesc"
+					Line = Replace(Line, "tenders", "propostas")
+			End Select
+		case 507
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "non-veg stew", "Guisado sem vegetais")
+				case "strDesc"
+					Line = Replace(Line, "non-veg stew", "Guisado sem vegetais")
+			End Select
+		case 508
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ground fixture", "instalacao terrestre")
+				case "strDesc"
+					Line = Replace(Line, "consume/use", "consumir/usar")
+					Line = Replace(Line, "this to re-enter the Last Chance Canteen", "voltar a entrar na Last Chance Canteen")
+			End Select
+		case 509
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "ground fixture", "instalacao terrestre")
+				case "strDesc"
+					Line = Replace(Line, "consume/use", "consumir/usar")
+					Line = Replace(Line, "this to re-enter St. James Parkade", "voltar a entrar em St. James Parkade")
+			End Select
+		case 510
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "camp fixture", "equipamento fixo")
+				case "strDesc"
+					Line = Replace(Line, "dome light", "luz do domo")
+			End Select
+		case 511
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "camp fixture", "equipamento fixo")
+				case "strDesc"
+					Line = Replace(Line, "dashboard climate control", "painel de controle climatico")
+			End Select
+		case 512
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (legs)", "roupas (pernas)")
+				case "strDesc"
+					Line = Replace(Line, "short shorts", "shorts curto")
+			End Select
+		case 513
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "lighter", "isqueiro")
+				case "strDesc"
+					Line = Replace(Line, "small battery", "bateria pequena")
+			End Select
+		case 514
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "lighter", "isqueiro")
+				case "strDesc"
+					Line = Replace(Line, "medium battery", "bateria media")
+			End Select
+		case 515
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "terrain resource", "recurso de terreno")
+				case "strDesc"
+					Line = Replace(Line, "sunlight", "luz solar")
+			End Select
+		case 516
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bag", "bolsa")
+				case "strDesc"
+					Line = Replace(Line, "makeshift sack", "saco improvisado")
+			End Select
+		case 517
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pill", "pilula")
+				case "strDesc"
+					Line = Replace(Line, "blue pill", "pilula azul")
+				case "strDescAlt"
+					Line = Replace(Line, "Warfarin (prescription blood thinner)", "Warfarina (prescricao para sangue mais fino)")
+			End Select
+		case 518
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bottle", "frasco")
+				case "strDesc"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Warfarin", "Frasco de pilula de plastico rotulado: PharmaCon Warfarin")
+				case "strDescAlt"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Warfarin (prescription blood-thinner)", "Frasco de comprimidos de plastico rotulado: PharmaCon Warfarin (medicamento para diluente de sangue)")
+			End Select
+		case 519
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "vanish", "desaparecer")
+				case "strDesc"
+					Line = Replace(Line, "vanish", "desaparecer")
+			End Select
+		case 520
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "exploit", "explorar")
+				case "strDesc"
+					Line = Replace(Line, "exploit", "explorar")
+			End Select
+		case 521
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "intimidate", "intimidar")
+				case "strDesc"
+					Line = Replace(Line, "intimidate", "intimidar")
+			End Select
+		case 522
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "trap", "armadilha")
+				case "strDesc"
+					Line = Replace(Line, "trap", "armadilha")
+			End Select
+		case 523
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pill", "pilula")
+				case "strDesc"
+					Line = Replace(Line, "orange pill", "pilula laranja")
+				case "strDescAlt"
+					Line = Replace(Line, "L-thyroxine (synthetic thyroid hormone)", "L-tiroxina (hormonio tireoidiano sintetico)")
+			End Select
+		case 524
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bottle", "frasco")
+				case "strDesc"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon L-thyroxine", "Frasco de comprimidos de plastico rotulado: PharmaCon L-thyroxine")
+				case "strDescAlt"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon L-thyroxine (synthetic thyroid hormone)", "Frasco de comprimidos de plastico rotulado: PharmaCon L-thyroxine (hormonio tireoidiano sintetico)")
+			End Select
+		case 525
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pill", "pilula")
+				case "strDesc"
+					Line = Replace(Line, "white pill", "pilula branca")
+				case "strName"
+					Line = Replace(Line, "Losepine (prescription antacid)", "Losepina (anti-acido de prescricao)")
+			End Select
+		case 526
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "bottle", "frasco")
+				case "strDesc"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Losepine", "Frasco de pilula de plastico rotulado: PharmaCon Losepine")
+				case "strName"
+					Line = Replace(Line, "plastic pill bottle labeled: PharmaCon Losepine (prescription antacid)", "Frasco de comprimido de plastico rotulado: PharmaCon Losepine (antacidade com receita medica)")
+			End Select
+		case 527
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "pill organizer", "organizador de comprimidos")
+				case "strDesc"
+					Line = Replace(Line, "pill organizer", "organizador de comprimidos")
+			End Select
+		case 528
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "camp fixture", "equipamento fixo")
+				case "strDesc"
+					Line = Replace(Line, "communal trash barrel fire", "fogo do barril do lixo comunal")
+			End Select
+		case 529
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "corpse", "cadaver")
+				case "strDesc"
+					Line = Replace(Line, "dog corpse", "cadaver de cachorro")
+			End Select
+		case 530
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "running shoe (left)", "sapato de corrida (esquerda)")
+			End Select
+		case 531
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "running shoe (right)", "sapato de corrida (direito)")
+			End Select
+		case 532
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "makeshift rag shoe", "sapato improvisado")
+			End Select
+		case 533
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "sandals (left)", "sandalias (esquerda)")
+			End Select
+		case 534
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "shoe sole", "sola do sapato")
+				case "strDesc"
+					Line = Replace(Line, "shoe sole", "sola do sapato")
+			End Select
+		case 535
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "sandals (right)", "sandalias (direita)")
+			End Select
+		case 536
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "shoes (left)", "sapatos (esquerda)")
+			End Select
+		case 537
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "clothes (shoes)", "roupas (sapatos)")
+				case "strDesc"
+					Line = Replace(Line, "shoes (right)", "sapatos (direito)")
 			End Select		
 	End Select	
 	itemtypes = CStr(Line)

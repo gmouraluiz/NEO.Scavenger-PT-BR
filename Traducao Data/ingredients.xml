@@ -645,7 +645,7 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">103</column>
-			<column name="strName">estoque de rifle de madeira</column>
+			<column name="strName">cabo de rifle de madeira</column>
 			<column name="strRequiredProps">95</column>
 			<column name="strForbidProps"></column>
 		</table>

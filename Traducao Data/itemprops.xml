@@ -407,7 +407,7 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">95</column>
-			<column name="strPropertyName">estoque de rifle de madeira</column>
+			<column name="strPropertyName">cabo de rifle de madeira</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">96</column>

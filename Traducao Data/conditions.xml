@@ -18335,8 +18335,8 @@
 		</table>
 		<table name="conditions">
 			<column name="id">796</column>
-			<column name="strName">Use o Roteiro(Roadmap)</column>
-			<column name="strDesc">&lt;us&gt; esta usando um roteiro(Roadmap).</column>
+			<column name="strName">Use o guia de rota</column>
+			<column name="strDesc">&lt;us&gt; esta usando um guia de rota.</column>
 			<column name="aFieldNames">TriggerEncounter</column>
 			<column name="aModifiers">2187</column>
 			<column name="aEffects"></column>
