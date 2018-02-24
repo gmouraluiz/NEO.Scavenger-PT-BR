@@ -9078,7 +9078,7 @@
 			<column name="nGroupID">26</column>
 			<column name="nSubgroupID">4</column>
 			<column name="strName">instalacao terrestre</column>
-			<column name="strDesc">"consumir/usar" Isto para voltar a entrar na Gyges Cryo Facility</column>
+			<column name="strDesc">"consumir/usar" voltar a entrar na Gyges Cryo Facility</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncWindow.png</column>
@@ -16293,7 +16293,7 @@
 			<column name="nGroupID">26</column>
 			<column name="nSubgroupID">5</column>
 			<column name="strName">instalacao terrestre</column>
-			<column name="strDesc">"consumir/usar" para voltar a entrar no escritorio de Hatter</column>
+			<column name="strDesc">"consumir/usar" voltar a entrar no escritorio de Hatter</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncDoorPanel.png</column>
@@ -17657,8 +17657,8 @@
 			<column name="id">452</column>
 			<column name="nGroupID">99</column>
 			<column name="nSubgroupID">3</column>
-			<column name="strName">document</column>
-			<column name="strDesc">medical records for a Meredith Ewing</column>
+			<column name="strName">documento</column>
+			<column name="strDesc">registros medicos para o Meredith Ewing</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmPapers.png</column>
@@ -17696,8 +17696,8 @@
 			<column name="id">453</column>
 			<column name="nGroupID">26</column>
 			<column name="nSubgroupID">12</column>
-			<column name="strName">ground fixture</column>
-			<column name="strDesc">"consume/use" this to enter Saginaw Mental Institute</column>
+			<column name="strName">instalacao terrestre</column>
+			<column name="strDesc">"consumir/usar" para entrar em Saginaw Mental Institute</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmBlueFrogBanner.png</column>
@@ -17736,7 +17736,7 @@
 			<column name="nGroupID">35</column>
 			<column name="nSubgroupID">10</column>
 			<column name="strName">Software</column>
-			<column name="strDesc">Eli's address book (smartphone)</column>
+			<column name="strDesc">Caderno de endereÃ§os de Eli's (smartphone)</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmSWSmartphoneAddr.png</column>
@@ -17774,8 +17774,8 @@
 			<column name="id">455</column>
 			<column name="nGroupID">44</column>
 			<column name="nSubgroupID">1</column>
-			<column name="strName">vial</column>
-			<column name="strDesc">glass vial labeled: "YPC, 020.6"</column>
+			<column name="strName">frasco pequeno</column>
+			<column name="strDesc">frasco de vidro rotulado: "YPC, 020.6"</column>
 			<column name="strDescAlt">single dose of "YPC, 020.6"</column>
 			<column name="nCondID">53</column>
 			<column name="vImageList">ItmVialBlue.png</column>
@@ -17813,8 +17813,8 @@
 			<column name="id">456</column>
 			<column name="nGroupID">26</column>
 			<column name="nSubgroupID">13</column>
-			<column name="strName">ground fixture</column>
-			<column name="strDesc">"consume/use" this to re-enter Clearbone Compound</column>
+			<column name="strName">instalacao terrestre</column>
+			<column name="strDesc">"consumir/usar" voltar a entrar no composto de Clearbone</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncDoorPanel.png</column>
@@ -17852,8 +17852,8 @@
 			<column name="id">457</column>
 			<column name="nGroupID">16</column>
 			<column name="nSubgroupID">6</column>
-			<column name="strName">corpse</column>
-			<column name="strDesc">King Eli's corpse</column>
+			<column name="strName">cadaver</column>
+			<column name="strDesc">cadaver do Rei Eli's</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmCorpseMan.png</column>
@@ -17891,8 +17891,8 @@
 			<column name="id">458</column>
 			<column name="nGroupID">90</column>
 			<column name="nSubgroupID">112</column>
-			<column name="strName">money 1</column>
-			<column name="strDesc">Money 1</column>
+			<column name="strName">dinheiro 1</column>
+			<column name="strDesc">Dinheiro 1</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncMoney1.png</column>
@@ -17930,8 +17930,8 @@
 			<column name="id">459</column>
 			<column name="nGroupID">90</column>
 			<column name="nSubgroupID">113</column>
-			<column name="strName">money 2</column>
-			<column name="strDesc">Money 2</column>
+			<column name="strName">dinheiro 2</column>
+			<column name="strDesc">Dinheiro 2</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncMoney2.png</column>
@@ -17969,8 +17969,8 @@
 			<column name="id">460</column>
 			<column name="nGroupID">90</column>
 			<column name="nSubgroupID">114</column>
-			<column name="strName">money 3</column>
-			<column name="strDesc">Money 3</column>
+			<column name="strName">dinheiro 3</column>
+			<column name="strDesc">Dinheiro 3</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmEncMoney3.png</column>
@@ -18008,8 +18008,8 @@
 			<column name="id">461</column>
 			<column name="nGroupID">0</column>
 			<column name="nSubgroupID">0</column>
-			<column name="strName">blank</column>
-			<column name="strDesc">blank</column>
+			<column name="strName">vazio</column>
+			<column name="strDesc">vazio</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmVialYellow.png</column>
@@ -18047,8 +18047,8 @@
 			<column name="id">462</column>
 			<column name="nGroupID">16</column>
 			<column name="nSubgroupID">7</column>
-			<column name="strName">corpse</column>
-			<column name="strDesc">UAV Wreckage</column>
+			<column name="strName">cadaver</column>
+			<column name="strDesc">UAV destrocos</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmCorpseDrone.png</column>
@@ -18086,9 +18086,9 @@
 			<column name="id">463</column>
 			<column name="nGroupID">33</column>
 			<column name="nSubgroupID">7</column>
-			<column name="strName">battery</column>
-			<column name="strDesc">battery</column>
-			<column name="strDescAlt">Gauss rifle battery</column>
+			<column name="strName">bateria</column>
+			<column name="strDesc">bateria</column>
+			<column name="strDescAlt">bateria de Gauss rifle</column>
 			<column name="nCondID">87</column>
 			<column name="vImageList">ItmBattGauss.png</column>
 			<column name="vSpriteList"></column>
@@ -18126,8 +18126,8 @@
 			<column name="nGroupID">60</column>
 			<column name="nSubgroupID">11</column>
 			<column name="strName">rifle</column>
-			<column name="strDesc">crazy-looking gun w/scope</column>
-			<column name="strDescAlt">homemade 4mm Gauss Rifle w/scope</column>
+			<column name="strDesc">arma de aparencia louca com luneta</column>
+			<column name="strDescAlt">homemade 4mm Gauss Rifle c/luneta</column>
 			<column name="nCondID">216</column>
 			<column name="vImageList">Itm4mmGaussRifleScopedStored.png,Itm4mmGaussRifleScopedHeld.png</column>
 			<column name="vSpriteList">20=CreItmGaussHeldL.png,21=CreItmGaussHeldR.png</column>
@@ -18165,8 +18165,8 @@
 			<column name="nGroupID">60</column>
 			<column name="nSubgroupID">12</column>
 			<column name="strName">rifle</column>
-			<column name="strDesc">crazy-looking gun w/strap</column>
-			<column name="strDescAlt">homemade 4mm Gauss Rifle w/strap</column>
+			<column name="strDesc">arma de aparencia louca com alca</column>
+			<column name="strDescAlt">homemade 4mm Gauss Rifle c/alca</column>
 			<column name="nCondID">216</column>
 			<column name="vImageList">Itm4mmGaussRifleStrappedWorn.png,Itm4mmGaussRifleStrappedStored.png,Itm4mmGaussRifleStrappedHeld.png</column>
 			<column name="vSpriteList">14=CreItmHuntingRifleShoulderR.png,20=CreItmGaussHeldL.png,21=CreItmGaussHeldR.png</column>
@@ -18204,7 +18204,7 @@
 			<column name="nGroupID">60</column>
 			<column name="nSubgroupID">13</column>
 			<column name="strName">rifle</column>
-			<column name="strDesc">crazy-looking gun w/scope and strap</column>
+			<column name="strDesc">arma de aparencia louca com alca e luneta</column>
 			<column name="strDescAlt">homemade 4mm Gauss Rifle w/scope and strap</column>
 			<column name="nCondID">216</column>
 			<column name="vImageList">Itm4mmGaussRifleSSWorn.png,Itm4mmGaussRifleSSStored.png,Itm4mmGaussRifleSSHeld.png</column>
@@ -18242,9 +18242,9 @@
 			<column name="id">467</column>
 			<column name="nGroupID">86</column>
 			<column name="nSubgroupID">12</column>
-			<column name="strName">medium parts</column>
-			<column name="strDesc">yellow cylinder</column>
-			<column name="strDescAlt">high-energy capacitor</column>
+			<column name="strName">medias partes</column>
+			<column name="strDesc">cilindro amarelo</column>
+			<column name="strDescAlt">capacitor de alta energia</column>
 			<column name="nCondID">216</column>
 			<column name="vImageList">ItmHECapacitor.png</column>
 			<column name="vSpriteList"></column>
@@ -18281,9 +18281,9 @@
 			<column name="id">468</column>
 			<column name="nGroupID">86</column>
 			<column name="nSubgroupID">13</column>
-			<column name="strName">large parts</column>
-			<column name="strDesc">gun barrel</column>
-			<column name="strDescAlt">4mm Gauss gun barrel</column>
+			<column name="strName">grandes partes</column>
+			<column name="strDesc">cano de pistola</column>
+			<column name="strDescAlt">cano da Pistola 4mm Gauss</column>
 			<column name="nCondID">87</column>
 			<column name="vImageList">Itm4mmGaussBarrel.png</column>
 			<column name="vSpriteList"></column>

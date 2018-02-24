@@ -657,13 +657,13 @@
 		</table>
 		<table name="ingredients">
 			<column name="nID">105</column>
-			<column name="strName">4mm Gauss gun cano</column>
+			<column name="strName">cano da Pistola 4mm Gauss</column>
 			<column name="strRequiredProps">91</column>
 			<column name="strForbidProps"></column>
 		</table>
 		<table name="ingredients">
 			<column name="nID">106</column>
-			<column name="strName">4mm Gauss gun caixa</column>
+			<column name="strName">receiver da Pistola 4mm Gauss</column>
 			<column name="strRequiredProps">92</column>
 			<column name="strForbidProps"></column>
 		</table>

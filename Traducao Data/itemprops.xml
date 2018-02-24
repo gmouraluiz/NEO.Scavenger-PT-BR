@@ -391,11 +391,11 @@
 		</table>
 		<table name="itemprops">
 			<column name="nID">91</column>
-			<column name="strPropertyName">4mm Gauss gun cano</column>
+			<column name="strPropertyName">cano da Pistola 4mm Gauss</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">92</column>
-			<column name="strPropertyName">4mm Gauss gun caixa</column>
+			<column name="strPropertyName">receiver da Pistola 4mm Gauss</column>
 		</table>
 		<table name="itemprops">
 			<column name="nID">93</column>
