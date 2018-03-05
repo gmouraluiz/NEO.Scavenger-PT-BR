@@ -35,7 +35,7 @@
 		<!-- Table treasuretable -->
 		<table name="treasuretable">
 			<column name="id">1</column>
-			<column name="strName">plains idle loot</column>
+			<column name="strName">planicies saque inativa</column>
 			<column name="aTreasures">417x0.17x1-3</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -43,7 +43,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">2</column>
-			<column name="strName">Cryo facility console and window</column>
+			<column name="strName">Cryo facility console e janela</column>
 			<column name="aTreasures">90.5x1.0x1-1,90.1x1.0x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -51,7 +51,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">3</column>
-			<column name="strName">blank</column>
+			<column name="strName">vazio</column>
 			<column name="aTreasures">0.0x0.0x0</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -59,7 +59,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">4</column>
-			<column name="strName">Cryo facility window</column>
+			<column name="strName">Cryo facility janela</column>
 			<column name="aTreasures">90.1x1.0x1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -75,7 +75,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">6</column>
-			<column name="strName">urban idle loot</column>
+			<column name="strName">urbana saque inativa</column>
 			<column name="aTreasures">418x0.8x1-3,418x0.4x1-3,418x0.2x1-3</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -83,7 +83,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">7</column>
-			<column name="strName">forest idle loot</column>
+			<column name="strName">floresta saque inativa</column>
 			<column name="aTreasures">25.3x1x1-1,25.0x0.01x1-1,25.1x0.01x1-1,25.2x0.01x1-1,419x0.8x1-2,419x0.4x1-2,419x0.2x1-2</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -99,7 +99,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">9</column>
-			<column name="strName">Bandit Loadout</column>
+			<column name="strName">Carga Bandido</column>
 			<column name="aTreasures">394x0.8x1-1,394x0.4x1-1,421x1.0x1-1,420x0.5x1-1,420x0.5x1-1,24.0x0.1x1-2,412x1.0x1-2,411x0.8x1-3,413x1.0x1-3,414x0.1x1-2,395x1.0x1-1,415x1.0x0-3,416x1.0x2-5</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -107,7 +107,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">10</column>
-			<column name="strName">small campfire</column>
+			<column name="strName">fogueira pequena</column>
 			<column name="aTreasures">97.1x1.0x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -115,7 +115,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">11</column>
-			<column name="strName">tattered clothes</column>
+			<column name="strName">roupas esfarrapadas</column>
 			<column name="aTreasures">4.0x1.0x5,86.1x1.0x5</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -123,7 +123,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">12</column>
-			<column name="strName">Urn contents</column>
+			<column name="strName">Urna contem</column>
 			<column name="aTreasures">87.1x1.0x1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -131,7 +131,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">13</column>
-			<column name="strName">Silver urn</column>
+			<column name="strName">Urna de prata</column>
 			<column name="aTreasures">11.3x1.0x1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -139,7 +139,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">14</column>
-			<column name="strName">Visitor Pass</column>
+			<column name="strName">Passe de Visitante</column>
 			<column name="aTreasures">89.1x1.0x1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -155,7 +155,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">16</column>
-			<column name="strName">Water bottle contents</column>
+			<column name="strName">Garrafa de agua contem</column>
 			<column name="aTreasures">98.1x0.15x2-2</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -163,7 +163,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">17</column>
-			<column name="strName">Soup can contents</column>
+			<column name="strName">Lata de sopa contem</column>
 			<column name="aTreasures">101.0x0.25x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -171,7 +171,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">18</column>
-			<column name="strName">Ashes</column>
+			<column name="strName">Cinzas</column>
 			<column name="aTreasures">87.0x1.0x2-2</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -179,7 +179,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">19</column>
-			<column name="strName">Pill bottle contents (waterpur)</column>
+			<column name="strName">Garrafa de pilula contem (agua purificada)</column>
 			<column name="aTreasures">55.2x0.75x1,55.2x0.25x1-19</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -187,7 +187,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">20</column>
-			<column name="strName">purified water</column>
+			<column name="strName">agua purificada</column>
 			<column name="aTreasures">98.1x1.0x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>

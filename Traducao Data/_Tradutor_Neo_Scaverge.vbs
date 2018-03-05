@@ -15142,15 +15142,435 @@ End Function
 'Total de ids 764
 Function treasuretable(id, attr, Line)		
 	Select case id
+		case 1
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "plains idle loot", "planicies saque inativa")
+			End Select
+		case 2
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cryo facility console and window", "Cryo facility console e janela")
+			End Select
+		case 3
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "blank", "vazio")
+			End Select
+		case 4
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Cryo facility window", "Cryo facility janela")
+			End Select		
 		case 5
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "medical kit", "kit medico")
 			End Select
+		case 6
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "urban idle loot", "urbana saque inativa")
+			End Select
+		case 7
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "forest idle loot", "floresta saque inativa")
+			End Select
 		case 8
 			Select case attr
 				case "strName"
 					Line = Replace(Line, "medium campfire", "fogueira media")
+			End Select
+		case 9
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Bandit Loadout", "Carga Bandido")
+			End Select
+		case 10
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "small campfire", "fogueira pequena")
+			End Select
+		case 11
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "tattered clothes", "roupas esfarrapadas")
+			End Select
+		case 12
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Urn contents", "Urna contem")
+			End Select
+		case 13
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Silver urn", "Urna de prata")
+			End Select
+		case 14
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Visitor Pass", "Passe de Visitante")
+			End Select
+		case 15
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "NEO Manuscript", "NEO Manuscript")
+			End Select
+		case 16
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Water bottle contents", "Garrafa de agua contem")
+			End Select
+		case 17
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Soup can contents", "Lata de sopa contem")
+			End Select
+		case 18
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Ashes", "Cinzas")
+			End Select
+		case 19
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "Pill bottle contents (waterpur)", "Garrafa de pilula contem (agua purificada)")
+			End Select
+		case 20
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "purified water", "agua purificada")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
+			End Select
+		case 000
+			Select case attr
+				case "strName"
+					Line = Replace(Line, "", "")
 			End Select
 	End Select
 	treasuretable = CStr(Line)
