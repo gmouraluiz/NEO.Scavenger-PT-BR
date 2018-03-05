@@ -195,7 +195,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">21</column>
-			<column name="strName">Pill bottle contents (antibio)</column>
+			<column name="strName">Garrafa de pilula contem (antibiotico)</column>
 			<column name="aTreasures">55.4x0.75x1,55.4x0.30x1-14</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -203,7 +203,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">22</column>
-			<column name="strName">rubble idle loot</column>
+			<column name="strName">Destrocos saque inativa</column>
 			<column name="aTreasures">86.6x0.8x1-7,86.8x1x7-55,86.9x1x7-13,418x0.1x1-4</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -211,7 +211,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">23</column>
-			<column name="strName">Junk store starting inventory</column>
+			<column name="strName">Inventario inicial de lixo eletronico</column>
 			<column name="aTreasures">411x1x3-5,412x1x1-2,413x1x3-5,414x0.5x1-2,415x1x3-6,416x1x3-6,418x1x2-5,394x1x1-3,395x1x1-3,420x0.5x1-1,420x0.5x1-1,421x0.5x1-1,89.1x1x1-1,94.0x0.1x1-1,94.1x0.15x1-2,426x1.0x1-2,454x1.0x1-2,455x0.8x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -219,7 +219,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">24</column>
-			<column name="strName">cigarette lighter contents</column>
+			<column name="strName">Conteudo do isqueiro</column>
 			<column name="aTreasures">98.3x1.0x1-100</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>
@@ -227,7 +227,7 @@
 		</table>
 		<table name="treasuretable">
 			<column name="id">25</column>
-			<column name="strName">urban scavenge locations</column>
+			<column name="strName">locais urbanos</column>
 			<column name="aTreasures">103.2x0.001x1-1|103.3x0.001x1-1|103.4x0.001x1-1|103.5x0.001x1-1|103.9x0.0008x1-1|103.10x0.0002x1-1</column>
 			<column name="bNested">0</column>
 			<column name="bSuppress">0</column>

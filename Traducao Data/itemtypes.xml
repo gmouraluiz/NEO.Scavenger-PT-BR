@@ -17736,7 +17736,7 @@
 			<column name="nGroupID">35</column>
 			<column name="nSubgroupID">10</column>
 			<column name="strName">Software</column>
-			<column name="strDesc">Caderno de endereÃ§os de Eli's (smartphone)</column>
+			<column name="strDesc">Caderno de enderecos de Eli's (smartphone)</column>
 			<column name="strDescAlt"></column>
 			<column name="nCondID">1</column>
 			<column name="vImageList">ItmSWSmartphoneAddr.png</column>

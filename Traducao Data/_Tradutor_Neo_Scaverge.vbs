@@ -13945,7 +13945,7 @@ Function itemtypes(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "Software", "Software")
 				case "strDesc"
-					Line = Replace(Line, "Eli's address book (smartphone)", "Caderno de endereços de Eli's (smartphone)")
+					Line = Replace(Line, "Eli's address book (smartphone)", "Caderno de enderecos de Eli's (smartphone)")
 			End Select
 		case 455
 			Select case attr
@@ -15242,30 +15242,30 @@ Function treasuretable(id, attr, Line)
 				case "strName"
 					Line = Replace(Line, "purified water", "agua purificada")
 			End Select
-		case 000
+		case 21
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Pill bottle contents (antibio)", "Garrafa de pilula contem (antibiotico)")
 			End Select
-		case 000
+		case 22
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "rubble idle loot", "Destrocos saque inativa")
 			End Select
-		case 000
+		case 23
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "Junk store starting inventory", "Inventario inicial de lixo eletronico")
 			End Select
-		case 000
+		case 24
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "cigarette lighter contents", "Conteudo do isqueiro")
 			End Select
-		case 000
+		case 25
 			Select case attr
 				case "strName"
-					Line = Replace(Line, "", "")
+					Line = Replace(Line, "urban scavenge locations", "locais urbanos")
 			End Select
 		case 000
 			Select case attr
